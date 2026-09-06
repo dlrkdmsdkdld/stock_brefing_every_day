@@ -131,6 +131,7 @@ section{display:flex; flex-direction:column}
   font-size:11.5px; font-variant-numeric:tabular-nums; color:var(--muted)}
 .metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
+.picks{display:flex; flex-direction:column; gap:14px}
 .pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
   padding:18px 20px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow)}
 .pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
@@ -140,6 +141,7 @@ section{display:flex; flex-direction:column}
 .pick .body{display:flex; flex-direction:column; gap:6px; font-size:13.5px;
   line-height:1.65; max-width:76ch}
 .pick .body b{font-size:11px; letter-spacing:.08em; color:var(--muted); margin-right:6px}
+.pick.others-only{border-color:var(--line); padding:13px 18px}
 .pick .others{display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--muted);
   border-top:1px dashed var(--line); padding-top:9px}
 .pick .others code{font-family:"IBM Plex Mono",monospace; color:var(--ink)}
@@ -221,7 +223,7 @@ section{display:flex; flex-direction:column}
     <div class="eyebrow">Daily Portfolio Brief</div>
     <h1>보유 18종목 브리핑</h1>
     <div class="dateline">
-      <span>작성 <b>2026-09-06 22:49 KST</b></span>
+      <span>작성 <b>2026-09-06 22:53 KST</b></span>
       <span>종가 기준일 <b>2026-09-04</b></span>
       <span>뉴스 <b>2026-09-06 발행분 13건</b></span>
     </div>
@@ -346,7 +348,7 @@ section{display:flex; flex-direction:column}
     </div>
   </section>
 
-  <section><h2>오늘의 추천 종목</h2><p class="byline">투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 거래량·등락·뉴스 화제성·52주 위치·RSI·볼린저로 추린 상위 5개 중에서 골랐습니다.</p><div class="pick"><div class="pick-head"><span class="chip">관심</span><h3>맥도날드</h3><span class="code">MCD</span><span class="line">52주 저점 근접한 배당주</span></div><div class="body"><span><b>왜</b>맥도날드는 52주 저점 대비 0.1% 높은 255.69 USD에 위치하며 볼린저 하단과 RSI 34.3으로 과매도 국면에 진접해 있다. 1976년 이후 매년 배당을 인상해 온 이력이 있으며 2.9%의 배당 수익률을 제공한다.</span><span><b>유의</b>2월 고점 대비 24% 하락한 상태로 추가 하락 가능성이 있으며 모멘텀이 약화되어 있다.</span></div><div class="others"><div><code>DELL</code> AI 서버 수요로 목표주가가 상향되었으나 볼린저 상단 이탈 및 52주 고점 부근에 위치함</div><div><code>CBRS</code> 거래량이 2.0배 터지며 10.30% 급등했으나 관련 뉴스가 없음</div><div><code>CEG</code> 920MW 전력구매계약 호재로 4.88% 상승하며 볼린저 상단을 이탈함</div><div><code>BE</code> 거래량 1.3배와 함께 7.35% 상승하며 볼린저 상단을 이탈함</div></div></div></section>
+  <section><h2>오늘의 추천 종목</h2><p class="byline">투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 거래량·등락·뉴스 화제성·52주 위치·RSI·볼린저로 추린 상위 2개 중에서 골랐습니다.</p><div class="picks"><div class="pick"><div class="pick-head"><span class="chip">내 목록에서</span><h3>델</h3><span class="code">DELL</span><span class="code up">$524.14 +1.50%</span><span class="line">목표주가 상향과 AI 서버 수요</span></div><div class="body"><span><b>왜</b>델 테크놀로지스는 적정 주가 추정치가 502.78달러에서 564.46달러로 상향 조정되었고 여러 투자기관이 목표주가를 575달러에서 635달러 사이로 높였다. 종가는 524.14달러로 1.50% 상승했으며 RSI 63.7과 볼린저 상단 이탈을 기록했다.</span><span><b>유의</b>52주 위치가 97%에 달해 고점 부담이 있으며 이미 단기 급등에 따른 차익실현 매물이 나올 수 있다.</span></div></div><div class="pick"><div class="pick-head"><span class="chip confirmed">새로 볼 종목</span><h3>lululemon athletica inc.</h3><span class="code">LULU</span><span class="code down">$100.61 -17.38%</span><span class="line">볼린저 하단 이탈과 대규모 거래량</span></div><div class="body"><span><b>왜</b>룰루레몬은 종가 100.61달러로 17.38% 급락했으며 거래량이 4.0배 폭증했다. RSI는 31.8로 볼린저 하단 이탈 상태이며 52주 저점 대비 2.7% 높은 위치에 있다.</span><span><b>유의</b>새 종목이라 수집된 뉴스가 없어 급락에 대한 구체적인 펀더멘털적 배경을 지표만으로는 알기 어렵다.</span></div></div><div class="pick others-only"><div class="others"><div><code>MCD</code> 종가 255.69달러로 RSI 34.3 및 볼린저 하단 이탈을 보였으며 1976년 이후 배당 인상 이력이 있다.</div><div><code>CBRS</code> 거래량 2.0배와 함께 10.30% 상승했으나 뉴스는 없다.</div><div><code>CEG</code> 2분기 실적과 920MW 규모 장기 전력구매계약 체결 소식으로 4.88% 상승했다.</div><div><code>BE</code> 거래량 1.3배와 함께 7.35% 상승하며 볼린저 상단을 이탈했다.</div><div><code>BLTE</code> 거래량 3.4배와 함께 13.16% 상승했으며 RSI 72.5와 볼린저 상단 이탈을 기록했다.</div><div><code>FICO</code> 거래량 4.4배, 등락률 -16.68%로 볼린저 하단을 이탈했다.</div><div><code>TARS</code> RSI 84.3과 52주 고점 대비 -0.8%로 과열 구간에 있다.</div><div><code>ASAN</code> 거래량 2.8배와 함께 12.69% 하락했으나 RSI는 45.2로 중립적이다.</div></div></div></div></section>
 
   <section><h2>오늘의 주목</h2>
     <p class="byline">가격 데이터만으로 뽑았습니다. 모델을 쓰지 않으므로 추가 비용이 없습니다.</p>

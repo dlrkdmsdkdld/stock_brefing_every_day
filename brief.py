@@ -220,20 +220,32 @@ def stance_summary(stories, judged):
     return " · ".join(parts)
 
 
+PICK_LABEL = {"mine": "내 목록에서", "new": "새로 볼 종목"}
+
+
 def pick_lines(pick):
     if not pick:
         return []
-    choice = pick["pick"]
-    group = "보유" if choice.get("group", "holding") == "holding" else "관심"
-    lines = ["## 오늘의 추천 종목", "",
-             f"### [{group}] {choice['name']} ({choice['ticker']}) — {choice['headline']}", "",
-             f"- **왜**: {choice['reason']}",
-             f"- **유의**: {choice['risk']}"]
+    lines = ["## 오늘의 추천 종목", ""]
+    for key in ("mine", "new"):
+        choice = pick.get(key)
+        if not choice:
+            continue
+        extra = ""
+        if choice.get("price") is not None:
+            extra = f" · ${choice['price']:,.2f} ({choice.get('change_pct', 0):+.2f}%)"
+        lines += [f"### {PICK_LABEL[key]} — {choice['name']} ({choice['ticker']}){extra}", "",
+                  f"**{choice['headline']}**", "",
+                  f"- **왜**: {choice['reason']}",
+                  f"- **유의**: {choice['risk']}", ""]
     if pick.get("others"):
-        lines += ["", "함께 검토한 후보:"]
+        lines += ["함께 검토한 후보:"]
         lines += [f"- {row['ticker']}: {row['note']}" for row in pick["others"]]
-    lines += ["", f"_{pick['disclaimer']} 후보는 거래량·등락·뉴스 화제성·52주 위치·RSI·볼린저로 "
-              f"추린 상위 {len(pick['candidates'])}개입니다._", ""]
+        lines.append("")
+    counts = pick.get("candidates", {})
+    lines += [f"_{pick['disclaimer']} 내 목록 {len(counts.get('mine', []))}개, "
+              f"목록 밖 {len(counts.get('new', []))}개 후보 중에서 골랐습니다. "
+              f"목록 밖 종목은 뉴스를 수집하지 않아 지표만으로 판단합니다._", ""]
     return lines
 
 
@@ -478,6 +490,7 @@ section{display:flex; flex-direction:column}
   font-size:11.5px; font-variant-numeric:tabular-nums; color:var(--muted)}
 .metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
+.picks{display:flex; flex-direction:column; gap:14px}
 .pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
   padding:18px 20px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow)}
 .pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
@@ -487,6 +500,7 @@ section{display:flex; flex-direction:column}
 .pick .body{display:flex; flex-direction:column; gap:6px; font-size:13.5px;
   line-height:1.65; max-width:76ch}
 .pick .body b{font-size:11px; letter-spacing:.08em; color:var(--muted); margin-right:6px}
+.pick.others-only{border-color:var(--line); padding:13px 18px}
 .pick .others{display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--muted);
   border-top:1px dashed var(--line); padding-top:9px}
 .pick .others code{font-family:"IBM Plex Mono",monospace; color:var(--ink)}
@@ -674,17 +688,29 @@ def tallies(stories, judged):
 def html_pick(pick):
     if not pick:
         return ""
-    choice = pick["pick"]
-    group = "보유" if choice.get("group", "holding") == "holding" else "관심"
-    others = "".join(f'<div><code>{esc(row["ticker"])}</code> {esc(row["note"])}</div>'
-                     for row in pick.get("others", []))
-    return (f'<div class="pick"><div class="pick-head"><span class="chip">{group}</span>'
+    cards = []
+    for key in ("mine", "new"):
+        choice = pick.get(key)
+        if not choice:
+            continue
+        quote = ""
+        if choice.get("price") is not None:
+            tone = "up" if (choice.get("change_pct") or 0) > 0 else "down"
+            quote = (f'<span class="code {tone}">${choice["price"]:,.2f} '
+                     f'{choice.get("change_pct", 0):+.2f}%</span>')
+        cards.append(
+            f'<div class="pick"><div class="pick-head">'
+            f'<span class="chip{" confirmed" if key == "new" else ""}">{PICK_LABEL[key]}</span>'
             f'<h3>{esc(choice["name"])}</h3>'
-            f'<span class="code">{esc(choice["ticker"])}</span>'
+            f'<span class="code">{esc(choice["ticker"])}</span>{quote}'
             f'<span class="line">{esc(choice["headline"])}</span></div>'
             f'<div class="body"><span><b>왜</b>{esc(choice["reason"])}</span>'
-            f'<span><b>유의</b>{esc(choice["risk"])}</span></div>'
-            + (f'<div class="others">{others}</div>' if others else "") + '</div>')
+            f'<span><b>유의</b>{esc(choice["risk"])}</span></div></div>')
+    others = "".join(f'<div><code>{esc(row["ticker"])}</code> {esc(row["note"])}</div>'
+                     for row in pick.get("others", []))
+    if others:
+        cards.append(f'<div class="pick others-only"><div class="others">{others}</div></div>')
+    return f'<div class="picks">{"".join(cards)}</div>' 
 
 
 def html_spotlight(prices):
