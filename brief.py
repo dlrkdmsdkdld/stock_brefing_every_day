@@ -45,6 +45,16 @@ def load(name, script, today):
     return payload
 
 
+def track_view():
+    """지난 추천 성적. track.py가 갱신해 둔 history.json을 읽는다."""
+    try:
+        import track
+    except Exception:
+        return None, None
+    rows = track.recent()
+    return rows, track.scoreboard(rows)
+
+
 def recommendation():
     """오늘의 추천 종목. recommend.py가 만든 결과를 읽는다."""
     path = HERE / "recommendation.json"
@@ -174,6 +184,30 @@ def watch_table(rows):
     return lines
 
 
+def won(prices, row):
+    """달러 종목의 원화 환산 종가. 환율이 없으면 빈 문자열."""
+    fx = (prices.get("fx") or {}).get("rate")
+    if not fx or row["currency"] == "KRW" or row.get("price") is None:
+        return ""
+    return f"₩{row['price'] * fx:,.0f}"
+
+
+def fx_summary(prices):
+    """환율과, 해외 종목을 원화로 환산했을 때의 평균 등락."""
+    fx = prices.get("fx") or {}
+    if not fx.get("rate"):
+        return None
+    world = [row["change_pct"] for row in prices["holdings"]
+             if row["currency"] != "KRW" and row.get("change_pct") is not None
+             and row.get("group", "holding") == "holding"]
+    if not world:
+        return dict(fx, average=None, won_average=None)
+    average = sum(world) / len(world)
+    # 원화 수익률 = (1+주가등락)(1+환율등락) - 1
+    won_average = ((1 + average / 100) * (1 + fx["change_pct"] / 100) - 1) * 100
+    return dict(fx, average=round(average, 2), won_average=round(won_average, 2))
+
+
 def summarize(rows):
     scored = [row for row in rows if row.get("change_pct") is not None]
     if not scored:
@@ -223,6 +257,26 @@ def stance_summary(stories, judged):
 PICK_LABEL = {"mine": "내 목록에서", "new": "새로 볼 종목"}
 
 
+def track_lines():
+    rows, board = track_view()
+    if not board:
+        return []
+    lines = ["### 지난 추천 성적", "",
+             f"최근 {board['count']}건 · 상승 {board['wins']}건({board['hit_rate']}%) · "
+             f"평균 {board['average']:+.2f}%", ""]
+    lines += ["| 추천일 | 구분 | 종목 | 추천 시점 | 현재 | 수익률 |",
+              "| --- | --- | --- | ---: | ---: | ---: |"]
+    for row in rows:
+        unit = "₩" if row["currency"] == "KRW" else "$"
+        digits = 0 if row["currency"] == "KRW" else 2
+        lines.append(f"| {row['date']} | {PICK_LABEL.get(row['kind'], row['kind'])} | "
+                     f"{row['name']} ({row['ticker']}) | "
+                     f"{unit}{row['price_at_pick']:,.{digits}f} | "
+                     f"{unit}{row['price_now']:,.{digits}f} | {row['return_pct']:+.2f}% |")
+    lines += ["", "_추천 시점 종가 대비 최근 종가입니다. 표본이 적어 참고용입니다._", ""]
+    return lines
+
+
 def pick_lines(pick):
     if not pick:
         return []
@@ -238,6 +292,7 @@ def pick_lines(pick):
                   f"**{choice['headline']}**", "",
                   f"- **왜**: {choice['reason']}",
                   f"- **유의**: {choice['risk']}", ""]
+    lines += track_lines()
     if pick.get("others"):
         lines += ["함께 검토한 후보:"]
         lines += [f"- {row['ticker']}: {row['note']}" for row in pick["others"]]
@@ -491,6 +546,19 @@ section{display:flex; flex-direction:column}
 .metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
 .picks{display:flex; flex-direction:column; gap:14px}
+.board{display:flex; flex-wrap:wrap; gap:8px 22px; align-items:baseline; margin-bottom:10px}
+.board div{display:flex; align-items:baseline; gap:6px}
+.board span{font-size:11px; color:var(--muted); letter-spacing:.04em}
+.board b{font-family:"IBM Plex Mono",monospace; font-size:18px; font-weight:500;
+  font-variant-numeric:tabular-nums}
+.track{display:flex; flex-direction:column; gap:0; border-top:1px solid var(--line)}
+.track div{display:grid; grid-template-columns:88px 78px minmax(0,1fr) auto;
+  gap:10px; align-items:baseline; padding:8px 2px; border-bottom:1px solid var(--line);
+  font-size:12.5px}
+.track .when{font-family:"IBM Plex Mono",monospace; color:var(--muted); font-size:11.5px}
+.track .kind{font-size:11px; color:var(--muted)}
+.track .ret{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-weight:500; text-align:right}
 .pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
   padding:18px 20px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow)}
 .pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
@@ -595,7 +663,7 @@ def nxt_cell(row):
     return f'<small>NXT {esc(row.get("nxt_error", "-").split(":")[0])}</small>' if "nxt_error" in row else ""
 
 
-def html_rows(rows, scale, with_nxt=False):
+def html_rows(rows, scale, with_nxt=False, prices=None):
     head = (f'<div class="row head"><span>종목</span>'
             f'<span class="num">{"KRX 종가" if with_nxt else "종가"}</span>'
             f'<span class="pct">전일 대비</span><span class="bar"></span>'
@@ -685,6 +753,29 @@ def tallies(stories, judged):
     return f'<span class="tallies">{"".join(chips)}</span>' if chips else ""
 
 
+def html_track():
+    rows, board = track_view()
+    if not board:
+        return ""
+    tone = "up" if board["average"] > 0 else "down" if board["average"] < 0 else "flat"
+    items = "".join(
+        f'<div><span class="when">{esc(row["date"])}</span>'
+        f'<span class="kind">{esc(PICK_LABEL.get(row["kind"], row["kind"]))}</span>'
+        f'<span>{esc(row["name"])} <small>{esc(row["ticker"])}</small></span>'
+        f'<span class="ret {"up" if row["return_pct"] > 0 else "down" if row["return_pct"] < 0 else "flat"}">'
+        f'{row["return_pct"]:+.2f}%</span></div>' for row in rows)
+    return (f'<div class="pick others-only"><h3 style="margin:0 0 10px;font-size:13px;'
+            f'letter-spacing:.05em;color:var(--muted)">지난 추천 성적</h3>'
+            f'<div class="board">'
+            f'<div><b>{board["count"]}</b><span>건</span></div>'
+            f'<div><b class="up">{board["wins"]}</b><span>상승</span></div>'
+            f'<div><b>{board["hit_rate"]}%</b><span>적중률</span></div>'
+            f'<div><b class="{tone}">{board["average"]:+.2f}%</b><span>평균</span></div></div>'
+            f'<div class="track">{items}</div>'
+            f'<p style="margin:10px 0 0;font-size:11.5px;color:var(--muted)">'
+            f'추천 시점 종가 대비 최근 종가입니다. 표본이 적어 참고용입니다.</p></div>')
+
+
 def html_pick(pick):
     if not pick:
         return ""
@@ -710,6 +801,9 @@ def html_pick(pick):
                      for row in pick.get("others", []))
     if others:
         cards.append(f'<div class="pick others-only"><div class="others">{others}</div></div>')
+    board = html_track()
+    if board:
+        cards.append(board)
     return f'<div class="picks">{"".join(cards)}</div>' 
 
 
@@ -828,6 +922,17 @@ def render_html(now, prices, news):
     problems = [row for row in every if row["status"] != "ok"]
     judged_count = sum(1 for row in news["news"].values() for story in row["stories"]
                        if normalize(story["title"]) in judged)
+    fx = fx_summary(prices)
+    fx_line = ""
+    won_note = ""
+    if fx:
+        tone = "up" if fx["change_pct"] > 0 else "down" if fx["change_pct"] < 0 else "flat"
+        fx_line = (f'<span>환율 <b class="{tone}">₩{fx["rate"]:,.2f}</b> '
+                   f'<span class="{tone}">{fx["change_pct"]:+.2f}%</span></span>')
+        if fx.get("won_average") is not None:
+            won_note = (f'<p class="lede" style="margin-top:8px">해외 보유 종목은 달러 기준 평균 '
+                        f'{fx["average"]:+.2f}%지만, 환율 {fx["change_pct"]:+.2f}%를 반영한 '
+                        f'<b>원화 기준으로는 {fx["won_average"]:+.2f}%</b>입니다.</p>')
 
     warn = ""
     if problems:
@@ -844,12 +949,14 @@ def render_html(now, prices, news):
       <span>작성 <b>{now:%Y-%m-%d %H:%M} KST</b></span>
       <span>종가 기준일 <b>{esc(' / '.join(trade_dates) or '없음')}</b></span>
       <span>뉴스 <b>{esc(news['today_kst'])} 발행분 {news['counts']['기사']}건</b></span>
+      {fx_line}
     </div>
   </header>
 
   <section>
     <h2>한눈에 보기</h2>
     <p class="lede">{esc(summarize(holdings))}</p>
+    {won_note}
     <div class="tally">
       <div><b class="up">{up}</b><span>상승</span></div>
       <div><b class="down">{down}</b><span>하락</span></div>
@@ -870,7 +977,7 @@ def render_html(now, prices, news):
     </div>
     <div class="panel" id="panel-own" role="tabpanel" aria-labelledby="tab-own">
       <div><p class="subhead">국내</p>{html_rows(korea, scale, with_nxt=True)}</div>
-      <div><p class="subhead">해외</p>{html_rows(world, scale)}</div>
+      <div><p class="subhead">해외 · 종가 아래는 원화 환산</p>{html_rows(world, scale, prices=prices)}</div>
     </div>
     <div class="panel" id="panel-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
       <div><p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
@@ -979,7 +1086,15 @@ def main():
              f"보유 {len(holdings)}종목 · 관심 {len(watch)}종목 · "
              f"종가 기준일 {' / '.join(trade_dates) or '없음'} · "
              f"뉴스 {news['today_kst']} 발행분 {news['counts']['기사']}건", "",
-             "## 한눈에 보기", "", summarize(holdings), "",
+             "## 한눈에 보기", "", summarize(holdings), ""]
+    money_view = fx_summary(prices)
+    if money_view:
+        lines.append(f"환율 USD/KRW {money_view['rate']:,.2f} ({money_view['change_pct']:+.2f}%, "
+                     f"{money_view['date']}).")
+        if money_view.get("won_average") is not None:
+            lines.append(f"해외 보유 종목은 달러 기준 평균 {money_view['average']:+.2f}%지만, "
+                         f"환율을 반영한 **원화 기준으로는 {money_view['won_average']:+.2f}%**입니다.")
+    lines += ["",
              "## 보유 종목 · 국내", ""] + table(korea, with_nxt=True)
     lines += ["", "## 보유 종목 · 해외", ""] + table(world)
     lines += ["", f"## 관심 종목 ({len(watch)})", "",

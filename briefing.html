@@ -132,6 +132,19 @@ section{display:flex; flex-direction:column}
 .metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
 .picks{display:flex; flex-direction:column; gap:14px}
+.board{display:flex; flex-wrap:wrap; gap:8px 22px; align-items:baseline; margin-bottom:10px}
+.board div{display:flex; align-items:baseline; gap:6px}
+.board span{font-size:11px; color:var(--muted); letter-spacing:.04em}
+.board b{font-family:"IBM Plex Mono",monospace; font-size:18px; font-weight:500;
+  font-variant-numeric:tabular-nums}
+.track{display:flex; flex-direction:column; gap:0; border-top:1px solid var(--line)}
+.track div{display:grid; grid-template-columns:88px 78px minmax(0,1fr) auto;
+  gap:10px; align-items:baseline; padding:8px 2px; border-bottom:1px solid var(--line);
+  font-size:12.5px}
+.track .when{font-family:"IBM Plex Mono",monospace; color:var(--muted); font-size:11.5px}
+.track .kind{font-size:11px; color:var(--muted)}
+.track .ret{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-weight:500; text-align:right}
 .pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
   padding:18px 20px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow)}
 .pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
@@ -223,15 +236,17 @@ section{display:flex; flex-direction:column}
     <div class="eyebrow">Daily Portfolio Brief</div>
     <h1>보유 18종목 브리핑</h1>
     <div class="dateline">
-      <span>작성 <b>2026-09-06 22:53 KST</b></span>
+      <span>작성 <b>2026-09-06 23:19 KST</b></span>
       <span>종가 기준일 <b>2026-09-04</b></span>
       <span>뉴스 <b>2026-09-06 발행분 13건</b></span>
+      <span>환율 <b class="down">₩1,351.10</b> <span class="down">-0.32%</span></span>
     </div>
   </header>
 
   <section>
     <h2>한눈에 보기</h2>
     <p class="lede">18종목 중 상승 10 · 하락 8 · 보합 0, 단순 평균 +1.34%. 최고 이오스 에너지 +10.86%, 최저 마이크로소프트 -2.04%.</p>
+    <p class="lede" style="margin-top:8px">해외 보유 종목은 달러 기준 평균 +1.23%지만, 환율 -0.32%를 반영한 <b>원화 기준으로는 +0.90%</b>입니다.</p>
     <div class="tally">
       <div><b class="up">10</b><span>상승</span></div>
       <div><b class="down">8</b><span>하락</span></div>
@@ -257,7 +272,7 @@ section{display:flex; flex-direction:column}
 <div class="row"><span class="name">SK하이닉스<small>000660</small></span><span class="num">₩1,647,000<small>NXT ₩1,662,000 +4.14%</small></span><span class="pct up">▲ +3.20%</span><span class="bar"><i style="left:50%;width:13.4%;background:var(--up)"></i></span><span class="tech flat">48.3<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
 <div class="row"><span class="name">HD현대중공업<small>329180</small></span><span class="num">₩436,500<small>NXT ₩436,000 +0.23%</small></span><span class="pct up">▲ +0.34%</span><span class="bar"><i style="left:50%;width:1.4%;background:var(--up)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
 </div></div>
-      <div><p class="subhead">해외</p><div class="rows">
+      <div><p class="subhead">해외 · 종가 아래는 원화 환산</p><div class="rows">
 <div class="row head"><span>종목</span><span class="num">종가</span><span class="pct">전일 대비</span><span class="bar"></span><span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span><span class="verdict">검증</span></div>
 <div class="row"><span class="name">알파벳 A<small>GOOGL</small></span><span class="num">$338.46</span><span class="pct down">▼ -1.17%</span><span class="bar"><i style="right:50%;width:4.9%;background:var(--down)"></i></span><span class="tech flat">44.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
 <div class="row"><span class="name">마이크로소프트<small>MSFT</small></span><span class="num">$499.70</span><span class="pct down">▼ -2.04%</span><span class="bar"><i style="right:50%;width:8.6%;background:var(--down)"></i></span><span class="tech flat">59.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>

@@ -249,17 +249,40 @@ def fetch(item):
     return result
 
 
+def exchange_rate():
+    """원/달러 환율. 해외 종목을 원화로 환산해 체감을 맞추는 데 쓴다.
+
+    주말·휴일에는 마지막 고시가 그대로 남으므로 날짜를 함께 기록한다.
+    """
+    frame = yf.Ticker("KRW=X").history(period="10d", timeout=20)
+    frame = frame[frame["Close"] > 0].sort_index()
+    if len(frame) < 2:
+        raise ValueError("환율 데이터 부족")
+    rate = float(frame["Close"].iloc[-1])
+    previous = float(frame["Close"].iloc[-2])
+    return dict(pair="USD/KRW", rate=round(rate, 2), previous=round(previous, 2),
+                change_pct=round((rate / previous - 1) * 100, 2),
+                date=frame.index[-1].date().isoformat(), source="Yahoo KRW=X")
+
+
 def main():
     yf.set_tz_cache_location(str(Path(__file__).parent / ".cache" / "yfinance"))
     # 국내 요청은 순차 실행하여 과도한 호출을 피한다.
     results = [fetch(item) for item in ALL if item["currency"] == "KRW"]
     with ThreadPoolExecutor(max_workers=6) as pool:
         results.extend(pool.map(fetch, [item for item in ALL if item["currency"] != "KRW"]))
+    try:
+        fx = exchange_rate()
+        print(f"환율 {fx['pair']} {fx['rate']:,.2f} ({fx['change_pct']:+.2f}%) · {fx['date']}")
+    except Exception as exc:
+        fx = dict(error=f"{type(exc).__name__}: {exc}")
+        print(f"[경고] 환율 조회 실패: {fx['error']}")
+
     output = Path(__file__).parent / "prices.json"
     output.write_text(json.dumps(dict(
         fetched_at=datetime.now(ZoneInfo("Asia/Seoul")).isoformat(),
         note="당일 일봉 제외. 실시간/시간외 가격 아님. 7일 초과 데이터는 stale 표시.",
-        holdings=results), ensure_ascii=False, indent=2), encoding="utf-8")
+        fx=fx, holdings=results), ensure_ascii=False, indent=2), encoding="utf-8")
     for row in results:
         price = f"{row['price']:,.2f}" if "price" in row else "조회 실패"
         checks = "/".join(row[key] for key in ("yahoo_check", "naver_check") if key in row) or "-"

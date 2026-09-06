@@ -19,6 +19,9 @@ else
   "$PY" summarize.py || echo "[경고] 요약 일부 실패 - 가능한 만큼만 반영해 브리핑 생성"
   "$PY" recommend.py || echo "[경고] 추천 종목 생성 실패 - 해당 섹션 없이 브리핑 생성"
 fi
+"$PY" track.py || echo "[경고] 추천 성적 추적 실패"
+if false; then :
+fi
 
 "$PY" brief.py >/dev/null || echo "[경고] brief.py가 확인 필요 항목을 보고함"
 
