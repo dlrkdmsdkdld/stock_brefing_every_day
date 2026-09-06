@@ -236,32 +236,37 @@ def affordable(provider, need):
     return True, ""
 
 
-def parse(text):
+SCHEMA_ONLY_MARKER = object()   # 결과 전체를 그대로 돌려받고 싶을 때 쓰는 표식
+
+
+def parse(text, marker=None):
     """모델이 코드펜스를 붙여 보내는 경우까지 감안해 JSON을 꺼낸다."""
     text = (text or "").strip()
     if text.startswith("```"):
         text = re.sub(r"^```[a-z]*\s*|\s*```$", "", text, flags=re.S)
-    return json.loads(text)["verdicts"]
+    data = json.loads(text)
+    return data if marker is SCHEMA_ONLY_MARKER else data["verdicts"]
 
 
-def once(provider, payload):
+def once(provider, payload, instructions=INSTRUCTIONS, schema=None, marker=None):
     """제공처 한 곳에 한 번 요청한다."""
+    schema = schema or SCHEMA
     client, model = provider["client"], provider["model"]
     if provider["style"] == "responses":
         raw = client.responses.with_raw_response.create(
-            model=model, instructions=INSTRUCTIONS, input=payload,
-            text={"format": {"type": "json_schema", "name": "verdicts",
-                             "schema": SCHEMA, "strict": True}})
+            model=model, instructions=instructions, input=payload,
+            text={"format": {"type": "json_schema", "name": "result",
+                             "schema": schema, "strict": True}})
         read_limits(provider, raw.headers)
         response = raw.parse()
         usage = response.usage
-        return parse(response.output_text), usage.input_tokens, usage.output_tokens
+        return parse(response.output_text, marker), usage.input_tokens, usage.output_tokens
 
     # OpenAI 호환 채팅 API. json_schema를 거부하는 제공처가 있어 json_object로 물러선다.
-    messages = [{"role": "system", "content": INSTRUCTIONS},
+    messages = [{"role": "system", "content": instructions},
                 {"role": "user", "content": payload}]
     formats = [{"type": "json_schema",
-                "json_schema": {"name": "verdicts", "schema": SCHEMA, "strict": True}},
+                "json_schema": {"name": "result", "schema": schema, "strict": True}},
                {"type": "json_object"}]
     last = None
     for response_format in formats:
@@ -271,7 +276,7 @@ def once(provider, payload):
             read_limits(provider, raw.headers)
             response = raw.parse()
             usage = response.usage
-            return (parse(response.choices[0].message.content),
+            return (parse(response.choices[0].message.content, marker),
                     usage.prompt_tokens, usage.completion_tokens)
         except RateLimitError:
             raise
@@ -286,13 +291,17 @@ def compose(batch):
         for row in batch)
 
 
-def ask(chain, index, batch):
+def ask(chain, index, batch, instructions=INSTRUCTIONS, schema=None, marker=None):
     """앞 제공처부터 시도한다. 남은 한도가 모자라면 시도하지 않고 바로 다음으로 넘어간다.
 
+    batch가 문자열이면 그대로 프롬프트로 쓴다(추천 등 다른 용도에서 재사용).
     돌아오는 index는 다음 묶음부터 쓸 제공처 위치다.
     """
-    payload = compose(batch)
-    need = estimate(payload, len(batch))
+    if isinstance(batch, str):
+        payload, count = batch, 1
+    else:
+        payload, count = compose(batch), len(batch)
+    need = estimate(payload, count)
     errors = []
     while index < len(chain):
         provider = probe(chain[index])
@@ -306,7 +315,7 @@ def ask(chain, index, batch):
             continue
         for attempt in range(1, MAX_ATTEMPTS + 1):
             try:
-                items, used_in, used_out = once(provider, payload)
+                items, used_in, used_out = once(provider, payload, instructions, schema, marker)
                 return items, used_in, used_out, index, provider["label"]
             except RateLimitError as exc:
                 if attempt == MAX_ATTEMPTS:

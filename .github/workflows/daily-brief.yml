@@ -62,6 +62,11 @@ jobs:
         continue-on-error: true
         run: python summarize.py
 
+      - name: 오늘의 추천 종목
+        if: ${{ (env.OPENAI_API_KEY != '' || env.OPENAI_API_KEY_2 != '' || env.OPENAI_API_KEY_3 != '' || env.OPENAI_API_KEY_4 != '' || env.OPENAI_API_KEY_5 != '' || env.OPENAI_API_KEY_6 != '' || env.GEMINI_API_KEY != '') && env.SKIP_SUMMARY != '1' }}
+        continue-on-error: true
+        run: python recommend.py
+
       - name: 브리핑 생성
         continue-on-error: true
         run: python brief.py
@@ -75,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add prices.json news.json verdicts.json briefing.md briefing.html index.html
+          git add prices.json news.json verdicts.json recommendation.json briefing.md briefing.html index.html
           git diff --staged --quiet && echo "변경 없음" && exit 0
           git commit -m "브리핑 $(date +%Y-%m-%d)"
           git push

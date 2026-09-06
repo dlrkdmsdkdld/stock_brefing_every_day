@@ -45,6 +45,17 @@ def load(name, script, today):
     return payload
 
 
+def recommendation():
+    """오늘의 추천 종목. recommend.py가 만든 결과를 읽는다."""
+    path = HERE / "recommendation.json"
+    if not path.exists():
+        return None
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    # 어제 결과가 남아 있으면 오늘 브리핑에 섞이지 않도록 걸러 낸다.
+    today = datetime.now(KST).date().isoformat()
+    return payload if payload.get("generated_at", "")[:10] == today else None
+
+
 def verdicts():
     """기사별 요약·호재/악재 판단. Claude가 본문을 읽고 verdicts.json에 남긴 내용."""
     path = HERE / "verdicts.json"
@@ -209,6 +220,23 @@ def stance_summary(stories, judged):
     return " · ".join(parts)
 
 
+def pick_lines(pick):
+    if not pick:
+        return []
+    choice = pick["pick"]
+    group = "보유" if choice.get("group", "holding") == "holding" else "관심"
+    lines = ["## 오늘의 추천 종목", "",
+             f"### [{group}] {choice['name']} ({choice['ticker']}) — {choice['headline']}", "",
+             f"- **왜**: {choice['reason']}",
+             f"- **유의**: {choice['risk']}"]
+    if pick.get("others"):
+        lines += ["", "함께 검토한 후보:"]
+        lines += [f"- {row['ticker']}: {row['note']}" for row in pick["others"]]
+    lines += ["", f"_{pick['disclaimer']} 후보는 거래량·등락·뉴스 화제성·52주 위치·RSI·볼린저로 "
+              f"추린 상위 {len(pick['candidates'])}개입니다._", ""]
+    return lines
+
+
 def spotlight(prices):
     """오늘 눈에 띄는 종목을 데이터만으로 뽑는다. 모델을 쓰지 않으므로 토큰이 들지 않는다."""
     rows = [row for row in prices["holdings"] if row.get("change_pct") is not None]
@@ -252,7 +280,7 @@ def spotlight_lines(prices):
     for title, rows, render in blocks:
         if not rows:
             continue
-        body = ", ".join(f"{r['name']}({tag(r)}, {render(r)})" for r in rows)
+        body = ", ".join(f"{r['name']}({tag(r)} {cap_text(r)}, {render(r)})" for r in rows)
         lines.append(f"- **{title}** — {body}")
     lines.append("")
     return lines
@@ -450,6 +478,18 @@ section{display:flex; flex-direction:column}
   font-size:11.5px; font-variant-numeric:tabular-nums; color:var(--muted)}
 .metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
+.pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
+  padding:18px 20px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow)}
+.pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
+.pick-head h3{font-family:"Gowun Batang",serif; font-size:19px; margin:0}
+.pick-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
+.pick-head .line{font-size:14px; color:var(--rule); font-weight:500}
+.pick .body{display:flex; flex-direction:column; gap:6px; font-size:13.5px;
+  line-height:1.65; max-width:76ch}
+.pick .body b{font-size:11px; letter-spacing:.08em; color:var(--muted); margin-right:6px}
+.pick .others{display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--muted);
+  border-top:1px dashed var(--line); padding-top:9px}
+.pick .others code{font-family:"IBM Plex Mono",monospace; color:var(--ink)}
 .spot{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
 .spot section{border:1px solid var(--line); border-radius:4px; background:var(--surface);
   padding:13px 15px; gap:7px; box-shadow:var(--shadow)}
@@ -631,6 +671,22 @@ def tallies(stories, judged):
     return f'<span class="tallies">{"".join(chips)}</span>' if chips else ""
 
 
+def html_pick(pick):
+    if not pick:
+        return ""
+    choice = pick["pick"]
+    group = "보유" if choice.get("group", "holding") == "holding" else "관심"
+    others = "".join(f'<div><code>{esc(row["ticker"])}</code> {esc(row["note"])}</div>'
+                     for row in pick.get("others", []))
+    return (f'<div class="pick"><div class="pick-head"><span class="chip">{group}</span>'
+            f'<h3>{esc(choice["name"])}</h3>'
+            f'<span class="code">{esc(choice["ticker"])}</span>'
+            f'<span class="line">{esc(choice["headline"])}</span></div>'
+            f'<div class="body"><span><b>왜</b>{esc(choice["reason"])}</span>'
+            f'<span><b>유의</b>{esc(choice["risk"])}</span></div>'
+            + (f'<div class="others">{others}</div>' if others else "") + '</div>')
+
+
 def html_spotlight(prices):
     view = spotlight(prices)
     tag = view["tag"]
@@ -650,7 +706,8 @@ def html_spotlight(prices):
         if not rows:
             continue
         items = "".join(
-            f'<li><b>{esc(row["name"])}<span class="who">{tag(row)}</span></b>'
+            f'<li><b>{esc(row["name"])}'
+            f'<span class="who">{tag(row)} · {cap_text(row)}</span></b>'
             f'<span class="val {render(row)[1]}">{render(row)[0]}</span></li>' for row in rows)
         out.append(f'<section><h3>{esc(title)}</h3><ul>{items}</ul></section>')
     return "\n".join(out + ["</div>"])
@@ -723,6 +780,11 @@ def html_news(prices_by_name, news, judged):
 
 def render_html(now, prices, news):
     judged, analyst = verdicts()
+    pick = recommendation()
+    pick_block = (f'<section><h2>오늘의 추천 종목</h2>'
+                  f'<p class="byline">{esc(pick["disclaimer"])} 거래량·등락·뉴스 화제성·'
+                  f'52주 위치·RSI·볼린저로 추린 상위 {len(pick["candidates"])}개 중에서 골랐습니다.</p>'
+                  f'{html_pick(pick)}</section>') if pick else ""
     every = prices["holdings"]
     holdings = [row for row in every if row.get("group", "holding") == "holding"]
     watch = [row for row in every if row.get("group") == "watch"]
@@ -789,6 +851,8 @@ def render_html(now, prices, news):
         {html_watch(watch)}</div>
     </div>
   </section>
+
+  {pick_block}
 
   <section><h2>오늘의 주목</h2>
     <p class="byline">가격 데이터만으로 뽑았습니다. 모델을 쓰지 않으므로 추가 비용이 없습니다.</p>
@@ -894,7 +958,8 @@ def main():
     lines += ["", "## 보유 종목 · 해외", ""] + table(world)
     lines += ["", f"## 관심 종목 ({len(watch)})", "",
               "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""] + watch_table(watch)
-    lines += [""] + spotlight_lines(prices)
+    lines += [""] + pick_lines(recommendation())
+    lines += spotlight_lines(prices)
     lines += alert_section(prices, news, judged)
     lines += ["## 종목별 오늘의 뉴스", ""]
     if analyst:

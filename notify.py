@@ -172,6 +172,16 @@ def build(prices, news, judged):
                          f"{move(row)}{extra}{tech(row)}")
         lines.append("")
 
+    path = HERE / "recommendation.json"
+    if path.exists():
+        pick = json.loads(path.read_text(encoding="utf-8"))
+        if pick.get("generated_at", "")[:10] == datetime.now(KST).date().isoformat():
+            choice = pick["pick"]
+            group = "보유" if choice.get("group", "holding") == "holding" else "관심"
+            lines += [f"<b>⭐ 오늘의 추천 · {esc(choice['name'])} ({esc(choice['ticker'])}, {group})</b>",
+                      esc(choice["headline"]), esc(choice["reason"]),
+                      f"유의: {esc(choice['risk'])}", ""]
+
     spots = [
         ("상승", sorted([r for r in every if (r.get("change_pct") or 0) > 0],
                         key=lambda r: -r["change_pct"])[:3], lambda r: f"{r['change_pct']:+.2f}%"),

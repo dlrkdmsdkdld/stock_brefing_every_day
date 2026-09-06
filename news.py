@@ -297,10 +297,12 @@ def attach_body(story, summaries):
 
 def for_holding(item, summaries, today):
     rows, errors = collect(item, summaries)
-    stories = pick(rows, today)[:PER_HOLDING]
+    ranked = pick(rows, today)
+    stories = ranked[:PER_HOLDING]
     with ThreadPoolExecutor(max_workers=PER_HOLDING) as pool:
         stories = list(pool.map(lambda story: attach_body(story, summaries), stories))
-    return item, stories, len(rows), errors
+    # today_count는 오늘 이 종목으로 잡힌 기사 수. 화제성 지표로 쓴다.
+    return item, stories, len(rows), errors, len(ranked)
 
 
 def main():
@@ -317,10 +319,10 @@ def main():
 
     # 종목이 늘어나도 전체 시간이 늘지 않도록 종목 단위로 병렬 처리한다.
     with ThreadPoolExecutor(max_workers=5) as pool:
-        for item, stories, candidates, failures in pool.map(
+        for item, stories, candidates, failures, today_count in pool.map(
                 lambda item: for_holding(item, summaries, today), targets):
             entry = dict(ticker=item["ticker"], market=item["market"],
-                         candidates=candidates, stories=stories)
+                         candidates=candidates, today_count=today_count, stories=stories)
             if item.get("alert"):
                 entry.update(alert=item["alert"], alert_detail=item["alert_detail"])
                 alerts[item["name"]] = entry
