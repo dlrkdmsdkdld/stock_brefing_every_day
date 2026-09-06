@@ -22,6 +22,8 @@ jobs:
       TZ: Asia/Seoul
       # if 조건에서 읽으려면 잡 레벨 env로 올려야 한다. secrets 컨텍스트는 step의 if에서 못 쓴다.
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # OpenAI 한도에 걸리면 자동으로 넘어갈 예비 제공처(기본 설정은 Gemini 무료 티어).
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       # 브리핑 웹페이지(GitHub Pages) 주소. 텔레그램 첫 메시지에 링크로 붙는다.
@@ -50,7 +52,7 @@ jobs:
         run: python news.py
 
       - name: 기사 요약·호재/악재 판단
-        if: ${{ env.OPENAI_API_KEY != '' && env.SKIP_SUMMARY != '1' }}
+        if: ${{ (env.OPENAI_API_KEY != '' || env.GEMINI_API_KEY != '') && env.SKIP_SUMMARY != '1' }}
         continue-on-error: true
         run: python summarize.py
 

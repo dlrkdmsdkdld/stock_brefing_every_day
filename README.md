@@ -133,6 +133,20 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 ## 요약·호재/악재 판단 (`summarize.py` -> `verdicts.json`)
 
 키워드 감성분석은 오답이 많아 쓰지 않습니다. 기사 본문을 모델에 보내 요약과 판단을 받습니다.
+
+제공처는 순서대로 시도합니다. 앞이 한도(429)에 걸리면 다음으로 넘어가고, 한 번 넘어가면
+남은 묶음도 계속 그 제공처를 씁니다.
+
+| 순서 | 제공처 | 키 | 비고 |
+| --- | --- | --- | --- |
+| 1 | OpenAI (`gpt-5.6-luna`) | `OPENAI_API_KEY` | Responses API + JSON 스키마 강제 |
+| 2 | 예비 (기본 Gemini `gemini-2.5-flash`) | `GEMINI_API_KEY` 또는 `FALLBACK_API_KEY` | OpenAI 호환 채팅 API |
+
+예비 제공처는 OpenAI 호환 엔드포인트면 무엇이든 됩니다. `FALLBACK_BASE_URL`과
+`FALLBACK_MODEL`만 바꾸면 다른 곳으로 갈아탈 수 있습니다. `json_schema`를 거부하는
+제공처를 위해 `json_object`로 물러서는 경로도 넣었습니다.
+
+> GitHub Models는 2026년 7월 30일자로 폐지되어 쓸 수 없습니다.
 에이전트 루프를 돌지 않고 API를 직접 호출하므로 비용과 실행 시간이 예측 가능합니다.
 본문이 없는 기사는 아예 보내지 않습니다 — 제목만으로 호재·악재를 붙이지 않기 위해서입니다.
 
@@ -157,6 +171,10 @@ SUMMARY_MODEL=gpt-5.6-luna BATCH_SIZE=12 .venv/bin/python summarize.py
 실측한 회복 속도는 **약 3,300 토큰/일**인데 하루 1회 요약에 약 42,000 토큰이 듭니다.
 즉 **하루 한 번만 돌려도 무료 계정으로는 감당이 안 됩니다**(약 12~13일에 한 번꼴).
 요청 수(50/일)는 6회면 충분하므로 병목은 토큰입니다.
+
+무료로 이어가려면 [aistudio.google.com](https://aistudio.google.com/)에서 Gemini API 키를
+발급(카드 불필요)해 `GEMINI_API_KEY` 시크릿으로 넣으면 됩니다. OpenAI가 막히는 시점부터
+자동으로 넘어갑니다.
 
 테스트 기간에는 저장소 변수 `SKIP_SUMMARY=1`을 두어 요약 단계를 건너뛸 수 있습니다.
 이때 `verdicts.json`은 그대로 유지되고 가격·지표·특이점 감지·브리핑·발송은 정상 동작합니다.
