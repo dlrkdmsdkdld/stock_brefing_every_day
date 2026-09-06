@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 import yfinance as yf
 
 import article
-from holdings import HOLDINGS
+from holdings import HOLDINGS  # 뉴스는 보유 종목만 수집한다
 
 KST = ZoneInfo("Asia/Seoul")
 AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}

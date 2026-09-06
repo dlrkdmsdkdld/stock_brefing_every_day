@@ -96,6 +96,14 @@ def tech(row):
     return "  " + " · ".join(parts)
 
 
+def delta(row):
+    value = row.get("change")
+    if value is None:
+        return ""
+    sign = "+" if value > 0 else ""
+    return f"{sign}₩{value:,.0f}" if row["currency"] == "KRW" else f"{sign}${value:,.2f}"
+
+
 def money(row):
     price = row.get("price")
     if price is None:
@@ -112,7 +120,9 @@ def move(row):
 
 def build(prices, news, judged):
     """텔레그램에 보낼 본문. 가격 표와 종목별 뉴스 요약을 모두 담는다."""
-    holdings = prices["holdings"]
+    every = prices["holdings"]
+    holdings = [row for row in every if row.get("group", "holding") == "holding"]
+    watch = [row for row in every if row.get("group") == "watch"]
     by_name = {row["name"]: row for row in holdings}
     scored = [row["change_pct"] for row in holdings if row.get("change_pct") is not None]
     up = sum(1 for value in scored if value > 0)
@@ -142,6 +152,12 @@ def build(prices, news, judged):
             extra = (f"  (NXT ₩{row['nxt_price']:,.0f} {row['nxt_change_pct']:+.2f}%)"
                      if "nxt_price" in row else "")
             lines.append(f"{esc(row['name'])}  {money(row)}  {move(row)}{extra}{tech(row)}")
+        lines.append("")
+
+    if watch:
+        lines.append(f"<b>[관심 종목 {len(watch)}]</b>")
+        for row in sorted(watch, key=lambda row: row.get("change_pct") or 0, reverse=True):
+            lines.append(f"{esc(row['name'])}  {money(row)}  {delta(row)}  {move(row)}{tech(row)}")
         lines.append("")
 
     lines.append("<b>📰 종목별 오늘의 뉴스</b>")

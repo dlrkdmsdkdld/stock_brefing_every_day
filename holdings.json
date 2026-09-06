@@ -5,26 +5,284 @@
     "ticker": "국내는 6자리 종목코드, 해외는 Yahoo 티커",
     "currency": "KRW 또는 USD (KRW면 국내 시장으로 처리)",
     "keywords": "기사 제목에 이 말이 있으면 '직접 언급'으로 본다",
-    "query": "구글 뉴스 RSS 검색어. 해외는 큰따옴표로 묶으면 정확도가 오른다"
+    "query": "구글 뉴스 RSS 검색어. 해외는 큰따옴표로 묶으면 정확도가 오른다",
+    "group": "holding(보유, 뉴스 수집함) 또는 watch(관심, 가격·지표만). 없으면 holding."
   },
   "holdings": [
-    {"name": "SK하이닉스", "ticker": "000660", "currency": "KRW", "keywords": ["SK하이닉스", "하이닉스"], "query": "SK하이닉스"},
-    {"name": "삼성전자", "ticker": "005930", "currency": "KRW", "keywords": ["삼성전자"], "query": "삼성전자"},
-    {"name": "HD현대중공업", "ticker": "329180", "currency": "KRW", "keywords": ["HD현대중공업", "현대중공업", "HD현대"], "query": "HD현대중공업"},
-    {"name": "델", "ticker": "DELL", "currency": "USD", "keywords": ["Dell"], "query": "\"Dell Technologies\""},
-    {"name": "컨스텔레이션 브랜즈", "ticker": "STZ", "currency": "USD", "keywords": ["Constellation Brands", "STZ"], "query": "\"Constellation Brands\""},
-    {"name": "퍼스트솔라", "ticker": "FSLR", "currency": "USD", "keywords": ["First Solar", "FSLR"], "query": "\"First Solar\""},
-    {"name": "컨스텔레이션 에너지", "ticker": "CEG", "currency": "USD", "keywords": ["Constellation Energy", "CEG"], "query": "\"Constellation Energy\""},
-    {"name": "비스트라 에너지", "ticker": "VST", "currency": "USD", "keywords": ["Vistra", "VST"], "query": "\"Vistra\""},
-    {"name": "이오스 에너지", "ticker": "EOSE", "currency": "USD", "keywords": ["Eos Energy", "EOSE"], "query": "\"Eos Energy\""},
-    {"name": "알먼티", "ticker": "ALM", "currency": "USD", "keywords": ["Almonty"], "query": "\"Almonty\""},
-    {"name": "크레도 테크놀로지", "ticker": "CRDO", "currency": "USD", "keywords": ["Credo", "CRDO"], "query": "\"Credo Technology\""},
-    {"name": "알파벳 A", "ticker": "GOOGL", "currency": "USD", "keywords": ["Alphabet", "Google", "GOOGL"], "query": "\"Alphabet\" stock"},
-    {"name": "시스코 시스템즈", "ticker": "CSCO", "currency": "USD", "keywords": ["Cisco", "CSCO"], "query": "\"Cisco\""},
-    {"name": "버티브 홀딩스", "ticker": "VRT", "currency": "USD", "keywords": ["Vertiv", "VRT"], "query": "\"Vertiv\""},
-    {"name": "록히드마틴", "ticker": "LMT", "currency": "USD", "keywords": ["Lockheed"], "query": "\"Lockheed Martin\""},
-    {"name": "마이크로소프트", "ticker": "MSFT", "currency": "USD", "keywords": ["Microsoft", "MSFT"], "query": "\"Microsoft\" stock"},
-    {"name": "나이키 B", "ticker": "NKE", "currency": "USD", "keywords": ["Nike", "NKE"], "query": "\"Nike\" stock"},
-    {"name": "노보노디스크 ADR", "ticker": "NVO", "currency": "USD", "keywords": ["Novo Nordisk", "NVO"], "query": "\"Novo Nordisk\""}
+    {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "currency": "KRW",
+      "keywords": [
+        "SK하이닉스",
+        "하이닉스"
+      ],
+      "query": "SK하이닉스"
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "currency": "KRW",
+      "keywords": [
+        "삼성전자"
+      ],
+      "query": "삼성전자"
+    },
+    {
+      "name": "HD현대중공업",
+      "ticker": "329180",
+      "currency": "KRW",
+      "keywords": [
+        "HD현대중공업",
+        "현대중공업",
+        "HD현대"
+      ],
+      "query": "HD현대중공업"
+    },
+    {
+      "name": "델",
+      "ticker": "DELL",
+      "currency": "USD",
+      "keywords": [
+        "Dell"
+      ],
+      "query": "\"Dell Technologies\""
+    },
+    {
+      "name": "컨스텔레이션 브랜즈",
+      "ticker": "STZ",
+      "currency": "USD",
+      "keywords": [
+        "Constellation Brands",
+        "STZ"
+      ],
+      "query": "\"Constellation Brands\""
+    },
+    {
+      "name": "퍼스트솔라",
+      "ticker": "FSLR",
+      "currency": "USD",
+      "keywords": [
+        "First Solar",
+        "FSLR"
+      ],
+      "query": "\"First Solar\""
+    },
+    {
+      "name": "컨스텔레이션 에너지",
+      "ticker": "CEG",
+      "currency": "USD",
+      "keywords": [
+        "Constellation Energy",
+        "CEG"
+      ],
+      "query": "\"Constellation Energy\""
+    },
+    {
+      "name": "비스트라 에너지",
+      "ticker": "VST",
+      "currency": "USD",
+      "keywords": [
+        "Vistra",
+        "VST"
+      ],
+      "query": "\"Vistra\""
+    },
+    {
+      "name": "이오스 에너지",
+      "ticker": "EOSE",
+      "currency": "USD",
+      "keywords": [
+        "Eos Energy",
+        "EOSE"
+      ],
+      "query": "\"Eos Energy\""
+    },
+    {
+      "name": "알먼티",
+      "ticker": "ALM",
+      "currency": "USD",
+      "keywords": [
+        "Almonty"
+      ],
+      "query": "\"Almonty\""
+    },
+    {
+      "name": "크레도 테크놀로지",
+      "ticker": "CRDO",
+      "currency": "USD",
+      "keywords": [
+        "Credo",
+        "CRDO"
+      ],
+      "query": "\"Credo Technology\""
+    },
+    {
+      "name": "알파벳 A",
+      "ticker": "GOOGL",
+      "currency": "USD",
+      "keywords": [
+        "Alphabet",
+        "Google",
+        "GOOGL"
+      ],
+      "query": "\"Alphabet\" stock"
+    },
+    {
+      "name": "시스코 시스템즈",
+      "ticker": "CSCO",
+      "currency": "USD",
+      "keywords": [
+        "Cisco",
+        "CSCO"
+      ],
+      "query": "\"Cisco\""
+    },
+    {
+      "name": "버티브 홀딩스",
+      "ticker": "VRT",
+      "currency": "USD",
+      "keywords": [
+        "Vertiv",
+        "VRT"
+      ],
+      "query": "\"Vertiv\""
+    },
+    {
+      "name": "록히드마틴",
+      "ticker": "LMT",
+      "currency": "USD",
+      "keywords": [
+        "Lockheed"
+      ],
+      "query": "\"Lockheed Martin\""
+    },
+    {
+      "name": "마이크로소프트",
+      "ticker": "MSFT",
+      "currency": "USD",
+      "keywords": [
+        "Microsoft",
+        "MSFT"
+      ],
+      "query": "\"Microsoft\" stock"
+    },
+    {
+      "name": "나이키 B",
+      "ticker": "NKE",
+      "currency": "USD",
+      "keywords": [
+        "Nike",
+        "NKE"
+      ],
+      "query": "\"Nike\" stock"
+    },
+    {
+      "name": "노보노디스크 ADR",
+      "ticker": "NVO",
+      "currency": "USD",
+      "keywords": [
+        "Novo Nordisk",
+        "NVO"
+      ],
+      "query": "\"Novo Nordisk\""
+    }
+  ],
+  "watchlist": [
+    {
+      "name": "텍사스 인스트루먼트",
+      "ticker": "TXN",
+      "currency": "USD"
+    },
+    {
+      "name": "마벨 테크놀로지",
+      "ticker": "MRVL",
+      "currency": "USD"
+    },
+    {
+      "name": "어플라이드 옵토일렉트로닉스",
+      "ticker": "AAOI",
+      "currency": "USD"
+    },
+    {
+      "name": "휴렛팩커드 엔터프라이즈",
+      "ticker": "HPE",
+      "currency": "USD"
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "currency": "USD"
+    },
+    {
+      "name": "테슬라",
+      "ticker": "TSLA",
+      "currency": "USD"
+    },
+    {
+      "name": "아마존",
+      "ticker": "AMZN",
+      "currency": "USD"
+    },
+    {
+      "name": "오라클",
+      "ticker": "ORCL",
+      "currency": "USD"
+    },
+    {
+      "name": "브로드컴",
+      "ticker": "AVGO",
+      "currency": "USD"
+    },
+    {
+      "name": "코어위브",
+      "ticker": "CRWV",
+      "currency": "USD"
+    },
+    {
+      "name": "솔스티스 어드밴스드 머티리얼즈",
+      "ticker": "SOLS",
+      "currency": "USD"
+    },
+    {
+      "name": "세레브라스 시스템즈",
+      "ticker": "CBRS",
+      "currency": "USD"
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "currency": "USD"
+    },
+    {
+      "name": "인텔",
+      "ticker": "INTC",
+      "currency": "USD"
+    },
+    {
+      "name": "샌디스크",
+      "ticker": "SNDK",
+      "currency": "USD"
+    },
+    {
+      "name": "마이크론",
+      "ticker": "MU",
+      "currency": "USD"
+    },
+    {
+      "name": "코히런트",
+      "ticker": "COHR",
+      "currency": "USD"
+    },
+    {
+      "name": "루멘텀",
+      "ticker": "LITE",
+      "currency": "USD"
+    },
+    {
+      "name": "케무어스",
+      "ticker": "CC",
+      "currency": "USD"
+    }
   ]
 }

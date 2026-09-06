@@ -1,4 +1,4 @@
-"""보유 18종목의 최근 완료 거래일 종가 조회.
+"""보유·관심 종목의 최근 거래일 종가와 기술적 지표 조회.
 
 국내: pykrx(KRX)를 1차 출처로 쓰고 Yahoo·네이버로 교차 검증한다.
 해외: yfinance(Yahoo) 단일 출처.
@@ -16,27 +16,8 @@ import yfinance as yf
 from pykrx import stock
 
 import indicators
+from holdings import ALL
 
-HOLDINGS = [
-    ("SK하이닉스", "000660", "KRW"),
-    ("삼성전자", "005930", "KRW"),
-    ("HD현대중공업", "329180", "KRW"),
-    ("델", "DELL", "USD"),
-    ("컨스텔레이션 브랜즈", "STZ", "USD"),
-    ("퍼스트솔라", "FSLR", "USD"),
-    ("컨스텔레이션 에너지", "CEG", "USD"),
-    ("비스트라 에너지", "VST", "USD"),
-    ("이오스 에너지", "EOSE", "USD"),
-    ("알먼티", "ALM", "USD"),
-    ("크레도 테크놀로지", "CRDO", "USD"),
-    ("알파벳 A", "GOOGL", "USD"),
-    ("시스코 시스템즈", "CSCO", "USD"),
-    ("버티브 홀딩스", "VRT", "USD"),
-    ("록히드마틴", "LMT", "USD"),
-    ("마이크로소프트", "MSFT", "USD"),
-    ("나이키 B", "NKE", "USD"),
-    ("노보노디스크 ADR", "NVO", "USD"),
-]
 AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
 # 정규장 마감 + 종가 확정 여유. 이 시각을 넘겼으면 그날 일봉을 확정된 종가로 쓴다.
 SESSION_CLOSE = {"Asia/Seoul": time(15, 40), "America/New_York": time(16, 15)}
@@ -141,14 +122,14 @@ def check(result, key, date, price, other):
         result[f"{key}_error"] = f"{type(exc).__name__}: {exc}"
 
 
-def fetch(holding):
-    name, ticker, currency = holding
+def fetch(item):
+    name, ticker, currency = item["name"], item["ticker"], item["currency"]
     korea = currency == "KRW"
     zone = "Asia/Seoul" if korea else "America/New_York"
     today = datetime.now(ZoneInfo(zone)).date()
     cutoff = cutoff_date(zone)
     start = today - timedelta(days=HISTORY_DAYS)
-    result = dict(name=name, ticker=ticker, currency=currency,
+    result = dict(name=name, ticker=ticker, currency=currency, group=item["group"],
                   source="pykrx/KRX" if korea else "yfinance/Yahoo Finance",
                   price_type="마감된 최근 거래일 종가(국내는 수정주가 기준)",
                   market_timezone=zone, status="error")
@@ -179,6 +160,7 @@ def fetch(holding):
         # 직전 거래일 대비 등락률. 이전 값이 없으면 채우지 않고 비워 둔다.
         if previous:
             result["previous_close"] = round(previous, 4)
+            result["change"] = round(price - previous, 4)
             result["change_pct"] = round((price - previous) / previous * 100, 2)
         if (today - date).days > 7:
             result["status"] = "stale"
@@ -192,9 +174,9 @@ def fetch(holding):
 def main():
     yf.set_tz_cache_location(str(Path(__file__).parent / ".cache" / "yfinance"))
     # 국내 요청은 순차 실행하여 과도한 호출을 피한다.
-    results = [fetch(item) for item in HOLDINGS if item[2] == "KRW"]
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        results.extend(pool.map(fetch, [item for item in HOLDINGS if item[2] == "USD"]))
+    results = [fetch(item) for item in ALL if item["currency"] == "KRW"]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        results.extend(pool.map(fetch, [item for item in ALL if item["currency"] != "KRW"]))
     output = Path(__file__).parent / "prices.json"
     output.write_text(json.dumps(dict(
         fetched_at=datetime.now(ZoneInfo("Asia/Seoul")).isoformat(),

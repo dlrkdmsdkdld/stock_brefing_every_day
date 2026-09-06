@@ -89,6 +89,15 @@ def nxt(row):
     return row.get("nxt_error", "-").split(":")[0] if "nxt_error" in row else "-"
 
 
+def delta(row):
+    """전일 대비 변동액. 통화에 맞춰 표기한다."""
+    value = row.get("change")
+    if value is None:
+        return "-"
+    sign = "+" if value > 0 else ""
+    return f"{sign}₩{value:,.0f}" if row["currency"] == "KRW" else f"{sign}${value:,.2f}"
+
+
 def rsi_text(row):
     if "rsi" not in row:
         return "-"
@@ -122,6 +131,16 @@ def table(rows, with_nxt=False):
             cells.append(nxt(row))
         cells += [rsi_text(row), band_text(row), verification(row)]
         lines.append("| " + " | ".join(cells) + " |")
+    return lines
+
+
+def watch_table(rows):
+    lines = ["| 종목 | 종가 | 변동 | 변동률 | RSI(14) | 볼린저(20,2σ) |",
+             "| --- | ---: | ---: | ---: | ---: | --- |"]
+    for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
+        lines.append("| " + " | ".join([
+            f"{row['name']} ({row['ticker']})", amount(row), delta(row), move(row)[0],
+            rsi_text(row), band_text(row)]) + " |")
     return lines
 
 
@@ -249,6 +268,20 @@ section{display:flex; flex-direction:column}
 .tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:10px; color:var(--muted)}
 .band{font-size:11.5px; text-align:center; white-space:nowrap}
 .band.up,.band.down{font-weight:600}
+.tabs{display:flex; gap:4px; border-bottom:1px solid var(--line); margin-bottom:18px}
+.tabs button{font:inherit; font-size:13px; font-weight:500; color:var(--muted); background:none;
+  border:0; border-bottom:2px solid transparent; padding:8px 14px; cursor:pointer; margin-bottom:-1px}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{color:var(--rule); border-bottom-color:var(--rule)}
+.tabs button:focus-visible{outline:2px solid var(--rule); outline-offset:-2px}
+.tabs .count{font-family:"IBM Plex Mono",monospace; font-size:11px; opacity:.7; margin-left:5px}
+.panel{display:flex; flex-direction:column; gap:26px}
+.panel[hidden]{display:none}
+.subhead{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 8px; font-weight:600}
+.watch-row{display:grid; grid-template-columns:minmax(150px,1.6fr) 110px 92px 84px 78px 84px;
+  gap:12px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
+.watch-row.head{padding-bottom:7px; color:var(--muted); font-size:11px; letter-spacing:.1em; text-transform:uppercase}
 .controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px}
 .controls button{font:inherit; font-size:12px; color:var(--ink); background:var(--surface);
   border:1px solid var(--line); border-radius:3px; padding:5px 12px; cursor:pointer}
@@ -300,6 +333,9 @@ section{display:flex; flex-direction:column}
 .warn{border-left:3px solid var(--up); padding-left:12px; margin-top:14px; font-size:13px}
 @media (max-width:720px){
   .row{grid-template-columns:1fr 104px 78px; row-gap:6px}
+  .watch-row{grid-template-columns:1fr 100px 80px; row-gap:6px}
+  .watch-row .tech,.watch-row .band{text-align:left}
+  .watch-row.head .tech,.watch-row.head .band,.watch-row.head span:nth-child(4){display:none}
   .bar,.verdict{grid-column:1/-1; text-align:left}
   .tech,.band{grid-column:span 1; text-align:left}
   .row.head .bar,.row.head .verdict,.row.head .tech,.row.head .band{display:none}
@@ -348,6 +384,29 @@ def html_rows(rows, scale, with_nxt=False):
             f'<span class="pct {tone}">{label}</span>'
             f'{bar(row.get("change_pct"), scale)}{tech}{band}'
             f'<span class="verdict">{esc(verification(row))}</span></div>')
+    return "\n".join(out + ["</div>"])
+
+
+def html_watch(rows):
+    out = ['<div class="rows">',
+           '<div class="watch-row head"><span>종목</span><span class="num">종가</span>'
+           '<span class="num">변동</span><span class="pct">변동률</span>'
+           '<span class="tech">RSI(14)</span><span class="band">볼린저</span></div>']
+    for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
+        label, tone = move(row)
+        if "rsi" in row:
+            tech = (f'<span class="tech {RSI_TONE.get(row["rsi_zone"], "flat")}">{row["rsi"]:.1f}'
+                    f'<small>{esc(row["rsi_zone"])}</small></span>')
+        else:
+            tech = '<span class="tech">-</span>'
+        out.append(
+            f'<div class="watch-row"><span class="name">{esc(row["name"])}'
+            f'<small>{esc(row["ticker"])}</small></span>'
+            f'<span class="num">{amount(row)}</span>'
+            f'<span class="num {tone}">{delta(row)}</span>'
+            f'<span class="pct {tone}">{label}</span>{tech}'
+            f'<span class="band {BAND_TONE.get(row.get("bb_position"), "flat")}">'
+            f'{esc(band_text(row))}</span></div>')
     return "\n".join(out + ["</div>"])
 
 
@@ -416,17 +475,21 @@ def html_news(prices_by_name, news, judged):
 
 def render_html(now, prices, news):
     judged, analyst = verdicts()
-    holdings = prices["holdings"]
+    every = prices["holdings"]
+    holdings = [row for row in every if row.get("group", "holding") == "holding"]
+    watch = [row for row in every if row.get("group") == "watch"]
     by_name = {row["name"]: row for row in holdings}
     korea = [row for row in holdings if row["currency"] == "KRW"]
     world = [row for row in holdings if row["currency"] != "KRW"]
+    # 막대 길이 기준은 보유·관심을 합쳐 잡아야 두 탭의 눈금이 같아진다.
     scored = [row["change_pct"] for row in holdings if row.get("change_pct") is not None]
-    scale = max((abs(value) for value in scored), default=1) or 1
+    every_scored = [row["change_pct"] for row in every if row.get("change_pct") is not None]
+    scale = max((abs(value) for value in every_scored), default=1) or 1
     up = sum(1 for value in scored if value > 0)
     down = sum(1 for value in scored if value < 0)
     average = sum(scored) / len(scored) if scored else 0
-    trade_dates = sorted({row["date"] for row in holdings if "date" in row})
-    problems = [row for row in holdings if row["status"] != "ok"]
+    trade_dates = sorted({row["date"] for row in every if "date" in row})
+    problems = [row for row in every if row["status"] != "ok"]
     judged_count = sum(1 for row in news["news"].values() for story in row["stories"]
                        if normalize(story["title"]) in judged)
 
@@ -462,8 +525,22 @@ def render_html(now, prices, news):
     {warn}
   </section>
 
-  <section><h2>국내</h2>{html_rows(korea, scale, with_nxt=True)}</section>
-  <section><h2>해외</h2>{html_rows(world, scale)}</section>
+  <section>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-own" aria-controls="panel-own" aria-selected="true"
+              data-panel="panel-own">보유 종목<span class="count">{len(holdings)}</span></button>
+      <button type="button" role="tab" id="tab-watch" aria-controls="panel-watch" aria-selected="false"
+              data-panel="panel-watch">관심 종목<span class="count">{len(watch)}</span></button>
+    </div>
+    <div class="panel" id="panel-own" role="tabpanel" aria-labelledby="tab-own">
+      <div><p class="subhead">국내</p>{html_rows(korea, scale, with_nxt=True)}</div>
+      <div><p class="subhead">해외</p>{html_rows(world, scale)}</div>
+    </div>
+    <div class="panel" id="panel-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
+      <div><p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
+        {html_watch(watch)}</div>
+    </div>
+  </section>
 
   <section><h2>종목별 오늘의 뉴스</h2>
     <p class="byline">{esc(analyst or '요약·판단 없음')} 종목을 눌러 펼쳐 보세요.</p>
@@ -475,6 +552,18 @@ def render_html(now, prices, news):
     {html_news(by_name, news, judged)}
   </section>
   <script>
+  (function () {{
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.tabs button'));
+    tabs.forEach(function (tab) {{
+      tab.addEventListener("click", function () {{
+        tabs.forEach(function (other) {{
+          var on = other === tab;
+          other.setAttribute("aria-selected", on ? "true" : "false");
+          document.getElementById(other.dataset.panel).hidden = !on;
+        }});
+      }});
+    }});
+  }})();
   (function () {{
     var KEY = "brief-open-holdings";
     var items = Array.prototype.slice.call(document.querySelectorAll("details.holding"));
@@ -528,18 +617,24 @@ def main():
     prices = load("prices.json", "prices.py", now.date())
     news = load("news.json", "news.py", now.date())
     judged, analyst = verdicts()
-    holdings = prices["holdings"]
+    every = prices["holdings"]
+    holdings = [row for row in every if row.get("group", "holding") == "holding"]
+    watch = [row for row in every if row.get("group") == "watch"]
     by_name = {row["name"]: row for row in holdings}
     korea = [row for row in holdings if row["currency"] == "KRW"]
     world = [row for row in holdings if row["currency"] != "KRW"]
-    trade_dates = sorted({row["date"] for row in holdings if "date" in row})
-    problems = [row for row in holdings if row["status"] != "ok"]
+    trade_dates = sorted({row["date"] for row in every if "date" in row})
+    problems = [row for row in every if row["status"] != "ok"]
 
     lines = [f"# 포트폴리오 브리핑 · {now:%Y-%m-%d (%a) %H:%M} KST", "",
-             f"보유 {len(holdings)}종목 · 종가 기준일 {' / '.join(trade_dates) or '없음'} · "
+             f"보유 {len(holdings)}종목 · 관심 {len(watch)}종목 · "
+             f"종가 기준일 {' / '.join(trade_dates) or '없음'} · "
              f"뉴스 {news['today_kst']} 발행분 {news['counts']['기사']}건", "",
              "## 한눈에 보기", "", summarize(holdings), "",
-             "## 국내", ""] + table(korea, with_nxt=True) + ["", "## 해외", ""] + table(world)
+             "## 보유 종목 · 국내", ""] + table(korea, with_nxt=True)
+    lines += ["", "## 보유 종목 · 해외", ""] + table(world)
+    lines += ["", f"## 관심 종목 ({len(watch)})", "",
+              "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""] + watch_table(watch)
     lines += ["", "## 종목별 오늘의 뉴스", ""]
     if analyst:
         lines += [f"_{analyst}_", ""]

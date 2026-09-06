@@ -57,6 +57,20 @@ section{display:flex; flex-direction:column}
 .tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:10px; color:var(--muted)}
 .band{font-size:11.5px; text-align:center; white-space:nowrap}
 .band.up,.band.down{font-weight:600}
+.tabs{display:flex; gap:4px; border-bottom:1px solid var(--line); margin-bottom:18px}
+.tabs button{font:inherit; font-size:13px; font-weight:500; color:var(--muted); background:none;
+  border:0; border-bottom:2px solid transparent; padding:8px 14px; cursor:pointer; margin-bottom:-1px}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{color:var(--rule); border-bottom-color:var(--rule)}
+.tabs button:focus-visible{outline:2px solid var(--rule); outline-offset:-2px}
+.tabs .count{font-family:"IBM Plex Mono",monospace; font-size:11px; opacity:.7; margin-left:5px}
+.panel{display:flex; flex-direction:column; gap:26px}
+.panel[hidden]{display:none}
+.subhead{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 8px; font-weight:600}
+.watch-row{display:grid; grid-template-columns:minmax(150px,1.6fr) 110px 92px 84px 78px 84px;
+  gap:12px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
+.watch-row.head{padding-bottom:7px; color:var(--muted); font-size:11px; letter-spacing:.1em; text-transform:uppercase}
 .controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px}
 .controls button{font:inherit; font-size:12px; color:var(--ink); background:var(--surface);
   border:1px solid var(--line); border-radius:3px; padding:5px 12px; cursor:pointer}
@@ -108,6 +122,9 @@ section{display:flex; flex-direction:column}
 .warn{border-left:3px solid var(--up); padding-left:12px; margin-top:14px; font-size:13px}
 @media (max-width:720px){
   .row{grid-template-columns:1fr 104px 78px; row-gap:6px}
+  .watch-row{grid-template-columns:1fr 100px 80px; row-gap:6px}
+  .watch-row .tech,.watch-row .band{text-align:left}
+  .watch-row.head .tech,.watch-row.head .band,.watch-row.head span:nth-child(4){display:none}
   .bar,.verdict{grid-column:1/-1; text-align:left}
   .tech,.band{grid-column:span 1; text-align:left}
   .row.head .bar,.row.head .verdict,.row.head .tech,.row.head .band{display:none}
@@ -120,7 +137,7 @@ section{display:flex; flex-direction:column}
     <div class="eyebrow">Daily Portfolio Brief</div>
     <h1>보유 18종목 브리핑</h1>
     <div class="dateline">
-      <span>작성 <b>2026-09-06 21:32 KST</b></span>
+      <span>작성 <b>2026-09-06 21:35 KST</b></span>
       <span>종가 기준일 <b>2026-09-04</b></span>
       <span>뉴스 <b>2026-09-06 발행분 49건</b></span>
     </div>
@@ -140,30 +157,65 @@ section{display:flex; flex-direction:column}
     
   </section>
 
-  <section><h2>국내</h2><div class="rows">
+  <section>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-own" aria-controls="panel-own" aria-selected="true"
+              data-panel="panel-own">보유 종목<span class="count">18</span></button>
+      <button type="button" role="tab" id="tab-watch" aria-controls="panel-watch" aria-selected="false"
+              data-panel="panel-watch">관심 종목<span class="count">19</span></button>
+    </div>
+    <div class="panel" id="panel-own" role="tabpanel" aria-labelledby="tab-own">
+      <div><p class="subhead">국내</p><div class="rows">
 <div class="row head"><span>종목</span><span class="num">KRX 종가</span><span class="pct">전일 대비</span><span class="bar"></span><span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span><span class="verdict">검증</span></div>
-<div class="row"><span class="name">SK하이닉스<small>000660</small></span><span class="num">₩1,647,000<small>NXT ₩1,662,000 +4.14%</small></span><span class="pct up">▲ +3.20%</span><span class="bar"><i style="left:50%;width:14.7%;background:var(--up)"></i></span><span class="tech flat">48.3<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
-<div class="row"><span class="name">삼성전자<small>005930</small></span><span class="num">₩255,500<small>NXT ₩257,000 +2.80%</small></span><span class="pct up">▲ +2.20%</span><span class="bar"><i style="left:50%;width:10.1%;background:var(--up)"></i></span><span class="tech flat">48.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
-<div class="row"><span class="name">HD현대중공업<small>329180</small></span><span class="num">₩436,500<small>NXT ₩436,000 +0.23%</small></span><span class="pct up">▲ +0.34%</span><span class="bar"><i style="left:50%;width:1.6%;background:var(--up)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
-</div></section>
-  <section><h2>해외</h2><div class="rows">
+<div class="row"><span class="name">SK하이닉스<small>000660</small></span><span class="num">₩1,647,000<small>NXT ₩1,662,000 +4.14%</small></span><span class="pct up">▲ +3.20%</span><span class="bar"><i style="left:50%;width:13.4%;background:var(--up)"></i></span><span class="tech flat">48.3<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
+<div class="row"><span class="name">삼성전자<small>005930</small></span><span class="num">₩255,500<small>NXT ₩257,000 +2.80%</small></span><span class="pct up">▲ +2.20%</span><span class="bar"><i style="left:50%;width:9.2%;background:var(--up)"></i></span><span class="tech flat">48.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
+<div class="row"><span class="name">HD현대중공업<small>329180</small></span><span class="num">₩436,500<small>NXT ₩436,000 +0.23%</small></span><span class="pct up">▲ +0.34%</span><span class="bar"><i style="left:50%;width:1.4%;background:var(--up)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
+</div></div>
+      <div><p class="subhead">해외</p><div class="rows">
 <div class="row head"><span>종목</span><span class="num">종가</span><span class="pct">전일 대비</span><span class="bar"></span><span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span><span class="verdict">검증</span></div>
-<div class="row"><span class="name">이오스 에너지<small>EOSE</small></span><span class="num">$3.88</span><span class="pct up">▲ +10.86%</span><span class="bar"><i style="left:50%;width:50.0%;background:var(--up)"></i></span><span class="tech flat">52.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">컨스텔레이션 에너지<small>CEG</small></span><span class="num">$298.96</span><span class="pct up">▲ +4.88%</span><span class="bar"><i style="left:50%;width:22.5%;background:var(--up)"></i></span><span class="tech flat">66.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">버티브 홀딩스<small>VRT</small></span><span class="num">$280.53</span><span class="pct up">▲ +4.35%</span><span class="bar"><i style="left:50%;width:20.0%;background:var(--up)"></i></span><span class="tech flat">54.9<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">크레도 테크놀로지<small>CRDO</small></span><span class="num">$170.57</span><span class="pct up">▲ +3.90%</span><span class="bar"><i style="left:50%;width:18.0%;background:var(--up)"></i></span><span class="tech flat">34.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">비스트라 에너지<small>VST</small></span><span class="num">$149.30</span><span class="pct up">▲ +3.52%</span><span class="bar"><i style="left:50%;width:16.2%;background:var(--up)"></i></span><span class="tech flat">57.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">델<small>DELL</small></span><span class="num">$524.14</span><span class="pct up">▲ +1.50%</span><span class="bar"><i style="left:50%;width:6.9%;background:var(--up)"></i></span><span class="tech flat">63.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">시스코 시스템즈<small>CSCO</small></span><span class="num">$109.20</span><span class="pct up">▲ +0.54%</span><span class="bar"><i style="left:50%;width:2.5%;background:var(--up)"></i></span><span class="tech flat">41.0<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">컨스텔레이션 브랜즈<small>STZ</small></span><span class="num">$128.18</span><span class="pct down">▼ -0.70%</span><span class="bar"><i style="right:50%;width:3.2%;background:var(--down)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">나이키 B<small>NKE</small></span><span class="num">$38.40</span><span class="pct down">▼ -0.95%</span><span class="bar"><i style="right:50%;width:4.4%;background:var(--down)"></i></span><span class="tech flat">40.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">알파벳 A<small>GOOGL</small></span><span class="num">$338.46</span><span class="pct down">▼ -1.17%</span><span class="bar"><i style="right:50%;width:5.4%;background:var(--down)"></i></span><span class="tech flat">44.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">퍼스트솔라<small>FSLR</small></span><span class="num">$204.45</span><span class="pct down">▼ -1.43%</span><span class="bar"><i style="right:50%;width:6.6%;background:var(--down)"></i></span><span class="tech flat">41.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">록히드마틴<small>LMT</small></span><span class="num">$525.28</span><span class="pct down">▼ -1.44%</span><span class="bar"><i style="right:50%;width:6.6%;background:var(--down)"></i></span><span class="tech flat">33.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">알먼티<small>ALM</small></span><span class="num">$17.57</span><span class="pct down">▼ -1.51%</span><span class="bar"><i style="right:50%;width:7.0%;background:var(--down)"></i></span><span class="tech flat">56.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">노보노디스크 ADR<small>NVO</small></span><span class="num">$46.60</span><span class="pct down">▼ -1.92%</span><span class="bar"><i style="right:50%;width:8.8%;background:var(--down)"></i></span><span class="tech flat">49.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">마이크로소프트<small>MSFT</small></span><span class="num">$499.70</span><span class="pct down">▼ -2.04%</span><span class="bar"><i style="right:50%;width:9.4%;background:var(--down)"></i></span><span class="tech flat">59.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-</div></section>
+<div class="row"><span class="name">이오스 에너지<small>EOSE</small></span><span class="num">$3.88</span><span class="pct up">▲ +10.86%</span><span class="bar"><i style="left:50%;width:45.6%;background:var(--up)"></i></span><span class="tech flat">52.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">컨스텔레이션 에너지<small>CEG</small></span><span class="num">$298.96</span><span class="pct up">▲ +4.88%</span><span class="bar"><i style="left:50%;width:20.5%;background:var(--up)"></i></span><span class="tech flat">66.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">버티브 홀딩스<small>VRT</small></span><span class="num">$280.53</span><span class="pct up">▲ +4.35%</span><span class="bar"><i style="left:50%;width:18.3%;background:var(--up)"></i></span><span class="tech flat">54.9<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">크레도 테크놀로지<small>CRDO</small></span><span class="num">$170.57</span><span class="pct up">▲ +3.90%</span><span class="bar"><i style="left:50%;width:16.4%;background:var(--up)"></i></span><span class="tech flat">34.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">비스트라 에너지<small>VST</small></span><span class="num">$149.30</span><span class="pct up">▲ +3.52%</span><span class="bar"><i style="left:50%;width:14.8%;background:var(--up)"></i></span><span class="tech flat">57.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">델<small>DELL</small></span><span class="num">$524.14</span><span class="pct up">▲ +1.50%</span><span class="bar"><i style="left:50%;width:6.3%;background:var(--up)"></i></span><span class="tech flat">63.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">시스코 시스템즈<small>CSCO</small></span><span class="num">$109.20</span><span class="pct up">▲ +0.54%</span><span class="bar"><i style="left:50%;width:2.3%;background:var(--up)"></i></span><span class="tech flat">41.0<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">컨스텔레이션 브랜즈<small>STZ</small></span><span class="num">$128.18</span><span class="pct down">▼ -0.70%</span><span class="bar"><i style="right:50%;width:2.9%;background:var(--down)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">나이키 B<small>NKE</small></span><span class="num">$38.40</span><span class="pct down">▼ -0.95%</span><span class="bar"><i style="right:50%;width:4.0%;background:var(--down)"></i></span><span class="tech flat">40.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">알파벳 A<small>GOOGL</small></span><span class="num">$338.46</span><span class="pct down">▼ -1.17%</span><span class="bar"><i style="right:50%;width:4.9%;background:var(--down)"></i></span><span class="tech flat">44.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">퍼스트솔라<small>FSLR</small></span><span class="num">$204.45</span><span class="pct down">▼ -1.43%</span><span class="bar"><i style="right:50%;width:6.0%;background:var(--down)"></i></span><span class="tech flat">41.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">록히드마틴<small>LMT</small></span><span class="num">$525.28</span><span class="pct down">▼ -1.44%</span><span class="bar"><i style="right:50%;width:6.1%;background:var(--down)"></i></span><span class="tech flat">33.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">알먼티<small>ALM</small></span><span class="num">$17.57</span><span class="pct down">▼ -1.51%</span><span class="bar"><i style="right:50%;width:6.3%;background:var(--down)"></i></span><span class="tech flat">56.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">노보노디스크 ADR<small>NVO</small></span><span class="num">$46.60</span><span class="pct down">▼ -1.92%</span><span class="bar"><i style="right:50%;width:8.1%;background:var(--down)"></i></span><span class="tech flat">49.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">마이크로소프트<small>MSFT</small></span><span class="num">$499.70</span><span class="pct down">▼ -2.04%</span><span class="bar"><i style="right:50%;width:8.6%;background:var(--down)"></i></span><span class="tech flat">59.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+</div></div>
+    </div>
+    <div class="panel" id="panel-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
+      <div><p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
+        <div class="rows">
+<div class="watch-row head"><span>종목</span><span class="num">종가</span><span class="num">변동</span><span class="pct">변동률</span><span class="tech">RSI(14)</span><span class="band">볼린저</span></div>
+<div class="watch-row"><span class="name">샌디스크<small>SNDK</small></span><span class="num">$1,740.00</span><span class="num up">+$185.01</span><span class="pct up">▲ +11.90%</span><span class="tech flat">61.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">세레브라스 시스템즈<small>CBRS</small></span><span class="num">$210.05</span><span class="num up">+$19.61</span><span class="pct up">▲ +10.30%</span><span class="tech flat">52.9<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">마벨 테크놀로지<small>MRVL</small></span><span class="num">$223.55</span><span class="num up">+$14.72</span><span class="pct up">▲ +7.05%</span><span class="tech flat">51.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">코히런트<small>COHR</small></span><span class="num">$281.86</span><span class="num up">+$17.45</span><span class="pct up">▲ +6.60%</span><span class="tech flat">46.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">마이크론<small>MU</small></span><span class="num">$1,016.59</span><span class="num up">+$58.43</span><span class="pct up">▲ +6.10%</span><span class="tech flat">60.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">코어위브<small>CRWV</small></span><span class="num">$89.36</span><span class="num up">+$4.80</span><span class="pct up">▲ +5.68%</span><span class="tech flat">52.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">어플라이드 옵토일렉트로닉스<small>AAOI</small></span><span class="num">$105.53</span><span class="num up">+$5.15</span><span class="pct up">▲ +5.13%</span><span class="tech flat">43.6<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">AMD<small>AMD</small></span><span class="num">$477.57</span><span class="num up">+$21.41</span><span class="pct up">▲ +4.69%</span><span class="tech flat">49.7<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">인텔<small>INTC</small></span><span class="num">$95.80</span><span class="num up">+$4.13</span><span class="pct up">▲ +4.51%</span><span class="tech flat">51.7<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">루멘텀<small>LITE</small></span><span class="num">$881.25</span><span class="num up">+$33.88</span><span class="pct up">▲ +4.00%</span><span class="tech flat">51.8<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">솔스티스 어드밴스드 머티리얼즈<small>SOLS</small></span><span class="num">$63.73</span><span class="num up">+$2.36</span><span class="pct up">▲ +3.85%</span><span class="tech flat">57.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">오라클<small>ORCL</small></span><span class="num">$158.78</span><span class="num up">+$4.74</span><span class="pct up">▲ +3.08%</span><span class="tech flat">61.0<small>중립</small></span><span class="band up">상단 이탈</span></div>
+<div class="watch-row"><span class="name">텍사스 인스트루먼트<small>TXN</small></span><span class="num">$258.44</span><span class="num up">+$4.61</span><span class="pct up">▲ +1.82%</span><span class="tech flat">41.5<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">엔비디아<small>NVDA</small></span><span class="num">$230.36</span><span class="num up">+$1.91</span><span class="pct up">▲ +0.84%</span><span class="tech flat">60.4<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">브로드컴<small>AVGO</small></span><span class="num">$357.90</span><span class="num up">+$0.74</span><span class="pct up">▲ +0.21%</span><span class="tech flat">38.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">아마존<small>AMZN</small></span><span class="num">$258.51</span><span class="num down">$-0.39</span><span class="pct down">▼ -0.15%</span><span class="tech flat">49.6<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">케무어스<small>CC</small></span><span class="num">$15.30</span><span class="num down">$-0.18</span><span class="pct down">▼ -1.16%</span><span class="tech flat">43.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">휴렛팩커드 엔터프라이즈<small>HPE</small></span><span class="num">$52.00</span><span class="num down">$-2.44</span><span class="pct down">▼ -4.48%</span><span class="tech flat">48.8<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">테슬라<small>TSLA</small></span><span class="num">$354.08</span><span class="num down">$-22.29</span><span class="pct down">▼ -5.92%</span><span class="tech flat">50.9<small>중립</small></span><span class="band flat">밴드 내</span></div>
+</div></div>
+    </div>
+  </section>
 
   <section><h2>종목별 오늘의 뉴스</h2>
     <p class="byline">기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 투자 자문이 아님. 종목을 눌러 펼쳐 보세요.</p>
@@ -192,6 +244,18 @@ section{display:flex; flex-direction:column}
 <details class="holding" data-key="NVO"><summary class="holding-head"><h3>노보노디스크 ADR</h3><span class="code">NVO</span><span class="quote down">$46.60 · ▼ -1.92%</span><span class="quote muted">RSI 49</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span><span class="stance neutral">중립 1</span><span class="stance neutral">판단보류 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNUzZFM2RZVEd2N2tlWk5ZRDBpRmRXVFpueTVGS043Wlc4YW5TWmhjWUg4MXZFM2V5ekJqSk1kZ09NVW9BUmVMbi1lV2hWazRLYzFTeUlvc1BIRU5OTGYydEY1YWlycDktS1U5QlJwcUdkY01jcFgyT2ZqQnQ3VFV1cHFVTVhFUXB3YlN0ODY2UDVsMzdfSWxz?oc=5" target="_blank" rel="noopener">NVO Stock Generates Retail Buzz After European Commission Approves 7.2 MG Once-Weekly Dose Of Wegovy Injection</a><div class="meta"><span class="stance good">호재</span><span>Stocktwits</span><span class="time">10:05 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>유럽연합 집행위원회는 비만 성인을 대상으로 한 Wegovy 7.2mg 주 1회 투여를 승인했으며, STEP UP 연구에서 18개월간 평균 체중이 약 21% 감소해 위약군의 약 2%를 크게 웃돌았다. 이번 승인으로 27개 EU 국가에서 2.4mg 주사 3개를 한 번에 투여하는 방식이 허용됐고, 약 1,400명 이상의 임상시험 데이터가 근거로 사용됐다.</span><span><b>판단</b>고용량 Wegovy의 EU 전역 승인은 Novo Nordisk의 처방 대상과 제품 선택지를 넓혀 매출 확대에 기여할 수 있다. 임상에서의 강한 체중감량 결과도 비만 치료제 시장에서 Wegovy의 경쟁력과 의사·환자 수요를 뒷받침한다.</span><span class="care"><b>유의</b>승인 소식에도 NVO 주가는 화요일 오전 거래에서 1% 넘게 하락했다. 미국 등 다른 시장에서는 7.2mg 허가 신청이 아직 심사 중이며, 실제 판매 확대 속도와 공급 부족 가능성은 확인이 필요하다.</span></div></article><article class="story"><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEoySjAxbnBlTXpMMEdzOHc4aU9hSmdiTThWVDEtSnpWbnh4TDhQNDZBd3BFeV90QlJkWFl4bU5EdjJnWGhocm5LYWRBcHBxR0xwdXVScU9YdEFJMEREazhYS3hsYm9Ka1h4YUhSQ2FYTElLWXZZVWdOY2tLMlRkWHY1Ni1TQkQwOFRHUi16bVJFOXc?oc=5" target="_blank" rel="noopener">Novo Nordisk Launches Once-Weekly Basal Insulin Awiqli in India</a><div class="meta"><span>DD News</span><span class="time">04:50 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span class="care"><b>제목만 확보</b>본문 추출 실패 · 구글복원: URLError · 요약·판단 보류</span></div></article><article class="story"><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNzR3UDloSVJaalp4cXFKdWFzeVNrRU5hTkZzRTZza3hhWXg3MGJVejM0OEUwbzlGSzZMRkVKOEhQREpPQ2FWcFMzdUp6WkRqMnFoWVNBMzcyRjFycmRvZHFBUjRUMDZNX2stQ2RxbkZpYkszalN6S3BiWTJqclpTLWlTWmZFT1plNWxKTEhpaUF5aUtSQmxPMWtJbTk5MkVvdVc0ODRyOHdVQzMyTmV4cFh2b09vVVVFRVdCRDliRXFGamJCZmJhR3c1RDFPWDhRUGd1aXFJZWNqWnNMRWc?oc=5" target="_blank" rel="noopener">VKTX Stock Has Nearly 300% Wall Street Upside — Is Viking’s Oral Obesity Pill The Next Novo Nordisk-Style Breakout?</a><div class="meta"><span class="stance neutral">중립</span><span>Stocktwits</span><span class="time">02:39 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>기사는 Novo Nordisk가 아니라 Viking Therapeutics의 경구 비만 치료제 후보 VK2735와 VKTX 주가 전망을 주제로 한다. Morgan Stanley는 VKTX에 99달러 목표가와 ‘비중확대’를 유지했고, Raymond James는 118달러 목표가와 ‘강력 매수’를 제시했으며, Viking은 2026년 3분기 경구 VK2735의 3상 시험을 시작할 계획이다.</span><span><b>판단</b>Novo Nordisk의 Wegovy 경구제 출시 초기 수요가 강했다는 점은 경구 GLP-1 치료제 시장의 가능성을 보여주지만, 직접적인 수혜 대상은 Viking이다. 따라서 Novo Nordisk에는 시장 확대를 확인하는 간접 신호일 수 있으나, 이 기사만으로 NVO의 실적이나 주가에 미치는 영향은 제한적이다.</span><span class="care"><b>유의</b>기사의 주제와 애널리스트 목표가는 Viking Therapeutics에 관한 것이며, Novo Nordisk에는 경구 Wegovy의 초기 처방 데이터가 언급된 수준이다. Wegovy는 1월 23일 기준 주당 약 5만 건의 처방과 17만명 이상의 치료 환자를 기록했지만, 장기 매출이나 수익성 수치는 제시되지 않았다.</span></div></article></div></details>
   </section>
   <script>
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.tabs button'));
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        tabs.forEach(function (other) {
+          var on = other === tab;
+          other.setAttribute("aria-selected", on ? "true" : "false");
+          document.getElementById(other.dataset.panel).hidden = !on;
+        });
+      });
+    });
+  })();
   (function () {
     var KEY = "brief-open-holdings";
     var items = Array.prototype.slice.call(document.querySelectorAll("details.holding"));
@@ -233,7 +297,7 @@ section{display:flex; flex-direction:column}
       <li>뉴스는 제공처 발행 시각(KST)이 오늘인 기사만 종목당 최대 3건까지 쓰고, 두 출처 이상에서 확인되면 <b>교차확인</b>으로 표시합니다. 오늘 기사 49건 중 교차확인 13건.</li>
       <li>요약·판단은 기사 <b>본문</b>을 읽고 씁니다. 네이버 원문, 구글 링크를 복원한 매체 원문, Yahoo 기사 순으로 추출합니다. 오늘 49건 중 본문 확보 42건이며, 못 읽은 기사는 <b>제목만 확보</b>로 두고 판단하지 않습니다.</li>
       <li><b>RSI(14)</b>는 와일더 방식, <b>볼린저밴드</b>는 이동평균 20일 · 표준편차 2배(모집단 기준)입니다. 종가와 같은 데이터로 계산했고 최근 약 100거래일을 씁니다. 종가가 상단 밴드보다 높으면 <b>상단 이탈</b>, 낮으면 <b>하단 이탈</b>입니다. 국내는 KRX 종가(수정주가) 기준이라 NXT 가격과는 무관합니다.</li>
-      <li>막대는 상승 빨강 / 하락 파랑(국내 증시 관례)이며 길이는 최대 등락폭 10.86%에 맞춰 그렸습니다. <b>지표는 참고용이며 투자 자문이 아닙니다.</b></li>
+      <li>막대는 상승 빨강 / 하락 파랑(국내 증시 관례)이며 길이는 최대 등락폭 11.90%에 맞춰 그렸습니다. <b>지표는 참고용이며 투자 자문이 아닙니다.</b></li>
     </ul>
   </section>
 </div>

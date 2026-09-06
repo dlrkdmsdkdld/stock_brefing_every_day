@@ -20,8 +20,17 @@ python3 -m venv .venv
 
 ## 종목 추가·삭제 (`holdings.json`)
 
-종목 목록은 `holdings.json` 한 곳에만 있습니다. 여기에 한 줄 추가하면
-가격 조회, 뉴스 수집, 브리핑이 모두 따라갑니다.
+종목 목록은 `holdings.json` 한 곳에만 있습니다. 두 그룹으로 나뉩니다.
+
+| 그룹 | 키 | 수집 범위 | 브리핑 위치 |
+| --- | --- | --- | --- |
+| 보유 종목 | `holdings` | 가격 + 지표 + **뉴스·요약·판단** | `보유 종목` 탭, 종목별 뉴스 |
+| 관심 종목 | `watchlist` | 가격 + 지표만 | `관심 종목` 탭 |
+
+관심 종목은 뉴스를 수집하지 않습니다. 종목 수가 늘어도 요약 비용이 늘지 않고,
+브리핑이 길어지지도 않습니다. 같은 티커가 양쪽에 있으면 보유 쪽만 남깁니다.
+
+보유 종목에 한 줄 추가하면 가격·뉴스·브리핑이 모두 따라갑니다.
 
 ```json
 {"name": "엔비디아", "ticker": "NVDA", "currency": "USD",
@@ -33,6 +42,12 @@ python3 -m venv .venv
   영문 키워드는 대소문자를 지켜 단어 단위로 찾습니다. 소문자까지 허용하면
   `First Solar`가 `the first solar panel recycling program` 같은 무관한 제목에 걸립니다.
 - `query`는 구글 뉴스 RSS 검색어입니다. 해외는 큰따옴표로 묶어야 정확도가 오릅니다.
+
+관심 종목은 뉴스를 안 보므로 `keywords`·`query`가 필요 없습니다.
+
+```json
+{"name": "엔비디아", "ticker": "NVDA", "currency": "USD"}
+```
 
 ## 가격 (`prices.py`)
 
@@ -211,8 +226,10 @@ TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... .venv/bin/python notify.py
 ## 브리핑 (`brief.py`)
 
 `prices.json` + `news.json` + `verdicts.json`을 합쳐 `briefing.md`와 `briefing.html`을 만듭니다.
-상승/하락 종목 수와 평균 등락률, 국내·해외 종가 표(국내는 NXT 병기, RSI·볼린저 포함),
+상승/하락 종목 수와 평균 등락률, `보유 종목`/`관심 종목` 탭으로 나뉜 시세 표,
 종목별 뉴스와 요약·판단, 데이터 신뢰도 주석을 한 문서에 담습니다.
+보유 종목 표는 국내(NXT 병기)와 해외로 나뉘고, 관심 종목 표는 종가·변동액·변동률·RSI·볼린저만 보여줍니다.
+등락 막대의 눈금은 보유·관심을 합친 최대 등락폭으로 잡아 두 탭이 같은 기준으로 보입니다.
 오늘자 데이터가 없으면 `prices.py`·`news.py`를 먼저 실행하므로 이것만 돌려도 됩니다.
 
 공식 사용 문서: https://github.com/sharebook-kr/pykrx , https://ranaroussi.github.io/yfinance/
