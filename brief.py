@@ -242,6 +242,13 @@ def alert_section(prices, news, judged):
     return lines
 
 
+def news_off(prices_by_name, news):
+    """가격은 보지만 뉴스는 끈 보유 종목. 브리핑에서 빠진 이유를 밝혀 둔다."""
+    covered = set(news["news"]) | set(news.get("alerts", {}))
+    return [row for name, row in prices_by_name.items()
+            if row.get("group", "holding") == "holding" and name not in covered]
+
+
 def news_section(prices_by_name, news, judged):
     """종목별로 접었다 펼 수 있게 <details>로 감싼다. GitHub 마크다운에서도 동작한다."""
     lines = []
@@ -597,6 +604,15 @@ def html_alerts(prices, news, judged):
     return "\n".join(out)
 
 
+def news_off_note(prices_by_name, news):
+    skipped = news_off(prices_by_name, news)
+    if not skipped:
+        return ""
+    names = ", ".join(f'{esc(row["name"])}({esc(row["ticker"])})' for row in skipped)
+    return (f'<p class="upper-note">뉴스를 수집하지 않는 보유 종목 {len(skipped)} — {names}. '
+            f'가격·지표는 위 표에 그대로 나옵니다.</p>')
+
+
 def html_news(prices_by_name, news, judged):
     out = []
     for name, row in news["news"].items():
@@ -703,6 +719,7 @@ def render_html(now, prices, news):
       <button type="button" data-all="notable">호재·악재만 펼치기</button>
     </div>
     {html_news(by_name, news, judged)}
+    {news_off_note(by_name, news)}
   </section>
   <script>
   (function () {{
@@ -793,6 +810,11 @@ def main():
     if analyst:
         lines += [f"_{analyst}_", ""]
     lines += news_section(by_name, news, judged)
+    skipped = news_off(by_name, news)
+    if skipped:
+        lines += [f"뉴스를 수집하지 않는 보유 종목 {len(skipped)}: "
+                  + ", ".join(f"{row['name']}({row['ticker']})" for row in skipped)
+                  + " — `holdings.json`에서 `\"news\": true`로 바꾸면 다시 수집합니다.", ""]
     lines += ["## 데이터 신뢰도", "",
               "- 국내 종가는 pykrx(KRX)가 1차 출처이며 같은 거래일의 Yahoo·네이버 종가와 교차 검증합니다.",
               "- NXT 종가는 넥스트레이드(ATS) 최종 체결가로, 등락률로 역산한 전일 종가가 KRX 전일 종가와 맞을 때만 표시합니다.",

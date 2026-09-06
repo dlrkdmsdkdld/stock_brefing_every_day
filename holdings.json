@@ -6,7 +6,8 @@
     "currency": "KRW 또는 USD (KRW면 국내 시장으로 처리)",
     "keywords": "기사 제목에 이 말이 있으면 '직접 언급'으로 본다",
     "query": "구글 뉴스 RSS 검색어. 해외는 큰따옴표로 묶으면 정확도가 오른다",
-    "group": "holding(보유, 뉴스 수집함) 또는 watch(관심, 가격·지표만). 없으면 holding."
+    "group": "holding(보유, 뉴스 수집함) 또는 watch(관심, 가격·지표만). 없으면 holding.",
+    "news": "false면 뉴스를 수집하지 않는다(가격·지표는 그대로). 없으면 true. 보유 종목에만 의미 있음."
   },
   "holdings": [
     {
@@ -126,7 +127,8 @@
         "Google",
         "GOOGL"
       ],
-      "query": "\"Alphabet\" stock"
+      "query": "\"Alphabet\" stock",
+      "news": false
     },
     {
       "name": "시스코 시스템즈",
@@ -155,7 +157,8 @@
       "keywords": [
         "Lockheed"
       ],
-      "query": "\"Lockheed Martin\""
+      "query": "\"Lockheed Martin\"",
+      "news": false
     },
     {
       "name": "마이크로소프트",
@@ -165,7 +168,8 @@
         "Microsoft",
         "MSFT"
       ],
-      "query": "\"Microsoft\" stock"
+      "query": "\"Microsoft\" stock",
+      "news": false
     },
     {
       "name": "나이키 B",
@@ -175,7 +179,8 @@
         "Nike",
         "NKE"
       ],
-      "query": "\"Nike\" stock"
+      "query": "\"Nike\" stock",
+      "news": false
     },
     {
       "name": "노보노디스크 ADR",
@@ -185,7 +190,8 @@
         "Novo Nordisk",
         "NVO"
       ],
-      "query": "\"Novo Nordisk\""
+      "query": "\"Novo Nordisk\"",
+      "news": false
     }
   ],
   "watchlist": [
@@ -312,11 +318,6 @@
     {
       "name": "콴타 서비시스",
       "ticker": "PWR",
-      "currency": "USD"
-    },
-    {
-      "name": "인베스코 캐나다달러 ETF",
-      "ticker": "FXC",
       "currency": "USD"
     },
     {

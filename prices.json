@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T22:28:36.619656+09:00",
+  "fetched_at": "2026-09-06T22:39:38.458680+09:00",
   "note": "당일 일봉 제외. 실시간/시간외 가격 아님. 7일 초과 데이터는 stale 표시.",
   "holdings": [
     {
@@ -1146,31 +1146,6 @@
       "previous_close": 620.06,
       "change": 4.35,
       "change_pct": 0.7
-    },
-    {
-      "name": "인베스코 캐나다달러 ETF",
-      "ticker": "FXC",
-      "currency": "USD",
-      "group": "watch",
-      "source": "yfinance/Yahoo Finance",
-      "price_type": "마감된 최근 거래일 종가(국내는 수정주가 기준)",
-      "market_timezone": "America/New_York",
-      "status": "ok",
-      "rsi": 57.6,
-      "rsi_zone": "중립",
-      "bb_upper": 70.9894,
-      "bb_middle": 70.4945,
-      "bb_lower": 69.9996,
-      "bb_position": "밴드 내",
-      "bb_percent_b": 0.687,
-      "samples": 104,
-      "provider_name": "Invesco CurrencyShares Canadian Dollar Trust",
-      "market_cap_error": "ValueError: 시가총액 정보 없음",
-      "price": 70.68,
-      "date": "2026-09-04",
-      "previous_close": 70.86,
-      "change": -0.18,
-      "change_pct": -0.25
     },
     {
       "name": "GE 에어로스페이스",

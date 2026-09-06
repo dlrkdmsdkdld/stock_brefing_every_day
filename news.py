@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 import yfinance as yf
 
 import article
-from holdings import HOLDINGS, WATCHLIST
+from holdings import NEWS_HOLDINGS, WATCHLIST
 
 KST = ZoneInfo("Asia/Seoul")
 AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
@@ -273,7 +273,7 @@ def main():
     summaries, results, alerts, errors = {}, {}, {}, []
     # 보유 종목은 매일 수집하고, 관심 종목은 볼린저 하단을 이탈했을 때만 수집한다.
     watched = alert_targets(Path(__file__).parent / "prices.json", WATCHLIST)
-    targets = HOLDINGS + watched
+    targets = NEWS_HOLDINGS + watched
     if watched:
         print(f"하단 이탈 관심 종목 {len(watched)}건 추가 수집: "
               f"{', '.join(item['ticker'] for item in watched)}")
