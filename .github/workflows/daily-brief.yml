@@ -25,6 +25,9 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_API_KEY_2: ${{ secrets.OPENAI_API_KEY_2 }}
       OPENAI_API_KEY_3: ${{ secrets.OPENAI_API_KEY_3 }}
+      OPENAI_API_KEY_4: ${{ secrets.OPENAI_API_KEY_4 }}
+      OPENAI_API_KEY_5: ${{ secrets.OPENAI_API_KEY_5 }}
+      OPENAI_API_KEY_6: ${{ secrets.OPENAI_API_KEY_6 }}
       # OpenAI 키를 모두 소진하면 넘어갈 마지막 예비(기본 설정은 Gemini 무료 티어).
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -55,7 +58,7 @@ jobs:
         run: python news.py
 
       - name: 기사 요약·호재/악재 판단
-        if: ${{ (env.OPENAI_API_KEY != '' || env.OPENAI_API_KEY_2 != '' || env.OPENAI_API_KEY_3 != '' || env.GEMINI_API_KEY != '') && env.SKIP_SUMMARY != '1' }}
+        if: ${{ (env.OPENAI_API_KEY != '' || env.OPENAI_API_KEY_2 != '' || env.OPENAI_API_KEY_3 != '' || env.OPENAI_API_KEY_4 != '' || env.OPENAI_API_KEY_5 != '' || env.OPENAI_API_KEY_6 != '' || env.GEMINI_API_KEY != '') && env.SKIP_SUMMARY != '1' }}
         continue-on-error: true
         run: python summarize.py
 
