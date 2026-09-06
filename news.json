@@ -1,0 +1,1007 @@
+{
+  "fetched_at": "2026-09-06T20:21:47+09:00",
+  "today_kst": "2026-09-06",
+  "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 3건. 2개 이상 출처에 나타나면 cross_confirmed.",
+  "sources": {
+    "국내": [
+      "네이버 금융",
+      "구글 뉴스 RSS"
+    ],
+    "해외": [
+      "Yahoo Finance",
+      "구글 뉴스 RSS"
+    ]
+  },
+  "counts": {
+    "종목": 18,
+    "기사": 49,
+    "교차확인": 12,
+    "본문확보": 14
+  },
+  "errors": [],
+  "news": {
+    "SK하이닉스": {
+      "ticker": "000660",
+      "market": "국내",
+      "candidates": 90,
+      "stories": [
+        {
+          "title": "“230만원→70만원” SK하이닉스보다 심하다…‘반토막’에 충격적 리...",
+          "published_kst": "2026-09-06T19:40+09:00",
+          "relevance": "direct",
+          "sources": {
+            "네이버 금융": {
+              "publisher": "헤럴드경제",
+              "url": "https://n.news.naver.com/mnews/article/016/0002693391",
+              "published_kst": "2026-09-06T19:40+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mc0U5VnlVcGVYaTdVc3pUbkN0OEdvak9WNV9lQVZkT09NRFkzeDBvc2trY1NUUl9aYkdWWnE1dnM4cG9uR0FqWGZfcVBXSUdpTWlr?oc=5",
+              "published_kst": "2026-09-06T19:41+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "SK스퀘어 본사 \n\n[헤럴드경제=박영훈 기자] “자고 나면 오르더니”\n\nSK하이닉스 못지않은 주가 상승률을 자랑했던 SK스퀘어가 대폭락을 하면서 투자자들이 아우성이다.\n\n지난 6월 장중 230만원까지 돌파했던 SK스퀘어는 70만원대까지 폭락하더니, 지난 4일 간신히 반등 104만원대로 마감했다. 여전히 고점 대비 ‘반토막’이 났다.\n\n올해 들어 SK스퀘어의 주가 상승은 놀라울 정도였다. 20만원대 주가가 10배 이상 폭등, 200만원을 넘어섰다. 주가가 폭등하면서 너도나도 SK하이닉스 못지않게 SK스퀘어 매수에 불나방처럼 뛰어들었다. 200만원대 고점에서 물린 개미들이 많은 것으로 전해졌다.\n\n“완전 망했다” “지금이라도 팔아야 하나” 등 주가가 폭락하면서 개미들은 아우성이다.\n\nSK스퀘어는 2021년 SK텔레콤에서 분할 상장된 SK하이닉스 지주사다. SK스퀘어가 올해 들어 폭등한 것은 자사주 매입·소각 등 적극적인 주주 환원 정책과 자산가치의 대부분을 차지하는 SK하이닉스 주가가 폭등했기 때문이다.\n\n주가 반등을 기대했던 투자자들에게는 충격적인 보고서도 나왔다. LS증권은 이례적으로 SK하이닉스의 목표주가를 기존 330만원에서 240만원으로 대폭 하향 조정하면서 SK스퀘어 목표주가도 큰 폭으로 낮췄다.\n\n \n \n \n \n SK하이닉스 [사진 연합] \n\n삼성전자의 고대역폭메모리(HBM) 추격과 공급망 다변화로 SK하이닉스의 수익성이 둔화할 수 있다고 우려했다.\n\nLS증권은 “SK하이닉스의 내년 HBM 영업이익률(OPM)이 약 80% 수준까지 상승할 것으로 전망했으나 최근 산업 점검 결과 올해와 유사한 약 60% 수준이 유지되는 것으로 파악된다”고 밝혔다.\n\nLS증권은 목표주가 하향 조정에 대해 “조정의 핵심은 HBM 수요 둔화나 메모리 사이클 종료가 아니라, 기존에 가정했던 내년 HBM 초과 수익성이 현실화되지 않는 점을 반영한 HBM 실적 전망치 하향”이라며 “여기에 삼성전자의 HBM4 진입으로 공급자 집중에 따른 프리미엄도 일부 완화될 가능성을 반영했다”고 밝혔다.\n\nNH투자증권도 SK하이닉스의 최대주주인 SK스퀘어의 목표주가를 기존 270만원 대비 15% 하향한 228만원으로 하향했다. NH투자증권은 SK스퀘어에 대해 “업황은 긍정적이지만 SK하이닉스의 영업이익 ‘피크아웃’(고점 통과) 우려로 주가가 한 차례 조정을 받은 상황”이라며 “SK하이닉스의 최근 1개월간 주가 조정을 반영해 순자산가치(NAV) 대비 할인율을 상향 적용, SK스퀘어 목표주가를 228만원으로 하향 조정했다”고 전했다.\n\n하지만 주가 반등 국면에서는 SK스퀘어가 SK하이닉스보다 더 가파르게 회복할 것으로 전망했다.",
+          "body_source": "네이버 뉴스 본문"
+        },
+        {
+          "title": "HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지",
+          "published_kst": "2026-09-06T17:00+09:00",
+          "relevance": "direct",
+          "sources": {
+            "네이버 금융": {
+              "publisher": "머니투데이",
+              "url": "https://n.news.naver.com/mnews/article/008/0005410022",
+              "published_kst": "2026-09-06T17:00+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "머니투데이",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSS2JwQzBvNi04ZmtRZThLOEZyaVBub2xDWTVGNDZBMldObEN2cWMtRHhCQU8wUWljUFhjNlo2ZkhUWnRSMTZPbGx0Ukd5bDI5MHZxckRZTlNnNkh1TDRtUjEtS2dBUEtTYkhDallWUnR0UdIBckFVX3lxTFBSS2JwQzBvNi04ZmtRZThLOEZyaVBub2xDWTVGNDZBMldObEN2cWMtRHhCQU8wUWljUFhjNlo2ZkhUWnRSMTZPbGx0Ukd5bDI5MHZxckRZTlNnNkh1TDRtUjEtS2dBUEtTYkhDallWUnR0UQ?oc=5",
+              "published_kst": "2026-09-06T17:00+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "2분기 낸드 시장 70% 성장…가격도 55% 뛰며 호황 지속\nAI 추론 확산에 eSSD 수요 폭증…양사 실적 기여도 확대 전망 \n \n \n \n 삼성전자·SK하이닉스 2분기 낸드 실적/그래픽=이지혜 AI(인공지능) 인프라 투자의 중심축이 학습에서 추론 단계로 옮겨가면서 낸드플래시 시장이 급성장하고 있다. 고성능 eSSD(기업용 SSD) 수요 폭증과 가격 상승이 더해지면서 삼성전자와 SK하이닉스의 글로벌 낸드 매출 점유율이 50%에 육박한 것으로 나타났다.\n\n6일 글로벌 시장조사업체 카운터포인트리서치에 따르면 올해 2분기 글로벌 낸드 시장 매출은 전분기 대비 70% 증가했다. 이 기간 낸드 가격 역시 55% 뛰어올랐다. 앞서 1분기 낸드 매출이 전분기 대비 90% 급증한 데 이어 2개 분기 연속 가파른 성장세다.\n\n시장 확대를 이끄는 주역은 AI 서버다. AI 학습 단계에서는 연산을 위한 HBM(고대역폭메모리)에 수요가 쏠렸다면 추론 단계에서는 서버가 처리하고 저장해야 할 데이터가 급증하면서 eSSD 역할이 커지고 있다. 실제 2분기 eSSD는 전체 낸드 비트 출하량의 48%를 기록했다. 지난해 같은 기간 26% 수준에 머물던 비중이 두 배 가까이 뛴 셈이다.\n\n삼성전자는 낸드 시장 선두를 고수하고 있다. 올해 2분기 매출 기준 삼성전자의 글로벌 낸드 점유율은 28%로 집계됐다. eSSD 매출도 가파르게 늘었다. 시장조사업체 트렌드포스는 같은 기간 삼성전자의 eSSD 매출을 143억5000만 달러(약 19조4184억원)로 집계했다. 이는 전분기 70억5000만 달러(약 9조5273억원) 대비 두 배 이상 늘어난 수치다. \n\n176단 QLC(쿼드레벨셀) 제품 출하를 늘리고 고사양 PCIe 5.0 제품 비중을 확대한 결과다. QLC는 하나의 셀에 더 많은 데이터를 저장할 수 있어 대용량 스토리지 구축에 유리하다. AI 서버를 중심으로 고용량 스토리지 수요가 늘면서 탄탄한 제품군을 갖춘 삼성전자가 특수를 누리고 있는 셈이다.\n\nSK하이닉스 역시 2분기 낸드 매출 점유율이 19%로 전분기보다 1%p(포인트) 상승하며 2위에 올랐다. 트렌드포스는 SK하이닉스의 eSSD 매출을 86억3000만 달러(약 11조6781억원) 이상으로 추산했다. SK하이닉스는 321단 TLC(트리플레벨셀) 제품 적용을 확대하고 자회사 솔리다임은 초고용량 QLC eSSD를 앞세워 AI 데이터센터 수요에 대응하고 있다. HBM에 집중됐던 AI 수익창출원이 eSSD로 넓어지고 있는 구조다.\n\nSK하이닉스는 늘어나는 낸드 수요에 신속히 대응하기 위해 외부 협력 가능성도 열어뒀다. 최태원 SK그룹 회장은 최근 일본 언론과의 인터뷰에서 \"키옥시아의 미래 전략에 SK하이닉스가 들어간다면 우리는 언제든 파트너가 될 생각이 있다\"며 \"(공동생산도) 하나의 선택지\"라고 밝혔다.\n\n삼성전자 SK하이닉스의 낸드 점유율을 합산한 수치는 47%에 달한다. 반도체 업계 관계자는 \"AI 추론 서비스 확산에 따라 글로벌 빅테크의 eSSD 주문이 가파르게 늘고 있다\"며 \"낸드 가격의 강세 흐름과 맞물려 양사의 낸드 부문 실적 기여도가 하반기로 갈수록 더 커질 것\"이라고 분석했다.",
+          "body_source": "네이버 뉴스 본문"
+        },
+        {
+          "title": "하이닉스 독주 흔드나…삼성전자, HBM 점유율 격차 '37%p→17%p'",
+          "published_kst": "2026-09-06T13:26+09:00",
+          "relevance": "direct",
+          "sources": {
+            "네이버 금융": {
+              "publisher": "이코노미스트",
+              "url": "https://n.news.naver.com/mnews/article/243/0000102686",
+              "published_kst": "2026-09-06T13:26+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": true,
+          "body": "서초 삼성전자 사옥 전경. [사진 연합뉴스] [이코노미스트 박재우 기자] 삼성전자가 고대역폭메모리(HBM) 시장에서 점유율을 빠르게 끌어올리며 선두 SK하이닉스와의 격차를 좁히고 있다. 올 하반기 HBM4 출하가 본격화하면서 양사의 시장 주도권 경쟁도 한층 치열해질 전망이다.\n\n6일 업계에 따르면 시장조사업체 카운터포인트리서치는 올해 2분기 글로벌 HBM 시장에서 SK하이닉스가 매출 기준 50%의 점유율로 1위를 차지했다고 집계했다. 삼성전자는 33%로 2위에 올랐다.\n\n삼성전자의 점유율은 1분기 21%에서 한 분기 만에 12%포인트 상승했다. 반면 같은 기간 SK하이닉스는 58%에서 50%로 8%포인트 낮아졌다. 이에 따라 양사의 점유율 격차는 1분기 37%포인트에서 2분기 17%포인트로 절반 이하로 줄었다.\n\n지난해 2분기와 비교하면 삼성전자의 상승세는 더욱 두드러진다. 당시 15%였던 삼성전자의 점유율은 1년 만에 18%포인트 상승했다. 같은 기간 SK하이닉스의 점유율은 64%에서 50%로 낮아졌다. 3위 마이크론의 2분기 점유율은 18%로 집계됐다.\n\n삼성전자가 엔비디아 등 주요 고객사를 상대로 HBM 공급을 확대하면서 SK하이닉스가 주도해온 시장 구도에도 변화가 나타나고 있다. 삼성전자의 점유율 상승세가 하반기에도 이어질 경우 양사의 선두 경쟁은 더욱 치열해질 것으로 예상된다.\n\n향후 시장 판도를 가를 최대 변수로는 6세대 HBM인 HBM4가 꼽힌다. 현재 HBM 시장 매출 대부분은 HBM3E에서 발생하고 있지만 HBM4 출하는 올 하반기부터 본격화할 전망이다. HBM4는 HBM3E보다 성능이 높고 가격도 비싸 수익성이 높은 제품이다.\n\n삼성전자는 지난 2월 HBM4를 업계 최초로 양산 출하했다. SK하이닉스도 2분기 HBM4 양산 출하를 시작하고 생산 물량을 확대하고 있다. 최근 양산이 공식화된 엔비디아의 차세대 인공지능(AI) 가속기 '베라 루빈'에는 양사의 HBM4 제품이 탑재된다. AMD의 AI 가속기 '인스팅트 MI455X'에도 HBM4가 들어간다.\n\n카운터포인트리서치는 \"2분기 기업들의 HBM 매출 대부분은 HBM3E에서 나왔으며, HBM4 출하는 올 하반기에 본격화될 것\"이라고 전했다.\n\n양사 모두 HBM4 양산에 돌입한 만큼 향후 수율과 양산 안정성, 공급 능력이 경쟁 구도를 좌우할 전망이다. HBM4부터는 고객사의 요구에 맞춰 칩의 성능을 구현하는 맞춤형 설계 역량도 중요해지고 있다.\n\n삼성전자는 설계부터 파운드리, 첨단 패키징까지 자체 역량으로 연결하는 원스톱 턴키 솔루션을 내세우고 있다. SK하이닉스는 대만 TSMC와 HBM 베이스다이 및 패키징 등을 공동 개발하며 경쟁력을 강화하고 있다.\n\n중국 업체의 추격도 변수다. 중국 최대 D램 업체 창신메모리(CXMT)는 최근 글로벌 D램 시장에서 처음으로 두 자릿수 점유율을 기록했으며 HBM3E도 소량 생산하고 있다. 내년에는 본격적인 양산에 돌입할 계획이다.",
+          "body_source": "네이버 뉴스 본문"
+        }
+      ]
+    },
+    "삼성전자": {
+      "ticker": "005930",
+      "market": "국내",
+      "candidates": 90,
+      "stories": [
+        {
+          "title": "삼성전자, 단독 전시관서 유럽 판로 확대 '밀착 상담'",
+          "published_kst": "2026-09-06T18:25+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "파이낸셜뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zcXpRZEEzQXZSbXJrcXg1UzJ1VVJ4OTRnTFJsbjc0NGt5Sk9rYjFxT3VMMUwxM2Rpb0tTZHB3ajNmVVBodTRxa2lfM2I4YWNPd1NPSGViSGFFUQ?oc=5",
+              "published_kst": "2026-09-06T18:25+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "파이낸셜뉴스",
+              "url": "https://n.news.naver.com/mnews/article/014/0005571631",
+              "published_kst": "2026-09-06T18:27+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "35년 만에 틀 깨고 별도로 운영\n소규모로 밀도 높은 B2B 집중\n현장서 AI 리빙 활용으로 호평 \n \n \n \n 독일 베를린 도심의 훔볼트 카레 삼성전자 'IFA 2026' 단독 전시관에서 삼성전자 임직원들과 유럽 주요 거래선들이 모여 사업 논의를 하고 있다. 사진=임수빈 기자 \n#. 주방의 냉장고 화면을 터치하자 보관 중인 식재료로 만들 수 있는 요리와 레시피가 줄줄이 나타났다. 거실로 자리를 옮겨 화면 속 인공지능(AI)에 원하는 TV 조건을 말하자 이에 맞는 제품을 곧바로 골라냈다. 영어로 설명을 이어가던 AI에 \"한국어로 말해 달라\"고 하자 이번에는 자연스러운 한국어로 답했다. 냉장고부터 TV까지, 일상 곳곳에 파고든 AI를 눈앞에서 확인할 수 있었다. \n \n【파이낸셜뉴스 베를린(독일)= \n】올해 삼성전자가 유럽 최대 가전 전시회 'IFA 2026' 기간 동안 독일 베를린 도심의 컨벤션센터 '훔볼트 카레'에 마련한 전시관에서 만난 'AI 리빙'의 모습이다. 특히 올해는 별도의 전시 공간에서 유럽 주요 거래선과 소규모 미팅에 집중하며 기업간거래(B2B) 접점을 넓히는 데 힘을 실었다. \n \n6일 업계에 따르면 삼성전자는 지난 1991년 IFA 첫 참가 이후 35년 만에 공식 전시장인 메세 베를린을 벗어나 베를린 도심 '훔볼트 카레'에 별도 전시 공간을 마련했다. 수많은 관람객을 상대로 제품을 선보이기보다 주요 거래선과 파트너들이 제품과 솔루션을 보다 집중적으로 체험하고 사업 논의를 이어갈 수 있도록 하기 위해서다. \n \n실제 전시장 곳곳에서는 삼성전자 관계자와 유럽 주요 거래선들이 테이블에 마주 앉아 소규모 미팅을 이어가고 있었다. 설훈 삼성전자 독일법인 부사장은 \"파트너들과 친화적인 공간을 조성해서 삼성 제품의 우수성 및 솔루션 사용성들에 대해서 좀 더 깊이 있게 이야기를 하고, 소통할 수 있는 장을 만들기 위해서 IFA 기간 별도로 공간을 만든 것\"이라고 설명했다. \n \nB2B 고객사 반응도 긍정적이다. 최성민 삼성전자 독일법인 CE리테일담당은 \"전시장을 운영하다 보면 주변 환경이 시끄럽고, 집중을 못하는 경우가 있다\"며 \"단독 전시관에서는 소그룹으로 미팅을 진행해 집중도가 더 높아졌다\"고 전했다. 이어 \"전체적으로 (비즈니스) 성사율이 높아졌고, 거래선 반응도 좋은 편\"이라고 덧붙였다. \n \n거래선과의 사업 논의에 그치지 않고 실제 판매 현장에서 활용할 수 있는 구체적인 방법도 제시했다. 예컨대 TV 앞 QR코드를 스마트폰으로 스캔해 '스크린 사이즈 시뮬레이터'를 작동시키면, 77형·115형 등 다양한 크기의 TV를 실시간으로 비교해볼 수 있었다. 매장에 여러 크기의 TV를 모두 진열하기 어려운 만큼, 한정된 공간에서도 소비자가 원하는 제품 크기를 비교해 선택할 수 있도록 한 것이다. \n \n아울러 올해 삼성전자의 전시 주제는 '당신의 AI 일상 동반자'다. 전시는 엔터테인먼트 컴패니언, 홈 컴패니언, 셀프케어 컴패니언 등 세 공간으로 구성됐다. 지난해 가전과 모바일 기기를 연결하는 'AI 홈'을 강조했다면 올해는 콘텐츠 감상과 건강관리, 식생활, 에너지 절감 등 일상 전반으로 AI 경험을 확장한 'AI 리빙'을 전면에 내세웠다.",
+          "body_source": "네이버 뉴스 본문"
+        },
+        {
+          "title": "삼성전자, LG전자 OLED TV '추격'…中 물량공세 속 프리미엄 혈투",
+          "published_kst": "2026-09-06T16:00+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HYzBIZHF6Zk5fVGVJSmJMWVRWbW51TXpuajQ2YVpDWEFHczZKRTEzdklraHVLR0IzbG52elFaZ01NaWpDekhnSERyb3JqUQ?oc=5",
+              "published_kst": "2026-09-06T16:00+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "전자신문",
+              "url": "https://n.news.naver.com/mnews/article/030/0003463941",
+              "published_kst": "2026-09-06T16:01+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "삼성전자 2026년형 OLED TV \n 삼성전자가 올해 유기발광다이오드(OLED) TV 출하량을 전년 대비 약 16% 늘려, LG전자와 물량 격차를 100만대 초반 수준으로 좁힐 전망이다. \n\n중국 기업이 액정표시장치(LCD) TV를 중심으로 물량공세를 강화하면서 삼성전자와 LG전자의 OLED TV 경쟁이 뜨거워지는 양상이다.\n\n시장조사업체 옴디아에 따르면, 삼성전자는 올해 OLED TV를 약 231만대 출하할 것으로 관측된다. 물량을 전년(199만대)보다 늘려 올해 OLED TV 시장에서 출하량 기준 점유율 33.5%가 예상된다.\n\nLG전자의 올해 OLED TV 출하량 전망치는 345만대로 집계됐다. 전년(322만대) 대비 7.3% 늘어나지만, 삼성전자보다는 증가 폭이 적다. 이에 따라 양사 물량 격차는 지난해 123만대에서 114만대로 줄 것으로 전망된다.\n\nLG전자는 2013년 OLED TV를 첫 출시한 이후 시장점유율 1위를 유지하고 있다. 삼성전자는 2022년 OLED TV 시장에 가세했다. LG전자가 시장을 선점한 만큼 삼성전자 초기 존재감은 미미했다.\n\n그러나 삼성전자가 OLED 패널 공급망을 삼성디스플레이 이외 LG디스플레이로 다변화하고 제품 라인업을 늘리면서 물량도 확대, LG전자를 빠르게 추격하고 있는 것으로 분석된다. \n\n \n \n \n \n LG전자 2026년형 OLED TV \n양 사는 OLED TV를 비롯한 프리미엄 시장을 공략하고 있다. LCD 패널 공급망을 장악한 중국 기업이 가격 경쟁력을 앞세워 LCD TV 저가공세를 펼치면서 삼성전자와 LG전자는 고부가가치 시장에 집중할 수밖에 없는 상황이기 때문이다.\n\n옴디아는 LCD와 OLED를 합산한 전체 TV 시장에서 TCL·하이센스·스카이워스 등이 올해 출하량을 늘려 중국 브랜드가 양적 성장을 이어갈 것으로 내다봤다. 중국 7개 브랜드의 올해 TV 출하량 합산 전망치는 9182만대로 전년 대비 2.58% 증가가 예상된다.\n\n반면, 삼성전자와 LG전자의 올해 TV 출하량 합산 전망치는 5806만대로 전년보다 1.2% 감소가 점쳐진다. 삼성전자와 LG전자는 올해 물량이 지난해보다 각각 0.3%, 2.7% 줄어들 것으로 예상된다.\n\n이에 삼성전자와 LG전자는 OLED TV 라인업을 다변화하고, 인공지능(AI)·플랫폼 기능을 고도화해 고부가가치 시장 사수에 나설 예정이다. LCD TV에서는 중국 기업과 가격 경쟁이 어렵다는 게 업계 중론이다.\n\n중국의 양적 팽창 속에서 프리미엄 시장 입지를 유지하려는 삼성전자와 LG전자의 OLED TV 시장 주도권 경쟁도 한층 뜨거워질 전망이다.\n\nTV 업계 관계자는 “삼성전자와 LG전자의 TV 사업 수익성은 OLED 제품을 비롯한 프리미엄 라인업에 달려 있다”며 “양사 OLED TV 경쟁 구도는 더욱 치열하게 전개될 것”이라고 예상했다.\n\n \n \n \n \n TV 출하량 추이 - LCD·OLED TV 합산. 단위: 대. *전망치 (자료=옴디아) \n\n \n \n \n \n OLED TV 출하량 추이 - 단위: 대. *전망치 (자료=옴디아)",
+          "body_source": "네이버 뉴스 본문"
+        },
+        {
+          "title": "삼성전자 DX 노조 '美타임스퀘어 전광판 광고'…\"부적절한 행위\" 지적도",
+          "published_kst": "2026-09-06T15:47+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jbml1elJORVRyMEJjUG5YWHNzc0xTb05fZUhwbmVGWVRwWkI0ZnhVQmdaV1JmWGFOaWtsYnlKNnl4R1ZEMExGdDhzUF9WSTg?oc=5",
+              "published_kst": "2026-09-06T15:47+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "한국경제",
+              "url": "https://n.news.naver.com/mnews/article/015/0005329128",
+              "published_kst": "2026-09-06T16:26+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "동행노조, 15초짜리 영상 집행\n경영진과 소통 위한 조치\n브랜드 가치 훼손 '해사 행위' 지적 나와 \n \n \n \n 삼성전자의 완제품 사업을 맡고 있는 디바이스경험(DX) 부문 중심의 삼성전자 노동조합 동행(이하 동행노조)이 5일(현지시간) 미국 뉴욕 타임스퀘어 전광판에 인력 감축에 반대하는 광고를 게시했다. 이날 0시부터 매시 35분마다 송출되는 15초 길이의 영상은 \"GREAT PRODUCTS BEGIN WITH PEOPLE. 위대한 제품은 사람으로부터 시작됩니다. WE ARE STILL HERE. 우리도 아직 여기 있습니다\"라는 메시지를 담았다. /사진=연합뉴스 \n삼성전자 완제품(DX) 부문 중심의 노동조합 동행(동행노조)이 최근 미국 뉴욕 타임스퀘어 전광판 광고를 통해 사측을 겨냥했다. 일각에선 삼성전자의 브랜드 가치를 훼손하는 '해사(害社) 행위'로 부적절하다는 비판도 나오고 있다.\n\n6일 업계에 따르면 동행노조는 5일(현지시간) 0시부터 매시 35분마다 송출되는 15초짜리 영상을 통해 \"GREAT PRODUCTS BEGIN WITH PEOPLE(위대한 제품은 사람으로부터 시작됩니다)\" \"WE ARE STILL HERE(우리도 아직 여기 있습니다)\"라는 메시지를 공개했다.\n\n중국의 가전(DA)·영상디스플레이(VD) 공세, 모바일경험(MX) 부문 반도체 가격 인상에 따른 마진 감소 등 경영 현안을 두고 경영진과 소통하기 위한 조치라는 게 동행노조 측의 설명이다. 동행노조는 경영진과 소통 창구가 마련되지 않을 경우 다음 주에도 광고를 집행할 예정이다.\n\n동행노조의 이 같은 행보가 사측에 대한 성과급 압박이라는 해석도 나오고 있다. 동행노조는 지난 5월 삼성전자 노사가 합의한 임금협상 과정에서 DX 부문이 소외돼 DS(반도체) 부문과 막대한 성과급 격차가 발생했다고 주장했다. 동행노조는 DX 부문의 수익성 악화 원인이 경영 실패에 있다고 보고, 경영진과의 소통을 촉구 중이다.\n\n \n \n \n \n 삼성전자 DX 부문 동행노조 조합원들이 21일 서울 삼성 서초사옥 인근에서 열린 'DS부문과 보상격차 해소 요구 집회'에서 행진하고 있다. /사진=뉴스1 \n\n게다가 DS 부문과 성과급 격차를 메꾸기 위한 추가 보상도 요구하고 있다. 요구사항은 △DX 부문 직원 1인당 자사주 1000주 지급 △전사 성과의 일정 비율을 기반으로 공통 재원 마련 및 배분 △기본급 인상률(Base-up) 전사 동일 적용 등이다. 이에 사측은 불가 입장을 고수했다.\n\n동행노조는 지난달 21일 삼성전자 서초사옥 인근에서 대규모 집회를 열었다. 오는 18일부터 서울 용산구 이재용 삼성전자 회장 자택 인근에서 무기한 집회에 나설 계획이다. 최근 계속된 시위·집회 등의 상황을 미뤄볼 때, 이번 미국 뉴욕 타임스퀘어 전광판 광고 역시 성과급을 겨냥한 행보라는 해석이 나오는 이유다.\n\n특히, 동행노조가 글로벌 랜드마크인 뉴욕 타임스퀘어에 삼성전자를 겨냥한 광고를 낸 것은 해사 행위에 해당한다는 지적이 나온다. 삼성전자는 브랜드 가치 제고에 수많은 비용과 노력을 쏟고 있는데 사측의 경영 방침에 대한 노조의 비판성 메시지가 적절했느냐는 취지다. 글로벌 고객이나 투자자들의 시선을 신경 써야 했다는 이야기도 나온다.\n\n온라인 커뮤니티에선 동행노조의 이번 타임스퀘어 광고에 대해 부적절하다는 반응도 많다. 한 익명의 누리꾼은 \"저 광고판 가격이 상당한 걸로 알고 있는데 그 돈을 광고로 날린다\"고 지적했다. 이 밖에 \"자기 회사 이미지를 저렇게 만드냐\" \"노조의 선 넘는 행위\" \"부끄럽다\" 등의 반응도 올라왔다.",
+          "body_source": "네이버 뉴스 본문"
+        }
+      ]
+    },
+    "HD현대중공업": {
+      "ticker": "329180",
+      "market": "국내",
+      "candidates": 84,
+      "stories": [
+        {
+          "title": "HD현대 단골 선주마저… 中에 車운반선 맡겼다",
+          "published_kst": "2026-09-06T18:27+09:00",
+          "relevance": "direct",
+          "sources": {
+            "네이버 금융": {
+              "publisher": "파이낸셜뉴스",
+              "url": "https://n.news.naver.com/mnews/article/014/0005571632",
+              "published_kst": "2026-09-06T18:27+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": true,
+          "body": "이스라엘계 레이카캐리어스 발주\n10억弗 규모… 中 PCTC '독주'\n대규모 데이터로 80% 이상 차지 수십년 간 HD현대에 자동차운반선(PCTC) 신조 발주를 집중해온 것으로 알려진 레이카캐리어스가 처음으로 중국 조선소에 대형 물량을 맡긴 것으로 전해졌다. 중국이 최근 PCTC 신조시장에서 80%이상의 점유율을 차지하는 가운데, 한국 조선사의 오랜 고객까지 중국으로 발주처를 넓히면서 양국 간 수주 격차가 더 벌어질 수 있다는 관측이 나온다. \n \n6일 업계에 따르면 중국국가조선공사(CSSC) 자회사 광저우조선국제유한공사(GSI)는 지난 1일 해외 선주와 8200CEU급 액화천연가스(LNG) 이중연료 PCTC 10척의 신조계약을 체결했다고 공시했다. 계약금액은 10억달러를 웃돌며 선박은 2029~2031년 순차 인도된다. \n \n계약상 약정을 이유로 발주처 명칭은 공개하지 않았지만, 업계에서는 발주사를 이스라엘계 선주 레이카캐리어스로 지목하고 있다. 이번 계약은 레이의 첫 대규모 중국 조선소 신조 발주로 알려졌다. \n \n주목할 만한 것은 레이가 수십년간 한국 조선소를 주요 발주처로 활용해왔다는 점이다. 레이는 신조 발주를 주로 HD현대 계열 조선소에 맡겨왔으며, 현재도 HD현대중공업에서 LNG 이중연료 PCTC 7척을 건조 중인 것으로 알려졌다. 이 가운데 2척은 지난 4월 HD현대중공업이 유럽 선사와 체결한 3985억원 규모의 PCTC 수주 물량으로 지목된다. \n \n한국과 긴밀한 관계를 다져온 레이가 중국 조선소를 채택하면서 중국 조선업계의 PCTC 시장 독점이 한층 강화되고 있다는 평가가 나온다. 수치로도 중국 조선소의 PCTC 시장 장악력은 최근 수년간 빠르게 높아진 것으로 나타났다. 글로벌 해양 데이터업체 벤슨 노티컬에 따르면 지난 2021~2025년 전 세계 차량운반선 신조 발주 가운데 중국 조선소가 252척을 확보해 80% 이상을 차지했다. 일본은 47척, 한국은 10척에 그쳤다. \n \n국내 조선사들은 그동안 LNG운반선과 고사양 컨테이너선 등 상대적으로 수익성이 높은 선종을 중심으로 선별 수주 전략을 펴왔다. 다만 차량운반선 역시 대형화와 LNG 이중연료 적용이 확대되는 데다 발주가 되살아나면서 올해 상반기 차량운반선 신규 발주는 29척으로 전년 동기 2척보다 1350% 증가했다. \n \n문제는 중국 조선소들이 대규모 시리즈 물량을 선점하며 설계 표준화와 반복 건조 경험, 납기·원가 경쟁력을 빠르게 축적하고 있다는 점이다. CSSC도 이번 계약이 GSI의 대형 로로선 설계·연구개발, 총조립 건조, 품질관리 역량을 활용해 자동차운반선 시장에서 실적과 브랜드 영향력을 확대하는 계기가 될 것으로 평가했다. \n \n업계 관계자는 \"국내 조선사들이 현재 수익성이 높은 선종을 중심으로 선별 수주를 하고 있어 단순 수주량만으로 경쟁력을 판단하기는 어렵다\"면서도 \"중국 조선소가 PCTC 시리즈 물량을 반복적으로 확보하면서 생산성과 납기 경쟁력을 높이고 있는 만큼 향후 경쟁이 더욱 치열해질 가능성이 있다\"고 말했다.",
+          "body_source": "네이버 뉴스 본문"
+        },
+        {
+          "title": "HD현대중공업 투자분석 2026. 09. 05",
+          "published_kst": "2026-09-06T15:09+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "주달",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PSU1mZmtIQlNNdlREck5HU2NSNUQydGc4YUdvZE1Cc2ZtZnpVRzIxNF82T2Z5NGYzZS1mTjZINFktQmZTRUE5alM5TWU4VC1OVkhtbE9GVVVWeTM5NWp5ZGRTUVV5UHctajM1WjVrTXdwSHc?oc=5",
+              "published_kst": "2026-09-06T15:09+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "고용부 고강도 감독 중 또 사망…HD현대중공업 “2인 1조 의무 작업 아냐”",
+          "published_kst": "2026-09-06T15:00+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "한국원자력신문",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0telR4dDJpM2RwTnBhVjAwQjN4NHdqamRSQlRkS3psVHNLMXZyTEU0cmg3Y0lULXBEbWNpUEhLOXFvZEZEVXhmQlcySkhtVjM4VVNkZjMwQTcwTFZxUy1FdUw4d1kxQTjSAWtBVV95cUxPM0ozODRRdVM0WTRVUmxmU2hKRGRZSlNIYm1rS3dvSzlWbE1WT2JCWWF1V09BcUlzWTgyLWlPeUJwckwyblUzdS1RcnoxXzJXY3k0cnhZZWJFcV9kV3NrN1lvTVY0WE94dVRSYw?oc=5",
+              "published_kst": "2026-09-06T15:00+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "델": {
+      "ticker": "DELL",
+      "market": "해외",
+      "candidates": 65,
+      "stories": [
+        {
+          "title": "Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus",
+          "published_kst": "2026-09-06T05:11+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html",
+              "published_kst": "2026-09-06T05:11+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ3NKNUpneFBiWHMyRkRaaWZiTjVUWjg5SlI4b3YxZDEzaUlibUx2elBLTmx5Y2ZmalN1dzE2WEZuaVFSbnpCbHNJTWZaRWo1SnNOM2tNeW5kWTg0S3FpbFJRV3JwS0dYTUM5WXBFRnIwVkRldEdNNUJseEh6c1BUUlN2azZxWm91YmxJQTU1a2hLS1lETTZJT0djZWJXQjQ?oc=5",
+              "published_kst": "2026-09-06T05:11+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "The fair value estimate for Dell Technologies has shifted from about US$502.78 to roughly US$564.46, putting a fresh spotlight on how analysts are thinking about the stock today. This change reflects close attention to Dell’s guidance and comments on component supply, memory costs, margins and the broader backdrop that includes AI server demand, macro data releases and geopolitical developments. In the sections that follow, you will see how to track these updates and make sense of the...",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        },
+        {
+          "title": "Dell Technologies and Armada sign strategic MoU to accelerate mobile and edge data infrastructure across Saudi Arabia",
+          "published_kst": "2026-09-06T19:29+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Zawya",
+              "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRVd1VHRCcHE4c0RHUnc5ekI2NDBkMUc2U1pON1diZ1FRWmhoenM2QkVNakRlc0FWT05zbHh5bUFmbm9CaWNxZnZ4TnhLSjl6ZlVpXzg0bVFWVk1RWFZ3WUttVHp6UEtENGdJTU9GNUVhWkFCem9NUUVsQzBYSlcxSHJzNDFEVE85LXMtTzYzRDhqU2R5RzVpN3ctZUlUSlJOUGJwbTROVU9LWUkzRjhFOTg2SmRmekYwUnloUUpVTWdreHdPdEdYcmxzNVM2TXFqcGpsS0ZJNXhYT3owVkV2dEowVFJLWjNhOGltWTFsUGtnQUk4NzhFcHpoYmdJYkQ0R1Jla2tjZngwZw?oc=5",
+              "published_kst": "2026-09-06T19:29+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "DELL: Dell Technologies Inc Latest Stock Price, Analysis, News and Trading Ideas",
+          "published_kst": "2026-09-06T18:45+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xSDVlaXlQYWsyclRhMlNyQWVzMC0xVHpKazFxdE5PU3hHM00yUklmVzR1ZEVrMmFtNVhLQTNRbXVCbGFaWVl3bGZ3?oc=5",
+              "published_kst": "2026-09-06T18:45+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "컨스텔레이션 브랜즈": {
+      "ticker": "STZ",
+      "market": "해외",
+      "candidates": 47,
+      "stories": [
+        {
+          "title": "Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?",
+          "published_kst": "2026-09-06T18:34+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdmhxMnROYjJMcWJYRS1mUVYwOTRJd05xVm0tMTJPQ1NVMFNEbmI1M3ZNVEo1MVdMcUw2Z3VzdUhoc3FmaElUVHZ0VnJ1d0Q4cFhYTEZ1bjItWXgzalRGc0lOTHI1eTJGNm9VcDExQmVKTDNFakx1SndybzMwU2hZWWNfVUtBcFhKUlU2ZGM1dw?oc=5",
+              "published_kst": "2026-09-06T18:34+09:00"
+            },
+            "Yahoo Finance": {
+              "publisher": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html",
+              "published_kst": "2026-09-06T18:45+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "Beer sales have been down, but the company's brand power appears intact.",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        },
+        {
+          "title": "Constellation Brands stock edges higher ahead of Barclays conference presentation",
+          "published_kst": "2026-09-06T16:56+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "AD HOC NEWS",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUkxlVUw3MVBUb3RiN2ZqNWlaNVk1bzJKNzVrWW9ianJQdmlVczhKaWVReHRUcm1UbDVYYzhWbnpSSjhJalo4dVdqWDAxUzNXTXEwMlJfaEREN1pQOUFMZ2xURHJYSGxTU1Vwdy1HN3B3TERIVEZHZENsVjluQlo4NEhGLUlDUDhfMUgzNFpKNHpNT3ZIWWxqdWpCV2FOZ3lIRk1ZQlUxN2Y2OGZEWFYtMkoyZDFlZkJqc19mUnVKQUI1WGRDOVk4R1JqYw?oc=5",
+              "published_kst": "2026-09-06T16:56+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Constellation Brands Inc $STZ Shares Acquired by B. Metzler seel. Sohn & Co. AG",
+          "published_kst": "2026-09-06T16:32+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMExHX0lDdTY4OEgyNjhha2IyMURuVHlRWXJwRVlxbXo4MVJZN1Q0NHRoR1RlS1lHYmRrbW9qY3c5NkRzUWZfVjhzR1NqaWhEZ2dkelZoZ053ZE40SlZ6Yk1qc1UwbGpXM2JaTkpaSGZCcEtITTVHQW1rendGa2wxeGJ5azlKLWtodHJYZmdQR2I1SlVNVHFHcFNSVXppdno3UkQwMVFVWUUzdkNoWGNibVBPLVdSbk1YaXRjOHQzYVJHTE1DVnBxd0ZyY3ZtRlU?oc=5",
+              "published_kst": "2026-09-06T16:32+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "퍼스트솔라": {
+      "ticker": "FSLR",
+      "market": "해외",
+      "candidates": 64,
+      "stories": [
+        {
+          "title": "First Solar stock holds near 52-week range after recent trading",
+          "published_kst": "2026-09-06T16:19+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "AD HOC NEWS",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLXdEd3B0c0ZfVkhRVHNBcEl6UGd3cTF6YWRueHMtWG02akRyUkJxUWY5WUZtNzNNZ1FGbXRUSzV0RkNodVBacFFDdkUxeURIa0xkdlR4QkY5ZHhZV2RHSEZSZVdLWXhnN2JrY0ZfaHNHeWUycE5DVHZfVnRCdnU0amlDLWdfaThuM3laYUlQSDV1bG8wd25mcVctZE5UOUFHLVZwZmtrVjlNZzNCdjNGZkJBQ0dOUXdFbVMtOGNGbVNsUkJ0?oc=5",
+              "published_kst": "2026-09-06T16:19+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "INSM, FSLR, APTV: Dreaded Death Cross Has Formed On These Stocks — What It Means For Investors",
+          "published_kst": "2026-09-06T08:53+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPR1ZURlFWZTNjSlZJUHFwVWtmSnlxVmQ5NkJvSjY0bjk1OXVpWlVTaDZwSm5hVkRWbWFJdnhUVWQtY3NvWTAxZDFJeGxJMWpwX1BiTWY3MXRSblpTaHRGbThibmN4OGQ1R3E4OENLeVZBSjB6aEhnMkJQS1ZHaTZCVGVJQ01TVE5QVzVYaVc1azhJVWhKTG1fckFUdE5xR2FqbnMyVG05SUNnLU1tdkxpc1EwWGxnSm5FM1dKQldlYzd5UW1aWTMyOUhtRDlHWjBXRE9mR3dnV3IwTVRnaFE?oc=5",
+              "published_kst": "2026-09-06T08:53+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "First Solar stock eases after strong earnings beat and policy worries",
+          "published_kst": "2026-09-06T02:08+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "AD HOC NEWS",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT1BfUHZBemFVeWUtdm5xUXRLUE16M3FqM0VZcjBMTlpwbXJOUjFYbzlwcE5Ha01BN21PRG9wUnBzZVJLdDYyWExaSjU1dURRVXcxbklyaUdoVmZtQk1qVlZZSE1GUzU4NFRZc0dsN1NXLUp0cHFVNHpHVUZNcGhMV3NFXy1RTjlDMVJrd00ySnBIM0FxSUl6a1J2OFJ3clhPWklfTm5iZEwyNEtfSDljZm9rYUs5Y01WM3NBSzhjLUtOTHVzRWg0?oc=5",
+              "published_kst": "2026-09-06T02:08+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "컨스텔레이션 에너지": {
+      "ticker": "CEG",
+      "market": "해외",
+      "candidates": 45,
+      "stories": [
+        {
+          "title": "Constellation Energy Corporation • Robinhood Token - CEG - Stock Price & News",
+          "published_kst": "2026-09-06T18:33+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CTlA0UjNPU1BuOWFDY2s4Y2dFTy1xSk9xcGVQSXZBcnozaHppU05QeUt3YzBDOGNhamxpSjZPdEV2QmVYeXF6SlY1V1hxbm8?oc=5",
+              "published_kst": "2026-09-06T18:33+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Is Constellation Energy (CEG) Undervalued After Its Brazos Sale And Calpine Progress?",
+          "published_kst": "2026-09-06T09:34+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ01GRmJYcEJESU1sLVg4S3R2Wl8wZDFYNEN5VnRBRnNMZGo3TzVvZldwWjRmVHBFOGZvelhHVldLbVFLazlYVVhVN0VwUGcyM3BvNFZXcDhRaTVmMENSZUstVU0tZjdUUjZ3dklyYWNlRXVnNEtZaENtdWZqbHliYkJBcHNPd1doaEQ3NzhtcTB2VGZlQklVU0RmM1VFQmlFOU5hdFgxbTM1VWw0VEVpSFRQbmlidlktdC1nZUl1WTVJUGlGUGFmdDY2MjdOejdib1ZOQ2dR0gHbAUFVX3lxTE0xWDYwQWszTm9HX3E1bUFsWkFpZlI4c2E0X1FaV1hVSmM5SWJGNjAyMVdpMllvdnA2R0w0M1JPRENINzVFNEE4dklZU3E3RElWVnFvVUJiaXJBNXRPSE1pNkRpTHN2ZGlacTFRbFZRN0lfQ3F3SG1xZG50UnBVS2dRMzJLTjEyUWYxVXg4VUxjUlFTRHFuSGpyaXhpRVdSMU5nREYwblQ0T3hRN2lYZHdpeEZwbXlDakQ1MHNPQm11V1JmV2l2aWZ3RVJkWXRPUXo2d3BwOGU2aUJXWQ?oc=5",
+              "published_kst": "2026-09-06T09:34+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "3 Nuclear Stocks to Buy With $2,000 After One Fell 83%",
+          "published_kst": "2026-09-06T05:43+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-nuclear-stocks-buy-2-204301311.html",
+              "published_kst": "2026-09-06T05:43+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTlU1Z3dGbGJMMjd6RFZyZW55Y3FVa0VYRjNiQW05dzdEc0dYSmI4bDkxM3pVY2NNUFVwbnpoRDBXV2pvSUJXamlZVS01QXNTcG1PRjB0Z3p4SG82bkdBZ0RCMFZhNmQyYmk1c0tBY3N3Ul9pM25rY0Vfc1F4c0gyMVlhbGN0QUNtLUtjbHRQN3NzNllfMVRCNWNWSzRsQlU?oc=5",
+              "published_kst": "2026-09-06T06:23+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "The stock that crashed 83% designs the reactors -- the companies selling the fuel and the power are still getting paid.",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        }
+      ]
+    },
+    "비스트라 에너지": {
+      "ticker": "VST",
+      "market": "해외",
+      "candidates": 42,
+      "stories": [
+        {
+          "title": "What Happens When A State Sells Off Park Land",
+          "published_kst": "2026-09-06T08:30+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "WorldAtlas",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNldDLTRpVEVKVjlfT0xTQVBxRjcyYkItT3JVLUN6N2lMZXNpc2JFczNUeFVEdmtMVVJEOUZLQXQxM0lzTzJybTExWXphYW5MQl9vTWVpWTlQc09qb3pocFFMemVPU2ZCdkl3dHhGeTR6a2hMMEtHVkMzMzRnM0JuRzVMcUxoQnRoaUZLYlhXRVR5bTQ?oc=5",
+              "published_kst": "2026-09-06T08:30+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "이오스 에너지": {
+      "ticker": "EOSE",
+      "market": "해외",
+      "candidates": 48,
+      "stories": [
+        {
+          "title": "Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation",
+          "published_kst": "2026-09-06T06:29+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "ACCESS Newswire",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5",
+              "published_kst": "2026-09-06T06:29+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Nvidia Supplier SK Hynix Files For Nasdaq Debut Under Symbol SKHY",
+          "published_kst": "2026-09-06T07:58+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV25Nd2JwMU83Rjl5ZERxUTNsX3I0V1pCUFpZQUwzbzQyNm01c2N1T292TEpYdGhQOGJmUVJqVjRRU0hsN2lKRzVMNllKdEU4MGFCSXVzUmlSWFpzS2FJLWtLdHEtT3lUa2VwaTlrZGVqVXptaFllLURPc2tYa3Fwd2hMSlVnWmI1MjFWVTJTTDZ0bE5ndTY4Uk1aQ1FxazBjSFJ3RDRaampiOW5TYnZOZkp5Y2Q5bXlPYjIyYQ?oc=5",
+              "published_kst": "2026-09-06T07:58+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Penny Stocks To Follow Now - September 5th",
+          "published_kst": "2026-09-06T05:06+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONm5FNGQ0aDEwb09Vb1RWVkZHeWhON2lMOVNQWkE5ZnB0Y0owNDFzd2FsMUZXQ2g3S0d6MzFxdXlHRUZyRUxIU0dkTndhazZ2YjNJMlRCWGRtYVV1aW9BYmdlWlV0ZmE3YmtyaFd2WEVCdHZ2YjIyOEhhYzJzSFBjYm9kYkptVjRvX2F2a2dmTEZwWHJIaUNPLU9ySHdWNGpq?oc=5",
+              "published_kst": "2026-09-06T05:06+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "알먼티": {
+      "ticker": "ALM",
+      "market": "해외",
+      "candidates": 40,
+      "stories": []
+    },
+    "크레도 테크놀로지": {
+      "ticker": "CRDO",
+      "market": "해외",
+      "candidates": 47,
+      "stories": [
+        {
+          "title": "Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances",
+          "published_kst": "2026-09-06T16:26+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Investor's Business Daily",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWtqOUZjRl9sN004azF3ekxYQzc3dHdQUk44UXRTOEhpWVFJWHpmcUgxTnRTNTBHRVlJT1dBMkRPbUI4eklyVW9JajdTbXA1WDBkUHJRQXVzZG95UmpQRzJyV3R3NGNha2hqNE1uWnJRLVFrcnhFZkZVNmFjS2U1blh5TVctMWx0bjY3Rkphb2xFWlRyQ1lScE5vZWhaOEZQX2NGQkRvOXF1cFU?oc=5",
+              "published_kst": "2026-09-06T16:26+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Credo's Selloff Is Missing The Bigger AI Opportunity (NASDAQ:CRDO)",
+          "published_kst": "2026-09-06T15:57+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS0JkMWJFbmdzRHI0aFpzZ0VnWVlpaUstYjBiUDNzWmY0cnVNYkFHMkdrNDljOFFrZ1cyX1NjZkdTdjctNHF1M1JNS05RYlpOZlZRRkNBZHlaV05WaXIwOUNLSl9vSWdtZndDYk5scWtoelpXSmtCeERUWmpfR0ViUjdHV3ZZM1FFNVZ5VXpBSVNBRUhmSXNn?oc=5",
+              "published_kst": "2026-09-06T15:57+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Why Credo Technology Stock Is Down Today and Why This Top Analyst Expects Shares to More Than Double",
+          "published_kst": "2026-09-06T15:08+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "tipranks.com",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1dMbGIxbGQ5bXhBNkIwUlZzam1NMmVBLTlnZlBJZjJvQzFFM3BKc0J1SFRzdVZMRmlRa1d1Z2cySzhWSkN6aDFUZEtVSFcyTEw3MFpFNVVldGZsdlM3TGw1WGhBcmVHV2hTYUJscnlraGk5ZXdhMU1pa1ZPMjVSOERpSUtRVDg0b1Z5blQwVnNaeE5TU1U2enI5N0F4WUNLaHlKRm93YTdfMjlTVnB2T0ZINVotUERPbTVRdTBnUEpDYl9JaUNrUUU5a2tWUUZqXzJDYg?oc=5",
+              "published_kst": "2026-09-06T15:08+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "알파벳 A": {
+      "ticker": "GOOGL",
+      "market": "해외",
+      "candidates": 70,
+      "stories": [
+        {
+          "title": "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029",
+          "published_kst": "2026-09-06T04:40+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amazon-join-nvidia-apple-194000818.html",
+              "published_kst": "2026-09-06T04:40+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOdUtON2daaGJVY2JiSVh3bEt4V2tiMXBfR1lHZnNFczVrZnlObDBGLUR2QzJsMXRQT042cGRqZDlCT2dQRkZRMFZoVXlGeEpJdTFhZ1NRNWN2QWJ3UW5Kc29QczFSb0lNZ1NjaU9fMlNRQXF3VmtpU2U1SDc3R3RoUDNlTERabFRrTjA3VHRPelBtUmZCUkk4MXlfbDNaSnZMWXcyVVJKdDJLc2dPbFNHQUdsTXp1aGpXSTVBZ1RaQ2YwRl9xelE4X1ZCTHEtaVlLckR2em1xQkFwLVI5SVRRWExKNGZEWEN1UUFGNllqSGJMMnZOcmtNd05HckNkYVNUbTlN?oc=5",
+              "published_kst": "2026-09-06T05:15+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "Amazon stock has underperformed the S&P 500 over the last five years, but the company has incredible strengths.",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        },
+        {
+          "title": "Why Gabelli’s Global Content & Connectivity Fund Likes Alphabet (GOOGL)",
+          "published_kst": "2026-09-06T00:35+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/why-gabelli-global-content-connectivity-153522934.html",
+              "published_kst": "2026-09-06T00:35+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZXVPZTAzMGxBdExHRng0NkV4d3F5S25iVlpHb29YM281ZTVSX1NkV3M5UjNWOUNFN002cVFRdFNveXhsWnZlcWVjeExvaGhBXzFUME1IV1BfTXdxc2Z4VUIxZGNHbnhfSmNEQ3JlRHJqTkxxYzh0NG95MGtPYm0ydDBxbldvUDB5dGs2ZDA3bTBsSW11R0V5QWNqalhhUDRVdkZnS0h0VQ?oc=5",
+              "published_kst": "2026-09-06T00:35+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "Gabelli Investment Management Firm recently released its “Global Content & Connectivity Fund” second-quarter 2026 investor letter. A copy of the letter can be downloaded here. The Fund delivered a strong second quarter of 2026, with its Class I shares gaining 12.88%, more than double the 6.02% return of the MSCI AC World Communication Services Index, […]",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        },
+        {
+          "title": "Berkshire’s $10 Billion Alphabet Block Is Down $375 Million Despite Its 6.5% Discount",
+          "published_kst": "2026-09-06T18:02+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "TechStock²",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdGRHZ3o3RUJralpaZ3ZEN1RvR3MxcUd0QW4zQWxjRm81SExtVldQVkc3bExfaDl3a01SX3IzQWJCT3VndDhrS29BTVhhT200UnZoV19jaWh2NVozWWVsRGYxYUNiT3JVQ3JRYXNWRTlwVWRpRUZWdGE3R3dGbHNmNmJJbHBRWmlJTlA2OFRGS29wekMySnQtcG9tOW1lMUpORkxLbQ?oc=5",
+              "published_kst": "2026-09-06T18:02+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "시스코 시스템즈": {
+      "ticker": "CSCO",
+      "market": "해외",
+      "candidates": 53,
+      "stories": [
+        {
+          "title": "Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings",
+          "published_kst": "2026-09-06T04:05+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html",
+              "published_kst": "2026-09-06T04:05+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmd2eHlmRTJndmszT2h5b2dCRnNwT1A0MTRlaXRlTFVDQV9raC1jSEFjeXd0cmRJbVRiNFdkaVVIVWxUaEY4MFJEX0psbFRhYTRIQWgxTWpwWjNMR015T0tYMWNTd05TZ2tUOHFUaHJHSDRwMDlHLTFEMUtraWpTZkNra2pQN0ZpbFRFMjBYRHNaZEJER3djRg?oc=5",
+              "published_kst": "2026-09-06T04:05+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "Cisco Systems has more than doubled investors' money over the past five years, yet current valuation checks point to a stock that still screens as cheap relative to its estimated intrinsic value. Recent AI infrastructure announcements and security headlines add fresh context to a story that is increasingly about how much of Cisco's cash flow potential is already in the price. The stock has returned 116.9% over the past five years, which puts extra focus on whether recent gains already...",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        },
+        {
+          "title": "Cisco IOS XR Has No Workaround—Every Release Needs an SMU Check",
+          "published_kst": "2026-09-06T19:00+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "quasa.io",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTUx6ZXFZU0xmVkdVNjd5UlRNODBpMXRYTFd4bWlraHkyc1YtZHh1SS01WER0TXpXeTlxNElkS3lnOXFGVDVWVFpQVzVrcU5uckVZLXpFVkM3WS1UMFdvb2NZT2N3OTNZUXBGQkFLM2FxZGI3TG5rcVZ4aEEwbXk1eHFqTzA1MU5WVGlvSmp2TTJsQkk?oc=5",
+              "published_kst": "2026-09-06T19:00+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Why Super Micro Computer (SMCI) Is Up 6.8% After Joining Cisco’s Secure AI Factory With NVIDIA",
+          "published_kst": "2026-09-06T14:29+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOEN3LXM5bWN1MGhhbHljSDBUMVNTN0hUVUxqWTBwVGhVVWRYYUhQaDZoRXBvUFhhM0VyeE1YZmlFN2tvVHNFeldSY3ExdlFrTS1Ga293OHJuMllUa0prcFN3djBaUXk4b1JsSUFhTGlQaUlUaVFYQmtldGlMMlJJUzhDUl9IaG5OdHRkS0dyclBIQ1JTWFNsNE90d0wwVFBOaG1DRGJVX001aS1KV0ZESE1uLWlCQ1dhb1FkVmtoNVh6VWV5cUJhY0VGV2R2N0nSAdQBQVVfeXFMTlNzS09wdmc1elFzT0VXUDlwT3B1eWRONmVoSDJRMkQ3YWNjRlZyN0dwX1ZtUUxOYlpSc3hjUllLaDVOd3o3S056N2o2XzZyU0luRG1ZUTM1ZGl6NVI3OUg3WWpwbjZQbGgzbjUzRWxTTE1SMVJ5T2VGMGpJV2RrTG8tQlRSVEpzR3pET0RycU9pSUJ5WkRSOHBHTUhybTB1Um5NeFg4bHlrWkNkZmptY3BlRXZtYWdLeExXSnBLMGdlSlZUenN4WVlEXzFicFNjWjlHTjQ?oc=5",
+              "published_kst": "2026-09-06T14:29+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "버티브 홀딩스": {
+      "ticker": "VRT",
+      "market": "해외",
+      "candidates": 45,
+      "stories": [
+        {
+          "title": "VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?",
+          "published_kst": "2026-09-06T06:29+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5",
+              "published_kst": "2026-09-06T06:29+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Key deals this week: Flex, Nvidia, AbbVie and more (VRT:NYSE)",
+          "published_kst": "2026-09-06T04:15+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdl90REZtNzFQLU42T18xVjdlQ1RxQVI4TUptLTgycTQ2eThBaDB1VTNYRUJKWDZscUkxTUFfTnBKRHhSalcwUXNfNDhUWTJ4c21fYVhXUlpuekJ1LVZvTjNoM1c4Rk5ZRmprQV90d08yekMzS3ZfWGZpWV91MXU0ZEtNbDZ1WGNvT1Bja3F3?oc=5",
+              "published_kst": "2026-09-06T04:15+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "These 3 AI Stocks Are Way Off Their Highs. Is the Pullback a Buying Opportunity?",
+          "published_kst": "2026-09-06T07:48+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-ai-stocks-way-off-224823238.html",
+              "published_kst": "2026-09-06T07:48+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcmREVVVMdmdlRjhXakMxQU1kZFFpU1U0emFrMjRwY2Jsa2VnLXoweVFXaDh3MTBsWWJIY21vaHVDVm50RGR5UzlQSUQxeHFDbnFfWmlQMkxfREhCal80MWhLNUNIY0tLY1Fmak5YNEpjNUVYY0JKWTdJeXotR0NXS1Fycmt4dnpDaWdfbg?oc=5",
+              "published_kst": "2026-09-06T07:48+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "body": "Vertiv, Applied Optoelectronics, and Innodata entered September well below their 2026 highs despite strong operating growth. The pullbacks do not make them interchangeable bargains. Vertiv Holdings Co. (NYSE:VRT) sells power and cooling, Applied Optoelectronics, Inc. (NASDAQ:AAOI) supplies optical transceivers, and Innodata Inc. (NASDAQ:INOD) provides data engineering and model-evaluation services. Vertiv’s second-quarter sales rose 24% to […]",
+          "body_source": "Yahoo Finance 기사 요약(본문은 매체가 차단)"
+        }
+      ]
+    },
+    "록히드마틴": {
+      "ticker": "LMT",
+      "market": "해외",
+      "candidates": 63,
+      "stories": [
+        {
+          "title": "Lockheed Martin: Record Backlog And Missile Demand Make The Pullback A Strong Buy",
+          "published_kst": "2026-09-06T19:55+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMDhOZ0hXbjhVTkRvbWtobzFCcUlqMlJNMjBBQzAwRURPUndNcElzQkpVUk9NdkttNDlqSkJXMkd2RkV6RWVtV0JQeU9kejRHbE43dkd0SkpaMUViQlVreVpfeWQydHZGc3ViVEtRZGJVc19mMTVwbmp4cW9XVlAxMUxmSVpMdzdZZHhMMnA1XzlyMFpOT1k5ZlA4RVdwdi02OFRVN09RMkdLaUx3aWEwbWpIdXA4YjBVQU5vME5VR2dHNE0?oc=5",
+              "published_kst": "2026-09-06T19:55+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Nykredit A S Takes Position in Lockheed Martin Corporation $LMT",
+          "published_kst": "2026-09-06T18:18+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2htUlRHWXdTZDRSOXRkWWtYRFJqdEk4aDcwck55LXM2WFNuUjNrVDk3c3JwdkNtVXh4M2xzSDhQRThIcjdZVU9SbV9vN01GaGxpQk0wTHpxSnBqSWhjTHM1QzhxaVd3Nm1MYTZhMlNfUU9Dc2tPWFFRZlpXdndGLVgwVHBXb3hwZUZGY2ZOb3JTaVNDRGlJZEhwQ2o2MmhSc28zRXVnUmpmc1o5TjFuNTU1TE1OUVBhU2ZMRDdTM1Q?oc=5",
+              "published_kst": "2026-09-06T18:18+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "TD Waterhouse Canada Inc. Reduces Holdings in Lockheed Martin Corporation $LMT",
+          "published_kst": "2026-09-06T18:08+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYzNHeXBsQ0VxdUsybi1aRnlNRDJPYTIxUFlTQTBENG1CVVpmZVlTOFNzWUVEUVVJMGN4OHdDcFdJNUxHTGhkRmVhOUlWbkM2SkxqdjQxeXZEbElNRXk2TUs3LWNQbzBHaXJ5Tm96VjRVTDlaZVF1TlVfMjVtQmxCY1haTGhvM1p5RFF0Mzg2NEFKcjNyeG4tMncwbEZjQVJGZ08xT25XUE9fYUhCaklEeUF1SWJqT1NjLVJTUkxUVXhDLU9aSVlxWmtka3RoNFNBd3Bz?oc=5",
+              "published_kst": "2026-09-06T18:08+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "마이크로소프트": {
+      "ticker": "MSFT",
+      "market": "해외",
+      "candidates": 70,
+      "stories": [
+        {
+          "title": "Microsoft Is Down Nearly 40% — Buy Now Or Big Mistake? Ashutosh Sharma (mT1al99uEN)",
+          "published_kst": "2026-09-06T15:19+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Mshale",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUEpOYjhBZGczUTJQZzlRR2wtX3k5QUdIN0hiYWljNU04bWFONG1hNVNJc3liXzJGekFTREtQdHBHVG95WGVKdGNYZmlEOTZ5ZGc4ekNuX1JwTHZLWFRlWXJMRmRBaDFMb2xpNzBMaEhJZnhVVlQ5TlIyQTlWQjBJMFhMQ3Q1bUlaWS10T0FCaVh6dw?oc=5",
+              "published_kst": "2026-09-06T15:19+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Dan Ives Says ‘Market Is Mispricing’ MSFT Stock — Here’s Why",
+          "published_kst": "2026-09-06T11:12+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEU5NldhOFZVX3p5emFad0ZXUXlweTVmbUJqMUZ4aWJjdzdhUG5pdFBQUDVpWkVDbkR4dFhVVXRUSTBWTWF1RF9nLUM0S25yQ2JHazRfNlBsSW44VkxGeUczY2M5X1IxYU9hRmV0V2g4NXkzNkVod0hRM0kxdkNQT09qbFdzM1U1S2c3TldZQ1Q0eGZ0TU5CSFBYeW1qc2xmSE1lWHdZeGFVQnRIRWVvb0hGOE4ya2FlZUE?oc=5",
+              "published_kst": "2026-09-06T11:12+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "MSFT No Longer Wants To Just Back OpenAI — AI Chief Eyes Spot Among ‘Top Four Labs In The World’",
+          "published_kst": "2026-09-06T10:13+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZTVnWFZLaDM2dWhDOGlpMkxINURWVHB2STFxallNczM2anQxSjdWQXNiSnlicVlpRWNPZUlDRXQ2cHpWZ0NMSWdnOUlQRWhYRmo0Ti1HNzkxeGFIUGNoVDgxeFlRTEpXME5Ib2hocWJIeTh5SHZSeVFkdTJ2RjZiN2p4WHV2Zlh5UUppeDdsdkR3eHB2STVyNmk1RTBfdm5sdk5DSGRiaHgzX0sxTnpVUUFEd2tRZE5TejRVNGtMZXcyWDQxSnBMZGJwX0pYNk5rUTZ6NTJGb1JYd0dvZFE?oc=5",
+              "published_kst": "2026-09-06T10:13+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "나이키 B": {
+      "ticker": "NKE",
+      "market": "해외",
+      "candidates": 70,
+      "stories": [
+        {
+          "title": "Nike Gets Booted From S&P 100 After 18 Years: What Went Wrong With The Sportswear Giant?",
+          "published_kst": "2026-09-06T19:04+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "ndtvprofit.com",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd3F0TkhjZG03TERJWFA0S0VGVTFWbUh1Z0g5cl9iaUlhZE5hMmdIY3hmVGxaQkc5eDhDWERhQW40Y0hBb1l0Y29qOGZhMlRKa0sxSVN6RVhTcHRlR3ZFOWt3ME9nb3NrSXJHWXc3Ty11UDl2OE9JYU9LMThNa0R0WEJVUzA5RFY3VzNYNFhnYzF6aS1SUnlvd1hVcUdKYjNfeWlJa2lUdHYwdFl5UjFF0gG3AUFVX3lxTE94dFhUc3hEM1E4dDIyaGpMbkNLRENrSTFEa242ellMZW1rVjlwLWdLcTZ3RnF5SVNkbExoR3VJdTEtY080RDluamhOZDUxZmFrTEp2cXdMQTRLTjU5UEFFVVplc2Y0a0lkYUpjSnRFcUxuWFppTE5uY19aZTY4TzYzUUxEQUo2b1A0Y3JfUHdsRGQ5elBfZ21MbXpGLTRaR2JEQW9DdzR4UG1uUTZUNF93YXN0ek04SQ?oc=5",
+              "published_kst": "2026-09-06T19:04+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Nike Exits The S&P 100 As Its Running Sales Keep Growing",
+          "published_kst": "2026-09-06T17:41+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Marathon Handbook",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jQkoySFd3Ri1URTVtdnZiOTJOUDFOWndFbmYtUXgtYTFENFB3bDFVQzBfMVVuYjIxZmd0Z2UzR2lDZGRFbkpZZkEtMmZEOFdodmd1VDZKSTZ3ZnE2cFh5eDhGMmd5UQ?oc=5",
+              "published_kst": "2026-09-06T17:41+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Concurrent Investment Advisors LLC Boosts Holdings in NIKE, Inc. $NKE",
+          "published_kst": "2026-09-06T17:06+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVW5QdUhkeDlGSXEyRHJJdGhyTnd1NjlGT0dQQTZPZEs1aHBvNUN1MW1FV21Ma1RzT2t6U3AtZVo3R0VUUmo5TkhUN3VoLTFLVVp4TzdYbUZIeGstWXc4c1J6bjlBTTdOYnRpeFMySmNNRG81Q2RNQWU4WTl0ZFVFaGF2SmxWb1MyOC1iMzgwMlBRT0p5U3hGdS1pTkU0Z1Q3UTZjT0xnUFVjRmk1MzdBbkdQWk0ycy1pUWREZ0RDNGlDNjVWNVE?oc=5",
+              "published_kst": "2026-09-06T17:06+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    },
+    "노보노디스크 ADR": {
+      "ticker": "NVO",
+      "market": "해외",
+      "candidates": 56,
+      "stories": [
+        {
+          "title": "Novo Nordisk Launches Once-Weekly Basal Insulin Awiqli in India",
+          "published_kst": "2026-09-06T04:50+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "DD News",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEoySjAxbnBlTXpMMEdzOHc4aU9hSmdiTThWVDEtSnpWbnh4TDhQNDZBd3BFeV90QlJkWFl4bU5EdjJnWGhocm5LYWRBcHBxR0xwdXVScU9YdEFJMEREazhYS3hsYm9Ka1h4YUhSQ2FYTElLWXZZVWdOY2tLMlRkWHY1Ni1TQkQwOFRHUi16bVJFOXc?oc=5",
+              "published_kst": "2026-09-06T04:50+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "VKTX Stock Has Nearly 300% Wall Street Upside — Is Viking’s Oral Obesity Pill The Next Novo Nordisk-Style Breakout?",
+          "published_kst": "2026-09-06T02:39+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNzR3UDloSVJaalp4cXFKdWFzeVNrRU5hTkZzRTZza3hhWXg3MGJVejM0OEUwbzlGSzZMRkVKOEhQREpPQ2FWcFMzdUp6WkRqMnFoWVNBMzcyRjFycmRvZHFBUjRUMDZNX2stQ2RxbkZpYkszalN6S3BiWTJqclpTLWlTWmZFT1plNWxKTEhpaUF5aUtSQmxPMWtJbTk5MkVvdVc0ODRyOHdVQzMyTmV4cFh2b09vVVVFRVdCRDliRXFGamJCZmJhR3c1RDFPWDhRUGd1aXFJZWNqWnNMRWc?oc=5",
+              "published_kst": "2026-09-06T02:39+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        },
+        {
+          "title": "Novo Nordisk Advances New Obesity Drug NNC0721-8060 Into First Human Trial",
+          "published_kst": "2026-09-06T01:38+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "theglobeandmail.com",
+              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWDg0dDA2M1BrcHk4cjNqOVRJYVkxNXFXVHNFNDVwWjBjcGJGdU1ERHRYcG5yOWhHOHRKYmFGY3ZtU19lMThucjNTQXhUQVpIY1FwUDVCWklCM1FvcVRBUl9TSHZiYUFROEJJQkszOTJ5c3hzc1hBYTVGOFVwVGZIeFoyTVg3akhBWC1wUG1RYnNiakNvYW1XVmRCT0RaZV9penlVUUV6UGdueDVnYUNicFZWdm9OLWlYN0ZIY1hvOUhRekJCVEhEOFl2ZlQ2Z29RVk50bVloa09JUy15dlNqRHFTelctUTVIVW9DelZpZU5nZw?oc=5",
+              "published_kst": "2026-09-06T01:38+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "body_error": "본문 제공 안 됨"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+name: 데일리 브리핑
+
+# 07:30 KST = 22:30 UTC 전날. 월~금 실행이므로 UTC 기준 일~목(0-4).
+# GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있다.
+on:
+  schedule:
+    - cron: "30 22 * * 0-4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TZ: Asia/Seoul
+      # if 조건에서 읽으려면 잡 레벨 env로 올려야 한다. secrets 컨텍스트는 step의 if에서 못 쓴다.
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 종가 수집
+        # 교차검증 불일치 등으로 종료 코드 1이 나와도 뒤 단계는 계속 진행한다.
+        continue-on-error: true
+        run: python prices.py
+
+      - name: 뉴스 수집
+        continue-on-error: true
+        run: python news.py
+
+      - name: Claude 요약·호재/악재 판단
+        if: ${{ env.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+        continue-on-error: true
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude -p "$(cat prompts/summarize.md)" \
+            --permission-mode acceptEdits \
+            --allowed-tools Read Write Edit Bash
+
+      - name: 브리핑 생성
+        continue-on-error: true
+        run: python brief.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.json news.json verdicts.json briefing.md briefing.html
+          git diff --staged --quiet && echo "변경 없음" && exit 0
+          git commit -m "브리핑 $(date +%Y-%m-%d)"
+          git push
+
+      - name: 브리핑 파일 첨부
+        uses: actions/upload-artifact@v4
+        with:
+          name: briefing-${{ github.run_id }}
+          path: |
+            briefing.html
+            briefing.md
+            news.json
+            prices.json
+          retention-days: 30

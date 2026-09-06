@@ -1,0 +1,184 @@
+"""보유 18종목의 최근 완료 거래일 종가 조회.
+
+국내: pykrx(KRX)를 1차 출처로 쓰고 Yahoo·네이버로 교차 검증한다.
+해외: yfinance(Yahoo) 단일 출처.
+"""
+import json
+import math
+import re
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import yfinance as yf
+from pykrx import stock
+
+HOLDINGS = [
+    ("SK하이닉스", "000660", "KRW"),
+    ("삼성전자", "005930", "KRW"),
+    ("HD현대중공업", "329180", "KRW"),
+    ("델", "DELL", "USD"),
+    ("컨스텔레이션 브랜즈", "STZ", "USD"),
+    ("퍼스트솔라", "FSLR", "USD"),
+    ("컨스텔레이션 에너지", "CEG", "USD"),
+    ("비스트라 에너지", "VST", "USD"),
+    ("이오스 에너지", "EOSE", "USD"),
+    ("알먼티", "ALM", "USD"),
+    ("크레도 테크놀로지", "CRDO", "USD"),
+    ("알파벳 A", "GOOGL", "USD"),
+    ("시스코 시스템즈", "CSCO", "USD"),
+    ("버티브 홀딩스", "VRT", "USD"),
+    ("록히드마틴", "LMT", "USD"),
+    ("마이크로소프트", "MSFT", "USD"),
+    ("나이키 B", "NKE", "USD"),
+    ("노보노디스크 ADR", "NVO", "USD"),
+]
+AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
+
+
+def latest(frame, column, today):
+    # 당일 일봉은 장중 값일 수 있어 항상 제외한다.
+    frame = frame.loc[[index.date() < today for index in frame.index]]
+    if frame.empty:
+        raise ValueError("최근 30일 내 완료 거래일 데이터 없음")
+    frame = frame.sort_index()
+    value = float(frame.iloc[-1][column])
+    if not math.isfinite(value) or value <= 0:
+        raise ValueError("최신 가격이 비정상: 이전 가격으로 대체하지 않음")
+    previous = float(frame.iloc[-2][column]) if len(frame) > 1 else float("nan")
+    if not math.isfinite(previous) or previous <= 0:
+        previous = None
+    return frame.index[-1].date(), value, previous
+
+
+def yahoo_close(symbol, start, today):
+    security = yf.Ticker(symbol)
+    frame = security.history(start=start.isoformat(), end=today.isoformat(),
+                             auto_adjust=False, actions=False, timeout=20)
+    return security.get_history_metadata(), latest(frame, "Close", today)
+
+
+def naver_close(ticker):
+    """네이버 금융 일별 시세의 마지막 거래일 종가. 3번째 독립 출처."""
+    url = f"https://m.stock.naver.com/api/stock/{ticker}/integration"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=AGENT), timeout=20) as body:
+        payload = json.load(body)
+    trend = payload.get("dealTrendInfos") or []
+    if not trend:
+        raise ValueError("네이버 일별 시세 없음")
+    row = trend[0]
+    date = datetime.strptime(row["bizdate"], "%Y%m%d").date()
+    return payload.get("stockName"), date, float(str(row["closePrice"]).replace(",", ""))
+
+
+def nxt_close(ticker, previous_close):
+    """넥스트레이드(NXT) 최종 체결가. 네이버 종목 페이지의 NXT 탭을 읽는다.
+
+    NXT는 애프터마켓이 20:00까지라 15:30에 끝나는 KRX 종가와 다를 수 있다.
+    페이지에 거래일이 없으므로 등락률로 역산한 전일 종가가 KRX 전일 종가와 맞는지 확인해
+    같은 거래일 시세임을 검증한다.
+    """
+    url = f"https://finance.naver.com/item/main.naver?code={ticker}"
+    page = urllib.request.urlopen(
+        urllib.request.Request(url, headers={"User-Agent": AGENT["User-Agent"]}),
+        timeout=20).read().decode("utf-8", "replace")
+    start = page.find('id="rate_info_nxt"')
+    if start < 0:
+        raise ValueError("NXT 시세 영역 없음(비대상 종목)")
+    block = page[start:start + 2500]
+    price = re.search(r'<span class="blind">([\d,]+)</span>', block)
+    ratio = re.search(r"([\d.]+)%", re.sub(r"<[^>]+>", " ", block))
+    direction = re.search(r'<em class="no_(\w+?)"', block)
+    if not (price and ratio and direction):
+        raise ValueError("NXT 시세 파싱 실패")
+    sign = -1 if direction.group(1).startswith("down") else (0 if direction.group(1).startswith("pre") else 1)
+    value = float(price.group(1).replace(",", ""))
+    percent = sign * float(ratio.group(1))
+    implied = value / (1 + percent / 100) if percent else value
+    if not previous_close or abs(implied - previous_close) / previous_close > 0.002:
+        raise ValueError(f"거래일 검증 실패: 역산 전일 종가 {implied:,.0f} != KRX {previous_close:,.0f}")
+    return round(value, 4), round(percent, 2)
+
+
+def check(result, key, date, price, other):
+    """교차 출처 결과를 기록한다. 실패나 불일치를 숨기지 않는다."""
+    try:
+        other_name, other_date, other_price = other()
+        result[f"{key}_price"] = other_price
+        result[f"{key}_name"] = other_name
+        result[key] = "match" if other_date == date and abs(price - other_price) < 0.5 else "mismatch"
+    except Exception as exc:
+        result[key] = "unavailable"
+        result[f"{key}_error"] = f"{type(exc).__name__}: {exc}"
+
+
+def fetch(holding):
+    name, ticker, currency = holding
+    korea = currency == "KRW"
+    zone = "Asia/Seoul" if korea else "America/New_York"
+    today = datetime.now(ZoneInfo(zone)).date()
+    start = today - timedelta(days=30)
+    result = dict(name=name, ticker=ticker, currency=currency,
+                  source="pykrx/KRX" if korea else "yfinance/Yahoo Finance",
+                  price_type="이전 완료 거래일 종가(국내는 수정주가 기준)",
+                  market_timezone=zone, status="error")
+    try:
+        if korea:
+            # pykrx 1.2.8의 adjusted=False 경로는 KRX 로그인이 필요해 기본(수정주가)을 쓴다.
+            frame = stock.get_market_ohlcv_by_date(
+                start.strftime("%Y%m%d"), (today - timedelta(days=1)).strftime("%Y%m%d"), ticker)
+            date, price, previous = latest(frame, "종가", today)
+            result["provider_name"] = stock.get_market_ticker_name(ticker)
+            check(result, "yahoo_check", date, price,
+                  lambda: (None,) + yahoo_close(ticker + ".KS", start, today)[1][:2])
+            check(result, "naver_check", date, price, lambda: naver_close(ticker))
+            # NXT 종가는 참고용으로 덧붙인다. 실패해도 KRX 종가 조회는 그대로 성공 처리한다.
+            try:
+                result["nxt_price"], result["nxt_change_pct"] = nxt_close(ticker, previous)
+                result["nxt_source"] = "네이버 금융 NXT 탭(넥스트레이드)"
+            except Exception as exc:
+                result["nxt_error"] = f"{type(exc).__name__}: {exc}"
+        else:
+            metadata, (date, price, previous) = yahoo_close(ticker, start, today)
+            if metadata.get("currency") != currency:
+                raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
+            result["provider_name"] = metadata.get("longName") or metadata.get("shortName")
+        result.update(price=round(price, 4), date=date.isoformat(), status="ok")
+        # 직전 거래일 대비 등락률. 이전 값이 없으면 채우지 않고 비워 둔다.
+        if previous:
+            result["previous_close"] = round(previous, 4)
+            result["change_pct"] = round((price - previous) / previous * 100, 2)
+        if (today - date).days > 7:
+            result["status"] = "stale"
+        if "mismatch" in (result.get("yahoo_check"), result.get("naver_check")):
+            result["status"] = "mismatch"
+    except Exception as exc:
+        result["error"] = f"{type(exc).__name__}: {exc}"
+    return result
+
+
+def main():
+    yf.set_tz_cache_location(str(Path(__file__).parent / ".cache" / "yfinance"))
+    # 국내 요청은 순차 실행하여 과도한 호출을 피한다.
+    results = [fetch(item) for item in HOLDINGS if item[2] == "KRW"]
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        results.extend(pool.map(fetch, [item for item in HOLDINGS if item[2] == "USD"]))
+    output = Path(__file__).parent / "prices.json"
+    output.write_text(json.dumps(dict(
+        fetched_at=datetime.now(ZoneInfo("Asia/Seoul")).isoformat(),
+        note="당일 일봉 제외. 실시간/시간외 가격 아님. 7일 초과 데이터는 stale 표시.",
+        holdings=results), ensure_ascii=False, indent=2), encoding="utf-8")
+    for row in results:
+        price = f"{row['price']:,.2f}" if "price" in row else "조회 실패"
+        checks = "/".join(row[key] for key in ("yahoo_check", "naver_check") if key in row) or "-"
+        print(f"{row['name']} ({row['ticker']}) | {price} {row['currency']} | "
+              f"{row.get('date', '-')} | {row['status']} | {checks}"
+              + (f" | {row['error']}" if "error" in row else ""))
+    print(f"저장: {output}")
+    return 1 if any(row["status"] != "ok" for row in results) else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
