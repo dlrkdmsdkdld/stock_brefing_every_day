@@ -1,4 +1,4 @@
-# 포트폴리오 브리핑 · 2026-09-06 (Sun) 21:58 KST
+# 포트폴리오 브리핑 · 2026-09-06 (Sun) 21:59 KST
 
 보유 18종목 · 관심 65종목 · 종가 기준일 2026-09-04 · 뉴스 2026-09-06 발행분 52건
 
@@ -134,13 +134,8 @@
 _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님._
 
 <details>
-<summary><b>SK하이닉스</b> <code>000660</code> ▲ +3.20% ₩1,647,000 — 약한 악재 2 · 호재 1</summary>
+<summary><b>SK하이닉스</b> <code>000660</code> ▲ +3.20% ₩1,647,000 — 호재 1 · 약한 악재 1 · 판단보류 1</summary>
 
-- **약한 악재** · [“230만원→70만원” SK하이닉스보다 심하다…‘반토막’에 충격적 리...](https://n.news.naver.com/mnews/article/016/0002693391)
-  - 헤럴드경제, news.nate.com · 19:40 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
-  - 요약: SK스퀘어 주가가 지난 6월 장중 230만원을 넘었다가 70만원대까지 급락한 뒤 지난 4일 104만원대로 반등했지만, 여전히 고점 대비 반토막 수준이다. LS증권은 삼성전자의 HBM 추격과 공급망 다변화를 이유로 SK하이닉스 목표주가를 330만원에서 240만원으로 낮췄고, 내년 HBM 영업이익률 전망도 80%에서 올해와 유사한 약 60%로 조정했다.
-  - 판단: SK하이닉스의 HBM 수익성 및 시장 지배력 둔화 우려가 직접 제기돼 실적 기대와 주가에 부담이 될 수 있다. SK하이닉스 가치가 SK스퀘어 주가와 목표주가에도 영향을 주는 구조여서 관련 투자심리 악화가 이어질 가능성이 있다.
-  - 유의: 기사에 제시된 전망은 LS증권과 NH투자증권의 분석이며, HBM 수요 둔화나 메모리 사이클 종료 자체가 아닌 초과 수익성 전망 하향이 핵심이다. 기사 후반에는 반등 국면에서 SK스퀘어가 SK하이닉스보다 더 빠르게 회복할 수 있다는 전망도 담겼다.
 - **호재** · [HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지](https://n.news.naver.com/mnews/article/008/0005410022)
   - 머니투데이 · 17:00 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
   - 요약: 올해 2분기 글로벌 낸드 시장 매출은 전분기 대비 70% 증가했고 낸드 가격도 55% 상승했다. SK하이닉스는 매출 기준 낸드 점유율 19%로 2위에 올랐으며, eSSD 매출은 86억3000만달러 이상으로 추산됐고 삼성전자와 SK하이닉스의 합산 점유율은 47%에 달했다.
@@ -151,6 +146,9 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 요약: 올해 2분기 글로벌 HBM 시장에서 SK하이닉스의 매출 점유율은 50%로 1분기 58%에서 하락했고, 삼성전자는 21%에서 33%로 상승했다. 양사의 점유율 격차는 1분기 37%포인트에서 2분기 17%포인트로 줄었으며, HBM4는 올해 하반기부터 본격 출하될 전망이다.
   - 판단: 삼성전자의 HBM 공급 확대는 SK하이닉스의 시장 점유율과 가격 프리미엄, 향후 수주 경쟁에 부담으로 작용할 수 있다. HBM4 양산 안정성과 고객 맞춤형 설계 역량 경쟁이 심화되면서 SK하이닉스의 독주에 대한 투자자 기대가 낮아질 가능성이 있다.
   - 유의: SK하이닉스는 여전히 2분기 점유율 50%로 1위이며, HBM4 출하가 본격화된 이후의 실제 수율·공급능력·수익성은 아직 확인되지 않았다.
+- [삼성전자·SK하이닉스 밀어냈다…개미들이 올인한 1위 종목 '정체'](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GVVlTdDJzVFVIZ2liSVVJencxd1EyTm5SaDV3aUVjSXZkQTlwTlFyRkhteUxmN0lXclp0RURCUm9qdDZHSF90bTJXREdsZ2s2VndMdmFn?oc=5)
+  - 위키트리 · 20:23 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 
 </details>
 
@@ -203,7 +201,7 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 판단: AI 인프라 투자 확대와 AI 서버·스토리지·전통적 IT 인프라 교체 수요는 Dell의 매출과 이익 성장을 뒷받침할 수 있다. 다만 부품 공급과 메모리 비용, 가격 경쟁 및 마진 지속 여부가 실적 개선의 핵심 변수다.
   - 유의: 공정가치와 목표주가는 분석기관의 전망치이며, 기사에는 구체적인 Dell의 실적 수치나 신규 계약이 제시되지 않았다. 일부 기관은 AI 수요에도 불구하고 순환성과 밸류에이션을 이유로 중립적 의견을 유지했다.
 - **약한 호재** · [Dell Technologies and Armada sign strategic MoU to accelerate mobile and edge data infrastructure across Saudi Arabia](https://news.google.com/rss/articles/CBMiigJBVV95cUxPRVd1VHRCcHE4c0RHUnc5ekI2NDBkMUc2U1pON1diZ1FRWmhoenM2QkVNakRlc0FWT05zbHh5bUFmbm9CaWNxZnZ4TnhLSjl6ZlVpXzg0bVFWVk1RWFZ3WUttVHp6UEtENGdJTU9GNUVhWkFCem9NUUVsQzBYSlcxSHJzNDFEVE85LXMtTzYzRDhqU2R5RzVpN3ctZUlUSlJOUGJwbTROVU9LWUkzRjhFOTg2SmRmekYwUnloUUpVTWdreHdPdEdYcmxzNVM2TXFqcGpsS0ZJNXhYT3owVkV2dEowVFJLWjNhOGltWTFsUGtnQUk4NzhFcHpoYmdJYkQ0R1Jla2tjZngwZw?oc=5)
-  - Zawya · 19:29 KST · 단일출처(구글 뉴스 RSS)
+  - zawya.com · 19:29 KST · 단일출처(구글 뉴스 RSS)
   - 요약: Dell Technologies와 Armada는 LEAP 2026에서 사우디아라비아 전역에 컨테이너형 모바일·엣지 데이터센터를 공급하기 위한 양해각서(MoU)를 체결했다. 양사는 Dell의 하드웨어·인프라 스택과 Armada의 모바일 데이터센터 솔루션을 결합해 에너지, 통신, 제조, 공공 인프라 분야의 Edge AI와 데이터 주권 수요를 공략할 계획이다.
   - 판단: Dell은 Armada의 지역 채널과 협력해 사우디 기업 및 공공 인프라 시장에서 서버·스토리지 판매 기회를 확대할 수 있다. 현장형 컴퓨팅과 Edge AI 수요가 실제 프로젝트로 전환되면 Dell의 인프라 사업 매출에 긍정적일 수 있다.
   - 유의: MoU는 협력 의향과 전략적 틀을 정한 단계로, 구체적인 수주·매출·투자 규모가 확정됐다는 내용은 없다.
@@ -288,13 +286,11 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 </details>
 
 <details>
-<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 중립 3</summary>
+<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 중립 2 · 판단보류 1</summary>
 
-- **중립** · [Oxygen Reduction Reaction Catalysts Market Outlook to 2035](https://news.google.com/rss/articles/CBMikgFBVV95cUxOZE5Xb1doOXpQMmxPcWlNU2lUcGR3RE1IWVl3ZXEwVlVBWm1hTThRaTNkVEMzWmVGR2dKVlFERElEeE1SZWZaWnVMNkRQNGNjNjZYdlE2Q0ZSQmEzZC1FZmlYRkRYVG9wUlMtSFdvbkJ4QkEzT2NyUnItWE9NS0pER3pWaHNZa0FtVV95MnE1YTVEQQ?oc=5)
-  - IndexBox · 14:16 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 기사는 2035년까지의 산소환원반응(ORR) 촉매 시장 전망을 다루며 Johnson Matthey, BASF, Tanaka Holdings, Umicore, 3M 등 주요 촉매 업체와 연구용 유통업체를 나열한다. 이오스 에너지의 제품, 계약, 실적 또는 시장점유율에 대한 내용은 포함하지 않는다.
-  - 판단: ORR 촉매 시장의 성장 전망이 이오스 에너지의 사업에 연결된다는 근거가 기사에 없어 보유 종목에 대한 직접적인 영향은 중립적이다.
-  - 유의: 기사 주제가 이오스 에너지가 아닌 연료전지 촉매 시장과 다른 기업들의 목록이다.
+- [Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5)
+  - ACCESS Newswire · 06:29 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 - **중립** · [Nvidia Supplier SK Hynix Files For Nasdaq Debut Under Symbol SKHY](https://news.google.com/rss/articles/CBMivAFBVV95cUxNV25Nd2JwMU83Rjl5ZERxUTNsX3I0V1pCUFpZQUwzbzQyNm01c2N1T292TEpYdGhQOGJmUVJqVjRRU0hsN2lKRzVMNllKdEU4MGFCSXVzUmlSWFpzS2FJLWtLdHEtT3lUa2VwaTlrZGVqVXptaFllLURPc2tYa3Fwd2hMSlVnWmI1MjFWVTJTTDZ0bE5ndTY4Uk1aQ1FxazBjSFJ3RDRaampiOW5TYnZOZkp5Y2Q5bXlPYjIyYQ?oc=5)
   - stocktwits.com · 07:58 KST · 단일출처(구글 뉴스 RSS)
   - 요약: SK하이닉스는 나스닥에 ‘SKHY’라는 종목기호로 상장하기 위해 최대 1,779만 주의 ADS 공모 등록서를 제출했으며, 이는 전체 발행주식의 약 2.5%다. 공모자금은 일반 기업 목적과 자본지출에 사용될 예정이고, 로이터는 약 294억달러 조달 가능성과 주당 166달러 가격을 보도했으며 SK하이닉스는 엔비디아의 HBM 주요 공급업체로 소개됐다.
@@ -400,6 +396,9 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 <details>
 <summary><b>록히드마틴</b> <code>LMT</code> ▼ -1.44% $525.28 — 호재 2 · 판단보류 1</summary>
 
+- [Lockheed Martin rated Buy on record $230B backl...](https://news.google.com/rss/articles/CBMimAFBVV95cUxQcTE3cjdQMjktaGN5aWMxajR2TjE1dHBxSFQ4ZGIzMXdKZGp2MnZiQnhIdERlZzlvOFhaTzQxNWtCYXo2MnZ1Q1dEWVh1SVlqOW1fRnk5bzlwVk5ESTVydHdhcGRlX3Jfdy1wT3NQQS1sMThEbHhNeHNUbnVKUnpSZFFXQ1NkT05XSDdlZVVhbFI0VEdWTUJ6Yw?oc=5)
+  - Pluang · 21:24 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 - **호재** · [Lockheed Martin: Missile Demand Is Surging, But The Stock Still Prices In Some Execution Risk](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcVdrTGJGdHo1TktVSE1aRTR1b0JULUZBd1VwWEpLM3VVVnUtREh2T2QzN192SU84SUt6Z0tvUnJuWUU0Q01xUHMwM2pDVEU4NGpvamNmU3FOWE1SWjByWG9zN1BRaWhhR2ZhYWhwa0t3ZzJlZ2lHbzh0MFhOLWlGdUhKYlAwQnBpYlZnM3hNTVBWQnVKaHFPMDFWWElNT0NQcG4yUXJkSmZtNkpJRlg2emNBMTNiQTF0ZnBmSjZDOFRkdWg2eVhnMzVyODBZdFJHOG9pYg?oc=5)
   - Seeking Alpha · 21:13 KST · 단일출처(구글 뉴스 RSS)
   - 요약: PV Research는 Lockheed Martin에 매수 의견을 제시했으며, 근거로 2300억 달러의 사상 최대 수주잔고와 PAC-3·THAAD 미사일 방어 수요 증가를 들었다. 2026년 가이던스는 잉여현금흐름 70억~72억 달러, 주당순이익 29.95~30.65달러이며, 배당수익률은 2.6%로 제시됐다.
@@ -410,28 +409,23 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 요약: 기사 요약은 Lockheed Martin에 2300억 달러의 수주잔고와 미사일·방공·F-35 프로그램의 강한 성장을 근거로 매수 등급을 부여했다고 전한다. PAC-3와 THAAD 같은 미사일·방공 사업이 주요 성장 동력으로 언급됐다.
   - 판단: 기록적인 수주잔고와 방산 핵심 프로그램의 성장 전망은 록히드마틴의 매출 및 수주 지속 가능성에 긍정적인 영향을 준다.
   - 유의: 본문이 매우 짧고 구체적인 실적, 밸류에이션, 위험 요인에 대한 정보가 부족해 매수 의견의 근거를 충분히 검증하기 어렵다.
-- [Lockheed Martin: Record Backlog And Missile Demand Make The Pullback A Strong Buy](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMDhOZ0hXbjhVTkRvbWtobzFCcUlqMlJNMjBBQzAwRURPUndNcElzQkpVUk9NdkttNDlqSkJXMkd2RkV6RWVtV0JQeU9kejRHbE43dkd0SkpaMUViQlVreVpfeWQydHZGc3ViVEtRZGJVc19mMTVwbmp4cW9XVlAxMUxmSVpMdzdZZHhMMnA1XzlyMFpOT1k5ZlA4RVdwdi02OFRVN09RMkdLaUx3aWEwbWpIdXA4YjBVQU5vME5VR2dHNE0?oc=5)
-  - Seeking Alpha · 19:55 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
 
 </details>
 
 <details>
-<summary><b>마이크로소프트</b> <code>MSFT</code> ▼ -2.04% $499.70 — 약한 호재 2 · 판단보류 1</summary>
+<summary><b>마이크로소프트</b> <code>MSFT</code> ▼ -2.04% $499.70 — 약한 호재 1 · 판단보류 2</summary>
 
-- [Microsoft Is Down Nearly 40% — Buy Now Or Big Mistake? Ashutosh Sharma (mT1al99uEN)](https://news.google.com/rss/articles/CBMikgFBVV95cUxQUEpOYjhBZGczUTJQZzlRR2wtX3k5QUdIN0hiYWljNU04bWFONG1hNVNJc3liXzJGekFTREtQdHBHVG95WGVKdGNYZmlEOTZ5ZGc4ekNuX1JwTHZLWFRlWXJMRmRBaDFMb2xpNzBMaEhJZnhVVlQ5TlIyQTlWQjBJMFhMQ3Q1bUlaWS10T0FCaVh6dw?oc=5)
-  - Mshale · 15:19 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
-- **약한 호재** · [Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B](https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5)
-  - stocktwits.com · 11:14 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Alphabet과 Meta가 2026년 자본지출 전망을 각각 50억달러와 100억달러 상향하면서, Alphabet·Meta·Amazon·Microsoft의 2026년 합산 지출 규모가 최대 7,250억달러에 이를 것으로 제시됐다. Google Cloud 매출은 전년 대비 63.4% 증가했고, Microsoft Azure를 포함한 주요 클라우드 사업의 성장세가 AI 투자 과잉 우려를 완화했다.
-  - 판단: Microsoft의 Azure와 AI 컴퓨팅 수요가 경쟁사들의 대규모 데이터센터 투자 및 강한 클라우드 성장으로 뒷받침된다는 점은 매출·백로그 확대에 긍정적이다. 다만 Microsoft 역시 AI 인프라 투자를 크게 늘려야 하므로 단기적으로 자본지출과 비용 부담이 커질 수 있다.
-  - 유의: Microsoft의 구체적인 2026년 자본지출 전망은 본문에서 ‘2025 회계연도 882억달러보다 많을 것’ 및 달력연도 기준 약 1,900억달러 전망으로 혼재되어 명확하지 않다.
-- **약한 호재** · [Dan Ives Says ‘Market Is Mispricing’ MSFT Stock — Here’s Why](https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEU5NldhOFZVX3p5emFad0ZXUXlweTVmbUJqMUZ4aWJjdzdhUG5pdFBQUDVpWkVDbkR4dFhVVXRUSTBWTWF1RF9nLUM0S25yQ2JHazRfNlBsSW44VkxGeUczY2M5X1IxYU9hRmV0V2g4NXkzNkVod0hRM0kxdkNQT09qbFdzM1U1S2c3TldZQ1Q0eGZ0TU5CSFBYeW1qc2xmSE1lWHdZeGFVQnRIRWVvb0hGOE4ya2FlZUE?oc=5)
-  - stocktwits.com · 11:12 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Wedbush Securities의 Dan Ives는 Microsoft가 AI 성장성을 시장이 과소평가하고 있으며, 향후 6~12개월 내 Copilot·Azure·Build를 중심으로 수익화 단계에 진입할 수 있다고 평가했다. 그는 Microsoft 주가의 목표가를 575달러로 제시했으며, 양자컴퓨팅 확대도 ‘제4차 산업혁명’의 일부로 봤다.
-  - 판단: 유명 애널리스트의 긍정적 평가와 575달러 목표가는 Microsoft의 AI·개발자 생태계 및 Copilot·Azure 매출 확대 기대를 높일 수 있다. 특히 AI 투자가 실제 수익으로 전환될 것이라는 전망은 밸류에이션 재평가에 긍정적으로 작용할 수 있다.
-  - 유의: 기사의 핵심 근거는 Dan Ives의 전망과 의견이며, 구체적인 Copilot·Azure 수익화 실적이나 확정된 신규 매출 수치는 제시되지 않았다. Microsoft 주가는 해당 발언 시점 전 거래일 4.17% 하락했다.
+- [Microsoft Stock's 200-Day DMA Gap Is Widest Since 2008 Financial Crisis — And Retail Sees ‘Generational’ Opportunity](https://news.google.com/rss/articles/CBMihgJBVV95cUxOT3NRbWpHSDloWWRSQTNSUHlIZWxSVjdRcG9BYzhqMG5yQl9GTzlkX21kX0c2dTNTenR4aVl5RkdBTEs5ZmVGMDVKSGtpR2lKRDFoOHlnakl1QXlNX25oY0dfaGtqbk5JLWFPN1FYUFBsMW9XZ2FJcVZoajluM1NUQWpFclNXQ0dZcXUyZ3ZNOVpDS050Q3A5QnZhbVdDQ1JVdmtuTDVCT205dlF2aHZBbWs5c09LdjRtSk9QZ1Q5MVd4S2J2TTgwNnlQcVFUZGp4cWZ5MU9SdGhmNndXaG1FUENKOFQ5LS1iX1JDX25nM2xQQVphS0g3YlI1bnZzaVRhdHNuRjJB?oc=5)
+  - stocktwits.com · 12:52 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
+- [Microsoft Bets $2.5B On Enterprise AI Implementation With New Frontier Division, Commits To Embed 6,000 Employees With Clients](https://news.google.com/rss/articles/CBMiywFBVV95cUxOX2lPSE0tT0lIZFFaeVVLR0w2NWhRR210VngwVEQyRWZTRm1SaTdwYVp2S2dKOVV1Zzh0T2RWemJ4Tmo5OC1KaTMyMWx1ak04WGdYWTBmb1R4V2UtMUozMHhrT01oZXdEdlJneFpkem0zamRYTUNjVU1VN3VBbld0TGxXVlVNM0N5LXV1NlRaWXRiZ3FrLWpoSFJmVDhxdER5WUQwZDNDbXkzb2xmQ0dvVFQzZ3ktMHRYQzZsMmZtTmZYUUJ5NUJwcG9WVQ?oc=5)
+  - stocktwits.com · 11:54 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
+- **약한 호재** · [Bill Ackman Swaps GOOGL Stake For New MSFT Position, Clarifies Sale Not a Bet Against Search Giant](https://news.google.com/rss/articles/CBMi8wFBVV95cUxORjZwQVZKUXg4QU10MW9mUEQtMDNvem9ydTFkaXNFMFJvWmV0M2NiSWJDZGNoUFdEWC1VMjBFRU4xdUw5QVZUTVNyQUNzMXVSWnhVTGFrZUJjQUNXTjJqaVhoYU5mZWM3eW8zQWh6ZmQ4ZGEzVE40U0NiU0VyWDB0YkRlVVpSakxCMFJTVDk2VWhLSmh3M3dsVURORWVPNF9KX0pQbUZwYXY5WkMycndkX3hTV2RuXzMwVWFERkdpa2FMWnM5QkgtYjdHT0NpMG5PUE1BdU8tNWV2dHRYQkVIdW1lTk9WbHhhLUZTZHg1OHhhSjQ?oc=5)
+  - stocktwits.com · 11:27 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: Bill Ackman의 Pershing Square는 지난 분기에 Microsoft 주식 570만 주를 새로 매입해 21억 달러 규모의 지분을 구축했고, Alphabet 지분은 대부분 또는 전부 줄였다. Ackman은 Google 매도가 Alphabet에 대한 약세 전망이 아니라 제한된 자금을 Microsoft로 옮긴 것이라고 설명했으며, Microsoft 365·Azure·Copilot과 OpenAI 협력을 장기 성장 요인으로 평가했다.
+  - 판단: 유명 장기 투자자의 21억 달러 규모 신규 매수와 Microsoft의 핵심 소프트웨어·클라우드·AI 사업에 대한 긍정적 논리는 투자심리와 밸류에이션 재평가에 도움을 줄 수 있다.
+  - 유의: Ackman의 매수는 투자자 의견일 뿐 실적 개선을 보장하지 않는다. Microsoft 주가는 기사 시점에 연초 대비 12.6%, 지난해 52주 고점 대비 24% 하락해 AI 경쟁과 클라우드 성장 우려가 여전히 존재한다.
 
 </details>
 
@@ -448,14 +442,14 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 요약: 본문에는 Nike 주가 하락이나 패션 산업에 관한 기사 내용이 포함되어 있지 않고, 쿠키 사용 및 개인정보처리방침에 대한 웹사이트 안내문만 반복되어 있다.
   - 판단: 실질적인 기업 실적, 브랜드 수요, 경쟁 상황 또는 주가 관련 정보가 없어 Nike 보유 종목의 가치나 전망에 영향을 주는 경로를 판단할 수 없다.
   - 유의: 광고·사이트 안내문만 있고 분석 대상인 기사 본문이 없다.
-- [Nike Gets Booted From S&P 100 After 18 Years: What Went Wrong With The Sportswear Giant?](https://news.google.com/rss/articles/CBMirwFBVV95cUxQd3F0TkhjZG03TERJWFA0S0VGVTFWbUh1Z0g5cl9iaUlhZE5hMmdIY3hmVGxaQkc5eDhDWERhQW40Y0hBb1l0Y29qOGZhMlRKa0sxSVN6RVhTcHRlR3ZFOWt3ME9nb3NrSXJHWXc3Ty11UDl2OE9JYU9LMThNa0R0WEJVUzA5RFY3VzNYNFhnYzF6aS1SUnlvd1hVcUdKYjNfeWlJa2lUdHYwdFl5UjFF0gG3AUFVX3lxTE94dFhUc3hEM1E4dDIyaGpMbkNLRENrSTFEa242ellMZW1rVjlwLWdLcTZ3RnF5SVNkbExoR3VJdTEtY080RDluamhOZDUxZmFrTEp2cXdMQTRLTjU5UEFFVVplc2Y0a0lkYUpjSnRFcUxuWFppTE5uY19aZTY4TzYzUUxEQUo2b1A0Y3JfUHdsRGQ5elBfZ21MbXpGLTRaR2JEQW9DdzR4UG1uUTZUNF93YXN0ek04SQ?oc=5)
-  - NDTV Profit · 19:04 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
+- [Why is Nike leaving the S&P 100 after 18 years? Experts point to key mistakes and new challenges](https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVFZoZTdoT1lyMmUyM2JSNFJQdGhlaVBZMEZIellFdmV1aDFVcjJ6UDdaZTdLc2dIclhtcTJDMC1fSDV0eEtJU05CbE1weDlfeVRuMklCWXJnNFRjS081WVN0NUltdWI4Y2lPdDhRMkV6TzRmNGpsaGxOZ0dGa083cEN1RGFkTDhqSWFoSXlpNzVKTy0tdHFybXpZbndqQklReVgzanA3NHZiNENnRVBsbDJ3Ym5iWjVKSGNKek5pVUJmcTZUZzVaemRoWW00bjhTYWZOSVZWbUljY215VS1lLVFMaWx0aHlfZlHSAeoBQVVfeXFMTVRWaGU3aE9ZcjJlMjNiUjRSUHRoZWlQWTBGSHpZRXZldWgxVXIyelA3WmU3S3NnSHJYbXEyQzAtX0g1dHhLSVNOQmxNcHg5X3lUbjJJQllyZzRUY0tPNVlTdDVJbXViOGNpT3Q4UTJFek80ZjRqbGhsTmdHRmtPN3BDdURhZEw4aklhaEl5aTc1Sk8tLXRxcm16WW53akJJUXlYM2pwNzR2YjRDZ0VQbGwyd2JuYlo1SkhjSnpOaVVCZnE2VGc1WnpkaFltNG44U2FmTklWVm1JY2NteVUtZS1RTGlsdGh5X2ZR?oc=5)
+  - Moneycontrol.com · 19:32 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 
 </details>
 
 <details>
-<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 약한 호재 1 · 중립 1</summary>
+<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 약한 호재 1 · 판단보류 1</summary>
 
 - **호재** · [NVO Stock Generates Retail Buzz After European Commission Approves 7.2 MG Once-Weekly Dose Of Wegovy Injection](https://news.google.com/rss/articles/CBMilwFBVV95cUxNUzZFM2RZVEd2N2tlWk5ZRDBpRmRXVFpueTVGS043Wlc4YW5TWmhjWUg4MXZFM2V5ekJqSk1kZ09NVW9BUmVMbi1lV2hWazRLYzFTeUlvc1BIRU5OTGYydEY1YWlycDktS1U5QlJwcUdkY01jcFgyT2ZqQnQ3VFV1cHFVTVhFUXB3YlN0ODY2UDVsMzdfSWxz?oc=5)
   - stocktwits.com · 10:05 KST · 단일출처(구글 뉴스 RSS)
@@ -467,11 +461,9 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 요약: 노보노디스크 인도법인이 주 1회 투여하는 세계 최초 기저 인슐린 아위클리(인슐린 아이코덱)를 인도에 출시했다. 매일 1회이던 주사를 주 1회로 바꿔 연간 투여 횟수를 365회에서 52회로 줄인다. ONWARDS-1 임상에서 1일 1회 인슐린 글라진 U100 대비 우수한 당화혈색소 감소와 개선된 목표 혈당 범위 유지 시간을 보였다고 회사는 밝혔다. 인도는 당뇨 환자 1억 100만 명, 당뇨 전단계 1억 3,600만 명으로 세계 최대 수준의 시장이다.
   - 판단: 비만 치료제 경쟁이 심해진 상황에서 당뇨 인슐린이라는 기존 주력 사업의 신제품을 세계 최대 규모 환자군을 가진 시장에 내놓은 것이라, 매출 다변화에 긍정적인 방향이다.
   - 유의: 출시 발표일 뿐 판매 목표나 가격, 매출 기여 규모가 제시되지 않았다. 임상 결과와 의미 부여도 대부분 회사와 회사가 인용한 의료진의 설명이며, 인도 인슐린 시장은 가격 경쟁이 치열해 환자 수가 곧 수익으로 이어진다고 보기 어렵다.
-- **중립** · [VKTX Stock Has Nearly 300% Wall Street Upside — Is Viking’s Oral Obesity Pill The Next Novo Nordisk-Style Breakout?](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNzR3UDloSVJaalp4cXFKdWFzeVNrRU5hTkZzRTZza3hhWXg3MGJVejM0OEUwbzlGSzZMRkVKOEhQREpPQ2FWcFMzdUp6WkRqMnFoWVNBMzcyRjFycmRvZHFBUjRUMDZNX2stQ2RxbkZpYkszalN6S3BiWTJqclpTLWlTWmZFT1plNWxKTEhpaUF5aUtSQmxPMWtJbTk5MkVvdVc0ODRyOHdVQzMyTmV4cFh2b09vVVVFRVdCRDliRXFGamJCZmJhR3c1RDFPWDhRUGd1aXFJZWNqWnNMRWc?oc=5)
-  - stocktwits.com · 02:39 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 기사는 Novo Nordisk가 아니라 Viking Therapeutics의 경구 비만 치료제 후보 VK2735와 VKTX 주가 전망을 주제로 한다. Morgan Stanley는 VKTX에 99달러 목표가와 ‘비중확대’를 유지했고, Raymond James는 118달러 목표가와 ‘강력 매수’를 제시했으며, Viking은 2026년 3분기 경구 VK2735의 3상 시험을 시작할 계획이다.
-  - 판단: Novo Nordisk의 Wegovy 경구제 출시 초기 수요가 강했다는 점은 경구 GLP-1 치료제 시장의 가능성을 보여주지만, 직접적인 수혜 대상은 Viking이다. 따라서 Novo Nordisk에는 시장 확대를 확인하는 간접 신호일 수 있으나, 이 기사만으로 NVO의 실적이나 주가에 미치는 영향은 제한적이다.
-  - 유의: 기사의 주제와 애널리스트 목표가는 Viking Therapeutics에 관한 것이며, Novo Nordisk에는 경구 Wegovy의 초기 처방 데이터가 언급된 수준이다. Wegovy는 1월 23일 기준 주당 약 5만 건의 처방과 17만명 이상의 치료 환자를 기록했지만, 장기 매출이나 수익성 수치는 제시되지 않았다.
+- [Why Is Novo Nordisk Stock Climbing Premarket Today?](https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXlsZXBvWmQ4T2R2YUllUnhYblp1OFJHMFRXaFVWVlpvQTFobFlFUndmMUNQRl8tRHBBM3FuRFNvTGhJbE5GMVc2eTJPemUtYl9WR05zRGtxaUFwVUhwdHU5UEFaRVhrdlhNNVp4RXA3ZTBWM1hPSzh1OG9qUFNib2RGY3Job0FtVm02Y1dkYlRHWDhmZGQxRmRFSDJUaWNuSWlaeEpKN18zVFFUQksyOEVyMl8?oc=5)
+  - stocktwits.com · 04:25 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 
 </details>
 
@@ -481,6 +473,6 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 - NXT 종가는 넥스트레이드(ATS) 최종 체결가로, 등락률로 역산한 전일 종가가 KRX 전일 종가와 맞을 때만 표시합니다.
 - 해외 종가는 Yahoo 단일 출처이며 독립 검증한 값이 아닙니다.
 - 시장 현지 날짜 기준 당일 일봉은 제외합니다. 실시간·시간외 가격이 아닙니다.
-- 오늘 뉴스 52건 중 교차확인 13건, 본문 확보 44건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.
+- 오늘 뉴스 52건 중 교차확인 12건, 본문 확보 43건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.
 - RSI(14)는 와일더 방식, 볼린저밴드는 이동평균 20일·표준편차 2배(모집단 기준)이며 종가와 같은 데이터로 최근 약 100거래일을 써서 계산합니다. 국내는 KRX 종가 기준입니다.
 - 지표는 참고용이며 투자 자문이 아닙니다.
