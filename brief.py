@@ -396,13 +396,63 @@ section{display:flex; flex-direction:column}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
 .upper-note b{color:var(--up)}
 @media (max-width:720px){
-  .row{grid-template-columns:1fr 104px 78px; row-gap:6px}
-  .watch-row{grid-template-columns:1fr 100px 80px; row-gap:6px}
-  .watch-row .tech,.watch-row .band{text-align:left}
-  .watch-row.head .tech,.watch-row.head .band,.watch-row.head span:nth-child(4){display:none}
-  .bar,.verdict{grid-column:1/-1; text-align:left}
-  .tech,.band{grid-column:span 1; text-align:left}
-  .row.head .bar,.row.head .verdict,.row.head .tech,.row.head .band{display:none}
+  /* 좁은 화면에서는 표를 카드처럼 쌓는다. 열 7개를 가로로 욱여넣으면 읽을 수가 없다. */
+  .page{padding:24px 16px 56px; gap:30px}
+  .masthead{gap:8px; padding-bottom:16px}
+  .dateline{gap:4px 14px; font-size:12px}
+  .tally{gap:14px 20px}
+  .tally b{font-size:22px}
+  h2{font-size:18px}
+  .tabs button{padding:8px 10px; font-size:12.5px}
+
+  .row.head,.watch-row.head{display:none}
+  .row,.watch-row{
+    display:grid; grid-template-columns:minmax(0,1fr) auto;
+    gap:2px 12px; padding:13px 2px; align-items:baseline;
+  }
+  .name{font-size:15px}
+  .name small{font-size:11px}
+
+  /* 보유 표: 이름 | 종가 / 등락률, 그 아래 막대와 지표. 자리를 명시해 배치가 흔들리지 않게 한다. */
+  .row > :nth-child(1){grid-column:1; grid-row:1 / span 2}
+  .row > :nth-child(2){grid-column:2; grid-row:1; text-align:right}
+  .row > :nth-child(3){grid-column:2; grid-row:2; text-align:right; font-size:15px}
+  .row > :nth-child(4){grid-column:1 / -1; grid-row:3; margin:6px 0 4px}
+  .row > :nth-child(5){grid-column:1; grid-row:4; text-align:left}
+  .row > :nth-child(6){grid-column:2; grid-row:4; text-align:right}
+  .row > :nth-child(7){grid-column:1 / -1; grid-row:5; text-align:left; font-size:11px}
+
+  /* 관심 표: 이름 | 종가 / 시총 | 변동·등락률 / RSI | 볼린저 */
+  .watch-row > :nth-child(1){grid-column:1; grid-row:1}
+  .watch-row > :nth-child(2){grid-column:1; grid-row:2; text-align:left;
+    font-size:12px; color:var(--muted)}
+  .watch-row > :nth-child(3){grid-column:2; grid-row:1; text-align:right}
+  .watch-row > :nth-child(4){grid-column:2; grid-row:2; text-align:right; font-size:12px}
+  .watch-row > :nth-child(5){grid-column:2; grid-row:3; text-align:right; font-size:15px}
+  .watch-row > :nth-child(6){grid-column:1; grid-row:3; text-align:left}
+  .watch-row > :nth-child(7){grid-column:1 / -1; grid-row:4; text-align:left; font-size:12px}
+
+  .tech{font-size:12.5px}
+  .tech::before{content:"RSI "; font-family:"IBM Plex Sans KR",sans-serif; color:var(--muted)}
+  .tech small{display:inline; margin-left:4px}
+  .band{font-size:12px}
+  .verdict{margin-top:2px}
+
+  .holding-head{padding:13px 2px; gap:6px 8px}
+  .holding-head h3{font-size:16px}
+  .holding-head .spacer{display:none}
+  .tallies{width:100%; margin-top:2px}
+  .stories{padding:2px 0 18px 10px; gap:14px}
+  .story a{font-size:15px}
+  .take{font-size:13px; padding-left:10px; max-width:none}
+  .alert{padding:14px 14px}
+  .notes{padding:16px 16px}
+  .notes ul{max-width:none}
+}
+@media (max-width:400px){
+  .row,.watch-row{grid-template-columns:minmax(0,1fr) auto}
+  .name{font-size:14px}
+  .row .pct,.watch-row .pct{font-size:14px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important; animation:none!important}}
 </style>
@@ -467,6 +517,7 @@ def html_watch(rows):
         out.append(
             f'<div class="watch-row"><span class="name">{esc(row["name"])}'
             f'<small>{esc(row["ticker"])}</small></span>'
+            f'<span class="num">{cap_text(row)}</span>'
             f'<span class="num">{amount(row)}</span>'
             f'<span class="num {tone}">{delta(row)}</span>'
             f'<span class="pct {tone}">{label}</span>{tech}'
