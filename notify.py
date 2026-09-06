@@ -1,7 +1,7 @@
 """완성된 브리핑을 텔레그램으로 보낸다.
 
 환경변수
-  TELEGRAM_BOT_TOKEN  BotFather에서 받은 봇 토큰 (필수)
+  TELEGRAM_BOT_TOKEN  BotFather에서 받은 봇 토큰 (필수). .env 파일에 적어둬도 된다.
   TELEGRAM_CHAT_ID    받을 사람의 chat id (필수). --whoami로 확인할 수 있다.
   SEND_HTML           "0"이면 briefing.html 첨부를 건너뛴다.
 
@@ -23,6 +23,19 @@ KST = ZoneInfo("Asia/Seoul")
 HERE = Path(__file__).parent
 CHUNK = 3500
 API = "https://api.telegram.org/bot{token}/{method}"
+
+
+def load_env():
+    """로컬 실행 편의를 위해 .env가 있으면 읽는다. 이미 설정된 환경변수가 우선."""
+    path = HERE / ".env"
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip())
 
 
 def esc(text):
@@ -137,6 +150,7 @@ def chunks(lines):
 
 
 def main():
+    load_env()
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
         sys.exit("TELEGRAM_BOT_TOKEN 없음")
