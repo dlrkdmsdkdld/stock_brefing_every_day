@@ -13,6 +13,7 @@ python3 -m venv .venv
 ```sh
 .venv/bin/python prices.py   # 종가        -> prices.json
 .venv/bin/python news.py     # 오늘자 뉴스  -> news.json
+.venv/bin/python summarize.py # 요약·판단   -> verdicts.json
 .venv/bin/python brief.py    # 브리핑       -> briefing.md, briefing.html
 .venv/bin/python notify.py   # 텔레그램 전송
 ```
@@ -85,16 +86,32 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 2026-09-06 기준 49건 중 **46건 본문 확보**(네이버 7, 복원 원문 38, 메타 설명 1).
 못 읽은 기사는 브리핑에 `제목만 확보`로 표시하고 요약·판단을 하지 않습니다.
 
-## 요약·호재/악재 판단 (`prompts/summarize.md` -> `verdicts.json`)
+## 요약·호재/악재 판단 (`summarize.py` -> `verdicts.json`)
 
-키워드 감성분석은 오답이 많아 쓰지 않습니다. `claude -p`로 Claude를 헤드리스 실행해
-`news.json`의 본문을 읽히고 `verdicts.json`에 기사 제목 기준으로 기록합니다.
-`claude` CLI의 기존 로그인을 쓰므로 `ANTHROPIC_API_KEY`가 따로 필요 없습니다.
+키워드 감성분석은 오답이 많아 쓰지 않습니다. 기사 본문을 모델에 보내 요약과 판단을 받습니다.
+에이전트 루프를 돌지 않고 API를 직접 호출하므로 비용과 실행 시간이 예측 가능합니다.
+본문이 없는 기사는 아예 보내지 않습니다 — 제목만으로 호재·악재를 붙이지 않기 위해서입니다.
 
 각 항목은 `summary`(내용 2~3문장 요약), `stance`(호재/약한 호재/중립/약한 악재/악재),
 `impact`(그렇게 보는 이유), `caution`(근거의 한계·반대 시각)을 가집니다.
-**본문이 없는 기사는 판단하지 않습니다** — 제목만으로 호재·악재를 붙이지 않기 위해서입니다.
-투자 자문이 아닙니다.
+JSON 스키마를 강제(`strict`)해서 형식이 어긋난 응답을 받지 않습니다.
+기사를 12건씩 나눠 호출하고, 한 묶음이 실패해도 나머지는 살려 `호출실패`에 기록합니다.
+**투자 자문이 아닙니다.**
+
+```sh
+OPENAI_API_KEY=... .venv/bin/python summarize.py   # .env에 적어두면 자동으로 읽음
+SUMMARY_MODEL=gpt-5.6-luna BATCH_SIZE=12 .venv/bin/python summarize.py
+```
+
+### 비용
+
+2026-09-06 실측(46건, 2분 5초): **입력 29,484 / 출력 11,833 토큰**.
+`gpt-5.6-luna` 단가 기준(입력 $0.20 / 출력 $1.20 per 1M) 하루 약 **$0.02**,
+평일만 돌리면 월 **$0.45** 수준입니다. 저장소가 public이라 Actions 실행 시간은 무료입니다.
+
+완전 무료로 돌리려면 GitHub Models(러너의 `GITHUB_TOKEN`에 `models:read` 권한, 별도 키 불필요)를
+쓸 수 있지만, Actions 게이트웨이의 입력 8K/출력 4K 제한 때문에 기사를 더 잘게 나누고
+본문을 줄여야 해서 요약 품질이 떨어집니다.
 
 ## 매일 자동 실행 (GitHub Actions)
 
@@ -102,24 +119,24 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 (cron은 UTC라 `30 22 * * 0-4`). 내 컴퓨터가 꺼져 있어도 돌아갑니다.
 GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있습니다.
 
-가격 -> 뉴스 -> Claude 요약 -> 브리핑 -> 텔레그램 전송 순으로 돌고, 결과(`briefing.md`, `briefing.html`,
+가격 -> 뉴스 -> 요약 -> 브리핑 -> 텔레그램 전송 순으로 돌고, 결과(`briefing.md`, `briefing.html`,
 `prices.json`, `news.json`, `verdicts.json`)를 저장소에 커밋하며 실행 아티팩트로도 첨부합니다.
 각 단계는 `continue-on-error`라 한 단계가 실패해도 나머지는 진행합니다.
 
 ### 최초 설정
 
-1. 인증 토큰 발급 (Claude 구독 계정 사용, API 키 불필요):
-
-   ```sh
-   claude setup-token
-   ```
+1. platform.openai.com에서 API 키를 발급합니다.
 
 2. 저장소 → Settings → Secrets and variables → Actions → New repository secret
-   - 이름: `CLAUDE_CODE_OAUTH_TOKEN`
-   - 값: 1번에서 나온 토큰
 
-   이 시크릿이 없으면 요약 단계만 건너뛰고 가격·뉴스·브리핑은 정상 생성됩니다.
-   텔레그램 전송까지 하려면 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`도 같이 등록하세요.
+   | 이름 | 용도 |
+   | --- | --- |
+   | `OPENAI_API_KEY` | 기사 요약·판단 |
+   | `TELEGRAM_BOT_TOKEN` | 브리핑 발송 |
+   | `TELEGRAM_CHAT_ID` | 받는 사람 |
+
+   `OPENAI_API_KEY`가 없으면 요약 단계만 건너뛰고 가격·뉴스·브리핑·발송은 정상 동작합니다.
+   이때 브리핑의 각 기사에는 요약 대신 `판단 보류`가 표시됩니다.
 
 3. Actions 탭에서 `데일리 브리핑` → `Run workflow`로 수동 실행해 한 번 확인하세요.
 

@@ -21,7 +21,7 @@ jobs:
     env:
       TZ: Asia/Seoul
       # if 조건에서 읽으려면 잡 레벨 env로 올려야 한다. secrets 컨텍스트는 step의 if에서 못 쓴다.
-      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
@@ -44,14 +44,10 @@ jobs:
         continue-on-error: true
         run: python news.py
 
-      - name: Claude 요약·호재/악재 판단
-        if: ${{ env.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+      - name: 기사 요약·호재/악재 판단
+        if: ${{ env.OPENAI_API_KEY != '' }}
         continue-on-error: true
-        run: |
-          npm install -g @anthropic-ai/claude-code
-          claude -p "$(cat prompts/summarize.md)" \
-            --permission-mode acceptEdits \
-            --allowed-tools Read Write Edit Bash
+        run: python summarize.py
 
       - name: 브리핑 생성
         continue-on-error: true
