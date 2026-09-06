@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T22:21:34+09:00",
+  "generated_at": "2026-09-06T23:21:37+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "예비/gemini-flash-lite-latest",
+  "model": "OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 31916,
-    "output_tokens": 8952
+    "input_tokens": 4882,
+    "output_tokens": 3404
   },
   "skipped": {
-    "본문없음": 9,
+    "본문없음": 0,
     "응답누락": [],
     "호출실패": []
   },
@@ -15,18 +15,106 @@
     "hbm이어낸드도ai특수삼성sk하이닉스시장절반차지": {
       "title": "HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지",
       "holding": "SK하이닉스",
-      "stance": "약한 호재",
-      "summary": "AI 추론 확산으로 글로벌 2분기 낸드 시장 매출이 전분기 대비 70% 증가하고 가격도 55% 뛰어올랐다. SK하이닉스는 eSSD 매출이 86억3000만 달러를 기록하며 점유율 19%로 2위를 차지해 수익원이 넓어지고 있다.",
-      "impact": "AI 서버 중심의 eSSD 수요 급증과 낸드 가격 강세가 SK하이닉스의 낸드 부문 실적 개선에 긍정적으로 작용한다.",
-      "caution": "경쟁사인 삼성전자의 낸드 점유율이 28%로 선두를 유지하고 있으며 키옥시아와의 협력 가능성은 아직 구체화되지 않았다."
+      "stance": "호재",
+      "summary": "올해 2분기 글로벌 낸드 시장 매출은 전분기보다 70% 증가했고 낸드 가격도 55% 상승했다. AI 추론 확산으로 eSSD 수요가 늘면서 삼성전자와 SK하이닉스의 낸드 매출 점유율이 50%에 육박하고 양사의 실적 기여도도 확대될 전망이다.",
+      "impact": "낸드 가격 상승과 기업용 SSD 수요 증가는 SK하이닉스의 낸드 매출 및 수익성 개선으로 이어질 수 있다. AI 서버용 저장장치 수요가 HBM에 이어 새로운 성장 동력으로 작용할 가능성이 있다.",
+      "caution": "본문에 SK하이닉스의 구체적인 2분기 낸드 점유율과 실적 수치는 제시되지 않았다."
     },
     "하이닉스독주흔드나삼성전자hbm점유율격차37p17p": {
       "title": "하이닉스 독주 흔드나…삼성전자, HBM 점유율 격차 '37%p→17%p'",
-      "holding": "SK하이닉스",
-      "stance": "약한 악재",
-      "summary": "올해 2분기 글로벌 HBM 시장에서 SK하이닉스가 50% 점유율로 1위를 유지했으나, 삼성전자가 33%로 쫓아오며 양사 격차가 1분기 37%포인트에서 2분기 17%포인트로 좁혀졌다. 하반기 HBM4 출하가 본격화되면서 주도권 경쟁이 치열해질 전망이다.",
-      "impact": "삼성전자의 빠른 점유율 상승과 공급 확대는 SK하이닉스의 독주 체제에 부담으로 작용하며 향후 마진율 경쟁을 심화시킬 수 있다.",
-      "caution": "SK하이닉스 역시 HBM4 양산 출하를 시작하고 엔비디아 '베라 루빈' 등에 탑재를 앞두고 있어 기술력 우위 여지는 남아 있다."
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "올해 2분기 글로벌 HBM 시장에서 삼성전자는 매출 기준 점유율 33%를 기록해 1분기 21%보다 12%포인트 상승했다. SK하이닉스와의 점유율 격차도 1분기 37%포인트에서 2분기 17%포인트로 줄었으며, 삼성전자는 2월 HBM4를 업계 최초로 양산 출하했다.",
+      "impact": "HBM 점유율 상승은 삼성전자의 AI 메모리 매출 확대와 주요 고객사 공급 증가로 이어질 수 있다. HBM3E보다 성능과 가격이 높은 HBM4 출하 확대가 수익성 개선에도 기여할 가능성이 있다.",
+      "caution": "삼성전자가 SK하이닉스의 점유율을 빠르게 따라가고 있지만, 2분기 기준 점유율은 여전히 SK하이닉스 50%보다 낮다."
+    },
+    "조선업수주공세에k조선해외생산승부수": {
+      "title": "中 조선업 수주 공세에…K-조선 '해외 생산' 승부수",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "중국 조선업은 지난 8월 전 세계 선박 수주량 420만CGT 중 85%인 359만CGT를 확보한 반면, 한국은 31만CGT로 7%에 그쳤다. 이에 국내 조선업계는 고부가가치 선박은 국내에서 생산하고 범용 선박은 해외 조선소에서 건조해 원가 경쟁력과 생산능력을 높이는 전략을 추진하고 있다.",
+      "impact": "해외 생산 확대가 성공하면 HD현대중공업을 포함한 국내 조선업체의 가격 경쟁력과 수주 대응력이 개선될 수 있다. 다만 중국과의 수주 격차가 큰 상황은 업계 전반의 경쟁 부담으로 작용한다.",
+      "caution": "본문은 K-조선 업계 전반의 전략을 다루며 HD현대중공업의 구체적인 수주나 해외 생산 계획은 직접 언급하지 않는다."
+    },
+    "delltechnologiesdellstockfairvaluerisesafterguidanceandaiserverfocus": {
+      "title": "Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "Dell Technologies의 공정가치 추정치가 약 502.78달러에서 564.46달러로 상향됐다. 상향 배경으로 회사의 가이던스와 부품 공급, 메모리 비용, 마진, AI 서버 수요 및 거시·지정학적 변수가 거론됐다.",
+      "impact": "공정가치 추정치 상향은 AI 서버 수요와 Dell의 실적 전망에 대한 평가 개선으로 주가에 긍정적일 수 있다. 특히 AI 서버 사업 확대가 매출과 마진 개선으로 연결될 가능성이 반영된 것으로 보인다.",
+      "caution": "본문은 공정가치 상향의 구체적인 실적 전망이나 분석 방법을 충분히 제시하지 않으며, 메모리 비용·공급·거시환경 등 하방 변수도 함께 언급한다."
+    },
+    "shouldyouavoidconstellationbrandsstockevenata52weeklow": {
+      "title": "Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈 주가는 고점 대비 53% 하락해 약 128달러, 52주 최저가는 126.45달러 수준이며 약한 소비지출이 매출을 압박했다. 반면 주가가 선행 주가수익비율 약 11배로 낮아졌고 Modelo, Corona, Pacifico, Victoria 등 인기 수입 맥주에 대한 미국 독점 유통권을 보유해 매수 기회로 볼 수 있다는 평가도 제시됐다.",
+      "impact": "소비자 지출 둔화는 맥주와 와인 판매 및 컨스텔레이션 브랜즈의 매출 성장에 부담이다. 그러나 낮아진 밸류에이션과 주요 브랜드의 유통권은 주가 하락을 제한하거나 회복을 뒷받침할 수 있다.",
+      "caution": "기사 본문이 일부만 제공되어 실적 전망과 구체적인 매출 추세를 확인하기 어렵고, 낮은 밸류에이션이 실제 성장 둔화를 충분히 반영했는지도 불확실하다."
+    },
+    "firstsolarstockeasesafterstrongearningsbeatandpolicyworries": {
+      "title": "First Solar stock eases after strong earnings beat and policy worries",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "퍼스트솔라는 최근 고점 아래인 약 204달러에 거래되고 있지만, 최근 분기 주당순이익은 3.92달러로 컨센서스 2.90달러를 크게 웃돌았다. 해당 분기 매출은 10억6000만달러였으며, 강한 실적에도 정책 및 관세 우려가 주가와 투자심리를 압박하고 있다.",
+      "impact": "예상치를 웃돈 EPS와 10억6000만달러의 매출은 유틸리티 규모 태양광 사업의 수익성과 수요에 긍정적이다. 다만 미국 정책 및 관세 변화는 비용, 수요, 프로젝트 수익성에 부담을 줄 수 있어 호재가 일부 상쇄된다.",
+      "caution": "본문에는 매출 컨센서스, 정책의 구체적인 내용, 향후 가이던스가 제시되지 않아 실적 호조의 지속성을 판단하기 어렵다."
+    },
+    "3nuclearstockstobuywith2000afteronefell83": {
+      "title": "3 Nuclear Stocks to Buy With $2,000 After One Fell 83%",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지는 2분기 실적과 함께 920MW 규모의 장기 전력구매계약을 추가로 발표했다. 기사는 원전 관련 수요가 유지되고 있으며, 컨스텔레이션 에너지는 원자로를 설계하는 기업이나 연료를 판매하는 기업과 달리 전력을 직접 판매하는 회사라고 설명한다.",
+      "impact": "920MW의 장기 전력구매계약은 컨스텔레이션 에너지의 전력 판매 물량과 장기 매출 가시성을 높일 수 있다. 원전 및 저탄소 전력 수요가 유지되면 발전자산의 활용도와 현금흐름에도 긍정적이다.",
+      "caution": "본문에는 계약의 기간, 가격, 수익 기여 규모와 컨스텔레이션 에너지의 2분기 구체적인 실적 수치가 제시되지 않았다."
+    },
+    "vistravststockgainsmomentumfollowingthielmacros59mstakedisclosure": {
+      "title": "Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "Peter Thiel이 관리하는 Thiel Macro LLC는 2026년 2분기 말 비스트라 주식 372,755주를 보유했다고 13F에서 공개했으며, 당시 평가액은 약 5910만달러였다. 비스트라 주가는 금요일 3.5% 상승해 149.27달러를 기록했지만, 2분기 EPS는 0.76달러로 컨센서스 1.61달러를 밑돌았고 매출도 40억2000만달러로 예상치 54억6000만달러에 못 미쳤다.",
+      "impact": "유명 투자자의 지분 공개와 주가 상승은 투자심리 개선에 긍정적일 수 있고, 애널리스트 평균 목표가 223.53달러도 상승 여지를 시사한다. 그러나 2분기 실적이 시장 예상치를 크게 밑돈 점은 향후 주가와 기업가치에 부정적인 요인이다.",
+      "caution": "13F 지분 공개는 과거 2분기 말 기준 보유 내역이며 현재도 해당 지분을 유지하는지는 확인되지 않는다. 기사에 제시된 목표주가는 애널리스트 전망일 뿐이며 실적 부진과 상충한다."
+    },
+    "bronsteingewirtzgrossmanllcencourageseosenergyenterprisesinceoseinvestorstoinquireaboutsecuritiesinvestigation": {
+      "title": "Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation",
+      "holding": "이오스 에너지",
+      "stance": "악재",
+      "summary": "Bronstein, Gewirtz & Grossman, LLC가 Eos Energy Enterprises(나스닥: EOSE)의 증권 관련 잠재적 청구를 조사하고 있다고 2026년 9월 3일 밝혔다. 2025년 11월 5일 이전에 Eos Energy 증권을 매수하고 현재까지 보유한 투자자들에게 조사 참여와 추가 정보 제공을 요청했다.",
+      "impact": "회사의 임원·이사 등이 기업 위법행위에 관여했는지 조사하는 내용으로, 실제 문제가 확인될 경우 법적 비용과 평판 훼손, 주가 하락으로 이어질 수 있다.",
+      "caution": "기사에는 구체적인 위법행위나 소송 제기, 손해 규모가 확인되지 않았으며 현재는 로펌의 조사 참여 권유 단계다."
+    },
+    "credotechnologyupgradedtobuyonstrongaid": {
+      "title": "Credo Technology upgraded to Buy on strong AI-d...",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "기사 제목은 Credo Technology가 강한 AI 수요를 근거로 투자의견이 ‘Buy’로 상향됐다는 내용을 제시한다. 그러나 본문에는 연준의 금리 인하 압박, 강한 고용시장과 목표치를 웃도는 인플레이션 등 거시경제 관련 내용이 대부분 담겨 있다.",
+      "impact": "AI 수요에 따른 매수 의견 상향은 Credo Technology의 AI 관련 제품 및 성장 기대를 높이는 요인일 수 있다. 다만 본문에서 상향 근거와 회사 실적·전망이 충분히 설명되지 않아 영향은 제한적으로 판단된다.",
+      "caution": "제공된 본문이 잘려 있고 Credo Technology의 구체적인 투자의견 변경 내용, 수치, 실적 전망을 확인하기 어렵다."
+    },
+    "ciscocscostocklookscheaponcashflowyetfaironearnings": {
+      "title": "Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "Cisco Systems(CSCO)는 최근 5년간 주가가 116.9% 상승했지만, 현재 가치평가상 추정 내재가치 대비 저평가된 것으로 보인다는 분석이다. AI 인프라와 소버린 네트워크 투자는 향후 현금흐름 기대를 지지할 수 있지만, 마진 우려와 핵심 라우팅 제품에 대한 사이버보안 위협은 부담으로 제시됐다.",
+      "impact": "저평가된 현금흐름과 AI 인프라 투자는 Cisco 주가의 추가 상승 기대를 높일 수 있다. 반면 높은 과거 수익률과 마진·보안 리스크가 이미 반영된 기대를 제한할 수 있어 강한 호재로 보기는 어렵다.",
+      "caution": "기사 제목과 본문 일부만 제공되어 구체적인 내재가치 산정 방식이나 AI 사업의 재무 기여 규모는 확인되지 않는다."
+    },
+    "vrtstockisrisingtodaywhatsthedealwithstrategicthermallabsabout": {
+      "title": "VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "Vertiv Holdings(VRT)는 데이터센터 캠퍼스의 액체 냉각 솔루션을 전문으로 하는 텍사스 기업 Strategic Thermal Labs를 인수했다. 거래 금액은 공개되지 않았으며, 인수를 통해 고밀도 컴퓨팅 환경을 시뮬레이션하고 데이터센터 고객에게 필요한 솔루션을 제공할 수 있게 됐고, 발표 당시 VRT 주가는 약 2% 상승했다.",
+      "impact": "AI와 고밀도 컴퓨팅 확산으로 데이터센터의 냉각 및 인프라 복잡성이 커지는 가운데, 액체 냉각 기술 확보는 Vertiv의 제품 경쟁력과 고객 대응력을 강화할 수 있다. 시장도 발표 당시 주가 상승으로 초기에는 긍정적으로 반응했다.",
+      "caution": "인수 가격과 Strategic Thermal Labs의 실적·기술 규모가 공개되지 않아 실제 재무 기여나 인수 시너지의 크기는 불확실하다."
+    },
+    "mcdonaldshasraiseditsdividendeveryyearsince1976hereare3reasonsidbuyitandneversell": {
+      "title": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.",
+      "holding": "맥도날드",
+      "stance": "약한 호재",
+      "summary": "McDonald's는 1976년 이후 매년 배당을 인상했으며, 기사에서 제시한 선행 배당수익률은 2.9%다. 주가는 2026년 2월 고점 대비 24% 하락한 상태로 소개됐고, 장기 현금흐름과 가격 매력이 매수 이유로 제시됐다.",
+      "impact": "장기간 이어진 배당 인상 기록은 맥도날드 보유자의 안정적인 현금흐름 기대를 높이며, 고점 대비 24% 하락은 밸류에이션 부담을 일부 낮출 수 있다. 다만 이는 회사의 새로운 실적 개선이나 사업 발표보다 장기 투자 의견에 가까워 영향은 제한적이다.",
+      "caution": "기사의 ‘매수 후 계속 보유’ 의견은 작성자의 투자 판단이며, 본문에 매출·이익 성장률이나 배당 지속 가능성을 뒷받침하는 최신 실적 수치는 제시되지 않았다."
     },
     "삼성전자sk하이닉스밀어냈다개미들이올인한1위종목정체": {
       "title": "삼성전자·SK하이닉스 밀어냈다…개미들이 올인한 1위 종목 '정체'",
@@ -84,14 +172,6 @@
       "impact": "연이은 사망 사고로 특별감독에 준하는 고강도 감독을 받고 있는 상황에서 추가 사망 사건이 발생하여, 회사의 안전관리 체계 부실 논란 및 정식 특별감독으로의 전환 가능성 등 규제 리스크가 커질 수 있다.",
       "caution": "사망 원인이 명확히 밝혀지지 않았고 산업재해나 중대재해로 아직 단정할 수 없으므로 공식 조사 결과에 따라 영향이 달라질 수 있다."
     },
-    "delltechnologiesdellstockfairvaluerisesafterguidanceandaiserverfocus": {
-      "title": "Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus",
-      "holding": "델",
-      "stance": "호재",
-      "summary": "델 테크놀로지스(DELL)의 적정 주가 추정치가 약 502.78달러에서 564.46달러로 상향 조정되었으며, 이는 AI 서버 수요 급증과 가이드라인에 대한 월가의 긍정적 평가를 반영한다. Evercore ISI, Mizuho, JP모건 등 여러 투자기관이 AI 인프라 지출 수혜를 근거로 목표주가를 575달러에서 635달러 사이로 상향 조정했다.",
-      "impact": "AI 서버 및 전통적 IT 인프라 수요 확대에 대한 시장의 기여도가 부각되면서, 목표주가 상향과 함께 델의 기업 가치 재평가로 이어져 주가에 긍정적인 영향을 미친다.",
-      "caution": "가격 상승에 따른 위험이나 공급 제약, 마진 지속 가능성에 대한 신중한 의견도 공존한다."
-    },
     "conferenciaderesultadosdelq2fiscalde2027dedelldelllacarteradepedidosdeiaalcanzalos95000millonesdedlaresyelevasusprevisiones": {
       "title": "Conferencia de resultados del Q2 fiscal de 2027 de Dell (DELL): La cartera de pedidos de IA alcanza los 95.000 millones de dólares y eleva sus previsiones",
       "holding": "델",
@@ -99,14 +179,6 @@
       "summary": "델은 2027회계연도 2분기 매출 470억 달러로 전년 동기 대비 58% 증가했으며, 비GAAP 주당순이익(EPS)은 7.04달러로 203% 급증했다고 발표했다. AI 서버 주문이 급증하여 AI 백로그가 950억 달러에 달했고, 경영진은 연간 매출 전망을 1920억 달러 수준으로 상향 조정했다.",
       "impact": "인프라 솔루션 그룹의 강력한 실적 성장과 막대한 AI 서버 수주 잔고가 확인됨에 따라, 회사의 수익성과 미래 현금흐름 창출 능력에 대한 신뢰가 높아져 주가에 강한 호재로 작용한다.",
       "caution": ""
-    },
-    "shouldyouavoidconstellationbrandsstockevenata52weeklow": {
-      "title": "Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?",
-      "holding": "컨스텔레이션 브랜즈",
-      "stance": "약한 호재",
-      "summary": "컨스텔레이션 브랜즈(STZ)의 주가는 소비 지출 부진과 와인 부문 약세 여파로 고점 대비 하락해 52주 신저가 부근인 128달러 선에 거래되고 있다. 하지만 모델로, 코로나 등 주요 멕시코 맥주 브랜드의 시장 점유율 확대와 강력한 잉여현금흐름을 바탕으로 밸류에이션 매력이 부각되며 저가 매수 의견이 제기되고 있다.",
-      "impact": "주가가 52주 신저가 수준으로 낮아졌으나 주력 맥주 브랜드의 시장 지배력과 현금창출력이 유지되고 있어, 실적 안정화 기대감과 함께 저가 매수세 유입 경로로 작용할 수 있다.",
-      "caution": "소비자 지출 둔화와 와인 부문의 부진이 단기간에 완전히 해소되지 않을 위험이 있다."
     },
     "constellationbrandsstockedgeshigheraheadofbarclaysconferencepresentation": {
       "title": "Constellation Brands stock edges higher ahead of Barclays conference presentation",
@@ -132,14 +204,6 @@
       "impact": "최근 주가는 주요 이동평균선 아래에서 박스권 조정을 거치고 있으며 거래량이 평균 수준을 유지하고 있어, 단기적으로 방향성 없는 관망세가 지속되는 경로를 보인다.",
       "caution": "기술적 지표가 하방 압력을 보여주고 있어 뚜렷한 실적이나 정책적 모멘텀이 부각되기 전까지는 제한적인 움직임에 머물 수 있다."
     },
-    "firstsolarstockeasesafterstrongearningsbeatandpolicyworries": {
-      "title": "First Solar stock eases after strong earnings beat and policy worries",
-      "holding": "퍼스트솔라",
-      "stance": "약한 호재",
-      "summary": "퍼스트솔라는 2분기 주당순이익(EPS) 3.92달러로 시장 예상치인 2.90달러를 크게 상회하는 강한 수익성을 기록했다. 다만 매출액은 10억 6000만 달러로 전년 동기 대비 3.4% 감소했고, 워싱턴의 정책 및 관세 우려가 지속되면서 주가는 최근 고점 아래인 204달러 부근에서 거래되고 있다.",
-      "impact": "예상을 뛰어넘는 수익성 개선과 유틸리티 규모 태양광 사업의 견고함은 긍정적이나, 정책 및 관세 불확실성과 매출 성장 둔화 우려가 주가 상승을 제한하는 요인으로 작용한다.",
-      "caution": "미국 워싱턴의 정책 변화나 관세 관련 규제 리스크가 향후 실적 변동성을 키울 수 있다."
-    },
     "friendshipsrunakhangetsramonmagsaysayaward": {
       "title": "Friendship's Runa Khan gets Ramon Magsaysay Award",
       "holding": "퍼스트솔라",
@@ -163,14 +227,6 @@
       "summary": "컨스텔레이션 에너지가 164억 달러 규모의 캘파인(Calpine) 인수 마무리 단계의 일환으로 텍사스의 브래조스 밸리 에너지 센터를 LS 파워에 8억 6,000만 달러에 매각하기로 합의했다. 최근 1개월간 주가가 12.76% 상승하는 등 계약 수주와 캘파인 통합 효과가 주목받고 있다.",
       "impact": "핵심 자산 매각을 통한 포트폴리오 재편과 캘파인 인수 작업의 순항은 전력 생산 역량과 재무 건전성에 긍정적으로 작용하여 주가 상승 동력이 된다.",
       "caution": "원전 가동률이 기대에 못 미치거나 규제 당국의 승인이 지연될 경우 리스크가 될 수 있다."
-    },
-    "vistravststockgainsmomentumfollowingthielmacros59mstakedisclosure": {
-      "title": "Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure",
-      "holding": "비스트라 에너지",
-      "stance": "약한 호재",
-      "summary": "피터 틸이 운영하는 틸 매크로(Thiel Macro LLC)가 2026년 2분기 말 기준 비스트라 에너지(VST) 주식 372,755주(약 5,910만 달러 상당)를 보유하고 있다고 공시했다. 이 소식에 힘입어 VST 주가는 금요일 거래에서 3.5% 상승한 149.27달러를 기록했다.",
-      "impact": "유명 헤지펀드의 대규모 지분 공개는 투자 심리를 개선하고 단기적인 주가 상승 압력으로 작용한다.",
-      "caution": "회사의 2분기 주당순이익(EPS)과 매출이 시장 컨센서스에 미치지 못해 실적 자체는 부진했다."
     },
     "whathappenswhenastatesellsoffparkland": {
       "title": "What Happens When A State Sells Off Park Land",
@@ -236,14 +292,6 @@
       "impact": "대형 투자자인 버크셔 해서웨이의 매수 단가 아래로 주가가 내려가 단기적인 평가 손실이 발생함에 따라 시장에서 심리적 부담 요인으로 작용할 수 있다.",
       "caution": "버크셔 전체 대차대조표 규모에 비하면 미미한 수준이며, 장기 투자 관점의 지분 전체에 대한 영향은 제한적일 수 있다."
     },
-    "ciscocscostocklookscheaponcashflowyetfaironearnings": {
-      "title": "Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings",
-      "holding": "시스코 시스템즈",
-      "stance": "약한 호재",
-      "summary": "시스코 시스템즈(CSCO)는 최근 12개월 동안 약 131억 달러의 잉여현금흐름(FCF)을 창출했으며, 할인현금흐름(DCF) 모델 분석 결과 내재가치 추정치(약 153달러) 대비 현재 시장 가격이 약 28.7% 저평가되어 있는 것으로 나타났다.",
-      "impact": "견조한 현금 창출력과 AI 인프라 투자 모멘텀을 바탕으로 밸류에이션 매력이 부각되며 주가 상승 여력에 대한 긍정적 평가를 이끌어낸다.",
-      "caution": "최근 분기 실적 발표 이후 마진 우려와 소프트웨어 성장 정체 이슈로 인해 시장 가격이 내재가치보다 낮게 형성되어 있다는 점이 함께 지적되었다."
-    },
     "jsaadvisesonindialegofciscosacquisitionofwidefieldsecurity": {
       "title": "JSA advises on India leg of Cisco's acquisition of WideField Security",
       "holding": "시스코 시스템즈",
@@ -259,14 +307,6 @@
       "summary": "시스코는 2026년 9월 4일 IOS XR 보안 취약점(CVE-2026-20274 및 CVE-2026-20279 등 최대 CVSS 점수 9.8의 치명적 취약점 포함)에 대한 보안 강화 권고안 버전 1.3을 발행했다. 이번 취약점은 설정 변경이나 우회 방법이 없으며, 모든 IOS XR 릴리즈에 영향을 미쳐 버전 확인 및 플랫폼별 SMU(Software Maintenance Upgrade) 패치 적용이 필수가 되었다.",
       "impact": "고객사들의 긴급 패치 작업과 기술지원(TAC) 요청 증가로 인해 운영 부담이 커지고, 제품 신뢰도나 단기 지원 비용에 악영향을 줄 수 있다.",
       "caution": "보안 패치와 SMU 가이드가 함께 제공되므로 신속한 대응이 이루어질 경우 장기적인 리스크는 통제 가능할 수 있다."
-    },
-    "vrtstockisrisingtodaywhatsthedealwithstrategicthermallabsabout": {
-      "title": "VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?",
-      "holding": "버티브 홀딩스",
-      "stance": "호재",
-      "summary": "AI 및 IT 인프라 관리 기업인 버티브 홀딩스(VRT)는 텍사스 소재의 액체 냉각 솔루션 전문 기업인 스트래티직 써멀 랩스(Strategic Thermal Labs)를 인수했다. 이번 인수를 통해 버티브는 고밀도 연산 환경 시뮬레이션 및 서버 측 액체 냉각 기술 역량을 강화하게 되었으며, 주가는 인수 보도 이후 약 2% 상승했다.",
-      "impact": "인공지능(AI) 데이터센터의 급격한 전력 및 물 소비 증가에 대응하여 액체 냉각 솔루션 경쟁력을 선점함으로써 데이터센터 인프라 복잡성 해결사로서의 입지가 더욱 공고해진다.",
-      "caution": "구체적인 인수 금융 조건은 공개되지 않았으며, 주가가 연초 대비 크게 상승한 상태여서 단기 소셜 감정은 다소 냉각된 모습을 보이기도 했다."
     },
     "these3aistocksarewayofftheirhighsisthepullbackabuyingopportunity": {
       "title": "These 3 AI Stocks Are Way Off Their Highs. Is the Pullback a Buying Opportunity?",
@@ -348,14 +388,6 @@
       "impact": "노보노디스크의 경구용 비만 치료제가 시장에서 엄청난 초기 흥행을 거두고 있음을 재확인하며 회사의 신사업 성장 기대감을 높인다.",
       "caution": "본 기사의 주된 분석 대상은 바이킹 테라퓨틱스이며 노보노디스크는 비교 대상 및 시장 수요 지표로 언급되었다."
     },
-    "mcdonaldshasraiseditsdividendeveryyearsince1976hereare3reasonsidbuyitandneversell": {
-      "title": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.",
-      "holding": "맥도날드",
-      "stance": "약한 호재",
-      "summary": "맥도날드는 1976년 이후 매년 배당금을 인상해 온 안정적인 배당주이며, 현재 주가는 지난 2월 고점 대비 24% 하락한 255.69달러 수준이다. 견고한 프랜차이즈 비즈니스 모델과 부동산 임대 수익 구조를 바탕으로 안정적인 현금 흐름과 2.9%의 배당 수익률을 제공한다.",
-      "impact": "단기적인 매출 성장 둔화 우려로 주가가 하락했으나 탄탄한 펀더멘털과 장기 투자 매력도가 부각되면서 투자 심리에 긍정적 영향을 줄 수 있다.",
-      "caution": "최근 실적에서 나타난 매출 성장 둔화와 내수 소비 위축 우려는 여전히 존재한다."
-    },
     "saudicentralbankraisesholdingsinmcdonaldscorporationmcd": {
       "title": "Saudi Central Bank Raises Holdings in McDonald's Corporation $MCD",
       "holding": "맥도날드",
@@ -403,14 +435,6 @@
       "summary": "Stocktwits는 Dell Technologies Inc.(DELL)의 실시간 주가, 재무정보, 뉴스, 투자자 커뮤니티와 거래 아이디어를 제공한다고 안내하고 있다. 이용자에게 워치리스트 및 포트폴리오 등록과 커뮤니티 이용을 권유하는 사이트 소개문이다.",
       "impact": "Dell의 사업이나 실적, 신규 계약, 전망에 관한 구체적인 기사 내용이 없어 보유 종목의 가치에 미치는 직접적인 영향을 판단하기 어렵다.",
       "caution": "본문이 실질적인 뉴스가 아닌 주가·정보 서비스 이용 안내와 홍보 문구로만 구성돼 있다."
-    },
-    "3nuclearstockstobuywith2000afteronefell83": {
-      "title": "3 Nuclear Stocks to Buy With $2,000 After One Fell 83%",
-      "holding": "컨스텔레이션 에너지",
-      "stance": "호재",
-      "summary": "Constellation Energy는 2분기 실적과 함께 추가로 920MW 규모의 장기 전력구매계약을 체결했다고 보도됐다. 기사에서는 NuScale이 원자로를 설계하고 Cameco가 연료를 판매하는 반면, Constellation은 이미 원자력 발전 전력을 판매하는 회사라고 설명한다.",
-      "impact": "920MW 장기 전력구매계약은 향후 발전량에 대한 매출과 현금흐름 가시성을 높이고, 전력 수요 증가 및 원전 수요를 실제 계약으로 연결하는 요인이다. 이는 원자로 설계나 우라늄 공급에 의존하는 기업보다 현재 발전·판매 사업을 영위하는 Constellation에 직접적인 긍정 효과가 있다.",
-      "caution": "기사에는 계약의 기간, 가격, 고객, 수익 기여 시점이 제시되지 않아 계약의 실제 수익성을 정밀하게 평가하기 어렵다."
     },
     "billackmanswapsgooglstakefornewmsftpositionclarifiessalenotabetagainstsearchgiant": {
       "title": "Bill Ackman Swaps GOOGL Stake For New MSFT Position, Clarifies Sale Not a Bet Against Search Giant",
