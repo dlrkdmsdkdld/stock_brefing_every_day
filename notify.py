@@ -68,6 +68,19 @@ def send_document(path, caption, token, chat_id):
         return json.load(body)
 
 
+def tech(row):
+    """RSI와 볼린저밴드 위치를 한 줄에 짧게."""
+    if "rsi" not in row:
+        return ""
+    parts = [f"RSI {row['rsi']:.0f}"]
+    if row.get("rsi_zone") != "중립":
+        parts[0] += f"({row['rsi_zone']})"
+    band = row.get("bb_position")
+    if band and band != "밴드 내":
+        parts.append(f"BB {band}")
+    return "  " + " · ".join(parts)
+
+
 def money(row):
     price = row.get("price")
     if price is None:
@@ -108,7 +121,7 @@ def build(prices, news, judged):
         for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
             extra = (f"  (NXT ₩{row['nxt_price']:,.0f} {row['nxt_change_pct']:+.2f}%)"
                      if "nxt_price" in row else "")
-            lines.append(f"{esc(row['name'])}  {money(row)}  {move(row)}{extra}")
+            lines.append(f"{esc(row['name'])}  {money(row)}  {move(row)}{extra}{tech(row)}")
         lines.append("")
 
     lines.append("<b>📰 종목별 오늘의 뉴스</b>")
@@ -125,7 +138,8 @@ def build(prices, news, judged):
             if verdict:
                 lines.append(f"  {esc(verdict.get('summary', ''))}")
                 lines.append(f"  → {esc(verdict.get('impact', ''))}")
-    lines += ["", "<i>실시간 가격이 아니며 투자 자문이 아닙니다.</i>"]
+    lines += ["", "<i>RSI(14) 와일더 방식 · 볼린저밴드 20일·2σ. "
+              "실시간 가격이 아니며 투자 자문이 아닙니다.</i>"]
     return lines
 
 

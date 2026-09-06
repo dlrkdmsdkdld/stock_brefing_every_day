@@ -15,6 +15,8 @@ from zoneinfo import ZoneInfo
 import yfinance as yf
 from pykrx import stock
 
+import indicators
+
 HOLDINGS = [
     ("SK하이닉스", "000660", "KRW"),
     ("삼성전자", "005930", "KRW"),
@@ -38,6 +40,8 @@ HOLDINGS = [
 AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
 # 정규장 마감 + 종가 확정 여유. 이 시각을 넘겼으면 그날 일봉을 확정된 종가로 쓴다.
 SESSION_CLOSE = {"Asia/Seoul": time(15, 40), "America/New_York": time(16, 15)}
+# RSI(14)와 볼린저밴드(20)를 안정적으로 계산하려면 거래일이 넉넉해야 한다.
+HISTORY_DAYS = 150
 
 
 def cutoff_date(zone):
@@ -52,12 +56,16 @@ def cutoff_date(zone):
     return now.date() + timedelta(days=1) if closed else now.date()
 
 
-def latest(frame, column, cutoff):
-    # 아직 안 끝난 세션의 일봉은 장중 값일 수 있어 제외한다.
+def closed_frame(frame, cutoff):
+    """아직 안 끝난 세션의 일봉을 잘라내고 날짜순으로 정렬한다."""
     frame = frame.loc[[index.date() < cutoff for index in frame.index]]
     if frame.empty:
-        raise ValueError("최근 30일 내 완료 거래일 데이터 없음")
-    frame = frame.sort_index()
+        raise ValueError(f"최근 {HISTORY_DAYS}일 내 완료 거래일 데이터 없음")
+    return frame.sort_index()
+
+
+def latest(frame, column, cutoff):
+    frame = closed_frame(frame, cutoff)
     value = float(frame.iloc[-1][column])
     if not math.isfinite(value) or value <= 0:
         raise ValueError("최신 가격이 비정상: 이전 가격으로 대체하지 않음")
@@ -71,7 +79,12 @@ def yahoo_close(symbol, start, cutoff):
     security = yf.Ticker(symbol)
     frame = security.history(start=start.isoformat(), end=cutoff.isoformat(),
                              auto_adjust=False, actions=False, timeout=20)
-    return security.get_history_metadata(), latest(frame, "Close", cutoff)
+    return security.get_history_metadata(), latest(frame, "Close", cutoff), frame
+
+
+def series(frame, column, cutoff):
+    """지표 계산용 종가 리스트. 종가와 같은 데이터에서 뽑아 기준을 맞춘다."""
+    return [float(value) for value in closed_frame(frame, cutoff)[column]]
 
 
 def naver_close(ticker):
@@ -134,7 +147,7 @@ def fetch(holding):
     zone = "Asia/Seoul" if korea else "America/New_York"
     today = datetime.now(ZoneInfo(zone)).date()
     cutoff = cutoff_date(zone)
-    start = today - timedelta(days=30)
+    start = today - timedelta(days=HISTORY_DAYS)
     result = dict(name=name, ticker=ticker, currency=currency,
                   source="pykrx/KRX" if korea else "yfinance/Yahoo Finance",
                   price_type="마감된 최근 거래일 종가(국내는 수정주가 기준)",
@@ -145,6 +158,7 @@ def fetch(holding):
             frame = stock.get_market_ohlcv_by_date(
                 start.strftime("%Y%m%d"), (cutoff - timedelta(days=1)).strftime("%Y%m%d"), ticker)
             date, price, previous = latest(frame, "종가", cutoff)
+            result.update(indicators.compute(series(frame, "종가", cutoff)))
             result["provider_name"] = stock.get_market_ticker_name(ticker)
             check(result, "yahoo_check", date, price,
                   lambda: (None,) + yahoo_close(ticker + ".KS", start, cutoff)[1][:2])
@@ -156,7 +170,8 @@ def fetch(holding):
             except Exception as exc:
                 result["nxt_error"] = f"{type(exc).__name__}: {exc}"
         else:
-            metadata, (date, price, previous) = yahoo_close(ticker, start, cutoff)
+            metadata, (date, price, previous), frame = yahoo_close(ticker, start, cutoff)
+            result.update(indicators.compute(series(frame, "Close", cutoff)))
             if metadata.get("currency") != currency:
                 raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
             result["provider_name"] = metadata.get("longName") or metadata.get("shortName")

@@ -17,6 +17,9 @@ HERE = Path(__file__).parent
 CHECK_LABEL = {"match": "일치", "mismatch": "불일치", "unavailable": "확인불가"}
 STANCE_TONE = {"호재": "good", "약한 호재": "good", "중립": "neutral",
                "약한 악재": "bad", "악재": "bad"}
+# 밴드 상단 이탈은 과열(빨강), 하단 이탈은 과매도(파랑) 쪽으로 읽는다.
+BAND_TONE = {"상단 이탈": "up", "하단 이탈": "down", "밴드 내": "flat"}
+RSI_TONE = {"과매수": "up", "과매도": "down", "중립": "flat"}
 
 
 def esc(text):
@@ -86,6 +89,19 @@ def nxt(row):
     return row.get("nxt_error", "-").split(":")[0] if "nxt_error" in row else "-"
 
 
+def rsi_text(row):
+    if "rsi" not in row:
+        return "-"
+    zone = "" if row["rsi_zone"] == "중립" else f" {row['rsi_zone']}"
+    return f"{row['rsi']:.1f}{zone}"
+
+
+def band_text(row):
+    if "bb_position" not in row:
+        return "-"
+    return row["bb_position"]
+
+
 def verification(row):
     checks = [CHECK_LABEL.get(row[key], row[key])
               for key in ("yahoo_check", "naver_check") if key in row]
@@ -96,14 +112,15 @@ def verification(row):
 
 
 def table(rows, with_nxt=False):
-    head = ["종목", "KRX 종가" if with_nxt else "종가", "전일 대비"] + (["NXT 종가"] if with_nxt else []) + ["검증"]
+    head = ["종목", "KRX 종가" if with_nxt else "종가", "전일 대비"] + (
+        ["NXT 종가"] if with_nxt else []) + ["RSI(14)", "볼린저(20,2σ)", "검증"]
     lines = ["| " + " | ".join(head) + " |",
-             "| --- | ---: | ---: |" + (" ---: |" if with_nxt else "") + " --- |"]
+             "| --- | ---: | ---: |" + (" ---: |" if with_nxt else "") + " ---: | --- | --- |"]
     for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
         cells = [f"{row['name']} ({row['ticker']})", amount(row), move(row)[0]]
         if with_nxt:
             cells.append(nxt(row))
-        cells.append(verification(row))
+        cells += [rsi_text(row), band_text(row), verification(row)]
         lines.append("| " + " | ".join(cells) + " |")
     return lines
 
@@ -215,8 +232,8 @@ section{display:flex; flex-direction:column}
 .tally span{font-size:12px; color:var(--muted); letter-spacing:.04em}
 .tally b{font-family:"IBM Plex Mono",monospace; font-size:26px; font-weight:500; font-variant-numeric:tabular-nums}
 .rows{display:flex; flex-direction:column; border-top:1px solid var(--line)}
-.row{display:grid; grid-template-columns:minmax(140px,1.5fr) 118px 88px minmax(110px,1fr) minmax(110px,auto);
-     gap:14px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
+.row{display:grid; grid-template-columns:minmax(130px,1.4fr) 116px 84px minmax(90px,1fr) 78px 84px minmax(96px,auto);
+     gap:12px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
 .row.head{padding-bottom:7px; color:var(--muted); font-size:11px; letter-spacing:.1em; text-transform:uppercase}
 .name{font-weight:500; font-size:14.5px}
 .name small{display:block; font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted)}
@@ -228,6 +245,10 @@ section{display:flex; flex-direction:column}
 .bar{position:relative; height:9px; background:linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat}
 .bar i{position:absolute; top:0; height:9px; border-radius:1px; display:block}
 .verdict{font-size:11.5px; color:var(--muted); text-align:right; line-height:1.4}
+.tech{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-size:12.5px; text-align:right}
+.tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:10px; color:var(--muted)}
+.band{font-size:11.5px; text-align:center; white-space:nowrap}
+.band.up,.band.down{font-weight:600}
 .controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px}
 .controls button{font:inherit; font-size:12px; color:var(--ink); background:var(--surface);
   border:1px solid var(--line); border-radius:3px; padding:5px 12px; cursor:pointer}
@@ -246,6 +267,8 @@ section{display:flex; flex-direction:column}
 .holding-head h3{font-family:"Gowun Batang",serif; font-size:17px; font-weight:700; margin:0}
 .holding-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
 .holding-head .quote{font-family:"IBM Plex Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums}
+.holding-head .quote.muted{color:var(--muted); font-size:12px}
+.holding-head .quote.muted b.up{color:var(--up)} .holding-head .quote.muted b.down{color:var(--down)}
 .holding-head .spacer{flex:1 1 auto}
 .tallies{display:flex; gap:5px; flex-wrap:wrap}
 .tallies .stance{font-size:10px; padding:2px 7px; letter-spacing:.02em}
@@ -278,7 +301,8 @@ section{display:flex; flex-direction:column}
 @media (max-width:720px){
   .row{grid-template-columns:1fr 104px 78px; row-gap:6px}
   .bar,.verdict{grid-column:1/-1; text-align:left}
-  .row.head .bar,.row.head .verdict{display:none}
+  .tech,.band{grid-column:span 1; text-align:left}
+  .row.head .bar,.row.head .verdict,.row.head .tech,.row.head .band{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important; animation:none!important}}
 </style>
@@ -302,17 +326,27 @@ def nxt_cell(row):
 
 
 def html_rows(rows, scale, with_nxt=False):
-    out = ['<div class="rows">',
-           f'<div class="row head"><span>종목</span><span class="num">'
-           f'{"KRX 종가" if with_nxt else "종가"}</span><span class="pct">전일 대비</span>'
-           f'<span class="bar"></span><span class="verdict">검증</span></div>']
+    head = (f'<div class="row head"><span>종목</span>'
+            f'<span class="num">{"KRX 종가" if with_nxt else "종가"}</span>'
+            f'<span class="pct">전일 대비</span><span class="bar"></span>'
+            f'<span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span>'
+            f'<span class="verdict">검증</span></div>')
+    out = ['<div class="rows">', head]
     for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
         label, tone = move(row)
+        if "rsi" in row:
+            tech = (f'<span class="tech {RSI_TONE.get(row["rsi_zone"], "flat")}">{row["rsi"]:.1f}'
+                    f'<small>{esc(row["rsi_zone"])}</small></span>')
+        else:
+            tech = '<span class="tech">-</span>'
+        band = (f'<span class="band {BAND_TONE.get(row.get("bb_position"), "flat")}">'
+                f'{esc(band_text(row))}</span>')
         out.append(
-            f'<div class="row"><span class="name">{esc(row["name"])}<small>{esc(row["ticker"])}</small></span>'
+            f'<div class="row"><span class="name">{esc(row["name"])}'
+            f'<small>{esc(row["ticker"])}</small></span>'
             f'<span class="num">{amount(row)}{nxt_cell(row) if with_nxt else ""}</span>'
             f'<span class="pct {tone}">{label}</span>'
-            f'{bar(row.get("change_pct"), scale)}'
+            f'{bar(row.get("change_pct"), scale)}{tech}{band}'
             f'<span class="verdict">{esc(verification(row))}</span></div>')
     return "\n".join(out + ["</div>"])
 
@@ -363,12 +397,18 @@ def html_news(prices_by_name, news, judged):
         label, tone = move(price)
         quote = (f'<span class="quote {tone}">{amount(price)} · {label}</span>'
                  if price.get("price") else "")
+        tech = ""
+        if "rsi" in price:
+            band = price.get("bb_position", "")
+            mark = "" if band == "밴드 내" else f' · <b class="{BAND_TONE.get(band, "")}">{esc(band)}</b>'
+            tech = f'<span class="quote muted">RSI {price["rsi"]:.0f}{mark}</span>'
+
         stories = "".join(html_story(story, judged) for story in row["stories"]) or (
             f'<p class="empty">오늘자 기사 없음 (후보 {row["candidates"]}건, 과거 기사로 대체하지 않음)</p>')
         out.append(
             f'<details class="holding" data-key="{esc(row["ticker"])}">'
             f'<summary class="holding-head"><h3>{esc(name)}</h3>'
-            f'<span class="code">{esc(row["ticker"])}</span>{quote}'
+            f'<span class="code">{esc(row["ticker"])}</span>{quote}{tech}'
             f'<span class="spacer"></span>{tallies(row["stories"], judged)}</summary>'
             f'<div class="stories">{stories}</div></details>')
     return "\n".join(out)
@@ -475,7 +515,8 @@ def render_html(now, prices, news):
       <li>장중 값이 섞이지 않도록 시장 현지 날짜 기준 당일 일봉은 제외합니다. <b>실시간·시간외 가격이 아닙니다.</b></li>
       <li>뉴스는 제공처 발행 시각(KST)이 오늘인 기사만 종목당 최대 3건까지 쓰고, 두 출처 이상에서 확인되면 <b>교차확인</b>으로 표시합니다. 오늘 기사 {news['counts']['기사']}건 중 교차확인 {news['counts']['교차확인']}건.</li>
       <li>요약·판단은 기사 <b>본문</b>을 읽고 씁니다. 네이버 원문, 구글 링크를 복원한 매체 원문, Yahoo 기사 순으로 추출합니다. 오늘 {news['counts']['기사']}건 중 본문 확보 {news['counts']['본문확보']}건이며, 못 읽은 기사는 <b>제목만 확보</b>로 두고 판단하지 않습니다.</li>
-      <li>막대는 상승 빨강 / 하락 파랑(국내 증시 관례)이며 길이는 최대 등락폭 {scale:.2f}%에 맞춰 그렸습니다. <b>투자 자문이 아닙니다.</b></li>
+      <li><b>RSI(14)</b>는 와일더 방식, <b>볼린저밴드</b>는 이동평균 20일 · 표준편차 2배(모집단 기준)입니다. 종가와 같은 데이터로 계산했고 최근 약 100거래일을 씁니다. 종가가 상단 밴드보다 높으면 <b>상단 이탈</b>, 낮으면 <b>하단 이탈</b>입니다. 국내는 KRX 종가(수정주가) 기준이라 NXT 가격과는 무관합니다.</li>
+      <li>막대는 상승 빨강 / 하락 파랑(국내 증시 관례)이며 길이는 최대 등락폭 {scale:.2f}%에 맞춰 그렸습니다. <b>지표는 참고용이며 투자 자문이 아닙니다.</b></li>
     </ul>
   </section>
 </div>
@@ -510,7 +551,9 @@ def main():
               "- 시장 현지 날짜 기준 당일 일봉은 제외합니다. 실시간·시간외 가격이 아닙니다.",
               f"- 오늘 뉴스 {news['counts']['기사']}건 중 교차확인 {news['counts']['교차확인']}건, "
               f"본문 확보 {news['counts']['본문확보']}건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.",
-              "- 투자 자문이 아닙니다."]
+              "- RSI(14)는 와일더 방식, 볼린저밴드는 이동평균 20일·표준편차 2배(모집단 기준)이며 "
+              "종가와 같은 데이터로 최근 약 100거래일을 써서 계산합니다. 국내는 KRX 종가 기준입니다.",
+              "- 지표는 참고용이며 투자 자문이 아닙니다."]
     if problems:
         lines += ["", "### 확인 필요", ""] + [
             f"- {row['name']} ({row['ticker']}): {row['status']} · {row.get('error', '교차검증 불일치')}"
@@ -520,9 +563,12 @@ def main():
 
     text = "\n".join(lines) + "\n"
     (HERE / "briefing.md").write_text(text, encoding="utf-8")
-    (HERE / "briefing.html").write_text(render_html(now, prices, news), encoding="utf-8")
+    page = render_html(now, prices, news)
+    (HERE / "briefing.html").write_text(page, encoding="utf-8")
+    # GitHub Pages 루트 주소에서 바로 열리도록 같은 내용을 index.html로도 둔다.
+    (HERE / "index.html").write_text(page, encoding="utf-8")
     print(text)
-    print(f"저장: briefing.md, briefing.html", file=sys.stderr)
+    print("저장: briefing.md, briefing.html, index.html", file=sys.stderr)
     return 1 if problems else 0
 
 
