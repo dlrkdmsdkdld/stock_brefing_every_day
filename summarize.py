@@ -23,6 +23,7 @@
 
 인자
   --alerts-only      볼린저 하단 이탈 종목의 기사만 요약한다.
+  --dry-run          호출하지 않고 필요한 토큰과 각 제공처의 남은 한도만 보여준다.
 """
 import html
 import json
@@ -49,6 +50,10 @@ BATCH_SIZE = int(os.getenv("BATCH_SIZE", "8"))
 BATCH_PAUSE = float(os.getenv("BATCH_PAUSE", "8"))
 MAX_ATTEMPTS = int(os.getenv("MAX_ATTEMPTS", "2"))
 MAX_OPENAI_KEYS = 6
+# 실측 보정값: 프롬프트 101,383자 -> 입력 29,484토큰 (약 3.44자/토큰). 넉넉하게 3.2로 잡는다.
+CHARS_PER_TOKEN = 3.2
+OUTPUT_PER_ARTICLE = 320      # 기사 1건당 예상 출력 토큰 (실측 약 260~300)
+SAFETY = 1.15                 # 추정 오차를 감안한 여유
 STANCES = ["호재", "약한 호재", "중립", "약한 악재", "악재"]
 
 INSTRUCTIONS = f"""너는 개인 투자자의 보유 종목 뉴스를 정리한다.
@@ -176,6 +181,61 @@ def providers():
     return chain
 
 
+def estimate(payload, count):
+    """이 묶음에 들 토큰을 미리 어림한다. 남은 한도와 비교해 시도 여부를 정한다."""
+    prompt = len(payload) + len(INSTRUCTIONS)
+    return int((prompt / CHARS_PER_TOKEN + count * OUTPUT_PER_ARTICLE) * SAFETY)
+
+
+def read_limits(provider, headers):
+    """응답 헤더의 잔여 한도를 제공처에 기록한다. 헤더가 없으면 건드리지 않는다."""
+    for key, field in (("x-ratelimit-remaining-tokens", "tokens"),
+                       ("x-ratelimit-remaining-requests", "requests")):
+        value = headers.get(key)
+        if value is not None:
+            try:
+                provider[field] = int(value)
+            except ValueError:
+                pass
+    return provider
+
+
+def probe(provider):
+    """가장 작은 요청 하나로 잔여 한도를 알아낸다.
+
+    한도까지 다 태우고 실패한 뒤 다음 키로 넘어가면 토큰만 버리게 되므로,
+    쓰기 전에 남은 양을 먼저 확인한다.
+    """
+    if "tokens" in provider or provider.get("probed"):
+        return provider
+    provider["probed"] = True
+    try:
+        client, model = provider["client"], provider["model"]
+        if provider["style"] == "responses":
+            raw = client.responses.with_raw_response.create(
+                model=model, instructions="짧게.", input="ok")
+        else:
+            raw = client.chat.completions.with_raw_response.create(
+                model=model, messages=[{"role": "user", "content": "ok"}], max_tokens=5)
+        read_limits(provider, raw.headers)
+    except RateLimitError:
+        provider["tokens"] = 0
+        provider["requests"] = 0
+    except Exception as exc:
+        print(f"    {provider['label']} 한도 확인 실패: {type(exc).__name__}", file=sys.stderr)
+    return provider
+
+
+def affordable(provider, need):
+    """이 제공처가 이번 묶음을 감당할 수 있는지. 한도를 모르면 일단 시도한다."""
+    if provider.get("requests") is not None and provider.get("requests", 1) < 1:
+        return False, f"남은 요청 {provider['requests']}건"
+    tokens = provider.get("tokens")
+    if tokens is not None and tokens < need:
+        return False, f"남은 토큰 {tokens:,} < 필요 {need:,}"
+    return True, ""
+
+
 def parse(text):
     """모델이 코드펜스를 붙여 보내는 경우까지 감안해 JSON을 꺼낸다."""
     text = (text or "").strip()
@@ -188,10 +248,12 @@ def once(provider, payload):
     """제공처 한 곳에 한 번 요청한다."""
     client, model = provider["client"], provider["model"]
     if provider["style"] == "responses":
-        response = client.responses.create(
+        raw = client.responses.with_raw_response.create(
             model=model, instructions=INSTRUCTIONS, input=payload,
             text={"format": {"type": "json_schema", "name": "verdicts",
                              "schema": SCHEMA, "strict": True}})
+        read_limits(provider, raw.headers)
+        response = raw.parse()
         usage = response.usage
         return parse(response.output_text), usage.input_tokens, usage.output_tokens
 
@@ -204,8 +266,10 @@ def once(provider, payload):
     last = None
     for response_format in formats:
         try:
-            response = client.chat.completions.create(
+            raw = client.chat.completions.with_raw_response.create(
                 model=model, messages=messages, response_format=response_format)
+            read_limits(provider, raw.headers)
+            response = raw.parse()
             usage = response.usage
             return (parse(response.choices[0].message.content),
                     usage.prompt_tokens, usage.completion_tokens)
@@ -216,17 +280,30 @@ def once(provider, payload):
     raise last
 
 
+def compose(batch):
+    return "\n\n".join(
+        f"### id={row['id']} | 보유종목: {row['holding']}\n제목: {row['title']}\n본문:\n{row['body']}"
+        for row in batch)
+
+
 def ask(chain, index, batch):
-    """앞 제공처부터 시도한다. 한도(429)면 다음 제공처로 넘어간다.
+    """앞 제공처부터 시도한다. 남은 한도가 모자라면 시도하지 않고 바로 다음으로 넘어간다.
 
     돌아오는 index는 다음 묶음부터 쓸 제공처 위치다.
     """
-    payload = "\n\n".join(
-        f"### id={row['id']} | 보유종목: {row['holding']}\n제목: {row['title']}\n본문:\n{row['body']}"
-        for row in batch)
+    payload = compose(batch)
+    need = estimate(payload, len(batch))
     errors = []
     while index < len(chain):
-        provider = chain[index]
+        provider = probe(chain[index])
+        enough, why = affordable(provider, need)
+        if not enough:
+            errors.append(f"{provider['label']}: {why}")
+            print(f"    {provider['label']} 건너뜀 ({why})", file=sys.stderr)
+            index += 1
+            if index < len(chain):
+                print(f"    -> {chain[index]['label']}(으)로 전환", file=sys.stderr)
+            continue
         for attempt in range(1, MAX_ATTEMPTS + 1):
             try:
                 items, used_in, used_out = once(provider, payload)
@@ -258,6 +335,26 @@ def main():
                 for row in news.get(group, {}).values())
     if not targets:
         sys.exit(f"본문 있는 기사가 없습니다 (수집 {total}건)")
+
+    batches = [targets[start:start + BATCH_SIZE]
+               for start in range(0, len(targets), BATCH_SIZE)]
+    needs = [estimate(compose(batch), len(batch)) for batch in batches]
+
+    if "--dry-run" in sys.argv:
+        print(f"\n기사 {len(targets)}건 · 묶음 {len(batches)}개 (묶음당 최대 {BATCH_SIZE}건)")
+        print(f"필요 추정: 요청 {len(batches)}건 · 토큰 {sum(needs):,} "
+              f"(묶음당 {min(needs):,}~{max(needs):,})\n")
+        for order, provider in enumerate(chain, 1):
+            probe(provider)
+            tokens = provider.get("tokens")
+            requests = provider.get("requests")
+            covered = sum(1 for need in needs if tokens is None or need <= tokens)
+            budget = f"{tokens:,}" if tokens is not None else "알 수 없음"
+            print(f"  {order}순위 {provider['label']:<30} 남은 토큰 {budget:>10} · "
+                  f"남은 요청 {requests if requests is not None else '?':>4}")
+            if tokens is not None:
+                print(f"        -> 이 키만으로 감당 가능한 묶음: 약 {min(covered, tokens // max(needs[0],1))}/{len(batches)}개")
+        return 0
 
     by_id = {row["id"]: row for row in targets}
     verdicts, tokens_in, tokens_out, failures, used = {}, 0, 0, [], set()

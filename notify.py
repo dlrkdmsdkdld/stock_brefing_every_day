@@ -176,6 +176,9 @@ def build(prices, news, judged):
                 lines.append(f"  → {esc(verdict.get('impact', ''))}")
     lines += ["", "<i>RSI(14) 와일더 방식 · 볼린저밴드 20일·2σ. "
               "실시간 가격이 아니며 투자 자문이 아닙니다.</i>"]
+    if link:
+        # 메시지가 여러 건으로 쪼개지므로 맨 아래에도 링크를 둔다.
+        lines += ["", f'🔗 <a href="{esc(link)}">브리핑 전문 웹페이지 열기</a>']
     return lines
 
 
