@@ -1,4 +1,4 @@
-# 포트폴리오 브리핑 · 2026-09-06 (Sun) 23:21 KST
+# 포트폴리오 브리핑 · 2026-09-06 (Sun) 23:31 KST
 
 보유 18종목 · 관심 64종목 · 종가 기준일 2026-09-04 · 뉴스 2026-09-06 발행분 13건
 
@@ -13,29 +13,29 @@
 
 | 종목 (시가총액) | KRX 종가 | 전일 대비 | NXT 종가 | RSI(14) | 볼린저(20,2σ) | 검증 |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 삼성전자 (005930, 1,493.7조) | ₩255,500 | ▲ +2.20% | ₩257,000 (+2.80%) | 48.8 | 밴드 내 | KRX 기준 · Yahoo/네이버 일치/일치 |
-| SK하이닉스 (000660, 1,203.1조) | ₩1,647,000 | ▲ +3.20% | ₩1,662,000 (+4.14%) | 48.3 | 밴드 내 | KRX 기준 · Yahoo/네이버 일치/일치 |
-| HD현대중공업 (329180, 45.8조) | ₩436,500 | ▲ +0.34% | ₩436,000 (+0.23%) | 38.8 | 밴드 내 | KRX 기준 · Yahoo/네이버 일치/일치 |
+| 삼성전자 (005930, 1,493.7조) | ₩255,500 | ▲ +2.20% | ₩257,000 (+2.80%) | 48.8 | 밴드 내 | KRX·3사 일치 |
+| SK하이닉스 (000660, 1,203.1조) | ₩1,647,000 | ▲ +3.20% | ₩1,662,000 (+4.14%) | 48.3 | 밴드 내 | KRX·3사 일치 |
+| HD현대중공업 (329180, 45.8조) | ₩436,500 | ▲ +0.34% | ₩436,000 (+0.23%) | 38.8 | 밴드 내 | KRX·3사 일치 |
 
 ## 보유 종목 · 해외
 
 | 종목 (시가총액) | 종가 | 전일 대비 | RSI(14) | 볼린저(20,2σ) | 검증 |
 | --- | ---: | ---: | ---: | --- | --- |
-| 알파벳 A (GOOGL, $4.14T) | $338.46 | ▼ -1.17% | 44.8 | 밴드 내 | Yahoo 단일 출처 |
-| 마이크로소프트 (MSFT, $3.71T) | $499.70 | ▼ -2.04% | 59.4 | 밴드 내 | Yahoo 단일 출처 |
-| 시스코 시스템즈 (CSCO, $430.53B) | $109.20 | ▲ +0.54% | 41.0 | 밴드 내 | Yahoo 단일 출처 |
-| 델 (DELL, $338.67B) | $524.14 | ▲ +1.50% | 63.7 | 상단 이탈 | Yahoo 단일 출처 |
-| 노보노디스크 ADR (NVO, $206.02B) | $46.60 | ▼ -1.92% | 49.2 | 밴드 내 | Yahoo 단일 출처 |
-| 록히드마틴 (LMT, $121.23B) | $525.28 | ▼ -1.44% | 33.5 | 밴드 내 | Yahoo 단일 출처 |
-| 버티브 홀딩스 (VRT, $108.00B) | $280.53 | ▲ +4.35% | 54.9 | 밴드 내 | Yahoo 단일 출처 |
-| 컨스텔레이션 에너지 (CEG, $105.92B) | $298.96 | ▲ +4.88% | 66.7 | 상단 이탈 | Yahoo 단일 출처 |
-| 나이키 B (NKE, $56.97B) | $38.40 | ▼ -0.95% | 40.1 | 밴드 내 | Yahoo 단일 출처 |
-| 비스트라 에너지 (VST, $50.11B) | $149.30 | ▲ +3.52% | 57.5 | 밴드 내 | Yahoo 단일 출처 |
-| 크레도 테크놀로지 (CRDO, $32.06B) | $170.57 | ▲ +3.90% | 34.2 | 밴드 내 | Yahoo 단일 출처 |
-| 퍼스트솔라 (FSLR, $21.97B) | $204.45 | ▼ -1.43% | 41.4 | 밴드 내 | Yahoo 단일 출처 |
-| 컨스텔레이션 브랜즈 (STZ, $21.89B) | $128.18 | ▼ -0.70% | 38.8 | 밴드 내 | Yahoo 단일 출처 |
-| 알먼티 (ALM, $5.07B) | $17.57 | ▼ -1.51% | 56.8 | 밴드 내 | Yahoo 단일 출처 |
-| 이오스 에너지 (EOSE, $1.41B) | $3.88 | ▲ +10.86% | 52.1 | 밴드 내 | Yahoo 단일 출처 |
+| 알파벳 A (GOOGL, $4.14T) | $338.46 | ▼ -1.17% | 44.8 | 밴드 내 | Yahoo |
+| 마이크로소프트 (MSFT, $3.71T) | $499.70 | ▼ -2.04% | 59.4 | 밴드 내 | Yahoo |
+| 시스코 시스템즈 (CSCO, $430.53B) | $109.20 | ▲ +0.54% | 41.0 | 밴드 내 | Yahoo |
+| 델 (DELL, $338.67B) | $524.14 | ▲ +1.50% | 63.7 | 상단 이탈 | Yahoo |
+| 노보노디스크 ADR (NVO, $206.02B) | $46.60 | ▼ -1.92% | 49.2 | 밴드 내 | Yahoo |
+| 록히드마틴 (LMT, $121.23B) | $525.28 | ▼ -1.44% | 33.5 | 밴드 내 | Yahoo |
+| 버티브 홀딩스 (VRT, $108.00B) | $280.53 | ▲ +4.35% | 54.9 | 밴드 내 | Yahoo |
+| 컨스텔레이션 에너지 (CEG, $105.92B) | $298.96 | ▲ +4.88% | 66.7 | 상단 이탈 | Yahoo |
+| 나이키 B (NKE, $56.87B) | $38.40 | ▼ -0.95% | 40.1 | 밴드 내 | Yahoo |
+| 비스트라 에너지 (VST, $50.11B) | $149.30 | ▲ +3.52% | 57.5 | 밴드 내 | Yahoo |
+| 크레도 테크놀로지 (CRDO, $32.06B) | $170.57 | ▲ +3.90% | 34.2 | 밴드 내 | Yahoo |
+| 퍼스트솔라 (FSLR, $21.97B) | $204.45 | ▼ -1.43% | 41.4 | 밴드 내 | Yahoo |
+| 컨스텔레이션 브랜즈 (STZ, $21.89B) | $128.18 | ▼ -0.70% | 38.8 | 밴드 내 | Yahoo |
+| 알먼티 (ALM, $5.07B) | $17.57 | ▼ -1.51% | 56.8 | 밴드 내 | Yahoo |
+| 이오스 에너지 (EOSE, $1.41B) | $3.88 | ▲ +10.86% | 52.1 | 밴드 내 | Yahoo |
 
 ## 관심 종목 (64)
 
@@ -56,7 +56,7 @@
 | AMD (AMD) | $779.62B | $477.57 | +$21.41 | ▲ +4.69% | 49.7 | 밴드 내 |
 | 비자 (V) | $700.27B | $375.07 | -$3.68 | ▼ -0.97% | 55.0 | 밴드 내 |
 | 엑슨모빌 (XOM) | $655.73B | $159.47 | -$2.74 | ▼ -1.69% | 51.0 | 밴드 내 |
-| 인텔 (INTC) | $503.38B | $95.80 | +$4.13 | ▲ +4.51% | 51.7 | 밴드 내 |
+| 인텔 (INTC) | $506.41B | $95.80 | +$4.13 | ▲ +4.51% | 51.7 | 밴드 내 |
 | 오라클 (ORCL) | $457.36B | $158.78 | +$4.74 | ▲ +3.08% | 61.0 | 상단 이탈 |
 | 팔란티어 (PLTR) | $418.93B | $174.33 | -$8.20 | ▼ -4.49% | 54.2 | 밴드 내 |
 | 셰브론 (CVX) | $409.19B | $208.60 | -$2.72 | ▼ -1.29% | 64.0 | 밴드 내 |
@@ -71,7 +71,7 @@
 | 크라우드스트라이크 (CRWD) | $218.20B | $213.10 | -$1.87 | ▼ -0.87% | 53.1 | 밴드 내 |
 | 마벨 테크놀로지 (MRVL) | $200.91B | $223.55 | +$14.72 | ▲ +7.05% | 51.1 | 밴드 내 |
 | 맥도날드 (MCD) | $180.94B | $255.69 | -$3.94 | ▼ -1.52% | 34.3 | 하단 이탈 |
-| 넥스트에라 에너지 (NEE) | $174.03B | $83.43 | -$0.63 | ▼ -0.75% | 41.0 | 밴드 내 |
+| 넥스트에라 에너지 (NEE) | $174.00B | $83.43 | -$0.63 | ▼ -0.75% | 41.0 | 밴드 내 |
 | 로빈후드 (HOOD) | $109.79B | $122.11 | -$2.61 | ▼ -2.09% | 66.0 | 상단 이탈 |
 | 앱러빈 (APP) | $107.69B | $320.56 | +$6.98 | ▲ +2.23% | 41.7 | 밴드 내 |
 | 발레로 에너지 (VLO) | $106.74B | $370.72 | +$0.03 | ▲ +0.01% | 75.2 과매수 | 밴드 내 |
@@ -87,7 +87,7 @@
 | 코어위브 (CRWV) | $49.29B | $89.36 | +$4.80 | ▲ +5.68% | 52.0 | 밴드 내 |
 | 코인베이스 (COIN) | $48.71B | $184.64 | -$8.06 | ▼ -4.18% | 56.4 | 밴드 내 |
 | 나테라 (NTRA) | $47.31B | $328.18 | +$0.51 | ▲ +0.16% | 62.1 | 밴드 내 |
-| 로켓랩 (RKLB) | $41.08B | $64.26 | +$0.45 | ▲ +0.71% | 37.2 | 밴드 내 |
+| 로켓랩 (RKLB) | $41.09B | $64.26 | +$0.45 | ▲ +0.71% | 37.2 | 밴드 내 |
 | 에리스 매니지먼트 (ARES) | $31.61B | $140.15 | -$1.37 | ▼ -0.97% | 53.1 | 밴드 내 |
 | 서클 인터넷 그룹 (CRCL) | $25.91B | $102.05 | -$1.18 | ▼ -1.14% | 67.0 | 밴드 내 |
 | 자일럼 (XYL) | $24.68B | $105.69 | -$2.20 | ▼ -2.04% | 29.9 과매도 | 밴드 내 |
@@ -99,7 +99,7 @@
 | 어플라이드 옵토일렉트로닉스 (AAOI) | $8.96B | $105.53 | +$5.15 | ▲ +5.13% | 43.6 | 밴드 내 |
 | 블루아울 캐피털 (OWL) | $8.04B | $11.75 | -$0.09 | ▼ -0.76% | 55.0 | 밴드 내 |
 | 조비 에비에이션 (JOBY) | $6.67B | $6.74 | -$0.13 | ▼ -1.89% | 36.4 | 밴드 내 |
-| 엔페이즈 에너지 (ENPH) | $4.81B | $36.37 | +$0.06 | ▲ +0.17% | 41.8 | 밴드 내 |
+| 엔페이즈 에너지 (ENPH) | $4.79B | $36.37 | +$0.06 | ▲ +0.17% | 41.8 | 밴드 내 |
 | 온다스 홀딩스 (ONDS) | $4.35B | $7.62 | -$0.01 | ▼ -0.13% | 43.4 | 밴드 내 |
 | USA 레어어스 (USAR) | $4.31B | $17.61 | -$0.08 | ▼ -0.45% | 47.5 | 밴드 내 |
 | 앱셀레라 바이오로직스 (ABCL) | $3.70B | $11.43 | -$0.14 | ▼ -1.21% | 61.2 | 밴드 내 |
@@ -110,29 +110,29 @@
 
 ## 오늘의 추천 종목
 
-### 내 목록에서 — 컨스텔레이션 에너지 (CEG) · $298.96 (+4.88%)
+### 내 목록에서 — 맥도날드 (MCD) · $255.69 (-1.52%)
 
-**920MW 계약으로 강한 상승 주목**
+**52주 저점 부근에서 배당 매력을 점검할 시점**
 
-- **왜**: 종가는 298.96달러로 4.88% 올랐고, 거래량도 1.2배 증가했다. 2분기 실적과 함께 920MW 규모의 장기 전력구매계약을 추가 발표했으며, 원전 수요 속에서 전력을 직접 판매하는 사업 구조가 기사에서 호재로 제시됐다.
-- **유의**: RSI 66.7에 볼린저 상단을 이탈해 단기 과열 및 되돌림 가능성이 있다. 장기 전력구매계약의 실제 수익성이나 실적 영향은 주어진 정보만으로 확인하기 어렵다.
+- **왜**: 맥도날드는 52주 위치 0%로 저점에 위치해 있으며 볼린저 하단 이탈 상태에서 RSI 34.3을 기록하고 있다. 뉴스에 따르면 1976년 이후 매년 배당금을 인상해 왔고 선행 배당수익률 2.9%를 기록하며, 2월 고점 대비 24% 하락해 장기 투자 매력도가 언급되었다.
+- **유의**: 볼린저 하단 이탈과 52주 저점 근접은 추가 하락 추세가 지속될 위험을 의미하므로 변동성 확대에 주의해야 한다.
 
-### 새로 볼 종목 — Fair Isaac Corporation (FICO) · $932.26 (-16.68%)
+### 새로 볼 종목 — lululemon athletica inc. (LULU) · $100.61 (-17.38%)
 
-**급락과 과매도 신호를 함께 점검**
+**거래량이 몰리며 52주 저점 근처로 급락한 룰루레몬**
 
-- **왜**: FICO는 종가 932.26달러로 16.68% 급락했고 거래량은 4.4배로 크게 늘었다. RSI 30.2와 볼린저 하단 이탈, 52주 위치 6%가 겹쳐 변동성과 반등 여부를 오늘 살펴볼 지점을 제공한다.
-- **유의**: 새 종목으로 뉴스 요약이 없어 급락 원인과 기업 펀더멘털을 확인하지 못한 판단이다. 과매도 지표만으로 반등이나 추가 하락을 단정할 수 없다.
+- **왜**: 룰루레몬은 거래량이 4.0배 급증하며 주가가 17.38% 하락했고 52주 저점 대비 +2.7% 수준인 100.61 USD를 기록했다. RSI 31.8과 볼린저 하단 이탈을 동반하며 단기 낙폭이 크게 나타났다.
+- **유의**: 새 종목이라 뉴스가 없어 구체적인 악재나 하락 배경을 파악하기 어렵고, 낙폭 과대에도 불구하고 추가 하락 위험이 존재한다.
 
 함께 검토한 후보:
-- MCD: 52주 저점 부근과 RSI 34.3이 눈에 띄지만, 약한 호재 속 주가가 고점 대비 24% 하락했다.
-- DELL: 공정가치 추정치가 502.78~564.46달러로 상향됐지만, RSI 63.7과 볼린저 상단 이탈을 함께 봐야 한다.
-- CBRS: 거래량 2.0배와 10.30% 상승이 나타났지만 오늘 뉴스가 없어 상승 배경 확인이 어렵다.
-- BE: 7.35% 상승했으나 볼린저 상단 이탈 상태이고 뉴스가 없어 근거가 제한적이다.
-- BLTE: 13.16% 상승과 거래량 3.4배가 강하지만 RSI 72.5와 상단 이탈로 단기 과열을 점검할 필요가 있다.
-- LULU: 17.38% 급락, RSI 31.8, 52주 위치 2%로 관심 지점이지만 하락 원인은 확인되지 않았다.
-- TARS: 9.10% 상승으로 52주 위치 98%에 근접했지만 RSI 84.3과 상단 이탈이 부담이다.
-- ASAN: 12.69% 하락했으나 RSI 45.2와 볼린저 밴드 내 অবস্থ로 과매도 신호는 상대적으로 약하다.
+- DELL: AI 서버 전략과 적정 가치 상향 소식에 볼린저 상단 이탈을 기록했다.
+- CBRS: 거래량 2.0배와 함께 10.30% 상승했으나 별다른 뉴스는 없다.
+- CEG: 2분기 실적과 920메가와트 전력 구매 계약 호재로 볼린저 상단에 위치했다.
+- BE: 거래량 증가와 함께 7.35% 상승하며 볼린저 상단을 이탈했다.
+- BLTE: 거래량 3.4배와 13.16% 상승을 보이며 볼린저 상단을 이탈했다.
+- FICO: 거래량이 4.4배 급증하며 16.68% 하락하고 볼린저 하단을 이탈했다.
+- TARS: RSI 84.3과 52주 고점 인근에서 9.10% 상승했다.
+- ASAN: 12.69% 하락했으나 볼린저 밴드 내에 머물렀다.
 
 _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 내 목록 5개, 목록 밖 5개 후보 중에서 골랐습니다. 목록 밖 종목은 뉴스를 수집하지 않아 지표만으로 판단합니다._
 
@@ -144,7 +144,7 @@ _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 
 - **하락 상위** — 테슬라(관심 $1.40T, -5.92%), 넷플릭스(관심 $325.83B, -5.35%), 팔란티어(관심 $418.93B, -4.49%), 휴렛팩커드 엔터프라이즈(관심 $69.03B, -4.48%), 코인베이스(관심 $48.71B, -4.18%)
 - **거래량 급증 (10일 평균 대비)** — 세레브라스 시스템즈(관심 $49.90B, 2.0배 · +10.30%), USA 레어어스(관심 $4.31B, 1.8배 · -0.45%), 테슬라(관심 $1.40T, 1.5배 · -5.92%), 넷플릭스(관심 $325.83B, 1.5배 · -5.35%)
 - **52주 신고가 근접 (-3% 이내)** — 발레로 에너지(관심 $106.74B, 고점 대비 -1.2%), 델(보유 $338.67B, 고점 대비 -2.0%), JP모건 체이스(관심 $953.33B, 고점 대비 -2.1%), 엔비디아(관심 $5.56T, 고점 대비 -2.6%), 비자(관심 $700.27B, 고점 대비 -2.7%)
-- **52주 신저가 근접 (+5% 이내)** — 맥도날드(관심 $180.94B, 저점 대비 +0.1%), 자일럼(관심 $24.68B, 저점 대비 +0.4%), 나이키 B(보유 $56.97B, 저점 대비 +1.2%), 컨스텔레이션 브랜즈(보유 $21.89B, 저점 대비 +1.4%), 조비 에비에이션(관심 $6.67B, 저점 대비 +2.0%)
+- **52주 신저가 근접 (+5% 이내)** — 맥도날드(관심 $180.94B, 저점 대비 +0.1%), 자일럼(관심 $24.68B, 저점 대비 +0.4%), 나이키 B(보유 $56.87B, 저점 대비 +1.2%), 컨스텔레이션 브랜즈(보유 $21.89B, 저점 대비 +1.4%), 조비 에비에이션(관심 $6.67B, 저점 대비 +2.0%)
 - **RSI 과매수 (70 이상)** — 발레로 에너지(관심 $106.74B, RSI 75.2)
 - **RSI 과매도 (30 이하)** — 자일럼(관심 $24.68B, RSI 29.9)
 
@@ -157,11 +157,11 @@ _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 
 ### [관심] 맥도날드 (MCD) $255.69 ▼ -1.52%
 
 - %B -0.019 · RSI 34.3 (중립) · 하단 밴드 256.11
-- **약한 호재** · [McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.](https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html)
+- **호재** · [McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.](https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html)
   - Motley Fool, Yahoo Finance · 17:15 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: McDonald's는 1976년 이후 매년 배당을 인상했으며, 기사에서 제시한 선행 배당수익률은 2.9%다. 주가는 2026년 2월 고점 대비 24% 하락한 상태로 소개됐고, 장기 현금흐름과 가격 매력이 매수 이유로 제시됐다.
-  - 판단: 장기간 이어진 배당 인상 기록은 맥도날드 보유자의 안정적인 현금흐름 기대를 높이며, 고점 대비 24% 하락은 밸류에이션 부담을 일부 낮출 수 있다. 다만 이는 회사의 새로운 실적 개선이나 사업 발표보다 장기 투자 의견에 가까워 영향은 제한적이다.
-  - 유의: 기사의 ‘매수 후 계속 보유’ 의견은 작성자의 투자 판단이며, 본문에 매출·이익 성장률이나 배당 지속 가능성을 뒷받침하는 최신 실적 수치는 제시되지 않았다.
+  - 요약: 맥도날드는 1976년 이후 매년 배당금을 인상해 온 기업으로, 현재 선행 배당수익률 2.9%를 기록하고 있다. 2월 고점 대비 24% 하락한 상태여서 장기 포트폴리오를 위한 매력적인 매수 기회로 평가받고 있다.
+  - 판단: 안정적인 현금 흐름과 꾸준한 배당 성장 이력을 갖춘 가운데 주가가 고점 대비 조정을 받아 매력적인 진입 구간을 제공하므로 투자자에게 호재다.
+  - 유의: 기사 내에 엔비디아 등 타 종목 관련 광고성 문구가 함께 포함되어 있다.
 
 ## 종목별 오늘의 뉴스
 
@@ -172,9 +172,8 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 
 - **호재** · [HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지](https://n.news.naver.com/mnews/article/008/0005410022)
   - 머니투데이 · 17:00 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
-  - 요약: 올해 2분기 글로벌 낸드 시장 매출은 전분기보다 70% 증가했고 낸드 가격도 55% 상승했다. AI 추론 확산으로 eSSD 수요가 늘면서 삼성전자와 SK하이닉스의 낸드 매출 점유율이 50%에 육박하고 양사의 실적 기여도도 확대될 전망이다.
-  - 판단: 낸드 가격 상승과 기업용 SSD 수요 증가는 SK하이닉스의 낸드 매출 및 수익성 개선으로 이어질 수 있다. AI 서버용 저장장치 수요가 HBM에 이어 새로운 성장 동력으로 작용할 가능성이 있다.
-  - 유의: 본문에 SK하이닉스의 구체적인 2분기 낸드 점유율과 실적 수치는 제시되지 않았다.
+  - 요약: 카운터포인트리서치에 따르면 2분기 글로벌 낸드 시장 매출이 전분기 대비 70% 증가했고 가격도 55% 뛰었다. AI 추론 확산으로 eSSD 수요가 폭증하면서 삼성전자와 SK하이닉스의 글로벌 낸드 매출 점유율이 50%에 육박했다.
+  - 판단: SK하이닉스는 HBM에 이어 낸드 및 eSSD 부문에서도 AI 특수에 따른 가파른 실적 성장과 수익성 개선 기대감이 커진다.
 
 </details>
 
@@ -183,9 +182,8 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 
 - **호재** · [하이닉스 독주 흔드나…삼성전자, HBM 점유율 격차 '37%p→17%p'](https://n.news.naver.com/mnews/article/243/0000102686)
   - 이코노미스트 · 13:25 KST · 교차확인(구글 뉴스 RSS+네이버 금융)
-  - 요약: 올해 2분기 글로벌 HBM 시장에서 삼성전자는 매출 기준 점유율 33%를 기록해 1분기 21%보다 12%포인트 상승했다. SK하이닉스와의 점유율 격차도 1분기 37%포인트에서 2분기 17%포인트로 줄었으며, 삼성전자는 2월 HBM4를 업계 최초로 양산 출하했다.
-  - 판단: HBM 점유율 상승은 삼성전자의 AI 메모리 매출 확대와 주요 고객사 공급 증가로 이어질 수 있다. HBM3E보다 성능과 가격이 높은 HBM4 출하 확대가 수익성 개선에도 기여할 가능성이 있다.
-  - 유의: 삼성전자가 SK하이닉스의 점유율을 빠르게 따라가고 있지만, 2분기 기준 점유율은 여전히 SK하이닉스 50%보다 낮다.
+  - 요약: 카운터포인트리서치에 따르면 2분기 글로벌 HBM 시장에서 SK하이닉스가 점유율 50%로 1위를 기록했고, 삼성전자가 33%로 2위에 올랐다. 양사의 점유율 격차는 1분기 37%포인트에서 2분기 17%포인트로 좁혀졌으며 하반기 HBM4 양산 출하가 본격화된다.
+  - 판단: 삼성전자가 HBM 시장에서 점유율을 크게 확대하며 선두를 거세게 추격하고 있어 향후 공급 확대와 실적 기여도 증가로 이어질 수 있다.
 
 </details>
 
@@ -193,43 +191,42 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 <summary><b>HD현대중공업</b> <code>329180</code> ▲ +0.34% ₩436,500 — 중립 1</summary>
 
 - **중립** · [中 조선업 수주 공세에…K-조선 '해외 생산' 승부수](https://n.news.naver.com/mnews/article/138/0002240346)
-  - 디지털데일리 · 08:00 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
-  - 요약: 중국 조선업은 지난 8월 전 세계 선박 수주량 420만CGT 중 85%인 359만CGT를 확보한 반면, 한국은 31만CGT로 7%에 그쳤다. 이에 국내 조선업계는 고부가가치 선박은 국내에서 생산하고 범용 선박은 해외 조선소에서 건조해 원가 경쟁력과 생산능력을 높이는 전략을 추진하고 있다.
-  - 판단: 해외 생산 확대가 성공하면 HD현대중공업을 포함한 국내 조선업체의 가격 경쟁력과 수주 대응력이 개선될 수 있다. 다만 중국과의 수주 격차가 큰 상황은 업계 전반의 경쟁 부담으로 작용한다.
-  - 유의: 본문은 K-조선 업계 전반의 전략을 다루며 HD현대중공업의 구체적인 수주나 해외 생산 계획은 직접 언급하지 않는다.
+  - 디지털데일리, ddaily.co.kr · 08:00 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
+  - 요약: 한국 조선업계가 중국의 저가 수주 공세와 압도적인 수주량 격차에 대응하기 위해 동남아 등 해외 조선소 활용을 추진하고 있다. 8월 전 세계 수주량 중 중국이 85%를 차지한 반면 한국은 7%에 그쳤다.
+  - 판단: 해외 생산 거점 활용은 원가 경쟁력을 높일 수 있는 전략이나, 보유 종목인 HD현대중공업에 대한 직접적인 개별 수주 소식이나 실적 변동은 본문에 구체적으로 명시되지 않았다.
+  - 유의: 기사는 한국 조선업 전반의 전략을 다루고 있으며 HD현대중공업 개별 기업의 실적이나 수주에 미치는 영향은 추정에 불과하다.
 
 </details>
 
 <details>
-<summary><b>델</b> <code>DELL</code> ▲ +1.50% $524.14 — 약한 호재 1</summary>
+<summary><b>델</b> <code>DELL</code> ▲ +1.50% $524.14 — 호재 1</summary>
 
-- **약한 호재** · [Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus](https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html)
+- **호재** · [Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus](https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html)
   - Simply Wall St., Yahoo Finance · 05:11 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: Dell Technologies의 공정가치 추정치가 약 502.78달러에서 564.46달러로 상향됐다. 상향 배경으로 회사의 가이던스와 부품 공급, 메모리 비용, 마진, AI 서버 수요 및 거시·지정학적 변수가 거론됐다.
-  - 판단: 공정가치 추정치 상향은 AI 서버 수요와 Dell의 실적 전망에 대한 평가 개선으로 주가에 긍정적일 수 있다. 특히 AI 서버 사업 확대가 매출과 마진 개선으로 연결될 가능성이 반영된 것으로 보인다.
-  - 유의: 본문은 공정가치 상향의 구체적인 실적 전망이나 분석 방법을 충분히 제시하지 않으며, 메모리 비용·공급·거시환경 등 하방 변수도 함께 언급한다.
+  - 요약: 델 테크놀로지스(DELL)의 적정 가치 추정치가 분석가들의 가이드라인과 AI 서버 집중 전략 등을 반영해 약 502.78달러에서 약 564.46달러로 상향 조정됐다. 이는 AI 서버 수요와 부품 공급 상황 등이 긍정적으로 평가받았기 때문이다.
+  - 판단: AI 서버 수요 증가와 기업 가치 상향 평가는 보유 종목인 델의 주가 상승 모멘텀과 투자 심리에 직접적인 호재로 작용한다.
 
 </details>
 
 <details>
-<summary><b>컨스텔레이션 브랜즈</b> <code>STZ</code> ▼ -0.70% $128.18 — 중립 1</summary>
+<summary><b>컨스텔레이션 브랜즈</b> <code>STZ</code> ▼ -0.70% $128.18 — 약한 악재 1</summary>
 
-- **중립** · [Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?](https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html)
+- **약한 악재** · [Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?](https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html)
   - The Motley Fool, Motley Fool · 18:34 KST · 교차확인(구글 뉴스 RSS+Yahoo Finance)
-  - 요약: 컨스텔레이션 브랜즈 주가는 고점 대비 53% 하락해 약 128달러, 52주 최저가는 126.45달러 수준이며 약한 소비지출이 매출을 압박했다. 반면 주가가 선행 주가수익비율 약 11배로 낮아졌고 Modelo, Corona, Pacifico, Victoria 등 인기 수입 맥주에 대한 미국 독점 유통권을 보유해 매수 기회로 볼 수 있다는 평가도 제시됐다.
-  - 판단: 소비자 지출 둔화는 맥주와 와인 판매 및 컨스텔레이션 브랜즈의 매출 성장에 부담이다. 그러나 낮아진 밸류에이션과 주요 브랜드의 유통권은 주가 하락을 제한하거나 회복을 뒷받침할 수 있다.
-  - 유의: 기사 본문이 일부만 제공되어 실적 전망과 구체적인 매출 추세를 확인하기 어렵고, 낮은 밸류에이션이 실제 성장 둔화를 충분히 반영했는지도 불확실하다.
+  - 요약: 컨스텔레이션 브랜즈(STZ)의 주가는 고점 대비 53% 하락한 약 128달러로 52주 신저가 부근에 머물고 있다. 가처분 소득 감소와 고유가로 인해 소비자 지출이 위축되면서 맥주 및 와인 판매 실적에 부담을 주고 있다.
+  - 판단: 소비자 지출 둔화로 인한 매출 부진 우려가 지속되면서 단기적으로 주가 회복에 부담을 준다.
+  - 유의: 포워드 실적 기준 PER이 약 11배로 밸류에이션 매력이 있다는 시각도 존재한다.
 
 </details>
 
 <details>
-<summary><b>퍼스트솔라</b> <code>FSLR</code> ▼ -1.43% $204.45 — 약한 호재 1</summary>
+<summary><b>퍼스트솔라</b> <code>FSLR</code> ▼ -1.43% $204.45 — 중립 1</summary>
 
-- **약한 호재** · [First Solar stock eases after strong earnings beat and policy worries](https://news.google.com/rss/articles/CBMixwFBVV95cUxNT1BfUHZBemFVeWUtdm5xUXRLUE16M3FqM0VZcjBMTlpwbXJOUjFYbzlwcE5Ha01BN21PRG9wUnBzZVJLdDYyWExaSjU1dURRVXcxbklyaUdoVmZtQk1qVlZZSE1GUzU4NFRZc0dsN1NXLUp0cHFVNHpHVUZNcGhMV3NFXy1RTjlDMVJrd00ySnBIM0FxSUl6a1J2OFJ3clhPWklfTm5iZEwyNEtfSDljZm9rYUs5Y01WM3NBSzhjLUtOTHVzRWg0?oc=5)
+- **중립** · [First Solar stock eases after strong earnings beat and policy worries](https://news.google.com/rss/articles/CBMixwFBVV95cUxNT1BfUHZBemFVeWUtdm5xUXRLUE16M3FqM0VZcjBMTlpwbXJOUjFYbzlwcE5Ha01BN21PRG9wUnBzZVJLdDYyWExaSjU1dURRVXcxbklyaUdoVmZtQk1qVlZZSE1GUzU4NFRZc0dsN1NXLUp0cHFVNHpHVUZNcGhMV3NFXy1RTjlDMVJrd00ySnBIM0FxSUl6a1J2OFJ3clhPWklfTm5iZEwyNEtfSDljZm9rYUs5Y01WM3NBSzhjLUtOTHVzRWg0?oc=5)
   - AD HOC NEWS · 02:08 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 퍼스트솔라는 최근 고점 아래인 약 204달러에 거래되고 있지만, 최근 분기 주당순이익은 3.92달러로 컨센서스 2.90달러를 크게 웃돌았다. 해당 분기 매출은 10억6000만달러였으며, 강한 실적에도 정책 및 관세 우려가 주가와 투자심리를 압박하고 있다.
-  - 판단: 예상치를 웃돈 EPS와 10억6000만달러의 매출은 유틸리티 규모 태양광 사업의 수익성과 수요에 긍정적이다. 다만 미국 정책 및 관세 변화는 비용, 수요, 프로젝트 수익성에 부담을 줄 수 있어 호재가 일부 상쇄된다.
-  - 유의: 본문에는 매출 컨센서스, 정책의 구체적인 내용, 향후 가이던스가 제시되지 않아 실적 호조의 지속성을 판단하기 어렵다.
+  - 요약: 퍼스트솔라는 강력한 분기 실적(주당순이익 3.92달러, 매출 10억 6000만 달러)을 기록했으나 정책 및 관세 우려가 겹치며 최근 고점 아래인 204달러 부근에서 거래되고 있다. 유틸리티 규모의 태양광 수요는 견조하지만 워싱턴의 정책 토론이 주목받고 있다.
+  - 판단: 견조한 실적은 호재이나 정책 및 관세 관련 불확실성이 주가 상승을 제한하고 있다.
+  - 유의: 정책적 리스크의 향방에 따라 주가 변동성이 커질 수 있다.
 
 </details>
 
@@ -238,31 +235,30 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 
 - **호재** · [3 Nuclear Stocks to Buy With $2,000 After One Fell 83%](https://finance.yahoo.com/markets/stocks/articles/3-nuclear-stocks-buy-2-204301311.html)
   - Motley Fool, The Motley Fool · 05:43 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: 컨스텔레이션 에너지는 2분기 실적과 함께 920MW 규모의 장기 전력구매계약을 추가로 발표했다. 기사는 원전 관련 수요가 유지되고 있으며, 컨스텔레이션 에너지는 원자로를 설계하는 기업이나 연료를 판매하는 기업과 달리 전력을 직접 판매하는 회사라고 설명한다.
-  - 판단: 920MW의 장기 전력구매계약은 컨스텔레이션 에너지의 전력 판매 물량과 장기 매출 가시성을 높일 수 있다. 원전 및 저탄소 전력 수요가 유지되면 발전자산의 활용도와 현금흐름에도 긍정적이다.
-  - 유의: 본문에는 계약의 기간, 가격, 수익 기여 규모와 컨스텔레이션 에너지의 2분기 구체적인 실적 수치가 제시되지 않았다.
+  - 요약: 컨스텔레이션 에너지(CEG)는 2분기 실적 발표와 함께 920메가와트 규모의 장기 전력 구매 계약을 추가했다고 밝혔다. 전력 수요 급증에 힘입어 전력 판매 사업을 영위하는 컨스텔레이션 에너지가 수혜를 입고 있다.
+  - 판단: 대규모 전력 구매 계약 체결은 안정적인 수익 창출원으로 작용하여 보유 종목인 컨스텔레이션 에너지의 실적 성장에 기여한다.
 
 </details>
 
 <details>
-<summary><b>비스트라 에너지</b> <code>VST</code> ▲ +3.52% $149.30 — 중립 1</summary>
+<summary><b>비스트라 에너지</b> <code>VST</code> ▲ +3.52% $149.30 — 호재 1</summary>
 
-- **중립** · [Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure](https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUVWV0gza2g0REFGbEhwaXpRdGhCbDE5M1JIS20zZ3N1dy1yVVUwZDhXcDhpLWJqRVNqTXYyWlV4UnVzNHMxNjlyZndrcVF3bXpRWWIwdkFqUXRKdTItNWZxcmpINzhNZ09NcWFoZWN6NkUtaFBkQm1qSEwzODU0bXB1ajFiNlF5U0h2cy13TWhsVEV6Z2Faemd4bnNjQk90?oc=5)
+- **호재** · [Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure](https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUVWV0gza2g0REFGbEhwaXpRdGhCbDE5M1JIS20zZ3N1dy1yVVUwZDhXcDhpLWJqRVNqTXYyWlV4UnVzNHMxNjlyZndrcVF3bXpRWWIwdkFqUXRKdTItNWZxcmpINzhNZ09NcWFoZWN6NkUtaFBkQm1qSEwzODU0bXB1ajFiNlF5U0h2cy13TWhsVEV6Z2Faemd4bnNjQk90?oc=5)
   - Blockonomi · 22:07 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Peter Thiel이 관리하는 Thiel Macro LLC는 2026년 2분기 말 비스트라 주식 372,755주를 보유했다고 13F에서 공개했으며, 당시 평가액은 약 5910만달러였다. 비스트라 주가는 금요일 3.5% 상승해 149.27달러를 기록했지만, 2분기 EPS는 0.76달러로 컨센서스 1.61달러를 밑돌았고 매출도 40억2000만달러로 예상치 54억6000만달러에 못 미쳤다.
-  - 판단: 유명 투자자의 지분 공개와 주가 상승은 투자심리 개선에 긍정적일 수 있고, 애널리스트 평균 목표가 223.53달러도 상승 여지를 시사한다. 그러나 2분기 실적이 시장 예상치를 크게 밑돈 점은 향후 주가와 기업가치에 부정적인 요인이다.
-  - 유의: 13F 지분 공개는 과거 2분기 말 기준 보유 내역이며 현재도 해당 지분을 유지하는지는 확인되지 않는다. 기사에 제시된 목표주가는 애널리스트 전망일 뿐이며 실적 부진과 상충한다.
+  - 요약: 피터 틸이 관리하는 틸 매크로 LLC가 2분기 말 기준 비스트라(VST) 주식 372,755주(약 5,910만 달러 상당)를 보유하고 있다고 공시했다. 이 소식에 힘입어 VST 주가는 금요일 3.5% 상승한 149.27달러를 기록했다.
+  - 판단: 유명 투자자의 대규모 지분 보유 공시는 시장의 신뢰를 높이고 주가 상승 모멘텀을 강화하는 요인이다.
+  - 유의: 2분기 실적에서 주당순이익과 매출이 컨센서스를 하회한 점은 리스크 요인이다.
 
 </details>
 
 <details>
-<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 악재 1</summary>
+<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 약한 악재 1</summary>
 
-- **악재** · [Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5)
-  - ACCESS Newswire · 06:29 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Bronstein, Gewirtz & Grossman, LLC가 Eos Energy Enterprises(나스닥: EOSE)의 증권 관련 잠재적 청구를 조사하고 있다고 2026년 9월 3일 밝혔다. 2025년 11월 5일 이전에 Eos Energy 증권을 매수하고 현재까지 보유한 투자자들에게 조사 참여와 추가 정보 제공을 요청했다.
-  - 판단: 회사의 임원·이사 등이 기업 위법행위에 관여했는지 조사하는 내용으로, 실제 문제가 확인될 경우 법적 비용과 평판 훼손, 주가 하락으로 이어질 수 있다.
-  - 유의: 기사에는 구체적인 위법행위나 소송 제기, 손해 규모가 확인되지 않았으며 현재는 로펌의 조사 참여 권유 단계다.
+- **약한 악재** · [Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5)
+  - accessnewswire.com · 06:29 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 로펌 Bronstein, Gewirtz & Grossman이 2025년 11월 5일 이전에 이오스 에너지 주식을 매수해 현재까지 보유 중인 투자자들을 대상으로 증권 조사(Securities Investigation) 참여를 독려하고 있다. 이번 조사는 회사 및 임원진의 기업 부정행위 여부를 파악하기 위한 것이다.
+  - 판단: 법적 조사 착수 소식은 투자 심리에 부정적 영향을 미치며, 향후 소송 리스크로 이어질 수 있어 주가에 단기적인 약재로 작용한다.
+  - 유의: 현재는 공식 소송이 아니라 로펌 차원의 조사 단계이므로 실제 기업 가치 훼손으로 이어질지는 지켜봐야 한다.
 
 </details>
 
@@ -274,13 +270,13 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 </details>
 
 <details>
-<summary><b>크레도 테크놀로지</b> <code>CRDO</code> ▲ +3.90% $170.57 — 약한 호재 1</summary>
+<summary><b>크레도 테크놀로지</b> <code>CRDO</code> ▲ +3.90% $170.57 — 중립 1</summary>
 
-- **약한 호재** · [Credo Technology upgraded to Buy on strong AI-d...](https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTh0MkZ3cHpINHBBU2dubDJiWmJqb29BZkRTTEpwVVg3WHBIbHBKWFEyOFRFX3dNNWhDY3l5TUExME1fbl9GLTNIM05pSWxrRFd5ek15XzRtV0x0TnloWmlzblQ2WmNVTWlvdlkzZmlkVG9uMjVQQUlLQmhnbjFBVkg4Mk9JRjZfakEyd3JVUDNfelAzeTVR?oc=5)
+- **중립** · [Credo Technology upgraded to Buy on strong AI-d...](https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTh0MkZ3cHpINHBBU2dubDJiWmJqb29BZkRTTEpwVVg3WHBIbHBKWFEyOFRFX3dNNWhDY3l5TUExME1fbl9GLTNIM05pSWxrRFd5ek15XzRtV0x0TnloWmlzblQ2WmNVTWlvdlkzZmlkVG9uMjVQQUlLQmhnbjFBVkg4Mk9JRjZfakEyd3JVUDNfelAzeTVR?oc=5)
   - Pluang · 22:36 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 기사 제목은 Credo Technology가 강한 AI 수요를 근거로 투자의견이 ‘Buy’로 상향됐다는 내용을 제시한다. 그러나 본문에는 연준의 금리 인하 압박, 강한 고용시장과 목표치를 웃도는 인플레이션 등 거시경제 관련 내용이 대부분 담겨 있다.
-  - 판단: AI 수요에 따른 매수 의견 상향은 Credo Technology의 AI 관련 제품 및 성장 기대를 높이는 요인일 수 있다. 다만 본문에서 상향 근거와 회사 실적·전망이 충분히 설명되지 않아 영향은 제한적으로 판단된다.
-  - 유의: 제공된 본문이 잘려 있고 Credo Technology의 구체적인 투자의견 변경 내용, 수치, 실적 전망을 확인하기 어렵다.
+  - 요약: 미국 대통령이 강한 고용 보고서에도 불구하고 연준에 금리 인하를 압박하여 시장 혼란 위험이 제기된 가운데, 크레도 테크놀로지가 강한 AI 수요 등에 힘입어 투자의견이 매수로 상향되었다.
+  - 판단: 보유 종목인 크레도 테크놀로지에 대한 매수 의견 상향은 긍정적이나, 기사 본문의 상당 부분이 거시경제 이슈를 다루고 있어 직접적인 영향은 제한적이다.
+  - 유의: 기사 본문 내용이 거시경제 및 타 이슈 중심으로 요약되어 있어 크레도 테크놀로지 관련 구체적인 수치나 세부 정황을 파악하기 어렵다.
 
 </details>
 
@@ -289,9 +285,9 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 
 - **약한 호재** · [Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings](https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html)
   - Simply Wall St., Yahoo Finance · 04:05 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: Cisco Systems(CSCO)는 최근 5년간 주가가 116.9% 상승했지만, 현재 가치평가상 추정 내재가치 대비 저평가된 것으로 보인다는 분석이다. AI 인프라와 소버린 네트워크 투자는 향후 현금흐름 기대를 지지할 수 있지만, 마진 우려와 핵심 라우팅 제품에 대한 사이버보안 위협은 부담으로 제시됐다.
-  - 판단: 저평가된 현금흐름과 AI 인프라 투자는 Cisco 주가의 추가 상승 기대를 높일 수 있다. 반면 높은 과거 수익률과 마진·보안 리스크가 이미 반영된 기대를 제한할 수 있어 강한 호재로 보기는 어렵다.
-  - 유의: 기사 제목과 본문 일부만 제공되어 구체적인 내재가치 산정 방식이나 AI 사업의 재무 기여 규모는 확인되지 않는다.
+  - 요약: 시스코 시스템즈는 지난 5년간 116.9%의 수익률을 기록했으며, 현금 흐름 대비 저평가되어 있으나 이익 기준으로는 적정 수준인 것으로 나타났다. AI 인프라 투자와 주권 네트워크 관련 지속적인 투자가 미래 현금 흐름을 뒷받침할 수 있다.
+  - 판단: 강한 현금 흐름과 AI 인프라 관련 모멘텀이 주가에 긍정적으로 작용할 수 있으나, 마진 압박과 핵심 라우팅 제품의 사이버 보안 위협에 대한 우려도 공존한다.
+  - 유의: 이미 지난 5년간 주가가 크게 상승한 상태여서 호재가 주가에 상당 부분 선반영되었을 가능성이 있다.
 
 </details>
 
@@ -299,10 +295,10 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 <summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +4.35% $280.53 — 호재 1</summary>
 
 - **호재** · [VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5)
-  - Stocktwits · 06:29 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Vertiv Holdings(VRT)는 데이터센터 캠퍼스의 액체 냉각 솔루션을 전문으로 하는 텍사스 기업 Strategic Thermal Labs를 인수했다. 거래 금액은 공개되지 않았으며, 인수를 통해 고밀도 컴퓨팅 환경을 시뮬레이션하고 데이터센터 고객에게 필요한 솔루션을 제공할 수 있게 됐고, 발표 당시 VRT 주가는 약 2% 상승했다.
-  - 판단: AI와 고밀도 컴퓨팅 확산으로 데이터센터의 냉각 및 인프라 복잡성이 커지는 가운데, 액체 냉각 기술 확보는 Vertiv의 제품 경쟁력과 고객 대응력을 강화할 수 있다. 시장도 발표 당시 주가 상승으로 초기에는 긍정적으로 반응했다.
-  - 유의: 인수 가격과 Strategic Thermal Labs의 실적·기술 규모가 공개되지 않아 실제 재무 기여나 인수 시너지의 크기는 불확실하다.
+  - stocktwits.com · 06:29 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: AI 및 IT 인프라 관리 기업인 버티브 홀딩스는 텍사스 기반의 액체 냉각 솔루션 전문 기업인 Strategic Thermal Labs를 인수했다. 이번 인수를 통해 실제 고밀도 컴퓨팅 환경을 시뮬레이션하고 데이터 센터 고객의 인프라 복잡성 관리 전략을 강화할 수 있게 되었으며, 발표 당시 VRT 주가는 약 2% 상승했다.
+  - 판단: 데이터 센터 액체 냉각 역량을 직접적으로 확대함으로써 급증하는 AI 데이터 센터 수요에 대응할 수 있는 경쟁력이 강화되어 주가에 호재로 작용한다.
+  - 유의: 인수 금액 등 구체적인 재무적 조건은 공개되지 않았다.
 
 </details>
 

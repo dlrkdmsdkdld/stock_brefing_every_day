@@ -3,230 +3,299 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@300;400;500;600&display=swap">
 <style>
 :root{
-  --ground:#F1F3F5; --surface:#FFFFFF; --ink:#15181E; --muted:#5B616D;
-  --line:#DCE0E6; --rule:#0E5449; --chip:#E9ECF1; --chipink:#3D4250;
-  --up:#C4322A; --down:#1A56C0; --flat:#767C88; --shadow:0 1px 2px rgba(20,26,38,.06);
+  /* 눈이 편하도록 순백 대신 아주 옅게 눌러 둔 바탕. 본문은 순검정보다 살짝 밝게. */
+  --ground:#F2F4F6; --surface:#FFFFFF; --ink:#14171D; --muted:#545B67;
+  --line:#DFE3E8; --line-soft:#EAEDF1; --rule:#0D5A4C; --chip:#EAEDF2; --chipink:#3A414D;
+  --zebra:#F8F9FB;
+  --up:#BF322A; --down:#1B54BE; --flat:#6E7681;
+  --shadow:0 1px 2px rgba(20,26,38,.05);
+  /* 타입 스케일. 이 여덟 단계 밖의 크기는 쓰지 않는다. */
+  --t-micro:11px; --t-small:12px; --t-compact:13px; --t-base:14px;
+  --t-lead:15px; --t-h3:17px; --t-h2:20px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --ground:#0D1015; --surface:#151A21; --ink:#E7EAEF; --muted:#98A0AE;
-    --line:#242B35; --rule:#43AF95; --chip:#1C232C; --chipink:#AAB3C0;
-    --up:#EF6A5F; --down:#6FA2F6; --flat:#8B93A0; --shadow:none;
+    --ground:#10141A; --surface:#171C24; --ink:#E8EBF0; --muted:#A0A8B4;
+    --line:#262E38; --line-soft:#1E252E; --rule:#4CB89E; --chip:#1F262F; --chipink:#B0B8C4;
+    --zebra:#141A21;
+    --up:#F07268; --down:#7BA8F7; --flat:#8A929E;
+    --shadow:none;
   }
 }
 :root[data-theme="dark"]{
-  --ground:#0D1015; --surface:#151A21; --ink:#E7EAEF; --muted:#98A0AE;
-  --line:#242B35; --rule:#43AF95; --chip:#1C232C; --chipink:#AAB3C0;
-  --up:#EF6A5F; --down:#6FA2F6; --flat:#8B93A0; --shadow:none;
+  --ground:#10141A; --surface:#171C24; --ink:#E8EBF0; --muted:#A0A8B4;
+  --line:#262E38; --line-soft:#1E252E; --rule:#4CB89E; --chip:#1F262F; --chipink:#B0B8C4;
+  --zebra:#141A21;
+  --up:#F07268; --down:#7BA8F7; --flat:#8A929E;
+  --shadow:none;
 }
 *{box-sizing:border-box}
 body{margin:0; background:var(--ground); color:var(--ink);
   font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
-  line-height:1.65; -webkit-font-smoothing:antialiased}
-.page{max-width:1080px; margin:0 auto; padding:40px 24px 72px; display:flex; flex-direction:column; gap:40px}
-.masthead{display:flex; flex-direction:column; gap:10px; border-bottom:2px solid var(--rule); padding-bottom:20px}
-.eyebrow{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--rule); font-weight:600}
-h1{font-family:"Gowun Batang",serif; font-weight:700; font-size:clamp(28px,4.4vw,42px);
-   margin:0; letter-spacing:-.01em; text-wrap:balance}
-.dateline{display:flex; flex-wrap:wrap; gap:8px 20px; color:var(--muted); font-size:13px}
+  font-size:var(--t-base); line-height:1.7; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility}
+.page{max-width:1060px; margin:0 auto; padding:44px 24px 80px; display:flex;
+  flex-direction:column; gap:44px}
+
+.masthead{display:flex; flex-direction:column; gap:11px; border-bottom:2px solid var(--rule);
+  padding-bottom:20px}
+.eyebrow{font-size:var(--t-micro); letter-spacing:.18em; text-transform:uppercase;
+  color:var(--rule); font-weight:600}
+h1{font-family:"Gowun Batang",serif; font-weight:700; font-size:clamp(28px,4.4vw,40px);
+  margin:0; letter-spacing:-.01em; line-height:1.25; text-wrap:balance}
+.dateline{display:flex; flex-wrap:wrap; gap:6px 22px; color:var(--muted);
+  font-size:var(--t-compact)}
 .dateline b{color:var(--ink); font-weight:500}
-h2{font-family:"Gowun Batang",serif; font-size:20px; font-weight:700; margin:0 0 14px;
-   padding-bottom:8px; border-bottom:1px solid var(--line)}
+h2{font-family:"Gowun Batang",serif; font-size:var(--t-h2); font-weight:700; margin:0 0 16px;
+  padding-bottom:9px; border-bottom:1px solid var(--line); letter-spacing:-.005em}
 section{display:flex; flex-direction:column}
-.lede{font-size:15px; margin:0; max-width:62ch}
-.byline{font-size:12px; color:var(--muted); margin:0 0 16px; max-width:70ch}
-.tally{display:flex; flex-wrap:wrap; gap:26px; margin-top:16px; align-items:baseline}
-.tally div{display:flex; align-items:baseline; gap:8px}
-.tally span{font-size:12px; color:var(--muted); letter-spacing:.04em}
-.tally b{font-family:"IBM Plex Mono",monospace; font-size:26px; font-weight:500; font-variant-numeric:tabular-nums}
-.rows{display:flex; flex-direction:column; border-top:1px solid var(--line)}
-.row{display:grid; grid-template-columns:minmax(130px,1.4fr) 116px 84px minmax(90px,1fr) 78px 84px minmax(96px,auto);
-     gap:12px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
-.row.head{padding-bottom:7px; color:var(--muted); font-size:11px; letter-spacing:.1em; text-transform:uppercase}
-.name{font-weight:500; font-size:14.5px}
-.name small{display:block; font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--muted)}
-.num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; text-align:right; font-size:14px}
-.num small{display:block; font-size:10.5px; color:var(--muted); margin-top:1px}
-.pct{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; text-align:right;
-     font-size:14px; font-weight:500}
-.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
-.bar{position:relative; height:9px; background:linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat}
-.bar i{position:absolute; top:0; height:9px; border-radius:1px; display:block}
-.verdict{font-size:11.5px; color:var(--muted); text-align:right; line-height:1.4}
-.tech{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-size:12.5px; text-align:right}
-.tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:10px; color:var(--muted)}
-.band{font-size:11.5px; text-align:center; white-space:nowrap}
-.band.up,.band.down{font-weight:600}
-.tabs{display:flex; gap:4px; border-bottom:1px solid var(--line); margin-bottom:18px}
-.tabs button{font:inherit; font-size:13px; font-weight:500; color:var(--muted); background:none;
-  border:0; border-bottom:2px solid transparent; padding:8px 14px; cursor:pointer; margin-bottom:-1px}
+.lede{font-size:var(--t-lead); margin:0; max-width:64ch; line-height:1.72}
+.byline{font-size:var(--t-small); color:var(--muted); margin:0 0 18px; max-width:70ch;
+  line-height:1.65}
+.subhead{font-size:var(--t-micro); letter-spacing:.1em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 10px; font-weight:600}
+.empty{font-size:var(--t-compact); color:var(--muted)}
+
+.tally{display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:18px; align-items:baseline}
+.tally div{display:flex; align-items:baseline; gap:7px}
+.tally span{font-size:var(--t-small); color:var(--muted); letter-spacing:.03em}
+.tally b{font-family:"IBM Plex Mono",monospace; font-size:24px; font-weight:500;
+  font-variant-numeric:tabular-nums; line-height:1.1}
+
+.tabs{display:flex; gap:2px; border-bottom:1px solid var(--line); margin-bottom:20px}
+.tabs button{font:inherit; font-size:var(--t-compact); font-weight:500; color:var(--muted);
+  background:none; border:0; border-bottom:2px solid transparent; padding:9px 16px;
+  cursor:pointer; margin-bottom:-1px}
 .tabs button:hover{color:var(--ink)}
 .tabs button[aria-selected="true"]{color:var(--rule); border-bottom-color:var(--rule)}
 .tabs button:focus-visible{outline:2px solid var(--rule); outline-offset:-2px}
-.tabs .count{font-family:"IBM Plex Mono",monospace; font-size:11px; opacity:.7; margin-left:5px}
-.panel{display:flex; flex-direction:column; gap:26px}
+.tabs .count{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); opacity:.65;
+  margin-left:6px}
+.panel{display:flex; flex-direction:column; gap:30px}
 .panel[hidden]{display:none}
-.subhead{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
-  margin:0 0 8px; font-weight:600}
-.watch-row{display:grid; grid-template-columns:minmax(140px,1.5fr) 88px 100px 88px 80px 74px 82px;
-  gap:12px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
-.watch-row.head{padding-bottom:7px; color:var(--muted); font-size:11px; letter-spacing:.1em; text-transform:uppercase}
-.controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px}
-.controls button{font:inherit; font-size:12px; color:var(--ink); background:var(--surface);
-  border:1px solid var(--line); border-radius:3px; padding:5px 12px; cursor:pointer}
-.controls button:hover{border-color:var(--rule); color:var(--rule)}
-.controls button:focus-visible{outline:2px solid var(--rule); outline-offset:2px}
-.holding{border-bottom:1px solid var(--line)}
+
+/* 표: 줄마다 선을 긋는 대신 옅은 줄무늬로 훑기 쉽게 한다. 65행을 눈으로 따라가야 해서다. */
+.rows{display:flex; flex-direction:column}
+.row,.watch-row{align-items:center; padding:10px 10px; border-radius:3px}
+.row{display:grid; gap:12px;
+  grid-template-columns:minmax(130px,1.4fr) 116px 84px minmax(84px,1fr) 74px 82px minmax(92px,auto)}
+.watch-row{display:grid; gap:12px;
+  grid-template-columns:minmax(140px,1.5fr) 86px 98px 86px 78px 72px 80px}
+.rows > div:nth-child(even){background:var(--zebra)}
+.row:hover,.watch-row:hover{background:var(--chip)}
+.row.head,.watch-row.head{background:none; color:var(--muted); font-size:var(--t-micro);
+  letter-spacing:.09em; text-transform:uppercase; padding:6px 10px 8px;
+  border-bottom:1px solid var(--line); border-radius:0; position:sticky; top:0;
+  background:var(--ground); z-index:1}
+.row.head:hover,.watch-row.head:hover{background:var(--ground)}
+
+.name{font-weight:500; font-size:var(--t-base); line-height:1.35}
+.name small{display:block; font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro);
+  color:var(--muted); font-weight:400; margin-top:1px}
+.num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  text-align:right; font-size:var(--t-compact)}
+.num small{display:block; font-size:var(--t-micro); color:var(--muted); margin-top:2px;
+  font-weight:400}
+.pct{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  text-align:right; font-size:var(--t-compact); font-weight:500}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+.bar{position:relative; height:8px;
+  background:linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat}
+.bar i{position:absolute; top:0; height:8px; border-radius:1px; display:block}
+.tech{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:var(--t-compact); text-align:right}
+.tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:var(--t-micro);
+  color:var(--muted); margin-top:1px}
+.band{font-size:var(--t-small); text-align:center; white-space:nowrap}
+.band.up,.band.down{font-weight:600}
+.verdict{font-size:var(--t-micro); color:var(--muted); text-align:right; line-height:1.45}
+
+/* 종목별 뉴스 */
+.holding{border-bottom:1px solid var(--line-soft)}
 .holding:last-child{border-bottom:0}
-.holding-head{display:flex; flex-wrap:wrap; align-items:center; gap:10px; padding:14px 4px;
-  cursor:pointer; list-style:none; user-select:none}
+.holding-head{display:flex; flex-wrap:wrap; align-items:center; gap:10px; padding:15px 6px;
+  cursor:pointer; list-style:none; user-select:none; border-radius:3px}
 .holding-head::-webkit-details-marker{display:none}
-.holding-head::before{content:"▸"; color:var(--muted); font-size:11px; width:12px; flex:none;
+.holding-head::before{content:"▸"; color:var(--muted); font-size:10px; width:12px; flex:none;
   transition:transform .15s ease}
 .holding[open] > .holding-head::before{transform:rotate(90deg)}
-.holding-head:hover{background:var(--chip)}
+.holding-head:hover{background:var(--zebra)}
 .holding-head:focus-visible{outline:2px solid var(--rule); outline-offset:-2px}
-.holding-head h3{font-family:"Gowun Batang",serif; font-size:17px; font-weight:700; margin:0}
-.holding-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
-.holding-head .quote{font-family:"IBM Plex Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums}
-.holding-head .quote.muted{color:var(--muted); font-size:12px}
-.holding-head .quote.muted b.up{color:var(--up)} .holding-head .quote.muted b.down{color:var(--down)}
+.holding-head h3{font-family:"Gowun Batang",serif; font-size:var(--t-h3); font-weight:700; margin:0}
+.holding-head .code{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted)}
+.holding-head .quote{font-family:"IBM Plex Mono",monospace; font-size:var(--t-compact);
+  font-variant-numeric:tabular-nums}
+.holding-head .quote.muted{color:var(--muted); font-size:var(--t-small)}
+.holding-head .quote.muted b.up{color:var(--up)}
+.holding-head .quote.muted b.down{color:var(--down)}
 .holding-head .spacer{flex:1 1 auto}
 .tallies{display:flex; gap:5px; flex-wrap:wrap}
-.tallies .stance{font-size:10px; padding:2px 7px; letter-spacing:.02em}
-.stories{display:flex; flex-direction:column; gap:16px; padding:4px 4px 22px 16px}
-.empty{font-size:13px; color:var(--muted)}
-.story{display:flex; flex-direction:column; gap:6px}
-.story + .story{padding-top:16px; border-top:1px dashed var(--line)}
-.story a{color:var(--ink); text-decoration:none; font-size:15.5px; font-weight:500;
-         border-bottom:1px solid var(--line); align-self:flex-start; text-wrap:balance}
+.tallies .stance{font-size:var(--t-micro); padding:2px 8px; letter-spacing:.02em}
+.stories{display:flex; flex-direction:column; gap:20px; padding:4px 6px 26px 20px}
+.story{display:flex; flex-direction:column; gap:8px}
+.story + .story{padding-top:20px; border-top:1px dashed var(--line)}
+.story a{color:var(--ink); text-decoration:none; font-size:var(--t-lead); font-weight:500;
+  line-height:1.5; border-bottom:1px solid var(--line); align-self:flex-start;
+  text-wrap:balance; padding-bottom:1px}
 .story a:hover{border-bottom-color:var(--rule); color:var(--rule)}
 .story a:focus-visible{outline:2px solid var(--rule); outline-offset:3px}
-.meta{display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:12px; color:var(--muted)}
-.chip{background:var(--chip); color:var(--chipink); border-radius:3px; padding:2px 7px; font-size:11px; white-space:nowrap}
-.chip.confirmed{color:var(--rule); border:1px solid var(--rule); background:transparent; font-weight:500}
-.stance{font-size:11px; font-weight:600; letter-spacing:.06em; padding:3px 9px; border-radius:2px; white-space:nowrap}
+.meta{display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:var(--t-small);
+  color:var(--muted)}
+.chip{background:var(--chip); color:var(--chipink); border-radius:3px; padding:3px 8px;
+  font-size:var(--t-micro); white-space:nowrap}
+.chip.confirmed{color:var(--rule); border:1px solid var(--rule); background:transparent;
+  font-weight:500}
+.stance{font-size:var(--t-micro); font-weight:600; letter-spacing:.05em; padding:3px 10px;
+  border-radius:2px; white-space:nowrap}
 .stance.good{background:var(--up); color:#fff}
 .stance.bad{background:var(--down); color:#fff}
 .stance.neutral{background:var(--chip); color:var(--chipink)}
 .time{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums}
-.take{display:flex; flex-direction:column; gap:5px; padding-left:12px;
-      border-left:2px solid var(--line); font-size:13.5px; max-width:76ch; line-height:1.6}
-.take b{font-weight:600; font-size:11px; letter-spacing:.08em; color:var(--muted); margin-right:6px}
+/* 읽는 글은 폭을 좁히고 줄간격을 넓혔다. 표보다 눈이 오래 머무는 곳이라서다. */
+.take{display:flex; flex-direction:column; gap:7px; padding-left:14px;
+  border-left:2px solid var(--line); font-size:var(--t-base); max-width:66ch; line-height:1.75}
+.take b{font-weight:600; font-size:var(--t-micro); letter-spacing:.08em; color:var(--muted);
+  margin-right:7px}
 .take .care{color:var(--muted)}
-.notes{background:var(--surface); border:1px solid var(--line); border-radius:4px; padding:20px 22px; box-shadow:var(--shadow)}
-.notes h2{border:0; padding:0; margin:0 0 10px; font-size:16px}
-.notes ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px;
-          font-size:13px; color:var(--muted); max-width:72ch}
-.notes li b{color:var(--ink); font-weight:500}
-.warn{border-left:3px solid var(--up); padding-left:12px; margin-top:14px; font-size:13px}
-.alert{border:1px solid var(--line); border-left:3px solid var(--down); border-radius:3px;
-  background:var(--surface); padding:16px 18px; display:flex; flex-direction:column; gap:12px}
-.alert + .alert{margin-top:14px}
-.alert-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
-.alert-head h3{font-family:"Gowun Batang",serif; font-size:17px; font-weight:700; margin:0}
-.alert-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
-.alert-head .quote{font-family:"IBM Plex Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums}
-.metrics{display:flex; flex-wrap:wrap; gap:8px; font-family:"IBM Plex Mono",monospace;
-  font-size:11.5px; font-variant-numeric:tabular-nums; color:var(--muted)}
-.metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
-.upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
-.picks{display:flex; flex-direction:column; gap:14px}
-.board{display:flex; flex-wrap:wrap; gap:8px 22px; align-items:baseline; margin-bottom:10px}
+
+/* 추천 */
+.picks{display:flex; flex-direction:column; gap:16px}
+.pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
+  padding:20px 22px; display:flex; flex-direction:column; gap:12px; box-shadow:var(--shadow)}
+.pick.others-only{border-color:var(--line); padding:16px 20px}
+.pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px}
+.pick-head h3{font-family:"Gowun Batang",serif; font-size:19px; margin:0}
+.pick-head .code{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted); font-variant-numeric:tabular-nums}
+.pick-head .line{font-size:var(--t-base); color:var(--rule); font-weight:500}
+.pick .body{display:flex; flex-direction:column; gap:8px; font-size:var(--t-base);
+  line-height:1.75; max-width:70ch}
+.pick .body b{font-size:var(--t-micro); letter-spacing:.08em; color:var(--muted);
+  margin-right:7px}
+.pick .others{display:flex; flex-direction:column; gap:5px; font-size:var(--t-small);
+  color:var(--muted); line-height:1.6}
+.pick .others code{font-family:"IBM Plex Mono",monospace; color:var(--ink)}
+.board{display:flex; flex-wrap:wrap; gap:10px 26px; align-items:baseline; margin-bottom:12px}
 .board div{display:flex; align-items:baseline; gap:6px}
-.board span{font-size:11px; color:var(--muted); letter-spacing:.04em}
-.board b{font-family:"IBM Plex Mono",monospace; font-size:18px; font-weight:500;
+.board span{font-size:var(--t-micro); color:var(--muted); letter-spacing:.04em}
+.board b{font-family:"IBM Plex Mono",monospace; font-size:19px; font-weight:500;
   font-variant-numeric:tabular-nums}
-.track{display:flex; flex-direction:column; gap:0; border-top:1px solid var(--line)}
-.track div{display:grid; grid-template-columns:88px 78px minmax(0,1fr) auto;
-  gap:10px; align-items:baseline; padding:8px 2px; border-bottom:1px solid var(--line);
-  font-size:12.5px}
-.track .when{font-family:"IBM Plex Mono",monospace; color:var(--muted); font-size:11.5px}
-.track .kind{font-size:11px; color:var(--muted)}
+.track{display:flex; flex-direction:column; border-top:1px solid var(--line)}
+.track div{display:grid; grid-template-columns:86px 76px minmax(0,1fr) auto; gap:12px;
+  align-items:baseline; padding:9px 2px; border-bottom:1px solid var(--line-soft);
+  font-size:var(--t-compact)}
+.track .when{font-family:"IBM Plex Mono",monospace; color:var(--muted);
+  font-size:var(--t-small)}
+.track .kind{font-size:var(--t-small); color:var(--muted)}
 .track .ret{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
   font-weight:500; text-align:right}
-.pick{border:1px solid var(--rule); border-radius:4px; background:var(--surface);
-  padding:18px 20px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow)}
-.pick-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
-.pick-head h3{font-family:"Gowun Batang",serif; font-size:19px; margin:0}
-.pick-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
-.pick-head .line{font-size:14px; color:var(--rule); font-weight:500}
-.pick .body{display:flex; flex-direction:column; gap:6px; font-size:13.5px;
-  line-height:1.65; max-width:76ch}
-.pick .body b{font-size:11px; letter-spacing:.08em; color:var(--muted); margin-right:6px}
-.pick.others-only{border-color:var(--line); padding:13px 18px}
-.pick .others{display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--muted);
-  border-top:1px dashed var(--line); padding-top:9px}
-.pick .others code{font-family:"IBM Plex Mono",monospace; color:var(--ink)}
-.spot{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+
+/* 오늘의 주목 */
+.spot{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px}
 .spot section{border:1px solid var(--line); border-radius:4px; background:var(--surface);
-  padding:13px 15px; gap:7px; box-shadow:var(--shadow)}
-.spot h3{margin:0; font-size:12px; letter-spacing:.05em; color:var(--muted); font-weight:600}
-.spot ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:5px}
-.spot li{display:flex; justify-content:space-between; gap:10px; font-size:13px; align-items:baseline}
+  padding:15px 17px; gap:9px; box-shadow:var(--shadow)}
+.spot h3{margin:0; font-size:var(--t-micro); letter-spacing:.07em; color:var(--muted);
+  font-weight:600; text-transform:uppercase}
+.spot ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:7px}
+.spot li{display:flex; justify-content:space-between; gap:12px; font-size:var(--t-compact);
+  align-items:baseline}
 .spot li b{font-weight:500}
-.spot .who{font-size:10px; color:var(--muted); margin-left:4px}
+.spot .who{font-size:var(--t-micro); color:var(--muted); margin-left:5px; font-weight:400}
 .spot .val{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
-  font-size:12.5px; white-space:nowrap}
+  font-size:var(--t-small); white-space:nowrap}
+
+/* 오늘의 특이점 */
+.alert{border:1px solid var(--line); border-left:3px solid var(--down); border-radius:3px;
+  background:var(--surface); padding:18px 20px; display:flex; flex-direction:column; gap:13px}
+.alert + .alert{margin-top:16px}
+.alert-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px}
+.alert-head h3{font-family:"Gowun Batang",serif; font-size:var(--t-h3); font-weight:700; margin:0}
+.alert-head .code{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted)}
+.alert-head .quote{font-family:"IBM Plex Mono",monospace; font-size:var(--t-compact);
+  font-variant-numeric:tabular-nums}
+.metrics{display:flex; flex-wrap:wrap; gap:8px; font-family:"IBM Plex Mono",monospace;
+  font-size:var(--t-micro); font-variant-numeric:tabular-nums; color:var(--muted)}
+.metrics span{background:var(--chip); border-radius:3px; padding:3px 9px}
+.upper-note{font-size:var(--t-compact); color:var(--muted); margin:0 0 16px; max-width:72ch;
+  line-height:1.65}
 .upper-note b{color:var(--up)}
+
+.controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:10px}
+.controls button{font:inherit; font-size:var(--t-small); color:var(--ink);
+  background:var(--surface); border:1px solid var(--line); border-radius:3px;
+  padding:6px 13px; cursor:pointer}
+.controls button:hover{border-color:var(--rule); color:var(--rule)}
+.controls button:focus-visible{outline:2px solid var(--rule); outline-offset:2px}
+
+.notes{background:var(--surface); border:1px solid var(--line); border-radius:4px;
+  padding:20px 22px; box-shadow:var(--shadow)}
+.notes h2{border:0; padding:0; margin:0 0 12px; font-size:var(--t-h3)}
+.notes ul{margin:0; padding-left:20px; display:flex; flex-direction:column; gap:8px;
+  font-size:var(--t-compact); color:var(--muted); max-width:70ch; line-height:1.7}
+.notes li b{color:var(--ink); font-weight:500}
+.warn{border-left:3px solid var(--up); padding-left:14px; margin-top:16px;
+  font-size:var(--t-compact); line-height:1.7}
+
 @media (max-width:720px){
   /* 좁은 화면에서는 표를 카드처럼 쌓는다. 열 7개를 가로로 욱여넣으면 읽을 수가 없다. */
-  .page{padding:24px 16px 56px; gap:30px}
+  .page{padding:26px 16px 60px; gap:32px}
   .masthead{gap:8px; padding-bottom:16px}
-  .dateline{gap:4px 14px; font-size:12px}
-  .tally{gap:14px 20px}
-  .tally b{font-size:22px}
+  .dateline{gap:3px 16px}
+  .tally{gap:12px 22px}
+  .tally b{font-size:21px}
   h2{font-size:18px}
-  .tabs button{padding:8px 10px; font-size:12.5px}
+  .tabs button{padding:9px 11px}
 
   .row.head,.watch-row.head{display:none}
-  .row,.watch-row{
-    display:grid; grid-template-columns:minmax(0,1fr) auto;
-    gap:2px 12px; padding:13px 2px; align-items:baseline;
-  }
-  .name{font-size:15px}
-  .name small{font-size:11px}
+  .row,.watch-row{display:grid; grid-template-columns:minmax(0,1fr) auto;
+    gap:2px 12px; padding:14px 6px; align-items:baseline}
+  .rows > div:nth-child(even){background:var(--zebra)}
+  .name{font-size:var(--t-lead)}
 
-  /* 보유 표: 이름 | 종가 / 등락률, 그 아래 막대와 지표. 자리를 명시해 배치가 흔들리지 않게 한다. */
   .row > :nth-child(1){grid-column:1; grid-row:1 / span 2}
   .row > :nth-child(2){grid-column:2; grid-row:1; text-align:right}
-  .row > :nth-child(3){grid-column:2; grid-row:2; text-align:right; font-size:15px}
-  .row > :nth-child(4){grid-column:1 / -1; grid-row:3; margin:6px 0 4px}
+  .row > :nth-child(3){grid-column:2; grid-row:2; text-align:right; font-size:var(--t-lead)}
+  .row > :nth-child(4){grid-column:1 / -1; grid-row:3; margin:7px 0 4px}
   .row > :nth-child(5){grid-column:1; grid-row:4; text-align:left}
   .row > :nth-child(6){grid-column:2; grid-row:4; text-align:right}
-  .row > :nth-child(7){grid-column:1 / -1; grid-row:5; text-align:left; font-size:11px}
+  .row > :nth-child(7){grid-column:1 / -1; grid-row:5; text-align:left}
 
-  /* 관심 표: 이름 | 종가 / 시총 | 변동·등락률 / RSI | 볼린저 */
   .watch-row > :nth-child(1){grid-column:1; grid-row:1}
   .watch-row > :nth-child(2){grid-column:1; grid-row:2; text-align:left;
-    font-size:12px; color:var(--muted)}
+    font-size:var(--t-small); color:var(--muted)}
   .watch-row > :nth-child(3){grid-column:2; grid-row:1; text-align:right}
-  .watch-row > :nth-child(4){grid-column:2; grid-row:2; text-align:right; font-size:12px}
-  .watch-row > :nth-child(5){grid-column:2; grid-row:3; text-align:right; font-size:15px}
+  .watch-row > :nth-child(4){grid-column:2; grid-row:2; text-align:right;
+    font-size:var(--t-small)}
+  .watch-row > :nth-child(5){grid-column:2; grid-row:3; text-align:right;
+    font-size:var(--t-lead)}
   .watch-row > :nth-child(6){grid-column:1; grid-row:3; text-align:left}
-  .watch-row > :nth-child(7){grid-column:1 / -1; grid-row:4; text-align:left; font-size:12px}
+  .watch-row > :nth-child(7){grid-column:1 / -1; grid-row:4; text-align:left}
 
-  .tech{font-size:12.5px}
   .tech::before{content:"RSI "; font-family:"IBM Plex Sans KR",sans-serif; color:var(--muted)}
-  .tech small{display:inline; margin-left:4px}
-  .band{font-size:12px}
-  .verdict{margin-top:2px}
+  .tech small{display:inline; margin-left:5px}
+  .band{text-align:left}
+  .verdict{margin-top:3px}
 
-  .holding-head{padding:13px 2px; gap:6px 8px}
+  .holding-head{padding:14px 4px; gap:6px 8px}
   .holding-head h3{font-size:16px}
   .holding-head .spacer{display:none}
-  .tallies{width:100%; margin-top:2px}
-  .stories{padding:2px 0 18px 10px; gap:14px}
-  .story a{font-size:15px}
-  .take{font-size:13px; padding-left:10px; max-width:none}
-  .alert{padding:14px 14px}
-  .notes{padding:16px 16px}
+  .tallies{width:100%; margin-top:3px}
+  .stories{padding:2px 0 20px 12px; gap:18px}
+  .take{padding-left:12px; max-width:none}
+  .pick{padding:16px 16px}
+  .pick .body,.pick-head{max-width:none}
+  .alert{padding:15px 15px}
+  .notes{padding:17px 17px}
   .notes ul{max-width:none}
+  .track div{grid-template-columns:1fr auto; gap:2px 10px}
+  .track .when{grid-column:1}
+  .track .kind{grid-column:1; grid-row:2}
+  .track .ret{grid-column:2; grid-row:1 / span 2}
 }
 @media (max-width:400px){
-  .row,.watch-row{grid-template-columns:minmax(0,1fr) auto}
-  .name{font-size:14px}
-  .row .pct,.watch-row .pct{font-size:14px}
+  .name{font-size:var(--t-base)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important; animation:none!important}}
 </style>
@@ -236,7 +305,7 @@ section{display:flex; flex-direction:column}
     <div class="eyebrow">Daily Portfolio Brief</div>
     <h1>보유 18종목 브리핑</h1>
     <div class="dateline">
-      <span>작성 <b>2026-09-06 23:21 KST</b></span>
+      <span>작성 <b>2026-09-06 23:31 KST</b></span>
       <span>종가 기준일 <b>2026-09-04</b></span>
       <span>뉴스 <b>2026-09-06 발행분 13건</b></span>
       <span>환율 <b class="down">₩1,351.10</b> <span class="down">-0.32%</span></span>
@@ -268,27 +337,27 @@ section{display:flex; flex-direction:column}
     <div class="panel" id="panel-own" role="tabpanel" aria-labelledby="tab-own">
       <div><p class="subhead">국내</p><div class="rows">
 <div class="row head"><span>종목</span><span class="num">KRX 종가</span><span class="pct">전일 대비</span><span class="bar"></span><span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span><span class="verdict">검증</span></div>
-<div class="row"><span class="name">삼성전자<small>005930</small></span><span class="num">₩255,500<small>NXT ₩257,000 +2.80%</small></span><span class="pct up">▲ +2.20%</span><span class="bar"><i style="left:50%;width:9.2%;background:var(--up)"></i></span><span class="tech flat">48.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
-<div class="row"><span class="name">SK하이닉스<small>000660</small></span><span class="num">₩1,647,000<small>NXT ₩1,662,000 +4.14%</small></span><span class="pct up">▲ +3.20%</span><span class="bar"><i style="left:50%;width:13.4%;background:var(--up)"></i></span><span class="tech flat">48.3<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
-<div class="row"><span class="name">HD현대중공업<small>329180</small></span><span class="num">₩436,500<small>NXT ₩436,000 +0.23%</small></span><span class="pct up">▲ +0.34%</span><span class="bar"><i style="left:50%;width:1.4%;background:var(--up)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX 기준 · Yahoo/네이버 일치/일치</span></div>
+<div class="row"><span class="name">삼성전자<small>005930</small></span><span class="num">₩255,500<small>NXT ₩257,000 +2.80%</small></span><span class="pct up">▲ +2.20%</span><span class="bar"><i style="left:50%;width:9.2%;background:var(--up)"></i></span><span class="tech flat">48.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX·3사 일치</span></div>
+<div class="row"><span class="name">SK하이닉스<small>000660</small></span><span class="num">₩1,647,000<small>NXT ₩1,662,000 +4.14%</small></span><span class="pct up">▲ +3.20%</span><span class="bar"><i style="left:50%;width:13.4%;background:var(--up)"></i></span><span class="tech flat">48.3<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX·3사 일치</span></div>
+<div class="row"><span class="name">HD현대중공업<small>329180</small></span><span class="num">₩436,500<small>NXT ₩436,000 +0.23%</small></span><span class="pct up">▲ +0.34%</span><span class="bar"><i style="left:50%;width:1.4%;background:var(--up)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">KRX·3사 일치</span></div>
 </div></div>
       <div><p class="subhead">해외 · 종가 아래는 원화 환산</p><div class="rows">
 <div class="row head"><span>종목</span><span class="num">종가</span><span class="pct">전일 대비</span><span class="bar"></span><span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span><span class="verdict">검증</span></div>
-<div class="row"><span class="name">알파벳 A<small>GOOGL</small></span><span class="num">$338.46</span><span class="pct down">▼ -1.17%</span><span class="bar"><i style="right:50%;width:4.9%;background:var(--down)"></i></span><span class="tech flat">44.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">마이크로소프트<small>MSFT</small></span><span class="num">$499.70</span><span class="pct down">▼ -2.04%</span><span class="bar"><i style="right:50%;width:8.6%;background:var(--down)"></i></span><span class="tech flat">59.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">시스코 시스템즈<small>CSCO</small></span><span class="num">$109.20</span><span class="pct up">▲ +0.54%</span><span class="bar"><i style="left:50%;width:2.3%;background:var(--up)"></i></span><span class="tech flat">41.0<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">델<small>DELL</small></span><span class="num">$524.14</span><span class="pct up">▲ +1.50%</span><span class="bar"><i style="left:50%;width:6.3%;background:var(--up)"></i></span><span class="tech flat">63.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">노보노디스크 ADR<small>NVO</small></span><span class="num">$46.60</span><span class="pct down">▼ -1.92%</span><span class="bar"><i style="right:50%;width:8.1%;background:var(--down)"></i></span><span class="tech flat">49.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">록히드마틴<small>LMT</small></span><span class="num">$525.28</span><span class="pct down">▼ -1.44%</span><span class="bar"><i style="right:50%;width:6.1%;background:var(--down)"></i></span><span class="tech flat">33.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">버티브 홀딩스<small>VRT</small></span><span class="num">$280.53</span><span class="pct up">▲ +4.35%</span><span class="bar"><i style="left:50%;width:18.3%;background:var(--up)"></i></span><span class="tech flat">54.9<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">컨스텔레이션 에너지<small>CEG</small></span><span class="num">$298.96</span><span class="pct up">▲ +4.88%</span><span class="bar"><i style="left:50%;width:20.5%;background:var(--up)"></i></span><span class="tech flat">66.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">나이키 B<small>NKE</small></span><span class="num">$38.40</span><span class="pct down">▼ -0.95%</span><span class="bar"><i style="right:50%;width:4.0%;background:var(--down)"></i></span><span class="tech flat">40.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">비스트라 에너지<small>VST</small></span><span class="num">$149.30</span><span class="pct up">▲ +3.52%</span><span class="bar"><i style="left:50%;width:14.8%;background:var(--up)"></i></span><span class="tech flat">57.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">크레도 테크놀로지<small>CRDO</small></span><span class="num">$170.57</span><span class="pct up">▲ +3.90%</span><span class="bar"><i style="left:50%;width:16.4%;background:var(--up)"></i></span><span class="tech flat">34.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">퍼스트솔라<small>FSLR</small></span><span class="num">$204.45</span><span class="pct down">▼ -1.43%</span><span class="bar"><i style="right:50%;width:6.0%;background:var(--down)"></i></span><span class="tech flat">41.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">컨스텔레이션 브랜즈<small>STZ</small></span><span class="num">$128.18</span><span class="pct down">▼ -0.70%</span><span class="bar"><i style="right:50%;width:2.9%;background:var(--down)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">알먼티<small>ALM</small></span><span class="num">$17.57</span><span class="pct down">▼ -1.51%</span><span class="bar"><i style="right:50%;width:6.3%;background:var(--down)"></i></span><span class="tech flat">56.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
-<div class="row"><span class="name">이오스 에너지<small>EOSE</small></span><span class="num">$3.88</span><span class="pct up">▲ +10.86%</span><span class="bar"><i style="left:50%;width:45.6%;background:var(--up)"></i></span><span class="tech flat">52.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo 단일 출처</span></div>
+<div class="row"><span class="name">알파벳 A<small>GOOGL</small></span><span class="num">$338.46</span><span class="pct down">▼ -1.17%</span><span class="bar"><i style="right:50%;width:4.9%;background:var(--down)"></i></span><span class="tech flat">44.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">마이크로소프트<small>MSFT</small></span><span class="num">$499.70</span><span class="pct down">▼ -2.04%</span><span class="bar"><i style="right:50%;width:8.6%;background:var(--down)"></i></span><span class="tech flat">59.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">시스코 시스템즈<small>CSCO</small></span><span class="num">$109.20</span><span class="pct up">▲ +0.54%</span><span class="bar"><i style="left:50%;width:2.3%;background:var(--up)"></i></span><span class="tech flat">41.0<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">델<small>DELL</small></span><span class="num">$524.14</span><span class="pct up">▲ +1.50%</span><span class="bar"><i style="left:50%;width:6.3%;background:var(--up)"></i></span><span class="tech flat">63.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">노보노디스크 ADR<small>NVO</small></span><span class="num">$46.60</span><span class="pct down">▼ -1.92%</span><span class="bar"><i style="right:50%;width:8.1%;background:var(--down)"></i></span><span class="tech flat">49.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">록히드마틴<small>LMT</small></span><span class="num">$525.28</span><span class="pct down">▼ -1.44%</span><span class="bar"><i style="right:50%;width:6.1%;background:var(--down)"></i></span><span class="tech flat">33.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">버티브 홀딩스<small>VRT</small></span><span class="num">$280.53</span><span class="pct up">▲ +4.35%</span><span class="bar"><i style="left:50%;width:18.3%;background:var(--up)"></i></span><span class="tech flat">54.9<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">컨스텔레이션 에너지<small>CEG</small></span><span class="num">$298.96</span><span class="pct up">▲ +4.88%</span><span class="bar"><i style="left:50%;width:20.5%;background:var(--up)"></i></span><span class="tech flat">66.7<small>중립</small></span><span class="band up">상단 이탈</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">나이키 B<small>NKE</small></span><span class="num">$38.40</span><span class="pct down">▼ -0.95%</span><span class="bar"><i style="right:50%;width:4.0%;background:var(--down)"></i></span><span class="tech flat">40.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">비스트라 에너지<small>VST</small></span><span class="num">$149.30</span><span class="pct up">▲ +3.52%</span><span class="bar"><i style="left:50%;width:14.8%;background:var(--up)"></i></span><span class="tech flat">57.5<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">크레도 테크놀로지<small>CRDO</small></span><span class="num">$170.57</span><span class="pct up">▲ +3.90%</span><span class="bar"><i style="left:50%;width:16.4%;background:var(--up)"></i></span><span class="tech flat">34.2<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">퍼스트솔라<small>FSLR</small></span><span class="num">$204.45</span><span class="pct down">▼ -1.43%</span><span class="bar"><i style="right:50%;width:6.0%;background:var(--down)"></i></span><span class="tech flat">41.4<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">컨스텔레이션 브랜즈<small>STZ</small></span><span class="num">$128.18</span><span class="pct down">▼ -0.70%</span><span class="bar"><i style="right:50%;width:2.9%;background:var(--down)"></i></span><span class="tech flat">38.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">알먼티<small>ALM</small></span><span class="num">$17.57</span><span class="pct down">▼ -1.51%</span><span class="bar"><i style="right:50%;width:6.3%;background:var(--down)"></i></span><span class="tech flat">56.8<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
+<div class="row"><span class="name">이오스 에너지<small>EOSE</small></span><span class="num">$3.88</span><span class="pct up">▲ +10.86%</span><span class="bar"><i style="left:50%;width:45.6%;background:var(--up)"></i></span><span class="tech flat">52.1<small>중립</small></span><span class="band flat">밴드 내</span><span class="verdict">Yahoo</span></div>
 </div></div>
     </div>
     <div class="panel" id="panel-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
@@ -308,7 +377,7 @@ section{display:flex; flex-direction:column}
 <div class="watch-row"><span class="name">AMD<small>AMD</small></span><span class="num">$779.62B</span><span class="num">$477.57</span><span class="num up">+$21.41</span><span class="pct up">▲ +4.69%</span><span class="tech flat">49.7<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">비자<small>V</small></span><span class="num">$700.27B</span><span class="num">$375.07</span><span class="num down">-$3.68</span><span class="pct down">▼ -0.97%</span><span class="tech flat">55.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">엑슨모빌<small>XOM</small></span><span class="num">$655.73B</span><span class="num">$159.47</span><span class="num down">-$2.74</span><span class="pct down">▼ -1.69%</span><span class="tech flat">51.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
-<div class="watch-row"><span class="name">인텔<small>INTC</small></span><span class="num">$503.38B</span><span class="num">$95.80</span><span class="num up">+$4.13</span><span class="pct up">▲ +4.51%</span><span class="tech flat">51.7<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">인텔<small>INTC</small></span><span class="num">$506.41B</span><span class="num">$95.80</span><span class="num up">+$4.13</span><span class="pct up">▲ +4.51%</span><span class="tech flat">51.7<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">오라클<small>ORCL</small></span><span class="num">$457.36B</span><span class="num">$158.78</span><span class="num up">+$4.74</span><span class="pct up">▲ +3.08%</span><span class="tech flat">61.0<small>중립</small></span><span class="band up">상단 이탈</span></div>
 <div class="watch-row"><span class="name">팔란티어<small>PLTR</small></span><span class="num">$418.93B</span><span class="num">$174.33</span><span class="num down">-$8.20</span><span class="pct down">▼ -4.49%</span><span class="tech flat">54.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">셰브론<small>CVX</small></span><span class="num">$409.19B</span><span class="num">$208.60</span><span class="num down">-$2.72</span><span class="pct down">▼ -1.29%</span><span class="tech flat">64.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
@@ -323,7 +392,7 @@ section{display:flex; flex-direction:column}
 <div class="watch-row"><span class="name">크라우드스트라이크<small>CRWD</small></span><span class="num">$218.20B</span><span class="num">$213.10</span><span class="num down">-$1.87</span><span class="pct down">▼ -0.87%</span><span class="tech flat">53.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">마벨 테크놀로지<small>MRVL</small></span><span class="num">$200.91B</span><span class="num">$223.55</span><span class="num up">+$14.72</span><span class="pct up">▲ +7.05%</span><span class="tech flat">51.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">맥도날드<small>MCD</small></span><span class="num">$180.94B</span><span class="num">$255.69</span><span class="num down">-$3.94</span><span class="pct down">▼ -1.52%</span><span class="tech flat">34.3<small>중립</small></span><span class="band down">하단 이탈</span></div>
-<div class="watch-row"><span class="name">넥스트에라 에너지<small>NEE</small></span><span class="num">$174.03B</span><span class="num">$83.43</span><span class="num down">-$0.63</span><span class="pct down">▼ -0.75%</span><span class="tech flat">41.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">넥스트에라 에너지<small>NEE</small></span><span class="num">$174.00B</span><span class="num">$83.43</span><span class="num down">-$0.63</span><span class="pct down">▼ -0.75%</span><span class="tech flat">41.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">로빈후드<small>HOOD</small></span><span class="num">$109.79B</span><span class="num">$122.11</span><span class="num down">-$2.61</span><span class="pct down">▼ -2.09%</span><span class="tech flat">66.0<small>중립</small></span><span class="band up">상단 이탈</span></div>
 <div class="watch-row"><span class="name">앱러빈<small>APP</small></span><span class="num">$107.69B</span><span class="num">$320.56</span><span class="num up">+$6.98</span><span class="pct up">▲ +2.23%</span><span class="tech flat">41.7<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">발레로 에너지<small>VLO</small></span><span class="num">$106.74B</span><span class="num">$370.72</span><span class="num up">+$0.03</span><span class="pct up">▲ +0.01%</span><span class="tech up">75.2<small>과매수</small></span><span class="band flat">밴드 내</span></div>
@@ -339,7 +408,7 @@ section{display:flex; flex-direction:column}
 <div class="watch-row"><span class="name">코어위브<small>CRWV</small></span><span class="num">$49.29B</span><span class="num">$89.36</span><span class="num up">+$4.80</span><span class="pct up">▲ +5.68%</span><span class="tech flat">52.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">코인베이스<small>COIN</small></span><span class="num">$48.71B</span><span class="num">$184.64</span><span class="num down">-$8.06</span><span class="pct down">▼ -4.18%</span><span class="tech flat">56.4<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">나테라<small>NTRA</small></span><span class="num">$47.31B</span><span class="num">$328.18</span><span class="num up">+$0.51</span><span class="pct up">▲ +0.16%</span><span class="tech flat">62.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
-<div class="watch-row"><span class="name">로켓랩<small>RKLB</small></span><span class="num">$41.08B</span><span class="num">$64.26</span><span class="num up">+$0.45</span><span class="pct up">▲ +0.71%</span><span class="tech flat">37.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">로켓랩<small>RKLB</small></span><span class="num">$41.09B</span><span class="num">$64.26</span><span class="num up">+$0.45</span><span class="pct up">▲ +0.71%</span><span class="tech flat">37.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">에리스 매니지먼트<small>ARES</small></span><span class="num">$31.61B</span><span class="num">$140.15</span><span class="num down">-$1.37</span><span class="pct down">▼ -0.97%</span><span class="tech flat">53.1<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">서클 인터넷 그룹<small>CRCL</small></span><span class="num">$25.91B</span><span class="num">$102.05</span><span class="num down">-$1.18</span><span class="pct down">▼ -1.14%</span><span class="tech flat">67.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">자일럼<small>XYL</small></span><span class="num">$24.68B</span><span class="num">$105.69</span><span class="num down">-$2.20</span><span class="pct down">▼ -2.04%</span><span class="tech down">29.9<small>과매도</small></span><span class="band flat">밴드 내</span></div>
@@ -351,7 +420,7 @@ section{display:flex; flex-direction:column}
 <div class="watch-row"><span class="name">어플라이드 옵토일렉트로닉스<small>AAOI</small></span><span class="num">$8.96B</span><span class="num">$105.53</span><span class="num up">+$5.15</span><span class="pct up">▲ +5.13%</span><span class="tech flat">43.6<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">블루아울 캐피털<small>OWL</small></span><span class="num">$8.04B</span><span class="num">$11.75</span><span class="num down">-$0.09</span><span class="pct down">▼ -0.76%</span><span class="tech flat">55.0<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">조비 에비에이션<small>JOBY</small></span><span class="num">$6.67B</span><span class="num">$6.74</span><span class="num down">-$0.13</span><span class="pct down">▼ -1.89%</span><span class="tech flat">36.4<small>중립</small></span><span class="band flat">밴드 내</span></div>
-<div class="watch-row"><span class="name">엔페이즈 에너지<small>ENPH</small></span><span class="num">$4.81B</span><span class="num">$36.37</span><span class="num up">+$0.06</span><span class="pct up">▲ +0.17%</span><span class="tech flat">41.8<small>중립</small></span><span class="band flat">밴드 내</span></div>
+<div class="watch-row"><span class="name">엔페이즈 에너지<small>ENPH</small></span><span class="num">$4.79B</span><span class="num">$36.37</span><span class="num up">+$0.06</span><span class="pct up">▲ +0.17%</span><span class="tech flat">41.8<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">온다스 홀딩스<small>ONDS</small></span><span class="num">$4.35B</span><span class="num">$7.62</span><span class="num down">-$0.01</span><span class="pct down">▼ -0.13%</span><span class="tech flat">43.4<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">USA 레어어스<small>USAR</small></span><span class="num">$4.31B</span><span class="num">$17.61</span><span class="num down">-$0.08</span><span class="pct down">▼ -0.45%</span><span class="tech flat">47.5<small>중립</small></span><span class="band flat">밴드 내</span></div>
 <div class="watch-row"><span class="name">앱셀레라 바이오로직스<small>ABCL</small></span><span class="num">$3.70B</span><span class="num">$11.43</span><span class="num down">-$0.14</span><span class="pct down">▼ -1.21%</span><span class="tech flat">61.2<small>중립</small></span><span class="band flat">밴드 내</span></div>
@@ -363,7 +432,7 @@ section{display:flex; flex-direction:column}
     </div>
   </section>
 
-  <section><h2>오늘의 추천 종목</h2><p class="byline">투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 거래량·등락·뉴스 화제성·52주 위치·RSI·볼린저로 추린 상위 2개 중에서 골랐습니다.</p><div class="picks"><div class="pick"><div class="pick-head"><span class="chip">내 목록에서</span><h3>컨스텔레이션 에너지</h3><span class="code">CEG</span><span class="code up">$298.96 +4.88%</span><span class="line">920MW 계약으로 강한 상승 주목</span></div><div class="body"><span><b>왜</b>종가는 298.96달러로 4.88% 올랐고, 거래량도 1.2배 증가했다. 2분기 실적과 함께 920MW 규모의 장기 전력구매계약을 추가 발표했으며, 원전 수요 속에서 전력을 직접 판매하는 사업 구조가 기사에서 호재로 제시됐다.</span><span><b>유의</b>RSI 66.7에 볼린저 상단을 이탈해 단기 과열 및 되돌림 가능성이 있다. 장기 전력구매계약의 실제 수익성이나 실적 영향은 주어진 정보만으로 확인하기 어렵다.</span></div></div><div class="pick"><div class="pick-head"><span class="chip confirmed">새로 볼 종목</span><h3>Fair Isaac Corporation</h3><span class="code">FICO</span><span class="code down">$932.26 -16.68%</span><span class="line">급락과 과매도 신호를 함께 점검</span></div><div class="body"><span><b>왜</b>FICO는 종가 932.26달러로 16.68% 급락했고 거래량은 4.4배로 크게 늘었다. RSI 30.2와 볼린저 하단 이탈, 52주 위치 6%가 겹쳐 변동성과 반등 여부를 오늘 살펴볼 지점을 제공한다.</span><span><b>유의</b>새 종목으로 뉴스 요약이 없어 급락 원인과 기업 펀더멘털을 확인하지 못한 판단이다. 과매도 지표만으로 반등이나 추가 하락을 단정할 수 없다.</span></div></div><div class="pick others-only"><div class="others"><div><code>MCD</code> 52주 저점 부근과 RSI 34.3이 눈에 띄지만, 약한 호재 속 주가가 고점 대비 24% 하락했다.</div><div><code>DELL</code> 공정가치 추정치가 502.78~564.46달러로 상향됐지만, RSI 63.7과 볼린저 상단 이탈을 함께 봐야 한다.</div><div><code>CBRS</code> 거래량 2.0배와 10.30% 상승이 나타났지만 오늘 뉴스가 없어 상승 배경 확인이 어렵다.</div><div><code>BE</code> 7.35% 상승했으나 볼린저 상단 이탈 상태이고 뉴스가 없어 근거가 제한적이다.</div><div><code>BLTE</code> 13.16% 상승과 거래량 3.4배가 강하지만 RSI 72.5와 상단 이탈로 단기 과열을 점검할 필요가 있다.</div><div><code>LULU</code> 17.38% 급락, RSI 31.8, 52주 위치 2%로 관심 지점이지만 하락 원인은 확인되지 않았다.</div><div><code>TARS</code> 9.10% 상승으로 52주 위치 98%에 근접했지만 RSI 84.3과 상단 이탈이 부담이다.</div><div><code>ASAN</code> 12.69% 하락했으나 RSI 45.2와 볼린저 밴드 내 অবস্থ로 과매도 신호는 상대적으로 약하다.</div></div></div></div></section>
+  <section><h2>오늘의 추천 종목</h2><p class="byline">투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 거래량·등락·뉴스 화제성·52주 위치·RSI·볼린저로 추린 상위 2개 중에서 골랐습니다.</p><div class="picks"><div class="pick"><div class="pick-head"><span class="chip">내 목록에서</span><h3>맥도날드</h3><span class="code">MCD</span><span class="code down">$255.69 -1.52%</span><span class="line">52주 저점 부근에서 배당 매력을 점검할 시점</span></div><div class="body"><span><b>왜</b>맥도날드는 52주 위치 0%로 저점에 위치해 있으며 볼린저 하단 이탈 상태에서 RSI 34.3을 기록하고 있다. 뉴스에 따르면 1976년 이후 매년 배당금을 인상해 왔고 선행 배당수익률 2.9%를 기록하며, 2월 고점 대비 24% 하락해 장기 투자 매력도가 언급되었다.</span><span><b>유의</b>볼린저 하단 이탈과 52주 저점 근접은 추가 하락 추세가 지속될 위험을 의미하므로 변동성 확대에 주의해야 한다.</span></div></div><div class="pick"><div class="pick-head"><span class="chip confirmed">새로 볼 종목</span><h3>lululemon athletica inc.</h3><span class="code">LULU</span><span class="code down">$100.61 -17.38%</span><span class="line">거래량이 몰리며 52주 저점 근처로 급락한 룰루레몬</span></div><div class="body"><span><b>왜</b>룰루레몬은 거래량이 4.0배 급증하며 주가가 17.38% 하락했고 52주 저점 대비 +2.7% 수준인 100.61 USD를 기록했다. RSI 31.8과 볼린저 하단 이탈을 동반하며 단기 낙폭이 크게 나타났다.</span><span><b>유의</b>새 종목이라 뉴스가 없어 구체적인 악재나 하락 배경을 파악하기 어렵고, 낙폭 과대에도 불구하고 추가 하락 위험이 존재한다.</span></div></div><div class="pick others-only"><div class="others"><div><code>DELL</code> AI 서버 전략과 적정 가치 상향 소식에 볼린저 상단 이탈을 기록했다.</div><div><code>CBRS</code> 거래량 2.0배와 함께 10.30% 상승했으나 별다른 뉴스는 없다.</div><div><code>CEG</code> 2분기 실적과 920메가와트 전력 구매 계약 호재로 볼린저 상단에 위치했다.</div><div><code>BE</code> 거래량 증가와 함께 7.35% 상승하며 볼린저 상단을 이탈했다.</div><div><code>BLTE</code> 거래량 3.4배와 13.16% 상승을 보이며 볼린저 상단을 이탈했다.</div><div><code>FICO</code> 거래량이 4.4배 급증하며 16.68% 하락하고 볼린저 하단을 이탈했다.</div><div><code>TARS</code> RSI 84.3과 52주 고점 인근에서 9.10% 상승했다.</div><div><code>ASAN</code> 12.69% 하락했으나 볼린저 밴드 내에 머물렀다.</div></div></div></div></section>
 
   <section><h2>오늘의 주목</h2>
     <p class="byline">가격 데이터만으로 뽑았습니다. 모델을 쓰지 않으므로 추가 비용이 없습니다.</p>
@@ -372,7 +441,7 @@ section{display:flex; flex-direction:column}
 <section><h3>하락 상위</h3><ul><li><b>테슬라<span class="who">관심 · $1.40T</span></b><span class="val down">-5.92%</span></li><li><b>넷플릭스<span class="who">관심 · $325.83B</span></b><span class="val down">-5.35%</span></li><li><b>팔란티어<span class="who">관심 · $418.93B</span></b><span class="val down">-4.49%</span></li><li><b>휴렛팩커드 엔터프라이즈<span class="who">관심 · $69.03B</span></b><span class="val down">-4.48%</span></li><li><b>코인베이스<span class="who">관심 · $48.71B</span></b><span class="val down">-4.18%</span></li></ul></section>
 <section><h3>거래량 급증 · 10일 평균 대비</h3><ul><li><b>세레브라스 시스템즈<span class="who">관심 · $49.90B</span></b><span class="val up">2.0배 +10.30%</span></li><li><b>USA 레어어스<span class="who">관심 · $4.31B</span></b><span class="val down">1.8배 -0.45%</span></li><li><b>테슬라<span class="who">관심 · $1.40T</span></b><span class="val down">1.5배 -5.92%</span></li><li><b>넷플릭스<span class="who">관심 · $325.83B</span></b><span class="val down">1.5배 -5.35%</span></li></ul></section>
 <section><h3>52주 신고가 근접</h3><ul><li><b>발레로 에너지<span class="who">관심 · $106.74B</span></b><span class="val up">-1.2%</span></li><li><b>델<span class="who">보유 · $338.67B</span></b><span class="val up">-2.0%</span></li><li><b>JP모건 체이스<span class="who">관심 · $953.33B</span></b><span class="val up">-2.1%</span></li><li><b>엔비디아<span class="who">관심 · $5.56T</span></b><span class="val up">-2.6%</span></li><li><b>비자<span class="who">관심 · $700.27B</span></b><span class="val up">-2.7%</span></li></ul></section>
-<section><h3>52주 신저가 근접</h3><ul><li><b>맥도날드<span class="who">관심 · $180.94B</span></b><span class="val down">+0.1%</span></li><li><b>자일럼<span class="who">관심 · $24.68B</span></b><span class="val down">+0.4%</span></li><li><b>나이키 B<span class="who">보유 · $56.97B</span></b><span class="val down">+1.2%</span></li><li><b>컨스텔레이션 브랜즈<span class="who">보유 · $21.89B</span></b><span class="val down">+1.4%</span></li><li><b>조비 에비에이션<span class="who">관심 · $6.67B</span></b><span class="val down">+2.0%</span></li></ul></section>
+<section><h3>52주 신저가 근접</h3><ul><li><b>맥도날드<span class="who">관심 · $180.94B</span></b><span class="val down">+0.1%</span></li><li><b>자일럼<span class="who">관심 · $24.68B</span></b><span class="val down">+0.4%</span></li><li><b>나이키 B<span class="who">보유 · $56.87B</span></b><span class="val down">+1.2%</span></li><li><b>컨스텔레이션 브랜즈<span class="who">보유 · $21.89B</span></b><span class="val down">+1.4%</span></li><li><b>조비 에비에이션<span class="who">관심 · $6.67B</span></b><span class="val down">+2.0%</span></li></ul></section>
 <section><h3>RSI 과매수 70↑</h3><ul><li><b>발레로 에너지<span class="who">관심 · $106.74B</span></b><span class="val up">75.2</span></li></ul></section>
 <section><h3>RSI 과매도 30↓</h3><ul><li><b>자일럼<span class="who">관심 · $24.68B</span></b><span class="val down">29.9</span></li></ul></section>
 </div>
@@ -381,7 +450,7 @@ section{display:flex; flex-direction:column}
   <section><h2>오늘의 특이점</h2>
     <p class="byline">볼린저밴드(20, 2σ)를 벗어난 종목입니다. 하단을 이탈하면 관심 종목이라도 관련 뉴스를 찾아 함께 싣습니다.</p>
     <p class="upper-note"><b>상단 이탈 5종목</b> — 컨스텔레이션 에너지(CEG %B 1.23), 블룸 에너지(BE %B 1.12), 오라클(ORCL %B 1.04), 델(DELL %B 1.03), 로빈후드(HOOD %B 1.02)</p>
-<div class="alert"><div class="alert-head"><span class="chip">관심</span><h3>맥도날드</h3><span class="code">MCD</span><span class="quote down">$255.69 · ▼ -1.52%</span></div><div class="metrics"><span>%B -0.019</span><span>RSI 34.3 중립</span><span>하단 밴드 256.11</span><span>중심선 267.11</span></div><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html" target="_blank" rel="noopener">McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.</a><div class="meta"><span class="stance good">약한 호재</span><span>Motley Fool, Yahoo Finance</span><span class="time">17:15 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>McDonald's는 1976년 이후 매년 배당을 인상했으며, 기사에서 제시한 선행 배당수익률은 2.9%다. 주가는 2026년 2월 고점 대비 24% 하락한 상태로 소개됐고, 장기 현금흐름과 가격 매력이 매수 이유로 제시됐다.</span><span><b>판단</b>장기간 이어진 배당 인상 기록은 맥도날드 보유자의 안정적인 현금흐름 기대를 높이며, 고점 대비 24% 하락은 밸류에이션 부담을 일부 낮출 수 있다. 다만 이는 회사의 새로운 실적 개선이나 사업 발표보다 장기 투자 의견에 가까워 영향은 제한적이다.</span><span class="care"><b>유의</b>기사의 ‘매수 후 계속 보유’ 의견은 작성자의 투자 판단이며, 본문에 매출·이익 성장률이나 배당 지속 가능성을 뒷받침하는 최신 실적 수치는 제시되지 않았다.</span></div></article></div></div>
+<div class="alert"><div class="alert-head"><span class="chip">관심</span><h3>맥도날드</h3><span class="code">MCD</span><span class="quote down">$255.69 · ▼ -1.52%</span></div><div class="metrics"><span>%B -0.019</span><span>RSI 34.3 중립</span><span>하단 밴드 256.11</span><span>중심선 267.11</span></div><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html" target="_blank" rel="noopener">McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.</a><div class="meta"><span class="stance good">호재</span><span>Motley Fool, Yahoo Finance</span><span class="time">17:15 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>맥도날드는 1976년 이후 매년 배당금을 인상해 온 기업으로, 현재 선행 배당수익률 2.9%를 기록하고 있다. 2월 고점 대비 24% 하락한 상태여서 장기 포트폴리오를 위한 매력적인 매수 기회로 평가받고 있다.</span><span><b>판단</b>안정적인 현금 흐름과 꾸준한 배당 성장 이력을 갖춘 가운데 주가가 고점 대비 조정을 받아 매력적인 진입 구간을 제공하므로 투자자에게 호재다.</span><span class="care"><b>유의</b>기사 내에 엔비디아 등 타 종목 관련 광고성 문구가 함께 포함되어 있다.</span></div></article></div></div>
   </section>
 
   <section><h2>종목별 오늘의 뉴스</h2>
@@ -391,19 +460,19 @@ section{display:flex; flex-direction:column}
       <button type="button" data-all="close">모두 접기</button>
       <button type="button" data-all="notable">호재·악재만 펼치기</button>
     </div>
-    <details class="holding" data-key="000660"><summary class="holding-head"><h3>SK하이닉스</h3><span class="code">000660</span><span class="quote up">₩1,647,000 · ▲ +3.20%</span><span class="quote muted">RSI 48</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://n.news.naver.com/mnews/article/008/0005410022" target="_blank" rel="noopener">HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지</a><div class="meta"><span class="stance good">호재</span><span>머니투데이</span><span class="time">17:00 KST</span><span class="chip confirmed">교차확인 · 네이버 금융+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>올해 2분기 글로벌 낸드 시장 매출은 전분기보다 70% 증가했고 낸드 가격도 55% 상승했다. AI 추론 확산으로 eSSD 수요가 늘면서 삼성전자와 SK하이닉스의 낸드 매출 점유율이 50%에 육박하고 양사의 실적 기여도도 확대될 전망이다.</span><span><b>판단</b>낸드 가격 상승과 기업용 SSD 수요 증가는 SK하이닉스의 낸드 매출 및 수익성 개선으로 이어질 수 있다. AI 서버용 저장장치 수요가 HBM에 이어 새로운 성장 동력으로 작용할 가능성이 있다.</span><span class="care"><b>유의</b>본문에 SK하이닉스의 구체적인 2분기 낸드 점유율과 실적 수치는 제시되지 않았다.</span></div></article></div></details>
-<details class="holding" data-key="005930"><summary class="holding-head"><h3>삼성전자</h3><span class="code">005930</span><span class="quote up">₩255,500 · ▲ +2.20%</span><span class="quote muted">RSI 49</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://n.news.naver.com/mnews/article/243/0000102686" target="_blank" rel="noopener">하이닉스 독주 흔드나…삼성전자, HBM 점유율 격차 '37%p→17%p'</a><div class="meta"><span class="stance good">호재</span><span>이코노미스트</span><span class="time">13:25 KST</span><span class="chip confirmed">교차확인 · 구글 뉴스 RSS+네이버 금융</span></div><div class="take"><span><b>요약</b>올해 2분기 글로벌 HBM 시장에서 삼성전자는 매출 기준 점유율 33%를 기록해 1분기 21%보다 12%포인트 상승했다. SK하이닉스와의 점유율 격차도 1분기 37%포인트에서 2분기 17%포인트로 줄었으며, 삼성전자는 2월 HBM4를 업계 최초로 양산 출하했다.</span><span><b>판단</b>HBM 점유율 상승은 삼성전자의 AI 메모리 매출 확대와 주요 고객사 공급 증가로 이어질 수 있다. HBM3E보다 성능과 가격이 높은 HBM4 출하 확대가 수익성 개선에도 기여할 가능성이 있다.</span><span class="care"><b>유의</b>삼성전자가 SK하이닉스의 점유율을 빠르게 따라가고 있지만, 2분기 기준 점유율은 여전히 SK하이닉스 50%보다 낮다.</span></div></article></div></details>
-<details class="holding" data-key="329180"><summary class="holding-head"><h3>HD현대중공업</h3><span class="code">329180</span><span class="quote up">₩436,500 · ▲ +0.34%</span><span class="quote muted">RSI 39</span><span class="spacer"></span><span class="tallies"><span class="stance neutral">중립 1</span></span></summary><div class="stories"><article class="story"><a href="https://n.news.naver.com/mnews/article/138/0002240346" target="_blank" rel="noopener">中 조선업 수주 공세에…K-조선 '해외 생산' 승부수</a><div class="meta"><span class="stance neutral">중립</span><span>디지털데일리</span><span class="time">08:00 KST</span><span class="chip confirmed">교차확인 · 네이버 금융+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>중국 조선업은 지난 8월 전 세계 선박 수주량 420만CGT 중 85%인 359만CGT를 확보한 반면, 한국은 31만CGT로 7%에 그쳤다. 이에 국내 조선업계는 고부가가치 선박은 국내에서 생산하고 범용 선박은 해외 조선소에서 건조해 원가 경쟁력과 생산능력을 높이는 전략을 추진하고 있다.</span><span><b>판단</b>해외 생산 확대가 성공하면 HD현대중공업을 포함한 국내 조선업체의 가격 경쟁력과 수주 대응력이 개선될 수 있다. 다만 중국과의 수주 격차가 큰 상황은 업계 전반의 경쟁 부담으로 작용한다.</span><span class="care"><b>유의</b>본문은 K-조선 업계 전반의 전략을 다루며 HD현대중공업의 구체적인 수주나 해외 생산 계획은 직접 언급하지 않는다.</span></div></article></div></details>
-<details class="holding" data-key="DELL"><summary class="holding-head"><h3>델</h3><span class="code">DELL</span><span class="quote up">$524.14 · ▲ +1.50%</span><span class="quote muted">RSI 64 · <b class="up">상단 이탈</b></span><span class="spacer"></span><span class="tallies"><span class="stance good">약한 호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html" target="_blank" rel="noopener">Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus</a><div class="meta"><span class="stance good">약한 호재</span><span>Simply Wall St., Yahoo Finance</span><span class="time">05:11 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>Dell Technologies의 공정가치 추정치가 약 502.78달러에서 564.46달러로 상향됐다. 상향 배경으로 회사의 가이던스와 부품 공급, 메모리 비용, 마진, AI 서버 수요 및 거시·지정학적 변수가 거론됐다.</span><span><b>판단</b>공정가치 추정치 상향은 AI 서버 수요와 Dell의 실적 전망에 대한 평가 개선으로 주가에 긍정적일 수 있다. 특히 AI 서버 사업 확대가 매출과 마진 개선으로 연결될 가능성이 반영된 것으로 보인다.</span><span class="care"><b>유의</b>본문은 공정가치 상향의 구체적인 실적 전망이나 분석 방법을 충분히 제시하지 않으며, 메모리 비용·공급·거시환경 등 하방 변수도 함께 언급한다.</span></div></article></div></details>
-<details class="holding" data-key="STZ"><summary class="holding-head"><h3>컨스텔레이션 브랜즈</h3><span class="code">STZ</span><span class="quote down">$128.18 · ▼ -0.70%</span><span class="quote muted">RSI 39</span><span class="spacer"></span><span class="tallies"><span class="stance neutral">중립 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html" target="_blank" rel="noopener">Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?</a><div class="meta"><span class="stance neutral">중립</span><span>The Motley Fool, Motley Fool</span><span class="time">18:34 KST</span><span class="chip confirmed">교차확인 · 구글 뉴스 RSS+Yahoo Finance</span></div><div class="take"><span><b>요약</b>컨스텔레이션 브랜즈 주가는 고점 대비 53% 하락해 약 128달러, 52주 최저가는 126.45달러 수준이며 약한 소비지출이 매출을 압박했다. 반면 주가가 선행 주가수익비율 약 11배로 낮아졌고 Modelo, Corona, Pacifico, Victoria 등 인기 수입 맥주에 대한 미국 독점 유통권을 보유해 매수 기회로 볼 수 있다는 평가도 제시됐다.</span><span><b>판단</b>소비자 지출 둔화는 맥주와 와인 판매 및 컨스텔레이션 브랜즈의 매출 성장에 부담이다. 그러나 낮아진 밸류에이션과 주요 브랜드의 유통권은 주가 하락을 제한하거나 회복을 뒷받침할 수 있다.</span><span class="care"><b>유의</b>기사 본문이 일부만 제공되어 실적 전망과 구체적인 매출 추세를 확인하기 어렵고, 낮은 밸류에이션이 실제 성장 둔화를 충분히 반영했는지도 불확실하다.</span></div></article></div></details>
-<details class="holding" data-key="FSLR"><summary class="holding-head"><h3>퍼스트솔라</h3><span class="code">FSLR</span><span class="quote down">$204.45 · ▼ -1.43%</span><span class="quote muted">RSI 41</span><span class="spacer"></span><span class="tallies"><span class="stance good">약한 호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxNT1BfUHZBemFVeWUtdm5xUXRLUE16M3FqM0VZcjBMTlpwbXJOUjFYbzlwcE5Ha01BN21PRG9wUnBzZVJLdDYyWExaSjU1dURRVXcxbklyaUdoVmZtQk1qVlZZSE1GUzU4NFRZc0dsN1NXLUp0cHFVNHpHVUZNcGhMV3NFXy1RTjlDMVJrd00ySnBIM0FxSUl6a1J2OFJ3clhPWklfTm5iZEwyNEtfSDljZm9rYUs5Y01WM3NBSzhjLUtOTHVzRWg0?oc=5" target="_blank" rel="noopener">First Solar stock eases after strong earnings beat and policy worries</a><div class="meta"><span class="stance good">약한 호재</span><span>AD HOC NEWS</span><span class="time">02:08 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>퍼스트솔라는 최근 고점 아래인 약 204달러에 거래되고 있지만, 최근 분기 주당순이익은 3.92달러로 컨센서스 2.90달러를 크게 웃돌았다. 해당 분기 매출은 10억6000만달러였으며, 강한 실적에도 정책 및 관세 우려가 주가와 투자심리를 압박하고 있다.</span><span><b>판단</b>예상치를 웃돈 EPS와 10억6000만달러의 매출은 유틸리티 규모 태양광 사업의 수익성과 수요에 긍정적이다. 다만 미국 정책 및 관세 변화는 비용, 수요, 프로젝트 수익성에 부담을 줄 수 있어 호재가 일부 상쇄된다.</span><span class="care"><b>유의</b>본문에는 매출 컨센서스, 정책의 구체적인 내용, 향후 가이던스가 제시되지 않아 실적 호조의 지속성을 판단하기 어렵다.</span></div></article></div></details>
-<details class="holding" data-key="CEG"><summary class="holding-head"><h3>컨스텔레이션 에너지</h3><span class="code">CEG</span><span class="quote up">$298.96 · ▲ +4.88%</span><span class="quote muted">RSI 67 · <b class="up">상단 이탈</b></span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/3-nuclear-stocks-buy-2-204301311.html" target="_blank" rel="noopener">3 Nuclear Stocks to Buy With $2,000 After One Fell 83%</a><div class="meta"><span class="stance good">호재</span><span>Motley Fool, The Motley Fool</span><span class="time">05:43 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>컨스텔레이션 에너지는 2분기 실적과 함께 920MW 규모의 장기 전력구매계약을 추가로 발표했다. 기사는 원전 관련 수요가 유지되고 있으며, 컨스텔레이션 에너지는 원자로를 설계하는 기업이나 연료를 판매하는 기업과 달리 전력을 직접 판매하는 회사라고 설명한다.</span><span><b>판단</b>920MW의 장기 전력구매계약은 컨스텔레이션 에너지의 전력 판매 물량과 장기 매출 가시성을 높일 수 있다. 원전 및 저탄소 전력 수요가 유지되면 발전자산의 활용도와 현금흐름에도 긍정적이다.</span><span class="care"><b>유의</b>본문에는 계약의 기간, 가격, 수익 기여 규모와 컨스텔레이션 에너지의 2분기 구체적인 실적 수치가 제시되지 않았다.</span></div></article></div></details>
-<details class="holding" data-key="VST"><summary class="holding-head"><h3>비스트라 에너지</h3><span class="code">VST</span><span class="quote up">$149.30 · ▲ +3.52%</span><span class="quote muted">RSI 58</span><span class="spacer"></span><span class="tallies"><span class="stance neutral">중립 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUVWV0gza2g0REFGbEhwaXpRdGhCbDE5M1JIS20zZ3N1dy1yVVUwZDhXcDhpLWJqRVNqTXYyWlV4UnVzNHMxNjlyZndrcVF3bXpRWWIwdkFqUXRKdTItNWZxcmpINzhNZ09NcWFoZWN6NkUtaFBkQm1qSEwzODU0bXB1ajFiNlF5U0h2cy13TWhsVEV6Z2Faemd4bnNjQk90?oc=5" target="_blank" rel="noopener">Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure</a><div class="meta"><span class="stance neutral">중립</span><span>Blockonomi</span><span class="time">22:07 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>Peter Thiel이 관리하는 Thiel Macro LLC는 2026년 2분기 말 비스트라 주식 372,755주를 보유했다고 13F에서 공개했으며, 당시 평가액은 약 5910만달러였다. 비스트라 주가는 금요일 3.5% 상승해 149.27달러를 기록했지만, 2분기 EPS는 0.76달러로 컨센서스 1.61달러를 밑돌았고 매출도 40억2000만달러로 예상치 54억6000만달러에 못 미쳤다.</span><span><b>판단</b>유명 투자자의 지분 공개와 주가 상승은 투자심리 개선에 긍정적일 수 있고, 애널리스트 평균 목표가 223.53달러도 상승 여지를 시사한다. 그러나 2분기 실적이 시장 예상치를 크게 밑돈 점은 향후 주가와 기업가치에 부정적인 요인이다.</span><span class="care"><b>유의</b>13F 지분 공개는 과거 2분기 말 기준 보유 내역이며 현재도 해당 지분을 유지하는지는 확인되지 않는다. 기사에 제시된 목표주가는 애널리스트 전망일 뿐이며 실적 부진과 상충한다.</span></div></article></div></details>
-<details class="holding" data-key="EOSE"><summary class="holding-head"><h3>이오스 에너지</h3><span class="code">EOSE</span><span class="quote up">$3.88 · ▲ +10.86%</span><span class="quote muted">RSI 52</span><span class="spacer"></span><span class="tallies"><span class="stance bad">악재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5" target="_blank" rel="noopener">Bronstein, Gewirtz &amp; Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation</a><div class="meta"><span class="stance bad">악재</span><span>ACCESS Newswire</span><span class="time">06:29 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>Bronstein, Gewirtz &amp; Grossman, LLC가 Eos Energy Enterprises(나스닥: EOSE)의 증권 관련 잠재적 청구를 조사하고 있다고 2026년 9월 3일 밝혔다. 2025년 11월 5일 이전에 Eos Energy 증권을 매수하고 현재까지 보유한 투자자들에게 조사 참여와 추가 정보 제공을 요청했다.</span><span><b>판단</b>회사의 임원·이사 등이 기업 위법행위에 관여했는지 조사하는 내용으로, 실제 문제가 확인될 경우 법적 비용과 평판 훼손, 주가 하락으로 이어질 수 있다.</span><span class="care"><b>유의</b>기사에는 구체적인 위법행위나 소송 제기, 손해 규모가 확인되지 않았으며 현재는 로펌의 조사 참여 권유 단계다.</span></div></article></div></details>
+    <details class="holding" data-key="000660"><summary class="holding-head"><h3>SK하이닉스</h3><span class="code">000660</span><span class="quote up">₩1,647,000 · ▲ +3.20%</span><span class="quote muted">RSI 48</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://n.news.naver.com/mnews/article/008/0005410022" target="_blank" rel="noopener">HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지</a><div class="meta"><span class="stance good">호재</span><span>머니투데이</span><span class="time">17:00 KST</span><span class="chip confirmed">교차확인 · 네이버 금융+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>카운터포인트리서치에 따르면 2분기 글로벌 낸드 시장 매출이 전분기 대비 70% 증가했고 가격도 55% 뛰었다. AI 추론 확산으로 eSSD 수요가 폭증하면서 삼성전자와 SK하이닉스의 글로벌 낸드 매출 점유율이 50%에 육박했다.</span><span><b>판단</b>SK하이닉스는 HBM에 이어 낸드 및 eSSD 부문에서도 AI 특수에 따른 가파른 실적 성장과 수익성 개선 기대감이 커진다.</span></div></article></div></details>
+<details class="holding" data-key="005930"><summary class="holding-head"><h3>삼성전자</h3><span class="code">005930</span><span class="quote up">₩255,500 · ▲ +2.20%</span><span class="quote muted">RSI 49</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://n.news.naver.com/mnews/article/243/0000102686" target="_blank" rel="noopener">하이닉스 독주 흔드나…삼성전자, HBM 점유율 격차 '37%p→17%p'</a><div class="meta"><span class="stance good">호재</span><span>이코노미스트</span><span class="time">13:25 KST</span><span class="chip confirmed">교차확인 · 구글 뉴스 RSS+네이버 금융</span></div><div class="take"><span><b>요약</b>카운터포인트리서치에 따르면 2분기 글로벌 HBM 시장에서 SK하이닉스가 점유율 50%로 1위를 기록했고, 삼성전자가 33%로 2위에 올랐다. 양사의 점유율 격차는 1분기 37%포인트에서 2분기 17%포인트로 좁혀졌으며 하반기 HBM4 양산 출하가 본격화된다.</span><span><b>판단</b>삼성전자가 HBM 시장에서 점유율을 크게 확대하며 선두를 거세게 추격하고 있어 향후 공급 확대와 실적 기여도 증가로 이어질 수 있다.</span></div></article></div></details>
+<details class="holding" data-key="329180"><summary class="holding-head"><h3>HD현대중공업</h3><span class="code">329180</span><span class="quote up">₩436,500 · ▲ +0.34%</span><span class="quote muted">RSI 39</span><span class="spacer"></span><span class="tallies"><span class="stance neutral">중립 1</span></span></summary><div class="stories"><article class="story"><a href="https://n.news.naver.com/mnews/article/138/0002240346" target="_blank" rel="noopener">中 조선업 수주 공세에…K-조선 '해외 생산' 승부수</a><div class="meta"><span class="stance neutral">중립</span><span>디지털데일리, ddaily.co.kr</span><span class="time">08:00 KST</span><span class="chip confirmed">교차확인 · 네이버 금융+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>한국 조선업계가 중국의 저가 수주 공세와 압도적인 수주량 격차에 대응하기 위해 동남아 등 해외 조선소 활용을 추진하고 있다. 8월 전 세계 수주량 중 중국이 85%를 차지한 반면 한국은 7%에 그쳤다.</span><span><b>판단</b>해외 생산 거점 활용은 원가 경쟁력을 높일 수 있는 전략이나, 보유 종목인 HD현대중공업에 대한 직접적인 개별 수주 소식이나 실적 변동은 본문에 구체적으로 명시되지 않았다.</span><span class="care"><b>유의</b>기사는 한국 조선업 전반의 전략을 다루고 있으며 HD현대중공업 개별 기업의 실적이나 수주에 미치는 영향은 추정에 불과하다.</span></div></article></div></details>
+<details class="holding" data-key="DELL"><summary class="holding-head"><h3>델</h3><span class="code">DELL</span><span class="quote up">$524.14 · ▲ +1.50%</span><span class="quote muted">RSI 64 · <b class="up">상단 이탈</b></span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html" target="_blank" rel="noopener">Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus</a><div class="meta"><span class="stance good">호재</span><span>Simply Wall St., Yahoo Finance</span><span class="time">05:11 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>델 테크놀로지스(DELL)의 적정 가치 추정치가 분석가들의 가이드라인과 AI 서버 집중 전략 등을 반영해 약 502.78달러에서 약 564.46달러로 상향 조정됐다. 이는 AI 서버 수요와 부품 공급 상황 등이 긍정적으로 평가받았기 때문이다.</span><span><b>판단</b>AI 서버 수요 증가와 기업 가치 상향 평가는 보유 종목인 델의 주가 상승 모멘텀과 투자 심리에 직접적인 호재로 작용한다.</span></div></article></div></details>
+<details class="holding" data-key="STZ"><summary class="holding-head"><h3>컨스텔레이션 브랜즈</h3><span class="code">STZ</span><span class="quote down">$128.18 · ▼ -0.70%</span><span class="quote muted">RSI 39</span><span class="spacer"></span><span class="tallies"><span class="stance bad">약한 악재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html" target="_blank" rel="noopener">Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?</a><div class="meta"><span class="stance bad">약한 악재</span><span>The Motley Fool, Motley Fool</span><span class="time">18:34 KST</span><span class="chip confirmed">교차확인 · 구글 뉴스 RSS+Yahoo Finance</span></div><div class="take"><span><b>요약</b>컨스텔레이션 브랜즈(STZ)의 주가는 고점 대비 53% 하락한 약 128달러로 52주 신저가 부근에 머물고 있다. 가처분 소득 감소와 고유가로 인해 소비자 지출이 위축되면서 맥주 및 와인 판매 실적에 부담을 주고 있다.</span><span><b>판단</b>소비자 지출 둔화로 인한 매출 부진 우려가 지속되면서 단기적으로 주가 회복에 부담을 준다.</span><span class="care"><b>유의</b>포워드 실적 기준 PER이 약 11배로 밸류에이션 매력이 있다는 시각도 존재한다.</span></div></article></div></details>
+<details class="holding" data-key="FSLR"><summary class="holding-head"><h3>퍼스트솔라</h3><span class="code">FSLR</span><span class="quote down">$204.45 · ▼ -1.43%</span><span class="quote muted">RSI 41</span><span class="spacer"></span><span class="tallies"><span class="stance neutral">중립 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxNT1BfUHZBemFVeWUtdm5xUXRLUE16M3FqM0VZcjBMTlpwbXJOUjFYbzlwcE5Ha01BN21PRG9wUnBzZVJLdDYyWExaSjU1dURRVXcxbklyaUdoVmZtQk1qVlZZSE1GUzU4NFRZc0dsN1NXLUp0cHFVNHpHVUZNcGhMV3NFXy1RTjlDMVJrd00ySnBIM0FxSUl6a1J2OFJ3clhPWklfTm5iZEwyNEtfSDljZm9rYUs5Y01WM3NBSzhjLUtOTHVzRWg0?oc=5" target="_blank" rel="noopener">First Solar stock eases after strong earnings beat and policy worries</a><div class="meta"><span class="stance neutral">중립</span><span>AD HOC NEWS</span><span class="time">02:08 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>퍼스트솔라는 강력한 분기 실적(주당순이익 3.92달러, 매출 10억 6000만 달러)을 기록했으나 정책 및 관세 우려가 겹치며 최근 고점 아래인 204달러 부근에서 거래되고 있다. 유틸리티 규모의 태양광 수요는 견조하지만 워싱턴의 정책 토론이 주목받고 있다.</span><span><b>판단</b>견조한 실적은 호재이나 정책 및 관세 관련 불확실성이 주가 상승을 제한하고 있다.</span><span class="care"><b>유의</b>정책적 리스크의 향방에 따라 주가 변동성이 커질 수 있다.</span></div></article></div></details>
+<details class="holding" data-key="CEG"><summary class="holding-head"><h3>컨스텔레이션 에너지</h3><span class="code">CEG</span><span class="quote up">$298.96 · ▲ +4.88%</span><span class="quote muted">RSI 67 · <b class="up">상단 이탈</b></span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/3-nuclear-stocks-buy-2-204301311.html" target="_blank" rel="noopener">3 Nuclear Stocks to Buy With $2,000 After One Fell 83%</a><div class="meta"><span class="stance good">호재</span><span>Motley Fool, The Motley Fool</span><span class="time">05:43 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>컨스텔레이션 에너지(CEG)는 2분기 실적 발표와 함께 920메가와트 규모의 장기 전력 구매 계약을 추가했다고 밝혔다. 전력 수요 급증에 힘입어 전력 판매 사업을 영위하는 컨스텔레이션 에너지가 수혜를 입고 있다.</span><span><b>판단</b>대규모 전력 구매 계약 체결은 안정적인 수익 창출원으로 작용하여 보유 종목인 컨스텔레이션 에너지의 실적 성장에 기여한다.</span></div></article></div></details>
+<details class="holding" data-key="VST"><summary class="holding-head"><h3>비스트라 에너지</h3><span class="code">VST</span><span class="quote up">$149.30 · ▲ +3.52%</span><span class="quote muted">RSI 58</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUVWV0gza2g0REFGbEhwaXpRdGhCbDE5M1JIS20zZ3N1dy1yVVUwZDhXcDhpLWJqRVNqTXYyWlV4UnVzNHMxNjlyZndrcVF3bXpRWWIwdkFqUXRKdTItNWZxcmpINzhNZ09NcWFoZWN6NkUtaFBkQm1qSEwzODU0bXB1ajFiNlF5U0h2cy13TWhsVEV6Z2Faemd4bnNjQk90?oc=5" target="_blank" rel="noopener">Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure</a><div class="meta"><span class="stance good">호재</span><span>Blockonomi</span><span class="time">22:07 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>피터 틸이 관리하는 틸 매크로 LLC가 2분기 말 기준 비스트라(VST) 주식 372,755주(약 5,910만 달러 상당)를 보유하고 있다고 공시했다. 이 소식에 힘입어 VST 주가는 금요일 3.5% 상승한 149.27달러를 기록했다.</span><span><b>판단</b>유명 투자자의 대규모 지분 보유 공시는 시장의 신뢰를 높이고 주가 상승 모멘텀을 강화하는 요인이다.</span><span class="care"><b>유의</b>2분기 실적에서 주당순이익과 매출이 컨센서스를 하회한 점은 리스크 요인이다.</span></div></article></div></details>
+<details class="holding" data-key="EOSE"><summary class="holding-head"><h3>이오스 에너지</h3><span class="code">EOSE</span><span class="quote up">$3.88 · ▲ +10.86%</span><span class="quote muted">RSI 52</span><span class="spacer"></span><span class="tallies"><span class="stance bad">약한 악재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5" target="_blank" rel="noopener">Bronstein, Gewirtz &amp; Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation</a><div class="meta"><span class="stance bad">약한 악재</span><span>accessnewswire.com</span><span class="time">06:29 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>로펌 Bronstein, Gewirtz &amp; Grossman이 2025년 11월 5일 이전에 이오스 에너지 주식을 매수해 현재까지 보유 중인 투자자들을 대상으로 증권 조사(Securities Investigation) 참여를 독려하고 있다. 이번 조사는 회사 및 임원진의 기업 부정행위 여부를 파악하기 위한 것이다.</span><span><b>판단</b>법적 조사 착수 소식은 투자 심리에 부정적 영향을 미치며, 향후 소송 리스크로 이어질 수 있어 주가에 단기적인 약재로 작용한다.</span><span class="care"><b>유의</b>현재는 공식 소송이 아니라 로펌 차원의 조사 단계이므로 실제 기업 가치 훼손으로 이어질지는 지켜봐야 한다.</span></div></article></div></details>
 <details class="holding" data-key="ALM"><summary class="holding-head"><h3>알먼티</h3><span class="code">ALM</span><span class="quote down">$17.57 · ▼ -1.51%</span><span class="quote muted">RSI 57</span><span class="spacer"></span></summary><div class="stories"><p class="empty">오늘자 기사 없음 (후보 40건, 과거 기사로 대체하지 않음)</p></div></details>
-<details class="holding" data-key="CRDO"><summary class="holding-head"><h3>크레도 테크놀로지</h3><span class="code">CRDO</span><span class="quote up">$170.57 · ▲ +3.90%</span><span class="quote muted">RSI 34</span><span class="spacer"></span><span class="tallies"><span class="stance good">약한 호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTh0MkZ3cHpINHBBU2dubDJiWmJqb29BZkRTTEpwVVg3WHBIbHBKWFEyOFRFX3dNNWhDY3l5TUExME1fbl9GLTNIM05pSWxrRFd5ek15XzRtV0x0TnloWmlzblQ2WmNVTWlvdlkzZmlkVG9uMjVQQUlLQmhnbjFBVkg4Mk9JRjZfakEyd3JVUDNfelAzeTVR?oc=5" target="_blank" rel="noopener">Credo Technology upgraded to Buy on strong AI-d...</a><div class="meta"><span class="stance good">약한 호재</span><span>Pluang</span><span class="time">22:36 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>기사 제목은 Credo Technology가 강한 AI 수요를 근거로 투자의견이 ‘Buy’로 상향됐다는 내용을 제시한다. 그러나 본문에는 연준의 금리 인하 압박, 강한 고용시장과 목표치를 웃도는 인플레이션 등 거시경제 관련 내용이 대부분 담겨 있다.</span><span><b>판단</b>AI 수요에 따른 매수 의견 상향은 Credo Technology의 AI 관련 제품 및 성장 기대를 높이는 요인일 수 있다. 다만 본문에서 상향 근거와 회사 실적·전망이 충분히 설명되지 않아 영향은 제한적으로 판단된다.</span><span class="care"><b>유의</b>제공된 본문이 잘려 있고 Credo Technology의 구체적인 투자의견 변경 내용, 수치, 실적 전망을 확인하기 어렵다.</span></div></article></div></details>
-<details class="holding" data-key="CSCO"><summary class="holding-head"><h3>시스코 시스템즈</h3><span class="code">CSCO</span><span class="quote up">$109.20 · ▲ +0.54%</span><span class="quote muted">RSI 41</span><span class="spacer"></span><span class="tallies"><span class="stance good">약한 호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html" target="_blank" rel="noopener">Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings</a><div class="meta"><span class="stance good">약한 호재</span><span>Simply Wall St., Yahoo Finance</span><span class="time">04:05 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>Cisco Systems(CSCO)는 최근 5년간 주가가 116.9% 상승했지만, 현재 가치평가상 추정 내재가치 대비 저평가된 것으로 보인다는 분석이다. AI 인프라와 소버린 네트워크 투자는 향후 현금흐름 기대를 지지할 수 있지만, 마진 우려와 핵심 라우팅 제품에 대한 사이버보안 위협은 부담으로 제시됐다.</span><span><b>판단</b>저평가된 현금흐름과 AI 인프라 투자는 Cisco 주가의 추가 상승 기대를 높일 수 있다. 반면 높은 과거 수익률과 마진·보안 리스크가 이미 반영된 기대를 제한할 수 있어 강한 호재로 보기는 어렵다.</span><span class="care"><b>유의</b>기사 제목과 본문 일부만 제공되어 구체적인 내재가치 산정 방식이나 AI 사업의 재무 기여 규모는 확인되지 않는다.</span></div></article></div></details>
-<details class="holding" data-key="VRT"><summary class="holding-head"><h3>버티브 홀딩스</h3><span class="code">VRT</span><span class="quote up">$280.53 · ▲ +4.35%</span><span class="quote muted">RSI 55</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5" target="_blank" rel="noopener">VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?</a><div class="meta"><span class="stance good">호재</span><span>Stocktwits</span><span class="time">06:29 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>Vertiv Holdings(VRT)는 데이터센터 캠퍼스의 액체 냉각 솔루션을 전문으로 하는 텍사스 기업 Strategic Thermal Labs를 인수했다. 거래 금액은 공개되지 않았으며, 인수를 통해 고밀도 컴퓨팅 환경을 시뮬레이션하고 데이터센터 고객에게 필요한 솔루션을 제공할 수 있게 됐고, 발표 당시 VRT 주가는 약 2% 상승했다.</span><span><b>판단</b>AI와 고밀도 컴퓨팅 확산으로 데이터센터의 냉각 및 인프라 복잡성이 커지는 가운데, 액체 냉각 기술 확보는 Vertiv의 제품 경쟁력과 고객 대응력을 강화할 수 있다. 시장도 발표 당시 주가 상승으로 초기에는 긍정적으로 반응했다.</span><span class="care"><b>유의</b>인수 가격과 Strategic Thermal Labs의 실적·기술 규모가 공개되지 않아 실제 재무 기여나 인수 시너지의 크기는 불확실하다.</span></div></article></div></details>
+<details class="holding" data-key="CRDO"><summary class="holding-head"><h3>크레도 테크놀로지</h3><span class="code">CRDO</span><span class="quote up">$170.57 · ▲ +3.90%</span><span class="quote muted">RSI 34</span><span class="spacer"></span><span class="tallies"><span class="stance neutral">중립 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTh0MkZ3cHpINHBBU2dubDJiWmJqb29BZkRTTEpwVVg3WHBIbHBKWFEyOFRFX3dNNWhDY3l5TUExME1fbl9GLTNIM05pSWxrRFd5ek15XzRtV0x0TnloWmlzblQ2WmNVTWlvdlkzZmlkVG9uMjVQQUlLQmhnbjFBVkg4Mk9JRjZfakEyd3JVUDNfelAzeTVR?oc=5" target="_blank" rel="noopener">Credo Technology upgraded to Buy on strong AI-d...</a><div class="meta"><span class="stance neutral">중립</span><span>Pluang</span><span class="time">22:36 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>미국 대통령이 강한 고용 보고서에도 불구하고 연준에 금리 인하를 압박하여 시장 혼란 위험이 제기된 가운데, 크레도 테크놀로지가 강한 AI 수요 등에 힘입어 투자의견이 매수로 상향되었다.</span><span><b>판단</b>보유 종목인 크레도 테크놀로지에 대한 매수 의견 상향은 긍정적이나, 기사 본문의 상당 부분이 거시경제 이슈를 다루고 있어 직접적인 영향은 제한적이다.</span><span class="care"><b>유의</b>기사 본문 내용이 거시경제 및 타 이슈 중심으로 요약되어 있어 크레도 테크놀로지 관련 구체적인 수치나 세부 정황을 파악하기 어렵다.</span></div></article></div></details>
+<details class="holding" data-key="CSCO"><summary class="holding-head"><h3>시스코 시스템즈</h3><span class="code">CSCO</span><span class="quote up">$109.20 · ▲ +0.54%</span><span class="quote muted">RSI 41</span><span class="spacer"></span><span class="tallies"><span class="stance good">약한 호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html" target="_blank" rel="noopener">Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings</a><div class="meta"><span class="stance good">약한 호재</span><span>Simply Wall St., Yahoo Finance</span><span class="time">04:05 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>시스코 시스템즈는 지난 5년간 116.9%의 수익률을 기록했으며, 현금 흐름 대비 저평가되어 있으나 이익 기준으로는 적정 수준인 것으로 나타났다. AI 인프라 투자와 주권 네트워크 관련 지속적인 투자가 미래 현금 흐름을 뒷받침할 수 있다.</span><span><b>판단</b>강한 현금 흐름과 AI 인프라 관련 모멘텀이 주가에 긍정적으로 작용할 수 있으나, 마진 압박과 핵심 라우팅 제품의 사이버 보안 위협에 대한 우려도 공존한다.</span><span class="care"><b>유의</b>이미 지난 5년간 주가가 크게 상승한 상태여서 호재가 주가에 상당 부분 선반영되었을 가능성이 있다.</span></div></article></div></details>
+<details class="holding" data-key="VRT"><summary class="holding-head"><h3>버티브 홀딩스</h3><span class="code">VRT</span><span class="quote up">$280.53 · ▲ +4.35%</span><span class="quote muted">RSI 55</span><span class="spacer"></span><span class="tallies"><span class="stance good">호재 1</span></span></summary><div class="stories"><article class="story"><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5" target="_blank" rel="noopener">VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?</a><div class="meta"><span class="stance good">호재</span><span>stocktwits.com</span><span class="time">06:29 KST</span><span class="chip ">단일출처 · 구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>AI 및 IT 인프라 관리 기업인 버티브 홀딩스는 텍사스 기반의 액체 냉각 솔루션 전문 기업인 Strategic Thermal Labs를 인수했다. 이번 인수를 통해 실제 고밀도 컴퓨팅 환경을 시뮬레이션하고 데이터 센터 고객의 인프라 복잡성 관리 전략을 강화할 수 있게 되었으며, 발표 당시 VRT 주가는 약 2% 상승했다.</span><span><b>판단</b>데이터 센터 액체 냉각 역량을 직접적으로 확대함으로써 급증하는 AI 데이터 센터 수요에 대응할 수 있는 경쟁력이 강화되어 주가에 호재로 작용한다.</span><span class="care"><b>유의</b>인수 금액 등 구체적인 재무적 조건은 공개되지 않았다.</span></div></article></div></details>
     <p class="upper-note">뉴스를 수집하지 않는 보유 종목 5 — 알파벳 A(GOOGL), 록히드마틴(LMT), 마이크로소프트(MSFT), 나이키 B(NKE), 노보노디스크 ADR(NVO). 가격·지표는 위 표에 그대로 나옵니다.</p>
   </section>
   <script>
