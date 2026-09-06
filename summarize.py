@@ -15,7 +15,7 @@
   GEMINI_API_KEY     aistudio.google.com 발급(무료, 카드 불필요)
   FALLBACK_API_KEY   예비 제공처 키. 없으면 GEMINI_API_KEY를 쓴다.
   FALLBACK_BASE_URL  기본 https://generativelanguage.googleapis.com/v1beta/openai/
-  FALLBACK_MODEL     기본 gemini-2.5-flash
+  FALLBACK_MODEL     비우면 제공처의 모델 목록에서 자동으로 고른다(값싼 쪽 우선)
   BATCH_SIZE         한 번에 보낼 기사 수 (기본 8)
   BATCH_PAUSE        묶음 사이 대기 초 (기본 8)
 
@@ -40,7 +40,9 @@ HERE = Path(__file__).parent
 MODEL = os.getenv("SUMMARY_MODEL", "gpt-5.6-luna")
 FALLBACK_BASE_URL = os.getenv(
     "FALLBACK_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
-FALLBACK_MODEL = os.getenv("FALLBACK_MODEL", "gemini-2.5-flash")
+FALLBACK_MODEL = os.getenv("FALLBACK_MODEL", "")
+# 모델명을 못 박아두면 제공처가 모델을 내릴 때 404가 난다. 목록에서 쓸 수 있는 것을 고른다.
+FALLBACK_PREFER = ("flash-lite", "flash", "mini", "")
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "8"))
 BATCH_PAUSE = float(os.getenv("BATCH_PAUSE", "8"))
 MAX_ATTEMPTS = int(os.getenv("MAX_ATTEMPTS", "2"))
@@ -114,6 +116,26 @@ def collect(news, only_alerts=False):
     return targets
 
 
+def pick_model(client):
+    """예비 제공처에서 실제로 쓸 수 있는 모델을 고른다.
+
+    모델명을 고정하면 제공처가 그 모델을 내렸을 때 404가 난다(실제로 gemini-2.5-flash가
+    신규 사용자에게 막혔다). 목록을 받아 값싼 쪽부터 고른다.
+    """
+    if FALLBACK_MODEL:
+        return FALLBACK_MODEL
+    names = [model.id.split("/")[-1] for model in client.models.list()]
+    usable = [name for name in names
+              if not any(word in name for word in
+                         ("embedding", "aqa", "imagen", "veo", "tts", "vision", "live",
+                          "image", "audio", "native"))]
+    for hint in FALLBACK_PREFER:
+        for name in sorted(usable, reverse=True):
+            if hint in name:
+                return name
+    raise ValueError(f"쓸 수 있는 모델 없음 (후보 {len(names)}개)")
+
+
 def providers():
     """쓸 수 있는 제공처를 우선순위대로 만든다."""
     chain = []
@@ -122,9 +144,14 @@ def providers():
                           client=OpenAI(max_retries=3, timeout=180.0)))
     spare = os.getenv("FALLBACK_API_KEY") or os.getenv("GEMINI_API_KEY")
     if spare:
-        chain.append(dict(label=f"예비/{FALLBACK_MODEL}", model=FALLBACK_MODEL, style="chat",
-                          client=OpenAI(api_key=spare, base_url=FALLBACK_BASE_URL,
-                                        max_retries=3, timeout=180.0)))
+        client = OpenAI(api_key=spare, base_url=FALLBACK_BASE_URL,
+                        max_retries=3, timeout=180.0)
+        try:
+            model = pick_model(client)
+        except Exception as exc:
+            print(f"[경고] 예비 제공처 모델 확인 실패: {type(exc).__name__}: {exc}", file=sys.stderr)
+            return chain
+        chain.append(dict(label=f"예비/{model}", model=model, style="chat", client=client))
     return chain
 
 
@@ -223,8 +250,9 @@ def main():
         try:
             items, used_in, used_out, index, provider = ask(chain, index, batch)
         except Exception as exc:
-            failures.append(f"{label}: {type(exc).__name__}: {str(exc)[:160]}")
-            print(f"[중단] {label} 실패 - 남은 묶음은 시도하지 않음", file=sys.stderr)
+            failures.append(f"{label}: {type(exc).__name__}: {str(exc)[:200]}")
+            print(f"[중단] {label} 실패 - 남은 묶음은 시도하지 않음\n"
+                  f"       {type(exc).__name__}: {str(exc)[:400]}", file=sys.stderr)
             break
         tokens_in += used_in or 0
         tokens_out += used_out or 0
