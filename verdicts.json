@@ -1,17 +1,81 @@
 {
-  "generated_at": "2026-09-06T23:31:13+09:00",
+  "generated_at": "2026-09-07T08:05:12+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "예비/gemini-flash-lite-latest",
+  "model": "OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 4802,
-    "output_tokens": 2399
+    "input_tokens": 3453,
+    "output_tokens": 2129
   },
   "skipped": {
-    "본문없음": 0,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스최첨단d램비중확늘린다내년초1c가주력공정": {
+      "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스는 10나노급 6세대 D램인 1c 공정 생산 비중을 올해 1분기 10% 안팎에서 2분기 13%대, 4분기 34%대까지 확대할 것으로 전망된다. 내년 1분기에는 1c 비중이 35%대로 올라 1b의 33%대를 처음 추월하고 주력 공정이 될 것으로 관측되며, HBM4E와 HBM4 물량 확대가 전환의 배경으로 제시됐다.",
+      "impact": "1c 공정 전환이 빨라지면 차세대 HBM과 고부가 서버·AI용 D램 생산 경쟁력 및 제품 믹스 개선에 도움이 될 수 있다. 삼성전자와 마이크론 대비 미세공정 경쟁에서도 하반기 우위를 확보할 가능성이 거론된다.",
+      "caution": "기사의 생산 비중 수치는 업계 전망치이며, 본문이 ‘비트그로스’ 관련 문장에서 중단돼 실제 수익성·출하 효과는 확인되지 않는다."
+    },
+    "kb증권내년메모리사상초유의공급부족온다삼성전자sk하이닉스극단적저평가": {
+      "title": "KB증권 \"내년 메모리 사상 초유의 공급 부족 온다…삼성전자·SK하이닉스 극단적 저평가\"",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "KB증권은 내년 메모리 반도체 시장이 사상 초유의 공급 부족에 직면할 수 있다고 분석하며 삼성전자와 SK하이닉스의 재평가를 전망했다. 글로벌 하이퍼스케일러의 내년 AI 인프라 투자는 전년 대비 60% 증가한 1조3000억달러로 제시됐고, 메모리 비중은 2025년 14%에서 2026년 40%, 2027년 57%로 확대될 것으로 추산됐다.",
+      "impact": "메모리 공급 부족이 현실화되면 삼성전자의 D램·HBM·eSSD 가격과 출하, 재고 및 이익 개선으로 이어질 수 있다. HBM4 양산이 범용 D램 생산능력을 잠식한다는 분석도 메모리 가격 상승과 삼성전자 주가 재평가에 긍정적이다.",
+      "caution": "내용은 KB증권과 트렌드포스의 전망 및 분석이며, 기사 본문이 공급 부족 규모와 실제 삼성전자 실적 영향을 설명하는 중간에 끊겨 있다."
+    },
+    "hd현대이만든세종대왕함한화오션이정비맡은까닭은": {
+      "title": "HD현대重이 만든 세종대왕함, 한화오션이 정비 맡은 까닭은",
+      "holding": "HD현대중공업",
+      "stance": "약한 악재",
+      "summary": "해군은 지난달 28일 7600t급 세종대왕함의 첫 민간 유지·보수·정비(MRO) 사업자로 한화오션을 선정했다. 세종대왕함을 설계·건조한 HD현대중공업은 한국형 차기 이지스 구축함 사업에서 받은 1.2점 보안 감점이 올해 말까지 적용돼 입찰에 참여하지 않았다고 전해졌다.",
+      "impact": "HD현대중공업은 자사가 건조한 함정의 MRO 사업 기회를 놓쳤고, 방산 입찰에서 감점으로 수주 경쟁력이 제한될 수 있다는 점이 부정적이다. 유력 기업 배제가 경쟁 약화와 사업 차질로 이어질 수 있다는 업계 우려도 제기됐다.",
+      "caution": "이번 기사는 세종대왕함 MRO 한 건과 제도적 문제를 다룬 내용으로, HD현대중공업의 전체 방산 수주나 실적에 미치는 규모는 제시하지 않는다."
+    },
+    "dellcoojeffclarkerevealsaiboomrunsonendlessscramblingforscarcepartsthisiswhatwedoandweloveitcorrected": {
+      "title": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED)",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "Dell Technologies는 인공지능 인프라 수요 급증에 힘입어 2분기 실적 호조를 기록했으며, COO Jeff Clarke는 공급망 곳곳에서 부품을 확보하기 위한 경쟁이 계속되고 있다고 밝혔다. 기사에 따르면 Dell은 거의 모든 공급망 영역에서 부족한 부품을 찾아야 하는 상황에 놓여 있다.",
+      "impact": "AI 인프라 수요 증가는 Dell의 서버 및 관련 장비 판매 확대에 긍정적인 요인이다. 다만 부품 부족은 생산과 납기, 원가에 부담을 줄 수 있어 수요 증가가 곧바로 이익 증가로 이어지는 것을 제한할 수 있다.",
+      "caution": "제공된 본문이 공급 부족 관련 설명 중간에서 끊겨 2분기 실적의 구체적인 수치와 부품 부족의 실제 재무 영향을 확인할 수 없다."
+    },
+    "firstsolarfslrslidesbeforeearningsdoesthepullbacksignalvalue": {
+      "title": "First Solar (FSLR) Slides Before Earnings, Does The Pullback Signal Value?",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "First Solar 주가는 실적 발표를 앞두고 최근 한 달 15% 이상 하락했으며, 주가는 204.45달러로 30일 수익률은 -18.24%, 연초 이후 수익률은 -25.48%를 기록했다. 시장은 EPS 성장은 예상하지만 매출은 둔화될 것으로 보고 있으며, 최근 약세는 단일 사건보다 성장 기대와 실적·위험 재평가에 따른 것으로 분석됐다.",
+      "impact": "실적 발표 전 주가 하락과 매출 둔화 전망은 First Solar의 단기 성장 기대와 투자심리에 부담이다. 다만 예상되는 EPS 성장은 실적 자체가 전면적으로 악화된 상황은 아님을 보여준다.",
+      "caution": "기사의 평가는 실적 발표 전 시장 기대에 기반하며, 실제 EPS·매출 결과와 주가 반응은 확인되지 않았다. 5년 총주주수익률은 105.66%로 장기 성과는 상대적으로 양호하다."
+    },
+    "eosenergyeoseisup190aftergooglebackedlongdurationstoragedealhasthebullcasechanged": {
+      "title": "Eos Energy (EOSE) Is Up 19.0% After Google-Backed Long-Duration Storage Deal - Has The Bull Case Changed?",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "Eos Energy Enterprises의 주가는 구글이 지원하는 장주기 에너지저장장치 프로젝트 이후 19.0% 상승했으며, 해당 PJM 프로젝트는 아연 기반 장주기 배터리의 전력망·데이터센터 적용 가능성을 강화했다. 그러나 회사는 여전히 손실, 현금 소진, 주식 발행에 따른 희석, Thorn Hill 제조시설의 증설·실행 위험을 안고 있으며 1억8434만달러 규모의 shelf registration도 언급됐다.",
+      "impact": "구글 지원 프로젝트는 Eos의 장주기 저장장치 기술에 대한 수요와 상용화 기대를 높여 신규 프로젝트 및 매출 확대에 긍정적일 수 있다. 반면 외부 자금 조달 의존도가 높아 자금 조달과 희석이 주주가치 개선을 제한할 수 있다.",
+      "caution": "프로젝트의 구체적인 매출·수익 기여 시점과 제조시설 실행 성과는 제시되지 않았고, 기사 자체도 현금 소진과 증자 위험이 해소되지 않았다고 평가한다."
+    },
+    "stockmarkettodaynasdaqendsoffsteeperlossdowrisesafterdownturncredotechnologyadvances": {
+      "title": "Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "2026년 6월 9일 미국 증시에서 나스닥은 1% 하락했지만 Credo Technology 주가는 기술주 약세에도 상승했다. 시장은 도널드 트럼프 대통령의 이란 관련 발언과 물가 지표를 앞둔 변동성의 영향을 받았다.",
+      "impact": "시장 전반과 기술주가 약세인 날 Credo가 상승했다는 점은 상대적인 투자심리와 수급 측면에서 긍정적이다. 다만 상승 원인이나 폭, 회사의 실적·사업 관련 재료는 기사에 제시되지 않았다.",
+      "caution": "기사는 단순한 시장 동향 기사로 Credo의 상승 배경과 기업 펀더멘털을 설명하지 않으므로, 지속적인 호재로 판단하기에는 근거가 제한적이다."
+    },
+    "mcdonaldsmcdexitfroma90restaurantstakestillhauntsinvestors": {
+      "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
+      "holding": "맥도날드",
+      "stance": "중립",
+      "summary": "McDonald’s는 2006년 당시 약 90%를 보유했던 Chipotle 지분을 핵심 패스트푸드 사업에 집중하기 위해 매각했다. 이후 Chipotle의 상장과 성장으로 McDonald’s가 장기적인 시장가치를 놓쳤다는 평가가 나오며, 투자자들은 두 회사의 성장 및 브랜드 전략을 비교하고 있다.",
+      "impact": "이 내용은 과거 McDonald’s의 포트폴리오 결정과 Chipotle의 성장 결과를 돌아보는 사례로, 현재 McDonald’s의 매출·이익이나 영업에 직접 영향을 주는 사건은 아니다.",
+      "caution": "기사에 현재 사업 실적이나 신규 전략 변화가 제시되지 않았으며, 과거 Chipotle 지분 매각의 기회비용에 대한 회고성 분석에 가깝다."
+    },
     "hbm이어낸드도ai특수삼성sk하이닉스시장절반차지": {
       "title": "HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지",
       "holding": "SK하이닉스",
@@ -259,14 +323,6 @@
       "summary": "마켓빗(MarketBeat)이 최근 거래대금이 가장 높은 7개의 페니 스톡을 선정했으며, 아연 기반 에너지 저장 기업인 이오스 에너지 엔터프라이즈(EOSE)가 포함되었다. 페니 스톡은 높은 변동성과 투기성을 지니고 있음을 경고했다.",
       "impact": "시장 내 거래 활성화와 주목도 상승으로 인해 단기적인 수급 유입이나 관심 증가에 긍정적인 영향을 줄 수 있다.",
       "caution": "페니 스톡 특유의 높은 변동성과 잠재적인 주가 하락 및 조작 위험이 수반된다."
-    },
-    "stockmarkettodaynasdaqendsoffsteeperlossdowrisesafterdownturncredotechnologyadvances": {
-      "title": "Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances",
-      "holding": "크레도 테크놀로지",
-      "stance": "약한 호재",
-      "summary": "크레도 테크놀로지(CRDO)는 기술주 전반의 약세와 지수 하락 속에서도 2026년 6월 9일 장에서 주가가 상승했다.",
-      "impact": "시장 전반의 변동성과 기술주 하락 분위기 속에서도 개별 종목으로서 상대적인 주가 방어력과 상승 흐름을 보여주어 투자 심리에 긍정적이다.",
-      "caution": "시장의 거시적 변동성 요인인 트럼프 대통령의 이란 관련 발언과 인플레이션 데이터 발표 전의 혼조세 속에서 움직인 결과이다."
     },
     "predictionamazonwilljoinnvidiaappleandalphabetinthe4trillionclubbefore2029": {
       "title": "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029",

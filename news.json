@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-06T23:30:39+09:00",
-  "today_kst": "2026-09-06",
+  "fetched_at": "2026-09-07T08:04:25+09:00",
+  "today_kst": "2026-09-07",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
     "국내": [
@@ -13,11 +13,11 @@
     ]
   },
   "counts": {
-    "종목": 14,
-    "기사": 13,
-    "교차확인": 8,
-    "본문확보": 13,
-    "하단이탈": 1
+    "종목": 15,
+    "기사": 10,
+    "교차확인": 4,
+    "본문확보": 8,
+    "하단이탈": 2
   },
   "errors": [],
   "news": {
@@ -25,29 +25,29 @@
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 85,
+      "today_count": 44,
       "stories": [
         {
-          "title": "HBM 이어 낸드도 AI 특수…삼성·SK하이닉스, 시장 절반 차지",
-          "published_kst": "2026-09-06T17:00+09:00",
+          "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정",
+          "published_kst": "2026-09-07T06:01+09:00",
           "relevance": "direct",
           "sources": {
             "네이버 금융": {
-              "publisher": "머니투데이",
-              "url": "https://n.news.naver.com/mnews/article/008/0005410022",
-              "published_kst": "2026-09-06T17:00+09:00"
+              "publisher": "조선비즈",
+              "url": "https://n.news.naver.com/mnews/article/366/0001190669",
+              "published_kst": "2026-09-07T06:01+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "머니투데이",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSS2JwQzBvNi04ZmtRZThLOEZyaVBub2xDWTVGNDZBMldObEN2cWMtRHhCQU8wUWljUFhjNlo2ZkhUWnRSMTZPbGx0Ukd5bDI5MHZxckRZTlNnNkh1TDRtUjEtS2dBUEtTYkhDallWUnR0UdIBckFVX3lxTFBSS2JwQzBvNi04ZmtRZThLOEZyaVBub2xDWTVGNDZBMldObEN2cWMtRHhCQU8wUWljUFhjNlo2ZkhUWnRSMTZPbGx0Ukd5bDI5MHZxckRZTlNnNkh1TDRtUjEtS2dBUEtTYkhDallWUnR0UQ?oc=5",
-              "published_kst": "2026-09-06T17:00+09:00"
+              "publisher": "Chosunbiz",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR0M2cTBrMTN1MWR3cEJlQ3loREhKTjd1S2w4ZkQzSjd3aVduM09rUTNiNXVnVkF0NmNYTDU0ZTFfNUNPMEpWRHZVNkRsOGZtb0poLUVENG9KRzB1QzhGbDhiS3lmUHN0aVNvbzZXM1NXdWI2al95clRzS3RhMWtLZDFn0gGWAUFVX3lxTFBuZFphbnpONFZRV0kzcHF0WWlrQU4tQ0QyTzJMM192MVZjTGZyY1pCZ1hZQnRLY3Zyc0VoWGpjX2FaamZRN0FraW9yVmU1eHBCc3ppWVM3Ukt0M0FUb0NMSk1jai1DUzZ5al9YUGRDOW1MeHBhYjZWN1ppT0tRZmFObjVuRVBBNTloblIzNndBc0xJdktxQQ?oc=5",
+              "published_kst": "2026-09-07T06:02+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 9.5,
-          "body": "2분기 낸드 시장 70% 성장…가격도 55% 뛰며 호황 지속\nAI 추론 확산에 eSSD 수요 폭증…양사 실적 기여도 확대 전망 \n\n 삼성전자·SK하이닉스 2분기 낸드 실적/그래픽=이지혜 AI(인공지능) 인프라 투자의 중심축이 학습에서 추론 단계로 옮겨가면서 낸드플래시 시장이 급성장하고 있다. 고성능 eSSD(기업용 SSD) 수요 폭증과 가격 상승이 더해지면서 삼성전자와 SK하이닉스의 글로벌 낸드 매출 점유율이 50%에 육박한 것으로 나타났다.\n\n6일 글로벌 시장조사업체 카운터포인트리서치에 따르면 올해 2분기 글로벌 낸드 시장 매출은 전분기 대비 70% 증가했다. 이 기간 낸드 가격 역시 55% 뛰어올랐다. 앞서 1분기 낸드 매출이 전분기 대비 90% 급증한 데 이어 2개 분기 연속 가파른 성장세다.\n\n시장 확대를 이끄는 주역은 AI 서버다. AI 학습 단계에서는 연산을 위한 HBM(고대역폭메모리)에 수요가 쏠렸다면 추론 단계에서는 서버가 처리하고 저장해야 할 데이터가 급증하면서 eSSD 역할이 커지고 있다. 실제 2분기 eSSD는 전체 낸드 비트 출하량의 48%를 기록했다. 지난해 같은 기간 26% 수준에 머물던 비중이 두 배 가까이 뛴 셈이다.\n\n삼성전자는 낸드 시장 선두를 고수하고 있다. 올해 2분기 매출 기준 삼성전자의 글로벌 낸드 점유율은 28%로 집계됐다. eSSD 매출도 가파르게 늘었다. 시장조사업체 트렌드포스는 같은 기간 삼성전자의 eSSD 매출을 143억5000만 달러(약 19조4184억원)로 집계했다. 이는 전분기 70억5000만 달러(약 9조5273억원) 대비 두 배 이상 늘어난 수치다. \n\n176단 QLC(쿼드레벨셀) 제품 출하를 늘리고 고사양 PCIe 5.0 제품 비중을 확대한 결과다. QLC는 하나의 셀에 더 많은 데이터를 저장할 수 있어 대용량 스토리지 구축에",
+          "body": "10나노 6세대 D램 공정 전환 가속… 차세대 HBM 겨냥\n“내년 1c D램 비중이 1b 역전”\n\n SK하이닉스 반도체 공장 내부./SK하이닉스 제공 \n SK하이닉스가 10나노급 6세대(1c) D램 생산 비중을 빠르게 확대하고 있다. 차세대 고대역폭메모리(HBM4E)부터 1c D램이 HBM을 쌓아 올리는 핵심 칩으로 적용되는 만큼 공정 전환에 속도를 내는 모습이다. 서버·인공지능(AI)향 고부가 메모리 수요가 늘어나는 가운데 삼성전자·마이크론과의 미세공정 전환 경쟁도 한층 치열해지는 양상이다.\n\n “연내 1c 공정 비중 34% 이상 전망”\n\n 7일 업계에 따르면 SK하이닉스의 1c D램 비중은 올해 1분기 10% 안팎을 오르내리는 수준에서 2분기 13%대로 확대됐다. 올 3분기에는 24%대, 4분기에는 34%대까지 늘어날 것으로 전망된다. 내년 1분기에는 1c 비중이 35%대로 올라서며 1b(33%대)를 처음 추월해 주력 공정이 될 것으로 관측된다.\n\n1b(10나노급 5세대) D램 비중은 올 2분기 43%대를 정점으로 하락 전환하는 것으로 나타났다. 1c로의 생산 전환이 본격화하면서 구세대 공정 비중이 순차적으로 축소되는 흐름이다. 업계 추정치를 보면 올 2분기 말 기준 삼성전자의 1c 비중은 16%대, 마이크론은 19%대로 SK하이닉스(13%대)보다 다소 앞선 것으로 파악된다. 다만 SK하이닉스가 올 하반기 들어 전환 속도를 끌어올리며 4분기(34%대) 기준으로는 삼성전자(31%대)를 앞지를 것으로 예상된다.\n\nSK하이닉스는 지난달 2분기 실적 컨퍼런스콜에서 10나노급 6세대(1c) 공정을 적용한 D램 공급이 2분기 들어 본격화됐다고 밝힌 바 있다. SK하이닉스는 올 하반기 HBM4(6세대 HBM) 물량 확대와 함께 1c 기반 범용 D램 출하가 늘면서 비트그로스(생산량 증가율)가 올",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -56,60 +56,56 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 82,
+      "today_count": 63,
       "stories": [
         {
-          "title": "하이닉스 독주 흔드나…삼성전자, HBM 점유율 격차 '37%p→17%p'",
-          "published_kst": "2026-09-06T13:25+09:00",
+          "title": "KB증권 \"내년 메모리 사상 초유의 공급 부족 온다…삼성전자·SK하이닉스 극단적 저평가\"",
+          "published_kst": "2026-09-07T07:42+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "이코노미스트",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WNjhUNGVFOEFGWldMMnMtdmFYNTNPUnNfSGFSUkZHbXhtQVdhQi1pNl9LSERZbjZPSzNZbTk0OERZWHpiUUJfbXRqcGtCeVBvWE5KLUVnbVgzU3BSQlBRNjB3?oc=5",
-              "published_kst": "2026-09-06T13:25+09:00"
-            },
-            "네이버 금융": {
-              "publisher": "이코노미스트",
-              "url": "https://n.news.naver.com/mnews/article/243/0000102686",
-              "published_kst": "2026-09-06T13:26+09:00"
+              "publisher": "이투데이",
+              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CbXU3YUNpdnRZWWR4RnBuekxqZGNXeVNsaUw3S0ttOUNvdEo3S1N6NXEyaTZVcGJQcVB3djBWSmtSSVRNUGM5ODVHSzMxZzRsWFdmRA?oc=5",
+              "published_kst": "2026-09-07T07:42+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 11.5,
-          "body": "서초 삼성전자 사옥 전경. [사진 연합뉴스] [이코노미스트 박재우 기자] 삼성전자가 고대역폭메모리(HBM) 시장에서 점유율을 빠르게 끌어올리며 선두 SK하이닉스와의 격차를 좁히고 있다. 올 하반기 HBM4 출하가 본격화하면서 양사의 시장 주도권 경쟁도 한층 치열해질 전망이다.\n\n6일 업계에 따르면 시장조사업체 카운터포인트리서치는 올해 2분기 글로벌 HBM 시장에서 SK하이닉스가 매출 기준 50%의 점유율로 1위를 차지했다고 집계했다. 삼성전자는 33%로 2위에 올랐다.\n\n삼성전자의 점유율은 1분기 21%에서 한 분기 만에 12%포인트 상승했다. 반면 같은 기간 SK하이닉스는 58%에서 50%로 8%포인트 낮아졌다. 이에 따라 양사의 점유율 격차는 1분기 37%포인트에서 2분기 17%포인트로 절반 이하로 줄었다.\n\n지난해 2분기와 비교하면 삼성전자의 상승세는 더욱 두드러진다. 당시 15%였던 삼성전자의 점유율은 1년 만에 18%포인트 상승했다. 같은 기간 SK하이닉스의 점유율은 64%에서 50%로 낮아졌다. 3위 마이크론의 2분기 점유율은 18%로 집계됐다.\n\n삼성전자가 엔비디아 등 주요 고객사를 상대로 HBM 공급을 확대하면서 SK하이닉스가 주도해온 시장 구도에도 변화가 나타나고 있다. 삼성전자의 점유율 상승세가 하반기에도 이어질 경우 양사의 선두 경쟁은 더욱 치열해질 것으로 예상된다.\n\n향후 시장 판도를 가를 최대 변수로는 6세대 HBM인 HBM4가 꼽힌다. 현재 HBM 시장 매출 대부분은 HBM3E에서 발생하고 있지만 HBM4 출하는 올 하반기부터 본격화할 전망이다. HBM4는 HBM3E보다 성능이 높고 가격도 비싸 수익성이 높은 제품이다.\n\n삼성전자는 지난 2월 HBM4를 업계 최초로 양산 출하했다. SK하이닉스도 2분기 HBM4 양산 출하를 시작하고 생산 물량을 확대하고 있다.",
-          "body_source": "네이버 뉴스 본문"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body": "(출처=KB증권)\n\n 내년 메모리 반도체 시장이 역사상 가장 타이트한 공급 환경을 맞이하며 사상 초유의 공급 부족에 직면할 것이라는 분석이 나왔다. 이에 따라 최근 과도한 주가 조정을 거치며 극단적 저평가 국면에 진입한 삼성전자와 SK하이닉스에 대해 강력한 재평가가 이뤄질 것이라는 전망이다.\n\n 7일 KB증권은 \"최근 글로벌 하이퍼스케일러들의 내년 AI 인프라 투자 규모가 전년 대비 60% 급증한 1조3000억달러로 급격히 상향 조정되고 있다\"고 밝혔다. 클라우드 AI 서비스, 토큰 과금, 에이전틱 AI 및 모델 호스팅 등 AI의 직접적 신규 매출처가 가시화되면서 수익 모델이 구체화 단계에 진입했다는 평가다.\n KB증권에 따르면 전체 AI 인프라 투자 중 메모리 반도체가 차지하는 비중은 2025년 14%에서 2026년 40%, 2027년 57%로 2년 만에 4배 이상 확대될 것으로 추산됐다. 트렌드포스는 2027년 메모리 비중이 최대 68%까지 치솟을 것으로 내다봤다. 이는 차세대 고대역폭메모리인 HBM4의 탑재 용량 증가뿐 아니라 CPU 서버용 디램과 추론용 기업용 SSD(eSSD) 수요가 동시에 폭증하고 있기 때문이다.\n 김동원 KB증권 연구원은 \"현재 3분기 기준 삼성전자와 SK하이닉스의 메모리 재고는 10일 미만까지 떨어진 상태\"라며 \"단순한 수요 회복을 넘어 판매 가능한 물량 자체가 고갈되는 초유의 사태가 발생할 수 있다\"고 진단했다.\n 특히, 공급 부족을 심화시키는 핵심 요인으로 HBM4 전환에 따른 범용 디램 생산 능력 잠식'이 지목됐다. 범용 D램 대비 웨이퍼 생산 능력을 3배 사용하는 HBM4의 양산이 본격화되면, 제한된 웨이퍼 생산 라인 특성상 전체 비트 공급 증가율이 크게 제약될 수밖에 없다는 설명이다. 이로 인해 디램과 낸드의 비트 수요는 공급을 10%포인트 이상",
+          "body_source": "원문 본문 · www.etoday.co.kr",
+          "article_url": "https://www.etoday.co.kr/news/view/2622358"
         }
       ]
     },
     "HD현대중공업": {
       "ticker": "329180",
       "market": "국내",
-      "candidates": 84,
-      "today_count": 24,
+      "candidates": 89,
+      "today_count": 7,
       "stories": [
         {
-          "title": "中 조선업 수주 공세에…K-조선 '해외 생산' 승부수",
-          "published_kst": "2026-09-06T08:00+09:00",
-          "relevance": "tagged",
+          "title": "HD현대重이 만든 세종대왕함, 한화오션이 정비 맡은 까닭은",
+          "published_kst": "2026-09-07T00:33+09:00",
+          "relevance": "direct",
           "sources": {
-            "네이버 금융": {
-              "publisher": "디지털데일리",
-              "url": "https://n.news.naver.com/mnews/article/138/0002240346",
-              "published_kst": "2026-09-06T08:00+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "ddaily.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWMEwySWNUTlJyb0o3elp3SFRXd1o1YjROVzhlVkFRZUJmYldkRVdDTGMzWEVCa3Zid18wMHJJZ0VQTkxZNFhTODc4RXF4SEc4LUJNSF9HU1RZV0hSU1VzbkhVM1Q?oc=5",
-              "published_kst": "2026-09-06T08:00+09:00"
+              "publisher": "조선일보",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYV9mbmM4OUdZWEFPbVBFeUJ0YWVJTy1BTTZQVmswSXljS1Y1MUh2RGx4dzRuSFVLZDBueWtVMnlpN1Fsa2FsMmJsUF9abHE5akl4WUxrRWRMaFNYaE5ZT2lZcjItdG05elF0RFNsSnlyTmNheWRHbUhFM2pkOWRsd21iVkFZZmxmc1Z2TFpwYw?oc=5",
+              "published_kst": "2026-09-07T00:33+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "조선일보",
+              "url": "https://n.news.naver.com/mnews/article/023/0003996961",
+              "published_kst": "2026-09-07T00:35+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 7.5,
-          "body": "[사진=AI 생성 이미지] \n\n[디지털데일리 김유진기자] 국내 조선업계가 해외 조선소를 활용한 생산 확대에 속도를 내고 있다. 중국 조선업계가 낮은 선가를 앞세워 글로벌 선박 시장을 빠르게 잠식하는 가운데 국내에서는 고부가가치 선박에 집중하고 해외에서는 상대적으로 건조 기술이 표준화된 범용 선박을 생산하는 방식으로 가격 경쟁력을 확보하려는 전략이다.\n\n특히 동남아 등 해외 생산 거점은 국내보다 낮은 인건비와 유지비용 등을 바탕으로 중국과 원가 격차를 줄이면서 생산 능력까지 확대할 수 있다는 점에서 K-조선의 새로운 경쟁력 확보 방안으로 부상하고 있다.\n\n ◆ 中 조선업, 선박 수주 독주…K-조선과 격차 확대 \n\n영국 조선·해운 시황 분석기관 클락슨리서치에 따르면 지난 8월 전 세계 선박 수주량은 420만CGT(표준선 환산톤수·125척)로 집계됐다. 이 가운데 중국은 전체 수주 물량의 85%인 359만CGT(107척)를 쓸어 담았다. 한국은 31만CGT(10척)를 수주해 점유율 7%에 그쳤다. CGT 기준 수주량만 놓고 보면 중국이 한국보다 약 11.6배 많은 물량을 가져간 셈이다.\n\n올해 누적 기준으로도 중국의 우위는 뚜렷하다. 1~8월까지 중국은 4539만CGT(1672척)를 수주하며 전체 시장의 76%의 점유율을 기록했다. 같은 기간 한국은 938만CGT(243척)로 전년 동기보다 55% 수주량이 늘었지만 시장 점유율은 16%에 그쳤다. 중국과 한국의 올해 누적 수주량 격차는 약 4.8배다.\n\n중국의 경쟁력이 빠르게 높아진 배경에는 대규모 생산 능력과 가격 경쟁력이 자리 잡고 있다. 중국은 벌크선과 컨테이너선 등 범용 선박 수주량에서 2022년 이후 5년 연속 세계 1위를 차지하는 등 압도적인 생산 능력을 앞세워 시장 점유율을 확대해 왔다. 여기에 최근에는 액화천연가스(LNG) 운",
+          "importance": 9.5,
+          "body": "[비즈 톡]\n보안 감점 페널티… 아예 수주 포기\n유력 기업 배제 땐 경쟁 무력화 우려 \n\n 지난달 28일 해군이 배수량 7600t급 세종대왕함의 첫 민간 유지·보수·정비(MRO) 사업자로 한화오션을 선정했습니다. 세종대왕함은 HD현대중공업이 기본 설계부터 상세 설계, 건조, 인도까지 6년간 공을 들여 완성한 최초의 국산 이지스 구축함입니다. 그런데 함정을 가장 잘 아는 원제조사가 아닌 경쟁사가 사업을 수주하는 아이러니한 상황이 된 것입니다.\n\n업계에 따르면, HD현대는 애초 이 사업에 지원하지 않았다고 합니다. HD현대중공업이 이번 MRO 입찰에 명함조차 내밀지 못한 배경에는 방위사업청의 보안 감점(1.2점)이 있습니다. HD현대중공업이 한국형 차기 이지스 구축함(KDDX) 사업 때 받은 감점이 올해 말까지 적용되는 탓입니다. 소수점 차이로 당락이 갈리는 방산 입찰 특성상 이 정도 페널티를 안고선 수주가 불가능해 아예 발을 뺀 것입니다.\n\n비슷한 입찰 딜레마가 KF-21 보라매의 공대공 미사일을 국산화하는 2조원 규모의 프로젝트에서도 재연될 수 있다는 얘기가 나옵니다. 유력 후보군인 두 기업이 각기 다른 이유로 수사를 받고 있어 입찰에 영향을 줄 수도 있기 때문입니다.\n\n문제는 소수 전문 기업이 도맡아 온 국내 방위산업 구조상, 유력 기업들이 배제되면 경쟁 자체가 무력화된다는 점입니다. 기술력과 현장 경험을 갖춘 기업들의 배제는 무기 체계의 품질 저하와 사업 차질을 부르고, 그 피해는 고스란히 국가 안보와 국방 전력의 누수로 이어집니다. 더욱이 치열한 해외 수주 전선에서 K방산을 견제하는 글로벌 경쟁사들에 ‘부도덕 기업’이라는 네거티브 공세의 빌미를 줄 여지도 큽니다.\n\n방산기업의 불법이나 비리에 엄정한 책임을 묻지 말자는 얘기가 아닙니다. 위법 행위에는 분명한 경종을 울리되, 국가 ",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -117,32 +113,32 @@
     "델": {
       "ticker": "DELL",
       "market": "해외",
-      "candidates": 70,
-      "today_count": 28,
+      "candidates": 63,
+      "today_count": 7,
       "stories": [
         {
-          "title": "Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus",
-          "published_kst": "2026-09-06T05:11+09:00",
+          "title": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED)",
+          "published_kst": "2026-09-07T00:45+09:00",
           "relevance": "direct",
           "sources": {
             "Yahoo Finance": {
-              "publisher": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html",
-              "published_kst": "2026-09-06T05:11+09:00"
+              "publisher": "Benzinga",
+              "url": "https://finance.yahoo.com/technology/ai/articles/dell-coo-jeff-clarke-reveals-154506925.html",
+              "published_kst": "2026-09-07T00:45+09:00"
             },
             "구글 뉴스 RSS": {
               "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ3NKNUpneFBiWHMyRkRaaWZiTjVUWjg5SlI4b3YxZDEzaUlibUx2elBLTmx5Y2ZmalN1dzE2WEZuaVFSbnpCbHNJTWZaRWo1SnNOM2tNeW5kWTg0S3FpbFJRV3JwS0dYTUM5WXBFRnIwVkRldEdNNUJseEh6c1BUUlN2azZxWm91YmxJQTU1a2hLS1lETTZJT0djZWJXQjQ?oc=5",
-              "published_kst": "2026-09-06T05:11+09:00"
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZGM3ZWFzS0FJZTdFRFJxVmIxZ0pSZnFFT3hiMGRqSjJzeC01N2lFc1dPQ0w1VHFLMG8tbTNHaC1Sa1F0RFhGb3JBUnVHSEd2N1FteG1MUHRQS0ZPVnhfT1FhN1BBLVFIdk1jbmc3dnFfR2FZWkRhR0FTVmxvWk5zZTY0TWs4RndINzA2aVBRcVhVeGVwQjlR?oc=5",
+              "published_kst": "2026-09-07T00:45+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 11.5,
-          "body": "Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus \n\n Bailey Pemberton \n Sun, September 6, 2026 at 5:11 AM GMT+9 4 min read \n\n DELL \n\n The fair value estimate for Dell Technologies has shifted from about US$502.78 to roughly US$564.46, putting a fresh spotlight on how analysts are thinking about the stock today. This change reflects close attention to Dell's guidance and comments on component supply, memory costs, margins and the broader backdrop that includes AI server demand, macro data releases and geopolitical developments. In the sections that follow, you will see how to track these updates and make sense of the evolving Dell Technologies narrative. \n\n Stay updated as the Fair Value for Dell Technologies shifts by adding it to your watchlist or portfolio . Alternatively, explore our Community to discover new perspectives on Dell Technologies. \n What W",
+          "importance": 9.5,
+          "body": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED) \n\n Radhika Anilkumar Nadig \n Sun, September 6, 2026 at 8:45 AM PDT 4 min read \n\n DELL \n\n Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. \n Editor's Note: This story has been updated to correct Jeff Clarke's title. He is Dell Technologies' chief operating officer. \n Dell Technologies Inc. posted a blowout second quarter fueled by soaring demand for artificial intelligence infrastructure, and Chief Operating Officer Jeff Clarke said it's been a nonstop hunt for parts across nearly every part of the supply chain \n\n \"Welcome to the Life of a Supply Chain Person at Dell\" Asked on the company's second-quarter earnings call about the state of supply constraints, Clarke gave a long list of shortages spanning nearl",
           "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html"
+          "article_url": "https://finance.yahoo.com/technology/ai/articles/dell-coo-jeff-clarke-reveals-154506925.html"
         }
       ]
     },
@@ -150,144 +146,74 @@
       "ticker": "STZ",
       "market": "해외",
       "candidates": 46,
-      "today_count": 5,
-      "stories": [
-        {
-          "title": "Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?",
-          "published_kst": "2026-09-06T18:34+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdmhxMnROYjJMcWJYRS1mUVYwOTRJd05xVm0tMTJPQ1NVMFNEbmI1M3ZNVEo1MVdMcUw2Z3VzdUhoc3FmaElUVHZ0VnJ1d0Q4cFhYTEZ1bjItWXgzalRGc0lOTHI1eTJGNm9VcDExQmVKTDNFakx1SndybzMwU2hZWWNfVUtBcFhKUlU2ZGM1dw?oc=5",
-              "published_kst": "2026-09-06T18:34+09:00"
-            },
-            "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html",
-              "published_kst": "2026-09-06T18:45+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "Shares of Constellation Brands ( STZ -0.70% ) have dropped 53% from their high to around $128, sitting just above a 52-week low of $126.45. The slide reflects muted growth expectations as weaker consumer spending has pressured sales.\n\n The key question is whether those low expectations go too far. At roughly 11 times forward earnings, the stock looks cheap for a company with exclusive U.S. distribution rights to some of the country's most popular imported beers. At this price, it may look more like a buy than one to avoid.\n\n Image source: Getty Images.\n\n Why the stock is down -- and what the market might be missing \n Constellation imports, markets, and sells several major Mexican beer brands, including Modelo, Corona, Pacifico, and Victoria, and it also owns wine brands like Kim Crawford. But higher gas prices and tighter discretionary budgets have made consumers more cautious, weighing ",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/09/06/should-you-avoid-constellation-brands-stock/"
-        }
-      ]
+      "today_count": 0,
+      "stories": []
     },
     "퍼스트솔라": {
       "ticker": "FSLR",
       "market": "해외",
-      "candidates": 52,
-      "today_count": 12,
+      "candidates": 53,
+      "today_count": 4,
       "stories": [
         {
-          "title": "First Solar stock eases after strong earnings beat and policy worries",
-          "published_kst": "2026-09-06T02:08+09:00",
+          "title": "First Solar (FSLR) Slides Before Earnings, Does The Pullback Signal Value?",
+          "published_kst": "2026-09-07T02:32+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "AD HOC NEWS",
-              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT1BfUHZBemFVeWUtdm5xUXRLUE16M3FqM0VZcjBMTlpwbXJOUjFYbzlwcE5Ha01BN21PRG9wUnBzZVJLdDYyWExaSjU1dURRVXcxbklyaUdoVmZtQk1qVlZZSE1GUzU4NFRZc0dsN1NXLUp0cHFVNHpHVUZNcGhMV3NFXy1RTjlDMVJrd00ySnBIM0FxSUl6a1J2OFJ3clhPWklfTm5iZEwyNEtfSDljZm9rYUs5Y01WM3NBSzhjLUtOTHVzRWg0?oc=5",
-              "published_kst": "2026-09-06T02:08+09:00"
+              "publisher": "simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQVlHLXRneUlsbllZdEJvOHhqZmM4RTFUM2kxaDRvcHRXQWdlRnhUWFVJSVVmODY1RUNYMHcxdzFNcGR6N2F5dHlGSUFYZ3VrRFU0SmtOcWFBczZFZFhJU2loTElPdWR2TGo0dlRPWGFZUUY2NXY0dEN2OWVNUm8xNldBZVJzYkV1dFAyQ0ZvTHBScXFEQ3drYU9FNkxEVFRmYWtTV2xEZ3c5YmJzMjN6ZjVZSEk4N21YRy10MlB5clR3YkZIM1pKZDBOdnBET3lkcHNkbk9tY9IB1wFBVV95cUxQQVlHLXRneUlsbllZdEJvOHhqZmM4RTFUM2kxaDRvcHRXQWdlRnhUWFVJSVVmODY1RUNYMHcxdzFNcGR6N2F5dHlGSUFYZ3VrRFU0SmtOcWFBczZFZFhJU2loTElPdWR2TGo0dlRPWGFZUUY2NXY0dEN2OWVNUm8xNldBZVJzYkV1dFAyQ0ZvTHBScXFEQ3drYU9FNkxEVFRmYWtTV2xEZ3c5YmJzMjN6ZjVZSEk4N21YRy10MlB5clR3YkZIM1pKZDBOdnBET3lkcHNkbk9tYw?oc=5",
+              "published_kst": "2026-09-07T02:32+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "First Solar stock is trading below recent highs after a strong earnings beat was followed by renewed policy and tariff concerns, keeping the solar manufacturer in focus for investors monitoring utility-scale demand and Washington debates.\nFirst Solar, Inc. stock (ISIN US35905A1097) is trading around the 204 dollar mark as of September 4, 2026, leaving the US solar manufacturer below recent highs despite a strong mid-year earnings beat and ongoing policy debates in Washington.\nAccording to a recent overview compiled by MarketBeat on September 5, 2026, First Solar reported quarterly earnings per share of 3.92 dollars, sharply above the consensus estimate of 2.90 dollars for its latest reported quarter, demonstrating robust profitability in its utility-scale photovoltaic business.\nThe same MarketBeat data shows that quarterly revenue came in at 1.06 billion dollars for that reporting period",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/first-solar-stock-eases-after-strong-earnings-beat-and-policy-worries/70058337"
+          "body": "First Solar (FSLR) Slides Before Earnings, Does The Pullback Signal Value? \n September 06, 2026 \n Simply Wall St \n Recent Stock Pressure Ahead of Earnings First Solar (FSLR) has declined more than 15% over the past month, underperforming the broader market, as investors look ahead to an earnings report that is expected to show EPS growth alongside softer revenue.\n At a share price of $204.45, First Solar is now well below its recent highs, with the 30 day share price return down 18.24% and the year to date share price return down 25.48%, even though the 5 year total shareholder return of 105.66% still reflects stronger long term performance. Recent weakness appears linked to investors reassessing growth expectations and risk ahead of earnings, rather than to any single new development.\n Compare First Solar's recent pullback with other potential opportunities and scan our curated 47 high ",
+          "body_source": "원문 본문 · simplywall.st",
+          "article_url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-fslr/first-solar/news/first-solar-fslr-slides-before-earnings-does-the-pullback-si/amp"
         }
       ]
     },
     "컨스텔레이션 에너지": {
       "ticker": "CEG",
       "market": "해외",
-      "candidates": 46,
-      "today_count": 6,
-      "stories": [
-        {
-          "title": "3 Nuclear Stocks to Buy With $2,000 After One Fell 83%",
-          "published_kst": "2026-09-06T05:43+09:00",
-          "relevance": "tagged",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-nuclear-stocks-buy-2-204301311.html",
-              "published_kst": "2026-09-06T05:43+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTlU1Z3dGbGJMMjd6RFZyZW55Y3FVa0VYRjNiQW05dzdEc0dYSmI4bDkxM3pVY2NNUFVwbnpoRDBXV2pvSUJXamlZVS01QXNTcG1PRjB0Z3p4SG82bkdBZ0RCMFZhNmQyYmk1c0tBY3N3Ul9pM25rY0Vfc1F4c0gyMVlhbGN0QUNtLUtjbHRQN3NzNllfMVRCNWNWSzRsQlU?oc=5",
-              "published_kst": "2026-09-06T06:23+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 5.5,
-          "body": "Shares of NuScale Power ( SMR -0.51% ) trade around $9.63 as of this writing, down about 83% from their $57.42 52-week high.\n But the demand that sent nuclear stocks soaring in the first place hasn't reversed. Constellation Energy ( CEG +4.88% ) , for instance, reported an additional 920 megawatts of long-term power purchase agreements alongside its second-quarter results.\n In other words, the crash and the demand can both be true at once, because these companies do very different jobs. NuScale designs reactors, Cameco ( CCJ +0.12% ) sells the fuel, and Constellation already sells the power. A $2,000 investment split across the three buys three different claims on the same electricity demand.\n\n Image source: The Motley Fool.\n\n 1. NuScale: approved designs, almost no revenue NuScale's reactor is the first and only small modular reactor design certified by the U.S. Nuclear Regulatory Commi",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/09/05/3-nuclear-stocks-to-buy-with-usd2-000-after-one-fell-83/"
-        }
-      ]
+      "candidates": 48,
+      "today_count": 0,
+      "stories": []
     },
     "비스트라 에너지": {
       "ticker": "VST",
       "market": "해외",
-      "candidates": 42,
-      "today_count": 2,
-      "stories": [
-        {
-          "title": "Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure",
-          "published_kst": "2026-09-06T22:07+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Blockonomi",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUVWV0gza2g0REFGbEhwaXpRdGhCbDE5M1JIS20zZ3N1dy1yVVUwZDhXcDhpLWJqRVNqTXYyWlV4UnVzNHMxNjlyZndrcVF3bXpRWWIwdkFqUXRKdTItNWZxcmpINzhNZ09NcWFoZWN6NkUtaFBkQm1qSEwzODU0bXB1ajFiNlF5U0h2cy13TWhsVEV6Z2Faemd4bnNjQk90?oc=5",
-              "published_kst": "2026-09-06T22:07+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "TLDR \n\n Table of Contents\n\n Toggle \n\n Thiel Macro LLC, managed by Peter Thiel, revealed ownership of 372,755 VST shares at Q2 2026 quarter-end, valued at approximately $59.1 million. \n Shares of VST advanced 3.5% to reach $149.27 on Friday, although trading significantly beneath recent peak levels. \n Wall Street analysts maintain a “Moderate Buy” rating with a consensus price target of $223.53, implying potential upside exceeding 49% from current prices. \n The company disappointed in Q2 with earnings per share of $0.76 versus the $1.61 consensus, while revenue of $4.02 billion fell short of the $5.46 billion forecast. \n Hedge fund ownership expanded to 111 funds at Q2 2026 close, up from 106 previously, with Appaloosa managing approximately 2.22 million VST shares. \n\n Shares of Vistra Corp. (VST) advanced 3.5% to $149.27 on Friday following the disclosure in a 13F filing that Thiel Macro",
-          "body_source": "원문 본문 · blockonomi.com",
-          "article_url": "https://blockonomi.com/vistra-vst-stock-gains-momentum-following-thiel-macros-59m-stake-disclosure/"
-        }
-      ]
+      "candidates": 44,
+      "today_count": 0,
+      "stories": []
     },
     "이오스 에너지": {
       "ticker": "EOSE",
       "market": "해외",
-      "candidates": 47,
-      "today_count": 6,
+      "candidates": 45,
+      "today_count": 3,
       "stories": [
         {
-          "title": "Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation",
-          "published_kst": "2026-09-06T06:29+09:00",
+          "title": "Eos Energy (EOSE) Is Up 19.0% After Google-Backed Long-Duration Storage Deal - Has The Bull Case Changed?",
+          "published_kst": "2026-09-07T00:26+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "accessnewswire.com",
-              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5",
-              "published_kst": "2026-09-06T06:29+09:00"
+              "publisher": "simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPV3NpZUw0NzFFaDRSNDU3b1RKRzdFMUEzR250V2tlaFRMei1yNUhmQWEtSC1zRkt3eEt6N3FPYkpTdEhXNzhwaHBoOUJrcm5ESks0WFVvdFFMdDhFbXZ3ZkRLaWxBaUNpRUl0M1RVMTJ6NjJTRXdlN2IzcFR3UHRfY0Y1cnMzTlRYX0ttb1VuMWVtcDJ5TzhGb0ZxRmRWV1piQkdGeFRKMS1wWXN2V1ItV0tJTVRXdDkwTHlJT3pfUEhiWmZzMXotajVnZDZvc3FEOEZnWExYbDV3VUc4UGfSAeMBQVVfeXFMUGZocHpEU3BRTkMxX2x1ZDF2aUpDTDFWMHJCdUNSQ2JWUjhYYnZ5U2RLMUR5eU5iMTFMcGlQOXhNU2sydzlWOEVSNDRlWUhsbkUxTVduNF9JNnBNdGUwLWNnWVFtNVg0MDhEV3duN1NRN2w3dDJyR3ZNejh3R0RHN0w5cm5HUGpqRjBKN2VtM0dXNzRDTnpHTWxSdUNNTjlyN21ZMGcyVnJKSGZpeGZMWVpFXzVUUjJfSUdpeFBpb29peF83SUNtbjNkTVRHN0dUNGd6NHh0eXVLUHRLLVE3eTdHSzQ?oc=5",
+              "published_kst": "2026-09-07T00:26+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "NEW YORK CITY, NY / ACCESS Newswire / September 3, 2026 / Bronstein, Gewirtz & Grossman, LLC is investigating potential claims on behalf of purchasers of Eos Energy Enterprises, Inc. (\"Eos Energy\" or \"the Company\") (NASDAQ:EOSE). Investors who purchased Eos Energy securities prior to November 5, 2025, and continue to hold to the present, are encouraged to obtain additional information and assist the investigation by visiting the firm's site: bgandg.com/EOSE.\nThe investigation concerns whether Eos Energy and certain of its officers and/or directors have engaged in corporate wrongdoing.\nIf you are aware of any facts relating to this investigation or purchased Eos Energy shares, you can assist this investigation by visiting the firm's site: bgandg.com/EOSE . You can also contact Peretz Bronstein or his client relations manager, Nathan Miller, of Bronstein, Gewirtz & Grossman, LLC: 917-590-0",
-          "body_source": "원문 본문 · www.accessnewswire.com",
-          "article_url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/bronstein-gewirtz-and-grossman-llc-encourages-eos-energy-enterpr-1214056"
+          "body": "Capitalize on the AI infrastructure supercycle with our selection of the 55 best 'picks and shovels' of the AI gold rush converting record-breaking demand into massive cash flow.\nTo own Eos Energy Enterprises, you need to believe its zinc based long duration batteries can become a meaningful part of grid and data center infrastructure, and that the company can fund and execute that scale up despite ongoing losses and dilution risk. The Google backed PJM project strengthens the long duration storage narrative, but it does not remove the near term overhang around cash burn, equity issuance, and execution at the Thorn Hill manufacturing facility.\nAmong the recent announcements, the US$184.34 million shelf registration stands out next to the Google project. It highlights how dependent Eos still is on external capital at a time when investors are watching cash runway and dilution closely. Tha",
+          "body_source": "원문 본문 · simplywall.st",
+          "article_url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-eose/eos-energy-enterprises/news/eos-energy-eose-is-up-190-after-google-backed-long-duration"
         }
       ]
     },
@@ -302,85 +228,76 @@
       "ticker": "CRDO",
       "market": "해외",
       "candidates": 47,
-      "today_count": 7,
+      "today_count": 1,
       "stories": [
         {
-          "title": "Credo Technology upgraded to Buy on strong AI-d...",
-          "published_kst": "2026-09-06T22:36+09:00",
+          "title": "Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances",
+          "published_kst": "2026-09-07T02:37+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Pluang",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTh0MkZ3cHpINHBBU2dubDJiWmJqb29BZkRTTEpwVVg3WHBIbHBKWFEyOFRFX3dNNWhDY3l5TUExME1fbl9GLTNIM05pSWxrRFd5ek15XzRtV0x0TnloWmlzblQ2WmNVTWlvdlkzZmlkVG9uMjVQQUlLQmhnbjFBVkg4Mk9JRjZfakEyd3JVUDNfelAzeTVR?oc=5",
-              "published_kst": "2026-09-06T22:36+09:00"
+              "publisher": "Investor's Business Daily",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWtqOUZjRl9sN004azF3ekxYQzc3dHdQUk44UXRTOEhpWVFJWHpmcUgxTnRTNTBHRVlJT1dBMkRPbUI4eklyVW9JajdTbXA1WDBkUHJRQXVzZG95UmpQRzJyV3R3NGNha2hqNE1uWnJRLVFrcnhFZkZVNmFjS2U1blh5TVctMWx0bjY3Rkphb2xFWlRyQ1lScE5vZWhaOEZQX2NGQkRvOXF1cFU?oc=5",
+              "published_kst": "2026-09-07T02:37+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 6.0,
-          "body": "US President pressures Fed to cut rates amid strong jobs report, risking market turmoil; investor favors AI and gold. The US President has demanded the Federal Reserve cut interest rates or face trade consequences with deficit countries, despite a strong labor market and inflation above target. This political pressure risks a bond market meltdown and loss of Fed cre...\n Market News \n Neutral\n · 1 day ago",
-          "body_source": "원문 본문 · pluang.com",
-          "article_url": "https://pluang.com/en/news-feed/kejatuhan-credo-peluang-capex-dan-pendinginan-perdagangan-ai"
+          "importance": 4.0,
+          "body": "Stock Market Today \n Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances \n Nasdaq in the stock market today.\n\n Licensing \n\n VIDYA RAMAKRISHNAN and SCOTT LEHTONEN \n Updated 04:52 PM ET 06/09/2026 \n\n Selling intensity tapered off by Tuesday's closing bell, with indexes paring steep losses that followed President Donald Trump's pledge to \"respond\" to what he said was Iran's downing of an Apache helicopter. Volatility ahead of inflation data was seen in intraday reversals that knocked stocks lower. Credo Technology (CRDO) climbed despite weakness in tech stocks. The Nasdaq composite fell 1%…\n\n Copyright ©2026 Investor's Business Daily, LLC. All rights reserved. 87990cbe856818d5eddac44c7b1cdeb8",
+          "body_source": "원문 본문 · www.investors.com",
+          "article_url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-micron-sandisk/"
         }
       ]
     },
     "시스코 시스템즈": {
       "ticker": "CSCO",
       "market": "해외",
-      "candidates": 53,
-      "today_count": 13,
+      "candidates": 50,
+      "today_count": 1,
       "stories": [
         {
-          "title": "Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings",
-          "published_kst": "2026-09-06T04:05+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html",
-              "published_kst": "2026-09-06T04:05+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmd2eHlmRTJndmszT2h5b2dCRnNwT1A0MTRlaXRlTFVDQV9raC1jSEFjeXd0cmRJbVRiNFdkaVVIVWxUaEY4MFJEX0psbFRhYTRIQWgxTWpwWjNMR015T0tYMWNTd05TZ2tUOHFUaHJHSDRwMDlHLTFEMUtraWpTZkNra2pQN0ZpbFRFMjBYRHNaZEJER3djRg?oc=5",
-              "published_kst": "2026-09-06T04:05+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 11.5,
-          "body": "Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings \n\n Bailey Pemberton \n Sun, September 6, 2026 at 4:05 AM GMT+9 5 min read \n\n CSCO \n\n Cisco Systems has more than doubled investors' money over the past five years, yet current valuation checks point to a stock that still screens as cheap relative to its estimated intrinsic value. Recent AI infrastructure announcements and security headlines add fresh context to a story that is increasingly about how much of Cisco's cash flow potential is already in the price. \n\n The stock has returned 116.9% over the past five years, which puts extra focus on whether recent gains already reflect Cisco Systems' long term cash generation potential. \n Ongoing investment in AI infrastructure and sovereign networks can support expectations for future cash flows, while concerns over margins and cybersecurity threats to core routing products may we",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html"
-        }
-      ]
-    },
-    "버티브 홀딩스": {
-      "ticker": "VRT",
-      "market": "해외",
-      "candidates": 45,
-      "today_count": 5,
-      "stories": [
-        {
-          "title": "VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?",
-          "published_kst": "2026-09-06T06:29+09:00",
+          "title": "Lakera vs Prisma AIRS vs Cisco AI Defense: $1B Deals [2026]",
+          "published_kst": "2026-09-07T06:29+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "stocktwits.com",
-              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5",
-              "published_kst": "2026-09-06T06:29+09:00"
+              "publisher": "tech-insider.org",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QWRDdmhveVNwclp3MXJnQ19EeDkwaWZOaVM1M1Y0bEtTQ2o4aENDTEZ6Sm8xVzJxX09rZkFCd2IzMDRZa2xMMHMzQVZGTFktdTZnUHlJRXBDczc2ZFNhRktSUnVXR3ZGUnZCS2N1WnFBdUIxMU1qNXcxQjk?oc=5",
+              "published_kst": "2026-09-07T06:29+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Through the deal, Vertiv will be able to simulate real-world high-density compute conditions and deploy the necessary solutions for its customers. The deal also aligns with the company’s broader strategy of helping data center customers manage increasing infrastructure complexity. An IEA report from April 2025 estimates that global water consumption for data centers could rise to around 1,200 billion liters per year in 2030 according to its base case. \n Advertisement | Remove ads. \n\n AI and IT infrastructure management company Vertiv Holdings (VRT) on Monday acquired Strategic Thermal Labs, a Texas-based company specializing in liquid cooling solutions for data center campuses.\n At the time of writing, VRT stock was up nearly 2%. The financial terms of the deal were not disclosed.\n Read Next Loading... \n Loading... \n\n Why Does The Deal Matter? As hyperscalers bring their data centers onl",
-          "body_source": "원문 본문 · stocktwits.com",
-          "article_url": "https://stocktwits.com/news-articles/markets/equity/vrt-stock-is-rising-today-what-s-the-deal-with-strategic-thermal-labs-about/cZZi9MDR7Hc"
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+        }
+      ]
+    },
+    "버티브 홀딩스": {
+      "ticker": "VRT",
+      "market": "해외",
+      "candidates": 46,
+      "today_count": 3,
+      "stories": [
+        {
+          "title": "Trump’s Venezuela Oil Deal",
+          "published_kst": "2026-09-07T01:03+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "WSJ",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMVVOTGFaQzg3NmhSaWQwejA1bm1GSGtxdFBBUGRMNTM2anRCcElSVHFDUW5vTkxMdGhtYjhieXZLUTVLTmVqaUlpbVpvcTh0aWRndHplNVFLZllmUVhvQ1FVbzd5eUdSXzNqZXpqelVjT01SWnM0OUJLRC1pQnNqNVNCZEhjSmVpNXZxTl83ZGkxdk1faV9KNVVzaUZWaTNRNl9KdkV6SFlnOFVOU2c0bEtNcnVvV05qQ3FYeHZWM2pjQWp0QjNMWV9PcDg?oc=5",
+              "published_kst": "2026-09-07T01:03+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 2.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     }
@@ -390,35 +307,44 @@
       "ticker": "MCD",
       "market": "해외",
       "candidates": 70,
-      "today_count": 31,
+      "today_count": 14,
       "stories": [
         {
-          "title": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.",
-          "published_kst": "2026-09-06T17:15+09:00",
+          "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
+          "published_kst": "2026-09-07T03:11+09:00",
           "relevance": "direct",
           "sources": {
             "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html",
-              "published_kst": "2026-09-06T17:15+09:00"
+              "publisher": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-exit-90-restaurant-181105022.html",
+              "published_kst": "2026-09-07T03:11+09:00"
             },
             "구글 뉴스 RSS": {
               "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejlMSHRIV3JPWEFZbG9Ic2lCVkJFUGpKUi1IemVMalp0aElwbnU2ZURNLXdGUUE3Y2s0N1U3THlNeUVYaTJ6YnF6Q1daejdrYjV6SVRJdDZ2c1ZJYTVsZnFXQWpsUzFWXzRRYW5xelRVXy0tRjFqNWFjR1lPRmtLOXpHZ2ZTSV9XVE85NFJyOTZTc05jMnNhd191eFU2aHVlYlB5eA?oc=5",
-              "published_kst": "2026-09-06T17:15+09:00"
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbmNnTlRmZXVVc19FVmVscXdjcGlsNUJROUNGQ1JBUzMzZ0JEbEdYQUxUdElWUWZaak9GNUtHLWJRN3lTR0VkcGxFamVmRTdLbmhvWVhTUTlTOEM1bjByWjFoZ1JVQzd0TUpMVTN0ck5BZlVZTVYzOFhuWmZVSjBCNjVUS1BSYUhuNWdoN2pGdEF2YVBnSGF1MnVKX3hGQQ?oc=5",
+              "published_kst": "2026-09-07T03:11+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 11.5,
-          "body": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell. \n\n James Brumley, The Motley Fool \n Sun, September 6, 2026 at 5:15 PM GMT+9 4 min read \n\n MCD \n\n NVDA \n\n Has your search for a new income-generating holding led you to McDonald's (NYSE: MCD) yet? Its forward-looking dividend yield of 2.9% is certainly respectable enough, although there's no denying you could find better. \n Nevertheless, if your portfolio needs more reliable cash flow or if you're just looking for a bargain, stepping into a long-term position in this fast-food restaurant chain's stock while it's down 24% from its February peak could be a brilliant decision. \n\n Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a \"Double Down\" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that same \"Total Conviction\" signal is fl",
+          "body": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors \n\n Bailey Pemberton \n Sun, September 6, 2026 at 11:11 AM PDT 3 min read \n\n MCD \n\n CMG \n\n McDonald's (NYSE:MCD) previously owned about 90% of Chipotle before exiting the investment in 2006. \n The company sold its stake as part of a refocus on its core fast food operations, leaving Chipotle to list and expand independently. \n A recent look back highlights how much long-term market value McDonald's did not capture by selling its Chipotle holding. \n Investors are using this episode to compare McDonald's approach with Chipotle's different growth and brand strategies over time. \n McDonald's is one example of how past portfolio decisions can shape a company's path. It can be useful to compare this story with other under-the-radar quality stocks in similar themes through our screener containing 17 high quality undiscovered ",
           "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html"
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-exit-90-restaurant-181105022.html"
         }
       ],
       "alert": "볼린저 하단 이탈",
       "alert_detail": "%B -0.019 · RSI 34.3 · 전일 대비 -1.52%"
+    },
+    "시에나": {
+      "ticker": "CIEN",
+      "market": "해외",
+      "candidates": 45,
+      "today_count": 0,
+      "stories": [],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.013 · RSI 33.9 · 전일 대비 +1.12%"
     }
   }
 }
