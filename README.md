@@ -140,11 +140,19 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 | 순서 | 제공처 | 키 | 비고 |
 | --- | --- | --- | --- |
 | 1 | OpenAI (`gpt-5.6-luna`) | `OPENAI_API_KEY` | Responses API + JSON 스키마 강제 |
-| 2 | 예비 (기본 Gemini `gemini-2.5-flash`) | `GEMINI_API_KEY` 또는 `FALLBACK_API_KEY` | OpenAI 호환 채팅 API |
+| 2 | 예비 (기본 Gemini) | `GEMINI_API_KEY` 또는 `FALLBACK_API_KEY` | OpenAI 호환 채팅 API |
 
-예비 제공처는 OpenAI 호환 엔드포인트면 무엇이든 됩니다. `FALLBACK_BASE_URL`과
-`FALLBACK_MODEL`만 바꾸면 다른 곳으로 갈아탈 수 있습니다. `json_schema`를 거부하는
+예비 제공처의 모델은 **자동으로 고릅니다.** 모델명을 고정하면 제공처가 그 모델을 내렸을 때
+404가 납니다(실제로 `gemini-2.5-flash`가 신규 사용자에게 막혔습니다). 그래서 모델 목록을 받아
+텍스트 생성용이 아닌 것(임베딩·이미지·음성 등)을 걸러낸 뒤 값싼 순서(`flash-lite` → `flash` → `mini`)로
+고르고, 같은 계열에서는 최신 버전을 집습니다. `FALLBACK_MODEL`을 지정하면 그게 우선입니다.
+
+예비 제공처는 OpenAI 호환 엔드포인트면 무엇이든 됩니다. `FALLBACK_BASE_URL`만 바꾸면
+다른 곳으로 갈아탈 수 있습니다. `json_schema`를 거부하는
 제공처를 위해 `json_object`로 물러서는 경로도 넣었습니다.
+
+2026-09-06 실측: OpenAI 한도 소진 상태에서 자동 전환되어 45건을 `gemini-flash-lite-latest`로
+1분 30초에 처리했습니다(입력 32,458 / 출력 8,433 토큰).
 
 > GitHub Models는 2026년 7월 30일자로 폐지되어 쓸 수 없습니다.
 에이전트 루프를 돌지 않고 API를 직접 호출하므로 비용과 실행 시간이 예측 가능합니다.
