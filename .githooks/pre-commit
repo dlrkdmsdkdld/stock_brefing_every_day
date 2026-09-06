@@ -1,0 +1,11 @@
+#!/bin/sh
+# 공개 저장소라 토큰이 섞여 들어가면 바로 노출된다. 스테이징된 내용에서 흔한 키 형태를 막는다.
+PATTERN='(ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|sk-ant-[A-Za-z0-9_-]{20,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|[0-9]{8,10}:AA[A-Za-z0-9_-]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----)'
+HIT=$(git diff --cached -U0 | grep -nE "^\+.*$PATTERN")
+if [ -n "$HIT" ]; then
+  echo "커밋 중단: 토큰으로 보이는 문자열이 있습니다."
+  echo "$HIT" | head -5
+  echo "환경변수나 GitHub 시크릿으로 옮기세요. 오탐이면 git commit --no-verify"
+  exit 1
+fi
+exit 0
