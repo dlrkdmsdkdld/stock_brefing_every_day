@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-09-06T21:32:56+09:00",
+  "generated_at": "2026-09-06T21:52:32+09:00",
   "analyst": "기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "gpt-5.6-luna",
   "usage": {
-    "input_tokens": 28362,
-    "output_tokens": 11087
+    "input_tokens": 1615,
+    "output_tokens": 709
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 50,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "mcdonaldshasraiseditsdividendeveryyearsince1976hereare3reasonsidbuyitandneversell": {
+      "title": "McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.",
+      "holding": "맥도날드",
+      "stance": "약한 호재",
+      "summary": "맥도날드는 올해 매출 성장 부진으로 2월 고점 대비 24% 하락했지만, 46,028개 매장을 보유한 회복력 있는 사업과 2.9%의 선도 배당수익률이 장기 투자 매력으로 제시됐다. 또한 가맹점의 건물 대부분을 소유하고 시장 기반 임대료를 받아 현금흐름과 배당을 안정적으로 뒷받침하며, CFO Ian Borden은 2026년 말까지 미국 사업의 고객 트래픽을 개선하겠다고 밝혔다.",
+      "impact": "주가 하락으로 밸류에이션 부담이 낮아졌다는 평가와 안정적인 임대수익·현금흐름은 배당 유지 및 장기 주가 회복에 긍정적이다. 미국 고객 트래픽 개선이 실제 매출 회복으로 이어질 경우 보유 종목에 추가 상승 동력이 될 수 있다.",
+      "caution": "기사 제목과 본문은 투자자의 매수 의견에 가까우며, 올해 매출 성장 부진의 구체적인 규모나 배당 재원에 대한 상세 수치는 제시되지 않았다."
+    },
+    "saudicentralbankraisesholdingsinmcdonaldscorporationmcd": {
+      "title": "Saudi Central Bank Raises Holdings in McDonald's Corporation $MCD",
+      "holding": "맥도날드",
+      "stance": "약한 호재",
+      "summary": "사우디 중앙은행은 2026년 2분기에 맥도날드 주식 23,442주를 추가 매수해 보유량을 19.3% 늘렸고, 총 144,728주(약 3,887만4,000달러)를 보유하게 됐다. 맥도날드는 분기 EPS 3.38달러로 예상치를 0.06달러 웃돌았고 매출은 전년 대비 3.7% 증가한 71억달러였지만 전망치를 소폭 하회했으며, 주가는 255.69달러로 12개월 저점 255.49달러에 가까웠다.",
+      "impact": "기관 투자자의 지분 확대와 EPS 전망 상회는 투자 심리 및 실적 신뢰도에 긍정적일 수 있다. 다만 매출 전망 미달과 미국 소비지출 약화 우려가 주가와 향후 실적을 제한할 수 있어 강한 호재로 보기는 어렵다.",
+      "caution": "사우디 중앙은행의 매수는 2분기 말 기준 과거 거래이며, 기관 보유 확대만으로 향후 주가 상승을 보장하지 않는다. 기사에는 애널리스트들의 목표가 하향과 가치 메뉴 효과에 대한 우려도 함께 언급돼 있다."
+    },
     "230만원70만원sk하이닉스보다심하다반토막에충격적리": {
       "title": "“230만원→70만원” SK하이닉스보다 심하다…‘반토막’에 충격적 리...",
       "holding": "SK하이닉스",

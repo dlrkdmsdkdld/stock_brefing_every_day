@@ -190,6 +190,39 @@ def stance_summary(stories, judged):
     return " · ".join(parts)
 
 
+def alert_section(prices, news, judged):
+    """볼린저 하단을 이탈한 종목과 그 뉴스. 관심 종목도 포함한다."""
+    by_ticker = {row["ticker"]: row for row in prices["holdings"]}
+    alerts = news.get("alerts", {})
+    lower = [row for row in prices["holdings"] if row.get("bb_position") == "하단 이탈"]
+    upper = [row for row in prices["holdings"] if row.get("bb_position") == "상단 이탈"]
+    lines = ["## 오늘의 특이점", ""]
+    if not lower and not upper:
+        return lines + ["- 볼린저밴드(20, 2σ)를 벗어난 종목이 없습니다.", ""]
+    if upper:
+        names = ", ".join(f"{row['name']}({row['ticker']}, %B {row['bb_percent_b']:.2f})"
+                          for row in sorted(upper, key=lambda r: -r["bb_percent_b"]))
+        lines += [f"**상단 이탈 {len(upper)}종목** — {names}", ""]
+    if not lower:
+        return lines + ["**하단 이탈 없음** — 하단을 벗어난 종목이 있으면 관련 뉴스를 함께 찾습니다.", ""]
+    lines += [f"**하단 이탈 {len(lower)}종목** — 관련 뉴스를 찾아 함께 싣습니다.", ""]
+    for row in sorted(lower, key=lambda r: r["bb_percent_b"]):
+        group = "보유" if row.get("group", "holding") == "holding" else "관심"
+        lines.append(f"### [{group}] {row['name']} ({row['ticker']}) "
+                     f"{amount(row)} {move(row)[0]}")
+        lines.append("")
+        lines.append(f"- %B {row['bb_percent_b']:.3f} · RSI {row['rsi']:.1f} "
+                     f"({row['rsi_zone']}) · 하단 밴드 {row['bb_lower']:,.2f}")
+        holding_news = alerts.get(row["name"]) or news["news"].get(row["name"])
+        stories = (holding_news or {}).get("stories") or []
+        if not stories:
+            lines.append("- 오늘자 관련 기사 없음")
+        for story in stories:
+            lines += story_lines(story, judged)
+        lines.append("")
+    return lines
+
+
 def news_section(prices_by_name, news, judged):
     """종목별로 접었다 펼 수 있게 <details>로 감싼다. GitHub 마크다운에서도 동작한다."""
     lines = []
@@ -331,6 +364,18 @@ section{display:flex; flex-direction:column}
           font-size:13px; color:var(--muted); max-width:72ch}
 .notes li b{color:var(--ink); font-weight:500}
 .warn{border-left:3px solid var(--up); padding-left:12px; margin-top:14px; font-size:13px}
+.alert{border:1px solid var(--line); border-left:3px solid var(--down); border-radius:3px;
+  background:var(--surface); padding:16px 18px; display:flex; flex-direction:column; gap:12px}
+.alert + .alert{margin-top:14px}
+.alert-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:9px}
+.alert-head h3{font-family:"Gowun Batang",serif; font-size:17px; font-weight:700; margin:0}
+.alert-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
+.alert-head .quote{font-family:"IBM Plex Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums}
+.metrics{display:flex; flex-wrap:wrap; gap:8px; font-family:"IBM Plex Mono",monospace;
+  font-size:11.5px; font-variant-numeric:tabular-nums; color:var(--muted)}
+.metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
+.upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
+.upper-note b{color:var(--up)}
 @media (max-width:720px){
   .row{grid-template-columns:1fr 104px 78px; row-gap:6px}
   .watch-row{grid-template-columns:1fr 100px 80px; row-gap:6px}
@@ -449,6 +494,38 @@ def tallies(stories, judged):
     return f'<span class="tallies">{"".join(chips)}</span>' if chips else ""
 
 
+def html_alerts(prices, news, judged):
+    alerts = news.get("alerts", {})
+    lower = [row for row in prices["holdings"] if row.get("bb_position") == "하단 이탈"]
+    upper = [row for row in prices["holdings"] if row.get("bb_position") == "상단 이탈"]
+    out = []
+    if upper:
+        names = ", ".join(f'{esc(row["name"])}({esc(row["ticker"])} %B {row["bb_percent_b"]:.2f})'
+                          for row in sorted(upper, key=lambda r: -r["bb_percent_b"]))
+        out.append(f'<p class="upper-note"><b>상단 이탈 {len(upper)}종목</b> — {names}</p>')
+    if not lower:
+        out.append('<p class="empty">볼린저밴드 하단을 벗어난 종목이 없습니다. '
+                   '하단을 벗어난 종목이 생기면 관련 뉴스를 찾아 여기에 싣습니다.</p>')
+        return "\n".join(out)
+    for row in sorted(lower, key=lambda r: r["bb_percent_b"]):
+        label, tone = move(row)
+        group = "보유" if row.get("group", "holding") == "holding" else "관심"
+        stories = ((alerts.get(row["name"]) or news["news"].get(row["name"])) or {}).get("stories") or []
+        body = "".join(html_story(story, judged) for story in stories) or (
+            '<p class="empty">오늘자 관련 기사 없음</p>')
+        out.append(
+            f'<div class="alert"><div class="alert-head">'
+            f'<span class="chip">{group}</span><h3>{esc(row["name"])}</h3>'
+            f'<span class="code">{esc(row["ticker"])}</span>'
+            f'<span class="quote {tone}">{amount(row)} · {label}</span></div>'
+            f'<div class="metrics"><span>%B {row["bb_percent_b"]:.3f}</span>'
+            f'<span>RSI {row["rsi"]:.1f} {esc(row["rsi_zone"])}</span>'
+            f'<span>하단 밴드 {row["bb_lower"]:,.2f}</span>'
+            f'<span>중심선 {row["bb_middle"]:,.2f}</span></div>'
+            f'<div class="stories">{body}</div></div>')
+    return "\n".join(out)
+
+
 def html_news(prices_by_name, news, judged):
     out = []
     for name, row in news["news"].items():
@@ -540,6 +617,11 @@ def render_html(now, prices, news):
       <div><p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
         {html_watch(watch)}</div>
     </div>
+  </section>
+
+  <section><h2>오늘의 특이점</h2>
+    <p class="byline">볼린저밴드(20, 2σ)를 벗어난 종목입니다. 하단을 이탈하면 관심 종목이라도 관련 뉴스를 찾아 함께 싣습니다.</p>
+    {html_alerts(prices, news, judged)}
   </section>
 
   <section><h2>종목별 오늘의 뉴스</h2>
@@ -635,7 +717,8 @@ def main():
     lines += ["", "## 보유 종목 · 해외", ""] + table(world)
     lines += ["", f"## 관심 종목 ({len(watch)})", "",
               "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""] + watch_table(watch)
-    lines += ["", "## 종목별 오늘의 뉴스", ""]
+    lines += [""] + alert_section(prices, news, judged)
+    lines += ["## 종목별 오늘의 뉴스", ""]
     if analyst:
         lines += [f"_{analyst}_", ""]
     lines += news_section(by_name, news, judged)

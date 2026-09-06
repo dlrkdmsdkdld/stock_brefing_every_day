@@ -68,6 +68,27 @@ def series(frame, column, cutoff):
     return [float(value) for value in closed_frame(frame, cutoff)[column]]
 
 
+def market_cap(symbol, price):
+    """시가총액. 상장주식수 x 우리가 쓰는 종가로 계산해 표시 가격과 기준을 맞춘다.
+
+    Yahoo가 주는 marketCap은 최신 체결가 기준이라 종가와 어긋날 수 있어 2순위로 둔다.
+    """
+    info = yf.Ticker(symbol).fast_info
+    try:
+        shares = info["shares"]
+        if shares:
+            return round(float(shares) * price), "상장주식수 x 종가"
+    except (KeyError, TypeError):
+        pass
+    try:
+        value = info["marketCap"]
+        if value:
+            return round(float(value)), "Yahoo marketCap(최신가 기준)"
+    except (KeyError, TypeError):
+        pass
+    raise ValueError("시가총액 정보 없음")
+
+
 def naver_close(ticker):
     """네이버 금융 일별 시세의 마지막 거래일 종가. 3번째 독립 출처."""
     url = f"https://m.stock.naver.com/api/stock/{ticker}/integration"
@@ -156,6 +177,12 @@ def fetch(item):
             if metadata.get("currency") != currency:
                 raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
             result["provider_name"] = metadata.get("longName") or metadata.get("shortName")
+            # 관심 종목은 시총순으로 정렬하므로 시가총액을 함께 받는다.
+            if item["group"] == "watch":
+                try:
+                    result["market_cap"], result["market_cap_source"] = market_cap(ticker, price)
+                except Exception as exc:
+                    result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
         result.update(price=round(price, 4), date=date.isoformat(), status="ok")
         # 직전 거래일 대비 등락률. 이전 값이 없으면 채우지 않고 비워 둔다.
         if previous:
@@ -175,7 +202,7 @@ def main():
     yf.set_tz_cache_location(str(Path(__file__).parent / ".cache" / "yfinance"))
     # 국내 요청은 순차 실행하여 과도한 호출을 피한다.
     results = [fetch(item) for item in ALL if item["currency"] == "KRW"]
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         results.extend(pool.map(fetch, [item for item in ALL if item["currency"] != "KRW"]))
     output = Path(__file__).parent / "prices.json"
     output.write_text(json.dumps(dict(

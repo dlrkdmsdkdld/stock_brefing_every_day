@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 import yfinance as yf
 
 import article
-from holdings import HOLDINGS  # 뉴스는 보유 종목만 수집한다
+from holdings import HOLDINGS, WATCHLIST
 
 KST = ZoneInfo("Asia/Seoul")
 AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
@@ -36,6 +36,43 @@ PER_HOLDING = 3        # 종목당 뉴스 건수
 SAME_STORY = 0.72      # 제목 유사도가 이 이상이면 같은 기사로 본다.
 FEED_LIMIT = 30
 BODY_LIMIT = 2500
+
+
+COMPANY_SUFFIX = re.compile(
+    r"[,]?\s*\b(inc|corp|corporation|company|co|ltd|limited|plc|holdings?|group|"
+    r"technologies|technology|s\.?a\.?|a/s|n\.?v\.?|the)\b\.?", re.I)
+
+
+def trading_name(provider_name, fallback):
+    """야후가 준 정식 상호에서 법인 접미어를 떼어 검색어로 쓸 이름을 만든다."""
+    name = COMPANY_SUFFIX.sub(" ", provider_name or "").strip(" ,.&")
+    name = re.sub(r"\s{2,}", " ", name)
+    return name or fallback
+
+
+def alert_targets(prices_path, watchlist):
+    """볼린저 하단을 이탈한 관심 종목. 보유 종목은 어차피 매일 수집하므로 제외한다.
+
+    관심 종목은 한글 표시명만 있어 구글 검색어로 못 쓴다. 그래서 prices.json에 남은
+    야후 상호(provider_name)에서 검색어와 키워드를 만든다.
+    """
+    if not prices_path.exists():
+        return []
+    rows = {row["ticker"]: row for row in
+            json.loads(prices_path.read_text(encoding="utf-8"))["holdings"]}
+    targets = []
+    for item in watchlist:
+        row = rows.get(item["ticker"])
+        if not row or row.get("bb_position") != "하단 이탈":
+            continue
+        name = trading_name(row.get("provider_name"), item["name"])
+        target = dict(item)
+        target.update(keywords=[name, item["ticker"]], query=f'"{name}"',
+                      alert="볼린저 하단 이탈",
+                      alert_detail=f"%B {row['bb_percent_b']:.3f} · RSI {row['rsi']:.1f} · "
+                                   f"전일 대비 {row.get('change_pct', 0):+.2f}%")
+        targets.append(target)
+    return targets
 
 
 def clean(text):
@@ -233,31 +270,45 @@ def main():
     yf.set_tz_cache_location(str(Path(__file__).parent / ".cache" / "yfinance"))
     now = datetime.now(KST)
     today = now.date()
-    summaries, results, errors = {}, {}, []
+    summaries, results, alerts, errors = {}, {}, {}, []
+    # 보유 종목은 매일 수집하고, 관심 종목은 볼린저 하단을 이탈했을 때만 수집한다.
+    watched = alert_targets(Path(__file__).parent / "prices.json", WATCHLIST)
+    targets = HOLDINGS + watched
+    if watched:
+        print(f"하단 이탈 관심 종목 {len(watched)}건 추가 수집: "
+              f"{', '.join(item['ticker'] for item in watched)}")
 
     # 종목이 늘어나도 전체 시간이 늘지 않도록 종목 단위로 병렬 처리한다.
     with ThreadPoolExecutor(max_workers=5) as pool:
         for item, stories, candidates, failures in pool.map(
-                lambda item: for_holding(item, summaries, today), HOLDINGS):
-            results[item["name"]] = dict(ticker=item["ticker"], market=item["market"],
-                                         candidates=candidates, stories=stories)
+                lambda item: for_holding(item, summaries, today), targets):
+            entry = dict(ticker=item["ticker"], market=item["market"],
+                         candidates=candidates, stories=stories)
+            if item.get("alert"):
+                entry.update(alert=item["alert"], alert_detail=item["alert_detail"])
+                alerts[item["name"]] = entry
+            else:
+                results[item["name"]] = entry
             errors.extend(failures)
 
-    total = sum(len(row["stories"]) for row in results.values())
-    confirmed = sum(story["source_count"] > 1 for row in results.values() for story in row["stories"])
-    bodied = sum("body" in story for row in results.values() for story in row["stories"])
+    every = list(results.values()) + list(alerts.values())
+    total = sum(len(row["stories"]) for row in every)
+    confirmed = sum(story["source_count"] > 1 for row in every for story in row["stories"])
+    bodied = sum("body" in story for row in every for story in row["stories"])
     output = Path(__file__).parent / "news.json"
     output.write_text(json.dumps(dict(
         fetched_at=now.isoformat(timespec="seconds"), today_kst=today.isoformat(),
         rule=f"발행 시각(KST) 기준 오늘 기사만, 종목당 최대 {PER_HOLDING}건. "
              "2개 이상 출처에 나타나면 cross_confirmed.",
         sources=dict(국내=["네이버 금융", "구글 뉴스 RSS"], 해외=["Yahoo Finance", "구글 뉴스 RSS"]),
-        counts=dict(종목=len(HOLDINGS), 기사=total, 교차확인=confirmed, 본문확보=bodied),
-        errors=errors, news=results), ensure_ascii=False, indent=2), encoding="utf-8")
+        counts=dict(종목=len(targets), 기사=total, 교차확인=confirmed, 본문확보=bodied,
+                    하단이탈=len(alerts)),
+        errors=errors, news=results, alerts=alerts), ensure_ascii=False, indent=2),
+        encoding="utf-8")
 
-    print(f"오늘(KST) {today} · {len(HOLDINGS)}종목 / 기사 {total}건 "
+    print(f"오늘(KST) {today} · {len(targets)}종목 / 기사 {total}건 "
           f"(교차확인 {confirmed} · 본문 {bodied})")
-    for name, row in results.items():
+    for name, row in {**results, **alerts}.items():
         if not row["stories"]:
             print(f"  {name}: 오늘자 기사 없음 (후보 {row['candidates']}건, 임의 대체 없음)")
             continue
@@ -269,7 +320,7 @@ def main():
     for message in errors:
         print(f"수집 오류: {message}", file=sys.stderr)
     print(f"저장: {output}")
-    empty = [name for name, row in results.items() if not row["stories"]]
+    empty = [name for name, row in {**results, **alerts}.items() if not row["stories"]]
     return 1 if empty or errors else 0
 
 
