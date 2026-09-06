@@ -194,6 +194,7 @@ def fetch(item):
     cutoff = cutoff_date(zone)
     start = today - timedelta(days=HISTORY_DAYS)
     result = dict(name=name, ticker=ticker, currency=currency, group=item["group"],
+                  sector=item.get("sector", "기타"),
                   source="pykrx/KRX" if korea else "yfinance/Yahoo Finance",
                   price_type="마감된 최근 거래일 종가(국내는 수정주가 기준)",
                   market_timezone=zone, status="error")

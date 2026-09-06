@@ -492,6 +492,18 @@ section{display:flex; flex-direction:column}
 .tabs .count{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); opacity:.65;
   margin-left:6px}
 .panel{display:flex; flex-direction:column; gap:30px}
+.sectors{display:flex; flex-wrap:wrap; gap:6px; margin:0 0 16px}
+.sectors button{font:inherit; font-size:var(--t-small); color:var(--muted);
+  background:var(--surface); border:1px solid var(--line); border-radius:100px;
+  padding:5px 13px; cursor:pointer}
+.sectors button:hover{color:var(--ink); border-color:var(--muted)}
+.sectors button[aria-selected="true"]{background:var(--rule); border-color:var(--rule);
+  color:#fff; font-weight:500}
+.sectors button[aria-selected="true"] .count{opacity:.8}
+.sectors button:focus-visible{outline:2px solid var(--rule); outline-offset:2px}
+.sectors .count{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro);
+  opacity:.6; margin-left:6px}
+.sector-panel[hidden]{display:none}
 .panel[hidden]{display:none}
 
 /* 표: 줄마다 선을 긋는 대신 옅은 줄무늬로 훑기 쉽게 한다. 65행을 눈으로 따라가야 해서다. */
@@ -764,6 +776,24 @@ def html_rows(rows, scale, with_nxt=False, prices=None):
     return "\n".join(out + ["</div>"])
 
 
+SECTOR_ORDER = ["AI·반도체", "AI 인프라·데이터센터", "빅테크·소프트웨어", "전력·에너지",
+                "산업·인프라", "소재·자원", "우주·방산·모빌리티", "금융·핀테크",
+                "헬스케어·바이오", "소비·배당", "기타"]
+
+
+def by_sector(rows):
+    """섹터별로 묶는다. 정해 둔 순서를 따르고, 목록에 없는 섹터는 뒤에 붙인다."""
+    groups = {}
+    for row in rows:
+        groups.setdefault(row.get("sector") or "기타", []).append(row)
+    ordered = [(name, groups.pop(name)) for name in SECTOR_ORDER if name in groups]
+    return ordered + sorted(groups.items())
+
+
+def sector_id(name):
+    return "sec-" + "".join(f"{ord(ch):x}" for ch in name)[:24]
+
+
 def html_watch(rows):
     out = ['<div class="rows">',
            '<div class="watch-row head"><span>종목</span><span class="num">시가총액</span>'
@@ -1009,6 +1039,21 @@ def render_html(now, prices, news):
                         f'{fx["average"]:+.2f}%지만, 환율 {fx["change_pct"]:+.2f}%를 반영한 '
                         f'<b>원화 기준으로는 {fx["won_average"]:+.2f}%</b>입니다.</p>')
 
+    sectors = by_sector(watch)
+    sector_buttons = "".join(
+        f'<button type="button" role="tab" data-sector="{sector_id(name)}" '
+        f'aria-selected="{"true" if index == 0 else "false"}">{esc(name)}'
+        f'<span class="count">{len(items)}</span></button>'
+        for index, (name, items) in enumerate(sectors))
+    sector_buttons = (f'<button type="button" role="tab" data-sector="sec-all" '
+                      f'aria-selected="false">전체<span class="count">{len(watch)}</span></button>'
+                      + sector_buttons)
+    sector_panels = "".join(
+        f'<div class="sector-panel" id="{sector_id(name)}"{"" if index == 0 else " hidden"}>'
+        f'{html_watch(items)}</div>'
+        for index, (name, items) in enumerate(sectors))
+    sector_panels += f'<div class="sector-panel" id="sec-all" hidden>{html_watch(watch)}</div>'
+
     warn = ""
     if problems:
         items = "".join(f"<div>{esc(row['name'])} ({esc(row['ticker'])}): {esc(row['status'])} · "
@@ -1055,8 +1100,9 @@ def render_html(now, prices, news):
       <div><p class="subhead">해외 · 종가 아래는 원화 환산</p>{html_rows(world, scale, prices=prices)}</div>
     </div>
     <div class="panel" id="panel-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
-      <div><p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
-        {html_watch(watch)}</div>
+      <p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
+      <div class="sectors" role="tablist">{sector_buttons}</div>
+      {sector_panels}
     </div>
   </section>
 
@@ -1084,6 +1130,17 @@ def render_html(now, prices, news):
   </section>
   <script>
   (function () {{
+    var sectors = Array.prototype.slice.call(document.querySelectorAll('.sectors button'));
+    sectors.forEach(function (button) {{
+      button.addEventListener("click", function () {{
+        sectors.forEach(function (other) {{
+          var on = other === button;
+          other.setAttribute("aria-selected", on ? "true" : "false");
+          var panel = document.getElementById(other.dataset.sector);
+          if (panel) {{ panel.hidden = !on; }}
+        }});
+      }});
+    }});
     var tabs = Array.prototype.slice.call(document.querySelectorAll('.tabs button'));
     tabs.forEach(function (tab) {{
       tab.addEventListener("click", function () {{
@@ -1173,7 +1230,9 @@ def main():
              "## 보유 종목 · 국내", ""] + table(korea, with_nxt=True)
     lines += ["", "## 보유 종목 · 해외", ""] + table(world)
     lines += ["", f"## 관심 종목 ({len(watch)})", "",
-              "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""] + watch_table(watch)
+              "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""]
+    for sector_name, items in by_sector(watch):
+        lines += [f"### {sector_name} ({len(items)})", ""] + watch_table(items) + [""]
     lines += [""] + pick_lines(recommendation())
     lines += spotlight_lines(prices)
     lines += alert_section(prices, news, judged)

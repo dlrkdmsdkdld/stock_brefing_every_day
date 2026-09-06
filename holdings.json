@@ -7,7 +7,8 @@
     "keywords": "기사 제목에 이 말이 있으면 '직접 언급'으로 본다",
     "query": "구글 뉴스 RSS 검색어. 해외는 큰따옴표로 묶으면 정확도가 오른다",
     "group": "holding(보유, 뉴스 수집함) 또는 watch(관심, 가격·지표만). 없으면 holding.",
-    "news": "false면 뉴스를 수집하지 않는다(가격·지표는 그대로). 없으면 true. 보유 종목에만 의미 있음."
+    "news": "false면 뉴스를 수집하지 않는다(가격·지표는 그대로). 없으면 true. 보유 종목에만 의미 있음.",
+    "sector": "관심 종목 분류. 브리핑에서 이 값으로 탭을 나눈다. 없으면 '기타'."
   },
   "holdings": [
     {
@@ -198,327 +199,548 @@
     {
       "name": "텍사스 인스트루먼트",
       "ticker": "TXN",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "마벨 테크놀로지",
       "ticker": "MRVL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "어플라이드 옵토일렉트로닉스",
       "ticker": "AAOI",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "휴렛팩커드 엔터프라이즈",
       "ticker": "HPE",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
     },
     {
       "name": "엔비디아",
       "ticker": "NVDA",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "테슬라",
       "ticker": "TSLA",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "아마존",
       "ticker": "AMZN",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
     },
     {
       "name": "오라클",
       "ticker": "ORCL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
     },
     {
       "name": "브로드컴",
       "ticker": "AVGO",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "코어위브",
       "ticker": "CRWV",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
     },
     {
       "name": "솔스티스 어드밴스드 머티리얼즈",
       "ticker": "SOLS",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소재·자원"
     },
     {
       "name": "세레브라스 시스템즈",
       "ticker": "CBRS",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "AMD",
       "ticker": "AMD",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "인텔",
       "ticker": "INTC",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "샌디스크",
       "ticker": "SNDK",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "마이크론",
       "ticker": "MU",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "코히런트",
       "ticker": "COHR",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "루멘텀",
       "ticker": "LITE",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI·반도체"
     },
     {
       "name": "케무어스",
       "ticker": "CC",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소재·자원"
     },
     {
       "name": "엔페이즈 에너지",
       "ticker": "ENPH",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "GE 버노바",
       "ticker": "GEV",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "블룸 에너지",
       "ticker": "BE",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "캐터필러",
       "ticker": "CAT",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "산업·인프라"
     },
     {
       "name": "넥스트에라 에너지",
       "ticker": "NEE",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "콴타 서비시스",
       "ticker": "PWR",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "산업·인프라"
     },
     {
       "name": "GE 에어로스페이스",
       "ticker": "GE",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "산업·인프라"
     },
     {
       "name": "USA 레어어스",
       "ticker": "USAR",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소재·자원"
     },
     {
       "name": "로빈후드",
       "ticker": "HOOD",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "에리스 매니지먼트",
       "ticker": "ARES",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "블랙스톤",
       "ticker": "BX",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "블루아울 캐피털",
       "ticker": "OWL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "서클 인터넷 그룹",
       "ticker": "CRCL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "코인베이스",
       "ticker": "COIN",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "소파이 테크놀로지스",
       "ticker": "SOFI",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "JP모건 체이스",
       "ticker": "JPM",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "비자",
       "ticker": "V",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "금융·핀테크"
     },
     {
       "name": "브리저 에어로스페이스",
       "ticker": "BAER",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "아이온큐",
       "ticker": "IONQ",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
     },
     {
       "name": "온다스 홀딩스",
       "ticker": "ONDS",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "뉴에라 에너지 앤 디지털",
       "ticker": "NUAI",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
     },
     {
       "name": "조비 에비에이션",
       "ticker": "JOBY",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "나테라",
       "ticker": "NTRA",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "헬스케어·바이오"
     },
     {
       "name": "앱셀레라 바이오로직스",
       "ticker": "ABCL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "헬스케어·바이오"
     },
     {
       "name": "노보노디스크 ADR",
       "ticker": "NVO",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "헬스케어·바이오"
     },
     {
       "name": "일라이 릴리",
       "ticker": "LLY",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "헬스케어·바이오"
     },
     {
       "name": "크라우드스트라이크",
       "ticker": "CRWD",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
     },
     {
       "name": "팔란티어",
       "ticker": "PLTR",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
     },
     {
       "name": "앱러빈",
       "ticker": "APP",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
     },
     {
       "name": "넷플릭스",
       "ticker": "NFLX",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
     },
     {
       "name": "애플",
       "ticker": "AAPL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
     },
     {
       "name": "메타 플랫폼스",
       "ticker": "META",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
     },
     {
       "name": "발레로 에너지",
       "ticker": "VLO",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "엑슨모빌",
       "ticker": "XOM",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "셰브론",
       "ticker": "CVX",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "옥시덴탈 페트롤리엄",
       "ticker": "OXY",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "전력·에너지"
     },
     {
       "name": "맥도날드",
       "ticker": "MCD",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소비·배당"
     },
     {
       "name": "유나이티드헬스 그룹",
       "ticker": "UNH",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "헬스케어·바이오"
     },
     {
       "name": "코카콜라",
       "ticker": "KO",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소비·배당"
     },
     {
       "name": "리얼티 인컴",
       "ticker": "O",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소비·배당"
     },
     {
       "name": "도미노피자",
       "ticker": "DPZ",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "소비·배당"
     },
     {
       "name": "스페이스 익스플로레이션 테크놀로지스",
       "ticker": "SPCX",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "레드와이어",
       "ticker": "RDW",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "AST 스페이스모바일",
       "ticker": "ASTS",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "로켓랩",
       "ticker": "RKLB",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     },
     {
       "name": "자일럼",
       "ticker": "XYL",
-      "currency": "USD"
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "DR호튼",
+      "ticker": "DHI",
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "테라다인",
+      "ticker": "TER",
+      "currency": "USD",
+      "sector": "AI·반도체"
+    },
+    {
+      "name": "MP 머티리얼스",
+      "ticker": "MP",
+      "currency": "USD",
+      "sector": "소재·자원"
+    },
+    {
+      "name": "ST마이크로일렉트로닉스",
+      "ticker": "STM",
+      "currency": "USD",
+      "sector": "AI·반도체"
+    },
+    {
+      "name": "힘스앤허스 헬스",
+      "ticker": "HIMS",
+      "currency": "USD",
+      "sector": "헬스케어·바이오"
+    },
+    {
+      "name": "램리서치",
+      "ticker": "LRCX",
+      "currency": "USD",
+      "sector": "AI·반도체"
+    },
+    {
+      "name": "네비우스 그룹",
+      "ticker": "NBIS",
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
+    },
+    {
+      "name": "아이렌",
+      "ticker": "IREN",
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
+    },
+    {
+      "name": "키사이트 테크놀로지스",
+      "ticker": "KEYS",
+      "currency": "USD",
+      "sector": "AI·반도체"
+    },
+    {
+      "name": "델타항공",
+      "ticker": "DAL",
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "이튼",
+      "ticker": "ETN",
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "알코아",
+      "ticker": "AA",
+      "currency": "USD",
+      "sector": "소재·자원"
+    },
+    {
+      "name": "오클로",
+      "ticker": "OKLO",
+      "currency": "USD",
+      "sector": "전력·에너지"
+    },
+    {
+      "name": "스포티파이",
+      "ticker": "SPOT",
+      "currency": "USD",
+      "sector": "빅테크·소프트웨어"
+    },
+    {
+      "name": "피규어 테크놀로지 솔루션스",
+      "ticker": "FIGR",
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
+    },
+    {
+      "name": "시에나",
+      "ticker": "CIEN",
+      "currency": "USD",
+      "sector": "AI·반도체"
+    },
+    {
+      "name": "암라이즈",
+      "ticker": "AMRZ",
+      "currency": "USD",
+      "sector": "소재·자원"
+    },
+    {
+      "name": "비트마인 이머션 테크놀로지스",
+      "ticker": "BMNR",
+      "currency": "USD",
+      "sector": "AI 인프라·데이터센터"
+    },
+    {
+      "name": "P&G",
+      "ticker": "PG",
+      "currency": "USD",
+      "sector": "소비·배당"
+    },
+    {
+      "name": "마스텍",
+      "ticker": "MTZ",
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "엠코 그룹",
+      "ticker": "EME",
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "썬런",
+      "ticker": "RUN",
+      "currency": "USD",
+      "sector": "전력·에너지"
+    },
+    {
+      "name": "크리티컬 메탈스",
+      "ticker": "CRML",
+      "currency": "USD",
+      "sector": "소재·자원"
+    },
+    {
+      "name": "웨스턴 디지털",
+      "ticker": "WDC",
+      "currency": "USD",
+      "sector": "AI·반도체"
+    },
+    {
+      "name": "엔벤트 일렉트릭",
+      "ticker": "NVT",
+      "currency": "USD",
+      "sector": "산업·인프라"
+    },
+    {
+      "name": "드라간플라이",
+      "ticker": "DPRO",
+      "currency": "USD",
+      "sector": "우주·방산·모빌리티"
     }
   ]
 }

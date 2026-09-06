@@ -22,6 +22,7 @@ def _normalize(item, group):
     item["group"] = group
     # 관심 종목은 평소 뉴스를 안 보고, 보유 종목은 news:false일 때만 건너뛴다.
     item["news"] = bool(item.get("news", group == "holding"))
+    item["sector"] = item.get("sector") or "기타"
     return item
 
 
