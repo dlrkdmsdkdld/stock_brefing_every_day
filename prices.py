@@ -89,25 +89,47 @@ def korean_market_cap(ticker):
     return total, f"네이버 표시값({text})"
 
 
-def market_cap(symbol, price):
-    """시가총액. 상장주식수 x 우리가 쓰는 종가로 계산해 표시 가격과 기준을 맞춘다.
+def field(info, name):
+    try:
+        value = info[name]
+        return float(value) if value is not None else None
+    except (KeyError, TypeError, ValueError):
+        return None
 
-    Yahoo가 주는 marketCap은 최신 체결가 기준이라 종가와 어긋날 수 있어 2순위로 둔다.
+
+def quote_extras(symbol, price, want_cap=True):
+    """시가총액·52주 위치·거래량 배수를 한 번의 조회로 모두 가져온다.
+
+    fast_info 호출 한 번에 다 들어 있으므로 따로 요청하지 않는다.
+    거래량 배수는 '오늘 얼마나 평소보다 많이 거래됐나'를 보는 지표라 관심을 끈 종목을 찾는 데 쓴다.
     """
     info = yf.Ticker(symbol).fast_info
-    try:
-        shares = info["shares"]
+    extras = {}
+
+    if want_cap:
+        shares = field(info, "shares")
         if shares:
-            return round(float(shares) * price), "상장주식수 x 종가"
-    except (KeyError, TypeError):
-        pass
-    try:
-        value = info["marketCap"]
-        if value:
-            return round(float(value)), "Yahoo marketCap(최신가 기준)"
-    except (KeyError, TypeError):
-        pass
-    raise ValueError("시가총액 정보 없음")
+            extras["market_cap"] = round(shares * price)
+            extras["market_cap_source"] = "상장주식수 x 종가"
+        else:
+            value = field(info, "marketCap")
+            if value:
+                extras["market_cap"] = round(value)
+                extras["market_cap_source"] = "Yahoo marketCap(최신가 기준)"
+
+    high, low = field(info, "yearHigh"), field(info, "yearLow")
+    if high and low and high > low:
+        extras.update(year_high=round(high, 4), year_low=round(low, 4),
+                      year_position=round((price - low) / (high - low), 3),
+                      from_year_high=round((price / high - 1) * 100, 2),
+                      from_year_low=round((price / low - 1) * 100, 2))
+
+    volume = field(info, "lastVolume")
+    average = field(info, "tenDayAverageVolume")
+    if volume and average and average > 0:
+        extras.update(volume=int(volume), volume_avg10=int(average),
+                      volume_ratio=round(volume / average, 2))
+    return extras
 
 
 def naver_close(ticker):
@@ -187,6 +209,11 @@ def fetch(item):
                 result["market_cap"], result["market_cap_source"] = korean_market_cap(ticker)
             except Exception as exc:
                 result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
+            # 국내 시총은 네이버를 쓰지만 52주·거래량은 Yahoo에서 받는다.
+            try:
+                result.update(quote_extras(ticker + ".KS", price, want_cap="market_cap" not in result))
+            except Exception as exc:
+                result["extras_error"] = f"{type(exc).__name__}: {exc}"
             check(result, "yahoo_check", date, price,
                   lambda: (None,) + yahoo_close(ticker + ".KS", start, cutoff)[1][:2])
             check(result, "naver_check", date, price, lambda: naver_close(ticker))
@@ -202,11 +229,11 @@ def fetch(item):
             if metadata.get("currency") != currency:
                 raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
             result["provider_name"] = metadata.get("longName") or metadata.get("shortName")
-            # 표를 시총순으로 정렬하므로 보유·관심 모두 시가총액을 받는다.
+            # 시총·52주 위치·거래량 배수를 한 번에 받는다.
             try:
-                result["market_cap"], result["market_cap_source"] = market_cap(ticker, price)
+                result.update(quote_extras(ticker, price))
             except Exception as exc:
-                result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
+                result["extras_error"] = f"{type(exc).__name__}: {exc}"
         result.update(price=round(price, 4), date=date.isoformat(), status="ok")
         # 직전 거래일 대비 등락률. 이전 값이 없으면 채우지 않고 비워 둔다.
         if previous:

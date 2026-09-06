@@ -10,6 +10,7 @@
 """
 import html
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -32,7 +33,7 @@ AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
 BROWSER = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
            "Accept-Language": "ko,en;q=0.8"}
-PER_HOLDING = 3        # 종목당 뉴스 건수
+PER_HOLDING = int(os.getenv("PER_HOLDING", "1"))   # 종목당 뉴스 건수
 SAME_STORY = 0.72      # 제목 유사도가 이 이상이면 같은 기사로 본다.
 FEED_LIMIT = 30
 BODY_LIMIT = 2500
@@ -205,14 +206,50 @@ def cluster(rows):
     return stories
 
 
-def pick(rows, today):
-    """오늘자만 남기고 종목 직접 언급 > 본문 확보 가능 > 상호검증 > 최신순으로 고른다.
+# 주가에 실제로 영향을 주는 사건들. 제목에 있으면 중요도를 올린다.
+SIGNAL = (
+    "실적", "영업이익", "매출", "목표주가", "상향", "하향", "가이던스", "전망치",
+    "수주", "계약", "인수", "합병", "지분", "증설", "투자", "신제품", "출시", "양산",
+    "급등", "급락", "신고가", "신저가", "점유율", "리콜", "소송", "제재", "규제", "조사",
+    "파업", "화재", "사고", "배당", "자사주", "감산", "공급",
+    "earnings", "revenue", "guidance", "outlook", "upgrade", "downgrade", "price target",
+    "acquisition", "acquire", "merger", "deal", "contract", "order", "stake", "buyback",
+    "dividend", "launch", "recall", "lawsuit", "probe", "investigation", "antitrust",
+    "surge", "plunge", "soar", "tumble", "beats", "misses", "cuts", "raises", "warns",
+)
+# 주가와 무관한 홍보성 기사들. 1건만 고를 때 이런 게 뽑히면 브리핑이 쓸모없어진다.
+NOISE = (
+    "행사", "캠페인", "봉사", "사회공헌", "기부", "장학", "채용설명", "공모전", "전시회 참가",
+    "환경의 날", "임직원", "동호회", "시상", "수상 소감",
+    "teacher", "award", "sponsorship", "charity", "donat", "scholarship", "volunteer",
+    "celebrat", "anniversary", "holiday", "recipe", "menu",
+)
 
-    요약할 수 없는 기사는 브리핑에서 값이 낮으므로, 본문을 붙일 수 있는지를 교차검증보다 앞에 둔다.
+
+def importance(story):
+    """1건만 고를 때 쓰는 중요도 점수.
+
+    여러 매체가 같이 다룬 기사일수록, 종목이 제목에 직접 나올수록, 실적·수주·규제처럼
+    주가에 영향을 주는 사건일수록 높다. 홍보성 기사는 감점한다.
     """
+    title = story["title"].lower()
+    score = 0.0
+    if story["relevance"] == "direct":
+        score += 4
+    if story["explainable"]:          # 본문을 읽을 수 있어야 요약이 된다
+        score += 3
+    score += 2.5 * (story["source_count"] - 1)
+    score += 2 * sum(1 for word in SIGNAL if word.lower() in title)
+    score -= 4 * sum(1 for word in NOISE if word.lower() in title)
+    return score
+
+
+def pick(rows, today):
+    """오늘자만 남기고 중요도 순으로 고른다. 점수가 같으면 최신 기사를 앞에 둔다."""
     stories = [story for story in cluster(rows) if story["published_kst"][:10] == today.isoformat()]
-    stories.sort(key=lambda story: (story["relevance"] == "direct", story["explainable"],
-                                    story["source_count"] > 1, story["published_kst"]), reverse=True)
+    for story in stories:
+        story["importance"] = round(importance(story), 1)
+    stories.sort(key=lambda story: (story["importance"], story["published_kst"]), reverse=True)
     return stories
 
 
@@ -316,7 +353,8 @@ def main():
         for story in row["stories"]:
             mark = "교차확인" if story["source_count"] > 1 else "단일출처"
             tag = "" if story["relevance"] == "direct" else " [태그만]"
-            print(f"    - {story['published_kst'][11:16]} {story['title'][:58]}{tag} · {mark}")
+            print(f"    - {story['published_kst'][11:16]} {story['title'][:52]}{tag} "
+                  f"· {mark} · 중요도 {story['importance']}")
     for message in errors:
         print(f"수집 오류: {message}", file=sys.stderr)
     print(f"저장: {output}")

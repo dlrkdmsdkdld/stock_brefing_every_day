@@ -7,6 +7,7 @@
 import html
 import json
 import re
+import os
 import urllib.parse
 import urllib.request
 
@@ -14,7 +15,7 @@ BROWSER = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
            "Accept-Language": "ko,en;q=0.8",
            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
-BODY_LIMIT = 2500
+BODY_LIMIT = int(os.getenv("BODY_LIMIT", "900"))
 MIN_BODY = 200
 DECODE_API = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
 

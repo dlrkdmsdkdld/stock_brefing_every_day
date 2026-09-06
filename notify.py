@@ -172,6 +172,29 @@ def build(prices, news, judged):
                          f"{move(row)}{extra}{tech(row)}")
         lines.append("")
 
+    spots = [
+        ("상승", sorted([r for r in every if (r.get("change_pct") or 0) > 0],
+                        key=lambda r: -r["change_pct"])[:3], lambda r: f"{r['change_pct']:+.2f}%"),
+        ("하락", sorted([r for r in every if (r.get("change_pct") or 0) < 0],
+                        key=lambda r: r["change_pct"])[:3], lambda r: f"{r['change_pct']:+.2f}%"),
+        ("거래량 급증", sorted([r for r in every if r.get("volume_ratio", 0) >= 1.5],
+                           key=lambda r: -r["volume_ratio"])[:3],
+         lambda r: f"{r['volume_ratio']:.1f}배"),
+        ("52주 신고가 근접", sorted([r for r in every if (r.get("from_year_high") or -99) >= -3],
+                              key=lambda r: -r["from_year_high"])[:3],
+         lambda r: f"{r['from_year_high']:+.1f}%"),
+        ("52주 신저가 근접", sorted([r for r in every if (r.get("from_year_low") or 99) <= 5],
+                              key=lambda r: r["from_year_low"])[:3],
+         lambda r: f"{r['from_year_low']:+.1f}%"),
+    ]
+    shown = [(title, rows, render) for title, rows, render in spots if rows]
+    if shown:
+        lines.append("<b>🔥 오늘의 주목</b>")
+        for title, rows, render in shown:
+            body = ", ".join(f"{esc(r['name'])} {render(r)}" for r in rows)
+            lines.append(f"{title}: {body}")
+        lines.append("")
+
     if watch:
         lines.append(f"<b>[관심 종목 {len(watch)} · 시총순]</b>")
         for row in sorted(watch, key=cap_key, reverse=True):

@@ -209,6 +209,55 @@ def stance_summary(stories, judged):
     return " · ".join(parts)
 
 
+def spotlight(prices):
+    """오늘 눈에 띄는 종목을 데이터만으로 뽑는다. 모델을 쓰지 않으므로 토큰이 들지 않는다."""
+    rows = [row for row in prices["holdings"] if row.get("change_pct") is not None]
+    tag = lambda row: "보유" if row.get("group", "holding") == "holding" else "관심"
+    moved = sorted(rows, key=lambda r: r["change_pct"], reverse=True)
+    volume = [r for r in rows if r.get("volume_ratio", 0) >= 1.5]
+    near_high = [r for r in rows if r.get("from_year_high") is not None
+                 and r["from_year_high"] >= -3]
+    near_low = [r for r in rows if r.get("from_year_low") is not None
+                and r["from_year_low"] <= 5]
+    hot = [r for r in rows if r.get("rsi") is not None and r["rsi"] >= 70]
+    cold = [r for r in rows if r.get("rsi") is not None and r["rsi"] <= 30]
+    return dict(
+        tag=tag,
+        up=[r for r in moved if r["change_pct"] > 0][:5],
+        down=[r for r in moved if r["change_pct"] < 0][-5:][::-1],
+        volume=sorted(volume, key=lambda r: -r["volume_ratio"])[:5],
+        near_high=sorted(near_high, key=lambda r: -r["from_year_high"])[:5],
+        near_low=sorted(near_low, key=lambda r: r["from_year_low"])[:5],
+        hot=sorted(hot, key=lambda r: -r["rsi"])[:5],
+        cold=sorted(cold, key=lambda r: r["rsi"])[:5])
+
+
+def spotlight_lines(prices):
+    view = spotlight(prices)
+    tag = view["tag"]
+    lines = ["## 오늘의 주목", "",
+             "가격 데이터만으로 뽑았습니다. 모델을 쓰지 않으므로 추가 비용이 없습니다.", ""]
+    blocks = [
+        ("상승 상위", view["up"], lambda r: f"{r['change_pct']:+.2f}%"),
+        ("하락 상위", view["down"], lambda r: f"{r['change_pct']:+.2f}%"),
+        ("거래량 급증 (10일 평균 대비)", view["volume"],
+         lambda r: f"{r['volume_ratio']:.1f}배 · {r['change_pct']:+.2f}%"),
+        ("52주 신고가 근접 (-3% 이내)", view["near_high"],
+         lambda r: f"고점 대비 {r['from_year_high']:+.1f}%"),
+        ("52주 신저가 근접 (+5% 이내)", view["near_low"],
+         lambda r: f"저점 대비 {r['from_year_low']:+.1f}%"),
+        ("RSI 과매수 (70 이상)", view["hot"], lambda r: f"RSI {r['rsi']:.1f}"),
+        ("RSI 과매도 (30 이하)", view["cold"], lambda r: f"RSI {r['rsi']:.1f}"),
+    ]
+    for title, rows, render in blocks:
+        if not rows:
+            continue
+        body = ", ".join(f"{r['name']}({tag(r)}, {render(r)})" for r in rows)
+        lines.append(f"- **{title}** — {body}")
+    lines.append("")
+    return lines
+
+
 def alert_section(prices, news, judged):
     """볼린저 하단을 이탈한 종목과 그 뉴스. 관심 종목도 포함한다."""
     by_ticker = {row["ticker"]: row for row in prices["holdings"]}
@@ -401,6 +450,16 @@ section{display:flex; flex-direction:column}
   font-size:11.5px; font-variant-numeric:tabular-nums; color:var(--muted)}
 .metrics span{background:var(--chip); border-radius:3px; padding:2px 8px}
 .upper-note{font-size:13px; color:var(--muted); margin:0 0 14px; max-width:74ch}
+.spot{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+.spot section{border:1px solid var(--line); border-radius:4px; background:var(--surface);
+  padding:13px 15px; gap:7px; box-shadow:var(--shadow)}
+.spot h3{margin:0; font-size:12px; letter-spacing:.05em; color:var(--muted); font-weight:600}
+.spot ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:5px}
+.spot li{display:flex; justify-content:space-between; gap:10px; font-size:13px; align-items:baseline}
+.spot li b{font-weight:500}
+.spot .who{font-size:10px; color:var(--muted); margin-left:4px}
+.spot .val{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:12.5px; white-space:nowrap}
 .upper-note b{color:var(--up)}
 @media (max-width:720px){
   /* 좁은 화면에서는 표를 카드처럼 쌓는다. 열 7개를 가로로 욱여넣으면 읽을 수가 없다. */
@@ -572,6 +631,31 @@ def tallies(stories, judged):
     return f'<span class="tallies">{"".join(chips)}</span>' if chips else ""
 
 
+def html_spotlight(prices):
+    view = spotlight(prices)
+    tag = view["tag"]
+    blocks = [
+        ("상승 상위", view["up"], lambda r: (f"{r['change_pct']:+.2f}%", "up")),
+        ("하락 상위", view["down"], lambda r: (f"{r['change_pct']:+.2f}%", "down")),
+        ("거래량 급증 · 10일 평균 대비", view["volume"],
+         lambda r: (f"{r['volume_ratio']:.1f}배 {r['change_pct']:+.2f}%",
+                    "up" if r["change_pct"] > 0 else "down")),
+        ("52주 신고가 근접", view["near_high"], lambda r: (f"{r['from_year_high']:+.1f}%", "up")),
+        ("52주 신저가 근접", view["near_low"], lambda r: (f"{r['from_year_low']:+.1f}%", "down")),
+        ("RSI 과매수 70↑", view["hot"], lambda r: (f"{r['rsi']:.1f}", "up")),
+        ("RSI 과매도 30↓", view["cold"], lambda r: (f"{r['rsi']:.1f}", "down")),
+    ]
+    out = ['<div class="spot">']
+    for title, rows, render in blocks:
+        if not rows:
+            continue
+        items = "".join(
+            f'<li><b>{esc(row["name"])}<span class="who">{tag(row)}</span></b>'
+            f'<span class="val {render(row)[1]}">{render(row)[0]}</span></li>' for row in rows)
+        out.append(f'<section><h3>{esc(title)}</h3><ul>{items}</ul></section>')
+    return "\n".join(out + ["</div>"])
+
+
 def html_alerts(prices, news, judged):
     alerts = news.get("alerts", {})
     lower = [row for row in prices["holdings"] if row.get("bb_position") == "하단 이탈"]
@@ -706,6 +790,11 @@ def render_html(now, prices, news):
     </div>
   </section>
 
+  <section><h2>오늘의 주목</h2>
+    <p class="byline">가격 데이터만으로 뽑았습니다. 모델을 쓰지 않으므로 추가 비용이 없습니다.</p>
+    {html_spotlight(prices)}
+  </section>
+
   <section><h2>오늘의 특이점</h2>
     <p class="byline">볼린저밴드(20, 2σ)를 벗어난 종목입니다. 하단을 이탈하면 관심 종목이라도 관련 뉴스를 찾아 함께 싣습니다.</p>
     {html_alerts(prices, news, judged)}
@@ -805,7 +894,8 @@ def main():
     lines += ["", "## 보유 종목 · 해외", ""] + table(world)
     lines += ["", f"## 관심 종목 ({len(watch)})", "",
               "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""] + watch_table(watch)
-    lines += [""] + alert_section(prices, news, judged)
+    lines += [""] + spotlight_lines(prices)
+    lines += alert_section(prices, news, judged)
     lines += ["## 종목별 오늘의 뉴스", ""]
     if analyst:
         lines += [f"_{analyst}_", ""]
