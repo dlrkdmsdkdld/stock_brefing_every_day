@@ -160,6 +160,18 @@ def build(prices, news, judged):
              f"최고 {esc(best['name'])} {best.get('change_pct', 0):+.2f}% / "
              f"최저 {esc(worst['name'])} {worst.get('change_pct', 0):+.2f}%", ""]
 
+    # 밴드 하단 이탈은 가장 먼저 보여야 하므로 첫 메시지 맨 앞에 둔다.
+    breached = sorted([row for row in every if row.get("bb_position") == "하단 이탈"],
+                      key=lambda row: row.get("bb_percent_b", 0))
+    if breached:
+        lines.append(f"<b>🔻 밴드 하단 이탈 {len(breached)}종목</b>")
+        for row in breached:
+            group = "보유" if row.get("group", "holding") == "holding" else "관심"
+            lines.append(f"{esc(row['name'])} ({esc(row['ticker'])}, {group})  {money(row)}  "
+                         f"{move(row)}  %B {row['bb_percent_b']:.3f} · RSI {row['rsi']:.0f}")
+        lines.append("")
+
+
     for market, currency in (("국내", "KRW"), ("해외", "USD")):
         rows = [row for row in holdings if row["currency"] == currency]
         if not rows:

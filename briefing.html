@@ -119,7 +119,32 @@ section{display:flex; flex-direction:column}
 .tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:var(--t-micro);
   color:var(--muted); margin-top:1px}
 .band{font-size:var(--t-small); text-align:center; white-space:nowrap}
-.band.up,.band.down{font-weight:600}
+/* 밴드 이탈은 표에서도 바로 눈에 띄어야 해서 칩으로 채운다. */
+.band.up,.band.down{font-weight:600; border-radius:3px; padding:3px 7px; color:#fff}
+.band.up{background:var(--up)}
+.band.down{background:var(--down)}
+
+.breach{border:1px solid var(--down); border-left:4px solid var(--down); border-radius:4px;
+  background:var(--surface); padding:16px 18px; display:flex; flex-direction:column; gap:12px;
+  box-shadow:var(--shadow)}
+.breach-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 12px}
+.breach-tag{background:var(--down); color:#fff; font-size:var(--t-micro); font-weight:600;
+  letter-spacing:.05em; border-radius:3px; padding:3px 9px}
+.breach-head b{font-family:"IBM Plex Mono",monospace; font-size:var(--t-lead); font-weight:500}
+.breach-note{font-size:var(--t-small); color:var(--muted); flex:1 1 260px; line-height:1.6}
+.breach-note a{color:var(--rule)}
+.breach-list{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px}
+.breach-item{display:flex; flex-direction:column; gap:3px; text-decoration:none; color:inherit;
+  border:1px solid var(--line); border-radius:3px; padding:11px 13px; background:var(--ground)}
+.breach-item:hover{border-color:var(--down)}
+.breach-item:focus-visible{outline:2px solid var(--down); outline-offset:2px}
+.breach-name{font-weight:500; font-size:var(--t-base)}
+.breach-name small{display:block; font-family:"IBM Plex Mono",monospace;
+  font-size:var(--t-micro); color:var(--muted); font-weight:400; margin-top:1px}
+.breach-num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:var(--t-compact)}
+.breach-metric{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro);
+  color:var(--muted); font-variant-numeric:tabular-nums}
 .verdict{font-size:var(--t-micro); color:var(--muted); text-align:right; line-height:1.45}
 
 /* 종목별 뉴스 */
@@ -317,12 +342,14 @@ section{display:flex; flex-direction:column}
     <div class="eyebrow">Daily Portfolio Brief</div>
     <h1>보유 18종목 브리핑</h1>
     <div class="dateline">
-      <span>작성 <b>2026-09-06 23:39 KST</b></span>
+      <span>작성 <b>2026-09-06 23:52 KST</b></span>
       <span>종가 기준일 <b>2026-09-04</b></span>
       <span>뉴스 <b>2026-09-06 발행분 13건</b></span>
       <span>환율 <b class="down">₩1,351.10</b> <span class="down">-0.32%</span></span>
     </div>
   </header>
+
+  <section class="breach"><div class="breach-head"><span class="breach-tag">밴드 하단 이탈</span><b>2종목</b><span class="breach-note">20일 이동평균 −2σ 아래로 내려갔습니다. 관련 뉴스는 <a href="#alerts">오늘의 특이점</a>에 있습니다.</span></div><div class="breach-list"><a class="breach-item" href="#alerts"><span class="breach-name">맥도날드<small>MCD · 관심</small></span><span class="breach-num">$255.69 <b class="down">▼ -1.52%</b></span><span class="breach-metric">%B -0.019 · RSI 34.3</span></a><a class="breach-item" href="#alerts"><span class="breach-name">시에나<small>CIEN · 관심</small></span><span class="breach-num">$321.00 <b class="up">▲ +1.12%</b></span><span class="breach-metric">%B -0.013 · RSI 33.9</span></a></div></section>
 
   <section>
     <h2>한눈에 보기</h2>
@@ -596,7 +623,7 @@ section{display:flex; flex-direction:column}
 </div>
   </section>
 
-  <section><h2>오늘의 특이점</h2>
+  <section id="alerts"><h2>오늘의 특이점</h2>
     <p class="byline">볼린저밴드(20, 2σ)를 벗어난 종목입니다. 하단을 이탈하면 관심 종목이라도 관련 뉴스를 찾아 함께 싣습니다.</p>
     <p class="upper-note"><b>상단 이탈 6종목</b> — 컨스텔레이션 에너지(CEG %B 1.23), 블룸 에너지(BE %B 1.12), 오라클(ORCL %B 1.04), 델(DELL %B 1.03), 로빈후드(HOOD %B 1.02), 드라간플라이(DPRO %B 1.02)</p>
 <div class="alert"><div class="alert-head"><span class="chip">관심</span><h3>맥도날드</h3><span class="code">MCD</span><span class="quote down">$255.69 · ▼ -1.52%</span></div><div class="metrics"><span>%B -0.019</span><span>RSI 34.3 중립</span><span>하단 밴드 256.11</span><span>중심선 267.11</span></div><div class="stories"><article class="story"><a href="https://finance.yahoo.com/markets/stocks/articles/mcdonalds-raised-dividend-every-since-081500009.html" target="_blank" rel="noopener">McDonald's Has Raised Its Dividend Every Year Since 1976. Here Are 3 Reasons I'd Buy It and Never Sell.</a><div class="meta"><span class="stance good">호재</span><span>Motley Fool, Yahoo Finance</span><span class="time">17:15 KST</span><span class="chip confirmed">교차확인 · Yahoo Finance+구글 뉴스 RSS</span></div><div class="take"><span><b>요약</b>맥도날드는 1976년 이후 매년 배당금을 인상해 온 기업으로, 현재 선행 배당수익률 2.9%를 기록하고 있다. 2월 고점 대비 24% 하락한 상태여서 장기 포트폴리오를 위한 매력적인 매수 기회로 평가받고 있다.</span><span><b>판단</b>안정적인 현금 흐름과 꾸준한 배당 성장 이력을 갖춘 가운데 주가가 고점 대비 조정을 받아 매력적인 진입 구간을 제공하므로 투자자에게 호재다.</span><span class="care"><b>유의</b>기사 내에 엔비디아 등 타 종목 관련 광고성 문구가 함께 포함되어 있다.</span></div></article></div></div>

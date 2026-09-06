@@ -310,6 +310,25 @@ def pick_lines(pick):
     return lines
 
 
+def lower_breaks(prices):
+    """볼린저 하단을 이탈한 종목. 가장 먼저 보여야 할 신호라 따로 뽑는다."""
+    rows = [row for row in prices["holdings"] if row.get("bb_position") == "하단 이탈"]
+    return sorted(rows, key=lambda row: row.get("bb_percent_b", 0))
+
+
+def breach_lines(prices):
+    rows = lower_breaks(prices)
+    if not rows:
+        return []
+    lines = [f"> **밴드 하단 이탈 {len(rows)}종목** — 아래 '오늘의 특이점'에 관련 뉴스를 함께 실었습니다.", ">"]
+    for row in rows:
+        group = "보유" if row.get("group", "holding") == "holding" else "관심"
+        lines.append(f"> - **{row['name']} ({row['ticker']}, {group})** {amount(row)} "
+                     f"{move(row)[0]} · %B {row['bb_percent_b']:.3f} · RSI {row['rsi']:.1f} "
+                     f"· 하단 밴드 {row['bb_lower']:,.2f}")
+    return lines + [""]
+
+
 def spotlight(prices):
     """오늘 눈에 띄는 종목을 데이터만으로 뽑는다. 모델을 쓰지 않으므로 토큰이 들지 않는다."""
     rows = [row for row in prices["holdings"] if row.get("change_pct") is not None]
@@ -539,7 +558,32 @@ section{display:flex; flex-direction:column}
 .tech small{display:block; font-family:"IBM Plex Sans KR",sans-serif; font-size:var(--t-micro);
   color:var(--muted); margin-top:1px}
 .band{font-size:var(--t-small); text-align:center; white-space:nowrap}
-.band.up,.band.down{font-weight:600}
+/* 밴드 이탈은 표에서도 바로 눈에 띄어야 해서 칩으로 채운다. */
+.band.up,.band.down{font-weight:600; border-radius:3px; padding:3px 7px; color:#fff}
+.band.up{background:var(--up)}
+.band.down{background:var(--down)}
+
+.breach{border:1px solid var(--down); border-left:4px solid var(--down); border-radius:4px;
+  background:var(--surface); padding:16px 18px; display:flex; flex-direction:column; gap:12px;
+  box-shadow:var(--shadow)}
+.breach-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 12px}
+.breach-tag{background:var(--down); color:#fff; font-size:var(--t-micro); font-weight:600;
+  letter-spacing:.05em; border-radius:3px; padding:3px 9px}
+.breach-head b{font-family:"IBM Plex Mono",monospace; font-size:var(--t-lead); font-weight:500}
+.breach-note{font-size:var(--t-small); color:var(--muted); flex:1 1 260px; line-height:1.6}
+.breach-note a{color:var(--rule)}
+.breach-list{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px}
+.breach-item{display:flex; flex-direction:column; gap:3px; text-decoration:none; color:inherit;
+  border:1px solid var(--line); border-radius:3px; padding:11px 13px; background:var(--ground)}
+.breach-item:hover{border-color:var(--down)}
+.breach-item:focus-visible{outline:2px solid var(--down); outline-offset:2px}
+.breach-name{font-weight:500; font-size:var(--t-base)}
+.breach-name small{display:block; font-family:"IBM Plex Mono",monospace;
+  font-size:var(--t-micro); color:var(--muted); font-weight:400; margin-top:1px}
+.breach-num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:var(--t-compact)}
+.breach-metric{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro);
+  color:var(--muted); font-variant-numeric:tabular-nums}
 .verdict{font-size:var(--t-micro); color:var(--muted); text-align:right; line-height:1.45}
 
 /* 종목별 뉴스 */
@@ -912,6 +956,27 @@ def html_pick(pick):
     return f'<div class="picks">{"".join(cards)}</div>' 
 
 
+def html_breach(prices):
+    rows = lower_breaks(prices)
+    if not rows:
+        return ""
+    items = "".join(
+        f'<a class="breach-item" href="#alerts">'
+        f'<span class="breach-name">{esc(row["name"])}'
+        f'<small>{esc(row["ticker"])} · '
+        f'{"보유" if row.get("group", "holding") == "holding" else "관심"}</small></span>'
+        f'<span class="breach-num">{amount(row)} '
+        f'<b class="{move(row)[1]}">{move(row)[0]}</b></span>'
+        f'<span class="breach-metric">%B {row["bb_percent_b"]:.3f} · RSI {row["rsi"]:.1f}</span>'
+        f'</a>' for row in rows)
+    return (f'<section class="breach"><div class="breach-head">'
+            f'<span class="breach-tag">밴드 하단 이탈</span>'
+            f'<b>{len(rows)}종목</b>'
+            f'<span class="breach-note">20일 이동평균 −2σ 아래로 내려갔습니다. '
+            f'관련 뉴스는 <a href="#alerts">오늘의 특이점</a>에 있습니다.</span></div>'
+            f'<div class="breach-list">{items}</div></section>')
+
+
 def html_spotlight(prices):
     view = spotlight(prices)
     tag = view["tag"]
@@ -1073,6 +1138,8 @@ def render_html(now, prices, news):
     </div>
   </header>
 
+  {html_breach(prices)}
+
   <section>
     <h2>한눈에 보기</h2>
     <p class="lede">{esc(summarize(holdings))}</p>
@@ -1113,7 +1180,7 @@ def render_html(now, prices, news):
     {html_spotlight(prices)}
   </section>
 
-  <section><h2>오늘의 특이점</h2>
+  <section id="alerts"><h2>오늘의 특이점</h2>
     <p class="byline">볼린저밴드(20, 2σ)를 벗어난 종목입니다. 하단을 이탈하면 관심 종목이라도 관련 뉴스를 찾아 함께 싣습니다.</p>
     {html_alerts(prices, news, judged)}
   </section>
@@ -1218,6 +1285,7 @@ def main():
              f"보유 {len(holdings)}종목 · 관심 {len(watch)}종목 · "
              f"종가 기준일 {' / '.join(trade_dates) or '없음'} · "
              f"뉴스 {news['today_kst']} 발행분 {news['counts']['기사']}건", "",
+             *breach_lines(prices),
              "## 한눈에 보기", "", summarize(holdings), ""]
     money_view = fx_summary(prices)
     if money_view:
