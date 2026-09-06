@@ -14,6 +14,7 @@ python3 -m venv .venv
 .venv/bin/python prices.py   # 종가        -> prices.json
 .venv/bin/python news.py     # 오늘자 뉴스  -> news.json
 .venv/bin/python brief.py    # 브리핑       -> briefing.md, briefing.html
+.venv/bin/python notify.py   # 텔레그램 전송
 ```
 
 ## 종목 추가·삭제 (`holdings.json`)
@@ -65,10 +66,24 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 정렬은 **종목 직접 언급 > 본문 확보 가능 > 교차확인 > 최신순**입니다.
 요약할 수 없는 기사는 값이 낮으므로 본문 확보 가능 여부를 교차검증보다 앞에 둡니다.
 
-고른 기사에는 본문을 붙입니다. 국내는 네이버 뉴스 본문(`#dic_area`)을 긁고,
-해외 매체(fool.com, simplywall.st 등)는 스크래핑을 차단하므로 Yahoo가 주는 요약문을 씁니다.
-구글 RSS 링크는 `AU_yqL...` 형태의 암호화 리다이렉트라 원문 URL을 복원할 수 없어
-구글에만 있는 기사는 본문을 읽지 못하고, 브리핑에 `제목만 확보`로 표시됩니다.
+## 본문 추출 (`article.py`)
+
+고른 기사에는 실제 본문을 붙입니다. 잘 읽히는 순서대로 시도하고, 실패는 `body_error`로 남깁니다.
+
+1. **네이버 뉴스 원문** — 국내 기사
+2. **구글 링크 복원 후 원문** — 구글 RSS 링크는 `AU_yqL...` 형태의 암호화 리다이렉트라
+   그냥은 못 엽니다. 기사 페이지에서 `data-n-a-id` / `data-n-a-ts` / `data-n-a-sg`를 읽어
+   구글의 `batchexecute` 엔드포인트로 실제 매체 URL을 복원한 뒤 그 페이지에서 본문을 뽑습니다.
+3. **Yahoo 기사 URL에서 직접 추출**
+4. **Yahoo가 주는 요약문** — 위가 모두 막혔을 때
+
+본문 영역은 `#dic_area`(네이버), `#article-view-content-div`(국내 언론사 CMS 표준),
+`itemprop="articleBody"`, `.entry-content`, `<article>` 등을 순서대로 찾고,
+없으면 문단 태그를 모으고, 그것도 안 되면 `og:description`을 씁니다.
+태그 중첩을 세어 본문 영역만 정확히 잘라내며 최대 2,500자로 자릅니다.
+
+2026-09-06 기준 49건 중 **46건 본문 확보**(네이버 7, 복원 원문 38, 메타 설명 1).
+못 읽은 기사는 브리핑에 `제목만 확보`로 표시하고 요약·판단을 하지 않습니다.
 
 ## 요약·호재/악재 판단 (`prompts/summarize.md` -> `verdicts.json`)
 
@@ -87,7 +102,7 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 (cron은 UTC라 `30 22 * * 0-4`). 내 컴퓨터가 꺼져 있어도 돌아갑니다.
 GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있습니다.
 
-가격 -> 뉴스 -> Claude 요약 -> 브리핑 순으로 돌고, 결과(`briefing.md`, `briefing.html`,
+가격 -> 뉴스 -> Claude 요약 -> 브리핑 -> 텔레그램 전송 순으로 돌고, 결과(`briefing.md`, `briefing.html`,
 `prices.json`, `news.json`, `verdicts.json`)를 저장소에 커밋하며 실행 아티팩트로도 첨부합니다.
 각 단계는 `continue-on-error`라 한 단계가 실패해도 나머지는 진행합니다.
 
@@ -104,6 +119,7 @@ GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있습니다.
    - 값: 1번에서 나온 토큰
 
    이 시크릿이 없으면 요약 단계만 건너뛰고 가격·뉴스·브리핑은 정상 생성됩니다.
+   텔레그램 전송까지 하려면 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`도 같이 등록하세요.
 
 3. Actions 탭에서 `데일리 브리핑` → `Run workflow`로 수동 실행해 한 번 확인하세요.
 
@@ -111,6 +127,33 @@ GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있습니다.
 
 로컬에서 같은 파이프라인을 직접 돌리려면 `./daily.sh`를 쓰면 되고,
 실행 기록은 `logs/날짜.log`에 남습니다.
+
+## 텔레그램 전송 (`notify.py`)
+
+브리핑 전문을 텔레그램으로 보냅니다. 가격 표와 종목별 뉴스 요약·판단을 모두 담고,
+텔레그램의 4096자 제한에 맞춰 줄 단위로 나눠 여러 건으로 보낸 뒤 `briefing.html`을 파일로 첨부합니다.
+
+카카오톡은 개인 계정으로는 **'나에게 보내기'** 밖에 안 됩니다. 친구에게 보내기와 카카오톡 채널
+메시지는 사업자등록과 앱 심사가 필요합니다. 그래서 텔레그램을 씁니다.
+
+### 최초 설정
+
+1. 텔레그램에서 `@BotFather`에게 `/newbot` → 봇 토큰을 받습니다.
+2. 만든 봇과 대화를 시작해 아무 메시지나 한 번 보냅니다(봇은 먼저 말을 걸 수 없습니다).
+3. chat id 확인:
+
+   ```sh
+   TELEGRAM_BOT_TOKEN=봇토큰 .venv/bin/python notify.py --whoami
+   ```
+
+4. GitHub 저장소 시크릿에 `TELEGRAM_BOT_TOKEN`과 `TELEGRAM_CHAT_ID`를 등록합니다.
+   시크릿이 없으면 전송 단계만 건너뜁니다.
+
+로컬 테스트:
+
+```sh
+TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... .venv/bin/python notify.py
+```
 
 ## 브리핑 (`brief.py`)
 

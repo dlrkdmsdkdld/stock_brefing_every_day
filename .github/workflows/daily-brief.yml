@@ -22,6 +22,8 @@ jobs:
       TZ: Asia/Seoul
       # if 조건에서 읽으려면 잡 레벨 env로 올려야 한다. secrets 컨텍스트는 step의 if에서 못 쓴다.
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -54,6 +56,11 @@ jobs:
       - name: 브리핑 생성
         continue-on-error: true
         run: python brief.py
+
+      - name: 텔레그램 전송
+        if: ${{ env.TELEGRAM_BOT_TOKEN != '' }}
+        continue-on-error: true
+        run: python notify.py
 
       - name: 결과 커밋
         run: |

@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.py    text diff=python
+*.json  text
+*.md    text
+*.yml   text
+*.sh    text eol=lf
+*.html  text
+# 자동 생성 결과물은 diff 통계와 언어 통계에서 제외한다.
+briefing.html linguist-generated=true
+briefing.md   linguist-generated=true
+prices.json   linguist-generated=true
+news.json     linguist-generated=true
+verdicts.json linguist-generated=true

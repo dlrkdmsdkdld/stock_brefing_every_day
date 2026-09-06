@@ -24,6 +24,7 @@ from zoneinfo import ZoneInfo
 
 import yfinance as yf
 
+import article
 from holdings import HOLDINGS
 
 KST = ZoneInfo("Asia/Seoul")
@@ -178,40 +179,54 @@ def pick(rows, today):
     return stories
 
 
-def naver_body(url):
-    """네이버 뉴스 본문(#dic_area)을 텍스트로 뽑는다."""
-    page = get(url, BROWSER).decode("utf-8", "replace")
-    area = re.search(r'id="dic_area"[^>]*>(.*?)</article>', page, re.S)
-    if not area:
-        raise ValueError("본문 영역 없음")
-    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", area.group(1), flags=re.S)
-    text = clean(re.sub(r"<[^>]+>", " ", re.sub(r"<br\s*/?>", "\n", text)))
-    return re.sub(r"[ \t]+", " ", re.sub(r"\n{3,}", "\n\n", text)).strip()[:BODY_LIMIT]
-
-
 def attach_body(story, summaries):
-    """국내는 네이버 원문을 긁고, 해외 매체는 스크래핑을 막아 Yahoo 요약문을 쓴다."""
+    """기사 본문을 붙인다. 잘 읽히는 순서대로 시도하고 실패는 숨기지 않는다.
+
+    1) 네이버 뉴스 원문  2) 구글 링크를 실제 매체 URL로 복원해 원문 추출
+    3) Yahoo가 준 기사 URL에서 직접 추출  4) Yahoo 요약문
+    """
+    failures = []
     naver = story["sources"].get("네이버 금융")
     if naver and naver.get("url"):
         try:
-            story["body"] = naver_body(naver["url"])
-            story["body_source"] = "네이버 뉴스 본문"
+            text, _ = article.extract_body(naver["url"])
+            story.update(body=text, body_source="네이버 뉴스 본문")
             return story
         except Exception as exc:
-            story["body_error"] = f"{type(exc).__name__}: {exc}"
+            failures.append(f"네이버: {type(exc).__name__}")
+
+    google = story["sources"].get("구글 뉴스 RSS")
+    if google and google.get("url"):
+        try:
+            text, kind, url = article.body_from_google(google["url"])
+            story.update(body=text, body_source=kind, article_url=url)
+            return story
+        except Exception as exc:
+            failures.append(f"구글복원: {type(exc).__name__}")
+
+    yahoo = story["sources"].get("Yahoo Finance")
+    if yahoo and yahoo.get("url"):
+        try:
+            text, kind = article.extract_body(yahoo["url"])
+            story.update(body=text, body_source=f"{kind} · Yahoo 링크")
+            return story
+        except Exception as exc:
+            failures.append(f"야후: {type(exc).__name__}")
+
     summary = summaries.get(normalize(story["title"]))
     if summary:
-        story["body"] = summary
-        story["body_source"] = "Yahoo Finance 기사 요약(본문은 매체가 차단)"
-    elif "body_error" not in story:
-        story["body_error"] = "본문 제공 안 됨"
+        story.update(body=summary, body_source="Yahoo Finance 기사 요약")
+    else:
+        story["body_error"] = "본문 추출 실패 · " + ", ".join(failures or ["원문 링크 없음"])
     return story
 
 
 def for_holding(item, summaries, today):
     rows, errors = collect(item, summaries)
     stories = pick(rows, today)[:PER_HOLDING]
-    return item, [attach_body(story, summaries) for story in stories], len(rows), errors
+    with ThreadPoolExecutor(max_workers=PER_HOLDING) as pool:
+        stories = list(pool.map(lambda story: attach_body(story, summaries), stories))
+    return item, stories, len(rows), errors
 
 
 def main():

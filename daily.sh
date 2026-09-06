@@ -23,4 +23,10 @@ else
 fi
 
 "$PY" brief.py >/dev/null || echo "[경고] brief.py가 확인 필요 항목을 보고함"
+
+if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+  "$PY" notify.py || echo "[경고] 텔레그램 전송 실패"
+else
+  echo "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID 없음 - 전송 건너뜀"
+fi
 echo "===== $(date '+%H:%M:%S') 종료 ====="
