@@ -139,8 +139,13 @@ Yahoo는 `pubDate`(UTC), 구글 RSS는 `pubDate`(GMT)를 KST로 변환해 비교
 
 | 순서 | 제공처 | 키 | 비고 |
 | --- | --- | --- | --- |
-| 1 | OpenAI (`gpt-5.6-luna`) | `OPENAI_API_KEY` | Responses API + JSON 스키마 강제 |
-| 2 | 예비 (기본 Gemini) | `GEMINI_API_KEY` 또는 `FALLBACK_API_KEY` | OpenAI 호환 채팅 API |
+| 1 | OpenAI 계정 1 (`gpt-5.6-luna`) | `OPENAI_API_KEY` | Responses API + JSON 스키마 강제 |
+| 2 | OpenAI 계정 2 | `OPENAI_API_KEY_2` | 선택 |
+| 3 | OpenAI 계정 3 | `OPENAI_API_KEY_3` | 선택 |
+| 4 | 예비 (기본 Gemini) | `GEMINI_API_KEY` 또는 `FALLBACK_API_KEY` | OpenAI 호환 채팅 API |
+
+OpenAI 키는 `OPENAI_API_KEY_4`, `_5`, `_6`까지 번호를 이어 붙일 수 있습니다.
+**설정된 것만** 번호 순서대로 씁니다. 같은 키를 두 번 넣으면 한도도 같이 쓰므로 중복은 걸러냅니다.
 
 예비 제공처의 모델은 **자동으로 고릅니다.** 모델명을 고정하면 제공처가 그 모델을 내렸을 때
 404가 납니다(실제로 `gemini-2.5-flash`가 신규 사용자에게 막혔습니다). 그래서 모델 목록을 받아

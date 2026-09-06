@@ -21,8 +21,11 @@ jobs:
     env:
       TZ: Asia/Seoul
       # if 조건에서 읽으려면 잡 레벨 env로 올려야 한다. secrets 컨텍스트는 step의 if에서 못 쓴다.
+      # 앞의 키가 한도에 걸리면 다음 키로 넘어간다. 없는 키는 그냥 건너뛴다.
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      # OpenAI 한도에 걸리면 자동으로 넘어갈 예비 제공처(기본 설정은 Gemini 무료 티어).
+      OPENAI_API_KEY_2: ${{ secrets.OPENAI_API_KEY_2 }}
+      OPENAI_API_KEY_3: ${{ secrets.OPENAI_API_KEY_3 }}
+      # OpenAI 키를 모두 소진하면 넘어갈 마지막 예비(기본 설정은 Gemini 무료 티어).
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -52,7 +55,7 @@ jobs:
         run: python news.py
 
       - name: 기사 요약·호재/악재 판단
-        if: ${{ (env.OPENAI_API_KEY != '' || env.GEMINI_API_KEY != '') && env.SKIP_SUMMARY != '1' }}
+        if: ${{ (env.OPENAI_API_KEY != '' || env.OPENAI_API_KEY_2 != '' || env.OPENAI_API_KEY_3 != '' || env.GEMINI_API_KEY != '') && env.SKIP_SUMMARY != '1' }}
         continue-on-error: true
         run: python summarize.py
 

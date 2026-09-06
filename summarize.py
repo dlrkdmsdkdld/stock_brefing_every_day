@@ -5,12 +5,14 @@
 
 제공처는 순서대로 시도한다. 앞 제공처가 한도(429)에 걸리면 다음으로 넘어가고,
 한 번 넘어가면 남은 묶음도 계속 그 제공처를 쓴다.
-  1) OpenAI            OPENAI_API_KEY (기본 gpt-5.6-luna, Responses API)
+  1) OpenAI 계정 1..N  OPENAI_API_KEY, OPENAI_API_KEY_2, OPENAI_API_KEY_3 ...
+                       (설정된 것만, 번호 순서대로. 기본 gpt-5.6-luna, Responses API)
   2) 예비 제공처        OpenAI 호환 엔드포인트면 무엇이든. 기본 설정은 Google Gemini 무료 티어.
                        FALLBACK_API_KEY 또는 GEMINI_API_KEY가 있어야 활성화된다.
 
 환경변수
   OPENAI_API_KEY     platform.openai.com 발급. .env에 적어둬도 된다.
+  OPENAI_API_KEY_2   두 번째 OpenAI 계정 키 (선택). _3, _4 ... 순서대로 계속 쓸 수 있다.
   SUMMARY_MODEL      기본 gpt-5.6-luna
   GEMINI_API_KEY     aistudio.google.com 발급(무료, 카드 불필요)
   FALLBACK_API_KEY   예비 제공처 키. 없으면 GEMINI_API_KEY를 쓴다.
@@ -46,6 +48,7 @@ FALLBACK_PREFER = ("flash-lite", "flash", "mini", "")
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "8"))
 BATCH_PAUSE = float(os.getenv("BATCH_PAUSE", "8"))
 MAX_ATTEMPTS = int(os.getenv("MAX_ATTEMPTS", "2"))
+MAX_OPENAI_KEYS = 6
 STANCES = ["호재", "약한 호재", "중립", "약한 악재", "악재"]
 
 INSTRUCTIONS = f"""너는 개인 투자자의 보유 종목 뉴스를 정리한다.
@@ -136,12 +139,29 @@ def pick_model(client):
     raise ValueError(f"쓸 수 있는 모델 없음 (후보 {len(names)}개)")
 
 
+def openai_keys():
+    """OPENAI_API_KEY, OPENAI_API_KEY_2, _3 ... 순서대로 설정된 것만 모은다.
+
+    같은 키를 두 번 넣으면 한도도 같이 쓰므로 중복은 제거한다.
+    """
+    found, seen = [], set()
+    for number in range(1, MAX_OPENAI_KEYS + 1):
+        name = "OPENAI_API_KEY" if number == 1 else f"OPENAI_API_KEY_{number}"
+        key = (os.getenv(name) or "").strip()
+        if key and key not in seen:
+            seen.add(key)
+            found.append((name, key))
+    return found
+
+
 def providers():
     """쓸 수 있는 제공처를 우선순위대로 만든다."""
     chain = []
-    if os.getenv("OPENAI_API_KEY"):
-        chain.append(dict(label=f"OpenAI/{MODEL}", model=MODEL, style="responses",
-                          client=OpenAI(max_retries=3, timeout=180.0)))
+    keys = openai_keys()
+    for index, (name, key) in enumerate(keys, start=1):
+        label = f"OpenAI#{index}/{MODEL}" if len(keys) > 1 else f"OpenAI/{MODEL}"
+        chain.append(dict(label=label, model=MODEL, style="responses", source=name,
+                          client=OpenAI(api_key=key, max_retries=3, timeout=180.0)))
     spare = os.getenv("FALLBACK_API_KEY") or os.getenv("GEMINI_API_KEY")
     if spare:
         client = OpenAI(api_key=spare, base_url=FALLBACK_BASE_URL,
@@ -151,7 +171,8 @@ def providers():
         except Exception as exc:
             print(f"[경고] 예비 제공처 모델 확인 실패: {type(exc).__name__}: {exc}", file=sys.stderr)
             return chain
-        chain.append(dict(label=f"예비/{model}", model=model, style="chat", client=client))
+        chain.append(dict(label=f"예비/{model}", model=model, style="chat",
+                          source="GEMINI_API_KEY", client=client))
     return chain
 
 
