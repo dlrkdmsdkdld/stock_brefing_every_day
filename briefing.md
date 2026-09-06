@@ -1,6 +1,6 @@
-# 포트폴리오 브리핑 · 2026-09-06 (Sun) 21:59 KST
+# 포트폴리오 브리핑 · 2026-09-06 (Sun) 22:12 KST
 
-보유 18종목 · 관심 65종목 · 종가 기준일 2026-09-04 · 뉴스 2026-09-06 발행분 52건
+보유 18종목 · 관심 65종목 · 종가 기준일 2026-09-04 · 뉴스 2026-09-06 발행분 53건
 
 ## 한눈에 보기
 
@@ -156,7 +156,7 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 <summary><b>삼성전자</b> <code>005930</code> ▲ +2.20% ₩255,500 — 약한 호재 2 · 약한 악재 1</summary>
 
 - **약한 호재** · [삼성전자, 단독 전시관서 유럽 판로 확대 '밀착 상담'](https://n.news.naver.com/mnews/article/014/0005571631)
-  - 파이낸셜뉴스 · 18:25 KST · 교차확인(구글 뉴스 RSS+네이버 금융)
+  - fnnews.com, 파이낸셜뉴스 · 18:25 KST · 교차확인(구글 뉴스 RSS+네이버 금융)
   - 요약: 삼성전자는 IFA 2026에서 1991년 첫 참가 이후 35년 만에 메세 베를린이 아닌 베를린 도심 훔볼트 카레에 단독 전시관을 마련했다. 대규모 관람객 대상 전시보다 유럽 주요 거래선과 소규모 B2B 미팅에 집중했으며, 회사는 비즈니스 성사율과 거래선 반응이 개선됐다고 설명했다.
   - 판단: 유럽 거래선과의 밀착 상담 및 AI 리빙·스크린 사이즈 시뮬레이터 같은 솔루션 소개는 가전·TV 제품의 판매 채널 확대와 B2B 수주에 긍정적일 수 있다. 다만 실제 계약이나 매출 증가로 이어지면 삼성전자 DX 부문의 실적 개선에 기여할 수 있다.
   - 유의: 기사에는 거래선 반응과 회사 측 평가만 제시됐고 구체적인 계약 규모나 매출 증가 수치는 없다.
@@ -174,13 +174,10 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 </details>
 
 <details>
-<summary><b>HD현대중공업</b> <code>329180</code> ▲ +0.34% ₩436,500 — 약한 악재 1 · 약한 호재 1 · 판단보류 1</summary>
+<summary><b>HD현대중공업</b> <code>329180</code> ▲ +0.34% ₩436,500 — 약한 악재 2 · 약한 호재 1</summary>
 
-- [HD현대중공업 투자분석 2026. 09. 05](https://news.google.com/rss/articles/CBMic0FVX3lxTE1PSU1mZmtIQlNNdlREck5HU2NSNUQydGc4YUdvZE1Cc2ZtZnpVRzIxNF82T2Z5NGYzZS1mTjZINFktQmZTRUE5alM5TWU4VC1OVkhtbE9GVVVWeTM5NWp5ZGRTUVV5UHctajM1WjVrTXdwSHc?oc=5)
-  - 주달 · 15:09 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: ValueError) · 요약·판단 보류
-- **약한 악재** · [[단독]HD현대 단골 선주, 대규모 中 발주…PCTC 10척 맡겼다](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HWG5FQVBYcFdXRFZBejdwRmxDVHNrdEhnSFZ5di03T2ZGNWtzY2E5cjlCT0ZpNEM0RU9IVFdaSG1yeUVKMzZvV1p0SnVmMFIwNTdVM2xfVUFHZw?oc=5)
-  - 파이낸셜뉴스 · 15:08 KST · 단일출처(구글 뉴스 RSS)
+- **약한 악재** · [[단독]HD현대 단골 선주, 대규모 中 발주…PCTC 10척 맡겼다](https://n.news.naver.com/mnews/article/014/0005571553)
+  - fnnews.com, 파이낸셜뉴스 · 15:08 KST · 교차확인(구글 뉴스 RSS+네이버 금융)
   - 요약: HD현대 계열 조선소의 주요 고객으로 알려진 레이카캐리어스가 중국 GSI에 8200CEU급 LNG 이중연료 PCTC 10척을 10억달러 이상에 발주한 것으로 전해졌다. 선박은 2029~2031년 인도될 예정이며, 2021~2025년 전 세계 PCTC 발주에서 중국 조선소가 252척으로 80% 이상을 차지한 반면 한국은 10척에 그쳤다.
   - 판단: HD현대중공업에 발주하던 선주가 중국 조선소로 대규모 물량을 이전하면 PCTC 수주 기회와 시장 점유율에 부담이 된다. 중국 조선소가 반복 건조를 통해 설계·납기·원가 경쟁력을 강화하면 향후 HD현대중공업의 수주 경쟁이 더욱 치열해질 수 있다.
   - 유의: 발주처는 계약상 공개되지 않았고 레이카캐리어스라는 점은 업계의 추정이다. HD현대 계열 조선소는 수익성이 높은 선종을 중심으로 선별 수주하고 있어 단순 수주량만으로 경쟁력을 판단하기 어렵다.
@@ -189,27 +186,30 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 요약: SK증권은 HD현대의 세 번째 해외 거점으로 인도 투투쿠디 조선소를 주목했으며, HD한국조선해양이 연 350만~400만GT 생산능력의 신규 조선소를 계획 중이라고 분석했다. 초기 투자액은 약 20억달러, 총 사업비는 40억달러 수준으로 알려졌고, 인도 정부의 15~25% 선박 보조금 또는 생산연계 인센티브가 경제성을 보완할 수 있다고 전망했다.
   - 판단: 인도 선대 확대와 노후 선박 교체 수요를 활용해 HD현대가 현지 조선소와 기자재 공급망을 구축하면 장기적으로 수주 저변과 생산능력이 확대될 수 있다. 특히 인도 조선업의 낮은 생산성을 한국 조선업의 운영 역량으로 보완할 경우 HD현대중공업의 해외 성장 기반이 될 수 있다.
   - 유의: 투투쿠디 조선소는 계획 단계이며, 실제 투자 승인·착공·수주 및 수익성은 확정되지 않았다. 보조금 규모와 사업비 부담도 향후 정책 및 협상에 따라 달라질 수 있다.
+- **약한 악재** · [고용부 고강도 감독 중 또 사망…HD현대중공업 “2인 1조 의무 작업 아냐”](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0telR4dDJpM2RwTnBhVjAwQjN4NHdqamRSQlRkS3psVHNLMXZyTEU0cmg3Y0lULXBEbWNpUEhLOXFvZEZEVXhmQlcySkhtVjM4VVNkZjMwQTcwTFZxUy1FdUw4d1kxQTjSAWtBVV95cUxPM0ozODRRdVM0WTRVUmxmU2hKRGRZSlNIYm1rS3dvSzlWbE1WT2JCWWF1V09BcUlzWTgyLWlPeUJwckwyblUzdS1RcnoxXzJXY3k0cnhZZWJFcV9kV3NrN1lvTVY0WE94dVRSYw?oc=5)
+  - 한국원자력신문 · 15:00 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 지난달 28일 HD현대중공업 한우리회관에서 보일러 당직 업무를 하던 협력사 직원이 쓰러져 병원 이송 후 사망했다. 사고는 고용노동부가 울산·군산조선소와 본사 등에 62명을 투입해 고강도 감독을 시작한 지 열흘 만에 발생했으며, 회사는 해당 업무가 산업안전보건법상 2인 1조 의무 작업은 아니라고 밝혔다.
+  - 판단: 반복되는 협력사 근로자 사망과 고강도 감독 중 추가 사망은 HD현대중공업의 안전관리체계, 규제 리스크 및 공사 지연·비용 부담 우려를 키울 수 있다. 중대재해로 인정되거나 특별감독으로 전환되면 법적·평판 리스크가 확대될 가능성이 있다.
+  - 유의: 이번 사망이 업무 중 사고인지 질병 등 다른 원인인지, 산업재해 또는 중대재해에 해당하는지는 아직 확인되지 않았다. 사다리 작업중지명령이 사망 원인과 관련 있다는 근거도 공식적으로 제시되지 않았다.
 
 </details>
 
 <details>
-<summary><b>델</b> <code>DELL</code> ▲ +1.50% $524.14 — 약한 호재 2 · 중립 1</summary>
+<summary><b>델</b> <code>DELL</code> ▲ +1.50% $524.14 — 약한 호재 2 · 판단보류 1</summary>
 
 - **약한 호재** · [Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus](https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html)
   - Simply Wall St., Yahoo Finance · 05:11 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
   - 요약: Dell Technologies의 공정가치 추정치는 약 502.78달러에서 564.46달러로 상승했다. Evercore ISI, Mizuho, Barclays, Citi, JPMorgan, BofA 등은 AI 서버와 스토리지 수요를 근거로 목표주가를 575~635달러로 올렸고, 일부 기관은 617~735달러를 제시했지만 Deutsche Bank·UBS 등은 공급 제약, 마진 지속성, 밸류에이션을 우려하며 보수적 의견을 유지했다.
   - 판단: AI 인프라 투자 확대와 AI 서버·스토리지·전통적 IT 인프라 교체 수요는 Dell의 매출과 이익 성장을 뒷받침할 수 있다. 다만 부품 공급과 메모리 비용, 가격 경쟁 및 마진 지속 여부가 실적 개선의 핵심 변수다.
   - 유의: 공정가치와 목표주가는 분석기관의 전망치이며, 기사에는 구체적인 Dell의 실적 수치나 신규 계약이 제시되지 않았다. 일부 기관은 AI 수요에도 불구하고 순환성과 밸류에이션을 이유로 중립적 의견을 유지했다.
+- [Dell Stock Spiked After Earnings, But Is It Close to Fair Value? Shorting Puts and Calls Work Here](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSzJ0d2FLdEhOaDZJamNJZlBFanZpOFdNZ0twenNaVExTaDVKdDI1MDY2Vnk1eEowR1JzUENJeTI1TFNJTFZIQ3NYb2ppQWc4RkVmOFMtalNVYng3cUh4MFF6MEQ1emw0a3lIQ2kyUFNtVHR3TWJHaFlJWkVJQm81OWlPRWZiTldON0hibERmZnVkOGNXbWdoUXFCaTdEZVB2ZWl4by0weFhiZ1o0eVFoT2xMR0VLNUpob09WakZBTm9yUkhNQmY1QzdiODd1aTdGWWhmanRMcw?oc=5)
+  - barchart.com · 22:00 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 추출 실패 · 구글복원: ValueError) · 요약·판단 보류
 - **약한 호재** · [Dell Technologies and Armada sign strategic MoU to accelerate mobile and edge data infrastructure across Saudi Arabia](https://news.google.com/rss/articles/CBMiigJBVV95cUxPRVd1VHRCcHE4c0RHUnc5ekI2NDBkMUc2U1pON1diZ1FRWmhoenM2QkVNakRlc0FWT05zbHh5bUFmbm9CaWNxZnZ4TnhLSjl6ZlVpXzg0bVFWVk1RWFZ3WUttVHp6UEtENGdJTU9GNUVhWkFCem9NUUVsQzBYSlcxSHJzNDFEVE85LXMtTzYzRDhqU2R5RzVpN3ctZUlUSlJOUGJwbTROVU9LWUkzRjhFOTg2SmRmekYwUnloUUpVTWdreHdPdEdYcmxzNVM2TXFqcGpsS0ZJNXhYT3owVkV2dEowVFJLWjNhOGltWTFsUGtnQUk4NzhFcHpoYmdJYkQ0R1Jla2tjZngwZw?oc=5)
-  - zawya.com · 19:29 KST · 단일출처(구글 뉴스 RSS)
+  - Zawya · 19:29 KST · 단일출처(구글 뉴스 RSS)
   - 요약: Dell Technologies와 Armada는 LEAP 2026에서 사우디아라비아 전역에 컨테이너형 모바일·엣지 데이터센터를 공급하기 위한 양해각서(MoU)를 체결했다. 양사는 Dell의 하드웨어·인프라 스택과 Armada의 모바일 데이터센터 솔루션을 결합해 에너지, 통신, 제조, 공공 인프라 분야의 Edge AI와 데이터 주권 수요를 공략할 계획이다.
   - 판단: Dell은 Armada의 지역 채널과 협력해 사우디 기업 및 공공 인프라 시장에서 서버·스토리지 판매 기회를 확대할 수 있다. 현장형 컴퓨팅과 Edge AI 수요가 실제 프로젝트로 전환되면 Dell의 인프라 사업 매출에 긍정적일 수 있다.
   - 유의: MoU는 협력 의향과 전략적 틀을 정한 단계로, 구체적인 수주·매출·투자 규모가 확정됐다는 내용은 없다.
-- **중립** · [DELL: Dell Technologies Inc Latest Stock Price, Analysis, News and Trading Ideas](https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xSDVlaXlQYWsyclRhMlNyQWVzMC0xVHpKazFxdE5PU3hHM00yUklmVzR1ZEVrMmFtNVhLQTNRbXVCbGFaWVl3bGZ3?oc=5)
-  - stocktwits.com · 18:45 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Stocktwits는 Dell Technologies Inc.(DELL)의 실시간 주가, 재무정보, 뉴스, 투자자 커뮤니티와 거래 아이디어를 제공한다고 안내하고 있다. 이용자에게 워치리스트 및 포트폴리오 등록과 커뮤니티 이용을 권유하는 사이트 소개문이다.
-  - 판단: Dell의 사업이나 실적, 신규 계약, 전망에 관한 구체적인 기사 내용이 없어 보유 종목의 가치에 미치는 직접적인 영향을 판단하기 어렵다.
-  - 유의: 본문이 실질적인 뉴스가 아닌 주가·정보 서비스 이용 안내와 홍보 문구로만 구성돼 있다.
 
 </details>
 
@@ -243,7 +243,7 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 판단: 주가가 주요 이동평균선 아래에 있어 단기 및 중기 추세에는 부담이지만, P/E 12.60배와 PEG 0.55배라는 밸류에이션 수치만으로 실적 방향을 판단하기는 어렵다.
   - 유의: 본문은 주가·기술적 지표와 밸류에이션을 설명할 뿐, 신규 수주나 실적 전망 등 사업상 변화를 제시하지 않는다.
 - **약한 악재** · [INSM, FSLR, APTV: Dreaded Death Cross Has Formed On These Stocks — What It Means For Investors](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPR1ZURlFWZTNjSlZJUHFwVWtmSnlxVmQ5NkJvSjY0bjk1OXVpWlVTaDZwSm5hVkRWbWFJdnhUVWQtY3NvWTAxZDFJeGxJMWpwX1BiTWY3MXRSblpTaHRGbThibmN4OGQ1R3E4OENLeVZBSjB6aEhnMkJQS1ZHaTZCVGVJQ01TVE5QVzVYaVc1azhJVWhKTG1fckFUdE5xR2FqbnMyVG05SUNnLU1tdkxpc1EwWGxnSm5FM1dKQldlYzd5UW1aWTMyOUhtRDlHWjBXRE9mR3dnV3IwTVRnaFE?oc=5)
-  - stocktwits.com · 08:53 KST · 단일출처(구글 뉴스 RSS)
+  - Stocktwits · 08:53 KST · 단일출처(구글 뉴스 RSS)
   - 요약: First Solar는 3월 27일 50일 이동평균이 200일 이동평균 아래로 내려가는 ‘데드 크로스’를 형성했으며, 주가는 현재 200일 이동평균보다 약 10% 낮은 수준이다. 세 종목 중 Insmed와 First Solar만 30일 평균 일거래량을 밑돌아 기술적 약세와 거래 활력 저하가 함께 나타났다고 기사는 설명한다.
   - 판단: 데드 크로스와 장기 이동평균선 하회는 투자 심리를 약화시키고 추가 매도 압력으로 이어질 수 있어 주가에 단기 악재다. 다만 이는 기술적 신호일 뿐 First Solar의 수익성이나 수주가 악화됐다는 의미는 아니다.
   - 유의: 기사에서 제시한 월가의 28~51% 상승 전망은 Insmed·First Solar·Aptiv 세 종목 전체에 대한 범위이며 First Solar의 개별 목표가가 아니다. 기술적 패턴은 미래 주가를 보장하지 않는다.
@@ -275,8 +275,11 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 </details>
 
 <details>
-<summary><b>비스트라 에너지</b> <code>VST</code> ▲ +3.52% $149.30 — 중립 1</summary>
+<summary><b>비스트라 에너지</b> <code>VST</code> ▲ +3.52% $149.30 — 중립 1 · 판단보류 1</summary>
 
+- [Vistra (VST) Stock Gains Momentum Following Thiel Macro’s $59M Stake Disclosure](https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUVWV0gza2g0REFGbEhwaXpRdGhCbDE5M1JIS20zZ3N1dy1yVVUwZDhXcDhpLWJqRVNqTXYyWlV4UnVzNHMxNjlyZndrcVF3bXpRWWIwdkFqUXRKdTItNWZxcmpINzhNZ09NcWFoZWN6NkUtaFBkQm1qSEwzODU0bXB1ajFiNlF5U0h2cy13TWhsVEV6Z2Faemd4bnNjQk90?oc=5)
+  - blockonomi.com · 22:07 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 - **중립** · [What Happens When A State Sells Off Park Land](https://news.google.com/rss/articles/CBMikwFBVV95cUxPNldDLTRpVEVKVjlfT0xTQVBxRjcyYkItT3JVLUN6N2lMZXNpc2JFczNUeFVEdmtMVVJEOUZLQXQxM0lzTzJybTExWXphYW5MQl9vTWVpWTlQc09qb3pocFFMemVPU2ZCdkl3dHhGeTR6a2hMMEtHVkMzMzRnM0JuRzVMcUxoQnRoaUZLYlhXRVR5bTQ?oc=5)
   - WorldAtlas · 08:30 KST · 단일출처(구글 뉴스 RSS)
   - 요약: Vistra가 건설한 저수지에 조성된 텍사스 Fairfield Lake State Park는 약 1,820에이커 규모였지만, Vistra가 2023년 전체 5,000에이커 부지를 댈러스 개발업체에 약 1억300만달러에 매각하면서 공원 운영이 종료됐다. 텍사스주는 수용을 시도했으나 감정 패널이 개발업체 매입가의 4배로 평가하자 매입을 포기했고, 해당 부지는 주택단지와 골프장으로 개발될 예정이라고 보도됐다.
@@ -286,13 +289,15 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 </details>
 
 <details>
-<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 중립 2 · 판단보류 1</summary>
+<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 중립 3</summary>
 
-- [Bronstein, Gewirtz & Grossman, LLC Encourages Eos Energy Enterprises, Inc. (EOSE) Investors to Inquire about Securities Investigation](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYko4YUZ3WkdQaWdzOWJrdTA1Rm03WGRpd0IxY0RRZm9mU29DQjNYR3dldzdMTnVYN195ZlpqbWJBaTZReGlDLXE0SWlUaHFPMVpycUZvSXRpQWxwUGdzOWVKRkt3V1J0cUNDanVUSW5vZy1MQjFmaXBkcnd0TXBtZVVfYTk5MDVCNmxWc21PTV9kRExuNVNxVzU3MkJxeXNxdlFITVB3RGtMQzQ3Zy0wRTFla21MWENsTnJtWXZmVEJNVU4weHh1NTdrQnBmVFdqdzVQWGtweFZUc0NoSFVHbU0xYU8?oc=5)
-  - ACCESS Newswire · 06:29 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+- **중립** · [Oxygen Reduction Reaction Catalysts Market Outlook to 2035](https://news.google.com/rss/articles/CBMikgFBVV95cUxOZE5Xb1doOXpQMmxPcWlNU2lUcGR3RE1IWVl3ZXEwVlVBWm1hTThRaTNkVEMzWmVGR2dKVlFERElEeE1SZWZaWnVMNkRQNGNjNjZYdlE2Q0ZSQmEzZC1FZmlYRkRYVG9wUlMtSFdvbkJ4QkEzT2NyUnItWE9NS0pER3pWaHNZa0FtVV95MnE1YTVEQQ?oc=5)
+  - IndexBox · 14:16 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 기사는 2035년까지의 산소환원반응(ORR) 촉매 시장 전망을 다루며 Johnson Matthey, BASF, Tanaka Holdings, Umicore, 3M 등 주요 촉매 업체와 연구용 유통업체를 나열한다. 이오스 에너지의 제품, 계약, 실적 또는 시장점유율에 대한 내용은 포함하지 않는다.
+  - 판단: ORR 촉매 시장의 성장 전망이 이오스 에너지의 사업에 연결된다는 근거가 기사에 없어 보유 종목에 대한 직접적인 영향은 중립적이다.
+  - 유의: 기사 주제가 이오스 에너지가 아닌 연료전지 촉매 시장과 다른 기업들의 목록이다.
 - **중립** · [Nvidia Supplier SK Hynix Files For Nasdaq Debut Under Symbol SKHY](https://news.google.com/rss/articles/CBMivAFBVV95cUxNV25Nd2JwMU83Rjl5ZERxUTNsX3I0V1pCUFpZQUwzbzQyNm01c2N1T292TEpYdGhQOGJmUVJqVjRRU0hsN2lKRzVMNllKdEU4MGFCSXVzUmlSWFpzS2FJLWtLdHEtT3lUa2VwaTlrZGVqVXptaFllLURPc2tYa3Fwd2hMSlVnWmI1MjFWVTJTTDZ0bE5ndTY4Uk1aQ1FxazBjSFJ3RDRaampiOW5TYnZOZkp5Y2Q5bXlPYjIyYQ?oc=5)
-  - stocktwits.com · 07:58 KST · 단일출처(구글 뉴스 RSS)
+  - Stocktwits · 07:58 KST · 단일출처(구글 뉴스 RSS)
   - 요약: SK하이닉스는 나스닥에 ‘SKHY’라는 종목기호로 상장하기 위해 최대 1,779만 주의 ADS 공모 등록서를 제출했으며, 이는 전체 발행주식의 약 2.5%다. 공모자금은 일반 기업 목적과 자본지출에 사용될 예정이고, 로이터는 약 294억달러 조달 가능성과 주당 166달러 가격을 보도했으며 SK하이닉스는 엔비디아의 HBM 주요 공급업체로 소개됐다.
   - 판단: SK하이닉스의 나스닥 상장과 반도체 생산시설 투자는 메모리·HBM 산업에 관한 내용이지만, 이오스 에너지의 사업이나 재무에 직접 영향을 주는 경로는 기사에 제시되지 않았다.
   - 유의: 기사의 주제는 SK하이닉스의 IPO와 반도체 투자이며 이오스 에너지는 언급되지 않는다. 따라서 산업 간접효과만으로 보유 종목의 호재·악재를 판단하기 어렵다.
@@ -321,7 +326,7 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 유의: 상승 폭과 원인, 실적·수주 등 지속 가능성을 뒷받침하는 구체적인 정보가 본문에 없어 영향은 제한적으로 판단해야 한다.
 - [Credo's Selloff Is Missing The Bigger AI Opportunity (NASDAQ:CRDO)](https://news.google.com/rss/articles/CBMilwFBVV95cUxOS0JkMWJFbmdzRHI0aFpzZ0VnWVlpaUstYjBiUDNzWmY0cnVNYkFHMkdrNDljOFFrZ1cyX1NjZkdTdjctNHF1M1JNS05RYlpOZlZRRkNBZHlaV05WaXIwOUNLSl9vSWdtZndDYk5scWtoelpXSmtCeERUWmpfR0ViUjdHV3ZZM1FFNVZ5VXpBSVNBRUhmSXNn?oc=5)
   - Seeking Alpha · 15:57 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
+  - 제목만 확보(본문 없음) · 요약·판단 보류
 - **약한 악재** · [Why Credo Technology Stock Is Down Today and Why This Top Analyst Expects Shares to More Than Double](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1dMbGIxbGQ5bXhBNkIwUlZzam1NMmVBLTlnZlBJZjJvQzFFM3BKc0J1SFRzdVZMRmlRa1d1Z2cySzhWSkN6aDFUZEtVSFcyTEw3MFpFNVVldGZsdlM3TGw1WGhBcmVHV2hTYUJscnlraGk5ZXdhMU1pa1ZPMjVSOERpSUtRVDg0b1Z5blQwVnNaeE5TU1U2enI5N0F4WUNLaHlKRm93YTdfMjlTVnB2T0ZINVotUERPbTVRdTBnUEpDYl9JaUNrUUU5a2tWUUZqXzJDYg?oc=5)
   - TipRanks · 15:08 KST · 단일출처(구글 뉴스 RSS)
   - 요약: 크레도는 회계 1분기(7월 분기) 매출 4억7,900만 달러로 전년 대비 115% 늘며 컨센서스 4억7,300만 달러와 자체 가이던스를 모두 넘었고, 조정 EPS도 1.20달러로 전년 0.52달러와 예상치 1.17달러를 웃돌았다. 2분기 매출 가이던스 역시 5억2,500만~5억3,500만 달러로 월가 예상 5억1,654만 달러를 상회했다. 그럼에도 주가는 장중 18% 급락했는데, GAAP 매출총이익률이 전분기 68.2%·전년 67.4%에서 64.5%로 떨어지고 영업비용이 8,960만 달러에서 1억8,840만 달러로 두 배 넘게 늘어난 수익성 악화가 원인으로 지목됐다.
@@ -334,7 +339,7 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 <summary><b>알파벳 A</b> <code>GOOGL</code> ▼ -1.17% $338.46 — 중립 1 · 호재 1 · 약한 악재 1</summary>
 
 - **중립** · [Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029](https://finance.yahoo.com/markets/stocks/articles/prediction-amazon-join-nvidia-apple-194000818.html)
-  - Motley Fool, The Globe and Mail · 04:40 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - Motley Fool, theglobeandmail.com · 04:40 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
   - 요약: 이 기사는 Amazon이 클라우드 인프라와 전자상거래, AI 수요를 바탕으로 2029년 이전에 시가총액 4조 달러에 도달할 가능성을 분석한다. Amazon의 시가총액은 약 2.75조 달러이며, AWS 2026년 2분기 매출은 전년 대비 37% 증가한 422억 달러로 제시됐다.
   - 판단: 알파벳은 Amazon이 합류할 수 있다고 언급된 4조 달러 기업 목록의 비교 대상으로만 등장하며, 알파벳의 사업이나 주가에 대한 새로운 정보는 제공되지 않는다.
   - 유의: 기사의 주된 분석 대상은 Alphabet이 아니라 Amazon이므로 알파벳 보유 종목 관점에서는 중립이다.
@@ -376,7 +381,7 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 <summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +4.35% $280.53 — 호재 1 · 중립 1 · 약한 호재 1</summary>
 
 - **호재** · [VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5)
-  - stocktwits.com · 06:29 KST · 단일출처(구글 뉴스 RSS)
+  - Stocktwits · 06:29 KST · 단일출처(구글 뉴스 RSS)
   - 요약: Vertiv는 데이터센터 액체 냉각 솔루션 업체 Strategic Thermal Labs를 인수했으며, 거래 조건은 공개되지 않았다. 이번 인수로 Vertiv는 콜드플레이트 설계, 서버 측 액체 냉각, 고밀도 열 검증 및 엔지니어링 역량을 확보해 고객의 고밀도 컴퓨팅 환경을 시뮬레이션하고 전력·열 관리 솔루션을 강화할 수 있게 됐다.
   - 판단: AI 데이터센터의 고밀도 컴퓨팅 확대에 따라 액체 냉각 수요가 증가할 수 있어, 이번 인수는 Vertiv의 열관리 제품 경쟁력과 데이터센터 고객 대상 통합 솔루션 매출에 긍정적이다.
   - 유의: 인수 가격과 예상 매출·이익 기여가 공개되지 않았으며, Stocktwits의 개인투자자 심리는 최근 24시간 동안 ‘극도로 약세’로 악화됐다.
@@ -413,19 +418,17 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 </details>
 
 <details>
-<summary><b>마이크로소프트</b> <code>MSFT</code> ▼ -2.04% $499.70 — 약한 호재 1 · 판단보류 2</summary>
+<summary><b>마이크로소프트</b> <code>MSFT</code> ▼ -2.04% $499.70 — 판단보류 3</summary>
 
+- [Microsoft Is Down Nearly 40% — Buy Now Or Big Mistake? Ashutosh Sharma (mT1al99uEN)](https://news.google.com/rss/articles/CBMikgFBVV95cUxQUEpOYjhBZGczUTJQZzlRR2wtX3k5QUdIN0hiYWljNU04bWFONG1hNVNJc3liXzJGekFTREtQdHBHVG95WGVKdGNYZmlEOTZ5ZGc4ekNuX1JwTHZLWFRlWXJMRmRBaDFMb2xpNzBMaEhJZnhVVlQ5TlIyQTlWQjBJMFhMQ3Q1bUlaWS10T0FCaVh6dw?oc=5)
+  - Mshale · 15:19 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
 - [Microsoft Stock's 200-Day DMA Gap Is Widest Since 2008 Financial Crisis — And Retail Sees ‘Generational’ Opportunity](https://news.google.com/rss/articles/CBMihgJBVV95cUxOT3NRbWpHSDloWWRSQTNSUHlIZWxSVjdRcG9BYzhqMG5yQl9GTzlkX21kX0c2dTNTenR4aVl5RkdBTEs5ZmVGMDVKSGtpR2lKRDFoOHlnakl1QXlNX25oY0dfaGtqbk5JLWFPN1FYUFBsMW9XZ2FJcVZoajluM1NUQWpFclNXQ0dZcXUyZ3ZNOVpDS050Q3A5QnZhbVdDQ1JVdmtuTDVCT205dlF2aHZBbWs5c09LdjRtSk9QZ1Q5MVd4S2J2TTgwNnlQcVFUZGp4cWZ5MU9SdGhmNndXaG1FUENKOFQ5LS1iX1JDX25nM2xQQVphS0g3YlI1bnZzaVRhdHNuRjJB?oc=5)
-  - stocktwits.com · 12:52 KST · 단일출처(구글 뉴스 RSS)
+  - Stocktwits · 12:52 KST · 단일출처(구글 뉴스 RSS)
   - 제목만 확보(본문 없음) · 요약·판단 보류
 - [Microsoft Bets $2.5B On Enterprise AI Implementation With New Frontier Division, Commits To Embed 6,000 Employees With Clients](https://news.google.com/rss/articles/CBMiywFBVV95cUxOX2lPSE0tT0lIZFFaeVVLR0w2NWhRR210VngwVEQyRWZTRm1SaTdwYVp2S2dKOVV1Zzh0T2RWemJ4Tmo5OC1KaTMyMWx1ak04WGdYWTBmb1R4V2UtMUozMHhrT01oZXdEdlJneFpkem0zamRYTUNjVU1VN3VBbld0TGxXVlVNM0N5LXV1NlRaWXRiZ3FrLWpoSFJmVDhxdER5WUQwZDNDbXkzb2xmQ0dvVFQzZ3ktMHRYQzZsMmZtTmZYUUJ5NUJwcG9WVQ?oc=5)
-  - stocktwits.com · 11:54 KST · 단일출처(구글 뉴스 RSS)
+  - Stocktwits · 11:54 KST · 단일출처(구글 뉴스 RSS)
   - 제목만 확보(본문 없음) · 요약·판단 보류
-- **약한 호재** · [Bill Ackman Swaps GOOGL Stake For New MSFT Position, Clarifies Sale Not a Bet Against Search Giant](https://news.google.com/rss/articles/CBMi8wFBVV95cUxORjZwQVZKUXg4QU10MW9mUEQtMDNvem9ydTFkaXNFMFJvWmV0M2NiSWJDZGNoUFdEWC1VMjBFRU4xdUw5QVZUTVNyQUNzMXVSWnhVTGFrZUJjQUNXTjJqaVhoYU5mZWM3eW8zQWh6ZmQ4ZGEzVE40U0NiU0VyWDB0YkRlVVpSakxCMFJTVDk2VWhLSmh3M3dsVURORWVPNF9KX0pQbUZwYXY5WkMycndkX3hTV2RuXzMwVWFERkdpa2FMWnM5QkgtYjdHT0NpMG5PUE1BdU8tNWV2dHRYQkVIdW1lTk9WbHhhLUZTZHg1OHhhSjQ?oc=5)
-  - stocktwits.com · 11:27 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Bill Ackman의 Pershing Square는 지난 분기에 Microsoft 주식 570만 주를 새로 매입해 21억 달러 규모의 지분을 구축했고, Alphabet 지분은 대부분 또는 전부 줄였다. Ackman은 Google 매도가 Alphabet에 대한 약세 전망이 아니라 제한된 자금을 Microsoft로 옮긴 것이라고 설명했으며, Microsoft 365·Azure·Copilot과 OpenAI 협력을 장기 성장 요인으로 평가했다.
-  - 판단: 유명 장기 투자자의 21억 달러 규모 신규 매수와 Microsoft의 핵심 소프트웨어·클라우드·AI 사업에 대한 긍정적 논리는 투자심리와 밸류에이션 재평가에 도움을 줄 수 있다.
-  - 유의: Ackman의 매수는 투자자 의견일 뿐 실적 개선을 보장하지 않는다. Microsoft 주가는 기사 시점에 연초 대비 12.6%, 지난해 52주 고점 대비 24% 하락해 AI 경쟁과 클라우드 성장 우려가 여전히 존재한다.
 
 </details>
 
@@ -438,21 +441,21 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 판단: S&P 100을 추종하는 펀드가 Nike를 매도해야 하므로 지수 제외가 단기 수급과 투자심리에 부정적일 수 있다. 또한 지수 내 기술주 선호와 Nike의 장기 주가·시가총액 하락은 성장성에 대한 시장 평가가 약해졌음을 보여준다.
   - 유의: 지수 편입·제외에 따른 수급 영향은 일시적일 수 있으며, 기사는 Nike의 매출·이익 전망이나 사업 경쟁력 변화에 대한 구체적인 신규 정보를 제시하지 않는다.
 - **중립** · [Why Nike stock has fallen and what it means for fashion](https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcU9NcERtalVyQXJfQVBJTlVCYjBJbFBTeV92anVXTXcyeUxMM3FsSm8xS1RJdk9MVEtPdmZRSHZXMDI3UkhmX05JUld4RjFOZGt5TkpqWXRtejJMMWJTVE5Dei1HUDZtTWRVRkN2OTY4RE9pWlktTzRtYWVKV0lVdTVsN0Rfb0ZoR2RHb05iVmI2RU9iY19KeVJoUXhrdFRRTzlkTUZzTnJKVVBJN0xMUkQ2NjVMbG9TU3RYQk9mS3YwNDNfWGNpOEJMMjNyUU12NXpYUVotM0NYSl82UFZsYlRUV3M2Z9IB6wFBVV95cUxPdVpldmZpZ0hVdFdQcHVpTnk4cTV0RVJNT2piX2luTG1XLWNWMlhoTloydm1JVGRoWGw3bXNvbUUtMUQ1S3h3Smh4eFlYcEVtYk16VVJ4X3BGaXhfcjU3Ym9MY3gyZlBWSlU3NW9RbV9IaExVVmVVZVQtZ2tMSWpFeHh5dTRoTk1rTUpYMWh0d19tbG0wZi1kbVM0SC1QVTlmOWVsM0Jza3VXWDI3UHp5YV9icS04c1ZUdDFKRnRROWNDOUhRZl9TTXBDMk41b3ZuZlZXYTFCdnFDV3JWUjlGamIzRGE4WG95cWlN?oc=5)
-  - The Times of India · 20:39 KST · 단일출처(구글 뉴스 RSS)
+  - timesofindia.indiatimes.com · 20:39 KST · 단일출처(구글 뉴스 RSS)
   - 요약: 본문에는 Nike 주가 하락이나 패션 산업에 관한 기사 내용이 포함되어 있지 않고, 쿠키 사용 및 개인정보처리방침에 대한 웹사이트 안내문만 반복되어 있다.
   - 판단: 실질적인 기업 실적, 브랜드 수요, 경쟁 상황 또는 주가 관련 정보가 없어 Nike 보유 종목의 가치나 전망에 영향을 주는 경로를 판단할 수 없다.
   - 유의: 광고·사이트 안내문만 있고 분석 대상인 기사 본문이 없다.
-- [Why is Nike leaving the S&P 100 after 18 years? Experts point to key mistakes and new challenges](https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVFZoZTdoT1lyMmUyM2JSNFJQdGhlaVBZMEZIellFdmV1aDFVcjJ6UDdaZTdLc2dIclhtcTJDMC1fSDV0eEtJU05CbE1weDlfeVRuMklCWXJnNFRjS081WVN0NUltdWI4Y2lPdDhRMkV6TzRmNGpsaGxOZ0dGa083cEN1RGFkTDhqSWFoSXlpNzVKTy0tdHFybXpZbndqQklReVgzanA3NHZiNENnRVBsbDJ3Ym5iWjVKSGNKek5pVUJmcTZUZzVaemRoWW00bjhTYWZOSVZWbUljY215VS1lLVFMaWx0aHlfZlHSAeoBQVVfeXFMTVRWaGU3aE9ZcjJlMjNiUjRSUHRoZWlQWTBGSHpZRXZldWgxVXIyelA3WmU3S3NnSHJYbXEyQzAtX0g1dHhLSVNOQmxNcHg5X3lUbjJJQllyZzRUY0tPNVlTdDVJbXViOGNpT3Q4UTJFek80ZjRqbGhsTmdHRmtPN3BDdURhZEw4aklhaEl5aTc1Sk8tLXRxcm16WW53akJJUXlYM2pwNzR2YjRDZ0VQbGwyd2JuYlo1SkhjSnpOaVVCZnE2VGc1WnpkaFltNG44U2FmTklWVm1JY2NteVUtZS1RTGlsdGh5X2ZR?oc=5)
-  - Moneycontrol.com · 19:32 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+- [Nike Gets Booted From S&P 100 After 18 Years: What Went Wrong With The Sportswear Giant?](https://news.google.com/rss/articles/CBMirwFBVV95cUxQd3F0TkhjZG03TERJWFA0S0VGVTFWbUh1Z0g5cl9iaUlhZE5hMmdIY3hmVGxaQkc5eDhDWERhQW40Y0hBb1l0Y29qOGZhMlRKa0sxSVN6RVhTcHRlR3ZFOWt3ME9nb3NrSXJHWXc3Ty11UDl2OE9JYU9LMThNa0R0WEJVUzA5RFY3VzNYNFhnYzF6aS1SUnlvd1hVcUdKYjNfeWlJa2lUdHYwdFl5UjFF0gG3AUFVX3lxTE94dFhUc3hEM1E4dDIyaGpMbkNLRENrSTFEa242ellMZW1rVjlwLWdLcTZ3RnF5SVNkbExoR3VJdTEtY080RDluamhOZDUxZmFrTEp2cXdMQTRLTjU5UEFFVVplc2Y0a0lkYUpjSnRFcUxuWFppTE5uY19aZTY4TzYzUUxEQUo2b1A0Y3JfUHdsRGQ5elBfZ21MbXpGLTRaR2JEQW9DdzR4UG1uUTZUNF93YXN0ek04SQ?oc=5)
+  - NDTV Profit · 19:04 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
 
 </details>
 
 <details>
-<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 약한 호재 1 · 판단보류 1</summary>
+<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 약한 호재 1 · 중립 1</summary>
 
 - **호재** · [NVO Stock Generates Retail Buzz After European Commission Approves 7.2 MG Once-Weekly Dose Of Wegovy Injection](https://news.google.com/rss/articles/CBMilwFBVV95cUxNUzZFM2RZVEd2N2tlWk5ZRDBpRmRXVFpueTVGS043Wlc4YW5TWmhjWUg4MXZFM2V5ekJqSk1kZ09NVW9BUmVMbi1lV2hWazRLYzFTeUlvc1BIRU5OTGYydEY1YWlycDktS1U5QlJwcUdkY01jcFgyT2ZqQnQ3VFV1cHFVTVhFUXB3YlN0ODY2UDVsMzdfSWxz?oc=5)
-  - stocktwits.com · 10:05 KST · 단일출처(구글 뉴스 RSS)
+  - Stocktwits · 10:05 KST · 단일출처(구글 뉴스 RSS)
   - 요약: 유럽연합 집행위원회는 비만 성인을 대상으로 한 Wegovy 7.2mg 주 1회 투여를 승인했으며, STEP UP 연구에서 18개월간 평균 체중이 약 21% 감소해 위약군의 약 2%를 크게 웃돌았다. 이번 승인으로 27개 EU 국가에서 2.4mg 주사 3개를 한 번에 투여하는 방식이 허용됐고, 약 1,400명 이상의 임상시험 데이터가 근거로 사용됐다.
   - 판단: 고용량 Wegovy의 EU 전역 승인은 Novo Nordisk의 처방 대상과 제품 선택지를 넓혀 매출 확대에 기여할 수 있다. 임상에서의 강한 체중감량 결과도 비만 치료제 시장에서 Wegovy의 경쟁력과 의사·환자 수요를 뒷받침한다.
   - 유의: 승인 소식에도 NVO 주가는 화요일 오전 거래에서 1% 넘게 하락했다. 미국 등 다른 시장에서는 7.2mg 허가 신청이 아직 심사 중이며, 실제 판매 확대 속도와 공급 부족 가능성은 확인이 필요하다.
@@ -461,9 +464,11 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
   - 요약: 노보노디스크 인도법인이 주 1회 투여하는 세계 최초 기저 인슐린 아위클리(인슐린 아이코덱)를 인도에 출시했다. 매일 1회이던 주사를 주 1회로 바꿔 연간 투여 횟수를 365회에서 52회로 줄인다. ONWARDS-1 임상에서 1일 1회 인슐린 글라진 U100 대비 우수한 당화혈색소 감소와 개선된 목표 혈당 범위 유지 시간을 보였다고 회사는 밝혔다. 인도는 당뇨 환자 1억 100만 명, 당뇨 전단계 1억 3,600만 명으로 세계 최대 수준의 시장이다.
   - 판단: 비만 치료제 경쟁이 심해진 상황에서 당뇨 인슐린이라는 기존 주력 사업의 신제품을 세계 최대 규모 환자군을 가진 시장에 내놓은 것이라, 매출 다변화에 긍정적인 방향이다.
   - 유의: 출시 발표일 뿐 판매 목표나 가격, 매출 기여 규모가 제시되지 않았다. 임상 결과와 의미 부여도 대부분 회사와 회사가 인용한 의료진의 설명이며, 인도 인슐린 시장은 가격 경쟁이 치열해 환자 수가 곧 수익으로 이어진다고 보기 어렵다.
-- [Why Is Novo Nordisk Stock Climbing Premarket Today?](https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXlsZXBvWmQ4T2R2YUllUnhYblp1OFJHMFRXaFVWVlpvQTFobFlFUndmMUNQRl8tRHBBM3FuRFNvTGhJbE5GMVc2eTJPemUtYl9WR05zRGtxaUFwVUhwdHU5UEFaRVhrdlhNNVp4RXA3ZTBWM1hPSzh1OG9qUFNib2RGY3Job0FtVm02Y1dkYlRHWDhmZGQxRmRFSDJUaWNuSWlaeEpKN18zVFFUQksyOEVyMl8?oc=5)
-  - stocktwits.com · 04:25 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+- **중립** · [VKTX Stock Has Nearly 300% Wall Street Upside — Is Viking’s Oral Obesity Pill The Next Novo Nordisk-Style Breakout?](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNzR3UDloSVJaalp4cXFKdWFzeVNrRU5hTkZzRTZza3hhWXg3MGJVejM0OEUwbzlGSzZMRkVKOEhQREpPQ2FWcFMzdUp6WkRqMnFoWVNBMzcyRjFycmRvZHFBUjRUMDZNX2stQ2RxbkZpYkszalN6S3BiWTJqclpTLWlTWmZFT1plNWxKTEhpaUF5aUtSQmxPMWtJbTk5MkVvdVc0ODRyOHdVQzMyTmV4cFh2b09vVVVFRVdCRDliRXFGamJCZmJhR3c1RDFPWDhRUGd1aXFJZWNqWnNMRWc?oc=5)
+  - Stocktwits · 02:39 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 기사는 Novo Nordisk가 아니라 Viking Therapeutics의 경구 비만 치료제 후보 VK2735와 VKTX 주가 전망을 주제로 한다. Morgan Stanley는 VKTX에 99달러 목표가와 ‘비중확대’를 유지했고, Raymond James는 118달러 목표가와 ‘강력 매수’를 제시했으며, Viking은 2026년 3분기 경구 VK2735의 3상 시험을 시작할 계획이다.
+  - 판단: Novo Nordisk의 Wegovy 경구제 출시 초기 수요가 강했다는 점은 경구 GLP-1 치료제 시장의 가능성을 보여주지만, 직접적인 수혜 대상은 Viking이다. 따라서 Novo Nordisk에는 시장 확대를 확인하는 간접 신호일 수 있으나, 이 기사만으로 NVO의 실적이나 주가에 미치는 영향은 제한적이다.
+  - 유의: 기사의 주제와 애널리스트 목표가는 Viking Therapeutics에 관한 것이며, Novo Nordisk에는 경구 Wegovy의 초기 처방 데이터가 언급된 수준이다. Wegovy는 1월 23일 기준 주당 약 5만 건의 처방과 17만명 이상의 치료 환자를 기록했지만, 장기 매출이나 수익성 수치는 제시되지 않았다.
 
 </details>
 
@@ -473,6 +478,6 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 - NXT 종가는 넥스트레이드(ATS) 최종 체결가로, 등락률로 역산한 전일 종가가 KRX 전일 종가와 맞을 때만 표시합니다.
 - 해외 종가는 Yahoo 단일 출처이며 독립 검증한 값이 아닙니다.
 - 시장 현지 날짜 기준 당일 일봉은 제외합니다. 실시간·시간외 가격이 아닙니다.
-- 오늘 뉴스 52건 중 교차확인 12건, 본문 확보 43건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.
+- 오늘 뉴스 53건 중 교차확인 13건, 본문 확보 45건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.
 - RSI(14)는 와일더 방식, 볼린저밴드는 이동평균 20일·표준편차 2배(모집단 기준)이며 종가와 같은 데이터로 최근 약 100거래일을 써서 계산합니다. 국내는 KRX 종가 기준입니다.
 - 지표는 참고용이며 투자 자문이 아닙니다.
