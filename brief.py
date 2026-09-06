@@ -94,8 +94,27 @@ def delta(row):
     value = row.get("change")
     if value is None:
         return "-"
-    sign = "+" if value > 0 else ""
-    return f"{sign}₩{value:,.0f}" if row["currency"] == "KRW" else f"{sign}${value:,.2f}"
+    sign = "+" if value > 0 else "-" if value < 0 else ""
+    size = abs(value)
+    return f"{sign}₩{size:,.0f}" if row["currency"] == "KRW" else f"{sign}${size:,.2f}"
+
+
+def cap_key(row):
+    """시총 내림차순 정렬용. 시총을 못 구한 종목은 맨 뒤로 보낸다."""
+    return row.get("market_cap") or -1
+
+
+def cap_text(row):
+    """시가총액 표기. 국내는 조, 해외는 T/B/M 단위로 줄인다."""
+    value = row.get("market_cap")
+    if value is None:
+        return "-"
+    if row["currency"] == "KRW":
+        return f"{value / 1e12:,.1f}조" if value >= 1e12 else f"{value / 1e8:,.0f}억"
+    for size, unit in ((1e12, "T"), (1e9, "B"), (1e6, "M")):
+        if value >= size:
+            return f"${value / size:,.2f}{unit}"
+    return f"${value:,.0f}"
 
 
 def rsi_text(row):
@@ -121,12 +140,12 @@ def verification(row):
 
 
 def table(rows, with_nxt=False):
-    head = ["종목", "KRX 종가" if with_nxt else "종가", "전일 대비"] + (
+    head = ["종목 (시가총액)", "KRX 종가" if with_nxt else "종가", "전일 대비"] + (
         ["NXT 종가"] if with_nxt else []) + ["RSI(14)", "볼린저(20,2σ)", "검증"]
     lines = ["| " + " | ".join(head) + " |",
              "| --- | ---: | ---: |" + (" ---: |" if with_nxt else "") + " ---: | --- | --- |"]
-    for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
-        cells = [f"{row['name']} ({row['ticker']})", amount(row), move(row)[0]]
+    for row in sorted(rows, key=cap_key, reverse=True):
+        cells = [f"{row['name']} ({row['ticker']}, {cap_text(row)})", amount(row), move(row)[0]]
         if with_nxt:
             cells.append(nxt(row))
         cells += [rsi_text(row), band_text(row), verification(row)]
@@ -135,12 +154,12 @@ def table(rows, with_nxt=False):
 
 
 def watch_table(rows):
-    lines = ["| 종목 | 종가 | 변동 | 변동률 | RSI(14) | 볼린저(20,2σ) |",
-             "| --- | ---: | ---: | ---: | ---: | --- |"]
-    for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
+    lines = ["| 종목 | 시가총액 | 종가 | 변동 | 변동률 | RSI(14) | 볼린저(20,2σ) |",
+             "| --- | ---: | ---: | ---: | ---: | ---: | --- |"]
+    for row in sorted(rows, key=cap_key, reverse=True):
         lines.append("| " + " | ".join([
-            f"{row['name']} ({row['ticker']})", amount(row), delta(row), move(row)[0],
-            rsi_text(row), band_text(row)]) + " |")
+            f"{row['name']} ({row['ticker']})", cap_text(row), amount(row), delta(row),
+            move(row)[0], rsi_text(row), band_text(row)]) + " |")
     return lines
 
 
@@ -312,7 +331,7 @@ section{display:flex; flex-direction:column}
 .panel[hidden]{display:none}
 .subhead{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
   margin:0 0 8px; font-weight:600}
-.watch-row{display:grid; grid-template-columns:minmax(150px,1.6fr) 110px 92px 84px 78px 84px;
+.watch-row{display:grid; grid-template-columns:minmax(140px,1.5fr) 88px 100px 88px 80px 74px 82px;
   gap:12px; align-items:center; padding:11px 4px; border-bottom:1px solid var(--line)}
 .watch-row.head{padding-bottom:7px; color:var(--muted); font-size:11px; letter-spacing:.1em; text-transform:uppercase}
 .controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px}
@@ -413,7 +432,7 @@ def html_rows(rows, scale, with_nxt=False):
             f'<span class="tech">RSI(14)</span><span class="band">볼린저(20,2σ)</span>'
             f'<span class="verdict">검증</span></div>')
     out = ['<div class="rows">', head]
-    for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
+    for row in sorted(rows, key=cap_key, reverse=True):
         label, tone = move(row)
         if "rsi" in row:
             tech = (f'<span class="tech {RSI_TONE.get(row["rsi_zone"], "flat")}">{row["rsi"]:.1f}'
@@ -434,10 +453,11 @@ def html_rows(rows, scale, with_nxt=False):
 
 def html_watch(rows):
     out = ['<div class="rows">',
-           '<div class="watch-row head"><span>종목</span><span class="num">종가</span>'
-           '<span class="num">변동</span><span class="pct">변동률</span>'
+           '<div class="watch-row head"><span>종목</span><span class="num">시가총액</span>'
+           '<span class="num">종가</span><span class="num">변동</span>'
+           '<span class="pct">변동률</span>'
            '<span class="tech">RSI(14)</span><span class="band">볼린저</span></div>']
-    for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
+    for row in sorted(rows, key=cap_key, reverse=True):
         label, tone = move(row)
         if "rsi" in row:
             tech = (f'<span class="tech {RSI_TONE.get(row["rsi_zone"], "flat")}">{row["rsi"]:.1f}'

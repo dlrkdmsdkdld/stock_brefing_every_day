@@ -96,12 +96,29 @@ def tech(row):
     return "  " + " · ".join(parts)
 
 
+def cap_key(row):
+    return row.get("market_cap") or -1
+
+
+def cap_text(row):
+    value = row.get("market_cap")
+    if value is None:
+        return ""
+    if row["currency"] == "KRW":
+        return f"{value / 1e12:,.1f}조" if value >= 1e12 else f"{value / 1e8:,.0f}억"
+    for size, unit in ((1e12, "T"), (1e9, "B"), (1e6, "M")):
+        if value >= size:
+            return f"${value / size:,.2f}{unit}"
+    return f"${value:,.0f}"
+
+
 def delta(row):
     value = row.get("change")
     if value is None:
         return ""
-    sign = "+" if value > 0 else ""
-    return f"{sign}₩{value:,.0f}" if row["currency"] == "KRW" else f"{sign}${value:,.2f}"
+    sign = "+" if value > 0 else "-" if value < 0 else ""
+    size = abs(value)
+    return f"{sign}₩{size:,.0f}" if row["currency"] == "KRW" else f"{sign}${size:,.2f}"
 
 
 def money(row):
@@ -147,17 +164,19 @@ def build(prices, news, judged):
         rows = [row for row in holdings if row["currency"] == currency]
         if not rows:
             continue
-        lines.append(f"<b>[{market}]</b>")
-        for row in sorted(rows, key=lambda row: row.get("change_pct") or 0, reverse=True):
+        lines.append(f"<b>[{market} · 시총순]</b>")
+        for row in sorted(rows, key=cap_key, reverse=True):
             extra = (f"  (NXT ₩{row['nxt_price']:,.0f} {row['nxt_change_pct']:+.2f}%)"
                      if "nxt_price" in row else "")
-            lines.append(f"{esc(row['name'])}  {money(row)}  {move(row)}{extra}{tech(row)}")
+            lines.append(f"{esc(row['name'])} <code>{cap_text(row)}</code>  {money(row)}  "
+                         f"{move(row)}{extra}{tech(row)}")
         lines.append("")
 
     if watch:
-        lines.append(f"<b>[관심 종목 {len(watch)}]</b>")
-        for row in sorted(watch, key=lambda row: row.get("change_pct") or 0, reverse=True):
-            lines.append(f"{esc(row['name'])}  {money(row)}  {delta(row)}  {move(row)}{tech(row)}")
+        lines.append(f"<b>[관심 종목 {len(watch)} · 시총순]</b>")
+        for row in sorted(watch, key=cap_key, reverse=True):
+            lines.append(f"{esc(row['name'])} <code>{cap_text(row)}</code>  {money(row)}  "
+                         f"{delta(row)}  {move(row)}{tech(row)}")
         lines.append("")
 
     lines.append("<b>📰 종목별 오늘의 뉴스</b>")

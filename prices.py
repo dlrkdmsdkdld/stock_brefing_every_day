@@ -68,6 +68,27 @@ def series(frame, column, cutoff):
     return [float(value) for value in closed_frame(frame, cutoff)[column]]
 
 
+def korean_market_cap(ticker):
+    """국내 시가총액. 네이버가 표시하는 값(보통주 기준)을 쓴다.
+
+    pykrx의 시총 조회는 KRX 로그인이 필요하고, Yahoo의 상장주식수는 우선주까지 포함해
+    네이버 표시값보다 10% 남짓 크게 나온다. 사용자가 보는 숫자와 맞추는 쪽을 택했다.
+    """
+    url = f"https://m.stock.naver.com/api/stock/{ticker}/integration"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=AGENT), timeout=20) as body:
+        payload = json.load(body)
+    text = next((row["value"] for row in payload.get("totalInfos", [])
+                 if row.get("code") == "marketValue"), None)
+    if not text:
+        raise ValueError("네이버 시가총액 없음")
+    total, cleaned = 0, text.replace(",", "").replace(" ", "")
+    for amount, unit in re.findall(r"(\d+)(조|억|만)?", cleaned):
+        total += int(amount) * {"조": 10**12, "억": 10**8, "만": 10**4, "": 1}[unit]
+    if total <= 0:
+        raise ValueError(f"시가총액 파싱 실패: {text}")
+    return total, f"네이버 표시값({text})"
+
+
 def market_cap(symbol, price):
     """시가총액. 상장주식수 x 우리가 쓰는 종가로 계산해 표시 가격과 기준을 맞춘다.
 
@@ -162,6 +183,10 @@ def fetch(item):
             date, price, previous = latest(frame, "종가", cutoff)
             result.update(indicators.compute(series(frame, "종가", cutoff)))
             result["provider_name"] = stock.get_market_ticker_name(ticker)
+            try:
+                result["market_cap"], result["market_cap_source"] = korean_market_cap(ticker)
+            except Exception as exc:
+                result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
             check(result, "yahoo_check", date, price,
                   lambda: (None,) + yahoo_close(ticker + ".KS", start, cutoff)[1][:2])
             check(result, "naver_check", date, price, lambda: naver_close(ticker))
@@ -177,12 +202,11 @@ def fetch(item):
             if metadata.get("currency") != currency:
                 raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
             result["provider_name"] = metadata.get("longName") or metadata.get("shortName")
-            # 관심 종목은 시총순으로 정렬하므로 시가총액을 함께 받는다.
-            if item["group"] == "watch":
-                try:
-                    result["market_cap"], result["market_cap_source"] = market_cap(ticker, price)
-                except Exception as exc:
-                    result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
+            # 표를 시총순으로 정렬하므로 보유·관심 모두 시가총액을 받는다.
+            try:
+                result["market_cap"], result["market_cap_source"] = market_cap(ticker, price)
+            except Exception as exc:
+                result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
         result.update(price=round(price, 4), date=date.isoformat(), status="ok")
         # 직전 거래일 대비 등락률. 이전 값이 없으면 채우지 않고 비워 둔다.
         if previous:
