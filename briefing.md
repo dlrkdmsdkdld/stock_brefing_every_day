@@ -1,4 +1,4 @@
-# 포트폴리오 브리핑 · 2026-09-06 (Sun) 21:52 KST
+# 포트폴리오 브리핑 · 2026-09-06 (Sun) 21:58 KST
 
 보유 18종목 · 관심 65종목 · 종가 기준일 2026-09-04 · 뉴스 2026-09-06 발행분 52건
 
@@ -131,7 +131,7 @@
 
 ## 종목별 오늘의 뉴스
 
-_기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 투자 자문이 아님._
+_기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님._
 
 <details>
 <summary><b>SK하이닉스</b> <code>000660</code> ▲ +3.20% ₩1,647,000 — 약한 악재 2 · 호재 1</summary>
@@ -316,7 +316,7 @@ _기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 �
 </details>
 
 <details>
-<summary><b>크레도 테크놀로지</b> <code>CRDO</code> ▲ +3.90% $170.57 — 약한 호재 1 · 판단보류 2</summary>
+<summary><b>크레도 테크놀로지</b> <code>CRDO</code> ▲ +3.90% $170.57 — 약한 호재 1 · 약한 악재 1 · 판단보류 1</summary>
 
 - **약한 호재** · [Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWtqOUZjRl9sN004azF3ekxYQzc3dHdQUk44UXRTOEhpWVFJWHpmcUgxTnRTNTBHRVlJT1dBMkRPbUI4eklyVW9JajdTbXA1WDBkUHJRQXVzZG95UmpQRzJyV3R3NGNha2hqNE1uWnJRLVFrcnhFZkZVNmFjS2U1blh5TVctMWx0bjY3Rkphb2xFWlRyQ1lScE5vZWhaOEZQX2NGQkRvOXF1cFU?oc=5)
   - Investor's Business Daily · 16:26 KST · 단일출처(구글 뉴스 RSS)
@@ -326,9 +326,11 @@ _기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 �
 - [Credo's Selloff Is Missing The Bigger AI Opportunity (NASDAQ:CRDO)](https://news.google.com/rss/articles/CBMilwFBVV95cUxOS0JkMWJFbmdzRHI0aFpzZ0VnWVlpaUstYjBiUDNzWmY0cnVNYkFHMkdrNDljOFFrZ1cyX1NjZkdTdjctNHF1M1JNS05RYlpOZlZRRkNBZHlaV05WaXIwOUNLSl9vSWdtZndDYk5scWtoelpXSmtCeERUWmpfR0ViUjdHV3ZZM1FFNVZ5VXpBSVNBRUhmSXNn?oc=5)
   - Seeking Alpha · 15:57 KST · 단일출처(구글 뉴스 RSS)
   - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
-- [Why Credo Technology Stock Is Down Today and Why This Top Analyst Expects Shares to More Than Double](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1dMbGIxbGQ5bXhBNkIwUlZzam1NMmVBLTlnZlBJZjJvQzFFM3BKc0J1SFRzdVZMRmlRa1d1Z2cySzhWSkN6aDFUZEtVSFcyTEw3MFpFNVVldGZsdlM3TGw1WGhBcmVHV2hTYUJscnlraGk5ZXdhMU1pa1ZPMjVSOERpSUtRVDg0b1Z5blQwVnNaeE5TU1U2enI5N0F4WUNLaHlKRm93YTdfMjlTVnB2T0ZINVotUERPbTVRdTBnUEpDYl9JaUNrUUU5a2tWUUZqXzJDYg?oc=5)
+- **약한 악재** · [Why Credo Technology Stock Is Down Today and Why This Top Analyst Expects Shares to More Than Double](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1dMbGIxbGQ5bXhBNkIwUlZzam1NMmVBLTlnZlBJZjJvQzFFM3BKc0J1SFRzdVZMRmlRa1d1Z2cySzhWSkN6aDFUZEtVSFcyTEw3MFpFNVVldGZsdlM3TGw1WGhBcmVHV2hTYUJscnlraGk5ZXdhMU1pa1ZPMjVSOERpSUtRVDg0b1Z5blQwVnNaeE5TU1U2enI5N0F4WUNLaHlKRm93YTdfMjlTVnB2T0ZINVotUERPbTVRdTBnUEpDYl9JaUNrUUU5a2tWUUZqXzJDYg?oc=5)
   - TipRanks · 15:08 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+  - 요약: 크레도는 회계 1분기(7월 분기) 매출 4억7,900만 달러로 전년 대비 115% 늘며 컨센서스 4억7,300만 달러와 자체 가이던스를 모두 넘었고, 조정 EPS도 1.20달러로 전년 0.52달러와 예상치 1.17달러를 웃돌았다. 2분기 매출 가이던스 역시 5억2,500만~5억3,500만 달러로 월가 예상 5억1,654만 달러를 상회했다. 그럼에도 주가는 장중 18% 급락했는데, GAAP 매출총이익률이 전분기 68.2%·전년 67.4%에서 64.5%로 떨어지고 영업비용이 8,960만 달러에서 1억8,840만 달러로 두 배 넘게 늘어난 수익성 악화가 원인으로 지목됐다.
+  - 판단: 실적과 가이던스를 모두 상회했는데도 마진 하락 때문에 급락했다는 것은 시장의 관심이 성장률에서 수익성으로 옮겨갔다는 뜻이다. 2분기 GAAP 매출총이익률 가이던스 중간값도 63.9%로 추가 하락을 예고해 마진 압박이 단기간에 끝나지 않을 가능성이 있다.
+  - 유의: Stifel의 토레 스반베리는 이번 실적에도 강세 전망을 유지하며 주가가 두 배 이상 오를 수 있다고 봤다. 크레도가 AEC 중심 틈새 업체에서 광·구리 연결과 이더넷·PCIe·UALink를 아우르는 종합 연결 업체로 바뀌었다는 점은 마진 하락이 성장 투자에 따른 것일 가능성도 시사한다.
 
 </details>
 
@@ -354,16 +356,18 @@ _기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 �
 </details>
 
 <details>
-<summary><b>시스코 시스템즈</b> <code>CSCO</code> ▲ +0.54% $109.20 — 약한 호재 1 · 악재 1 · 판단보류 1</summary>
+<summary><b>시스코 시스템즈</b> <code>CSCO</code> ▲ +0.54% $109.20 — 약한 호재 1 · 중립 1 · 악재 1</summary>
 
 - **약한 호재** · [Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings](https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html)
   - Simply Wall St., Yahoo Finance · 04:05 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
   - 요약: Cisco는 최근 5년간 투자자 수익률이 116.9%였지만, 현금흐름 기준으로는 여전히 저평가됐다는 분석이 나왔다. 최근 12개월 잉여현금흐름은 약 131억 달러이며, DCF 모델은 적정가치를 주당 약 153달러로 추정해 현재 시장가보다 28.7% 높은 수준으로 제시했다.
   - 판단: AI 인프라와 소버린 네트워크 투자가 향후 현금흐름을 지지할 수 있고, DCF상 저평가라는 분석은 시스코 주가의 추가 상승 여지를 뒷받침한다.
   - 유의: DCF는 현금흐름이 계속 성장한다는 가정에 의존한다. 마진, 소프트웨어 성장, 핵심 라우팅 제품의 사이버보안 위협이 실제 주가 상승을 제한할 수 있다.
-- [JSA advises on India leg of Cisco's acquisition of WideField Security](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMFE1VHU0cWlTejd0WGNDd0VzUVlBT3gzVzZsNU03bHBiYldQRE9ZZ1lNQnNJUEdPVDJJSzhoVjJlUHRNekNKMjRkYkhIVVd4ZmNpa25Ec1FEVmJXVmdBaklrcXppVWcySy1pLVpRMC1BaHh1d3ZMY2VNd29sM2FOekFEcmI3OEw4OXVmcDBlQjJoTGt3RVUxQy1vUC1YbDc3VWR6aC0ybVl1UVhpcnlCTVhBZ2RBck5r0gHGAUFVX3lxTE9JNWxhaENvbVZjSUFFM2ZFLXJZZV8tTzlFUXhpcVNNaE1qdFVEYnA0NFdzRVZnRkJtMnJ5NWxxbmhrLTVDWDZLUC1vSkhpdm1Kd09GZldqa2w2VFV4clJXbXBsMFNHVnByci11RWUzb012c0NIeFF5UzNJWHlCREhTQURMbWVyMEVacFZYQ1A4eTF0QkFKMDdYbFZvbFZVaVd2WE04R1hWMHg0VFBxdDhaZjZubXNkemVyVGJ2VUZiV1VZeFQ2Zw?oc=5)
+- **중립** · [JSA advises on India leg of Cisco's acquisition of WideField Security](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMFE1VHU0cWlTejd0WGNDd0VzUVlBT3gzVzZsNU03bHBiYldQRE9ZZ1lNQnNJUEdPVDJJSzhoVjJlUHRNekNKMjRkYkhIVVd4ZmNpa25Ec1FEVmJXVmdBaklrcXppVWcySy1pLVpRMC1BaHh1d3ZMY2VNd29sM2FOekFEcmI3OEw4OXVmcDBlQjJoTGt3RVUxQy1vUC1YbDc3VWR6aC0ybVl1UVhpcnlCTVhBZ2RBck5r0gHGAUFVX3lxTE9JNWxhaENvbVZjSUFFM2ZFLXJZZV8tTzlFUXhpcVNNaE1qdFVEYnA0NFdzRVZnRkJtMnJ5NWxxbmhrLTVDWDZLUC1vSkhpdm1Kd09GZldqa2w2VFV4clJXbXBsMFNHVnByci11RWUzb012c0NIeFF5UzNJWHlCREhTQURMbWVyMEVacFZYQ1A4eTF0QkFKMDdYbFZvbFZVaVd2WE04R1hWMHg0VFBxdDhaZjZubXNkemVyVGJ2VUZiV1VZeFQ2Zw?oc=5)
   - Bar and Bench · 21:19 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+  - 요약: 시스코가 아이덴티티 보안 업체 와이드필드 시큐리티를 인수하면서 인도 법인 관련 법률 자문이 마무리됐다는 로펌 발표다. 와이드필드는 사람·비인간·AI 주체의 디지털 아이덴티티를 통합 관리하는 플랫폼을 제공하며, 이 기술은 시스코의 스플렁크 플랫폼에 통합돼 에이전틱 보안관제센터(SOC) 기능을 강화하는 데 쓰일 예정이다.
+  - 판단: AI 에이전트가 늘면서 커지는 아이덴티티 보안 수요를 스플렁크에 붙이는 방향은 보안 사업 강화에 부합한다. 다만 이 기사만으로는 시스코 실적에 미치는 영향을 가늠하기 어렵다.
+  - 유의: 기사 주체가 로펌의 자문 실적 홍보라 인수 금액, 매출 기여, 완료 시점 같은 투자 판단에 필요한 수치가 전혀 없다. 시스코가 아니라 자문사 관점에서 쓰인 글이다.
 - **악재** · [Cisco IOS XR Has No Workaround—Every Release Needs an SMU Check](https://news.google.com/rss/articles/CBMikwFBVV95cUxNTUx6ZXFZU0xmVkdVNjd5UlRNODBpMXRYTFd4bWlraHkyc1YtZHh1SS01WER0TXpXeTlxNElkS3lnOXFGVDVWVFpQVzVrcU5uckVZLXpFVkM3WS1UMFdvb2NZT2N3OTNZUXBGQkFLM2FxZGI3TG5rcVZ4aEEwbXk1eHFqTzA1MU5WVGlvSmp2TTJsQkk?oc=5)
   - quasa.io · 19:00 KST · 단일출처(구글 뉴스 RSS)
   - 요약: Cisco는 2026년 9월 4일 IOS XR 보안 강화 권고를 개정했으며, 설정과 무관하게 모든 IOS XR 릴리스가 영향을 받고 7개 CVE가 관련되며 우회 방법은 없다고 밝혔다. CVE-2026-20274와 CVE-2026-20279는 최대 CVSS 9.8의 중대 취약점으로 분류됐고, 수정에는 릴리스별 SMU 확인과 설치가 필요하다.
@@ -373,16 +377,18 @@ _기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 �
 </details>
 
 <details>
-<summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +4.35% $280.53 — 호재 1 · 약한 호재 1 · 판단보류 1</summary>
+<summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +4.35% $280.53 — 호재 1 · 중립 1 · 약한 호재 1</summary>
 
 - **호재** · [VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5)
   - stocktwits.com · 06:29 KST · 단일출처(구글 뉴스 RSS)
   - 요약: Vertiv는 데이터센터 액체 냉각 솔루션 업체 Strategic Thermal Labs를 인수했으며, 거래 조건은 공개되지 않았다. 이번 인수로 Vertiv는 콜드플레이트 설계, 서버 측 액체 냉각, 고밀도 열 검증 및 엔지니어링 역량을 확보해 고객의 고밀도 컴퓨팅 환경을 시뮬레이션하고 전력·열 관리 솔루션을 강화할 수 있게 됐다.
   - 판단: AI 데이터센터의 고밀도 컴퓨팅 확대에 따라 액체 냉각 수요가 증가할 수 있어, 이번 인수는 Vertiv의 열관리 제품 경쟁력과 데이터센터 고객 대상 통합 솔루션 매출에 긍정적이다.
   - 유의: 인수 가격과 예상 매출·이익 기여가 공개되지 않았으며, Stocktwits의 개인투자자 심리는 최근 24시간 동안 ‘극도로 약세’로 악화됐다.
-- [Key deals this week: Flex, Nvidia, AbbVie and more (VRT:NYSE)](https://news.google.com/rss/articles/CBMijgFBVV95cUxNdl90REZtNzFQLU42T18xVjdlQ1RxQVI4TUptLTgycTQ2eThBaDB1VTNYRUJKWDZscUkxTUFfTnBKRHhSalcwUXNfNDhUWTJ4c21fYVhXUlpuekJ1LVZvTjNoM1c4Rk5ZRmprQV90d08yekMzS3ZfWGZpWV91MXU0ZEtNbDZ1WGNvT1Bja3F3?oc=5)
+- **중립** · [Key deals this week: Flex, Nvidia, AbbVie and more (VRT:NYSE)](https://news.google.com/rss/articles/CBMijgFBVV95cUxNdl90REZtNzFQLU42T18xVjdlQ1RxQVI4TUptLTgycTQ2eThBaDB1VTNYRUJKWDZscUkxTUFfTnBKRHhSalcwUXNfNDhUWTJ4c21fYVhXUlpuekJ1LVZvTjNoM1c4Rk5ZRmprQV90d08yekMzS3ZfWGZpWV91MXU0ZEtNbDZ1WGNvT1Bja3F3?oc=5)
   - Seeking Alpha · 04:15 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+  - 요약: 이번 주 주요 인수합병을 모아 정리한 기사로, 플렉스(FLEX)가 AI 데이터센터용 전력변환 역량을 확보하기 위해 디지털 전력 인프라 업체 EPC 파워를 44억 달러에 인수하기로 한 건이 앞머리에 실렸다. 버티브는 기사에 태그된 종목 중 하나로 언급됐다.
+  - 판단: AI 데이터센터 전력 인프라에 대형 인수가 이어진다는 것은 버티브가 속한 시장의 성장 기대를 보여주지만, 동시에 경쟁자가 그 영역으로 들어온다는 신호이기도 하다.
+  - 유의: 버티브 자체에 대한 내용이 없고 종목 태그로만 걸린 주간 M&A 요약이다. 확보한 본문도 519자로 짧아 기사 전체를 확인하지 못했다.
 - **약한 호재** · [These 3 AI Stocks Are Way Off Their Highs. Is the Pullback a Buying Opportunity?](https://finance.yahoo.com/markets/stocks/articles/3-ai-stocks-way-off-224823238.html)
   - Insider Monkey, Yahoo Finance · 07:48 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
   - 요약: Vertiv의 2026년 2분기 매출은 전년 대비 24% 증가한 32억7000만 달러, 조정 영업이익률은 410bp 상승한 22.6%, 조정 잉여현금흐름은 9억2500만 달러였다. 2분기 Vertiv를 보유한 헤지펀드는 112곳으로 1분기 96곳에서 늘었고, AQR은 2,686,683주를 보유해 전분기 대비 0.5% 확대했다.
@@ -449,16 +455,18 @@ _기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 �
 </details>
 
 <details>
-<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 중립 1 · 판단보류 1</summary>
+<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 약한 호재 1 · 중립 1</summary>
 
 - **호재** · [NVO Stock Generates Retail Buzz After European Commission Approves 7.2 MG Once-Weekly Dose Of Wegovy Injection](https://news.google.com/rss/articles/CBMilwFBVV95cUxNUzZFM2RZVEd2N2tlWk5ZRDBpRmRXVFpueTVGS043Wlc4YW5TWmhjWUg4MXZFM2V5ekJqSk1kZ09NVW9BUmVMbi1lV2hWazRLYzFTeUlvc1BIRU5OTGYydEY1YWlycDktS1U5QlJwcUdkY01jcFgyT2ZqQnQ3VFV1cHFVTVhFUXB3YlN0ODY2UDVsMzdfSWxz?oc=5)
   - stocktwits.com · 10:05 KST · 단일출처(구글 뉴스 RSS)
   - 요약: 유럽연합 집행위원회는 비만 성인을 대상으로 한 Wegovy 7.2mg 주 1회 투여를 승인했으며, STEP UP 연구에서 18개월간 평균 체중이 약 21% 감소해 위약군의 약 2%를 크게 웃돌았다. 이번 승인으로 27개 EU 국가에서 2.4mg 주사 3개를 한 번에 투여하는 방식이 허용됐고, 약 1,400명 이상의 임상시험 데이터가 근거로 사용됐다.
   - 판단: 고용량 Wegovy의 EU 전역 승인은 Novo Nordisk의 처방 대상과 제품 선택지를 넓혀 매출 확대에 기여할 수 있다. 임상에서의 강한 체중감량 결과도 비만 치료제 시장에서 Wegovy의 경쟁력과 의사·환자 수요를 뒷받침한다.
   - 유의: 승인 소식에도 NVO 주가는 화요일 오전 거래에서 1% 넘게 하락했다. 미국 등 다른 시장에서는 7.2mg 허가 신청이 아직 심사 중이며, 실제 판매 확대 속도와 공급 부족 가능성은 확인이 필요하다.
-- [Novo Nordisk Launches Once-Weekly Basal Insulin Awiqli in India](https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEoySjAxbnBlTXpMMEdzOHc4aU9hSmdiTThWVDEtSnpWbnh4TDhQNDZBd3BFeV90QlJkWFl4bU5EdjJnWGhocm5LYWRBcHBxR0xwdXVScU9YdEFJMEREazhYS3hsYm9Ka1h4YUhSQ2FYTElLWXZZVWdOY2tLMlRkWHY1Ni1TQkQwOFRHUi16bVJFOXc?oc=5)
+- **약한 호재** · [Novo Nordisk Launches Once-Weekly Basal Insulin Awiqli in India](https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEoySjAxbnBlTXpMMEdzOHc4aU9hSmdiTThWVDEtSnpWbnh4TDhQNDZBd3BFeV90QlJkWFl4bU5EdjJnWGhocm5LYWRBcHBxR0xwdXVScU9YdEFJMEREazhYS3hsYm9Ka1h4YUhSQ2FYTElLWXZZVWdOY2tLMlRkWHY1Ni1TQkQwOFRHUi16bVJFOXc?oc=5)
   - DD News · 04:50 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 없음) · 요약·판단 보류
+  - 요약: 노보노디스크 인도법인이 주 1회 투여하는 세계 최초 기저 인슐린 아위클리(인슐린 아이코덱)를 인도에 출시했다. 매일 1회이던 주사를 주 1회로 바꿔 연간 투여 횟수를 365회에서 52회로 줄인다. ONWARDS-1 임상에서 1일 1회 인슐린 글라진 U100 대비 우수한 당화혈색소 감소와 개선된 목표 혈당 범위 유지 시간을 보였다고 회사는 밝혔다. 인도는 당뇨 환자 1억 100만 명, 당뇨 전단계 1억 3,600만 명으로 세계 최대 수준의 시장이다.
+  - 판단: 비만 치료제 경쟁이 심해진 상황에서 당뇨 인슐린이라는 기존 주력 사업의 신제품을 세계 최대 규모 환자군을 가진 시장에 내놓은 것이라, 매출 다변화에 긍정적인 방향이다.
+  - 유의: 출시 발표일 뿐 판매 목표나 가격, 매출 기여 규모가 제시되지 않았다. 임상 결과와 의미 부여도 대부분 회사와 회사가 인용한 의료진의 설명이며, 인도 인슐린 시장은 가격 경쟁이 치열해 환자 수가 곧 수익으로 이어진다고 보기 어렵다.
 - **중립** · [VKTX Stock Has Nearly 300% Wall Street Upside — Is Viking’s Oral Obesity Pill The Next Novo Nordisk-Style Breakout?](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNzR3UDloSVJaalp4cXFKdWFzeVNrRU5hTkZzRTZza3hhWXg3MGJVejM0OEUwbzlGSzZMRkVKOEhQREpPQ2FWcFMzdUp6WkRqMnFoWVNBMzcyRjFycmRvZHFBUjRUMDZNX2stQ2RxbkZpYkszalN6S3BiWTJqclpTLWlTWmZFT1plNWxKTEhpaUF5aUtSQmxPMWtJbTk5MkVvdVc0ODRyOHdVQzMyTmV4cFh2b09vVVVFRVdCRDliRXFGamJCZmJhR3c1RDFPWDhRUGd1aXFJZWNqWnNMRWc?oc=5)
   - stocktwits.com · 02:39 KST · 단일출처(구글 뉴스 RSS)
   - 요약: 기사는 Novo Nordisk가 아니라 Viking Therapeutics의 경구 비만 치료제 후보 VK2735와 VKTX 주가 전망을 주제로 한다. Morgan Stanley는 VKTX에 99달러 목표가와 ‘비중확대’를 유지했고, Raymond James는 118달러 목표가와 ‘강력 매수’를 제시했으며, Viking은 2026년 3분기 경구 VK2735의 3상 시험을 시작할 계획이다.

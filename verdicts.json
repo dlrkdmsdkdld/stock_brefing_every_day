@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T21:52:32+09:00",
-  "analyst": "기사 본문을 읽고 모델이 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "gpt-5.6-luna",
+  "generated_at": "2026-09-06T21:58:04+09:00",
+  "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
+  "model": "gpt-5.6-luna + 일부 수동 작성(테스트 기간)",
   "usage": {
     "input_tokens": 1615,
     "output_tokens": 709
@@ -363,6 +363,38 @@
       "summary": "기사는 Novo Nordisk가 아니라 Viking Therapeutics의 경구 비만 치료제 후보 VK2735와 VKTX 주가 전망을 주제로 한다. Morgan Stanley는 VKTX에 99달러 목표가와 ‘비중확대’를 유지했고, Raymond James는 118달러 목표가와 ‘강력 매수’를 제시했으며, Viking은 2026년 3분기 경구 VK2735의 3상 시험을 시작할 계획이다.",
       "impact": "Novo Nordisk의 Wegovy 경구제 출시 초기 수요가 강했다는 점은 경구 GLP-1 치료제 시장의 가능성을 보여주지만, 직접적인 수혜 대상은 Viking이다. 따라서 Novo Nordisk에는 시장 확대를 확인하는 간접 신호일 수 있으나, 이 기사만으로 NVO의 실적이나 주가에 미치는 영향은 제한적이다.",
       "caution": "기사의 주제와 애널리스트 목표가는 Viking Therapeutics에 관한 것이며, Novo Nordisk에는 경구 Wegovy의 초기 처방 데이터가 언급된 수준이다. Wegovy는 1월 23일 기준 주당 약 5만 건의 처방과 17만명 이상의 치료 환자를 기록했지만, 장기 매출이나 수익성 수치는 제시되지 않았다."
+    },
+    "whycredotechnologystockisdowntodayandwhythistopanalystexpectssharestomorethandouble": {
+      "title": "Why Credo Technology Stock Is Down Today and Why This Top Analyst Expects Shares to More Than Double",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "크레도는 회계 1분기(7월 분기) 매출 4억7,900만 달러로 전년 대비 115% 늘며 컨센서스 4억7,300만 달러와 자체 가이던스를 모두 넘었고, 조정 EPS도 1.20달러로 전년 0.52달러와 예상치 1.17달러를 웃돌았다. 2분기 매출 가이던스 역시 5억2,500만~5억3,500만 달러로 월가 예상 5억1,654만 달러를 상회했다. 그럼에도 주가는 장중 18% 급락했는데, GAAP 매출총이익률이 전분기 68.2%·전년 67.4%에서 64.5%로 떨어지고 영업비용이 8,960만 달러에서 1억8,840만 달러로 두 배 넘게 늘어난 수익성 악화가 원인으로 지목됐다.",
+      "impact": "실적과 가이던스를 모두 상회했는데도 마진 하락 때문에 급락했다는 것은 시장의 관심이 성장률에서 수익성으로 옮겨갔다는 뜻이다. 2분기 GAAP 매출총이익률 가이던스 중간값도 63.9%로 추가 하락을 예고해 마진 압박이 단기간에 끝나지 않을 가능성이 있다.",
+      "caution": "Stifel의 토레 스반베리는 이번 실적에도 강세 전망을 유지하며 주가가 두 배 이상 오를 수 있다고 봤다. 크레도가 AEC 중심 틈새 업체에서 광·구리 연결과 이더넷·PCIe·UALink를 아우르는 종합 연결 업체로 바뀌었다는 점은 마진 하락이 성장 투자에 따른 것일 가능성도 시사한다."
+    },
+    "jsaadvisesonindialegofciscosacquisitionofwidefieldsecurity": {
+      "title": "JSA advises on India leg of Cisco's acquisition of WideField Security",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코가 아이덴티티 보안 업체 와이드필드 시큐리티를 인수하면서 인도 법인 관련 법률 자문이 마무리됐다는 로펌 발표다. 와이드필드는 사람·비인간·AI 주체의 디지털 아이덴티티를 통합 관리하는 플랫폼을 제공하며, 이 기술은 시스코의 스플렁크 플랫폼에 통합돼 에이전틱 보안관제센터(SOC) 기능을 강화하는 데 쓰일 예정이다.",
+      "impact": "AI 에이전트가 늘면서 커지는 아이덴티티 보안 수요를 스플렁크에 붙이는 방향은 보안 사업 강화에 부합한다. 다만 이 기사만으로는 시스코 실적에 미치는 영향을 가늠하기 어렵다.",
+      "caution": "기사 주체가 로펌의 자문 실적 홍보라 인수 금액, 매출 기여, 완료 시점 같은 투자 판단에 필요한 수치가 전혀 없다. 시스코가 아니라 자문사 관점에서 쓰인 글이다."
+    },
+    "keydealsthisweekflexnvidiaabbvieandmorevrtnyse": {
+      "title": "Key deals this week: Flex, Nvidia, AbbVie and more (VRT:NYSE)",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "이번 주 주요 인수합병을 모아 정리한 기사로, 플렉스(FLEX)가 AI 데이터센터용 전력변환 역량을 확보하기 위해 디지털 전력 인프라 업체 EPC 파워를 44억 달러에 인수하기로 한 건이 앞머리에 실렸다. 버티브는 기사에 태그된 종목 중 하나로 언급됐다.",
+      "impact": "AI 데이터센터 전력 인프라에 대형 인수가 이어진다는 것은 버티브가 속한 시장의 성장 기대를 보여주지만, 동시에 경쟁자가 그 영역으로 들어온다는 신호이기도 하다.",
+      "caution": "버티브 자체에 대한 내용이 없고 종목 태그로만 걸린 주간 M&A 요약이다. 확보한 본문도 519자로 짧아 기사 전체를 확인하지 못했다."
+    },
+    "novonordisklaunchesonceweeklybasalinsulinawiqliinindia": {
+      "title": "Novo Nordisk Launches Once-Weekly Basal Insulin Awiqli in India",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크 인도법인이 주 1회 투여하는 세계 최초 기저 인슐린 아위클리(인슐린 아이코덱)를 인도에 출시했다. 매일 1회이던 주사를 주 1회로 바꿔 연간 투여 횟수를 365회에서 52회로 줄인다. ONWARDS-1 임상에서 1일 1회 인슐린 글라진 U100 대비 우수한 당화혈색소 감소와 개선된 목표 혈당 범위 유지 시간을 보였다고 회사는 밝혔다. 인도는 당뇨 환자 1억 100만 명, 당뇨 전단계 1억 3,600만 명으로 세계 최대 수준의 시장이다.",
+      "impact": "비만 치료제 경쟁이 심해진 상황에서 당뇨 인슐린이라는 기존 주력 사업의 신제품을 세계 최대 규모 환자군을 가진 시장에 내놓은 것이라, 매출 다변화에 긍정적인 방향이다.",
+      "caution": "출시 발표일 뿐 판매 목표나 가격, 매출 기여 규모가 제시되지 않았다. 임상 결과와 의미 부여도 대부분 회사와 회사가 인용한 의료진의 설명이며, 인도 인슐린 시장은 가격 경쟁이 치열해 환자 수가 곧 수익으로 이어진다고 보기 어렵다."
     }
   }
 }

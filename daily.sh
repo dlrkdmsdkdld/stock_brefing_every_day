@@ -13,7 +13,11 @@ PY=".venv/bin/python"
 "$PY" prices.py || echo "[경고] prices.py 실패 또는 검증 불일치"
 "$PY" news.py   || echo "[경고] news.py 실패 또는 오늘자 기사 없는 종목 있음"
 
-"$PY" summarize.py || echo "[경고] 요약 일부 실패 - 가능한 만큼만 반영해 브리핑 생성"
+if [ "${SKIP_SUMMARY:-0}" = "1" ]; then
+  echo "SKIP_SUMMARY=1 - 요약 건너뜀 (기존 verdicts.json 유지)"
+else
+  "$PY" summarize.py || echo "[경고] 요약 일부 실패 - 가능한 만큼만 반영해 브리핑 생성"
+fi
 
 "$PY" brief.py >/dev/null || echo "[경고] brief.py가 확인 필요 항목을 보고함"
 
