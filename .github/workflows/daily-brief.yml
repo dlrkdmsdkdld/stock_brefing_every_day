@@ -24,6 +24,8 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      # 브리핑 웹페이지(GitHub Pages) 주소. 텔레그램 첫 메시지에 링크로 붙는다.
+      BRIEF_URL: ${{ vars.BRIEF_URL }}
     steps:
       - uses: actions/checkout@v4
 

@@ -4,6 +4,8 @@
   TELEGRAM_BOT_TOKEN  BotFather에서 받은 봇 토큰 (필수). .env 파일에 적어둬도 된다.
   TELEGRAM_CHAT_ID    받을 사람의 chat id (필수). --whoami로 확인할 수 있다.
   SEND_HTML           "0"이면 briefing.html 첨부를 건너뛴다.
+  BRIEF_URL           브리핑 웹페이지 주소. 첫 메시지 맨 위에 링크로 붙는다.
+                      비워 두면 GitHub Actions의 저장소 정보로 Pages 주소를 유추한다.
 
 텔레그램 메시지는 4096자 제한이라 줄 단위로 잘라 여러 번 보내고,
 전문을 한 번에 보려면 briefing.html을 파일로 함께 보낸다.
@@ -23,6 +25,19 @@ KST = ZoneInfo("Asia/Seoul")
 HERE = Path(__file__).parent
 CHUNK = 3500
 API = "https://api.telegram.org/bot{token}/{method}"
+
+
+def brief_url():
+    """브리핑 웹페이지 주소. 직접 지정한 값이 우선."""
+    explicit = os.getenv("BRIEF_URL", "").strip()
+    if explicit:
+        return explicit
+    # GitHub Actions에서는 저장소 이름으로 Pages 주소를 만들 수 있다.
+    repository = os.getenv("GITHUB_REPOSITORY", "")
+    if "/" in repository:
+        owner, name = repository.split("/", 1)
+        return f"https://{owner}.github.io/{name}/"
+    return ""
 
 
 def load_env():
@@ -107,7 +122,12 @@ def build(prices, news, judged):
     best = max(holdings, key=lambda r: r.get("change_pct") or -999)
     worst = min(holdings, key=lambda r: r.get("change_pct") if r.get("change_pct") is not None else 999)
 
-    lines = [f"<b>📊 포트폴리오 브리핑 {datetime.now(KST):%Y-%m-%d (%a)}</b>",
+    link = brief_url()
+    lines = [f"<b>📊 포트폴리오 브리핑 {datetime.now(KST):%Y-%m-%d (%a)}</b>"]
+    if link:
+        # 표·차트까지 편하게 보려면 웹페이지가 낫다. 맨 위에 둔다.
+        lines.append(f'🔗 <a href="{esc(link)}">브리핑 전문 웹페이지 열기</a>')
+    lines += [
              f"종가 기준일 {' / '.join(trade_dates) or '없음'} · 오늘 뉴스 {news['counts']['기사']}건", "",
              f"상승 {up} · 하락 {down} · 평균 {average:+.2f}%",
              f"최고 {esc(best['name'])} {best.get('change_pct', 0):+.2f}% / "
