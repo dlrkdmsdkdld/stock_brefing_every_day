@@ -139,18 +139,35 @@ def story_lines(story, judged):
     return lines
 
 
+def stance_summary(stories, judged):
+    """접힌 줄에서도 무슨 뉴스인지 보이도록 호재/악재 건수를 센다."""
+    counts, pending = {}, 0
+    for story in stories:
+        verdict = judged.get(normalize(story["title"]))
+        if verdict:
+            counts[verdict["stance"]] = counts.get(verdict["stance"], 0) + 1
+        else:
+            pending += 1
+    parts = [f"{stance} {count}" for stance, count in sorted(counts.items(), key=lambda p: -p[1])]
+    if pending:
+        parts.append(f"판단보류 {pending}")
+    return " · ".join(parts)
+
+
 def news_section(prices_by_name, news, judged):
+    """종목별로 접었다 펼 수 있게 <details>로 감싼다. GitHub 마크다운에서도 동작한다."""
     lines = []
     for name, row in news["news"].items():
         price = prices_by_name.get(name, {})
         label = f"{move(price)[0]} {amount(price)}" if price.get("price") else ""
-        lines.append(f"### {name} ({row['ticker']}) {label}".rstrip())
-        lines.append("")
+        tally = stance_summary(row["stories"], judged)
+        head = f"<b>{name}</b> <code>{row['ticker']}</code> {label}"
+        lines += ["<details>", f"<summary>{head}{' — ' + tally if tally else ''}</summary>", ""]
         if not row["stories"]:
             lines.append(f"- 오늘자 기사 없음 (후보 {row['candidates']}건, 과거 기사로 대체하지 않음)")
         for story in row["stories"]:
             lines += story_lines(story, judged)
-        lines.append("")
+        lines += ["", "</details>", ""]
     return lines
 
 
@@ -211,15 +228,31 @@ section{display:flex; flex-direction:column}
 .bar{position:relative; height:9px; background:linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat}
 .bar i{position:absolute; top:0; height:9px; border-radius:1px; display:block}
 .verdict{font-size:11.5px; color:var(--muted); text-align:right; line-height:1.4}
-.holding{display:flex; flex-direction:column; gap:14px; padding:20px 0; border-bottom:1px solid var(--line)}
+.controls{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px}
+.controls button{font:inherit; font-size:12px; color:var(--ink); background:var(--surface);
+  border:1px solid var(--line); border-radius:3px; padding:5px 12px; cursor:pointer}
+.controls button:hover{border-color:var(--rule); color:var(--rule)}
+.controls button:focus-visible{outline:2px solid var(--rule); outline-offset:2px}
+.holding{border-bottom:1px solid var(--line)}
 .holding:last-child{border-bottom:0}
-.holding-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px}
-.holding-head h3{font-family:"Gowun Batang",serif; font-size:18px; font-weight:700; margin:0}
+.holding-head{display:flex; flex-wrap:wrap; align-items:center; gap:10px; padding:14px 4px;
+  cursor:pointer; list-style:none; user-select:none}
+.holding-head::-webkit-details-marker{display:none}
+.holding-head::before{content:"▸"; color:var(--muted); font-size:11px; width:12px; flex:none;
+  transition:transform .15s ease}
+.holding[open] > .holding-head::before{transform:rotate(90deg)}
+.holding-head:hover{background:var(--chip)}
+.holding-head:focus-visible{outline:2px solid var(--rule); outline-offset:-2px}
+.holding-head h3{font-family:"Gowun Batang",serif; font-size:17px; font-weight:700; margin:0}
 .holding-head .code{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted)}
 .holding-head .quote{font-family:"IBM Plex Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums}
+.holding-head .spacer{flex:1 1 auto}
+.tallies{display:flex; gap:5px; flex-wrap:wrap}
+.tallies .stance{font-size:10px; padding:2px 7px; letter-spacing:.02em}
+.stories{display:flex; flex-direction:column; gap:16px; padding:4px 4px 22px 16px}
 .empty{font-size:13px; color:var(--muted)}
 .story{display:flex; flex-direction:column; gap:6px}
-.story + .story{padding-top:14px; border-top:1px dashed var(--line)}
+.story + .story{padding-top:16px; border-top:1px dashed var(--line)}
 .story a{color:var(--ink); text-decoration:none; font-size:15.5px; font-weight:500;
          border-bottom:1px solid var(--line); align-self:flex-start; text-wrap:balance}
 .story a:hover{border-bottom-color:var(--rule); color:var(--rule)}
@@ -307,6 +340,22 @@ def html_story(story, judged):
             f'<span class="chip {chip[0]}">{esc(chip[1])}</span></div>{take}</article>')
 
 
+def tallies(stories, judged):
+    """접힌 상태에서도 무슨 뉴스인지 보이도록 호재/악재 건수를 요약한다."""
+    counts, pending = {}, 0
+    for story in stories:
+        verdict = judged.get(normalize(story["title"]))
+        if verdict:
+            counts[verdict["stance"]] = counts.get(verdict["stance"], 0) + 1
+        else:
+            pending += 1
+    chips = [f'<span class="stance {STANCE_TONE.get(stance, "neutral")}">{esc(stance)} {count}</span>'
+             for stance, count in sorted(counts.items(), key=lambda pair: -pair[1])]
+    if pending:
+        chips.append(f'<span class="stance neutral">판단보류 {pending}</span>')
+    return f'<span class="tallies">{"".join(chips)}</span>' if chips else ""
+
+
 def html_news(prices_by_name, news, judged):
     out = []
     for name, row in news["news"].items():
@@ -316,8 +365,12 @@ def html_news(prices_by_name, news, judged):
                  if price.get("price") else "")
         stories = "".join(html_story(story, judged) for story in row["stories"]) or (
             f'<p class="empty">오늘자 기사 없음 (후보 {row["candidates"]}건, 과거 기사로 대체하지 않음)</p>')
-        out.append(f'<div class="holding"><div class="holding-head"><h3>{esc(name)}</h3>'
-                   f'<span class="code">{esc(row["ticker"])}</span>{quote}</div>{stories}</div>')
+        out.append(
+            f'<details class="holding" data-key="{esc(row["ticker"])}">'
+            f'<summary class="holding-head"><h3>{esc(name)}</h3>'
+            f'<span class="code">{esc(row["ticker"])}</span>{quote}'
+            f'<span class="spacer"></span>{tallies(row["stories"], judged)}</summary>'
+            f'<div class="stories">{stories}</div></details>')
     return "\n".join(out)
 
 
@@ -373,9 +426,45 @@ def render_html(now, prices, news):
   <section><h2>해외</h2>{html_rows(world, scale)}</section>
 
   <section><h2>종목별 오늘의 뉴스</h2>
-    <p class="byline">{esc(analyst or '요약·판단 없음')}</p>
+    <p class="byline">{esc(analyst or '요약·판단 없음')} 종목을 눌러 펼쳐 보세요.</p>
+    <div class="controls">
+      <button type="button" data-all="open">모두 펼치기</button>
+      <button type="button" data-all="close">모두 접기</button>
+      <button type="button" data-all="notable">호재·악재만 펼치기</button>
+    </div>
     {html_news(by_name, news, judged)}
   </section>
+  <script>
+  (function () {{
+    var KEY = "brief-open-holdings";
+    var items = Array.prototype.slice.call(document.querySelectorAll("details.holding"));
+    function saved() {{
+      try {{ return JSON.parse(localStorage.getItem(KEY)) || null; }} catch (e) {{ return null; }} 
+    }}
+    function store() {{
+      try {{
+        localStorage.setItem(KEY, JSON.stringify(items.filter(function (d) {{ return d.open; }})
+          .map(function (d) {{ return d.dataset.key; }})));
+      }} catch (e) {{ /* 저장이 막힌 환경에서도 페이지는 그대로 동작한다 */ }}
+    }}
+    var remembered = saved();
+    if (remembered) {{
+      items.forEach(function (d) {{ d.open = remembered.indexOf(d.dataset.key) !== -1; }});
+    }}
+    items.forEach(function (d) {{ d.addEventListener("toggle", store); }});
+    document.querySelectorAll(".controls button").forEach(function (button) {{
+      button.addEventListener("click", function () {{
+        var mode = button.dataset.all;
+        items.forEach(function (d) {{
+          d.open = mode === "open" ? true
+                 : mode === "close" ? false
+                 : !!d.querySelector(".stance.good, .stance.bad");
+        }});
+        store();
+      }});
+    }});
+  }})();
+  </script>
 
   <section class="notes">
     <h2>데이터 신뢰도</h2>

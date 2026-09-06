@@ -1,4 +1,4 @@
-# 포트폴리오 브리핑 · 2026-09-06 (Sun) 20:47 KST
+# 포트폴리오 브리핑 · 2026-09-06 (Sun) 20:51 KST
 
 보유 18종목 · 종가 기준일 2026-09-04 · 뉴스 2026-09-06 발행분 49건
 
@@ -38,7 +38,8 @@
 
 _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님._
 
-### SK하이닉스 (000660) ▲ +3.20% ₩1,647,000
+<details>
+<summary><b>SK하이닉스</b> <code>000660</code> ▲ +3.20% ₩1,647,000 — 약한 악재 1 · 호재 1 · 악재 1</summary>
 
 - **약한 악재** · [“230만원→70만원” SK하이닉스보다 심하다…‘반토막’에 충격적 리...](https://n.news.naver.com/mnews/article/016/0002693391)
   - 헤럴드경제, 네이트 · 19:40 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
@@ -56,7 +57,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: HBM은 SK하이닉스 수익성의 핵심 축인데 삼성전자가 엔비디아 등 주요 고객사 공급을 확대하며 점유율을 빠르게 잠식하고 있어, 공급자 집중에 따른 가격 프리미엄과 물량 모두 압박받는 경로다.
   - 유의: SK하이닉스는 여전히 50%로 1위이며 2분기 HBM4 양산 출하를 시작해 TSMC와 베이스다이·패키징을 공동 개발 중이어서, 하반기 HBM4 수율과 공급 능력에 따라 구도가 다시 바뀔 수 있다.
 
-### 삼성전자 (005930) ▲ +2.20% ₩255,500
+</details>
+
+<details>
+<summary><b>삼성전자</b> <code>005930</code> ▲ +2.20% ₩255,500 — 약한 호재 2 · 약한 악재 1</summary>
 
 - **약한 호재** · [삼성전자, 단독 전시관서 유럽 판로 확대 '밀착 상담'](https://n.news.naver.com/mnews/article/014/0005571631)
   - 파이낸셜뉴스 · 18:25 KST · 교차확인(구글 뉴스 RSS+네이버 금융)
@@ -74,7 +78,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 노사 갈등이 글로벌 랜드마크 광고와 무기한 집회로 확산되면서 브랜드 가치와 인건비 협상 부담이 동시에 커지는 경로다.
   - 유의: 광고와 집회 자체가 실적에 미치는 정량적 영향은 기사에 제시되지 않았고, 사측이 요구를 수용하지 않고 있어 비용 증가로 이어질지도 확정되지 않았다.
 
-### HD현대중공업 (329180) ▲ +0.34% ₩436,500
+</details>
+
+<details>
+<summary><b>HD현대중공업</b> <code>329180</code> ▲ +0.34% ₩436,500 — 약한 악재 2 · 판단보류 1</summary>
 
 - **약한 악재** · [HD현대 단골 선주마저… 中에 車운반선 맡겼다](https://n.news.naver.com/mnews/article/014/0005571632)
   - 파이낸셜뉴스 · 18:27 KST · 단일출처(네이버 금융)
@@ -90,7 +97,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 현재 진행 중인 고강도 감독이 정식 특별감독으로 전환될 경우 조사·시정 부담과 부분 작업중지명령에 따른 공정 차질 가능성이 커지는 경로다.
   - 유의: 사망 원인과 업무 관련성, 중대재해 해당 여부가 아직 확인되지 않아 산업재해로 단정할 단계가 아니며, 작업중지명령과 사망 원인의 연관성도 공식 확인되지 않았다.
 
-### 델 (DELL) ▲ +1.50% $524.14
+</details>
+
+<details>
+<summary><b>델</b> <code>DELL</code> ▲ +1.50% $524.14 — 약한 호재 2 · 중립 1</summary>
 
 - **약한 호재** · [Dell Technologies (DELL) Stock Fair Value Rises After Guidance And AI Server Focus](https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-stock-fair-201143104.html)
   - Simply Wall St., Yahoo Finance · 05:11 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
@@ -108,7 +118,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 기업의 사업이나 실적에 관한 내용이 없어 보유 종목 판단에 쓸 만한 정보가 없다.
   - 유의: 본문이 기사 원문이 아니라 사이트 메타 설명이어서(body_source가 '메타 설명(본문 추출 실패)') 실질 내용을 확인할 수 없다.
 
-### 컨스텔레이션 브랜즈 (STZ) ▼ -0.70% $128.18
+</details>
+
+<details>
+<summary><b>컨스텔레이션 브랜즈</b> <code>STZ</code> ▼ -0.70% $128.18 — 중립 3</summary>
 
 - **중립** · [Should you Avoid Constellation Brands Stock, Even at a 52-Week Low?](https://finance.yahoo.com/markets/stocks/articles/avoid-constellation-brands-stock-even-094500086.html)
   - The Motley Fool, Motley Fool · 18:34 KST · 교차확인(구글 뉴스 RSS+Yahoo Finance)
@@ -126,7 +139,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 13F 공시에 따른 과거 분기 기관 매매 내역과 기존 투자의견 재확인에 그쳐, 기업 펀더멘털을 바꾸는 새로운 정보가 없다.
   - 유의: 13F는 2분기 기준 사후 공시라 현재 포지션과 다를 수 있고, 개별 기관의 매수 규모도 시가총액 대비 미미하다.
 
-### 퍼스트솔라 (FSLR) ▼ -1.43% $204.45
+</details>
+
+<details>
+<summary><b>퍼스트솔라</b> <code>FSLR</code> ▼ -1.43% $204.45 — 중립 2 · 약한 악재 1</summary>
 
 - **중립** · [First Solar stock holds near 52-week range after recent trading](https://news.google.com/rss/articles/CBMixAFBVV95cUxNLXdEd3B0c0ZfVkhRVHNBcEl6UGd3cTF6YWRueHMtWG02akRyUkJxUWY5WUZtNzNNZ1FGbXRUSzV0RkNodVBacFFDdkUxeURIa0xkdlR4QkY5ZHhZV2RHSEZSZVdLWXhnN2JrY0ZfaHNHeWUycE5DVHZfVnRCdnU0amlDLWdfaThuM3laYUlQSDV1bG8wd25mcVctZE5UOUFHLVZwZmtrVjlNZzNCdjNGZkJBQ0dOUXdFbVMtOGNGbVNsUkJ0?oc=5)
   - AD HOC NEWS · 16:19 KST · 단일출처(구글 뉴스 RSS)
@@ -144,7 +160,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 매출이 역성장하는 가운데 마진 확대로 이익이 늘어난 구조여서 수익성은 견조하나 성장 둔화와 워싱턴의 정책·관세 논쟁이 주가를 누르고 있다.
   - 유의: 정책·관세 우려의 구체적 내용이 본문에 제시되지 않았고, 내부자가 90일간 1만5881주(약 362만 달러)를 매도했으나 통상적 리밸런싱으로 해석된다는 단서도 함께 달려 있다.
 
-### 컨스텔레이션 에너지 (CEG) ▲ +4.88% $298.96
+</details>
+
+<details>
+<summary><b>컨스텔레이션 에너지</b> <code>CEG</code> ▲ +4.88% $298.96 — 약한 호재 2 · 중립 1</summary>
 
 - **중립** · [Constellation Energy Corporation • Robinhood Token - CEG - Stock Price & News](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CTlA0UjNPU1BuOWFDY2s4Y2dFTy1xSk9xcGVQSXZBcnozaHppU05QeUt3YzBDOGNhamxpSjZPdEV2QmVYeXF6SlY1V1hxbm8?oc=5)
   - The Motley Fool · 18:33 KST · 단일출처(구글 뉴스 RSS)
@@ -162,7 +181,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 원자력 관련주 급락 속에서도 컨스텔레이션 에너지는 이미 전력을 판매 중이며 920메가와트의 장기 PPA를 추가 확보해 전력 수요를 계약 매출로 전환하고 있다는 점이 부각된다.
   - 유의: 기사의 주된 주제는 뉴스케일이고 컨스텔레이션 에너지는 비교 대상으로 짧게 언급됐으며, PPA 상대방이나 계약 기간·단가는 제시되지 않았다.
 
-### 비스트라 에너지 (VST) ▲ +3.52% $149.30
+</details>
+
+<details>
+<summary><b>비스트라 에너지</b> <code>VST</code> ▲ +3.52% $149.30 — 중립 1</summary>
 
 - **중립** · [What Happens When A State Sells Off Park Land](https://news.google.com/rss/articles/CBMikwFBVV95cUxPNldDLTRpVEVKVjlfT0xTQVBxRjcyYkItT3JVLUN6N2lMZXNpc2JFczNUeFVEdmtMVVJEOUZLQXQxM0lzTzJybTExWXphYW5MQl9vTWVpWTlQc09qb3pocFFMemVPU2ZCdkl3dHhGeTR6a2hMMEtHVkMzMzRnM0JuRzVMcUxoQnRoaUZLYlhXRVR5bTQ?oc=5)
   - WorldAtlas · 08:30 KST · 단일출처(구글 뉴스 RSS)
@@ -170,7 +192,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 비스트라의 2023년 부동산 매각이 사례로 인용됐을 뿐이며, 기사 주제는 주립공원 관리 제도이지 회사의 전력 사업이나 실적이 아니다.
   - 유의: 보유 종목이 기사 주제가 아니라 3년 전 사례로만 언급됐고, 해당 매각이 현재 실적이나 사업에 미치는 영향은 본문에 없다.
 
-### 이오스 에너지 (EOSE) ▲ +10.86% $3.88
+</details>
+
+<details>
+<summary><b>이오스 에너지</b> <code>EOSE</code> ▲ +10.86% $3.88 — 중립 3</summary>
 
 - **중립** · [Oxygen Reduction Reaction Catalysts Market Outlook to 2035](https://news.google.com/rss/articles/CBMikgFBVV95cUxOZE5Xb1doOXpQMmxPcWlNU2lUcGR3RE1IWVl3ZXEwVlVBWm1hTThRaTNkVEMzWmVGR2dKVlFERElEeE1SZWZaWnVMNkRQNGNjNjZYdlE2Q0ZSQmEzZC1FZmlYRkRYVG9wUlMtSFdvbkJ4QkEzT2NyUnItWE9NS0pER3pWaHNZa0FtVV95MnE1YTVEQQ?oc=5)
   - IndexBox · 14:16 KST · 단일출처(구글 뉴스 RSS)
@@ -188,11 +213,17 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 거래대금 기준 스크리너 결과에 포함된 것일 뿐 사업이나 실적에 관한 정보가 없으며, 페니주 분류 자체는 투기적 성격을 부각시킨다.
   - 유의: 이오스 에너지에 대한 개별 설명이 사업 영역 한 줄에 그치고, 선정 기준이 거래대금이어서 긍정·부정 어느 쪽으로도 해석하기 어렵다.
 
-### 알먼티 (ALM) ▼ -1.51% $17.57
+</details>
+
+<details>
+<summary><b>알먼티</b> <code>ALM</code> ▼ -1.51% $17.57</summary>
 
 - 오늘자 기사 없음 (후보 40건, 과거 기사로 대체하지 않음)
 
-### 크레도 테크놀로지 (CRDO) ▲ +3.90% $170.57
+</details>
+
+<details>
+<summary><b>크레도 테크놀로지</b> <code>CRDO</code> ▲ +3.90% $170.57 — 약한 호재 2 · 약한 악재 1</summary>
 
 - **약한 호재** · [Stock Market Today: Nasdaq Ends Off Steeper Loss, Dow Rises After Downturn; Credo Technology Advances](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWtqOUZjRl9sN004azF3ekxYQzc3dHdQUk44UXRTOEhpWVFJWHpmcUgxTnRTNTBHRVlJT1dBMkRPbUI4eklyVW9JajdTbXA1WDBkUHJRQXVzZG95UmpQRzJyV3R3NGNha2hqNE1uWnJRLVFrcnhFZkZVNmFjS2U1blh5TVctMWx0bjY3Rkphb2xFWlRyQ1lScE5vZWhaOEZQX2NGQkRvOXF1cFU?oc=5)
   - Investor's Business Daily · 16:26 KST · 단일출처(구글 뉴스 RSS)
@@ -210,7 +241,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 매출이 두 배 이상 늘어도 마진이 계속 하락하고 비용이 급증하는 구조가 확인되면서 수익성 우려가 주가에 즉각 반영되는 경로다.
   - 유의: 2분기 매출 가이던스 5억2500만~5억3500만 달러는 컨센서스 5억1654만 달러를 웃돌고, 스티펠의 토어 스반베르그는 AEC 중심 기업에서 광·구리 통합 데이터센터 커넥티비티 공급사로 전환 중이라며 강세 전망을 유지했다.
 
-### 알파벳 A (GOOGL) ▼ -1.17% $338.46
+</details>
+
+<details>
+<summary><b>알파벳 A</b> <code>GOOGL</code> ▼ -1.17% $338.46 — 중립 2 · 약한 호재 1</summary>
 
 - **중립** · [Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029](https://finance.yahoo.com/markets/stocks/articles/prediction-amazon-join-nvidia-apple-194000818.html)
   - Motley Fool, The Globe and Mail · 04:40 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
@@ -228,7 +262,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 알파벳 주가가 매입가 대비 약 3.7~3.8% 하락했다는 사실 보도이며, 기사 초점은 그레그 아벨의 자본배분 성과 평가에 있다.
   - 유의: 단기 평가손익을 다룬 시가 계산 기사로 알파벳의 사업·실적에 대한 새로운 정보가 없고, 버크셔가 100억 달러 규모 블록을 인수했다는 사실 자체는 수요 측면에서 반대로 해석할 여지도 있다.
 
-### 시스코 시스템즈 (CSCO) ▲ +0.54% $109.20
+</details>
+
+<details>
+<summary><b>시스코 시스템즈</b> <code>CSCO</code> ▲ +0.54% $109.20 — 약한 호재 1 · 약한 악재 1 · 중립 1</summary>
 
 - **약한 호재** · [Cisco (CSCO) Stock Looks Cheap On Cash Flow Yet Fair On Earnings](https://finance.yahoo.com/markets/stocks/articles/cisco-csco-stock-looks-cheap-190558485.html)
   - Simply Wall St., Yahoo Finance · 04:05 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
@@ -246,7 +283,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 기사 주제는 슈퍼마이크로의 주가와 실적 전망이며, 시스코는 파트너십 상대방으로만 등장해 시스코 실적에 미치는 영향은 제시되지 않았다.
   - 유의: 보유 종목이 기사 주제가 아니고, Secure AI Factory가 시스코 매출에 기여하는 규모나 조건에 대한 정보가 본문에 없다.
 
-### 버티브 홀딩스 (VRT) ▲ +4.35% $280.53
+</details>
+
+<details>
+<summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +4.35% $280.53 — 약한 호재 2 · 중립 1</summary>
 
 - **약한 호재** · [VRT Stock Is Rising Today – What’s The Deal With Strategic Thermal Labs About?](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5)
   - Stocktwits · 06:29 KST · 단일출처(구글 뉴스 RSS)
@@ -264,7 +304,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: AI 랙당 전력·열관리 콘텐츠 증가라는 강세 논리가 매출 24% 성장과 마진 410bp 개선, 9억2500만 달러 조정 FCF로 실제 뒷받침되고 있다.
   - 유의: 약세 논리로 프로젝트 일정 지연, 공급 혼잡, 장기 수요를 전제로 형성된 기대치가 지목됐고, 주가가 고점을 크게 밑도는 상태 자체는 이 기사만으로 해소되지 않는다.
 
-### 록히드마틴 (LMT) ▼ -1.44% $525.28
+</details>
+
+<details>
+<summary><b>록히드마틴</b> <code>LMT</code> ▼ -1.44% $525.28 — 약한 호재 2 · 중립 1</summary>
 
 - **약한 호재** · [Lockheed Martin rated Strong Buy with rising sa...](https://news.google.com/rss/articles/CBMirwFBVV95cUxPVUpxdmhTbS1vYlplRU93UHRsaE0wUU5UdXg0djNSMFJvWnAtWXlZZ2hFZjM0UWs3eGVIeVNvZWVnSTNIS3g5a2E1Qi1pMXNMbnVwWGZCSzBtVURkV1k5eDFoWngxQ1ZjaFdWcFV4TFJpOXNNWVVPMUNoakVMaGFoWXlmV2prd1JKaGQzWEJxbDBobG1wNkFqN2UxMEhqVE9GVmpYTXFiTlNHWWhTbW5Z?oc=5)
   - Pluang · 20:23 KST · 단일출처(구글 뉴스 RSS)
@@ -282,7 +325,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 13F 기반의 과거 분기 기관 매매 내역이 중심이고 실적·배당은 이미 공개된 내용이어서, 새로운 방향성을 주는 정보가 아니다.
   - 유의: 실적이 예상을 상회했다는 점은 긍정적이지만 애널리스트 종합 의견이 'Hold'로 엇갈려 있고, 13F는 2분기 기준 사후 공시라 현재 포지션과 다를 수 있다.
 
-### 마이크로소프트 (MSFT) ▼ -2.04% $499.70
+</details>
+
+<details>
+<summary><b>마이크로소프트</b> <code>MSFT</code> ▼ -2.04% $499.70 — 약한 악재 1 · 약한 호재 1 · 판단보류 1</summary>
 
 - **약한 악재** · [Microsoft's AI Spending Spree Meets Its Legal and Market Reality Check](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSmtVNmdNM3NhT3BzNHlReHRTWXBINzdRbzgwX1pPU1hkMU45VHZtOF9ZZEZTNjdOZ0NsWkoyVUliWlVoM3B0OVJfalpDYzh5aVR3UVZyaGxmRjhESzV1ZnRValduaEQzU2dxcTh5cU5hZnVVNEt2Ynk1Y2FkTmhMZXlySlBDMWRnVDJ3M2Q5WXJ1T1V4aFBWcE1fbFFsZ2NhaDFYLVJGMWNlQjFWNnBMeUN6b2ZBeHR0ZHNXbVRYZTFNRV9JcTQ4bW1xRFA0VHlEZWxXMnJsUzF5QQ?oc=5)
   - AD HOC NEWS · 17:59 KST · 단일출처(구글 뉴스 RSS)
@@ -298,7 +344,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 코파일럿·애저·빌드로 이어지는 AI 투자에서 실제 수익화가 6~12개월 내 나타난다는 전망이 맞을 경우 밸류에이션 재평가로 이어질 수 있다.
   - 유의: 개별 애널리스트 한 명의 전망이며 수익화 시점에 대한 정량적 근거는 제시되지 않았고, 주가는 당일 4.17% 하락한 상태였다.
 
-### 나이키 B (NKE) ▼ -0.95% $38.40
+</details>
+
+<details>
+<summary><b>나이키 B</b> <code>NKE</code> ▼ -0.95% $38.40 — 악재 1 · 중립 1 · 판단보류 1</summary>
 
 - **악재** · [Nike Exits the S&P 100 Index. 4 Tech Stocks Move In](https://finance.yahoo.com/markets/stocks/articles/nike-exits-p-100-index-111450130.html)
   - BeInCrypto, Yahoo Finance · 20:14 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
@@ -314,7 +363,10 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 판단: 제목은 나이키의 S&P 100 제외와 러닝 부문 매출 성장을 함께 다루는 것으로 보이나 본문에 실제 내용이 없어 판단할 근거가 없다.
   - 유의: 본문 추출이 실패해 CSS 코드만 남았으므로 제목만으로 러닝 매출 성장 여부를 판단하지 않았다.
 
-### 노보노디스크 ADR (NVO) ▼ -1.92% $46.60
+</details>
+
+<details>
+<summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -1.92% $46.60 — 호재 1 · 약한 호재 1 · 중립 1</summary>
 
 - **호재** · [NVO Stock Generates Retail Buzz After European Commission Approves 7.2 MG Once-Weekly Dose Of Wegovy Injection](https://news.google.com/rss/articles/CBMilwFBVV95cUxNUzZFM2RZVEd2N2tlWk5ZRDBpRmRXVFpueTVGS043Wlc4YW5TWmhjWUg4MXZFM2V5ekJqSk1kZ09NVW9BUmVMbi1lV2hWazRLYzFTeUlvc1BIRU5OTGYydEY1YWlycDktS1U5QlJwcUdkY01jcFgyT2ZqQnQ3VFV1cHFVTVhFUXB3YlN0ODY2UDVsMzdfSWxz?oc=5)
   - Stocktwits · 10:05 KST · 단일출처(구글 뉴스 RSS)
@@ -331,6 +383,8 @@ _Claude가 기사 본문·요약을 읽고 작성. 키워드 감성분석이 아
   - 요약: 연방준비제도의 케빈 워시 신임 의장 체제 첫 정책회의를 앞두고 미국 주가지수 선물이 보합권에 머물렀다는 시황 기사로, 노보노디스크는 경구용 위고비의 중국 규제 승인을 '아주 곧' 신청할 계획이라고 밝힌 내용으로 언급됐다. 이 밖에 스페이스X 시가총액 2조5000억 달러 돌파, 테슬라, 로켓랩, AST 스페이스모바일, 알리바바 등이 주목 종목으로 다뤄졌다.
   - 판단: 경구용 위고비의 중국 승인 신청 계획은 향후 재료가 될 수 있으나 아직 신청 전 단계이며, 기사 자체는 여러 종목을 나열한 시황물이다.
   - 유의: 노보노디스크 관련 내용이 한 문장에 그치고 신청 시점이나 승인 전망에 대한 구체적 정보가 없다.
+
+</details>
 
 ## 데이터 신뢰도
 
