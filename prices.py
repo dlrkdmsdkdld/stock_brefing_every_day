@@ -8,7 +8,7 @@ import math
 import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -36,11 +36,25 @@ HOLDINGS = [
     ("노보노디스크 ADR", "NVO", "USD"),
 ]
 AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
+# 정규장 마감 + 종가 확정 여유. 이 시각을 넘겼으면 그날 일봉을 확정된 종가로 쓴다.
+SESSION_CLOSE = {"Asia/Seoul": time(15, 40), "America/New_York": time(16, 15)}
 
 
-def latest(frame, column, today):
-    # 당일 일봉은 장중 값일 수 있어 항상 제외한다.
-    frame = frame.loc[[index.date() < today for index in frame.index]]
+def cutoff_date(zone):
+    """이 날짜부터는 일봉을 쓰지 않는다.
+
+    장중 값을 종가로 오인하지 않는 것이 목적이지, 마감된 종가를 버리는 것이 아니다.
+    그래서 시장이 이미 닫혔으면 그날 일봉까지 포함한다. 예를 들어 06:30 KST 실행은
+    뉴욕 기준 전날 17:30이라, 16:00에 끝난 그날 종가가 이미 확정돼 있다.
+    """
+    now = datetime.now(ZoneInfo(zone))
+    closed = now.time() >= SESSION_CLOSE[zone]
+    return now.date() + timedelta(days=1) if closed else now.date()
+
+
+def latest(frame, column, cutoff):
+    # 아직 안 끝난 세션의 일봉은 장중 값일 수 있어 제외한다.
+    frame = frame.loc[[index.date() < cutoff for index in frame.index]]
     if frame.empty:
         raise ValueError("최근 30일 내 완료 거래일 데이터 없음")
     frame = frame.sort_index()
@@ -53,11 +67,11 @@ def latest(frame, column, today):
     return frame.index[-1].date(), value, previous
 
 
-def yahoo_close(symbol, start, today):
+def yahoo_close(symbol, start, cutoff):
     security = yf.Ticker(symbol)
-    frame = security.history(start=start.isoformat(), end=today.isoformat(),
+    frame = security.history(start=start.isoformat(), end=cutoff.isoformat(),
                              auto_adjust=False, actions=False, timeout=20)
-    return security.get_history_metadata(), latest(frame, "Close", today)
+    return security.get_history_metadata(), latest(frame, "Close", cutoff)
 
 
 def naver_close(ticker):
@@ -119,20 +133,21 @@ def fetch(holding):
     korea = currency == "KRW"
     zone = "Asia/Seoul" if korea else "America/New_York"
     today = datetime.now(ZoneInfo(zone)).date()
+    cutoff = cutoff_date(zone)
     start = today - timedelta(days=30)
     result = dict(name=name, ticker=ticker, currency=currency,
                   source="pykrx/KRX" if korea else "yfinance/Yahoo Finance",
-                  price_type="이전 완료 거래일 종가(국내는 수정주가 기준)",
+                  price_type="마감된 최근 거래일 종가(국내는 수정주가 기준)",
                   market_timezone=zone, status="error")
     try:
         if korea:
             # pykrx 1.2.8의 adjusted=False 경로는 KRX 로그인이 필요해 기본(수정주가)을 쓴다.
             frame = stock.get_market_ohlcv_by_date(
-                start.strftime("%Y%m%d"), (today - timedelta(days=1)).strftime("%Y%m%d"), ticker)
-            date, price, previous = latest(frame, "종가", today)
+                start.strftime("%Y%m%d"), (cutoff - timedelta(days=1)).strftime("%Y%m%d"), ticker)
+            date, price, previous = latest(frame, "종가", cutoff)
             result["provider_name"] = stock.get_market_ticker_name(ticker)
             check(result, "yahoo_check", date, price,
-                  lambda: (None,) + yahoo_close(ticker + ".KS", start, today)[1][:2])
+                  lambda: (None,) + yahoo_close(ticker + ".KS", start, cutoff)[1][:2])
             check(result, "naver_check", date, price, lambda: naver_close(ticker))
             # NXT 종가는 참고용으로 덧붙인다. 실패해도 KRX 종가 조회는 그대로 성공 처리한다.
             try:
@@ -141,7 +156,7 @@ def fetch(holding):
             except Exception as exc:
                 result["nxt_error"] = f"{type(exc).__name__}: {exc}"
         else:
-            metadata, (date, price, previous) = yahoo_close(ticker, start, today)
+            metadata, (date, price, previous) = yahoo_close(ticker, start, cutoff)
             if metadata.get("currency") != currency:
                 raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
             result["provider_name"] = metadata.get("longName") or metadata.get("shortName")
