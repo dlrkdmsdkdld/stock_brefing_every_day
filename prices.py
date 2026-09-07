@@ -266,6 +266,19 @@ def exchange_rate():
                 date=frame.index[-1].date().isoformat(), source="Yahoo KRW=X")
 
 
+def cap_text(row):
+    """시가총액 표기. 국내는 조, 해외는 T/B/M."""
+    value = row.get("market_cap")
+    if value is None:
+        return "-"
+    if row["currency"] == "KRW":
+        return f"{value / 1e12:,.1f}조" if value >= 1e12 else f"{value / 1e8:,.0f}억"
+    for size, unit in ((1e12, "T"), (1e9, "B"), (1e6, "M")):
+        if value >= size:
+            return f"${value / size:,.2f}{unit}"
+    return f"${value:,.0f}"
+
+
 def main():
     yf.set_tz_cache_location(str(Path(__file__).parent / ".cache" / "yfinance"))
     # 국내 요청은 순차 실행하여 과도한 호출을 피한다.
@@ -284,12 +297,20 @@ def main():
         fetched_at=datetime.now(ZoneInfo("Asia/Seoul")).isoformat(),
         note="당일 일봉 제외. 실시간/시간외 가격 아님. 7일 초과 데이터는 stale 표시.",
         fx=fx, holdings=results), ensure_ascii=False, indent=2), encoding="utf-8")
-    for row in results:
-        price = f"{row['price']:,.2f}" if "price" in row else "조회 실패"
-        checks = "/".join(row[key] for key in ("yahoo_check", "naver_check") if key in row) or "-"
-        print(f"{row['name']} ({row['ticker']}) | {price} {row['currency']} | "
-              f"{row.get('date', '-')} | {row['status']} | {checks}"
-              + (f" | {row['error']}" if "error" in row else ""))
+    # 시총 내림차순으로 찍어 큰 종목부터 눈에 들어오게 한다.
+    for group, label in (("holding", "보유"), ("watch", "관심")):
+        rows = [row for row in results if row.get("group", "holding") == group]
+        if not rows:
+            continue
+        print(f"\n[{label} {len(rows)}종목 · 시총순]")
+        for row in sorted(rows, key=lambda row: row.get("market_cap") or -1, reverse=True):
+            price = f"{row['price']:,.2f}" if "price" in row else "조회 실패"
+            change = f"{row['change_pct']:+6.2f}%" if row.get("change_pct") is not None else "    -  "
+            checks = "/".join(row[key] for key in ("yahoo_check", "naver_check") if key in row) or "-"
+            print(f"  {row['name'][:16]:<17}{row['ticker']:<8}{cap_text(row):>10}  "
+                  f"{price:>13} {row['currency']}  {change}  {row.get('date', '-')} "
+                  f"| {row['status']} | {checks}"
+                  + (f" | {row['error']}" if "error" in row else ""))
     print(f"저장: {output}")
     return 1 if any(row["status"] != "ok" for row in results) else 0
 
