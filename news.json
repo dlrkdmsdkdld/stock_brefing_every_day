@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-07T14:51:53+09:00",
-  "today_kst": "2026-09-07",
+  "fetched_at": "2026-09-08T07:53:34+09:00",
+  "today_kst": "2026-09-08",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
     "국내": [
@@ -14,9 +14,9 @@
   },
   "counts": {
     "종목": 20,
-    "기사": 19,
+    "기사": 18,
     "교차확인": 9,
-    "본문확보": 13,
+    "본문확보": 15,
     "하단이탈": 2
   },
   "errors": [],
@@ -25,30 +25,26 @@
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 85,
+      "today_count": 39,
       "stories": [
         {
-          "title": "“310만닉스 가나요”…SK하이닉스 목표가 ‘쑥’ [오늘, 이 종목]",
-          "published_kst": "2026-09-07T11:25+09:00",
+          "title": "SK하이닉스, 키옥시아 합병은 '불가능'…두터운 日·中 규제벽",
+          "published_kst": "2026-09-08T06:00+09:00",
           "relevance": "direct",
           "sources": {
-            "네이버 금융": {
-              "publisher": "매경이코노미",
-              "url": "https://n.news.naver.com/mnews/article/024/0000108044",
-              "published_kst": "2026-09-07T11:25+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Ib3hPWEp2cFVWR2JJU0UtQjRtdTJMWkQyRUpHVjRPcjdvM0hWTlhTdTN5ZjBVR2JtQnN6S2ltRFN1ZmppcTlHaklPNkJ3YkU?oc=5",
-              "published_kst": "2026-09-07T11:27+09:00"
+              "publisher": "딜사이트",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80MVIzd1RLWE95ZnVwZVMwajVNSmdQOExTMjR3U19hMW5yN1prWGVUS0RmZDV6TnljZldoa2R3U2FDb2VqTGtxemwxN2NyZGc?oc=5",
+              "published_kst": "2026-09-08T06:00+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "DB證 230만원·미래에셋證 310만원 전망\nGPU 넘어 맞춤형 AI 반도체에도 공급\n“HBM 가격 오르고 수요 다양해져”\n\n 이천 SK하이닉스 본사 모습. (매경DB) 원화 강세 영향으로 올 3분기 SK하이닉스 실적이 시장 예상치를 소폭 밑돌 것으로 전망되지만 실적 성장세는 견조하다는 증권가 분석이 나왔다.\n\nDB증권은 SK하이닉스 목표가를 200만원에서 230만원으로, 미래에셋증권은 280만원에서 310만원으로 높여 잡았다.\n\nDB증권은 SK하이닉스의 올해 3분기 매출과 영업이익이 각각 98조2000억원, 76조5000억원으로 시장 예상치보다 소폭 낮을 것으로 예측했다. 매출은 전년 대비 301%, 영업이익은 572% 늘어난 규모다. 원·달러 환율이 두 달 새 250원 넘게 떨어지는 등 원화가 강세를 보인 영향이다.\n\n그럼에도 견조한 서버 수요와 제한적인 공급 덕에 실적 개선세가 이어질 것으로 전망했다. 서승연 DB증권 애널리스트는 7일 “올해 3분기부터 본격적으로 HBM4(6세대 고대역폭메모리) 출하가 시작되고 내년 HBM4 판가 상승률이 전년대비 약 70%로 예상돼 견조한 실적 개선세가 지속될 전망”이라고 밝혔다.\n\nSK하이닉스는 최고 성능의 12단 HBM4 제품을 양산 중이다. 차세대 16단 제품도 고객사 인증 단계에 들어갔다. 16단 제품은 같은 높이에 더 많은 D램을 쌓아야 해 웨이퍼 두께를 기존 약 50㎛에서 30㎛ 안팎까지 줄여야 하는 것으로 알려졌다.\n\n그래픽처리장치(GPU)의 HBM 탑재량이 늘어나는 점도 호재다. AMD의 신형 AI 칩 MI455X는 HBM4 메모리 용량을 전작보다 50% 늘렸다. 엔비디아의 차세대 AI 칩 ‘루빈’ 제품군에도 HBM4 채택이 확대될 전망이다.\n\n빅테크 기업이 자체 개발하는 맞춤형 AI 반도체(ASIC) 분야에서도 HBM 적용이 늘",
-          "body_source": "네이버 뉴스 본문"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 8.0,
+          "body": "HOME \n\n 산업 \n\n 전기전자 \n\n SK하이닉스, 키옥시아 합병은 '불가능'…두터운 日·中 규제벽\n\n 페이스북 \n 트위터 \n 카카오톡 \n URL복사 \n\n 주명호 기자\n\n 2026-09-08 07:00:00\n\n AI로 요약! \n\n 가 \n 가 \n\n close \n\n AI로 요약! \n\n AI를 이용해 생성한 요약본으로 정확하지 않은 정보가 포함될 수 있습니다. \n 기사 본문과 함께 읽어주세요. \n\n SK하이닉스가 투자한 SPC2가 지분 14.19%(7740만 주)를 확보하며 키옥시아의 최대주주로 올라섰다.\n\n 기존 최대주주인 도시바(14.12%)를 제친 SPC2는 2020년 CB를 보통주로 전환하며 의결권을 확보했으나, 2028년까지 의결권 지분 15% 이상 보유가 제한된다. 또한 일본 외환법 개정으로 간접 투자에 대한 심사 절차도 까다로워졌다.\n\n 중국 등 경쟁당국의 기업결합 심사 승인이 주요 변수로 꼽히며, 업계 관계자는 키옥시아 인수의 현실성이 매우 낮다고 말했다.\n\n 日정부 심사로 추가 지분 확보 쉽지 않아·中경쟁당국 심사는 더 넘기 어려워\n\n 이 기사는 2026-09-07 06:00:00 \n 유료콘텐츠서비스\n 딜사이트 플러스 \n 에 표출된 기사입니다.\n\n 추천키워드\n\n #SK하이닉스 \n\n #최태원 \n\n #키옥시아 \n\n #중국 \n\n #반도체 \n\n 실시간 속보 \n\n 랭킹뉴스 \n\n [딜사이트 주명호 기자] 최태원 SK그룹 회장이 일본 내 반도체 생산거점 건설 의지를 내비치면서 SK하이닉스가 지분을 보유 중인 키옥시아의 향후 인수 가능성에 대해서도 관심이 쏠린다. 현재의 경우 보유 전환사채(CB)를 통해 약 14%에 해당하는 의결권을 간접 행사할 수 있는 구조다. 다만 내후년까지 걸려 있는 지분 제한에 더해 일본 정부와 중국을 비롯한 경쟁당국의 승인이 쉽지 않아 장기적으로도 실제 경영권",
+          "body_source": "원문 본문 · dealsite.co.kr",
+          "article_url": "https://dealsite.co.kr/articles/168483"
         }
       ]
     },
@@ -56,29 +52,29 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 71,
+      "today_count": 58,
       "stories": [
         {
-          "title": "삼성, 하반기 공채 8일부터 실시···삼성전자 등 19개 회사",
-          "published_kst": "2026-09-07T14:00+09:00",
+          "title": "반도체·가전, 폐기물 감축 ‘한 몸’…삼성전자, 자원순환 인정 38건...",
+          "published_kst": "2026-09-08T06:00+09:00",
           "relevance": "direct",
           "sources": {
             "네이버 금융": {
-              "publisher": "경향신문",
-              "url": "https://n.news.naver.com/mnews/article/032/0003468865",
-              "published_kst": "2026-09-07T14:00+09:00"
+              "publisher": "디지털타임스",
+              "url": "https://n.news.naver.com/mnews/article/029/0003046684",
+              "published_kst": "2026-09-08T06:00+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "경향신문",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tTmlwT18zNE1HSWg2QXpLQkdZUW9vbEM5NFhWalBBM1E3ZVUtTlU3cGY4RUEyRG1iaUJOcUZYZGpES2Fhei1xbXpOOFRHa0QtajRXOVN2NEJ6Z9IBX0FVX3lxTE5UcnBUbUJNekwtODFFZU9XRmZKTnZ2MDN6cFRha0w0VGQxYkRKall5Q3R3S0hGaVJZZjlGOG1aZFNFT0N4TnBEZzB1SUs2cUxKcUduVkRSbE82V01fUnRr?oc=5",
-              "published_kst": "2026-09-07T14:00+09:00"
+              "publisher": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUSEJXSmRJbGxEV3pVemhVMUduYW9KWDI5ZzhCS21ZOW1ORGQ3OVpkbTUzRzNqU0pRUlY3clNDZW5IRXotTFBlR0RMQWlRbms?oc=5",
+              "published_kst": "2026-09-08T06:02+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 9.5,
-          "body": "지난 4월 경기 수원시 삼성전자 인재개발원에서 삼성전자 감독관이 상반기 삼성직무적성검사(GSAT) 응시자를 대상으로 예비 소집을 진행하고 있다. 삼성전자 \n\n삼성이 삼성전자 등 19개 관계사가 8일부터 올해 하반기 신입사원 공개채용을 실시한다.\n\n삼성은 삼성전자, 삼성물산, 삼성바이오로직스, 삼성바이오에피스, 삼성생명, 삼성디스플레이, 삼성SDI, 삼성전기, 삼성SDS, 삼성화재, 삼성카드, 삼성증권, 삼성중공업, 삼성E&A, 호텔신라, 제일기획, 에스원, 삼성의료원, 삼성웰스토리 등 19개사에서 신입사원 공개채용을 실시한다고 7일 밝혔다.\n\n채용 절차는 9월 직무적합성 평가, 10월 삼성직무적성검사(GSAT), 11월 면접, 건강검진 순으로 진행된다. 공채 지원은 15일까지 삼성 채용 홈페이지 삼성커리어스에서 하면 된다.\n\n삼성은 “다양한 분야의 관계사들이 공채에 참여하며 성장의 온기가 양질의 청년 일자리 창출과 국가 경제 선순환으로 이어질 수 있도록 노력하고 있다”고 밝혔다. 특히 반도체, 인공지능(AI), 바이오, 배터리, 디스플레이 등 첨단 산업 육성을 위해 지속적인 국내 투자와 청년 채용 확대에 힘쓰겠다고 했다.\n\n이재용 삼성전자 회장은 지난해 8월 대통령실이 진행한 경제단체 및 기업인 간담회에서 “국내에서 지속적으로 양질의 일자리를 창출하고 고부가가치 산업을 육성할 수 있게 관련 투자를 지속할 것”이라고 했다. 지난해 9월 삼성은 향후 5년간 6만명(연간 1만2000명)을 신규 채용할 계획을 밝힌 바 있다.\n\n삼성은 1957년부터 70년째 신입사원 공채를 실시하고 있으며, 4대 그룹 중 유일하게 신입 공채 제도를 유지하고 있다.\n\n삼성은 청년들의 소프트웨어 경쟁력 강화를 지원하기 위해 무상으로 교육을 제공하는 ‘삼성청년SW·AI아카데미(SSAFY)’를 서울·대전·광주·구미·",
+          "body": "‘웨이퍼 트레이’가 갤럭시 S25 소재로\nDX, 내년 6월까지 8개 품목 인증 추진 \n\n 삼성전자 서초사옥. \n\n삼성전자의 두 사업 축인 반도체와 스마트폰·TV·가전 등 세트(완제품) 부문이 자원 순환에서는 한 몸으로 움직이고 있다. 제품 생산 과정에서 배출된 폐기물 중 새로운 자원 가치를 발굴해 갤럭시 스마트폰을 비롯한 다양한 제품에 적용하고 있다.\n\n삼성전자는 매년 9월 6일은 ‘자원순환의 날’을 맞아 회사의 이러한 자원 순환 노력을 뉴스룸에 소개했다.\n\n삼성전자는 지난달 기준 누적 38건의 순환자원 인정을 취득했으며, 이는 국내 제조업계에서 매우 높은 수준의 순환자원 인정을 취득한 사례라고 설명했다. 지난해 기준 연간 6859톤의 폐기물을 감축하는 등 자원 효율을 높여가고 있다.\n\n삼성전자는 대표적인 사례로 반도체 칩을 만드는데 사용되는 얇은 실리콘 원판인 웨이퍼를 운반하는 용기, 웨이퍼 트레이의 자원화를 들었다. 고품질 플라스틱으로 제작된 웨이퍼 트레이를 회수해 디바이스경험(DX)부문 순환경제연구소와 협업해 재활용 플라스틱으로 재가공한 뒤, 이를 DX부문 제품의 소재로 활용하는 방식이다. 갤럭시 S25 시리즈의 사이드키와 볼륨키 소재로 활용되며, 사업부문 간 자원순환 협력 사례를 만들어냈다.\n\n생산 과정에서 발생한 불량 웨이퍼는 별도로 모아 잘게 부순 뒤 전문 소재 업체로 보내 실리콘 추출 과정을 거쳐 알루미늄 합금 원료로 재활용한다. 이렇게 만들어진 재생 소재는 항공·건설 산업 등에 활용된다.\n\n웨이퍼 연마 공정에서 사용되는 ‘다이아몬드 디스크’도 자원으로 재활용되고 있다. 귀금속 재질의 소모품을 분리·배출한 뒤, 전문 업체의 회수·추출 공정을 거쳐 팔라듐(Pd)을 회수한다. 회수된 팔라듐은 화합물 원료 등으로 가공돼 인쇄회로기판(PCB) 제조 원료로 다시 쓰인다.\n\n 삼성전",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -87,29 +83,29 @@
       "ticker": "329180",
       "market": "국내",
       "candidates": 90,
-      "today_count": 22,
+      "today_count": 4,
       "stories": [
         {
-          "title": "\"이러다 고부가선도 다 뺏길라\"…HD현대 20년 단골마저 중국 품으로",
-          "published_kst": "2026-09-07T10:32+09:00",
+          "title": "HD현대重, 선박 심장에서 AI 동력으로…美 데이터센터 발전설비 1.58조...",
+          "published_kst": "2026-09-08T06:01+09:00",
           "relevance": "direct",
           "sources": {
             "네이버 금융": {
-              "publisher": "더팩트",
-              "url": "https://n.news.naver.com/mnews/article/629/0000531206",
-              "published_kst": "2026-09-07T10:32+09:00"
+              "publisher": "스포츠서울",
+              "url": "https://n.news.naver.com/mnews/article/468/0001264684",
+              "published_kst": "2026-09-08T06:01+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PMDFlak8yWDlucUxyVU9fU2llNi1XdUt2cHF0anA0NUtreEpSWjZWZUhwdEZLeHg2TU9PWk1nUklwczBEZVhqNGNENmlfb0k?oc=5",
-              "published_kst": "2026-09-07T10:32+09:00"
+              "publisher": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yRG1XWmZRTmhLM01TcWR3NEpqV3lyTENGM0xTVmF0QS1ZQ002UF9UVzVYeWhjR0FpbThrRURoY2s0NUhOcDBna2tmUDFUWkRsSjU0?oc=5",
+              "published_kst": "2026-09-08T06:01+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 9.5,
-          "body": "HD현대 단골 레이카캐리어스, 中 GSI에 10억달러 PCTC 10척 발주\n올해 PCTC 37척 중 35척 中 수주…K 조선 '고부가 방어' 경고등 \n\n HD현대의 20년 단골로 알려진 이스라엘 선주 레이카캐리어스(Ray Car Carriers)가 최근 중국에 PCTC 10척을 발주하며 국내 조선업계에 위기감이 고조되고 있다. 사진은 HD현대중공업 야드 전경. /HD현대중공업 \n\n[더팩트ㅣ송다영 기자] 올해 들어 중국의 '물량 공세'가 고부가가치 선박 시장까지 침범하며 국내 조선업계의 위기감이 고조되고 있다. 최근 HD현대를 20년 가까이 찾아온 단골 선주까지 중국 조선소에 대형 발주를 맡기면서 '기술 해자'로 여겨졌던 K-조선의 고부가 선종 방어선마저 흔들리는 것 아니냐는 우려가 나온다.\n\n위기감을 키운 것은 국내 조선업체 '단골 선주'의 중국 발주 소식이다. 7일 업계 등에 따르면 이스라엘 선주 레이카캐리어스(Ray Car Carriers)는 중국 광저우조선국제(GSI)에 8200CEU급 LNG 이중연료 PCTC 10척을 발주했다. 계약 금액은 10억달러를 웃돌며, 인도 시기는 2029~2031년 순차 인도된다.\n\n레이카캐리어스는 약 20년간 HD현대를 중심으로 PCTC 발주를 이어온 것으로 알려진 대표적인 한국 조선소 단골 고객이다. 현재도 HD현대중공업에서 레이의 LNG 이중연료 PCTC 7척을 건조 중인 것으로 알려졌다.\n\n이번 계약은 계약상 약정으로 발주사 명칭이 공개되진 않았으나, 업계에선 레이로 거의 확정적으로 보고 있다. 글로벌 10대 PCTC 선주 중 하나로 꼽히는 레이가 첫 대규모 중국 발주를 단행하면서 중국 조선업계의 독점이 PCTC 시장으로도 강화되고 있다는 해석이 나온다.\n\n그동안 한국 조선 3사(HD한국조선해양·한화오션·삼성중공업)는 LNG운반선·LPG운반선",
+          "body": "매출 5%인데 수익성 23%…HD현대重, ‘AI 엔진’ 새 성장축 키운다 \n\n 사진|HD현대중공업 \n[스포츠서울 | 배우근 기자] 선박의 심장이 인공지능(AI)의 동력원으로 변신하고 있다.\n\n배에서 전기를 만들던 HD현대중공업의 힘센(HiMSEN)엔진이 미국 AI 데이터센터로 영역을 넓혔다. 올해 따낸 데이터센터용 발전설비 계약만 1조 5831억 원이다. 주문이 밀려들며 HD현대중공업은 약 20년 만에 대규모 엔진 생산설비 확장 채비에 들어갔다.\n\n미국 데이터센터용 첫 수주는 지난 4월 터져 나왔다. 미국 아페리온에너지그룹(AEG)과 20MW급 힘센엔진 기반 발전설비 공급계약을 맺었다. 전체 규모는 684MW, 금액으로는 6271억 원이며 계약기간은 2030년 10월까지다. HD현대중공업이 미국의 방대한 데이터센터 전력시장에 진입한 첫 계약이라는 점에서 상징성이 크다.\n\n불과 4개월 만에 이 기록은 다시 쓰였다. 지난 10일 코반에너지그룹과 9.6MW급 발전설비 공급계약을 체결했다. 규모는 1000MW, 9560억 원으로, 현지 빅테크 기업 데이터센터의 핵심 전력 공급원으로 쓰인다. 단일 발전용 엔진 공급계약으로는 역대 최대치다.\n\n한국투자증권에 따르면, 엔진발전기세트 130대를 2030년 7월까지 순차 공급한다. 두 계약을 합치면 1조 5831억 원, 총 1684MW에 이른다. 원전 1기 발전용량을 1GW로 볼 때, 원전 1기 이상의 막대한 규모다. 선박에 쓰이던 4행정 중속엔진이 AI 시대 핵심 전력 인프라로 떠오른 셈이다.\n\n힘센엔진의 가장 큰 차별점은 독자적인 기술력이다. 10년여의 연구 끝에 지난 2000년 8월 자체 개발에 성공했다. 선박 추진과 발전은 물론 육상 발전에도 폭넓게 사용할 수 있는 기술을 확보한 것이다. 증권가에서는 자체 중속엔진 지식재산권(IP)을 온전히 보",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -118,279 +114,110 @@
       "ticker": "DELL",
       "market": "해외",
       "candidates": 70,
-      "today_count": 17,
+      "today_count": 12,
       "stories": [
         {
-          "title": "Dell and HPE Just Posted Record AI Numbers. Why Did Their Stocks Split?",
-          "published_kst": "2026-09-07T12:31+09:00",
+          "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges",
+          "published_kst": "2026-09-08T02:56+09:00",
           "relevance": "direct",
           "sources": {
-            "Yahoo Finance": {
-              "publisher": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/dell-hpe-just-posted-record-033130037.html",
-              "published_kst": "2026-09-07T12:31+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUU1nUmNRN0EtQkgxbzlla1hhOGdIaTc5eG9tc2wxMUFSTXhESWZCVzdNV3E0Y21kczBRUzJRajRqLWZmVmlqdTJ1RTVjN0xTV2F1djA4ZXUtaW4zel9LYnJ2VG5xSjZyTGlrQ0hLZFQxSG0ySEFHSERVNFY5cy1fbWc3TjVteWZpZ2R1MnhaalJTdG1OUVdj?oc=5",
-              "published_kst": "2026-09-07T12:31+09:00"
+              "publisher": "WSJ",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMjhMMTN2ZXlVcVNLOGE4MTlpWFlLd2JWaFRPNU1waFRuWUJfbnpibzIyM25wT2xhOWtad1M4WVVoQVRIRF9PU2R4SnFLTUtaSG1MeVZiYlpvRkdaTnBVd0NWaXg2VW5RT0NkSnZhWG9wMmpXOFM4RUZuYkRKVjFmRUFYT3pGMHJyaWoyNjhzMmhhWFhWa2FlX0lNaV93UW1VRzNnZWFvSW1DRjUzb2REREFpNHoxbG9WRi1zVXhTaHh6WTBFWEZpUzRB?oc=5",
+              "published_kst": "2026-09-08T02:56+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "Dell and HPE Just Posted Record AI Numbers. Why Did Their Stocks Split? \n\n Habib Ur Rehman \n Sun, September 6, 2026 at 8:31 PM MST 3 min read \n\n DELL \n\n HPE \n\n Dell reported on September 1 and jumped nearly 10% in extended trading; HPE reported a day later, finished September 3 up 5%, then gave back 4.5% on September 4. Both described record AI demand, but the market treated backlog quality, margins, and execution differently. Dell Technologies Inc. (NYSE: DELL ) and Hewlett Packard Enterprise Company (NYSE: HPE ) are selling the servers and networking around accelerators, not the accelerators themselves. \n\n Dell booked $60.9 billion of AI-server orders, recognized $16.4 billion of AI-server revenue, and exited the quarter with a $95 billion backlog. The bull case is conversion at scale across more than 6,500 customers, with storage and services available for cross-selling. The bear case",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/dell-hpe-just-posted-record-033130037.html"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 10.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
     "컨스텔레이션 브랜즈": {
       "ticker": "STZ",
       "market": "해외",
-      "candidates": 45,
-      "today_count": 0,
-      "stories": []
-    },
-    "퍼스트솔라": {
-      "ticker": "FSLR",
-      "market": "해외",
-      "candidates": 50,
-      "today_count": 7,
+      "candidates": 41,
+      "today_count": 1,
       "stories": [
         {
-          "title": "First Solar (FSLR) Slides Before Earnings, Does The Pullback Signal Value?",
-          "published_kst": "2026-09-07T02:32+09:00",
+          "title": "Constellation Brands stock holds steady ahead of October earnings",
+          "published_kst": "2026-09-08T06:12+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQVlHLXRneUlsbllZdEJvOHhqZmM4RTFUM2kxaDRvcHRXQWdlRnhUWFVJSVVmODY1RUNYMHcxdzFNcGR6N2F5dHlGSUFYZ3VrRFU0SmtOcWFBczZFZFhJU2loTElPdWR2TGo0dlRPWGFZUUY2NXY0dEN2OWVNUm8xNldBZVJzYkV1dFAyQ0ZvTHBScXFEQ3drYU9FNkxEVFRmYWtTV2xEZ3c5YmJzMjN6ZjVZSEk4N21YRy10MlB5clR3YkZIM1pKZDBOdnBET3lkcHNkbk9tY9IB1wFBVV95cUxQQVlHLXRneUlsbllZdEJvOHhqZmM4RTFUM2kxaDRvcHRXQWdlRnhUWFVJSVVmODY1RUNYMHcxdzFNcGR6N2F5dHlGSUFYZ3VrRFU0SmtOcWFBczZFZFhJU2loTElPdWR2TGo0dlRPWGFZUUY2NXY0dEN2OWVNUm8xNldBZVJzYkV1dFAyQ0ZvTHBScXFEQ3drYU9FNkxEVFRmYWtTV2xEZ3c5YmJzMjN6ZjVZSEk4N21YRy10MlB5clR3YkZIM1pKZDBOdnBET3lkcHNkbk9tYw?oc=5",
-              "published_kst": "2026-09-07T02:32+09:00"
+              "publisher": "AD HOC NEWS",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUHNGRVM1OGhrdnVSOWRuTzNRaTdJcEt5SUNqTjJNQlQ4anE3VXE3WFJZYkhXNUlrdllkZWdneXRLX1dpaXI4MlNSeW92R1VzQzZzTXpLSHlYRk1UUHlMcDZvV0FkOWVaQk0tZnRZYlMxTTBGX09JRmV0YWNJSzFrYVpXZGNXUzJ2Z3VaNy1ISmFTTEpMbVF1RVZ4MXdtVUlhdVRKUVZHRjBzYlJYRnVJbFJHeG9iQU10XzVHVUtOLW1qUDFhSi1j?oc=5",
+              "published_kst": "2026-09-08T06:12+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "body": "Constellation Brands stock is trading in a tight range as investors look ahead to the next earnings report, with recent estimates and sector comparisons shaping expectations for the spirits and beer producer.\nConstellation Brands stock (ISIN US21036P1084) is trading in a relatively stable band as investors position themselves for the company’s next earnings release, with recent consensus estimates and peer comparisons shaping expectations as of September 7, 2026. AltIndex earnings overview\nAccording to AltIndex earnings data , Constellation Brands is scheduled to report its next quarterly earnings on October 4, 2026, with analyst consensus pointing to earnings per share of USD 1.74 for the upcoming period. AltIndex earnings overview This EPS estimate provides investors with a numerical anchor for expectations around profitability in the next fiscal quarter and will be closely watched whe",
+          "body_source": "원문 본문 · www.ad-hoc-news.de",
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/constellation-brands-stock-holds-steady-ahead-of-october-earnings/70065993"
         }
       ]
+    },
+    "퍼스트솔라": {
+      "ticker": "FSLR",
+      "market": "해외",
+      "candidates": 48,
+      "today_count": 0,
+      "stories": []
     },
     "컨스텔레이션 에너지": {
       "ticker": "CEG",
       "market": "해외",
       "candidates": 45,
-      "today_count": 1,
+      "today_count": 3,
       "stories": [
         {
-          "title": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-          "published_kst": "2026-09-07T11:22+09:00",
+          "title": "Constellation Energy stock holds firm as nuclear capacity and earnings shape outlook",
+          "published_kst": "2026-09-08T01:09+09:00",
           "relevance": "direct",
           "sources": {
-            "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/nuclear-stock-face-off-constellation-022200012.html",
-              "published_kst": "2026-09-07T11:22+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGc3VDVfUDhraWJyVjRvUS11NmVkcXRmNDVYcXk1d0RWbGo3a01CaTZGTk9qRkJrMzA1Nmg3X3NMb05DSGtTOUhJcW9zMUp3a3h6Rm4wam9zX2pUMnlYSkVjZG9kdGxYWmwtRTYtUGNZZ3pCeVFHTXA3ZTcyUU5GQUx3aml6UFhPcVVvbTR4dmJVOHNsLUN1eTFvNW5KUVVRb21Z?oc=5",
-              "published_kst": "2026-09-07T11:22+09:00"
+              "publisher": "AD HOC NEWS",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTXFYdGVsWjFyekRZMmJNVDhjTWlNVkxxWnFVZUlDazJBM3liVW9SOGJxVGV0MVdSZ1ZDTXpiRFFNaTYzZFRjN19Lb0Z1TE14V0xfTkpBa0EtLU15ODZMa1FmX3FOSlZPUXh1N1k0WEx3YkhrLVlpOENFSUlHMENRVHJQTUlTQTVxTGY0dDVJTlp5MnprdW9HVDVOZ2dURHhfTVF4MTBrU1puSmRNTndvMWtwYzhqeFBYMzJYZmg1VWN3V2FhN0JlQk5hZnVJdw?oc=5",
+              "published_kst": "2026-09-08T01:09+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now? \n\n Manali Pradhan, CFA, The Motley Fool \n Sun, September 6, 2026 at 7:22 PM MST 3 min read \n\n CEG \n\n VST \n\n NVDA \n\n Constellation Energy (NASDAQ: CEG) operates the largest U.S. nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025. Although Vistra 's (NYSE: VST) nuclear portfolio is smaller, with 6,448 megawatts of capacity, its contracted opportunity is substantial. Both companies have been signing long-term deals with technology companies that need reliable electricity for data centers. \n\n Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a \"Double Down\" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that same \"Total Conviction\" signal is flashing for a company 1/100th the size of Nvidia. Continue » \n But the bett",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/nuclear-stock-face-off-constellation-022200012.html"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 8.0,
+          "body": "Constellation Energy stock reflects a blend of solid nuclear generation capacity and recent earnings trends, giving investors a data-rich picture of how the utility’s fundamentals and valuation are evolving in 2026.\nConstellation Energy Corporation stock (ISIN US21037T1097) gives investors exposure to one of the largest U.S. nuclear generation portfolios, with the company operating more than 22 gigawatts of nuclear capacity at the end of fiscal 2025 according to Motley Fool analysis, a scale that continues to anchor its revenue and cash flow profile in 2026.\nConstellation Energy’s core business remains the generation and sale of electricity from its nuclear fleet, and the more than 22 gigawatts of nuclear capacity reported for fiscal 2025 form the backbone of its current-year earnings trajectory as of 2026. That capacity level places the company at the top of the U.S. nuclear operators b",
+          "body_source": "원문 본문 · www.ad-hoc-news.de",
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/constellation-energy-stock-holds-firm-as-nuclear-capacity-and-earnings/70064685"
         }
       ]
     },
     "비스트라 에너지": {
       "ticker": "VST",
       "market": "해외",
-      "candidates": 45,
-      "today_count": 2,
-      "stories": [
-        {
-          "title": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-          "published_kst": "2026-09-07T11:22+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/nuclear-stock-face-off-constellation-022200012.html",
-              "published_kst": "2026-09-07T11:22+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGc3VDVfUDhraWJyVjRvUS11NmVkcXRmNDVYcXk1d0RWbGo3a01CaTZGTk9qRkJrMzA1Nmg3X3NMb05DSGtTOUhJcW9zMUp3a3h6Rm4wam9zX2pUMnlYSkVjZG9kdGxYWmwtRTYtUGNZZ3pCeVFHTXA3ZTcyUU5GQUx3aml6UFhPcVVvbTR4dmJVOHNsLUN1eTFvNW5KUVVRb21Z?oc=5",
-              "published_kst": "2026-09-07T11:22+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now? \n\n Manali Pradhan, CFA, The Motley Fool \n Sun, September 6, 2026 at 7:22 PM MST 3 min read \n\n CEG \n\n VST \n\n NVDA \n\n Constellation Energy (NASDAQ: CEG) operates the largest U.S. nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025. Although Vistra 's (NYSE: VST) nuclear portfolio is smaller, with 6,448 megawatts of capacity, its contracted opportunity is substantial. Both companies have been signing long-term deals with technology companies that need reliable electricity for data centers. \n\n Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a \"Double Down\" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that same \"Total Conviction\" signal is flashing for a company 1/100th the size of Nvidia. Continue » \n But the bett",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/nuclear-stock-face-off-constellation-022200012.html"
-        }
-      ]
+      "candidates": 46,
+      "today_count": 0,
+      "stories": []
     },
     "이오스 에너지": {
       "ticker": "EOSE",
-      "market": "해외",
-      "candidates": 45,
-      "today_count": 5,
-      "stories": [
-        {
-          "title": "2026-09-06 | Bronstein, Gewirtz & Grossman, LLC Announces an Investigation Against Eos Energy Enterprises, Inc. (EOSE) and Encourages Stockholders to Learn More About the Investigation | NDAQ:EOSE | Press Release",
-          "published_kst": "2026-09-07T02:00+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Stockhouse",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT0tnTHVRRElmZG5RM3kxTWZCMm5JOHU4TlNzQzB4aWZKOFk4Um1GUEVaekpfdWd1RUlLNW9QdnFJdm8xdVN3dFRiWmNCdlpyRUlmZTZ4VkQtZDdzRXpOZHJEOTVXYmRSejJUZEpZZ3FrYnlrcV95TXcxQmEyQU1ESVNQRHNfSldCbWxpbDdLS3NCeGRqVm9nRjJGbVljUWtBeU5hVlJ6UldKZG1VT3JNa0VsTFpxMUVDOGMxbVBBckNidU53WDIxUmh3?oc=5",
-              "published_kst": "2026-09-07T02:00+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
-        }
-      ]
-    },
-    "알먼티": {
-      "ticker": "ALM",
-      "market": "해외",
-      "candidates": 41,
-      "today_count": 1,
-      "stories": [
-        {
-          "title": "Almonty Industries stock heads into the open after a 6.0 percent gain",
-          "published_kst": "2026-09-07T14:06+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "AD HOC NEWS",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSENEMGYtWGNFVXFMdEZjRVE4aEJDeW8yZG5TS05vWmhkRGxWR2V2enJwOTdwRHktTWdHVjVYZGQ2RXhWem9aMlBGNjRBbmhiTUtlYUFCYjJ6ZUpldldNZ0hzcE8wNENhclF4SHR5V3cwN1V3bkZseFpYdG1iVHZkVllFMW14UDdfQnFreHpXOE9GQ1NuaGNIYll3UTh4U3V6Z1JMeEZXRkNqbXNYUlQ4b2c3NGlKb281U0NrajVVQkM3MHlwOWp2Nks4Rmw?oc=5",
-              "published_kst": "2026-09-07T14:06+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body": "At the close on September 5, 2026, Almonty Industries stock ended at CAD 11.24 on the TSX, up 6.0 percent. Trading volume reached 601,606 shares, and the move left the shares above the recent market backdrop.\nAlmonty Industries stock closed at CAD 11.24 on the TSX on September 5, 2026, up 6.0 percent. The move came with 601,606 shares traded, while the stock finished above the broader market tone of the session.\nAlmonty Industries Inc. (ISIN CA0203987072) ended the last session with a CAD 2.440 billion market value, according to the Junior Mining Network screener. The shares also held a gain of 6.0 percent versus the prior close, after trading between the session's open and close in the Canadian market.\nThe latest visible market data in the call do not show a company release that changed the tape in that session, so the recap rests on the dated trading figures alone. The stock's volume w",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/almonty-industries-stock-heads-into-the-open-after-a-6-0-percent-gain/70061537"
-        }
-      ]
-    },
-    "크레도 테크놀로지": {
-      "ticker": "CRDO",
       "market": "해외",
       "candidates": 48,
       "today_count": 2,
       "stories": [
         {
-          "title": "Why Credo Technology Stock Is Down Today and Why This Top Analyst Expects Shares to More Than Double",
-          "published_kst": "2026-09-07T14:05+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "TipRanks",
-              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1dMbGIxbGQ5bXhBNkIwUlZzam1NMmVBLTlnZlBJZjJvQzFFM3BKc0J1SFRzdVZMRmlRa1d1Z2cySzhWSkN6aDFUZEtVSFcyTEw3MFpFNVVldGZsdlM3TGw1WGhBcmVHV2hTYUJscnlraGk5ZXdhMU1pa1ZPMjVSOERpSUtRVDg0b1Z5blQwVnNaeE5TU1U2enI5N0F4WUNLaHlKRm93YTdfMjlTVnB2T0ZINVotUERPbTVRdTBnUEpDYl9JaUNrUUU5a2tWUUZqXzJDYg?oc=5",
-              "published_kst": "2026-09-07T14:05+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
-        }
-      ]
-    },
-    "알파벳 A": {
-      "ticker": "GOOGL",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 16,
-      "stories": [
-        {
-          "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care",
-          "published_kst": "2026-09-07T12:44+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/pentagon-doubled-down-anthropic-blacklist-034421098.html",
-              "published_kst": "2026-09-07T12:44+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUZDMWRUZE9vck1iU19ZN2xDdm1FMUVrbXpRREZiUDBWbnJWd2U3WnA3R1FMdTdNZjhYTlJnMVFYdnhMQnp1ZVdzMUZLc2RaUmlvU1ZscTJJbHlFSUdlR0lwWjZJNFhmbzl0Sk12dlg3QmMtTlZxODB2M01MaGRGOFJRZ2hIeEhoU2htVE15VlluR0xsMUU5UjdqY1QtYmJJX0xaT1YxRjA?oc=5",
-              "published_kst": "2026-09-07T12:44+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care \n\n Habib Ur Rehman \n Sun, September 6, 2026 at 8:44 PM MST 3 min read \n\n AMZN \n\n GOOG \n\n A senior Pentagon official said on September 3 that the Pentagon still considers Anthropic a supply-chain risk, despite comments that had suggested the dispute might ease. The military had already announced classified-AI arrangements with eight technology providers, including Amazon Web Services and Google. The conflict matters to Amazon.com, Inc. (NASDAQ: AMZN ) and Alphabet Inc. (NASDAQ: GOOGL ) because each has a major commercial relationship with Anthropic while also competing for federal cloud and AI work. \n\n Amazon has invested $13 billion in Anthropic and could invest up to another $20 billion. Anthropic uses more than one million Trainium2 chips to train and serve Claude, including through Proj",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/technology/ai/articles/pentagon-doubled-down-anthropic-blacklist-034421098.html"
-        }
-      ]
-    },
-    "시스코 시스템즈": {
-      "ticker": "CSCO",
-      "market": "해외",
-      "candidates": 51,
-      "today_count": 5,
-      "stories": [
-        {
-          "title": "Lakera vs Prisma AIRS vs Cisco AI Defense: $1B Deals [2026]",
-          "published_kst": "2026-09-07T06:29+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "tech-insider.org",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QWRDdmhveVNwclp3MXJnQ19EeDkwaWZOaVM1M1Y0bEtTQ2o4aENDTEZ6Sm8xVzJxX09rZkFCd2IzMDRZa2xMMHMzQVZGTFktdTZnUHlJRXBDczc2ZFNhRktSUnVXR3ZGUnZCS2N1WnFBdUIxMU1qNXcxQjk?oc=5",
-              "published_kst": "2026-09-07T06:29+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
-        }
-      ]
-    },
-    "버티브 홀딩스": {
-      "ticker": "VRT",
-      "market": "해외",
-      "candidates": 43,
-      "today_count": 2,
-      "stories": [
-        {
-          "title": "Talks between Putin and US envoys begin in Kremlin",
-          "published_kst": "2026-09-07T04:57+09:00",
+          "title": "Lauren Connelly leads a community-first approach to economic development (Personalities of Pittsburgh)",
+          "published_kst": "2026-09-08T06:45+09:00",
           "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "barrons.com",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWW81Z2Jfd3paLU9Lc3ZxWWZMc0haUkQwa3EtMWtva2ZfdGZ5SXk2YktzaUJhZnNiUEhfYW5DZ2w5RFYwcDNGNUh5Q1Iyck1qMFBlY0dnSmRVNVV6eERoMVBUUE5ESkJETmhRRXRpRXgxT1J5b0dMbkRoS1pIaWRFQXlsNWV5YmpZYXlkVWI1TmdQUTM4UkFnX05MWUJmUzlBdUVybW5MbGxnSjdjeVlpNlUxUWxnU2xX?oc=5",
-              "published_kst": "2026-09-07T04:57+09:00"
+              "publisher": "The Business Journals",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQzI4VEcyTWNHMVdLX1lxdVh2amt6TWhjamlzeV9PUUZFRFdSUTVrNmhMcWRHM1pDeTRUSjB0YTlWMnJPR0JrSUlJRi16VGN3bnllWkRpWG4yaWJaSUpGdHJnUVJ2eGZENGF0V1F0VG1yOVphVWE4Z1ptS2RNU3BOMHBndW5keVFxeHhPdm00SGlVY1lrLWxR?oc=5",
+              "published_kst": "2026-09-08T06:45+09:00"
             }
           },
           "source_count": 1,
@@ -401,28 +228,180 @@
         }
       ]
     },
-    "록히드마틴": {
-      "ticker": "LMT",
+    "알먼티": {
+      "ticker": "ALM",
       "market": "해외",
-      "candidates": 59,
-      "today_count": 7,
+      "candidates": 46,
+      "today_count": 1,
       "stories": [
         {
-          "title": "Lockheed Unveils a Cheaper Hypersonic Glide Body",
-          "published_kst": "2026-09-07T07:05+09:00",
+          "title": "Almonty Streamlines Listings and Launches Buyback as Tungsten Ramp-Up Reshapes Its Investment Case",
+          "published_kst": "2026-09-08T03:51+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "MiGFlug",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRV81aXFVQ3lVZE4wdHA1c0o3X3lDVUt2X3luRVRGSHg2SnFCSmhzVmZKZ2JjX0hMa3RzOVpiYXk1dXJtT3VRWUtxMkpvcXFkSEJQcDE2TXdxWU44SlhNUnRlcHotLUpyaFVkMG5uQzhXRjJERk9RdjFwUVVPYmJodVVGSVVMY3NuZ3ZkUVhZdFc?oc=5",
-              "published_kst": "2026-09-07T07:05+09:00"
+              "publisher": "AD HOC NEWS",
+              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQlc0VWlmc25tRWltc1lwRGZwMVVuX2ZWaW1PSXFPX0FYX25OOVlwbVozN1JueWtfcXJON0tqUDdqY0pyR1ROeU9BdjBUVWVSdWFKeEZMU0dWTTJ4U3B3X21NMjgyWThNU0g0ang4d0pJQTBEbnBTc241bkNpVnJuYzN6azVqY2YxNElYeDFOaUJkY2lOM00wR21kYmxjeGxTMFhhbHBwa0k1cnZaOHVUM21jbk42ZktLUU5JTVVyQjZTX3Rkam1QZWtwMWJHQ0ZlQTFpcEo1dFk?oc=5",
+              "published_kst": "2026-09-08T03:51+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 8.0,
+          "body": "Almonty exits ASX, focuses on Nasdaq/TSX, and approves a 5% buyback after Q2 revenue surged 498% to $43M.\nThe tungsten producer Almonty Industries has spent the past several months tidying up its corporate structure, and the moves are sending a clear signal about where management believes the company's future lies. The shares now trade almost exclusively on the Nasdaq and the TSX after the company's securities were removed from the Australian bourse at the start of September, with trading in the CHESS Depositary Interests having already ceased on 28 August. The delisting followed a similar exit from the TSX at the end of July, leaving the company with a leaner, more focused market presence.\nThe rationale for the Australian departure was straightforward: the CHESS Depositary Interests had dwindled to roughly 0.80 percent of all issued shares as of 14 July, making the administrative burden",
+          "body_source": "원문 본문 · www.ad-hoc-news.de",
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/almonty-streamlines-listings-and-launches-buyback-as-tungsten-ramp-up/70065393"
+        }
+      ]
+    },
+    "크레도 테크놀로지": {
+      "ticker": "CRDO",
+      "market": "해외",
+      "candidates": 46,
+      "today_count": 1,
+      "stories": [
+        {
+          "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+          "published_kst": "2026-09-08T04:26+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "TradingView",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONkhlQUZjNjhhSzZ3TzFXcmNLdHR2UE9QekVRdGJHNGhUZ203eDhwS19ZaGNLa1c2emdXUU9PSUdrLUMxZTFLcERyM2hGVl9yTTE0YUhIaml6Qklnb29jTXctWlQzeVhuX2FLQjlCc1ZZNWNoWEUyWE5URzU4QU9MbkdaZHhBU0JWVGlNdkM1R0lYRnA5OWtZb2I0YzJfemdBSWtuUkJDUVZnblF3?oc=5",
+              "published_kst": "2026-09-08T04:26+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 0.0,
+          "body": "Nvidia, Microsoft at Center of $7 Trillion AI Boom 1 min read \n\n MSFT NVDA \n America's AI infrastructure boom could triple by 2030, creating an investment cycle beyond Nvidia's graphics processors. \n The United States has approximately 90 operating data centers requiring more than 100 megawatts of power, a record, according to The Kobeissi Letter. If all planned projects are completed, that total could more than triple to 280 by 2030. \n Technology companies are expected to invest about $7 trillion in data centers through 2030. Amazon, Microsoft MSFT , Alphabet and Meta Platforms have signed more than $1.5 trillion of data-center leases since the AI boom began, including commitments not yet effective. \n Those figures show why AI infrastructure is evolving into a broader industrial spending cycle. Building compute capacity requires advanced chips, networking equipment, servers, cooling sys",
+          "body_source": "원문 본문 · www.tradingview.com",
+          "article_url": "https://www.tradingview.com/news/gurufocus:77aeedfd8094b:0-nvidia-microsoft-at-center-of-7-trillion-ai-boom/"
+        }
+      ]
+    },
+    "알파벳 A": {
+      "ticker": "GOOGL",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 8,
+      "stories": [
+        {
+          "title": "Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.",
+          "published_kst": "2026-09-08T07:30+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQejN1VGk0SmR1VndkdGtPUkVrQnY5V2J6V0Zlai1sdzAxek03SS1tWFNibW9tek11NWZsSXpfZ3NQWElyQ2I5VjBhOHdJWUd4dVVXYlU4RFk1R0x2UlhRbTdBdk5QcjV0bWlXVWIyZzhkNmFOeU45dWExWjU5LTVpYWNWa2ZSNm02RDVBeVloQ3h4RXRfT3AtQw?oc=5",
+              "published_kst": "2026-09-08T07:30+09:00"
+            },
+            "Yahoo Finance": {
+              "publisher": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-told-cnbc-initiated-223500403.html",
+              "published_kst": "2026-09-08T07:35+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Berkshire Hathaway ( BRKA -0.48% ) ( BRKB -0.41% ) is a Wall Street icon because of Warren Buffett's long and successful history of buying stocks. His success earned him the nickname \"the Oracle of Omaha,\" and Berkshire Hathaway was basically a way to invest alongside the famous investor. The company's story changed in 2026, when Greg Abel took over as CEO, and Buffett initiating Berkshire Hathaway's recent purchase of Alphabet ( GOOG -1.05% ) shares hints at a new model for the company.\n\n Buffett isn't gone, he's just in a new job \n Warren Buffett stepped down as CEO of Berkshire Hathaway at the end of 2025, handing the reins to hand-picked successor Greg Abel. But Buffett didn't really retire; he shifted to the position of president of the board. So he is still Abel's boss and available to help out as needed. Given that Buffett initiated the company's large recent purchase of Alphabet ",
+          "body_source": "원문 본문 · www.fool.com",
+          "article_url": "https://www.fool.com/investing/2026/09/07/warren-buffett-told-cnbc-i-initiated-it-about-berk/"
+        }
+      ]
+    },
+    "시스코 시스템즈": {
+      "ticker": "CSCO",
+      "market": "해외",
+      "candidates": 63,
+      "today_count": 8,
+      "stories": [
+        {
+          "title": "Lumentum's 1.6T & 200G Ramp Faces Cisco & NVIDIA Competition",
+          "published_kst": "2026-09-08T01:33+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "qz.com",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZUzVRMUVRa3lqSEZoX0xQSWhlRF9HS0Z2OU1oSzFHMElYcWNncEE1ZUozdnZ0S25DWXQ1V1JNTFJidnltRWVCNUtMdzhLV0J1WDRYX2VYZXU5OUFMVlRGUlZIUWwwOUV2R19TS29Qb2dVb0l0dXZwTFVkOA?oc=5",
+              "published_kst": "2026-09-08T01:33+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "body": "Lumentum LITE is benefiting from the accelerating transition toward 1.6T transceivers and 200G-per-lane optical technology as hyperscalers deploy increasingly bandwidth-intensive artificial intelligence (AI) clusters. The company began shipping 1.6T transceivers in the fourth quarter of fiscal 2026, while the bulk of its cloud transceiver shipments remained at 800G and expects adoption to intensify from the first quarter of fiscal 2027 through calendar 2027. Lumentum believes improved design engineering has helped it reach the market ahead of larger competitors in several instances, strengthening its position against Cisco $CSCO Systems CSCO and NVIDIA NVDA in next-generation AI connectivity.\n\nThe transition should strengthen Lumentum’s Systems business through rising demand for higher-value cloud transceivers. Tier-1 hyperscalers are rapidly shifting from 800G to 1.6T as custom AI clust",
+          "body_source": "원문 본문 · qz.com",
+          "article_url": "https://qz.com/lumentum-s-1-6t-200g-ramp-faces-cisco-nvidia-competition"
+        }
+      ]
+    },
+    "버티브 홀딩스": {
+      "ticker": "VRT",
+      "market": "해외",
+      "candidates": 48,
+      "today_count": 2,
+      "stories": [
+        {
+          "title": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+          "published_kst": "2026-09-08T01:52+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ai-moving-everyday-business-5-165250986.html",
+              "published_kst": "2026-09-08T01:52+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "247wallst.com",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3lPWW5HWVd6RjFEWmZMWlV0dW5GQVFzRXpsMGRyQVFIRVFtS0lMS3hINVZTSjBRbWtWSkpOUUk5cnVBeVN5NHRiWlZEN3BLTEVWeDFKVHJYdXBxZUlnbHQyVXZGUDkyYlpqbFRCMm12Y1hIWXhHVDVVMzA1T1BqaU5FQmhpOGtNMlZhOFhQSzhnMDR4VWhFUzJQVExEQTlMVW9ONjhiTzhBWk5yeEtmZHV4SnoxRnE5azFWN09pOWhqdzJfV19NNzFDLVU?oc=5",
+              "published_kst": "2026-09-08T01:52+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 7.5,
+          "body": "Investing \n\n AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge \n\n Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact…\n\n By Rich Duprey \n\n Published September 7, 2026, 12:52pm ET · 4 min read \n\n 𝕏 \n f \n\n ⧉ \n\n This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them.\n\n AI is embedding itself in ordinary business operations, and the compute footprint required to sustain that shift is expanding faster than the industry can build. Goldman Sachs Global Investment Research finds that 22.4% of firms are already using AI in their regular business functions, while another 25.9% expect ",
+          "body_source": "원문 본문 · 247wallst.com",
+          "article_url": "https://247wallst.com/investing/2026/09/07/ai-is-moving-into-everyday-business-these-5-stocks-sit-squarely-in-the-path-of-the-surge/"
+        }
+      ]
+    },
+    "록히드마틴": {
+      "ticker": "LMT",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 12,
+      "stories": [
+        {
+          "title": "Lockheed's $729 Million HIMARS Win Feeds a 19% Missile-Sales Surge",
+          "published_kst": "2026-09-08T06:40+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/lockheeds-729-million-himars-win-214041633.html",
+              "published_kst": "2026-09-08T06:40+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "TradingView",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQejJjWWo5RjUwdGRCTU9KZG1VM3J0bThzbUtqZkxkU0ZvZjZhWjdfbHU0aDdzWUVXaDdmSHJHQnhyMDhNRzktTkpSdTdrWlVSSDhrb1F4SVB3QzhXMjZJMFk3a1p0Qmdnd3ctT1JwV1lSbmJKRXpKbzg2dmtHYjdKTWJ1VnpoOWxJeEhHZ1hmaXlJeEZ6NGs1Z05FalhydU5Qd0lUb0pEOHMwMUFWM2xrTnRPd0R0Um5FMXBLemxHd1gxQQ?oc=5",
+              "published_kst": "2026-09-08T06:40+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 11.5,
+          "body": "Lockheed's $729 Million HIMARS Win Feeds a 19% Missile-Sales Surge Less than 1 min read \n\n LMT \n Lockheed Martin LMT , the aerospace and defense giant, landed a $729 million commitment from Sweden for roughly ten HIMARS systems as its shares traded at $525.28 Monday. The package covers ammunition, deliveries beginning in 2027 and Swedish production through a partnership between Saab and Lockheed. This is more than another weapons orderit pulls a new NATO customer deeper into the company's missile ecosystem. \n Washington previously approved a potential $930 million sale covering 20 launchers and a wider selection of weapons. Sweden's final agreement is approximately 21.6% smaller, but investors should not mistake that gap for a discount. The scope changed sharply, with the eventual purchase including roughly half the number of launchers. \n\n Lockheed's Missiles and Fire Control division pr",
+          "body_source": "원문 본문 · www.tradingview.com",
+          "article_url": "https://www.tradingview.com/news/gurufocus:e2580f266094b:0-lockheed-s-729-million-himars-win-feeds-a-19-missile-sales-surge/"
         }
       ]
     },
@@ -430,85 +409,94 @@
       "ticker": "MSFT",
       "market": "해외",
       "candidates": 70,
-      "today_count": 17,
+      "today_count": 10,
       "stories": [
         {
-          "title": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day",
-          "published_kst": "2026-09-07T09:29+09:00",
+          "title": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
+          "published_kst": "2026-09-08T00:45+09:00",
           "relevance": "direct",
           "sources": {
             "Yahoo Finance": {
-              "publisher": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/articles/microsoft-msft-outlook-openai-chatgpt-002934990.html",
-              "published_kst": "2026-09-07T09:29+09:00"
+              "publisher": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-close-time-high-number-154550712.html",
+              "published_kst": "2026-09-08T00:45+09:00"
             },
             "구글 뉴스 RSS": {
               "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzlpWUlBLWpqMGlQNkE1UzRNcU9XVlh1WmtkeFk4ZjZMTnZWNlhSdDk4ODVZRlZlR3p5Vk4xNW80SkFWY3RYOU4yX0g2Y2lQemM5SllwSHRqbkRFcVl3QmdaWTlZQ2ZhNGhfOWVYWnNCUUp0c2FrT1EzVkUzMHdnc3psbERDcElSQjMtdXhlZDh1T1F2a3JhWkRQZXVVM1U?oc=5",
-              "published_kst": "2026-09-07T09:29+09:00"
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYktuQjJKN3BISHN0alRyeEhpR0cyUkxrQXRQcHVBT24yb01vU01VbEdTWjA1SFZzQ2E5R1pVejJ2bDhpLVdnY2o4MDR0dExCUXV2V09NNzJhZjlselhJWWNRRDljZm9RNktOV2haS3h2aFdwZkk2bWhRdVFoNGZ4SlFGOGowb2JwVkZFZUZfZkpiZWRfdWxFaFZxUWpOdw?oc=5",
+              "published_kst": "2026-09-08T00:45+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 11.5,
-          "body": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day \n\n Fatima Gulzar \n Sun, September 6, 2026 at 5:29 PM MST 4 min read \n\n MSFT \n\n On August 31, 2026, CNBC reported that Microsoft Corporation (NASDAQ: MSFT ) suffered a widespread Outlook and Exchange Online outage on August 31, with Downdetector reports peaking at 6,015 for Outlook and 2,044 for Microsoft 365. Microsoft said on its status page that \"users may experience degraded functionality with various Exchange Online functionalities\" while it reviewed service telemetry to find the cause. \n\n On the same day, OpenAI's ChatGPT Work, its enterprise AI agent that competes directly with Microsoft's own Copilot and with Anthropic's Claude Cowork, suffered a separate roughly three-hour outage, leaving users across multiple plans unable to start or continue tasks. OpenAI confirmed full recovery by evening. There were ",
+          "importance": 9.5,
+          "body": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing \n\n Alex Sirois \n Mon, September 7, 2026 at 10:45 AM CDT 6 min read \n\n MSFT \n\n SPY \n\n Quick Read Microsoft sits within striking distance of its $549 all-time high but earns a Hold as capex surged 80% to $116 billion, crushing free cash flow. \n MSFT gained just 4% year to date and fell over one year while SPY returned 13% YTD and 19% over the same stretch. \n Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Microsoft didn't make the cut. Enter your email to see the names that beat MSFT. The report is free. Enter your email and see if any of your stocks made the cut. \n\n At $499.70, Microsoft ( NASDAQ:MSFT ) is a Hold, with free cash flow the single number that will decide whether the stock breaks out to a fresh record or stalls out below it.",
           "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/technology/articles/microsoft-msft-outlook-openai-chatgpt-002934990.html"
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-close-time-high-number-154550712.html"
         }
       ]
     },
     "나이키 B": {
       "ticker": "NKE",
       "market": "해외",
-      "candidates": 68,
-      "today_count": 13,
+      "candidates": 70,
+      "today_count": 6,
       "stories": [
         {
-          "title": "Nike loses S&P 100 spot after 18 yrs; stock plunges 80% from peak, wipes out $230 bn - What went wrong?",
-          "published_kst": "2026-09-07T13:05+09:00",
+          "title": "Nike just got kicked out of an elite club",
+          "published_kst": "2026-09-08T00:03+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "fortuneindia.com",
-              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWlAyLUR4VUxRV3RGNmtBMGhCZUpXaFIxN1hOVXV4OFp2TC1rYUdoN2pEQUloR0NVZTIyY09rYlhpRHpwYXppa2VxUGY2eGdwajh6eU4yZkNxMmFicndRekZEZVYwa1EtTnB1b2stbTN5ME0tdzRaYUVNUjhoalg2Q1M0UW5uRzJuNU1SanVZUmxYd2xxZzFhY08ySGhQbncxbERsalFQQy1OUlFFcENRVzNIb0pYLTNwSU92VUhiQXdxeDZXcGZ2Tm1ldVFadnhzUExZeVR30gHjAUFVX3lxTE9nSVpDR2pDbXhRRzVmN2w1UVF5b3dhWU92a1hyRnNlYUNtZGc0Zk5rS1NseEtOMVpaWEY4VlJGTG1oaVAyTGpodS13a1V4ZTN1RG5HdkIyUnNmRUh6MVRJeEFRVWdOMUtBRzBCel9PQXVMbVdPdE9lNk5fTk1EYU96R3J0d2g4cmtvN09pMDRZdkJIMG1PLXctaDhiR3FiM0t1aHRjVlgtcFZpLWlKajJfYW5rUUlILTZ4RndOaDNJQTBHZnZMcUhzeDV0ckxFX1Y3YlMxSnR4ME1HcEc3M0Q4SWZz?oc=5",
-              "published_kst": "2026-09-07T13:05+09:00"
+              "publisher": "thestreet.com",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LajZLTVJrdW84LTd1UTdneGNLNUFlUi1yUkFzOWJZN2pMNGR1NHdYT2FNMlVqXy12M2xmMG9vWWpVNWFkMUM0SWVCZHpFVmFKWTN4UVR3aXo4cmwwWHAtZjJreWxqZDdMU08zNWRYU284OVpy?oc=5",
+              "published_kst": "2026-09-08T00:03+09:00"
+            },
+            "Yahoo Finance": {
+              "publisher": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nike-just-got-kicked-elite-180300976.html",
+              "published_kst": "2026-09-08T03:03+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "Nike, the world's largest sportswear and athletic apparel company by market capitalisation, is set to lose its place in the S&P 100 after nearly 18 years, as a steep decline in its share price has eroded its market value amid struggles to revive growth and regain market share.\nS&P Dow Jones Indices will remove Nike from the index effective September 21 as part of its quarterly rebalancing. Honeywell Aerospace, Simon Property Group and Colgate-Palmolive will also be dropped from the S&P 100.\nMeanwhile, Dell Technologies, Palo Alto Networks, Arista Networks and SanDisk will be elevated from the S&P 500 to fill the four vacancies. The reshuffle will further increase the technology sector's representation in the index.\nWith a market capitalisation of around $57 billion, Nike shares have fallen nearly 80% from their all-time high and are now trading at their lowest level in about 12 years. Th",
-          "body_source": "원문 본문 · www.fortuneindia.com",
-          "article_url": "https://www.fortuneindia.com/markets/nike-loses-sp-100-spot-after-18-yrs-stock-plunges-80-from-peak-wipes-out-230-bn-what-went-wrong/157751"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Nike just got kicked out of an elite club \n\n Opeyemi Babalola \n Mon, September 7, 2026 at 1:03 PM CDT 5 min read \n\n NKE \n\n GE \n\n ^DJI \n\n In June 2018, General Electric (GE) quietly disappeared from the Dow Jones Industrial Average, ending a 111-year run that predated the index itself, according to Bloomberg . \n The removal didn't bankrupt GE. It simply made official what investors had already priced in years earlier. \n Nike just lived a version of that same story in 2026. Nike (NKE), the world's largest sportswear company by revenue and once a fixture of nearly every large-cap fund, is losing a different kind of standing. \n\n S&P Dow Jones Indices confirmed on Sept. 4 that Nike will drop out of the S&P 100 before trading opens on Sept. 21. \n The company remains in the broader S&P 500, but its exit from the top-100 club is a first for a brand that once defined what a blue-chip consumer sto",
+          "body_source": "원문 본문 · Yahoo 링크"
         }
       ]
     },
     "노보노디스크 ADR": {
       "ticker": "NVO",
       "market": "해외",
-      "candidates": 49,
-      "today_count": 9,
+      "candidates": 70,
+      "today_count": 6,
       "stories": [
         {
-          "title": "Clever Culture Systems Secures Expanded Order from Novo Nordisk for APAS® Instruments",
-          "published_kst": "2026-09-07T10:25+09:00",
+          "title": "Wegovy’s Latest Trial Gives Novo Nordisk (NVO) Another Potential Growth Catalyst",
+          "published_kst": "2026-09-08T04:16+09:00",
           "relevance": "direct",
           "sources": {
+            "Yahoo Finance": {
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/healthcare/articles/wegovy-latest-trial-gives-novo-191655005.html",
+              "published_kst": "2026-09-08T04:16+09:00"
+            },
             "구글 뉴스 RSS": {
-              "publisher": "Finance News Network",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMUJkS20tcldGZEZFckozamNuOHNPa3NNTjUxdlJvWmxPdVRpNVA3R0gwd0ZXM3NVRFF3a0xZN3lQM2F6ZWpFekU4Zlpwd1E0YWg1dF9tMWlGMnRlbVhIN1lVT2EtX2gwRXhSM1NsZFJFSWh5NHFqUUswSlV2ZXhocQ?oc=5",
-              "published_kst": "2026-09-07T10:25+09:00"
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUQwS1UtWV9TQlRPallpYkV3dHFOYXQyS0hwWGZvQ3dRZEx3NGRhZFRKRTBMZU5KTjdadllHQVBSdmY2ZkFleFRHbWx0a2s0bWtPQTdhZ1lJOGJOd3BxekF0SlZqU1ozY0JFYjVxYVhFZkUxeUctVFRreVRpNFZsbEMwTURLeXlLTm5yWW5nNkdVRnRjd2c?oc=5",
+              "published_kst": "2026-09-08T04:16+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "Clever Culture Systems Ltd (ASX: CC5) has announced a significant expansion of its partnership with Novo Nordisk, securing a purchase order for two additional APAS® Independence instruments. Based in Adelaide, South Australia, Clever Culture Systems (CCS) provides intelligent automation solutions to microbiology laboratories, having developed the Automated Plate Assessment System (APAS® Independence) which utilises artificial intelligence and machine learning to automate the imaging, analysis, and interpretation of microbiology culture plates. This new order increases Novo Nordisk’s installed base of APAS® Independence instruments to three, following a successful 12-month evaluation of the technology.\n\n The order also includes the development of an advanced integration solution for Novo Nordisk’s global Laboratory Information Management Solution (LIMS) with the APAS® technology. This cus",
-          "body_source": "원문 본문 · www.finnewsnetwork.com.au",
-          "article_url": "https://www.finnewsnetwork.com.au/archives/finance_news_network5653279.html"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Wegovy’s Latest Trial Gives Novo Nordisk (NVO) Another Potential Growth Catalyst \n\n Vardah Gill \n Mon, September 7, 2026 at 2:16 PM CDT 4 min read \n\n NVO \n\n Novo Nordisk A/S (NYSE: NVO ) has delivered encouraging late-stage data for Wegovy in younger children, with its STEP Young trial showing that 40.4% of children aged 6 to under 12 were no longer classified as having obesity after 68 weeks of semaglutide treatment, compared with none in the placebo group. The trial met its primary endpoint, showing a greater reduction in BMI versus placebo. Importantly, both groups also followed a reduced-calorie diet and increased physical activity. \n The results are particularly notable because more than 85% of participants had severe class II or III obesity at the start of the study. Novo said the drug's safety and tolerability were consistent with previous semaglutide trials in adults and adolesce",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/healthcare/articles/wegovy-latest-trial-gives-novo-191655005.html"
         }
       ]
     }
@@ -518,31 +506,24 @@
       "ticker": "MCD",
       "market": "해외",
       "candidates": 70,
-      "today_count": 22,
+      "today_count": 11,
       "stories": [
         {
-          "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
-          "published_kst": "2026-09-07T03:11+09:00",
+          "title": "New Bills bobbleheads and \"CollectiBills\" meals at McDonald's",
+          "published_kst": "2026-09-08T05:51+09:00",
           "relevance": "direct",
           "sources": {
-            "Yahoo Finance": {
-              "publisher": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-exit-90-restaurant-181105022.html",
-              "published_kst": "2026-09-07T03:11+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbmNnTlRmZXVVc19FVmVscXdjcGlsNUJROUNGQ1JBUzMzZ0JEbEdYQUxUdElWUWZaak9GNUtHLWJRN3lTR0VkcGxFamVmRTdLbmhvWVhTUTlTOEM1bjByWjFoZ1JVQzd0TUpMVTN0ck5BZlVZTVYzOFhuWmZVSjBCNjVUS1BSYUhuNWdoN2pGdEF2YVBnSGF1MnVKX3hGQQ?oc=5",
-              "published_kst": "2026-09-07T03:11+09:00"
+              "publisher": "WGRZ",
+              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNR2pjSnlWWmtuajM4LU1hX1N1MW1qaUJ2al9KaXBCVDVhT0JIcVR3VXpIdWpmTS1ER01pSTNkdWRNVXpFcVZtUnpyUjIyUmR1Vnl5cnFGdW1ZOHpZelJzQVBYSWdBQWxLdG5fVktYQUpXdlE1Y20xem1pekxqRDU4NjlZcE9DekZvSmNnY20wZElBZnFSaXlwbnRpUEdBek1MTTZSSGM2M2R5TmpuaGhmc3YxUlY2THhsUVlCN3lfWXJjMUl5TFdGRlpHTUtNRzFTM3c?oc=5",
+              "published_kst": "2026-09-08T05:51+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 11.5,
-          "body": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors \n\n Bailey Pemberton \n Sun, September 6, 2026 at 11:11 AM MST 3 min read \n\n MCD \n\n CMG \n\n McDonald's (NYSE:MCD) previously owned about 90% of Chipotle before exiting the investment in 2006. \n The company sold its stake as part of a refocus on its core fast food operations, leaving Chipotle to list and expand independently. \n A recent look back highlights how much long-term market value McDonald's did not capture by selling its Chipotle holding. \n Investors are using this episode to compare McDonald's approach with Chipotle's different growth and brand strategies over time. \n McDonald's is one example of how past portfolio decisions can shape a company's path. It can be useful to compare this story with other under-the-radar quality stocks in similar themes through our screener containing 17 high quality undiscovered ",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-exit-90-restaurant-181105022.html"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ],
       "alert": "볼린저 하단 이탈",
@@ -551,27 +532,32 @@
     "시에나": {
       "ticker": "CIEN",
       "market": "해외",
-      "candidates": 44,
-      "today_count": 1,
+      "candidates": 49,
+      "today_count": 2,
       "stories": [
         {
-          "title": "UBS lowers Ciena target price to $394",
-          "published_kst": "2026-09-07T12:56+09:00",
-          "relevance": "direct",
+          "title": "AAOI Dips 46% in Three Months: Should You Buy the Stock Now or Wait?",
+          "published_kst": "2026-09-08T01:28+09:00",
+          "relevance": "tagged",
           "sources": {
+            "Yahoo Finance": {
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/aaoi-dips-46-three-months-162800982.html",
+              "published_kst": "2026-09-08T01:28+09:00"
+            },
             "구글 뉴스 RSS": {
-              "publisher": "Bitget",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8za3RVY1lTM1VuTnlOblFYc1Iyei1pNklxYVJ1UG44cEtLaThvZE0ySjZXMkpFVU8tcmwzNWhmempJUEdnUndZa2Nvd29tRndUdTItRlI2UnMtWXlJZnQ3UklUd9IBY0FVX3lxTE8za3RVY1lTM1VuTnlOblFYc1Iyei1pNklxYVJ1UG44cEtLaThvZE0ySjZXMkpFVU8tcmwzNWhmempJUEdnUndZa2Nvd29tRndUdTItRlI2UnMtWXlJZnQ3UklUdw?oc=5",
-              "published_kst": "2026-09-07T12:56+09:00"
+              "publisher": "TradingView",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVWxKdHk0VlRxdHBQMG05TTVVeWM5M2tSVzZoX3M3N2JDWmVNM1VJdkxIdTIzVXhIOE9GSEV1NHhQQUJ2MVMtV2NvNlhXWVM4Y0lPNWJxejBDSGZkYnd2dmM1ZFJ4dG5SdWY1M2dJcmotZmdHWUd6dWNRZl9zZWljLWtubnhwZWVXcVB6dmxiYVFYWkY5T3I2Z1JDZzBsVVdVbXpXMkFvNnlmOUp5M2x3TFczYThtNkF4d1EzOUVB?oc=5",
+              "published_kst": "2026-09-08T01:28+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body": "Glonghui, September 7th｜UBS has lowered Ciena's target price from $508 to $394, maintaining a \"Neutral\" rating. | Bitget crypto news!",
-          "body_source": "메타 설명(본문 추출 실패) · www.bitget.com",
-          "article_url": "https://www.bitget.com/amp/news/detail/12560605797246"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 5.5,
+          "body": "AAOI Dips 46% in Three Months: Should You Buy the Stock Now or Wait? 4 min read \n\n AAOI \n Applied Optoelectronics AAOI stock has plunged 46.3% over the past three months, underperforming the Zacks Computer & Technology sector’s 0.6% gain and the Zacks Electronics - Semiconductors industry’s 14.5% decline. \n The company’s shares have also underperformed its peers, which include Lumentum LITE, Ciena CIEN and Coherent COHR. All three companies are expanding their footprints in the optical networking market. Lumentum, Ciena, and Coherent shares have lost 1.6%, 31.2%, and 29.9%, respectively. \n The underperformance can be attributed to production-capacity constraints, tight supply of Digital Signal Processor and Transimpedance Amplifier components and near-term weakness in 100G demand due to memory-related switch shortages, which are limiting revenue upside despite robust AI-driven demand. \n ",
+          "body_source": "원문 본문 · www.tradingview.com",
+          "article_url": "https://www.tradingview.com/news/zacks:e1903567c094b:0-aaoi-dips-46-in-three-months-should-you-buy-the-stock-now-or-wait/"
         }
       ],
       "alert": "볼린저 하단 이탈",
