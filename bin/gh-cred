@@ -1,0 +1,17 @@
+#!/bin/sh
+# 이 저장소 전용 자격증명 헬퍼.
+# gh는 '활성 계정' 토큰만 돌려주므로, 계정을 여러 개 쓰면 다른 계정 토큰이 잡혀 push가 막힌다.
+# 여기서 저장소 소유자 계정으로 잠깐 바꿔 토큰을 받고, 원래 활성 계정으로 되돌린다.
+GH=/opt/homebrew/bin/gh
+OWNER=dlrkdmsdkdld
+
+[ "$1" = "get" ] || exit 0                 # store/erase는 gh가 관리하므로 관여하지 않는다
+
+# "  ✓ Logged in to github.com account <이름> (keyring)" 에서 계정 이름만 뽑는다
+BEFORE=$("$GH" auth status 2>/dev/null | awk '/Logged in to github.com account/ {a=$(NF-1)} /Active account: true/ {print a; exit}')
+[ "$BEFORE" = "$OWNER" ] || "$GH" auth switch --user "$OWNER" >/dev/null 2>&1
+
+INPUT=$(cat)
+printf '%s\n' "$INPUT" | "$GH" auth git-credential get
+
+[ -z "$BEFORE" ] || [ "$BEFORE" = "$OWNER" ] || "$GH" auth switch --user "$BEFORE" >/dev/null 2>&1

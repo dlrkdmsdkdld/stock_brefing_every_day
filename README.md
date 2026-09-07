@@ -453,6 +453,24 @@ Form 4는 본문 XML을 파싱해 **누가·어떤 직책으로·얼마나** 사
 
 감시할 기관은 `filings.json`의 `investors`에서 CIK로 추가·삭제합니다.
 
+## 여러 GitHub 계정 쓸 때 (`bin/gh-cred`)
+
+`gh`는 **활성 계정** 토큰만 돌려줍니다. 계정을 여러 개 쓰면 다른 계정이 활성일 때
+`403 Permission denied to <다른계정>`으로 push가 막힙니다.
+
+이 저장소는 전용 자격증명 헬퍼를 씁니다. push할 때 소유자 계정으로 잠깐 바꿔 토큰을 받고,
+**원래 활성 계정으로 되돌려 놓습니다.** 다른 계정으로 작업하다가 push해도 그대로 되고,
+작업하던 계정도 그대로 유지됩니다.
+
+```sh
+git config --local --get-all credential.helper
+#   (빈 값 = 전역 헬퍼 무시)
+#   /경로/bin/gh-cred
+```
+
+전역 설정은 건드리지 않으므로 다른 프로젝트에는 영향이 없습니다.
+소유자 계정을 바꾸려면 `bin/gh-cred`의 `OWNER` 값을 고치면 됩니다.
+
 ## 브리핑 웹페이지 (GitHub Pages)
 
 `main` 브랜치 루트를 GitHub Pages로 서비스합니다. `brief.py`가 `briefing.html`과 같은 내용을
