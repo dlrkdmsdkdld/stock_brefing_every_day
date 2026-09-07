@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-07T14:47:37+09:00",
+  "generated_at": "2026-09-07T14:52:51+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "예비/gemini-flash-lite-latest",
+  "model": "OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 5354,
-    "output_tokens": 2663
+    "input_tokens": 4906,
+    "output_tokens": 3373
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 6,
     "응답누락": [],
     "호출실패": []
   },
@@ -16,41 +16,97 @@
       "title": "“310만닉스 가나요”…SK하이닉스 목표가 ‘쑥’ [오늘, 이 종목]",
       "holding": "SK하이닉스",
       "stance": "호재",
-      "summary": "DB증권과 미래에셋증권은 SK하이닉스의 목표가를 각각 230만원과 310만원으로 상향 조정했다. 3분기 실적이 원화 강세로 예상치를 밑돌 것으로 보이지만 HBM4 출하 본격화와 맞춤형 AI 반도체 수요 증가로 견조한 실적 개선세가 이어질 전망이다.",
-      "impact": "증권가의 목표가 상향과 HBM4 출하 확대 및 GPU/ASIC 탑재량 증가 전망은 SK하이닉스의 주가 상승에 긍정적인 영향을 미친다.",
-      "caution": "원·달러 환율 하락으로 인한 단기 실적 부진 가능성이 언급되었다."
+      "summary": "DB증권은 SK하이닉스 목표주가를 200만원에서 230만원으로, 미래에셋증권은 280만원에서 310만원으로 올렸다. 원화 강세로 올해 3분기 매출 98조2000억원과 영업이익 76조5000억원이 시장 예상치를 소폭 밑돌 수 있지만, 전년 대비 각각 301%, 572% 증가하고 HBM4 출하·가격 상승과 AI 반도체 수요 확대로 실적 개선세가 이어질 것으로 전망됐다.",
+      "impact": "HBM4 출하 확대와 AMD MI455X·엔비디아 루빈 등 AI 칩의 HBM 탑재량 증가는 SK하이닉스의 메모리 판매량과 가격에 긍정적으로 작용할 수 있다. 증권사 목표주가 상향도 실적 및 밸류에이션 기대를 높이는 요인이다.",
+      "caution": "원화 강세가 분기 실적을 낮출 수 있고, 목표주가는 증권사 전망치다. 본문이 ‘빅테크 맞춤형 AI 반도체’ 관련 내용을 끝까지 포함하지 않아 해당 부분의 구체적 근거는 제한적이다."
     },
     "삼성하반기공채8일부터실시삼성전자등19개회사": {
       "title": "삼성, 하반기 공채 8일부터 실시···삼성전자 등 19개 회사",
       "holding": "삼성전자",
-      "stance": "중립",
-      "summary": "삼성이 삼성전자를 포함한 19개 관계사를 통해 8일부터 하반기 신입사원 공개채용을 실시한다. 첨단 산업 육성을 위한 투자와 청년 채용 확대를 지속할 방침이다.",
-      "impact": "공채 실시는 기업 이미지와 장기 인재 확보 측면에서 긍정적이나, 단기 주가 흐름에 직결되는 직접적인 재무적 사건은 아니다.",
-      "caution": "채용 일정 안내 중심의 기사로 직접적인 주가 변동 요인은 제한적이다."
+      "stance": "약한 호재",
+      "summary": "삼성은 9월 8일부터 삼성전자 등 19개 관계사의 하반기 신입사원 공개채용을 시작하며, 지원은 15일까지 받는다. 9월 직무적합성 평가, 10월 GSAT, 11월 면접과 건강검진을 진행하고, 반도체·AI·바이오·배터리·디스플레이 분야의 국내 투자와 청년 채용 확대를 추진한다고 밝혔다.",
+      "impact": "삼성전자가 포함된 그룹 차원의 인재 확보와 첨단산업 투자는 장기적으로 반도체·AI 등 사업의 연구개발 및 실행 역량을 뒷받침할 수 있다. 다만 채용 자체가 삼성전자의 단기 매출이나 이익을 직접 개선하는 내용은 아니다.",
+      "caution": "기사의 핵심은 삼성그룹 공채와 고용 계획이며, 삼성전자만의 채용 규모·투자 금액·실적 영향은 제시되지 않았다."
     },
     "이러다고부가선도다뺏길라hd현대20년단골마저중국품으로": {
       "title": "\"이러다 고부가선도 다 뺏길라\"…HD현대 20년 단골마저 중국 품으로",
       "holding": "HD현대중공업",
-      "stance": "약한 악재",
-      "summary": "HD현대의 20년 단골 선주로 알려진 이스라엘 레이카캐리어스가 중국 광저우조선국제(GSI)에 8200CEU급 LNG 이중연료 PCTC 10척을 발주했다. 고부가가치 선박 시장에서도 중국의 물량 공세가 거세지며 K-조선의 방어선에 경고등이 켜졌다.",
-      "impact": "핵심 고객사의 이탈과 중국 조선업계의 고부가 선종 잠식은 HD현대중공업의 장기 수주 경쟁력에 대한 우려를 키운다.",
-      "caution": "계약상 발주사 명칭이 공식적으로 확정 발표된 것은 아니며 업계 추정 단계이다."
+      "stance": "악재",
+      "summary": "HD현대의 약 20년 단골 선주로 알려진 이스라엘 레이카캐리어스가 중국 광저우조선국제(GSI)에 8200CEU급 LNG 이중연료 PCTC 10척을 10억달러 이상에 발주했다. 해당 선박은 2029~2031년에 순차 인도될 예정이며, 올해 PCTC 발주 37척 중 35척을 중국이 수주해 국내 조선업의 고부가 선종 방어에 경고등이 켜졌다는 분석이 나왔다.",
+      "impact": "HD현대중공업의 기존 주요 고객이 중국 조선소를 선택하면 향후 PCTC 수주 기회와 고객 점유율이 줄어들 수 있다. 중국 조선소의 고부가·친환경 선박 수주 확대는 HD현대중공업의 기술 프리미엄과 수주 경쟁력에도 부담이다.",
+      "caution": "이번 발주 선주가 계약상 공식 공개된 것은 아니며, 업계가 레이카캐리어스로 거의 확정적으로 보고 있다는 수준이다. 기사에 HD현대중공업의 향후 수주 감소나 실적 손실이 확정됐다는 내용은 없다."
     },
     "dellandhpejustpostedrecordainumberswhydidtheirstockssplit": {
       "title": "Dell and HPE Just Posted Record AI Numbers. Why Did Their Stocks Split?",
       "holding": "델",
       "stance": "중립",
-      "summary": "델과 HPE가 강력한 AI 서버 수요를 기록했으나 주가는 엇갈린 흐름을 보였다. 델은 609억 달러의 AI 서버 주문을 확보하고 95억 달러의 백로그를 남겼다.",
-      "impact": "본 기사의 주요 분석 대상은 델과 HPE의 실적 및 주가 움직임이며, 보유 종목인 델의 기록적인 AI 수요는 긍정적이나 기사 자체는 시장 전반의 반응을 다룬다.",
-      "caution": "보유 종목 외에 HPE의 상황도 함께 다루어지고 있다."
+      "summary": "델은 9월 1일 실적 발표에서 AI 서버 주문 609억달러, AI 서버 매출 164억달러, 분기 말 수주잔고 950억달러를 기록했다고 밝혔다. 주가는 시간외 거래에서 거의 10% 올랐지만, 기사는 AI 수요 자체뿐 아니라 수주잔고의 질과 마진, 실행력을 시장이 다르게 평가했다고 설명한다.",
+      "impact": "델의 AI 서버 주문과 수주잔고는 AI 인프라 수요가 강하다는 점을 보여주지만, 보유 종목은 델이므로 직접적인 긍정 효과는 제한적이다.",
+      "caution": "기사 주제는 보유 종목인 델의 실적과 주가 반응이므로 다른 회사 관련 뉴스가 아니다. 다만 제공된 본문이 ‘bear case’ 부분에서 끊겨 수주잔고 전환율·마진 관련 전체 판단은 어렵다."
     },
     "nuclearstockfaceoffisconstellationenergyorvistrathebetterbuyrightnow": {
       "title": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
       "holding": "비스트라 에너지",
       "stance": "중립",
-      "summary": "비스트라 에너지는 6448메가와트의 원자력 포트폴리오를 보유하고 있으며, 데이터센터용 전력 공급을 위한 장기 계약 기회를 적극적으로 확보하고 있다.",
-      "impact": "데이터센터 전력 수요 증가에 따른 수혜 기대감이 유효하지만, 컨스텔레이션 에너지와의 비교 분석 내용이 중심이다.",
-      "caution": "두 종목을 비교하는 일반적인 투자 분석 기사이다."
+      "summary": "비스트라는 원자력 발전 포트폴리오가 컨스텔레이션보다 작지만 6448메가와트 규모이며, 데이터센터에 안정적인 전력을 공급하기 위한 계약 기회가 상당한 것으로 소개됐다. 컨스텔레이션과 비스트라 모두 기술 기업들과 장기 전력 계약을 체결하고 있다고 기사에 나와 있다.",
+      "impact": "데이터센터 전력 수요와 장기 계약은 비스트라의 원전 및 발전사업 매출 가시성을 높일 수 있는 요인이다. 다만 기사에 구체적인 계약 금액이나 수익성, 비스트라의 신규 수주 내용은 제시되지 않았다.",
+      "caution": "본문이 비교 기사의 중간에서 끊겨 비스트라가 컨스텔레이션보다 우월한지에 대한 결론을 확인할 수 없다."
+    },
+    "almontyindustriesstockheadsintotheopenaftera60percentgain": {
+      "title": "Almonty Industries stock heads into the open after a 6.0 percent gain",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 인더스트리즈 주가는 2026년 9월 5일 TSX에서 11.24캐나다달러로 마감해 전일 대비 6.0% 상승했고, 거래량은 601,606주였다. 해당일 시가총액은 24억4000만캐나다달러로 제시됐으며, 주가를 움직인 회사 공시는 확인되지 않아 거래 수치 중심의 요약이라고 설명됐다.",
+      "impact": "주가 상승과 거래량은 단기 투자심리 개선을 보여줄 수 있지만, 알먼티의 실적·사업 전망을 바꾼 신규 공시나 사건이 확인되지 않아 보유 종목의 펀더멘털 개선으로 연결하기 어렵다.",
+      "caution": "기사 자체가 회사 뉴스가 아니라 2026년 9월 5일 주가·거래량을 재정리한 내용이며, 상승 원인도 제시하지 않는다."
+    },
+    "thepentagondoubleddownonitsanthropicblacklistwhyamazonandalphabetinvestorsshouldcare": {
+      "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "미 국방부 고위 관계자는 9월 3일에도 앤스로픽을 공급망 위험으로 보고 있다고 밝혔다. 아마존웹서비스와 구글을 포함한 8개 기술 제공업체가 군의 기밀 AI 관련 협력에 참여한 가운데, 알파벳은 앤스로픽과 주요 상업적 관계를 맺고 있어 연방 클라우드·AI 사업 경쟁과 규제 리스크가 동시에 부각됐다.",
+      "impact": "앤스로픽에 대한 국방부의 부정적 판단이 지속되면 구글과 앤스로픽의 정부·공공부문 협력 확대가 제약될 수 있고, 알파벳의 연방 AI·클라우드 수주 경쟁에도 부담이 될 수 있다. 다만 이는 알파벳 자체의 사업 중단을 의미하지는 않는다.",
+      "caution": "기사 본문이 중간에서 끊겨 알파벳과 앤스로픽의 구체적 계약 구조 및 실제 정부 사업 영향은 확인할 수 없다. 국방부의 판단이 알파벳의 상업 부문 실적에 미치는 규모도 제시되지 않았다."
+    },
+    "microsoftmsftsoutlookandopenaischatgptworkbothbrokethesameday": {
+      "title": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "CNBC는 2026년 8월 31일 마이크로소프트의 Outlook과 Exchange Online에서 광범위한 장애가 발생했다고 보도했다. Downdetector 신고는 Outlook 6,015건, Microsoft 365 2,044건까지 늘었으며, 같은 날 OpenAI의 기업용 AI 에이전트 ChatGPT Work도 약 3시간 동안 별도 장애를 겪었다.",
+      "impact": "Outlook·Exchange Online 장애는 마이크로소프트의 업무용 클라우드 서비스 신뢰도와 고객 생산성에 부정적인 영향을 줄 수 있다. ChatGPT Work 장애는 마이크로소프트의 Copilot과 경쟁하는 서비스의 문제라는 점에서 직접적인 MSFT 악재는 제한적이지만, 기업용 AI 서비스 전반의 안정성 우려를 키울 수 있다.",
+      "caution": "기사에는 장애의 최종 원인이나 매출·이익에 미친 영향이 제시되지 않았다. OpenAI의 ChatGPT Work 장애는 마이크로소프트가 아닌 별도 회사의 사건이다."
+    },
+    "nikelosessp100spotafter18yrsstockplunges80frompeakwipesout230bnwhatwentwrong": {
+      "title": "Nike loses S&P 100 spot after 18 yrs; stock plunges 80% from peak, wipes out $230 bn - What went wrong?",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "나이키는 약 18년 만에 S&P 100에서 제외되며, S&P Dow Jones Indices의 분기 리밸런싱에 따라 9월 21일부터 편출될 예정이다. 약 570억 달러의 시가총액을 기록한 나이키 주가는 사상 최고치 대비 거의 80% 하락해 약 12년 만의 최저 수준에서 거래되고 있다.",
+      "impact": "S&P 100 편출은 나이키의 시장 위상과 성장 둔화를 보여주는 신호로 해석될 수 있으며, 관련 지수를 추종하는 자금의 매도 압력을 유발할 가능성이 있다. 주가 급락과 시가총액 감소는 투자심리와 브랜드·사업 회복에 대한 신뢰에도 부정적이다.",
+      "caution": "기사에는 주가 하락의 구체적인 기간별 원인이나 편출로 인한 실제 자금 유출 규모가 제시되지 않았다."
+    },
+    "cleverculturesystemssecuresexpandedorderfromnovonordiskforapasinstruments": {
+      "title": "Clever Culture Systems Secures Expanded Order from Novo Nordisk for APAS® Instruments",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "호주 기업 Clever Culture Systems는 노보 노디스크로부터 APAS® Independence 장비 2대에 대한 추가 구매 주문을 확보했다고 발표했다. 이번 주문으로 노보 노디스크의 해당 장비 설치 대수는 12개월 평가를 거쳐 총 3대로 늘어나며, 글로벌 실험실정보관리시스템(LIMS)과 APAS® 기술의 통합 솔루션 개발도 포함된다.",
+      "impact": "노보 노디스크가 자동화·AI 기반 미생물 검사 장비를 추가 도입한 것은 실험실 운영 효율화와 품질관리 강화 측면에서 긍정적이다. 다만 이는 노보 노디스크의 핵심 의약품 판매가 아니라 외부 기술 도입에 관한 소식이어서 재무 실적에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "주문 금액과 노보 노디스크의 비용 절감 또는 생산성 개선 규모가 공개되지 않았다. 기사 주제는 장비 공급사 Clever Culture Systems의 수주이며, 노보 노디스크 자체의 사업 실적이나 전망을 다룬 내용은 아니다."
+    },
+    "mcdonaldsmcdexitfroma90restaurantstakestillhauntsinvestors": {
+      "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
+      "holding": "맥도날드",
+      "stance": "중립",
+      "summary": "맥도날드는 2006년 핵심 패스트푸드 사업에 집중하기 위해 당시 약 90%를 보유했던 Chipotle 지분을 매각했다. 최근 분석은 Chipotle이 이후 상장과 확장을 통해 성장하면서 맥도날드가 장기적인 시장가치 상승분을 놓쳤다는 점을 되짚고, 양사의 성장 및 브랜드 전략을 비교하고 있다.",
+      "impact": "이 사례는 맥도날드의 과거 포트폴리오 및 자본배분 의사결정에 대한 평가 자료일 뿐, 현재 매출·이익이나 사업 운영에 직접 영향을 주는 사건은 아니다. 따라서 보유 종목의 단기 주가 방향에 미치는 영향은 제한적이다.",
+      "caution": "기사가 2006년의 과거 매각 결정을 재조명한 내용이며, 새로운 투자·실적·경영 변화에 대한 발표는 없다."
+    },
+    "ubslowerscienatargetpriceto394": {
+      "title": "UBS lowers Ciena target price to $394",
+      "holding": "시에나",
+      "stance": "약한 악재",
+      "summary": "UBS는 9월 7일 시에나의 목표주가를 508달러에서 394달러로 낮췄지만, 투자의견은 중립을 유지했다. 기사에는 목표주가 하향의 구체적인 이유는 제시되지 않았다.",
+      "impact": "목표주가가 약 22% 낮아진 것은 UBS가 평가한 시에나의 상승 여력 또는 기업가치 전망이 이전보다 악화됐다는 신호로 받아들여질 수 있다. 다만 중립 의견이 유지돼 강한 매도 신호로 보기는 어렵다.",
+      "caution": "목표주가 하향의 근거와 실적 전망 변화가 기사에 설명되지 않았으며, 목표주가는 애널리스트의 추정치이므로 실제 주가나 사업 성과를 보장하지 않는다."
     },
     "20260906bronsteingewirtzgrossmanllcannouncesaninvestigationagainsteosenergyenterprisesinceoseandencouragesstockholderstolearnmoreabouttheinvestigationndaqeosepressrelease": {
       "title": "2026-09-06 | Bronstein, Gewirtz & Grossman, LLC Announces an Investigation Against Eos Energy Enterprises, Inc. (EOSE) and Encourages Stockholders to Learn More About the Investigation | NDAQ:EOSE | Press Release",
@@ -60,22 +116,6 @@
       "impact": "기업 관련 조사 소식은 투자자 심리에 부정적으로 작용하여 주가에 하방 압력을 줄 수 있다.",
       "caution": "공식적인 소송 제기가 아니라 법무법인의 자체 조사 단계이다."
     },
-    "almontyindustriesstockheadsintotheopenaftera60percentgain": {
-      "title": "Almonty Industries stock heads into the open after a 6.0 percent gain",
-      "holding": "알먼티",
-      "stance": "호재",
-      "summary": "알먼티 인더스트리는 2026년 9월 5일 토론토증권거래소(TSX)에서 6.0% 상승한 11.24 캐나다달러로 마감했다. 거래량은 601,606주를 기록하며 전반적인 시장 분위기를 상회했다.",
-      "impact": "주가 상승과 높은 거래량 동반은 매수세 유입을 보여주며 단기적인 주가 모멘텀에 긍정적이다.",
-      "caution": "특별한 기업 발표나 공시에 기인한 것이 아니라 거래 데이터에 기반한 시황 요약이다."
-    },
-    "thepentagondoubleddownonitsanthropicblacklistwhyamazonandalphabetinvestorsshouldcare": {
-      "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care",
-      "holding": "알파벳 A",
-      "stance": "약한 악재",
-      "summary": "펜타곤은 2026년 9월 3일 발표에서 앤트로픽을 여전히 공급망 위험으로 분류하며 블랙리스트 입장을 고수했다. 알파벳과 아마존은 앤트로픽과 밀접한 상업적 관계를 맺고 있으며 연방 클라우드 및 AI 계약을 두고 경쟁하고 있어 관련 리스크에 노출되어 있다.",
-      "impact": "정부 계약과 AI 파트너십 측면에서 불확실성이 커지며 알파벳의 클라우드 및 AI 사업 확장에 부담으로 작용할 수 있다.",
-      "caution": "미 국방부의 조치가 알파벳의 핵심 광고 및 클라우드 본업에 직접적인 실적 타격을 준다는 구체적 수치는 기사에 없다."
-    },
     "lakeravsprismaairsvsciscoaidefense1bdeals2026": {
       "title": "Lakera vs Prisma AIRS vs Cisco AI Defense: $1B Deals [2026]",
       "holding": "시스코 시스템즈",
@@ -83,46 +123,6 @@
       "summary": "사이버보안 기업들이 AI 가드레일 부문에 막대한 투자를 단행했으며 시스코는 로버스트 인텔리전스를 흡수해 시스코 AI 디펜스를 구축했다. 해당 플랫폼들은 2026년 9월 기준으로 라이브 상태이며 기업용 시장에서 경쟁하고 있다.",
       "impact": "시스코의 AI 보안 솔루션 경쟁력을 보여주나, 기사 본문은 여러 보안 업체를 종합 비교하는 내용으로 시스코 주가에 즉각적인 중대 변화를 일으킬 만한 구체적 매출이나 수치는 제시되지 않았다.",
       "caution": "시스코 단독 실적이나 구체적 계약 규모가 명시되지 않은 전반적 산업 비교 기사이다."
-    },
-    "microsoftmsftsoutlookandopenaischatgptworkbothbrokethesameday": {
-      "title": "Microsoft (MSFT)’s Outlook and OpenAI’s ChatGPT Work Both Broke the Same Day",
-      "holding": "마이크로소프트",
-      "stance": "약한 악재",
-      "summary": "2026년 8월 31일 마이크로소프트는 아웃룩과 익스체인지 온라인의 광범위한 장애를 겪었으며 다운디텍터 신고 건수가 아웃룩 6,015건, 마이크로소프트 365 2,044건에 달했다. 같은 날 경쟁사인 오픈AI의 챗GPT 워크도 약 3시간 동안 장애를 일으켰다.",
-      "impact": "서비스 중단으로 인해 마이크로소프트의 클라우드 및 오피스 서비스 신뢰도가 단기적으로 손상될 수 있다.",
-      "caution": "장애가 신속하게 복구되었으며 장기적인 재무적 손실 규모는 기사에 언급되지 않았다."
-    },
-    "nikelosessp100spotafter18yrsstockplunges80frompeakwipesout230bnwhatwentwrong": {
-      "title": "Nike loses S&P 100 spot after 18 yrs; stock plunges 80% from peak, wipes out $230 bn - What went wrong?",
-      "holding": "나이키 B",
-      "stance": "악재",
-      "summary": "나이키는 주가 급락과 시가총액 감소로 인해 거의 18년 만에 S&P 100 지수에서 퇴출되며, 이는 2026년 9월 21일부터 발효된다. 나이키의 주가는 사상 최고가 대비 약 80% 폭락하여 약 12년 만에 최저 수준에서 거래되고 있다.",
-      "impact": "주요 지수에서 제외됨에 따라 패시브 펀드 등의 자금 이탈 압력이 커지고 브랜드 성장 부진에 대한 시장의 우려가 심화된다.",
-      "caution": "지수 편출일인 9월 21일 전후로 주가 변동성이 커질 수 있으나 이미 상당 부분 주가에 반영되었을 가능성이 있다."
-    },
-    "cleverculturesystemssecuresexpandedorderfromnovonordiskforapasinstruments": {
-      "title": "Clever Culture Systems Secures Expanded Order from Novo Nordisk for APAS® Instruments",
-      "holding": "노보노디스크 ADR",
-      "stance": "호재",
-      "summary": "클레버 컬처 시스템즈는 노보 노디스크와 파트너십을 확장하여 추가로 2대의 APAS 인디펜던스 기기에 대한 구매 주문을 확보했다. 이번 주문으로 노보 노디스크가 보유한 APAS 기기는 총 3대로 늘어났다.",
-      "impact": "노보 노디스크가 실험실 자동화 기술 도입을 본격적으로 확대하고 있음을 보여주며 관련 공정 효율화와 협력 강화로 이어진다.",
-      "caution": "노보 노디스크의 전체 재무제표 규모에 비춰볼 때 이 장비 구매 주문이 전사 실적에 미치는 직접적 비중은 제한적일 수 있다."
-    },
-    "mcdonaldsmcdexitfroma90restaurantstakestillhauntsinvestors": {
-      "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
-      "holding": "맥도날드",
-      "stance": "중립",
-      "summary": "맥도날드는 2006년 치폴레 지분 90%를 매각하여 독립시켰으며 최근 이 과거의 포트폴리오 결정이 장기 시장 가치 측면에서 투자자들 사이에서 회자되고 있다. 맥도날드는 핵심 패스트푸드 운영에 집중하기 위해 지분을 매각한 바 있다.",
-      "impact": "과거의 경영 전략을 되돌아보는 회고성 내용으로 현재의 맥도날드 운영이나 실적에 직접적인 변화를 주지 않는다.",
-      "caution": "현재의 실적이나 향후 사업 계획과 무관한 과거사 분석 기사이다."
-    },
-    "ubslowerscienatargetpriceto394": {
-      "title": "UBS lowers Ciena target price to $394",
-      "holding": "시에나",
-      "stance": "약한 악재",
-      "summary": "UBS는 시에나의 목표 주가를 기존 508달러에서 394달러로 하향 조정하면서 중립 의견을 유지했다.",
-      "impact": "투자은행의 목표가 대폭 하향은 단기적으로 투자 심리에 부정적인 영향을 미칠 수 있다.",
-      "caution": "목표가 변경의 구체적인 내막이나 실적 부진의 원인이 본문에 상세히 적혀 있지 않다."
     },
     "hbm가격상승내년실적도견조sk하이닉스목표가230만db": {
       "title": "\"HBM 가격 상승, 내년 실적도 견조\" SK하이닉스 목표가 230만↑-DB",
