@@ -1,10 +1,15 @@
 name: 데일리 브리핑
 
-# 매일 06:30 KST = 21:30 UTC 전날. 미국 정규장 마감(16:00 ET) 직후라 전날 미국 종가가 확정돼 있고,
-# 국내장 개장(09:00 KST) 전이다. GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있다.
+# 미국 정규장 마감(16:00 ET) 직후에 돌린다. 한국시간으로는 서머타임 때 05:00,
+# 겨울에는 06:00이라 한 시간 움직이는데 cron은 UTC 고정이라 하나로는 못 맞춘다.
+# 그래서 두 번 걸어 두고, 아래 check 잡이 "장이 닫혔고 오늘 아직 안 돌았을 때"만 통과시킨다.
+#   20 20 UTC = 05:20 KST  (서머타임에 유효, 겨울에는 아직 장중이라 통과 못 함)
+#   20 21 UTC = 06:20 KST  (겨울에 유효, 서머타임에는 이미 돌았으므로 통과 못 함)
+# GitHub의 예약 실행은 혼잡할 때 수십 분 늦어질 수 있어 :00, :30은 피했다.
 on:
   schedule:
-    - cron: "30 21 * * *"
+    - cron: "20 20 * * *"
+    - cron: "20 21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +20,42 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.gate.outputs.proceed }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: 실행 조건 확인
+        id: gate
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          from datetime import datetime, time
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          manual = os.environ.get("EVENT") == "workflow_dispatch"
+          now_ny = datetime.now(ZoneInfo("America/New_York"))
+          today_kst = datetime.now(ZoneInfo("Asia/Seoul")).date().isoformat()
+          # 종가가 확정되는 시각(마감 16:00 + 여유 15분)을 넘겼는지
+          closed = now_ny.time() >= time(16, 15)
+          path = Path("prices.json")
+          done = False
+          if path.exists():
+              done = json.loads(path.read_text(encoding="utf-8")).get(
+                  "fetched_at", "")[:10] == today_kst
+          proceed = manual or (closed and not done)
+          print(f"proceed={'true' if proceed else 'false'}")
+          print(f"뉴욕 {now_ny:%m-%d %H:%M} · 장 마감 {closed} · 오늘 이미 실행 {done} "
+                f"· 수동 {manual} -> 진행 {proceed}", file=__import__("sys").stderr)
+          PY
+        env:
+          EVENT: ${{ github.event_name }}
+
   brief:
+    needs: check
+    if: ${{ needs.check.outputs.proceed == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
