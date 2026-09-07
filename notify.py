@@ -136,31 +136,31 @@ def move(row):
 
 
 def build(prices, news, judged):
-    """텔레그램에 보낼 본문. 가격 표와 종목별 뉴스 요약을 모두 담는다."""
+    """텔레그램에 보낼 본문.
+
+    관심 종목·뉴스·추천은 웹페이지에 다 있으므로 넣지 않는다. 폰에서 스크롤로 훑기에는
+    너무 길어 정작 봐야 할 것이 묻힌다. 여기에는 보유 종목 시세와, 있으면 밴드 하단 이탈만 담는다.
+    """
     every = prices["holdings"]
     holdings = [row for row in every if row.get("group", "holding") == "holding"]
-    watch = [row for row in every if row.get("group") == "watch"]
-    by_name = {row["name"]: row for row in holdings}
     scored = [row["change_pct"] for row in holdings if row.get("change_pct") is not None]
     up = sum(1 for value in scored if value > 0)
     down = sum(1 for value in scored if value < 0)
     average = sum(scored) / len(scored) if scored else 0
     trade_dates = sorted({row["date"] for row in holdings if "date" in row})
-    best = max(holdings, key=lambda r: r.get("change_pct") or -999)
-    worst = min(holdings, key=lambda r: r.get("change_pct") if r.get("change_pct") is not None else 999)
+    fx = prices.get("fx") or {}
 
     link = brief_url()
     lines = [f"<b>📊 포트폴리오 브리핑 {datetime.now(KST):%Y-%m-%d (%a)}</b>"]
     if link:
-        # 표·차트까지 편하게 보려면 웹페이지가 낫다. 맨 위에 둔다.
-        lines.append(f'🔗 <a href="{esc(link)}">브리핑 전문 웹페이지 열기</a>')
-    lines += [
-             f"종가 기준일 {' / '.join(trade_dates) or '없음'} · 오늘 뉴스 {news['counts']['기사']}건", "",
-             f"상승 {up} · 하락 {down} · 평균 {average:+.2f}%",
-             f"최고 {esc(best['name'])} {best.get('change_pct', 0):+.2f}% / "
-             f"최저 {esc(worst['name'])} {worst.get('change_pct', 0):+.2f}%", ""]
+        lines.append(f'🔗 <a href="{esc(link)}">브리핑 전문 열기</a>')
+    lines.append(f"종가 {' / '.join(trade_dates) or '없음'} · 보유 {len(holdings)}종목 "
+                 f"· 상승 {up} 하락 {down} 평균 {average:+.2f}%")
+    if fx.get("rate"):
+        lines.append(f"환율 ₩{fx['rate']:,.2f} ({fx['change_pct']:+.2f}%)")
+    lines.append("")
 
-    # 밴드 하단 이탈은 가장 먼저 보여야 하므로 첫 메시지 맨 앞에 둔다.
+    # 밴드 하단 이탈은 보유·관심 가리지 않고 알린다. 가장 먼저 봐야 할 신호다.
     breached = sorted([row for row in every if row.get("bb_position") == "하단 이탈"],
                       key=lambda row: row.get("bb_percent_b", 0))
     if breached:
@@ -170,7 +170,6 @@ def build(prices, news, judged):
             lines.append(f"{esc(row['name'])} ({esc(row['ticker'])}, {group})  {money(row)}  "
                          f"{move(row)}  %B {row['bb_percent_b']:.3f} · RSI {row['rsi']:.0f}")
         lines.append("")
-
 
     for market, currency in (("국내", "KRW"), ("해외", "USD")):
         rows = [row for row in holdings if row["currency"] == currency]
@@ -184,68 +183,11 @@ def build(prices, news, judged):
                          f"{move(row)}{extra}{tech(row)}")
         lines.append("")
 
-    path = HERE / "recommendation.json"
-    if path.exists():
-        pick = json.loads(path.read_text(encoding="utf-8"))
-        if pick.get("generated_at", "")[:10] == datetime.now(KST).date().isoformat():
-            label = {"mine": "내 목록에서", "new": "새로 볼 종목"}
-            for key in ("mine", "new"):
-                choice = pick.get(key)
-                if not choice:
-                    continue
-                lines += [f"<b>⭐ 오늘의 추천 · {label[key]}</b>",
-                          f"{esc(choice['name'])} ({esc(choice['ticker'])}) — {esc(choice['headline'])}",
-                          esc(choice["reason"]), f"유의: {esc(choice['risk'])}", ""]
-
-    spots = [
-        ("상승", sorted([r for r in every if (r.get("change_pct") or 0) > 0],
-                        key=lambda r: -r["change_pct"])[:3], lambda r: f"{r['change_pct']:+.2f}%"),
-        ("하락", sorted([r for r in every if (r.get("change_pct") or 0) < 0],
-                        key=lambda r: r["change_pct"])[:3], lambda r: f"{r['change_pct']:+.2f}%"),
-        ("거래량 급증", sorted([r for r in every if r.get("volume_ratio", 0) >= 1.5],
-                           key=lambda r: -r["volume_ratio"])[:3],
-         lambda r: f"{r['volume_ratio']:.1f}배"),
-        ("52주 신고가 근접", sorted([r for r in every if (r.get("from_year_high") or -99) >= -3],
-                              key=lambda r: -r["from_year_high"])[:3],
-         lambda r: f"{r['from_year_high']:+.1f}%"),
-        ("52주 신저가 근접", sorted([r for r in every if (r.get("from_year_low") or 99) <= 5],
-                              key=lambda r: r["from_year_low"])[:3],
-         lambda r: f"{r['from_year_low']:+.1f}%"),
-    ]
-    shown = [(title, rows, render) for title, rows, render in spots if rows]
-    if shown:
-        lines.append("<b>🔥 오늘의 주목</b>")
-        for title, rows, render in shown:
-            body = ", ".join(f"{esc(r['name'])} {render(r)}" for r in rows)
-            lines.append(f"{title}: {body}")
-        lines.append("")
-
-    if watch:
-        lines.append(f"<b>[관심 종목 {len(watch)} · 시총순]</b>")
-        for row in sorted(watch, key=cap_key, reverse=True):
-            lines.append(f"{esc(row['name'])} <code>{cap_text(row)}</code>  {money(row)}  "
-                         f"{delta(row)}  {move(row)}{tech(row)}")
-        lines.append("")
-
-    lines.append("<b>📰 종목별 오늘의 뉴스</b>")
-    for name, row in news["news"].items():
-        price = by_name.get(name, {})
-        lines += ["", f"<b>▪ {esc(name)} {move(price)}</b>"]
-        if not row["stories"]:
-            lines.append("  오늘자 기사 없음")
-            continue
-        for story in row["stories"]:
-            verdict = judged.get(normalize(story["title"]))
-            stance = f"[{verdict['stance']}] " if verdict else "[판단보류] "
-            lines.append(f"· {stance}{esc(story['title'])}")
-            if verdict:
-                lines.append(f"  {esc(verdict.get('summary', ''))}")
-                lines.append(f"  → {esc(verdict.get('impact', ''))}")
-    lines += ["", "<i>RSI(14) 와일더 방식 · 볼린저밴드 20일·2σ. "
-              "실시간 가격이 아니며 투자 자문이 아닙니다.</i>"]
+    counts = news.get("counts", {})
+    lines.append(f"<i>관심 종목 {sum(1 for r in every if r.get('group') == 'watch')}개, "
+                 f"오늘 뉴스 {counts.get('기사', 0)}건, 추천 종목은 웹페이지에 있습니다.</i>")
     if link:
-        # 메시지가 여러 건으로 쪼개지므로 맨 아래에도 링크를 둔다.
-        lines += ["", f'🔗 <a href="{esc(link)}">브리핑 전문 웹페이지 열기</a>']
+        lines.append(f'🔗 <a href="{esc(link)}">브리핑 전문 열기</a>')
     return lines
 
 
