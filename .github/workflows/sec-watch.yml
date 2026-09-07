@@ -1,0 +1,48 @@
+name: SEC 공시 감시
+
+# 미국 공시 접수 시간대에 30분마다 확인한다. UTC 기준이라 서머타임에 따라
+# 현지 시각이 한 시간 움직이지만, 아래 구간이면 두 계절 모두 접수 시간대를 덮는다.
+#   12:00~23:30 UTC = 현지 07/08시 ~ 18/19시 (평일)
+#   00:00~01:30 UTC = 현지 19/20시 ~ 20/21시 (전날 늦게 접수되는 건)
+# 모델을 쓰지 않으므로 토큰이 들지 않는다.
+on:
+  schedule:
+    - cron: "0,30 12-23 * * 1-5"
+    - cron: "0,30 0-1 * * 2-6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sec-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: Asia/Seoul
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 공시 확인 및 알림
+        run: python sec.py
+
+      - name: 확인 기록 저장
+        run: |
+          git config user.name "gahyung_bot"
+          git config user.email "78574719+dlrkdmsdkdld@users.noreply.github.com"
+          git add seen.json
+          git diff --staged --quiet && echo "변경 없음" && exit 0
+          git commit -m "공시 확인 기록 $(date +%Y-%m-%d\ %H:%M)"
+          # 브리핑 워크플로와 동시에 밀릴 수 있어 한 번 다시 시도한다.
+          git push || (git pull --rebase && git push)
