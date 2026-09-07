@@ -3,12 +3,11 @@
 환경변수
   TELEGRAM_BOT_TOKEN  BotFather에서 받은 봇 토큰 (필수). .env 파일에 적어둬도 된다.
   TELEGRAM_CHAT_ID    받을 사람의 chat id (필수). --whoami로 확인할 수 있다.
-  SEND_HTML           "0"이면 briefing.html 첨부를 건너뛴다.
   BRIEF_URL           브리핑 웹페이지 주소. 첫 메시지 맨 위에 링크로 붙는다.
                       비워 두면 GitHub Actions의 저장소 정보로 Pages 주소를 유추한다.
 
-텔레그램 메시지는 4096자 제한이라 줄 단위로 잘라 여러 번 보내고,
-전문을 한 번에 보려면 briefing.html을 파일로 함께 보낸다.
+텔레그램 메시지는 4096자 제한이라 줄 단위로 잘라 여러 번 보낸다.
+전문은 웹페이지 링크로 대신한다. HTML 파일을 첨부해도 텔레그램에서 제대로 열리지 않는다.
 """
 import json
 import os
@@ -16,7 +15,6 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-import uuid
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -62,24 +60,6 @@ def call(method, payload, token):
     request = urllib.request.Request(API.format(token=token, method=method), data=data,
                                      headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(request, timeout=30) as body:
-        return json.load(body)
-
-
-def send_document(path, caption, token, chat_id):
-    """multipart/form-data를 손으로 만들어 파일을 올린다(외부 의존성 없이)."""
-    boundary = uuid.uuid4().hex
-    parts = []
-    for key, value in (("chat_id", chat_id), ("caption", caption)):
-        parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{key}"\r\n\r\n'
-                     f"{value}\r\n".encode())
-    parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="document"; '
-                 f'filename="{path.name}"\r\nContent-Type: text/html\r\n\r\n'.encode())
-    parts.append(path.read_bytes() + b"\r\n")
-    parts.append(f"--{boundary}--\r\n".encode())
-    request = urllib.request.Request(
-        API.format(token=token, method="sendDocument"), data=b"".join(parts),
-        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
-    with urllib.request.urlopen(request, timeout=60) as body:
         return json.load(body)
 
 
@@ -244,14 +224,7 @@ def main():
                                  disable_web_page_preview=True), token)
         sent += 1
 
-    page = HERE / "briefing.html"
-    if page.exists() and os.getenv("SEND_HTML", "1") != "0":
-        try:
-            send_document(page, "브리핑 전문 (열어서 보세요)", token, chat_id)
-        except Exception as exc:
-            print(f"[경고] briefing.html 첨부 실패: {type(exc).__name__}: {exc}", file=sys.stderr)
-
-    print(f"텔레그램 전송 완료: 메시지 {sent}건 + 브리핑 파일")
+    print(f"텔레그램 전송 완료: 메시지 {sent}건")
     return 0
 
 
