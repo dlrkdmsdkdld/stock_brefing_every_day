@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T08:04:25+09:00",
+  "fetched_at": "2026-09-07T09:21:06+09:00",
   "today_kst": "2026-09-07",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
@@ -15,8 +15,8 @@
   "counts": {
     "종목": 15,
     "기사": 10,
-    "교차확인": 4,
-    "본문확보": 8,
+    "교차확인": 5,
+    "본문확보": 6,
     "하단이탈": 2
   },
   "errors": [],
@@ -25,29 +25,29 @@
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 44,
+      "today_count": 76,
       "stories": [
         {
-          "title": "SK하이닉스, 최첨단 D램 비중 확 늘린다… 내년 초 1c가 주력 공정",
-          "published_kst": "2026-09-07T06:01+09:00",
+          "title": "\"HBM 가격 상승, 내년 실적도 견조\" SK하이닉스 목표가 230만↑-DB",
+          "published_kst": "2026-09-07T08:52+09:00",
           "relevance": "direct",
           "sources": {
             "네이버 금융": {
-              "publisher": "조선비즈",
-              "url": "https://n.news.naver.com/mnews/article/366/0001190669",
-              "published_kst": "2026-09-07T06:01+09:00"
+              "publisher": "머니투데이",
+              "url": "https://n.news.naver.com/mnews/article/008/0005410134",
+              "published_kst": "2026-09-07T08:52+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "Chosunbiz",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR0M2cTBrMTN1MWR3cEJlQ3loREhKTjd1S2w4ZkQzSjd3aVduM09rUTNiNXVnVkF0NmNYTDU0ZTFfNUNPMEpWRHZVNkRsOGZtb0poLUVENG9KRzB1QzhGbDhiS3lmUHN0aVNvbzZXM1NXdWI2al95clRzS3RhMWtLZDFn0gGWAUFVX3lxTFBuZFphbnpONFZRV0kzcHF0WWlrQU4tQ0QyTzJMM192MVZjTGZyY1pCZ1hZQnRLY3Zyc0VoWGpjX2FaamZRN0FraW9yVmU1eHBCc3ppWVM3Ukt0M0FUb0NMSk1jai1DUzZ5al9YUGRDOW1MeHBhYjZWN1ppT0tRZmFObjVuRVBBNTloblIzNndBc0xJdktxQQ?oc=5",
-              "published_kst": "2026-09-07T06:02+09:00"
+              "publisher": "머니투데이",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tWWpLbWtoaE15eDBJSVNPVU02TDVzOExBbzRmTkp2VWRZNlVWbUd3ZGNZTmNCczdKcG95TGlkc3NHaWxxcF9CX09yU3QtOTdFYVFFYXZnSkdjc0pYWGlQZGtNY2loUGVDci0tUkNmVnJkdkVCX0HSAXtBVV95cUxQdGZTeUk1cFl1cXRfZVFtSEFzdTBEdVJuNWJKUXp4MlZac0J4aTdLSjBLY3dJRTJKSWRKb3lGVjlrdEt0LWhsdmctZ08wMUtBV3FIcmhiQUdpS29BT2gwRjI4Mm0wUGVRTUNCSjZxOFp3T09xR2NyZV9DY1k?oc=5",
+              "published_kst": "2026-09-07T08:52+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 9.5,
-          "body": "10나노 6세대 D램 공정 전환 가속… 차세대 HBM 겨냥\n“내년 1c D램 비중이 1b 역전”\n\n SK하이닉스 반도체 공장 내부./SK하이닉스 제공 \n SK하이닉스가 10나노급 6세대(1c) D램 생산 비중을 빠르게 확대하고 있다. 차세대 고대역폭메모리(HBM4E)부터 1c D램이 HBM을 쌓아 올리는 핵심 칩으로 적용되는 만큼 공정 전환에 속도를 내는 모습이다. 서버·인공지능(AI)향 고부가 메모리 수요가 늘어나는 가운데 삼성전자·마이크론과의 미세공정 전환 경쟁도 한층 치열해지는 양상이다.\n\n “연내 1c 공정 비중 34% 이상 전망”\n\n 7일 업계에 따르면 SK하이닉스의 1c D램 비중은 올해 1분기 10% 안팎을 오르내리는 수준에서 2분기 13%대로 확대됐다. 올 3분기에는 24%대, 4분기에는 34%대까지 늘어날 것으로 전망된다. 내년 1분기에는 1c 비중이 35%대로 올라서며 1b(33%대)를 처음 추월해 주력 공정이 될 것으로 관측된다.\n\n1b(10나노급 5세대) D램 비중은 올 2분기 43%대를 정점으로 하락 전환하는 것으로 나타났다. 1c로의 생산 전환이 본격화하면서 구세대 공정 비중이 순차적으로 축소되는 흐름이다. 업계 추정치를 보면 올 2분기 말 기준 삼성전자의 1c 비중은 16%대, 마이크론은 19%대로 SK하이닉스(13%대)보다 다소 앞선 것으로 파악된다. 다만 SK하이닉스가 올 하반기 들어 전환 속도를 끌어올리며 4분기(34%대) 기준으로는 삼성전자(31%대)를 앞지를 것으로 예상된다.\n\nSK하이닉스는 지난달 2분기 실적 컨퍼런스콜에서 10나노급 6세대(1c) 공정을 적용한 D램 공급이 2분기 들어 본격화됐다고 밝힌 바 있다. SK하이닉스는 올 하반기 HBM4(6세대 HBM) 물량 확대와 함께 1c 기반 범용 D램 출하가 늘면서 비트그로스(생산량 증가율)가 올",
+          "importance": 11.5,
+          "body": "지난 8월26일 경기 수원시 수원컨벤션센터에서 열린 '2026 차세대 반도체 패키징 산업전'에 SK 하이닉스의 HBM4 제품이 전시돼 있다. /사진=뉴시스 DB증권이 7일 SK하이닉스에 대해 투자의견 매수를 유지하고 목표주가는 기존 200만원에서 230만원으로 올렸다. HBM(고대역폭메모리) 가격 상승으로 내년 견조한 실적을 나타낼 거란 분석이다.\n\n서승연 DB증권 연구원은 \"목표주가를 230만원으로 상향한다\"며 \"올해 3분기부터 본격적으로 HBM4(6세대 고대역폭메모리) 출하가 시작되고 내년 HBM4 판가 상승률이 전년대비 약 70%로 예상돼 견조한 실적 개선세가 지속될 전망\"이라고 말했다.\n\n이어 \"최근 주가는 경쟁사 대비 제한적인 HBM4 가격 상승률 우려와 AI(인공지능) CAPEX(자본지출) 지속 가능성 회의론, 실적 추정치 하향 조정 등으로 부진했다\"며 \"주가 반등은 AI 수요 강세 속 HBM 가격 상승에 따른 견조한 2027년 실적이 입증되며 시현될 것\"이라고 했다.\n\n올해 3분기 실적은 매출과 영업이익이 각각 98조2000억원, 76조5000억원으로 시장 예상치를 소폭 밑돌 것으로 예측된다. 매출은 전년대비 301%, 영업이익은 572% 증가한 규모다. 이는 견조한 서버 수요와 제한적인 공급에 따른 메모리 가격 상승에도 불구하고 비우호적인 환율 영향 때문으로 분석된다.\n\n빅테크 간 경쟁에 따라 AI 인프라 투자 확대 기조는 지속되고 있다. SK하이닉스는 주요 고객들과 중장기 수요·LTA(장기공급계약)를 협의 중이다. AI 강세로 메모리 수요가 급증하는 반면 업계의 유의미한 공급 확대는 내년에도 발현되기 어려울 것으로 보인다. 서버 위주 수요 강세가 지속되며 SK하이닉스의 올해와 내년 영업이익은 각각 전년대비 448% 증가한 258조7000억원, 52% 늘어난 393조원으",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -56,34 +56,38 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 63,
+      "today_count": 83,
       "stories": [
         {
-          "title": "KB증권 \"내년 메모리 사상 초유의 공급 부족 온다…삼성전자·SK하이닉스 극단적 저평가\"",
-          "published_kst": "2026-09-07T07:42+09:00",
+          "title": "‘아스트라 효과’에 반도체株 불기둥…삼성전자·SK하이닉스 4% 안팎↑[마켓시그널]",
+          "published_kst": "2026-09-07T08:40+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "이투데이",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CbXU3YUNpdnRZWWR4RnBuekxqZGNXeVNsaUw3S0ttOUNvdEo3S1N6NXEyaTZVcGJQcVB3djBWSmtSSVRNUGM5ODVHSzMxZzRsWFdmRA?oc=5",
-              "published_kst": "2026-09-07T07:42+09:00"
+              "publisher": "서울경제",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aalVSS01fNk5USVFITFJFbmlac0hwc1VpUU1JaVFMSUVUSWlOdk5acDFVX21GZjBMUHdqVnNTRnROMVJYNnJrbDM4SHNicDVac0E?oc=5",
+              "published_kst": "2026-09-07T08:40+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "서울경제",
+              "url": "https://n.news.naver.com/mnews/article/011/0004659147",
+              "published_kst": "2026-09-07T08:41+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "(출처=KB증권)\n\n 내년 메모리 반도체 시장이 역사상 가장 타이트한 공급 환경을 맞이하며 사상 초유의 공급 부족에 직면할 것이라는 분석이 나왔다. 이에 따라 최근 과도한 주가 조정을 거치며 극단적 저평가 국면에 진입한 삼성전자와 SK하이닉스에 대해 강력한 재평가가 이뤄질 것이라는 전망이다.\n\n 7일 KB증권은 \"최근 글로벌 하이퍼스케일러들의 내년 AI 인프라 투자 규모가 전년 대비 60% 급증한 1조3000억달러로 급격히 상향 조정되고 있다\"고 밝혔다. 클라우드 AI 서비스, 토큰 과금, 에이전틱 AI 및 모델 호스팅 등 AI의 직접적 신규 매출처가 가시화되면서 수익 모델이 구체화 단계에 진입했다는 평가다.\n KB증권에 따르면 전체 AI 인프라 투자 중 메모리 반도체가 차지하는 비중은 2025년 14%에서 2026년 40%, 2027년 57%로 2년 만에 4배 이상 확대될 것으로 추산됐다. 트렌드포스는 2027년 메모리 비중이 최대 68%까지 치솟을 것으로 내다봤다. 이는 차세대 고대역폭메모리인 HBM4의 탑재 용량 증가뿐 아니라 CPU 서버용 디램과 추론용 기업용 SSD(eSSD) 수요가 동시에 폭증하고 있기 때문이다.\n 김동원 KB증권 연구원은 \"현재 3분기 기준 삼성전자와 SK하이닉스의 메모리 재고는 10일 미만까지 떨어진 상태\"라며 \"단순한 수요 회복을 넘어 판매 가능한 물량 자체가 고갈되는 초유의 사태가 발생할 수 있다\"고 진단했다.\n 특히, 공급 부족을 심화시키는 핵심 요인으로 HBM4 전환에 따른 범용 디램 생산 능력 잠식'이 지목됐다. 범용 D램 대비 웨이퍼 생산 능력을 3배 사용하는 HBM4의 양산이 본격화되면, 제한된 웨이퍼 생산 라인 특성상 전체 비트 공급 증가율이 크게 제약될 수밖에 없다는 설명이다. 이로 인해 디램과 낸드의 비트 수요는 공급을 10%포인트 이상",
-          "body_source": "원문 본문 · www.etoday.co.kr",
-          "article_url": "https://www.etoday.co.kr/news/view/2622358"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "아스트라 발표에 美 반도체주 급등 훈풍\n삼성전자 3.72%·SK하이닉스 4.43%↑\nAI 기대 재점화…“매도 압력 소진 가능성” \n\n 4일 서울 중구 하나은행 딜링룸 현황판에 코스피와 원/달러 환율 등이 표시되고 있다. 이날 코스피는 전장보다 107.73포인트(1.64%) 오른 6687.21에, 코스닥지수는 전장보다 23.29포인트(2.95%) 상승한 813.50에 거래를 마쳤다. 연합뉴스 오픈AI의 차세대 인공지능(AI) 모델 ‘GPT-6 아스트라’ 공개 이후 미국 반도체주가 급등한 가운데 국내 반도체주도 강세를 보이고 있다. 삼성전자와 SK하이닉스가 넥스트레이드 프리마켓에서 나란히 4% 안팎 뛰며 반도체주를 중심으로 투자심리가 살아나는 모습이다. \n\n7일 넥스트레이드에 따르면 이날 오전 프리마켓에서 삼성전자(005930) 는 전 거래일 대비 3.72% 오른 26만 5000원에 거래되고 있다. SK하이닉스(000660) 는 4.43% 상승한 172만 원을 기록 중이다. 넥스트레이드 프리마켓도 2.51% 상승하고 있다.\n\n국내 반도체주의 강세는 지난주 말 미국 증시에서 나타난 반도체주 랠리의 영향을 받은 것으로 풀이된다.\n\n4일(현지시간) 필라델피아반도체지수는 3.38% 급등했다. 이날 다우존스30산업평균지수가 0.51%, 스탠더드앤드푸어스(S&P)500지수가 0.38%, 나스닥지수가 0.29% 각각 하락한 것과 대조적인 흐름이다.\n\n특히 메모리 반도체주의 상승세가 두드러졌다. SK하이닉스 미국주식예탁증서(ADR)가 8.14% 뛰었고 샌디스크(11.90%), 시게이트(6.34%), 마이크론(6.10%), 웨스턴디지털(5.86%) 등이 일제히 급등했다. AMD와 인텔도 각각 4.69%, 4.51% 상승했다.\n\n반도체주 랠리에 불을 붙인 것은 오픈AI가 3일 공개한 차세대 AI 모델 ‘G",
+          "body_source": "네이버 뉴스 본문"
         }
       ]
     },
     "HD현대중공업": {
       "ticker": "329180",
       "market": "국내",
-      "candidates": 89,
-      "today_count": 7,
+      "candidates": 90,
+      "today_count": 9,
       "stories": [
         {
           "title": "HD현대重이 만든 세종대왕함, 한화오션이 정비 맡은 까닭은",
@@ -113,32 +117,31 @@
     "델": {
       "ticker": "DELL",
       "market": "해외",
-      "candidates": 63,
-      "today_count": 7,
+      "candidates": 65,
+      "today_count": 6,
       "stories": [
         {
-          "title": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED)",
-          "published_kst": "2026-09-07T00:45+09:00",
+          "title": "Dell Stock Exploded Over 300% — Its 150% EPS Growth Could Send It Even Higher",
+          "published_kst": "2026-09-07T02:30+09:00",
           "relevance": "direct",
           "sources": {
             "Yahoo Finance": {
-              "publisher": "Benzinga",
-              "url": "https://finance.yahoo.com/technology/ai/articles/dell-coo-jeff-clarke-reveals-154506925.html",
-              "published_kst": "2026-09-07T00:45+09:00"
+              "publisher": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-exploded-over-300-173002921.html",
+              "published_kst": "2026-09-07T02:30+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZGM3ZWFzS0FJZTdFRFJxVmIxZ0pSZnFFT3hiMGRqSjJzeC01N2lFc1dPQ0w1VHFLMG8tbTNHaC1Sa1F0RFhGb3JBUnVHSEd2N1FteG1MUHRQS0ZPVnhfT1FhN1BBLVFIdk1jbmc3dnFfR2FZWkRhR0FTVmxvWk5zZTY0TWs4RndINzA2aVBRcVhVeGVwQjlR?oc=5",
-              "published_kst": "2026-09-07T00:45+09:00"
+              "publisher": "Barchart.com",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU2FpZzdBZlhXbE91NmJ6a3RTLWZrNDhfNUFpTnNOSnBQUlhHMW9fRDFORkstd0tMVGgxVm1fTWVXNGJTT0pYRlFBVlV1ZkJ1Zm1MWE9zaHhVSnRZWUNWOVJ0MW41OGdTOFhMTjVhcnFXQ3ZTUEJvcE9uMFlXOEVMeF90UC1QWXBRRWVEd0p4R09hbjZTVHltSC1lZGdUaHNhNVU4QUl0WlVJbXhSclNCQTRnM2c3UnpU?oc=5",
+              "published_kst": "2026-09-07T02:30+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 9.5,
-          "body": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED) \n\n Radhika Anilkumar Nadig \n Sun, September 6, 2026 at 8:45 AM PDT 4 min read \n\n DELL \n\n Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. \n Editor's Note: This story has been updated to correct Jeff Clarke's title. He is Dell Technologies' chief operating officer. \n Dell Technologies Inc. posted a blowout second quarter fueled by soaring demand for artificial intelligence infrastructure, and Chief Operating Officer Jeff Clarke said it's been a nonstop hunt for parts across nearly every part of the supply chain \n\n \"Welcome to the Life of a Supply Chain Person at Dell\" Asked on the company's second-quarter earnings call about the state of supply constraints, Clarke gave a long list of shortages spanning nearl",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/technology/ai/articles/dell-coo-jeff-clarke-reveals-154506925.html"
+          "body": "Dell Stock Exploded Over 300% — Its 150% EPS Growth Could Send It Even Higher \n\n Amit Singh \n Sun, September 6, 2026 at 11:30 AM MDT 5 min read \n\n DELL \n\n Dell (DELL) is among the top-performing S&P 500 ($SPX) stocks over the past year, with its shares rising 310%. The massive rally reflects AI-related tailwinds and rising enterprise IT spending, both of which are supporting stronger demand for Dell's products and translating into robust revenue and earnings growth. \n\n Despite the stock's dramatic ascent, Dell has further room to run. Management's latest forecast calls for adjusted earnings per share (EPS) to rise by 150% in fiscal 2027. With exceptionally strong demand, Dell could surpass its internal guidance, suggesting the stock has additional upside despite its enormous run-up. \n More News from Barchart Why It's Time to Load Up on SoFi Stock \n A $1.4 Billion Reason to Buy GameStop S",
+          "body_source": "원문 본문 · Yahoo 링크"
         }
       ]
     },
@@ -152,7 +155,7 @@
     "퍼스트솔라": {
       "ticker": "FSLR",
       "market": "해외",
-      "candidates": 53,
+      "candidates": 52,
       "today_count": 4,
       "stories": [
         {
@@ -170,9 +173,7 @@
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "First Solar (FSLR) Slides Before Earnings, Does The Pullback Signal Value? \n September 06, 2026 \n Simply Wall St \n Recent Stock Pressure Ahead of Earnings First Solar (FSLR) has declined more than 15% over the past month, underperforming the broader market, as investors look ahead to an earnings report that is expected to show EPS growth alongside softer revenue.\n At a share price of $204.45, First Solar is now well below its recent highs, with the 30 day share price return down 18.24% and the year to date share price return down 25.48%, even though the 5 year total shareholder return of 105.66% still reflects stronger long term performance. Recent weakness appears linked to investors reassessing growth expectations and risk ahead of earnings, rather than to any single new development.\n Compare First Solar's recent pullback with other potential opportunities and scan our curated 47 high ",
-          "body_source": "원문 본문 · simplywall.st",
-          "article_url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-fslr/first-solar/news/first-solar-fslr-slides-before-earnings-does-the-pullback-si/amp"
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
@@ -186,14 +187,14 @@
     "비스트라 에너지": {
       "ticker": "VST",
       "market": "해외",
-      "candidates": 44,
+      "candidates": 43,
       "today_count": 0,
       "stories": []
     },
     "이오스 에너지": {
       "ticker": "EOSE",
       "market": "해외",
-      "candidates": 45,
+      "candidates": 46,
       "today_count": 3,
       "stories": [
         {
@@ -211,9 +212,7 @@
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Capitalize on the AI infrastructure supercycle with our selection of the 55 best 'picks and shovels' of the AI gold rush converting record-breaking demand into massive cash flow.\nTo own Eos Energy Enterprises, you need to believe its zinc based long duration batteries can become a meaningful part of grid and data center infrastructure, and that the company can fund and execute that scale up despite ongoing losses and dilution risk. The Google backed PJM project strengthens the long duration storage narrative, but it does not remove the near term overhang around cash burn, equity issuance, and execution at the Thorn Hill manufacturing facility.\nAmong the recent announcements, the US$184.34 million shelf registration stands out next to the Google project. It highlights how dependent Eos still is on external capital at a time when investors are watching cash runway and dilution closely. Tha",
-          "body_source": "원문 본문 · simplywall.st",
-          "article_url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-eose/eos-energy-enterprises/news/eos-energy-eose-is-up-190-after-google-backed-long-duration"
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
@@ -279,24 +278,24 @@
     "버티브 홀딩스": {
       "ticker": "VRT",
       "market": "해외",
-      "candidates": 46,
-      "today_count": 3,
+      "candidates": 45,
+      "today_count": 2,
       "stories": [
         {
-          "title": "Trump’s Venezuela Oil Deal",
-          "published_kst": "2026-09-07T01:03+09:00",
+          "title": "Russia: Trump envoys' motorcade leaves Kremlin after talks",
+          "published_kst": "2026-09-07T06:57+09:00",
           "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "WSJ",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMVVOTGFaQzg3NmhSaWQwejA1bm1GSGtxdFBBUGRMNTM2anRCcElSVHFDUW5vTkxMdGhtYjhieXZLUTVLTmVqaUlpbVpvcTh0aWRndHplNVFLZllmUVhvQ1FVbzd5eUdSXzNqZXpqelVjT01SWnM0OUJLRC1pQnNqNVNCZEhjSmVpNXZxTl83ZGkxdk1faV9KNVVzaUZWaTNRNl9KdkV6SFlnOFVOU2c0bEtNcnVvV05qQ3FYeHZWM2pjQWp0QjNMWV9PcDg?oc=5",
-              "published_kst": "2026-09-07T01:03+09:00"
+              "publisher": "Barron's",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWEVySEtJTngwd1lvRDRZN3lvTWFKZUUyUUItcFk5M2EwSDZDZHA3ZC04Z2lxaG5OYWpCUm9Ubk90WkpySmFCcnppdGxFNHZEYW5ELWtYd0pZWDh4c1VHR2o3bnJzMXJONDNVOVVpWllsUS1wVEZMX0RGNGlxS1YwaUFKUnFvNTBiZEJCNDlQRVFTenlrWlBJZjN1dEg2WWltTFBzenJKWG10Ykk3bGtFMUpFVzNDYWlHNnJhUEJlRTE?oc=5",
+              "published_kst": "2026-09-07T06:57+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 2.0,
+          "importance": 0.0,
           "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
@@ -307,7 +306,7 @@
       "ticker": "MCD",
       "market": "해외",
       "candidates": 70,
-      "today_count": 14,
+      "today_count": 15,
       "stories": [
         {
           "title": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors",
@@ -320,7 +319,7 @@
               "published_kst": "2026-09-07T03:11+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
+              "publisher": "finance.yahoo.com",
               "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbmNnTlRmZXVVc19FVmVscXdjcGlsNUJROUNGQ1JBUzMzZ0JEbEdYQUxUdElWUWZaak9GNUtHLWJRN3lTR0VkcGxFamVmRTdLbmhvWVhTUTlTOEM1bjByWjFoZ1JVQzd0TUpMVTN0ck5BZlVZTVYzOFhuWmZVSjBCNjVUS1BSYUhuNWdoN2pGdEF2YVBnSGF1MnVKX3hGQQ?oc=5",
               "published_kst": "2026-09-07T03:11+09:00"
             }
@@ -329,7 +328,7 @@
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 11.5,
-          "body": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors \n\n Bailey Pemberton \n Sun, September 6, 2026 at 11:11 AM PDT 3 min read \n\n MCD \n\n CMG \n\n McDonald's (NYSE:MCD) previously owned about 90% of Chipotle before exiting the investment in 2006. \n The company sold its stake as part of a refocus on its core fast food operations, leaving Chipotle to list and expand independently. \n A recent look back highlights how much long-term market value McDonald's did not capture by selling its Chipotle holding. \n Investors are using this episode to compare McDonald's approach with Chipotle's different growth and brand strategies over time. \n McDonald's is one example of how past portfolio decisions can shape a company's path. It can be useful to compare this story with other under-the-radar quality stocks in similar themes through our screener containing 17 high quality undiscovered ",
+          "body": "McDonald's (MCD) Exit From A 90% Restaurant Stake Still Haunts Investors \n\n Bailey Pemberton \n Sun, September 6, 2026 at 12:11 PM MDT 3 min read \n\n MCD \n\n CMG \n\n McDonald's (NYSE:MCD) previously owned about 90% of Chipotle before exiting the investment in 2006. \n The company sold its stake as part of a refocus on its core fast food operations, leaving Chipotle to list and expand independently. \n A recent look back highlights how much long-term market value McDonald's did not capture by selling its Chipotle holding. \n Investors are using this episode to compare McDonald's approach with Chipotle's different growth and brand strategies over time. \n McDonald's is one example of how past portfolio decisions can shape a company's path. It can be useful to compare this story with other under-the-radar quality stocks in similar themes through our screener containing 17 high quality undiscovered ",
           "body_source": "원문 본문 · finance.yahoo.com",
           "article_url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-exit-90-restaurant-181105022.html"
         }
