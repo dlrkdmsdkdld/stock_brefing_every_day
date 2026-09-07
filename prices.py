@@ -22,7 +22,9 @@ AGENT = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
 # 정규장 마감 + 종가 확정 여유. 이 시각을 넘겼으면 그날 일봉을 확정된 종가로 쓴다.
 SESSION_CLOSE = {"Asia/Seoul": time(15, 40), "America/New_York": time(16, 15)}
 # RSI(14)와 볼린저밴드(20)를 안정적으로 계산하려면 거래일이 넉넉해야 한다.
-HISTORY_DAYS = 150
+# 배당은 최근 1년치를 봐야 연환산 수익률이 나오므로 시세를 400일치 받는다.
+# 지표는 앞쪽 100거래일만 쓰므로 계산에는 영향이 없고, 요청 수도 그대로다.
+HISTORY_DAYS = 400
 
 
 def cutoff_date(zone):
@@ -59,8 +61,37 @@ def latest(frame, column, cutoff):
 def yahoo_close(symbol, start, cutoff):
     security = yf.Ticker(symbol)
     frame = security.history(start=start.isoformat(), end=cutoff.isoformat(),
-                             auto_adjust=False, actions=False, timeout=20)
+                             auto_adjust=False, actions=True, timeout=20)
     return security.get_history_metadata(), latest(frame, "Close", cutoff), frame
+
+
+def dividend_info(frame, cutoff, price):
+    """최근 1년 배당과 연환산 수익률. 시세를 받을 때 함께 온 값이라 추가 요청이 없다."""
+    if "Dividends" not in frame or price <= 0:
+        return {}
+    paid = frame.loc[[index.date() < cutoff for index in frame.index], "Dividends"]
+    paid = paid[paid > 0]
+    if paid.empty:
+        return {}
+    year = cutoff - timedelta(days=365)
+    recent = paid.loc[[index.date() >= year for index in paid.index]]
+    total = float(recent.sum())
+    info = dict(dividend_last=round(float(paid.iloc[-1]), 6),
+                dividend_last_date=paid.index[-1].date().isoformat(),
+                dividend_count_1y=int(len(recent)))
+    if total > 0:
+        info.update(dividend_1y=round(total, 6),
+                    dividend_yield=round(total / price * 100, 2))
+    return info
+
+
+def earnings_date(symbol):
+    """다음 실적 발표 예정일. 발표 전후로 변동성이 커져 미리 알아 두면 쓸모가 있다."""
+    calendar = yf.Ticker(symbol).calendar
+    dates = calendar.get("Earnings Date") if isinstance(calendar, dict) else None
+    if not dates:
+        raise ValueError("실적 일정 없음")
+    return dates[0].isoformat()
 
 
 def series(frame, column, cutoff):
@@ -175,12 +206,23 @@ def nxt_close(ticker, previous_close):
 
 
 def check(result, key, date, price, other):
-    """교차 출처 결과를 기록한다. 실패나 불일치를 숨기지 않는다."""
+    """교차 출처 결과를 기록한다. 실패나 불일치를 숨기지 않는다.
+
+    가격이 어긋난 것과 아직 갱신이 안 된 것은 성격이 다르다. 장 마감 직후에는
+    출처마다 반영 시점이 달라 하루 늦은 값을 주는 곳이 있는데, 이걸 가격 오류로
+    보고하면 진짜 오류가 묻힌다. 그래서 stale로 따로 표시한다.
+    """
     try:
         other_name, other_date, other_price = other()
         result[f"{key}_price"] = other_price
         result[f"{key}_name"] = other_name
-        result[key] = "match" if other_date == date and abs(price - other_price) < 0.5 else "mismatch"
+        result[f"{key}_date"] = other_date.isoformat()
+        if other_date != date:
+            result[key] = "stale"
+        elif abs(price - other_price) < 0.5:
+            result[key] = "match"
+        else:
+            result[key] = "mismatch"
     except Exception as exc:
         result[key] = "unavailable"
         result[f"{key}_error"] = f"{type(exc).__name__}: {exc}"
@@ -210,11 +252,23 @@ def fetch(item):
                 result["market_cap"], result["market_cap_source"] = korean_market_cap(ticker)
             except Exception as exc:
                 result["market_cap_error"] = f"{type(exc).__name__}: {exc}"
-            # 국내 시총은 네이버를 쓰지만 52주·거래량은 Yahoo에서 받는다.
+            # 국내 시총은 네이버를 쓰지만 52주·거래량·배당·실적일은 Yahoo에서 받는다.
+            symbol = ticker + ".KS"
             try:
-                result.update(quote_extras(ticker + ".KS", price, want_cap="market_cap" not in result))
+                result.update(quote_extras(symbol, price, want_cap="market_cap" not in result))
             except Exception as exc:
                 result["extras_error"] = f"{type(exc).__name__}: {exc}"
+            try:
+                other = yf.Ticker(symbol).history(
+                    start=start.isoformat(), end=cutoff.isoformat(),
+                    auto_adjust=False, actions=True, timeout=20)
+                result.update(dividend_info(other, cutoff, price))
+            except Exception as exc:
+                result["dividend_error"] = f"{type(exc).__name__}: {exc}"
+            try:
+                result["earnings_date"] = earnings_date(symbol)
+            except Exception as exc:
+                result["earnings_error"] = f"{type(exc).__name__}: {exc}"
             check(result, "yahoo_check", date, price,
                   lambda: (None,) + yahoo_close(ticker + ".KS", start, cutoff)[1][:2])
             check(result, "naver_check", date, price, lambda: naver_close(ticker))
@@ -227,6 +281,11 @@ def fetch(item):
         else:
             metadata, (date, price, previous), frame = yahoo_close(ticker, start, cutoff)
             result.update(indicators.compute(series(frame, "Close", cutoff)))
+            result.update(dividend_info(frame, cutoff, price))
+            try:
+                result["earnings_date"] = earnings_date(ticker)
+            except Exception as exc:
+                result["earnings_error"] = f"{type(exc).__name__}: {exc}"
             if metadata.get("currency") != currency:
                 raise ValueError(f"통화 확인 실패: {metadata.get('currency')}")
             result["provider_name"] = metadata.get("longName") or metadata.get("shortName")
@@ -243,6 +302,7 @@ def fetch(item):
             result["change_pct"] = round((price - previous) / previous * 100, 2)
         if (today - date).days > 7:
             result["status"] = "stale"
+        # 값이 실제로 어긋날 때만 문제로 본다. 갱신이 늦은 출처는 상태를 내리지 않는다.
         if "mismatch" in (result.get("yahoo_check"), result.get("naver_check")):
             result["status"] = "mismatch"
     except Exception as exc:

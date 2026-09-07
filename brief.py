@@ -8,13 +8,14 @@ import json
 import re
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 KST = ZoneInfo("Asia/Seoul")
 HERE = Path(__file__).parent
-CHECK_LABEL = {"match": "일치", "mismatch": "불일치", "unavailable": "확인불가"}
+CHECK_LABEL = {"match": "일치", "mismatch": "불일치", "stale": "갱신지연",
+               "unavailable": "확인불가"}
 STANCE_TONE = {"호재": "good", "약한 호재": "good", "중립": "neutral",
                "약한 악재": "bad", "악재": "bad"}
 # 밴드 상단 이탈은 과열(빨강), 하단 이탈은 과매도(파랑) 쪽으로 읽는다.
@@ -160,6 +161,8 @@ def verification(row):
         return f"KRX·{len(checks) + 1}사 일치"
     if any(check == "mismatch" for check in checks):
         return "불일치"
+    if any(check == "stale" for check in checks):
+        return "KRX · 일부 갱신지연"
     return "KRX · 일부 확인불가"
 
 
@@ -308,6 +311,71 @@ def pick_lines(pick):
               f"목록 밖 {len(counts.get('new', []))}개 후보 중에서 골랐습니다. "
               f"목록 밖 종목은 뉴스를 수집하지 않아 지표만으로 판단합니다._", ""]
     return lines
+
+
+CAL_DAYS = 45          # 달력에 담을 기간
+CAL_SOON = 7           # 이 안에 있으면 임박으로 표시
+
+
+def calendar_rows(prices):
+    """보유·관심 종목의 실적 발표 예정일을 가까운 순으로 모은다."""
+    today = datetime.now(KST).date()
+    limit = today + timedelta(days=CAL_DAYS)
+    rows = []
+    for row in prices["holdings"]:
+        date = row.get("earnings_date")
+        if not date:
+            continue
+        try:
+            when = datetime.fromisoformat(date).date()
+        except ValueError:
+            continue
+        if not (today <= when <= limit):
+            continue
+        rows.append(dict(row, when=when, days=(when - today).days))
+    rows.sort(key=lambda item: (item["when"], -(item.get("market_cap") or 0)))
+    return rows
+
+
+def calendar_lines(prices):
+    rows = calendar_rows(prices)
+    if not rows:
+        return []
+    soon = [row for row in rows if row["days"] <= CAL_SOON]
+    lines = ["## 실적 발표 달력", "",
+             f"앞으로 {CAL_DAYS}일 안에 {len(rows)}종목이 실적을 발표합니다."
+             + (f" 그중 {len(soon)}종목은 일주일 안입니다." if soon else ""), "",
+             "| 발표일 | D-day | 종목 | 구분 | 시가총액 | 배당수익률 |",
+             "| --- | ---: | --- | --- | ---: | ---: |"]
+    for row in rows:
+        group = "보유" if row.get("group", "holding") == "holding" else "관심"
+        yield_text = f"{row['dividend_yield']:.2f}%" if row.get("dividend_yield") else "-"
+        lines.append(f"| {row['when']} | D-{row['days']} | {row['name']} ({row['ticker']}) | "
+                     f"{group} | {cap_text(row)} | {yield_text} |")
+    return lines + [""]
+
+
+def dividend_lines(prices):
+    """배당을 주는 종목만 수익률 순으로. 배당 없는 종목은 뺀다."""
+    rows = [row for row in prices["holdings"] if row.get("dividend_yield")]
+    if not rows:
+        return []
+    rows.sort(key=lambda row: -row["dividend_yield"])
+    lines = ["## 배당", "",
+             f"배당을 주는 {len(rows)}종목입니다. 최근 1년 지급액을 종가로 나눈 연환산 수익률입니다.", "",
+             "| 종목 | 구분 | 수익률 | 연 지급 | 최근 지급 | 주당 |",
+             "| --- | --- | ---: | ---: | --- | ---: |"]
+    for row in rows[:20]:
+        group = "보유" if row.get("group", "holding") == "holding" else "관심"
+        unit = "₩" if row["currency"] == "KRW" else "$"
+        digits = 0 if row["currency"] == "KRW" else 3
+        lines.append(f"| {row['name']} ({row['ticker']}) | {group} | "
+                     f"{row['dividend_yield']:.2f}% | {row['dividend_count_1y']}회 | "
+                     f"{row.get('dividend_last_date', '-')} | "
+                     f"{unit}{row.get('dividend_last', 0):,.{digits}f} |")
+    if len(rows) > 20:
+        lines.append(f"\n_수익률 상위 20종목만 표시했습니다. 전체 {len(rows)}종목._")
+    return lines + [""]
 
 
 def lower_breaks(prices):
@@ -668,6 +736,24 @@ section{display:flex; flex-direction:column}
   font-weight:500; text-align:right}
 
 /* 오늘의 주목 */
+.cal{display:flex; flex-direction:column; border-top:1px solid var(--line)}
+.cal-row{display:grid; grid-template-columns:76px minmax(0,1fr) 92px 92px; gap:12px;
+  align-items:center; padding:10px 8px; border-bottom:1px solid var(--line-soft)}
+.cal-row:nth-child(even){background:var(--zebra)}
+.cal-row.soon{background:var(--chip); border-left:3px solid var(--rule); padding-left:5px}
+.cal-day{display:flex; flex-direction:column; line-height:1.25}
+.cal-day b{font-family:"IBM Plex Mono",monospace; font-size:var(--t-compact); font-weight:500}
+.cal-row.soon .cal-day b{color:var(--rule)}
+.cal-day small{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); color:var(--muted)}
+.cal-name{font-weight:500; font-size:var(--t-base); line-height:1.3}
+.cal-name small{display:block; font-family:"IBM Plex Mono",monospace;
+  font-size:var(--t-micro); color:var(--muted); font-weight:400; margin-top:1px}
+.cal-cap,.cal-yield{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:var(--t-small); text-align:right; color:var(--muted)}
+@media (max-width:720px){
+  .cal-row{grid-template-columns:66px minmax(0,1fr) auto; gap:8px}
+  .cal-yield{grid-column:2 / -1; text-align:left; font-size:var(--t-micro)}
+}
 .spot{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px}
 .spot section{border:1px solid var(--line); border-radius:4px; background:var(--surface);
   padding:15px 17px; gap:9px; box-shadow:var(--shadow)}
@@ -956,6 +1042,38 @@ def html_pick(pick):
     return f'<div class="picks">{"".join(cards)}</div>' 
 
 
+def html_calendar(prices):
+    rows = calendar_rows(prices)
+    if not rows:
+        return '<p class="empty">앞으로 45일 안에 예정된 실적 발표가 없습니다.</p>'
+    items = "".join(
+        f'<div class="cal-row{" soon" if row["days"] <= CAL_SOON else ""}">'
+        f'<span class="cal-day"><b>D-{row["days"]}</b><small>{row["when"]:%m/%d}</small></span>'
+        f'<span class="cal-name">{esc(row["name"])}'
+        f'<small>{esc(row["ticker"])} · '
+        f'{"보유" if row.get("group", "holding") == "holding" else "관심"}</small></span>'
+        f'<span class="cal-cap">{cap_text(row)}</span>'
+        f'<span class="cal-yield">'
+        f'{f"배당 {row['dividend_yield']:.2f}%" if row.get("dividend_yield") else ""}</span>'
+        f'</div>' for row in rows)
+    return f'<div class="cal">{items}</div>'
+
+
+def html_dividend(prices):
+    rows = sorted([row for row in prices["holdings"] if row.get("dividend_yield")],
+                  key=lambda row: -row["dividend_yield"])
+    if not rows:
+        return ""
+    items = "".join(
+        f'<li><b>{esc(row["name"])}'
+        f'<span class="who">{"보유" if row.get("group", "holding") == "holding" else "관심"}'
+        f' · 연 {row["dividend_count_1y"]}회</span></b>'
+        f'<span class="val up">{row["dividend_yield"]:.2f}%</span></li>' for row in rows[:15])
+    return (f'<div class="spot"><section><h3>배당 수익률 상위</h3><ul>{items}</ul></section>'
+            f'</div><p class="upper-note">배당을 주는 종목은 {len(rows)}개입니다. '
+            f'최근 1년 지급액을 종가로 나눈 연환산 수익률이며, 상위 15개만 보여줍니다.</p>')
+
+
 def html_breach(prices):
     rows = lower_breaks(prices)
     if not rows:
@@ -1180,6 +1298,15 @@ def render_html(now, prices, news):
     {html_spotlight(prices)}
   </section>
 
+  <section><h2>실적 발표 달력</h2>
+    <p class="byline">보유·관심 종목 중 앞으로 45일 안에 실적을 발표하는 종목입니다. 일주일 안이면 강조합니다.</p>
+    {html_calendar(prices)}
+  </section>
+
+  <section><h2>배당</h2>
+    {html_dividend(prices)}
+  </section>
+
   <section id="alerts"><h2>오늘의 특이점</h2>
     <p class="byline">볼린저밴드(20, 2σ)를 벗어난 종목입니다. 하단을 이탈하면 관심 종목이라도 관련 뉴스를 찾아 함께 싣습니다.</p>
     {html_alerts(prices, news, judged)}
@@ -1303,6 +1430,8 @@ def main():
         lines += [f"### {sector_name} ({len(items)})", ""] + watch_table(items) + [""]
     lines += [""] + pick_lines(recommendation())
     lines += spotlight_lines(prices)
+    lines += calendar_lines(prices)
+    lines += dividend_lines(prices)
     lines += alert_section(prices, news, judged)
     lines += ["## 종목별 오늘의 뉴스", ""]
     if analyst:
