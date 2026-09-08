@@ -3,6 +3,7 @@
 briefing.md(문서)와 briefing.html(웹 페이지)을 같이 만든다.
 가격·뉴스 데이터가 없거나 오늘 것이 아니면 각 수집 스크립트를 먼저 실행한다.
 """
+import calendar as calendar_module
 import html as html_module
 import json
 import re
@@ -337,22 +338,72 @@ def calendar_rows(prices):
     return rows
 
 
+CAL_MONTHS = 2         # 달력에 그릴 개월 수
+CAL_CHIPS = 3          # 한 칸에 보여줄 종목 수
+
+
+def earnings_by_day(prices):
+    """실적 발표일을 날짜별로 묶는다. 시총이 큰 종목이 앞에 오게 한다."""
+    days = {}
+    for row in prices["holdings"]:
+        date = row.get("earnings_date")
+        if not date:
+            continue
+        try:
+            when = datetime.fromisoformat(date).date()
+        except ValueError:
+            continue
+        days.setdefault(when, []).append(row)
+    for items in days.values():
+        items.sort(key=lambda row: -(row.get("market_cap") or 0))
+    return days
+
+
+def month_span(today, count=CAL_MONTHS):
+    """오늘이 속한 달부터 count개월."""
+    months = []
+    year, month = today.year, today.month
+    for _ in range(count):
+        months.append((year, month))
+        month += 1
+        if month > 12:
+            year, month = year + 1, 1
+    return months
+
+
 def calendar_lines(prices):
-    rows = calendar_rows(prices)
-    if not rows:
+    days = earnings_by_day(prices)
+    if not days:
         return []
-    soon = [row for row in rows if row["days"] <= CAL_SOON]
+    today = datetime.now(KST).date()
     lines = ["## 실적 발표 달력", "",
-             f"앞으로 {CAL_DAYS}일 안에 {len(rows)}종목이 실적을 발표합니다."
-             + (f" 그중 {len(soon)}종목은 일주일 안입니다." if soon else ""), "",
-             "| 발표일 | D-day | 종목 | 구분 | 시가총액 | 배당수익률 |",
-             "| --- | ---: | --- | --- | ---: | ---: |"]
-    for row in rows:
-        group = "보유" if row.get("group", "holding") == "holding" else "관심"
-        yield_text = f"{row['dividend_yield']:.2f}%" if row.get("dividend_yield") else "-"
-        lines.append(f"| {row['when']} | D-{row['days']} | {row['name']} ({row['ticker']}) | "
-                     f"{group} | {cap_text(row)} | {yield_text} |")
-    return lines + [""]
+             "보유·관심 종목의 실적 발표 예정일입니다. `**날짜**`가 오늘입니다.", ""]
+    for year, month in month_span(today):
+        marked = {day: items for day, items in days.items()
+                  if day.year == year and day.month == month}
+        lines += [f"### {year}년 {month}월" + (f" · {len(marked)}일 예정" if marked else ""), "",
+                  "| 일 | 월 | 화 | 수 | 목 | 금 | 토 |",
+                  "| --- | --- | --- | --- | --- | --- | --- |"]
+        for week in calendar_module.Calendar(firstweekday=6).monthdatescalendar(year, month):
+            cells = []
+            for day in week:
+                if day.month != month:
+                    cells.append(" ")
+                    continue
+                label = f"**{day.day}**" if day == today else str(day.day)
+                items = marked.get(day)
+                if items:
+                    names = " ".join(f"`{row['ticker']}`" for row in items[:CAL_CHIPS])
+                    extra = f" +{len(items) - CAL_CHIPS}" if len(items) > CAL_CHIPS else ""
+                    label += f"<br>{names}{extra}"
+                cells.append(label)
+            lines.append("| " + " | ".join(cells) + " |")
+        lines.append("")
+    upcoming = calendar_rows(prices)
+    if upcoming:
+        lines += [f"가까운 순: " + ", ".join(
+            f"{row['name']}({row['ticker']}) D-{row['days']}" for row in upcoming[:6]), ""]
+    return lines
 
 
 def dividend_lines(prices):
@@ -736,23 +787,33 @@ section{display:flex; flex-direction:column}
   font-weight:500; text-align:right}
 
 /* 오늘의 주목 */
-.cal{display:flex; flex-direction:column; border-top:1px solid var(--line)}
-.cal-row{display:grid; grid-template-columns:76px minmax(0,1fr) 92px 92px; gap:12px;
-  align-items:center; padding:10px 8px; border-bottom:1px solid var(--line-soft)}
-.cal-row:nth-child(even){background:var(--zebra)}
-.cal-row.soon{background:var(--chip); border-left:3px solid var(--rule); padding-left:5px}
-.cal-day{display:flex; flex-direction:column; line-height:1.25}
-.cal-day b{font-family:"IBM Plex Mono",monospace; font-size:var(--t-compact); font-weight:500}
-.cal-row.soon .cal-day b{color:var(--rule)}
-.cal-day small{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); color:var(--muted)}
-.cal-name{font-weight:500; font-size:var(--t-base); line-height:1.3}
-.cal-name small{display:block; font-family:"IBM Plex Mono",monospace;
-  font-size:var(--t-micro); color:var(--muted); font-weight:400; margin-top:1px}
-.cal-cap,.cal-yield{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
-  font-size:var(--t-small); text-align:right; color:var(--muted)}
+.cal-months{display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:22px}
+.cal-month h3{margin:0 0 10px; font-size:var(--t-compact); font-weight:600; color:var(--muted);
+  letter-spacing:.04em}
+.cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:3px}
+.dow{font-size:var(--t-micro); color:var(--muted); text-align:center; padding:4px 0 6px;
+  font-weight:600}
+.dow.wk{color:var(--flat)}
+.cell{min-height:56px; border:1px solid var(--line-soft); border-radius:3px; padding:4px 4px 5px;
+  display:flex; flex-direction:column; gap:2px; background:var(--surface)}
+.cell.out{border-color:transparent; background:none}
+.cell.wk{background:var(--zebra)}
+.cell .d{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); color:var(--muted);
+  line-height:1.2}
+.cell.today{border-color:var(--rule); border-width:2px; padding:3px 3px 4px}
+.cell.today .d{color:var(--rule); font-weight:600}
+/* 실적 발표가 있는 날만 배경으로 구분한다. 달력에서 눈이 먼저 가야 할 칸이다. */
+.cell.has{background:var(--chip)}
+.tk{font-family:"IBM Plex Mono",monospace; font-size:9.5px; line-height:1.35;
+  background:var(--surface); border:1px solid var(--line); border-radius:2px;
+  padding:1px 3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+/* 보유 종목은 테두리를 강조해 관심 종목과 구분한다. */
+.tk.own{border-color:var(--rule); color:var(--rule); font-weight:500}
+.tk.more{border-style:dashed; color:var(--muted)}
 @media (max-width:720px){
-  .cal-row{grid-template-columns:66px minmax(0,1fr) auto; gap:8px}
-  .cal-yield{grid-column:2 / -1; text-align:left; font-size:var(--t-micro)}
+  .cal-months{grid-template-columns:1fr; gap:18px}
+  .cell{min-height:48px}
+  .tk{font-size:9px}
 }
 .spot{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px}
 .spot section{border:1px solid var(--line); border-radius:4px; background:var(--surface);
@@ -1043,20 +1104,51 @@ def html_pick(pick):
 
 
 def html_calendar(prices):
-    rows = calendar_rows(prices)
-    if not rows:
-        return '<p class="empty">앞으로 45일 안에 예정된 실적 발표가 없습니다.</p>'
-    items = "".join(
-        f'<div class="cal-row{" soon" if row["days"] <= CAL_SOON else ""}">'
-        f'<span class="cal-day"><b>D-{row["days"]}</b><small>{row["when"]:%m/%d}</small></span>'
-        f'<span class="cal-name">{esc(row["name"])}'
-        f'<small>{esc(row["ticker"])} · '
-        f'{"보유" if row.get("group", "holding") == "holding" else "관심"}</small></span>'
-        f'<span class="cal-cap">{cap_text(row)}</span>'
-        f'<span class="cal-yield">'
-        f'{f"배당 {row['dividend_yield']:.2f}%" if row.get("dividend_yield") else ""}</span>'
-        f'</div>' for row in rows)
-    return f'<div class="cal">{items}</div>'
+    """월 격자 달력. 날짜 칸에 그날 실적을 발표하는 종목을 붙인다."""
+    days = earnings_by_day(prices)
+    if not days:
+        return '<p class="empty">예정된 실적 발표가 없습니다.</p>'
+    today = datetime.now(KST).date()
+    names = ["일", "월", "화", "수", "목", "금", "토"]
+    months = []
+    for year, month in month_span(today):
+        marked = {day: items for day, items in days.items()
+                  if day.year == year and day.month == month}
+        head = "".join(f'<span class="dow{" wk" if index in (0, 6) else ""}">{name}</span>'
+                       for index, name in enumerate(names))
+        cells = []
+        for week in calendar_module.Calendar(firstweekday=6).monthdatescalendar(year, month):
+            for index, day in enumerate(week):
+                if day.month != month:
+                    cells.append('<div class="cell out"></div>')
+                    continue
+                items = marked.get(day, [])
+                classes = ["cell"]
+                if index in (0, 6):
+                    classes.append("wk")
+                if day == today:
+                    classes.append("today")
+                if items:
+                    classes.append("has")
+                chips = "".join(
+                    f'<span class="tk{" own" if row.get("group", "holding") == "holding" else ""}"'
+                    f' title="{esc(row["name"])}">{esc(row["ticker"])}</span>'
+                    for row in items[:CAL_CHIPS])
+                if len(items) > CAL_CHIPS:
+                    chips += f'<span class="tk more">+{len(items) - CAL_CHIPS}</span>'
+                cells.append(f'<div class="{" ".join(classes)}">'
+                             f'<span class="d">{day.day}</span>{chips}</div>')
+        months.append(f'<div class="cal-month"><h3>{year}년 {month}월'
+                      f'{f" · {len(marked)}일" if marked else ""}</h3>'
+                      f'<div class="cal-grid">{head}{"".join(cells)}</div></div>')
+
+    upcoming = calendar_rows(prices)
+    soon = ""
+    if upcoming:
+        soon = '<p class="upper-note">가까운 순 — ' + ", ".join(
+            f'<b>{esc(row["name"])}</b>({esc(row["ticker"])}) D-{row["days"]}'
+            for row in upcoming[:6]) + '</p>'
+    return f'<div class="cal-months">{"".join(months)}</div>{soon}'
 
 
 def html_dividend(prices):
