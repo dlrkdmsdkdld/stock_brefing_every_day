@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-09-08T07:54:50+09:00",
+  "generated_at": "2026-09-09T07:48:39+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#2/gpt-5.6-luna",
+  "model": "OpenAI#1/gpt-5.6-luna + OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 5451,
-    "output_tokens": 4091
+    "input_tokens": 6500,
+    "output_tokens": 5446
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "3년만바짝벌어도강남간다3억버는부부의정체": {
+      "title": "\"3년만 바짝 벌어도 강남 간다\"…'年 3억' 버는 부부의 정체",
+      "holding": "SK하이닉스",
+      "stance": "중립",
+      "summary": "삼성전자와 SK하이닉스 직원 간 사내 결혼과 고소득 맞벌이 가구가 늘고 있다는 내용이다. 2024년 초혼 신혼부부 맞벌이 가구의 평균 연소득은 9388만원이며, 지난해 SK하이닉스 직원 1인 평균 연봉은 1억8500만원으로 소개됐다.",
+      "impact": "SK하이닉스 직원의 높은 보수와 성과급은 인재 확보와 조직 만족도 측면에서 긍정적일 수 있지만, 기업의 매출·이익·수주와 직접 연결되는 내용은 아니다.",
+      "caution": "기사 주제가 SK하이닉스의 실적이나 사업 전망이 아니라 직원들의 결혼·소득·주거 행태이며, 본문도 중간에 끊겨 있다."
+    },
+    "삼성전자미스트랄과ai모델공동개발지분투자도진행": {
+      "title": "삼성전자, 미스트랄과 AI 모델 공동 개발…지분 투자도 진행",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자는 8일 프랑스 AI 기업 미스트랄 AI와 전략적 파트너십을 체결하고 지분 투자도 진행했다. 양사는 삼성전자 DS부문의 반도체 기술·제조 데이터와 미스트랄의 AI 모델을 결합해 설계, 결함 예측, 공정 최적화 등에 활용할 반도체 특화 AI를 개발할 계획이다.",
+      "impact": "AI를 반도체 설계·제조에 적용하면 개발 기간 단축, 제조 효율 및 품질 개선으로 이어질 가능성이 있어 장기 경쟁력에 긍정적이다. 다만 아직 공동 개발 및 단계적 적용 계획이므로 단기 실적 개선 효과는 제한적이다.",
+      "caution": "지분 투자 규모와 공동 AI 모델의 상용화 시점, 실제 비용 절감·수익 개선 규모는 기사에 제시되지 않았다."
+    },
+    "고점서내려온hd현대중공업국민연금지분802로확대": {
+      "title": "고점서 내려온 HD현대중공업…국민연금, 지분 8.02%로 확대",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대중공업 주가는 9일 기준 전날보다 1% 하락한 44만4500원으로 마감했고, 최근 한 달간 16.45%, 7월 1일 고점 61만5000원 대비 크게 조정됐다. 기사에서는 친환경 선박 수주, AI 데이터센터·육상발전용 엔진 수요, 미국 시장 진출 등을 중장기 상승 요인으로 제시했으며 제목에는 국민연금의 지분이 8.02%로 확대됐다고 적혔다.",
+      "impact": "고부가가치 선박과 AI 데이터센터용 발전 엔진 수요가 실제 수주와 매출로 이어지면 HD현대중공업의 실적 개선에 기여할 수 있다. 국민연금 지분 확대도 기관의 장기 보유 및 수급 측면에서 보조적인 긍정 요인이다.",
+      "caution": "본문에 국민연금 지분 확대의 공시 내용이나 시점·변경 규모가 구체적으로 설명되지 않았고, 기사 일부가 유료·광고성 안내와 함께 제공되어 전체 근거가 제한적이다."
+    },
+    "isdellmakingmoneywhereyouthinkitis": {
+      "title": "Is Dell Making Money Where You Think It Is?",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "Dell Technologies 주가는 524.14달러로 52주 최고가 수준에 있으며 최근 1년간 321.7% 상승했다. 950억달러 규모의 AI 서버 수주잔고에도 불구하고, 최근 실적 발표에서 애널리스트 9명 중 6명이 AI 수요의 지속 가능성을 질문해 AI 성장의 내구성에 대한 우려가 계속되고 있다고 분석한다.",
+      "impact": "AI 서버 수요가 둔화되거나 수주잔고가 매출·이익으로 전환되는 속도가 낮아지면 높은 주가 기대와 밸류에이션에 부담이 될 수 있다. 특히 큰 폭의 주가 상승 이후 성장 지속성에 대한 의문이 제기된 점이 단기적으로 부정적이다.",
+      "caution": "제공된 본문이 ‘traditional serv’에서 중단되어 전통적 서버·서비스 사업의 실제 실적과 회사의 답변을 확인할 수 없다."
+    },
+    "constellationbrandsstockfallsasweakaugustupdateweighsaheadofoctoberearnings": {
+      "title": "Constellation Brands stock falls as weak August update weighs ahead of October earnings",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "약한 악재",
+      "summary": "컨스텔레이션 브랜즈는 경영진이 최근 소비자 콘퍼런스에서 8월 실적이 약했고 비용 부담이 커지고 있다고 밝힌 뒤 주가 압박을 받고 있다. 주가는 2026년 9월 8일 4% 넘게 하락했고 최근 10거래일 중 9거래일 하락했으며, 다음 실적 발표일은 2026년 10월 4일로 예정돼 있다.",
+      "impact": "약한 판매 흐름과 비용 상승은 매출 성장과 이익률을 동시에 압박할 수 있어 실적 전망과 주가에 부정적이다. 10월 4일 실적 발표 전까지 투자자들의 불확실성도 커질 수 있다.",
+      "caution": "기사에는 애널리스트들이 2026년 10월 실적 전 상승 여력을 보고 있다는 내용도 있어, 약한 8월 흐름이 일시적일 가능성은 남아 있다."
+    },
+    "googlesrevivednuclearpowerplantgets19bloanfromusgovernment": {
+      "title": "Google’s revived nuclear power plant gets $1.9B loan from US government",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "Google이 아이오와 원자력발전소를 재가동하기로 한 가운데, 발전소 소유주인 NextEra Energy가 미국 에너지부로부터 19억달러 대출을 받았다. 기사에는 미국 정부가 AI 데이터센터 전력원으로 원자력 재가동을 중시하고 있으며, 지난해 에너지부가 Constellation Energy의 스리마일섬 원자로 재가동에도 10억달러를 대출했다고 설명한다.",
+      "impact": "원자력 발전 재가동과 AI 데이터센터 전력 수요 확대는 원전 산업 전반에는 긍정적일 수 있다. 그러나 이 기사의 19억달러 대출 수혜자는 NextEra Energy이며, 컨스텔레이션 에너지는 과거 사례로만 언급됐다.",
+      "caution": "보유 종목인 컨스텔레이션 에너지는 이번 대출의 직접 수혜 기업이 아니므로 해당 기사만으로 기업의 실적이나 주가 영향을 판단하기 어렵다."
+    },
+    "vistraisdown30fromitshighhereswhatiddonow": {
+      "title": "Vistra Is Down 30% From Its High. Here's What I'd Do Now.",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "Vistra 주가는 2025년 9월 22일 217.02달러의 사상 최고가를 기록한 뒤 약 154달러로 하락해 고점 대비 약 30% 내렸다. 기사에서는 AI와 클라우드 인프라 성장으로 붙었던 ‘AI 프리미엄’이 사라진 것이 하락 원인이라고 설명하면서도, 장기 투자자에게는 매수 기회가 될 수 있다고 평가한다.",
+      "impact": "주가 조정으로 AI·전력 수요 성장 기대가 일부 반영되지 않은 가격이 됐다는 점은 장기 투자자 관점에서 긍정적일 수 있다. 다만 이는 기업의 실적 개선을 새로 제시한 내용이라기보다 주가 하락 후 매수를 권하는 투자 의견에 가깝다.",
+      "caution": "기사의 매수 판단은 작성자의 의견이며, 제공된 본문에는 Vistra의 구체적인 매출·이익·현금흐름 전망이 충분히 제시되지 않았다."
+    },
+    "eosestockjumpsasgooglebackslongdurationbatterydeal": {
+      "title": "EOSE Stock Jumps As Google Backs Long-Duration Battery Deal",
+      "holding": "이오스 에너지",
+      "stance": "호재",
+      "summary": "Eos Energy Enterprises는 2028~2030년 웨스트버지니아의 Google 데이터센터를 지원하기 위해 10MW/100MWh 규모의 미국산 Z3 아연계 장주기 에너지저장시스템을 공급할 예정이다. 이번 사업은 MN8–Google 프로젝트이자 Eos 기술의 첫 상업 규모 웨스트버지니아 배치이며, Eos는 펜실베이니아 Thorn Hill 공장으로 생산을 통합해 2027년부터 전환 비용을 10~15% 낮추고 약 4GWh 생산능력을 목표로 하고 있다.",
+      "impact": "Google 데이터센터 관련 공급 계약은 Eos의 장주기 저장장치 기술을 대형 고객에게 검증받고 향후 수주 확대를 추진할 수 있는 기회다. 생산비 절감과 약 4GWh 생산능력 목표가 달성되면 수익성과 공급 여력 개선에도 도움이 될 수 있다.",
+      "caution": "공급 및 생산능력 계획은 2028~2030년의 미래 일정이며, 계약 금액·수익성·실제 납품 여부는 기사에 제시되지 않았다. 본문에는 광고성 문구도 포함되어 있다."
+    },
+    "almontyindustriesralliesasinvestorsrevisitbuybackanalystsupportandtungstensupplytheme": {
+      "title": "Almonty Industries Rallies as Investors Revisit Buyback, Analyst Support, and Tungsten Supply Theme",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "알먼티 인더스트리스(ALM) 주가는 2026년 9월 8일 8.3% 상승했으며, 단일한 신규 기업 이벤트보다는 텅스텐 공급망 테마와 투자심리 개선이 배경으로 분석됐다. 회사는 8월 최대 3년간 3억 달러 규모의 자사주 매입을 승인했고, 2026년 2분기 조정 EBITDA 개선과 상동(Sangdong) 프로젝트 진전을 강조했다.",
+      "impact": "3억 달러 규모의 자사주 매입은 주가를 직접 지지하고 경영진의 자신감 신호로 해석될 수 있다. 상동 프로젝트의 운영 개선과 중국 외 텅스텐 공급 기대가 현실화되면 알먼티의 생산 전망과 기업가치에 긍정적이다.",
+      "caution": "기사 자체도 2026년 9월 8일 상승을 설명할 단일 신규 촉매는 명확하지 않다고 밝혔다. 2분기 조정 EBITDA의 구체적 수치와 상동 프로젝트의 생산·재무 성과가 본문에 충분히 제시되지 않았다."
+    },
+    "billionairestanleydruckenmillerhas2megacapstocksworthwatchinghinthistopholdingisntamazonalphabetornvidia": {
+      "title": "Billionaire Stanley Druckenmiller Has 2 Megacap Stocks Worth Watching (Hint: His Top Holding Isn't Amazon, Alphabet, or Nvidia)",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "스탠리 드러켄밀러의 Duquesne Family Office는 AI 인프라 투자 수혜가 기대되는 아마존과 알파벳을 보유하고 있다고 소개됐다. 기사에 따르면 그의 최상위 보유 종목은 아마존·알파벳·엔비디아가 아닌 유전자 검사 기업이지만, 알파벳은 AI 지출 확대의 수혜를 받을 수 있는 메가캡 기술주로 언급됐다.",
+      "impact": "AI 관련 지출이 늘어나면 알파벳의 클라우드 및 AI 사업에 대한 투자자 기대와 밸류에이션이 개선될 수 있다. 유명 투자자의 보유 사실도 심리적 지지 요인이 될 수 있다.",
+      "caution": "기사의 핵심은 드러켄밀러의 전체 포트폴리오와 다른 유전자 검사 기업에 있으며, 알파벳의 실적·매출 또는 신규 사업 성과를 제시한 내용은 아니다."
+    },
+    "badgersbeginswjcfcplaywithwinvscisco": {
+      "title": "Badgers Begin SWJCFC Play With Win vs Cisco",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "2026년 9월 5일 미국 텍사스주 시스코에서 열린 대학 미식축구 경기에서 스노우 칼리지가 시스코 칼리지를 39-10으로 이겼다. 스노우 칼리지는 39점을 연속 득점하고 4개의 턴오버를 유도했으며, 시스코 칼리지의 전적은 0-2, 콘퍼런스 전적은 0-1로 표시됐다.",
+      "impact": "해당 내용은 시스코 시스템즈가 아니라 시스코 칼리지의 스포츠 경기 결과다. 따라서 시스코 시스템즈의 매출, 제품 수요 또는 주가에 미치는 직접적인 영향은 없다.",
+      "caution": "보유종목인 시스코 시스템즈와 이름만 같을 뿐, 기사에는 해당 기업에 대한 내용이 없다."
+    },
+    "q2earningsroundupvertivnysevrtandtherestoftheelectricalsystemssegment": {
+      "title": "Q2 Earnings Roundup: Vertiv (NYSE:VRT) And The Rest Of The Electrical Systems Segment",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "2026년 9월 8일 기사에서는 버티브(NYSE:VRT)를 포함한 전기 시스템 관련 2분기 실적 시즌을 동종업체와 비교해 분석한다고 밝혔다. 해당 업종은 연결성, 산업 자동화, IoT, 5G 통신망 업그레이드 같은 구조적 수요의 영향을 받지만 금리와 경기 순환에도 영향을 받으며, 추적 대상 기업은 14개로 제시됐다.",
+      "impact": "IoT·5G·산업 자동화 수요는 버티브의 전력·냉각 인프라 수요에 긍정적일 수 있지만, 금리 상승과 경기 둔화는 프로젝트 지연으로 이어질 수 있다. 다만 제공된 본문에는 버티브의 실제 2분기 매출, 이익 또는 전망 변화가 없어 종목 방향성을 판단하기 어렵다.",
+      "caution": "본문이 버티브와 동종업체의 구체적인 실적 비교가 나오기 전에 끝나 있어, 기사만으로는 호재나 악재를 확인할 수 없다."
+    },
+    "lockheedmartinlmtrisesasmarkettakesadipkeyfacts": {
+      "title": "Lockheed Martin (LMT) Rises As Market Takes a Dip: Key Facts",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "록히드마틴(LMT)은 최근 거래에서 536.15달러로 마감해 전일 대비 2.07% 상승했으며, 같은 날 S&P 500이 0.58% 하락한 것과 대조적으로 강세를 보였다. 회사의 다음 실적 발표에서 EPS가 7.28달러로 예상되고, 이는 전년 동기 대비 4.75% 증가한 수준으로 제시됐다.",
+      "impact": "시장 약세 속에서도 주가가 상승하고 예상 EPS가 증가하면 록히드마틴의 상대적 투자심리와 실적 기대를 지지할 수 있다. 특히 향후 실적이 예상치를 충족하거나 상회하면 최근 하락 이후 주가 회복에 도움이 될 수 있다.",
+      "caution": "이번 상승은 단일 거래일의 움직임이며, EPS 7.28달러는 실제 실적이 아닌 애널리스트 전망이다. 본문에 실적 발표의 구체적인 매출 전망이나 수주 변화는 충분히 제시되지 않았다."
+    },
+    "microsoftsopenaipartnershipdrawsfreshlegalfire": {
+      "title": "Microsoft's OpenAI Partnership Draws Fresh Legal Fire",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트 주가는 2026년 9월 8일 화요일 1.5% 넘게 하락했으며, 시애틀타임스와 뉴스데이가 마이크로소프트와 오픈AI를 상대로 유료 언론 콘텐츠를 AI 모델 훈련에 사용했다며 소송을 제기한 것이 배경으로 제시됐다. 이번 소송은 뉴욕타임스와 지프 데이비스 관련 소송에 더해져 마이크로소프트의 AI 전략에 대한 저작권·라이선스 위험을 확대할 수 있다.",
+      "impact": "소송이 확대되면 콘텐츠 라이선스 비용, 법률 비용, AI 모델 학습 방식의 변경 또는 사업 지연이 발생할 가능성이 있어 마이크로소프트의 AI 투자 수익성에 부담이 될 수 있다. 이는 AI 성장 기대를 바탕으로 한 기업가치 평가에도 부정적으로 작용할 수 있다.",
+      "caution": "기사에는 손해배상 규모, 승소 가능성 또는 실제 재무적 영향이 제시되지 않았다. 또한 시애틀타임스와 뉴스데이는 과거 1,000만 달러 규모의 AI Collaborative and Fellowship Grant를 받은 관계가 있어 법적 쟁점의 세부 내용은 추가 확인이 필요하다."
+    },
+    "nikeshareholdersrejectclimateproposalbackedbynorwaywealthfund": {
+      "title": "Nike shareholders reject climate proposal backed by Norway wealth fund",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "나이키 주주들은 2026년 9월 8일 노르웨이 국부펀드가 지지한 기후 목표 관련 투명성 강화 제안을 부결했다. 이 제안은 나이키가 2030년까지 자체 운영 탄소배출을 65%, 공급망 탄소배출을 30% 줄이겠다는 목표를 어떻게 달성할지 세부 내용을 공개하도록 요구하는 내용이었다.",
+      "impact": "제안 부결로 단기적으로 추가 공시나 기후 관련 실행 부담이 줄어들 수 있지만, 기후 목표 이행에 대한 투명성이 낮다는 우려가 커질 수도 있다. 이는 규제, 평판, 환경 관련 소송 및 소비자 인식 측면에서 장기적인 영향을 줄 가능성이 있다.",
+      "caution": "주주 제안의 부결이 나이키의 실적이나 현금흐름을 즉시 변화시킨다는 내용은 없다. 실제 주주 투표 결과의 세부 비율과 향후 나이키의 기후정책 변화도 본문에 제시되지 않았다."
+    },
+    "glp1drugsworkforkidssaysnovonordisktheycouldbeanotherhugemarket": {
+      "title": "GLP1 Drugs Work for Kids, Says Novo Nordisk. They Could Be Another Huge Market.",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크는 6~12세 비만 아동을 대상으로 한 주사형 GLP-1 약물 위고비(Wegovy)의 3상 임상시험에서 성공적인 결과를 얻었다고 발표했다. 아동 비만 치료 시장으로 위고비의 적용 범위가 확대될 가능성이 제시됐다.",
+      "impact": "아동 대상 적응증이 추가되면 위고비의 잠재 환자군과 장기 매출 시장이 확대될 수 있어 노보 노디스크의 성장 기대에 긍정적이다. 3상 성공은 향후 허가 신청과 상용화 가능성을 뒷받침하는 진전이다.",
+      "caution": "본문에는 체중 감소 효과의 구체적 수치, 부작용, 규제당국의 허가 여부와 일정이 제시되지 않았다. 따라서 임상 성공이 곧바로 판매 승인이나 매출 증가로 이어진다고 단정할 수 없다."
+    },
+    "apolloblackstoneandkkrvieforshellstakeinlngcanadasourcessay": {
+      "title": "Apollo, Blackstone and KKR vie for Shell Stake in LNG Canada, Sources Say",
+      "holding": "블랙스톤",
+      "stance": "약한 호재",
+      "summary": "Apollo Global Management, 블랙스톤, KKR이 Shell이 매각하는 LNG Canada 프로젝트의 상당한 지분을 놓고 최종 경쟁 중이라고 소식통 3명이 전했다. 거래 규모는 100억달러를 크게 웃돌며 최대 150억달러에 이를 수 있지만, 경매는 비공개이며 구체적인 지분율과 최종 인수자는 공개되지 않았다.",
+      "impact": "블랙스톤이 인수에 성공하면 대규모 인프라 자산 편입과 운용자산·수수료 확대에 기여할 수 있다. 다만 현재는 입찰 경쟁 단계에 그쳐 실제 실적이나 자산 확대 효과는 확정되지 않았다.",
+      "caution": "기사상 블랙스톤은 최종 입찰자 중 하나일 뿐이며, 거래 성사 여부·인수 가격·자금 조달 조건이 확인되지 않았다. 본문도 Shell의 ARC Resources 인수 관련 설명에서 일부 잘려 있다."
+    },
+    "drhortonstockslipsbelowkeyaveragesasearningsandforecastsweigh": {
+      "title": "D.R. Horton stock slips below key averages as earnings and forecasts weigh",
+      "holding": "DR호튼",
+      "stance": "악재",
+      "summary": "D.R. Horton 주가는 2026년 9월 초 기준 52주 고점인 183.08달러보다 22.5% 낮고 50일 및 200일 이동평균선 아래에서 거래되고 있다. 회사는 2026 회계연도 연결 매출 전망을 325억~330억달러로 낮췄고, 2026년 3분기 EPS도 감소해 실적과 전망이 주가에 부담을 주고 있다.",
+      "impact": "매출 전망 하향과 EPS 감소는 주택 수요와 수익성에 대한 우려를 키워 D.R. Horton의 이익 추정치와 밸류에이션을 압박할 수 있다. 이동평균선 하회와 고점 대비 하락은 투자심리와 주가 흐름을 추가로 약화시키는 요인이다.",
+      "caution": "기사에는 사우디 중앙은행의 신규 지분 취득과 애널리스트 목표가 유지 등 긍정적·중립적 요소도 언급돼 있어 시장 전망이 완전히 한쪽으로 기운 것은 아니다. 기존 매출 전망과 EPS의 구체적인 비교 수치는 본문에 제시되지 않았고, 기사는 일부 내용이 잘려 있다."
+    },
     "sk하이닉스키옥시아합병은불가능두터운규제벽": {
       "title": "SK하이닉스, 키옥시아 합병은 '불가능'…두터운 日·中 규제벽",
       "holding": "SK하이닉스",
