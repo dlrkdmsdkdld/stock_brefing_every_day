@@ -229,15 +229,39 @@ section{display:flex; flex-direction:column}
   font-weight:500; text-align:right}
 
 /* 오늘의 주목 */
-.cal-months{display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:22px}
-.cal-month h3{margin:0 0 10px; font-size:var(--t-compact); font-weight:600; color:var(--muted);
-  letter-spacing:.04em}
+.cal-nav{display:flex; align-items:center; gap:10px; margin-bottom:12px; flex-wrap:wrap}
+.cal-move{font:inherit; font-size:var(--t-base); color:var(--ink); background:var(--surface);
+  border:1px solid var(--line); border-radius:3px; width:32px; height:30px; cursor:pointer;
+  line-height:1}
+.cal-move:hover:not(:disabled){border-color:var(--rule); color:var(--rule)}
+.cal-move:disabled{opacity:.35; cursor:default}
+.cal-move:focus-visible{outline:2px solid var(--rule); outline-offset:2px}
+.cal-title{font-family:"Gowun Batang",serif; font-size:var(--t-h3); min-width:118px}
+.cal-hint{font-size:var(--t-small); color:var(--muted); margin-left:auto}
+.cal-month[hidden]{display:none}
+.cal-detail:empty{display:none}
+.cal-detail{margin-top:14px; border:1px solid var(--line); border-radius:4px;
+  background:var(--surface); padding:14px 16px; display:flex; flex-direction:column; gap:9px}
+.cal-detail h4{margin:0; font-size:var(--t-compact); color:var(--rule); font-weight:600}
+.cal-detail ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:7px}
+.cal-detail li{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px;
+  font-size:var(--t-base)}
+.cal-detail li b{font-weight:500}
+.cal-detail .code{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted)}
+.cal-detail .meta-num{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted); margin-left:auto; font-variant-numeric:tabular-nums}
 .cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:3px}
 .dow{font-size:var(--t-micro); color:var(--muted); text-align:center; padding:4px 0 6px;
   font-weight:600}
 .dow.wk{color:var(--flat)}
-.cell{min-height:56px; border:1px solid var(--line-soft); border-radius:3px; padding:4px 4px 5px;
-  display:flex; flex-direction:column; gap:2px; background:var(--surface)}
+.cell{min-height:58px; border:1px solid var(--line-soft); border-radius:3px; padding:4px 4px 5px;
+  display:flex; flex-direction:column; gap:2px; background:var(--surface); font:inherit;
+  text-align:left; color:inherit}
+button.cell{cursor:pointer}
+button.cell:hover{border-color:var(--rule)}
+button.cell:focus-visible{outline:2px solid var(--rule); outline-offset:1px}
+.cell.picked{border-color:var(--rule); border-width:2px; padding:3px 3px 4px}
 .cell.out{border-color:transparent; background:none}
 .cell.wk{background:var(--zebra)}
 .cell .d{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); color:var(--muted);
@@ -370,7 +394,7 @@ section{display:flex; flex-direction:column}
     <div class="eyebrow">Daily Portfolio Brief</div>
     <h1>보유 18종목 브리핑</h1>
     <div class="dateline">
-      <span>작성 <b>2026-09-08 22:38 KST</b></span>
+      <span>작성 <b>2026-09-08 22:40 KST</b></span>
       <span>종가 기준일 <b>2026-09-04 / 2026-09-07</b></span>
       <span>뉴스 <b>2026-09-08 발행분 18건</b></span>
       <span>환율 <b class="down">₩1,344.76</b> <span class="down">-0.79%</span></span>
@@ -653,7 +677,7 @@ section{display:flex; flex-direction:column}
 
   <section><h2>실적 발표 달력</h2>
     <p class="byline">보유·관심 종목 중 앞으로 45일 안에 실적을 발표하는 종목입니다. 일주일 안이면 강조합니다.</p>
-    <div class="cal-months"><div class="cal-month"><h3>2026년 9월 · 2일</h3><div class="cal-grid"><span class="dow wk">일</span><span class="dow">월</span><span class="dow">화</span><span class="dow">수</span><span class="dow">목</span><span class="dow">금</span><span class="dow wk">토</span><div class="cell out"></div><div class="cell out"></div><div class="cell"><span class="d">1</span></div><div class="cell"><span class="d">2</span></div><div class="cell has"><span class="d">3</span><span class="tk" title="브로드컴">AVGO</span><span class="tk" title="휴렛팩커드 엔터프라이즈">HPE</span><span class="tk" title="시에나">CIEN</span></div><div class="cell"><span class="d">4</span></div><div class="cell wk"><span class="d">5</span></div><div class="cell wk"><span class="d">6</span></div><div class="cell"><span class="d">7</span></div><div class="cell today"><span class="d">8</span></div><div class="cell"><span class="d">9</span></div><div class="cell"><span class="d">10</span></div><div class="cell has"><span class="d">11</span><span class="tk" title="오라클">ORCL</span></div><div class="cell wk"><span class="d">12</span></div><div class="cell wk"><span class="d">13</span></div><div class="cell"><span class="d">14</span></div><div class="cell"><span class="d">15</span></div><div class="cell"><span class="d">16</span></div><div class="cell"><span class="d">17</span></div><div class="cell"><span class="d">18</span></div><div class="cell wk"><span class="d">19</span></div><div class="cell wk"><span class="d">20</span></div><div class="cell"><span class="d">21</span></div><div class="cell"><span class="d">22</span></div><div class="cell"><span class="d">23</span></div><div class="cell"><span class="d">24</span></div><div class="cell"><span class="d">25</span></div><div class="cell wk"><span class="d">26</span></div><div class="cell wk"><span class="d">27</span></div><div class="cell"><span class="d">28</span></div><div class="cell"><span class="d">29</span></div><div class="cell"><span class="d">30</span></div><div class="cell out"></div><div class="cell out"></div><div class="cell out"></div></div></div><div class="cal-month"><h3>2026년 10월 · 14일</h3><div class="cal-grid"><span class="dow wk">일</span><span class="dow">월</span><span class="dow">화</span><span class="dow">수</span><span class="dow">목</span><span class="dow">금</span><span class="dow wk">토</span><div class="cell out"></div><div class="cell out"></div><div class="cell out"></div><div class="cell out"></div><div class="cell has"><span class="d">1</span><span class="tk" title="마이크론">MU</span></div><div class="cell has"><span class="d">2</span><span class="tk own" title="나이키 B">NKE</span></div><div class="cell wk"><span class="d">3</span></div><div class="cell wk"><span class="d">4</span></div><div class="cell"><span class="d">5</span></div><div class="cell has"><span class="d">6</span><span class="tk own" title="컨스텔레이션 브랜즈">STZ</span></div><div class="cell"><span class="d">7</span></div><div class="cell has"><span class="d">8</span><span class="tk" title="델타항공">DAL</span></div><div class="cell"><span class="d">9</span></div><div class="cell wk"><span class="d">10</span></div><div class="cell wk"><span class="d">11</span></div><div class="cell"><span class="d">12</span></div><div class="cell has"><span class="d">13</span><span class="tk" title="JP모건 체이스">JPM</span><span class="tk" title="도미노피자">DPZ</span></div><div class="cell"><span class="d">14</span></div><div class="cell"><span class="d">15</span></div><div class="cell has"><span class="d">16</span><span class="tk" title="알코아">AA</span></div><div class="cell wk"><span class="d">17</span></div><div class="cell wk"><span class="d">18</span></div><div class="cell"><span class="d">19</span></div><div class="cell has"><span class="d">20</span><span class="tk" title="코카콜라">KO</span><span class="tk" title="GE 에어로스페이스">GE</span><span class="tk own" title="록히드마틴">LMT</span></div><div class="cell has"><span class="d">21</span><span class="tk" title="넷플릭스">NFLX</span><span class="tk own" title="버티브 홀딩스">VRT</span></div><div class="cell has"><span class="d">22</span><span class="tk" title="테슬라">TSLA</span><span class="tk" title="램리서치">LRCX</span><span class="tk" title="P&amp;G">PG</span><span class="tk more">+3</span></div><div class="cell has"><span class="d">23</span><span class="tk" title="인텔">INTC</span></div><div class="cell wk"><span class="d">24</span></div><div class="cell wk"><span class="d">25</span></div><div class="cell"><span class="d">26</span></div><div class="cell has"><span class="d">27</span><span class="tk own" title="SK하이닉스">000660</span><span class="tk" title="유나이티드헬스 그룹">UNH</span><span class="tk" title="넥스트에라 에너지">NEE</span><span class="tk more">+1</span></div><div class="cell has"><span class="d">28</span><span class="tk own" title="삼성전자">005930</span><span class="tk" title="비자">V</span><span class="tk" title="GE 버노바">GEV</span><span class="tk more">+4</span></div><div class="cell has"><span class="d">29</span><span class="tk own" title="HD현대중공업">329180</span><span class="tk own" title="알파벳 A">GOOGL</span><span class="tk own" title="마이크로소프트">MSFT</span><span class="tk more">+9</span></div><div class="cell has"><span class="d">30</span><span class="tk" title="애플">AAPL</span><span class="tk" title="아마존">AMZN</span><span class="tk" title="엑슨모빌">XOM</span><span class="tk more">+5</span></div><div class="cell wk"><span class="d">31</span></div></div></div></div><p class="upper-note">가까운 순 — <b>오라클</b>(ORCL) D-3, <b>마이크론</b>(MU) D-23, <b>나이키 B</b>(NKE) D-24, <b>컨스텔레이션 브랜즈</b>(STZ) D-28, <b>델타항공</b>(DAL) D-30, <b>JP모건 체이스</b>(JPM) D-35</p>
+    <div class="cal-nav"><button type="button" class="cal-move" data-step="-1" disabled>←</button><b class="cal-title">2026년 9월</b><button type="button" class="cal-move" data-step="1">→</button><span class="cal-hint">날짜를 누르면 종목 이름이 아래에 나옵니다</span></div><div class="cal-month" data-month="0"><div class="cal-grid"><span class="dow wk">일</span><span class="dow">월</span><span class="dow">화</span><span class="dow">수</span><span class="dow">목</span><span class="dow">금</span><span class="dow wk">토</span><div class="cell out"></div><div class="cell out"></div><div class="cell"><span class="d">1</span></div><div class="cell"><span class="d">2</span></div><button class="cell has" type="button" data-day="2026-09-03"><span class="d">3</span><span class="tk">AVGO</span><span class="tk">HPE</span><span class="tk">CIEN</span></button><div class="cell"><span class="d">4</span></div><div class="cell wk"><span class="d">5</span></div><div class="cell wk"><span class="d">6</span></div><div class="cell"><span class="d">7</span></div><div class="cell today"><span class="d">8</span></div><div class="cell"><span class="d">9</span></div><div class="cell"><span class="d">10</span></div><button class="cell has" type="button" data-day="2026-09-11"><span class="d">11</span><span class="tk">ORCL</span></button><div class="cell wk"><span class="d">12</span></div><div class="cell wk"><span class="d">13</span></div><div class="cell"><span class="d">14</span></div><div class="cell"><span class="d">15</span></div><div class="cell"><span class="d">16</span></div><div class="cell"><span class="d">17</span></div><div class="cell"><span class="d">18</span></div><div class="cell wk"><span class="d">19</span></div><div class="cell wk"><span class="d">20</span></div><div class="cell"><span class="d">21</span></div><div class="cell"><span class="d">22</span></div><div class="cell"><span class="d">23</span></div><div class="cell"><span class="d">24</span></div><div class="cell"><span class="d">25</span></div><div class="cell wk"><span class="d">26</span></div><div class="cell wk"><span class="d">27</span></div><div class="cell"><span class="d">28</span></div><div class="cell"><span class="d">29</span></div><div class="cell"><span class="d">30</span></div><div class="cell out"></div><div class="cell out"></div><div class="cell out"></div></div></div><div class="cal-month" data-month="1" hidden><div class="cal-grid"><span class="dow wk">일</span><span class="dow">월</span><span class="dow">화</span><span class="dow">수</span><span class="dow">목</span><span class="dow">금</span><span class="dow wk">토</span><div class="cell out"></div><div class="cell out"></div><div class="cell out"></div><div class="cell out"></div><button class="cell has" type="button" data-day="2026-10-01"><span class="d">1</span><span class="tk">MU</span></button><button class="cell has" type="button" data-day="2026-10-02"><span class="d">2</span><span class="tk own">NKE</span></button><div class="cell wk"><span class="d">3</span></div><div class="cell wk"><span class="d">4</span></div><div class="cell"><span class="d">5</span></div><button class="cell has" type="button" data-day="2026-10-06"><span class="d">6</span><span class="tk own">STZ</span></button><div class="cell"><span class="d">7</span></div><button class="cell has" type="button" data-day="2026-10-08"><span class="d">8</span><span class="tk">DAL</span></button><div class="cell"><span class="d">9</span></div><div class="cell wk"><span class="d">10</span></div><div class="cell wk"><span class="d">11</span></div><div class="cell"><span class="d">12</span></div><button class="cell has" type="button" data-day="2026-10-13"><span class="d">13</span><span class="tk">JPM</span><span class="tk">DPZ</span></button><div class="cell"><span class="d">14</span></div><div class="cell"><span class="d">15</span></div><button class="cell has" type="button" data-day="2026-10-16"><span class="d">16</span><span class="tk">AA</span></button><div class="cell wk"><span class="d">17</span></div><div class="cell wk"><span class="d">18</span></div><div class="cell"><span class="d">19</span></div><button class="cell has" type="button" data-day="2026-10-20"><span class="d">20</span><span class="tk">KO</span><span class="tk">GE</span><span class="tk own">LMT</span></button><button class="cell has" type="button" data-day="2026-10-21"><span class="d">21</span><span class="tk">NFLX</span><span class="tk own">VRT</span></button><button class="cell has" type="button" data-day="2026-10-22"><span class="d">22</span><span class="tk">TSLA</span><span class="tk">LRCX</span><span class="tk">PG</span><span class="tk more">+3</span></button><button class="cell has" type="button" data-day="2026-10-23"><span class="d">23</span><span class="tk">INTC</span></button><div class="cell wk"><span class="d">24</span></div><div class="cell wk"><span class="d">25</span></div><div class="cell"><span class="d">26</span></div><button class="cell has" type="button" data-day="2026-10-27"><span class="d">27</span><span class="tk own">000660</span><span class="tk">UNH</span><span class="tk">NEE</span><span class="tk more">+1</span></button><button class="cell has" type="button" data-day="2026-10-28"><span class="d">28</span><span class="tk own">005930</span><span class="tk">V</span><span class="tk">GEV</span><span class="tk more">+4</span></button><button class="cell has" type="button" data-day="2026-10-29"><span class="d">29</span><span class="tk own">329180</span><span class="tk own">GOOGL</span><span class="tk own">MSFT</span><span class="tk more">+9</span></button><button class="cell has" type="button" data-day="2026-10-30"><span class="d">30</span><span class="tk">AAPL</span><span class="tk">AMZN</span><span class="tk">XOM</span><span class="tk more">+5</span></button><div class="cell wk"><span class="d">31</span></div></div></div><div class="cal-detail" id="cal-detail"></div><script type="application/json" id="cal-data">{"detail": {"2026-09-03": [{"name": "브로드컴", "ticker": "AVGO", "group": "관심", "cap": "$1.70T", "yield_pct": "0.71%"}, {"name": "휴렛팩커드 엔터프라이즈", "ticker": "HPE", "group": "관심", "cap": "$69.03B", "yield_pct": "1.08%"}, {"name": "시에나", "ticker": "CIEN", "group": "관심", "cap": "$45.52B", "yield_pct": ""}], "2026-09-11": [{"name": "오라클", "ticker": "ORCL", "group": "관심", "cap": "$457.36B", "yield_pct": "1.26%"}], "2026-10-01": [{"name": "마이크론", "ticker": "MU", "group": "관심", "cap": "$1.15T", "yield_pct": "0.05%"}], "2026-10-02": [{"name": "나이키 B", "ticker": "NKE", "group": "보유", "cap": "$56.97B", "yield_pct": "4.27%"}], "2026-10-06": [{"name": "컨스텔레이션 브랜즈", "ticker": "STZ", "group": "보유", "cap": "$21.89B", "yield_pct": "3.20%"}], "2026-10-08": [{"name": "델타항공", "ticker": "DAL", "group": "관심", "cap": "$52.72B", "yield_pct": "0.97%"}], "2026-10-13": [{"name": "JP모건 체이스", "ticker": "JPM", "group": "관심", "cap": "$953.33B", "yield_pct": "1.67%"}, {"name": "도미노피자", "ticker": "DPZ", "group": "관심", "cap": "$11.28B", "yield_pct": "2.19%"}], "2026-10-16": [{"name": "알코아", "ticker": "AA", "group": "관심", "cap": "$13.19B", "yield_pct": "0.80%"}], "2026-10-20": [{"name": "코카콜라", "ticker": "KO", "group": "관심", "cap": "$378.93B", "yield_pct": "2.36%"}, {"name": "GE 에어로스페이스", "ticker": "GE", "group": "관심", "cap": "$349.78B", "yield_pct": "0.49%"}, {"name": "록히드마틴", "ticker": "LMT", "group": "보유", "cap": "$121.23B", "yield_pct": "2.63%"}], "2026-10-21": [{"name": "넷플릭스", "ticker": "NFLX", "group": "관심", "cap": "$325.83B", "yield_pct": ""}, {"name": "버티브 홀딩스", "ticker": "VRT", "group": "보유", "cap": "$108.00B", "yield_pct": "0.08%"}], "2026-10-22": [{"name": "테슬라", "ticker": "TSLA", "group": "관심", "cap": "$1.40T", "yield_pct": ""}, {"name": "램리서치", "ticker": "LRCX", "group": "관심", "cap": "$384.97B", "yield_pct": "0.34%"}, {"name": "P&G", "ticker": "PG", "group": "관심", "cap": "$340.13B", "yield_pct": "2.93%"}, {"name": "발레로 에너지", "ticker": "VLO", "group": "관심", "cap": "$106.74B", "yield_pct": "1.28%"}, {"name": "블랙스톤", "ticker": "BX", "group": "관심", "cap": "$102.20B", "yield_pct": "3.84%"}, {"name": "테라다인", "ticker": "TER", "group": "관심", "cap": "$55.82B", "yield_pct": "0.14%"}], "2026-10-23": [{"name": "인텔", "ticker": "INTC", "group": "관심", "cap": "$503.38B", "yield_pct": ""}], "2026-10-27": [{"name": "SK하이닉스", "ticker": "000660", "group": "보유", "cap": "1,302.5조", "yield_pct": "0.17%"}, {"name": "유나이티드헬스 그룹", "ticker": "UNH", "group": "관심", "cap": "$356.47B", "yield_pct": "2.25%"}, {"name": "넥스트에라 에너지", "ticker": "NEE", "group": "관심", "cap": "$174.03B", "yield_pct": "2.92%"}, {"name": "소파이 테크놀로지스", "ticker": "SOFI", "group": "관심", "cap": "$23.53B", "yield_pct": ""}], "2026-10-28": [{"name": "삼성전자", "ticker": "005930", "group": "보유", "cap": "1,578.5조", "yield_pct": "0.62%"}, {"name": "비자", "ticker": "V", "group": "관심", "cap": "$700.27B", "yield_pct": "0.71%"}, {"name": "GE 버노바", "ticker": "GEV", "group": "관심", "cap": "$250.87B", "yield_pct": "0.19%"}, {"name": "텍사스 인스트루먼트", "ticker": "TXN", "group": "관심", "cap": "$236.02B", "yield_pct": "2.20%"}, {"name": "블룸 에너지", "ticker": "BE", "group": "관심", "cap": "$74.48B", "yield_pct": ""}, {"name": "암라이즈", "ticker": "AMRZ", "group": "관심", "cap": "$23.97B", "yield_pct": "1.51%"}, {"name": "엔페이즈 에너지", "ticker": "ENPH", "group": "관심", "cap": "$4.81B", "yield_pct": ""}], "2026-10-29": [{"name": "HD현대중공업", "ticker": "329180", "group": "보유", "cap": "47.1조", "yield_pct": "2.24%"}, {"name": "알파벳 A", "ticker": "GOOGL", "group": "보유", "cap": "$4.14T", "yield_pct": "0.32%"}, {"name": "마이크로소프트", "ticker": "MSFT", "group": "보유", "cap": "$3.71T", "yield_pct": "0.73%"}, {"name": "메타 플랫폼스", "ticker": "META", "group": "관심", "cap": "$1.57T", "yield_pct": "0.34%"}, {"name": "일라이 릴리", "ticker": "LLY", "group": "관심", "cap": "$1.02T", "yield_pct": "0.58%"}, {"name": "캐터필러", "ticker": "CAT", "group": "관심", "cap": "$374.15B", "yield_pct": "0.76%"}, {"name": "콴타 서비시스", "ticker": "PWR", "group": "관심", "cap": "$93.88B", "yield_pct": "0.07%"}, {"name": "ST마이크로일렉트로닉스", "ticker": "STM", "group": "관심", "cap": "$46.59B", "yield_pct": "0.69%"}, {"name": "DR호튼", "ticker": "DHI", "group": "관심", "cap": "$39.93B", "yield_pct": "1.26%"}, {"name": "엠코 그룹", "ticker": "EME", "group": "관심", "cap": "$33.27B", "yield_pct": "0.19%"}, {"name": "솔스티스 어드밴스드 머티리얼즈", "ticker": "SOLS", "group": "관심", "cap": "$10.12B", "yield_pct": "0.35%"}, {"name": "블루아울 캐피털", "ticker": "OWL", "group": "관심", "cap": "$8.04B", "yield_pct": "7.74%"}], "2026-10-30": [{"name": "애플", "ticker": "AAPL", "group": "관심", "cap": "$4.67T", "yield_pct": "0.33%"}, {"name": "아마존", "ticker": "AMZN", "group": "관심", "cap": "$2.79T", "yield_pct": ""}, {"name": "엑슨모빌", "ticker": "XOM", "group": "관심", "cap": "$655.73B", "yield_pct": "2.58%"}, {"name": "셰브론", "ticker": "CVX", "group": "관심", "cap": "$409.19B", "yield_pct": "3.38%"}, {"name": "코인베이스", "ticker": "COIN", "group": "관심", "cap": "$48.71B", "yield_pct": ""}, {"name": "엔벤트 일렉트릭", "ticker": "NVT", "group": "관심", "cap": "$25.25B", "yield_pct": "0.53%"}, {"name": "퍼스트솔라", "ticker": "FSLR", "group": "보유", "cap": "$21.97B", "yield_pct": ""}, {"name": "마스텍", "ticker": "MTZ", "group": "관심", "cap": "$19.05B", "yield_pct": ""}]}, "titles": ["2026년 9월", "2026년 10월"]}</script>
   </section>
 
   <section><h2>배당</h2>
@@ -695,6 +719,65 @@ section{display:flex; flex-direction:column}
     
   </section>
   <script>
+  (function () {
+    // 실적 달력: 좌우 버튼으로 달을 넘기고, 날짜를 누르면 아래에 종목 전체 이름을 펼친다.
+    var box = document.getElementById("cal-data");
+    if (!box) { return; }
+    var data = JSON.parse(box.textContent);
+    var months = Array.prototype.slice.call(document.querySelectorAll(".cal-month"));
+    var title = document.querySelector(".cal-title");
+    var detail = document.getElementById("cal-detail");
+    var at = 0;
+
+    function show(index) {
+      at = Math.max(0, Math.min(months.length - 1, index));
+      months.forEach(function (panel, order) { panel.hidden = order !== at; });
+      title.textContent = data.titles[at];
+      document.querySelectorAll(".cal-move").forEach(function (button) {
+        var step = parseInt(button.dataset.step, 10);
+        button.disabled = at + step < 0 || at + step > months.length - 1;
+      });
+    }
+
+    function pick(day) {
+      var rows = data.detail[day] || [];
+      document.querySelectorAll(".cell.picked").forEach(function (cell) {
+        cell.classList.remove("picked");
+      });
+      var cell = document.querySelector('.cell[data-day="' + day + '"]');
+      if (cell) { cell.classList.add("picked"); }
+      if (!rows.length) { detail.innerHTML = ""; return; }
+      var parts = rows.map(function (row) {
+        var extra = row.yield_pct ? " · 배당 " + row.yield_pct : "";
+        return '<li><b>' + row.name + '</b>'
+             + '<span class="code">' + row.ticker + '</span>'
+             + '<span class="chip">' + row.group + '</span>'
+             + '<span class="meta-num">' + row.cap + extra + '</span></li>';
+      });
+      detail.innerHTML = '<h4>' + day + ' · ' + rows.length + '종목 실적 발표</h4>'
+                       + '<ul>' + parts.join("") + '</ul>';
+    }
+
+    document.querySelectorAll(".cal-move").forEach(function (button) {
+      button.addEventListener("click", function () {
+        show(at + parseInt(button.dataset.step, 10));
+      });
+    });
+    document.querySelectorAll("button.cell[data-day]").forEach(function (cell) {
+      cell.addEventListener("click", function () { pick(cell.dataset.day); });
+    });
+
+    show(0);
+    // 처음에는 앞으로 가장 가까운 발표일을 펼쳐 둔다. 빈 칸으로 시작하지 않게.
+    var today = new Date().toISOString().slice(0, 10);
+    var next = Object.keys(data.detail).sort().filter(function (day) { return day >= today; })[0];
+    if (next) {
+      pick(next);
+      months.forEach(function (panel, order) {
+        if (panel.querySelector('.cell[data-day="' + next + '"]')) { show(order); }
+      });
+    }
+  })();
   (function () {
     var sectors = Array.prototype.slice.call(document.querySelectorAll('.sectors button'));
     sectors.forEach(function (button) {

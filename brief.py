@@ -787,15 +787,39 @@ section{display:flex; flex-direction:column}
   font-weight:500; text-align:right}
 
 /* 오늘의 주목 */
-.cal-months{display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:22px}
-.cal-month h3{margin:0 0 10px; font-size:var(--t-compact); font-weight:600; color:var(--muted);
-  letter-spacing:.04em}
+.cal-nav{display:flex; align-items:center; gap:10px; margin-bottom:12px; flex-wrap:wrap}
+.cal-move{font:inherit; font-size:var(--t-base); color:var(--ink); background:var(--surface);
+  border:1px solid var(--line); border-radius:3px; width:32px; height:30px; cursor:pointer;
+  line-height:1}
+.cal-move:hover:not(:disabled){border-color:var(--rule); color:var(--rule)}
+.cal-move:disabled{opacity:.35; cursor:default}
+.cal-move:focus-visible{outline:2px solid var(--rule); outline-offset:2px}
+.cal-title{font-family:"Gowun Batang",serif; font-size:var(--t-h3); min-width:118px}
+.cal-hint{font-size:var(--t-small); color:var(--muted); margin-left:auto}
+.cal-month[hidden]{display:none}
+.cal-detail:empty{display:none}
+.cal-detail{margin-top:14px; border:1px solid var(--line); border-radius:4px;
+  background:var(--surface); padding:14px 16px; display:flex; flex-direction:column; gap:9px}
+.cal-detail h4{margin:0; font-size:var(--t-compact); color:var(--rule); font-weight:600}
+.cal-detail ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:7px}
+.cal-detail li{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px;
+  font-size:var(--t-base)}
+.cal-detail li b{font-weight:500}
+.cal-detail .code{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted)}
+.cal-detail .meta-num{font-family:"IBM Plex Mono",monospace; font-size:var(--t-small);
+  color:var(--muted); margin-left:auto; font-variant-numeric:tabular-nums}
 .cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:3px}
 .dow{font-size:var(--t-micro); color:var(--muted); text-align:center; padding:4px 0 6px;
   font-weight:600}
 .dow.wk{color:var(--flat)}
-.cell{min-height:56px; border:1px solid var(--line-soft); border-radius:3px; padding:4px 4px 5px;
-  display:flex; flex-direction:column; gap:2px; background:var(--surface)}
+.cell{min-height:58px; border:1px solid var(--line-soft); border-radius:3px; padding:4px 4px 5px;
+  display:flex; flex-direction:column; gap:2px; background:var(--surface); font:inherit;
+  text-align:left; color:inherit}
+button.cell{cursor:pointer}
+button.cell:hover{border-color:var(--rule)}
+button.cell:focus-visible{outline:2px solid var(--rule); outline-offset:1px}
+.cell.picked{border-color:var(--rule); border-width:2px; padding:3px 3px 4px}
 .cell.out{border-color:transparent; background:none}
 .cell.wk{background:var(--zebra)}
 .cell .d{font-family:"IBM Plex Mono",monospace; font-size:var(--t-micro); color:var(--muted);
@@ -1104,51 +1128,65 @@ def html_pick(pick):
 
 
 def html_calendar(prices):
-    """월 격자 달력. 날짜 칸에 그날 실적을 발표하는 종목을 붙인다."""
+    """월 격자 달력. 좌우 버튼으로 달을 넘기고, 날짜를 누르면 아래에 종목 전체 이름이 나온다."""
     days = earnings_by_day(prices)
     if not days:
         return '<p class="empty">예정된 실적 발표가 없습니다.</p>'
     today = datetime.now(KST).date()
+    span = month_span(today)                      # 이번 달과 다음 달만 본다
     names = ["일", "월", "화", "수", "목", "금", "토"]
-    months = []
-    for year, month in month_span(today):
+
+    detail = {}
+    panels = []
+    for index, (year, month) in enumerate(span):
         marked = {day: items for day, items in days.items()
                   if day.year == year and day.month == month}
-        head = "".join(f'<span class="dow{" wk" if index in (0, 6) else ""}">{name}</span>'
-                       for index, name in enumerate(names))
+        head = "".join(f'<span class="dow{" wk" if pos in (0, 6) else ""}">{name}</span>'
+                       for pos, name in enumerate(names))
         cells = []
         for week in calendar_module.Calendar(firstweekday=6).monthdatescalendar(year, month):
-            for index, day in enumerate(week):
+            for pos, day in enumerate(week):
                 if day.month != month:
                     cells.append('<div class="cell out"></div>')
                     continue
                 items = marked.get(day, [])
                 classes = ["cell"]
-                if index in (0, 6):
+                if pos in (0, 6):
                     classes.append("wk")
                 if day == today:
                     classes.append("today")
                 if items:
                     classes.append("has")
+                    detail[day.isoformat()] = [
+                        dict(name=row["name"], ticker=row["ticker"],
+                             group="보유" if row.get("group", "holding") == "holding" else "관심",
+                             cap=cap_text(row),
+                             yield_pct=(f"{row['dividend_yield']:.2f}%"
+                                        if row.get("dividend_yield") else ""))
+                        for row in items]
                 chips = "".join(
-                    f'<span class="tk{" own" if row.get("group", "holding") == "holding" else ""}"'
-                    f' title="{esc(row["name"])}">{esc(row["ticker"])}</span>'
-                    for row in items[:CAL_CHIPS])
+                    f'<span class="tk{" own" if row.get("group", "holding") == "holding" else ""}">'
+                    f'{esc(row["ticker"])}</span>' for row in items[:CAL_CHIPS])
                 if len(items) > CAL_CHIPS:
                     chips += f'<span class="tk more">+{len(items) - CAL_CHIPS}</span>'
-                cells.append(f'<div class="{" ".join(classes)}">'
-                             f'<span class="d">{day.day}</span>{chips}</div>')
-        months.append(f'<div class="cal-month"><h3>{year}년 {month}월'
-                      f'{f" · {len(marked)}일" if marked else ""}</h3>'
+                tag = "button" if items else "div"
+                attrs = (f' type="button" data-day="{day.isoformat()}"' if items else "")
+                cells.append(f'<{tag} class="{" ".join(classes)}"{attrs}>'
+                             f'<span class="d">{day.day}</span>{chips}</{tag}>')
+        panels.append(f'<div class="cal-month" data-month="{index}"'
+                      f'{"" if index == 0 else " hidden"}>'
                       f'<div class="cal-grid">{head}{"".join(cells)}</div></div>')
 
-    upcoming = calendar_rows(prices)
-    soon = ""
-    if upcoming:
-        soon = '<p class="upper-note">가까운 순 — ' + ", ".join(
-            f'<b>{esc(row["name"])}</b>({esc(row["ticker"])}) D-{row["days"]}'
-            for row in upcoming[:6]) + '</p>'
-    return f'<div class="cal-months">{"".join(months)}</div>{soon}'
+    titles = [f"{year}년 {month}월" for year, month in span]
+    return (f'<div class="cal-nav">'
+            f'<button type="button" class="cal-move" data-step="-1" disabled>←</button>'
+            f'<b class="cal-title">{titles[0]}</b>'
+            f'<button type="button" class="cal-move" data-step="1">→</button>'
+            f'<span class="cal-hint">날짜를 누르면 종목 이름이 아래에 나옵니다</span></div>'
+            f'{"".join(panels)}'
+            f'<div class="cal-detail" id="cal-detail"></div>'
+            f'<script type="application/json" id="cal-data">'
+            f'{json.dumps(dict(detail=detail, titles=titles), ensure_ascii=False)}</script>')
 
 
 def html_dividend(prices):
@@ -1415,6 +1453,65 @@ def render_html(now, prices, news):
     {news_off_note(by_name, news)}
   </section>
   <script>
+  (function () {{
+    // 실적 달력: 좌우 버튼으로 달을 넘기고, 날짜를 누르면 아래에 종목 전체 이름을 펼친다.
+    var box = document.getElementById("cal-data");
+    if (!box) {{ return; }}
+    var data = JSON.parse(box.textContent);
+    var months = Array.prototype.slice.call(document.querySelectorAll(".cal-month"));
+    var title = document.querySelector(".cal-title");
+    var detail = document.getElementById("cal-detail");
+    var at = 0;
+
+    function show(index) {{
+      at = Math.max(0, Math.min(months.length - 1, index));
+      months.forEach(function (panel, order) {{ panel.hidden = order !== at; }});
+      title.textContent = data.titles[at];
+      document.querySelectorAll(".cal-move").forEach(function (button) {{
+        var step = parseInt(button.dataset.step, 10);
+        button.disabled = at + step < 0 || at + step > months.length - 1;
+      }});
+    }}
+
+    function pick(day) {{
+      var rows = data.detail[day] || [];
+      document.querySelectorAll(".cell.picked").forEach(function (cell) {{
+        cell.classList.remove("picked");
+      }});
+      var cell = document.querySelector('.cell[data-day="' + day + '"]');
+      if (cell) {{ cell.classList.add("picked"); }}
+      if (!rows.length) {{ detail.innerHTML = ""; return; }}
+      var parts = rows.map(function (row) {{
+        var extra = row.yield_pct ? " · 배당 " + row.yield_pct : "";
+        return '<li><b>' + row.name + '</b>'
+             + '<span class="code">' + row.ticker + '</span>'
+             + '<span class="chip">' + row.group + '</span>'
+             + '<span class="meta-num">' + row.cap + extra + '</span></li>';
+      }});
+      detail.innerHTML = '<h4>' + day + ' · ' + rows.length + '종목 실적 발표</h4>'
+                       + '<ul>' + parts.join("") + '</ul>';
+    }}
+
+    document.querySelectorAll(".cal-move").forEach(function (button) {{
+      button.addEventListener("click", function () {{
+        show(at + parseInt(button.dataset.step, 10));
+      }});
+    }});
+    document.querySelectorAll("button.cell[data-day]").forEach(function (cell) {{
+      cell.addEventListener("click", function () {{ pick(cell.dataset.day); }});
+    }});
+
+    show(0);
+    // 처음에는 앞으로 가장 가까운 발표일을 펼쳐 둔다. 빈 칸으로 시작하지 않게.
+    var today = new Date().toISOString().slice(0, 10);
+    var next = Object.keys(data.detail).sort().filter(function (day) {{ return day >= today; }})[0];
+    if (next) {{
+      pick(next);
+      months.forEach(function (panel, order) {{
+        if (panel.querySelector('.cell[data-day="' + next + '"]')) {{ show(order); }}
+      }});
+    }}
+  }})();
   (function () {{
     var sectors = Array.prototype.slice.call(document.querySelectorAll('.sectors button'));
     sectors.forEach(function (button) {{
