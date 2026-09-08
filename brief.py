@@ -342,6 +342,14 @@ CAL_MONTHS = 2         # 달력에 그릴 개월 수
 CAL_CHIPS = 3          # 한 칸에 보여줄 종목 수
 
 
+def chip_label(row, limit=7):
+    """달력 칸에 넣을 짧은 이름. 국내 종목은 숫자 코드가 의미 없어 종목명을 쓴다."""
+    if row["currency"] != "KRW":
+        return row["ticker"]
+    name = row["name"]
+    return name if len(name) <= limit else name[:limit - 1] + "…"
+
+
 def earnings_by_day(prices):
     """실적 발표일을 날짜별로 묶는다. 시총이 큰 종목이 앞에 오게 한다."""
     days = {}
@@ -393,7 +401,7 @@ def calendar_lines(prices):
                 label = f"**{day.day}**" if day == today else str(day.day)
                 items = marked.get(day)
                 if items:
-                    names = " ".join(f"`{row['ticker']}`" for row in items[:CAL_CHIPS])
+                    names = " ".join(f"`{chip_label(row)}`" for row in items[:CAL_CHIPS])
                     extra = f" +{len(items) - CAL_CHIPS}" if len(items) > CAL_CHIPS else ""
                     label += f"<br>{names}{extra}"
                 cells.append(label)
@@ -834,6 +842,7 @@ button.cell:focus-visible{outline:2px solid var(--rule); outline-offset:1px}
 /* 보유 종목은 테두리를 강조해 관심 종목과 구분한다. */
 .tk.own{border-color:var(--rule); color:var(--rule); font-weight:500}
 .tk.more{border-style:dashed; color:var(--muted)}
+.tk.kr{font-family:"IBM Plex Sans KR",sans-serif; font-size:9px; letter-spacing:-.02em}
 @media (max-width:720px){
   .cal-months{grid-template-columns:1fr; gap:18px}
   .cell{min-height:48px}
@@ -992,7 +1001,7 @@ def html_rows(rows, scale, with_nxt=False, prices=None):
 
 
 SECTOR_ORDER = ["AI·반도체", "AI 인프라·데이터센터", "빅테크·소프트웨어", "전력·에너지",
-                "산업·인프라", "소재·자원", "우주·방산·모빌리티", "금융·핀테크",
+                "산업·인프라", "조선·기계", "소재·자원", "우주·방산·모빌리티", "금융·핀테크",
                 "헬스케어·바이오", "소비·배당", "기타"]
 
 
@@ -1165,8 +1174,9 @@ def html_calendar(prices):
                                         if row.get("dividend_yield") else ""))
                         for row in items]
                 chips = "".join(
-                    f'<span class="tk{" own" if row.get("group", "holding") == "holding" else ""}">'
-                    f'{esc(row["ticker"])}</span>' for row in items[:CAL_CHIPS])
+                    f'<span class="tk{" own" if row.get("group", "holding") == "holding" else ""}'
+                    f'{" kr" if row["currency"] == "KRW" else ""}">'
+                    f'{esc(chip_label(row))}</span>' for row in items[:CAL_CHIPS])
                 if len(items) > CAL_CHIPS:
                     chips += f'<span class="tk more">+{len(items) - CAL_CHIPS}</span>'
                 tag = "button" if items else "div"
@@ -1352,20 +1362,39 @@ def render_html(now, prices, news):
                         f'{fx["average"]:+.2f}%지만, 환율 {fx["change_pct"]:+.2f}%를 반영한 '
                         f'<b>원화 기준으로는 {fx["won_average"]:+.2f}%</b>입니다.</p>')
 
-    sectors = by_sector(watch)
+    watch_world = [row for row in watch if row["currency"] != "KRW"]
+    watch_korea = [row for row in watch if row["currency"] == "KRW"]
+    sectors = by_sector(watch_world)
+    korea_sectors = by_sector(watch_korea)
     sector_buttons = "".join(
         f'<button type="button" role="tab" data-sector="{sector_id(name)}" '
         f'aria-selected="{"true" if index == 0 else "false"}">{esc(name)}'
         f'<span class="count">{len(items)}</span></button>'
         for index, (name, items) in enumerate(sectors))
     sector_buttons = (f'<button type="button" role="tab" data-sector="sec-all" '
-                      f'aria-selected="false">전체<span class="count">{len(watch)}</span></button>'
+                      f'aria-selected="false">전체'
+                      f'<span class="count">{len(watch_world)}</span></button>'
                       + sector_buttons)
     sector_panels = "".join(
         f'<div class="sector-panel" id="{sector_id(name)}"{"" if index == 0 else " hidden"}>'
         f'{html_watch(items)}</div>'
         for index, (name, items) in enumerate(sectors))
-    sector_panels += f'<div class="sector-panel" id="sec-all" hidden>{html_watch(watch)}</div>'
+    sector_panels += f'<div class="sector-panel" id="sec-all" hidden>{html_watch(watch_world)}</div>'
+
+    korea_buttons = "".join(
+        f'<button type="button" role="tab" data-sector="{sector_id("kr" + name)}" '
+        f'aria-selected="{"true" if index == 0 else "false"}">{esc(name)}'
+        f'<span class="count">{len(items)}</span></button>'
+        for index, (name, items) in enumerate(korea_sectors))
+    korea_buttons = (f'<button type="button" role="tab" data-sector="sec-kr-all" '
+                     f'aria-selected="false">전체'
+                     f'<span class="count">{len(watch_korea)}</span></button>' + korea_buttons)
+    korea_panels = "".join(
+        f'<div class="sector-panel" id="{sector_id("kr" + name)}"{"" if index == 0 else " hidden"}>'
+        f'{html_watch(items)}</div>'
+        for index, (name, items) in enumerate(korea_sectors))
+    korea_panels += (f'<div class="sector-panel" id="sec-kr-all" hidden>'
+                     f'{html_watch(watch_korea)}</div>')
 
     warn = ""
     if problems:
@@ -1408,16 +1437,23 @@ def render_html(now, prices, news):
       <button type="button" role="tab" id="tab-own" aria-controls="panel-own" aria-selected="true"
               data-panel="panel-own">보유 종목<span class="count">{len(holdings)}</span></button>
       <button type="button" role="tab" id="tab-watch" aria-controls="panel-watch" aria-selected="false"
-              data-panel="panel-watch">관심 종목<span class="count">{len(watch)}</span></button>
+              data-panel="panel-watch">관심 종목<span class="count">{len(watch_world)}</span></button>
+      <button type="button" role="tab" id="tab-korea" aria-controls="panel-korea" aria-selected="false"
+              data-panel="panel-korea">한국 관심종목<span class="count">{len(watch_korea)}</span></button>
     </div>
     <div class="panel" id="panel-own" role="tabpanel" aria-labelledby="tab-own">
       <div><p class="subhead">국내</p>{html_rows(korea, scale, with_nxt=True)}</div>
       <div><p class="subhead">해외 · 종가 아래는 원화 환산</p>{html_rows(world, scale, prices=prices)}</div>
     </div>
     <div class="panel" id="panel-watch" role="tabpanel" aria-labelledby="tab-watch" hidden>
-      <p class="subhead">관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
+      <p class="subhead">해외 관심 종목 · 가격과 지표만 봅니다 (뉴스는 보유 종목만 수집)</p>
       <div class="sectors" role="tablist">{sector_buttons}</div>
       {sector_panels}
+    </div>
+    <div class="panel" id="panel-korea" role="tabpanel" aria-labelledby="tab-korea" hidden>
+      <p class="subhead">한국 관심 종목 · KRX 종가 기준, NXT 종가 병기</p>
+      <div class="sectors" role="tablist">{korea_buttons}</div>
+      {korea_panels}
     </div>
   </section>
 
@@ -1615,8 +1651,15 @@ def main():
     lines += ["", "## 보유 종목 · 해외", ""] + table(world)
     lines += ["", f"## 관심 종목 ({len(watch)})", "",
               "가격과 지표만 봅니다. 뉴스는 보유 종목만 수집합니다.", ""]
-    for sector_name, items in by_sector(watch):
-        lines += [f"### {sector_name} ({len(items)})", ""] + watch_table(items) + [""]
+    world = [row for row in watch if row["currency"] != "KRW"]
+    korea = [row for row in watch if row["currency"] == "KRW"]
+    lines += [f"### 해외 ({len(world)})", ""]
+    for sector_name, items in by_sector(world):
+        lines += [f"#### {sector_name} ({len(items)})", ""] + watch_table(items) + [""]
+    if korea:
+        lines += [f"### 한국 ({len(korea)})", ""]
+        for sector_name, items in by_sector(korea):
+            lines += [f"#### {sector_name} ({len(items)})", ""] + watch_table(items) + [""]
     lines += [""] + pick_lines(recommendation())
     lines += spotlight_lines(prices)
     lines += calendar_lines(prices)
