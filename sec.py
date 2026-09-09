@@ -11,6 +11,7 @@
   TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID   없으면 화면에만 출력한다.
   SEC_USER_AGENT   SEC는 연락처가 든 User-Agent를 요구한다.
 """
+import html
 import json
 import os
 import re
@@ -95,6 +96,7 @@ def company_filings(cik, forms):
         rows.append(dict(form=form, date=recent["filingDate"][index],
                          accession=recent["accessionNumber"][index],
                          doc=recent["primaryDocument"][index],
+                         items=(recent.get("items") or [""] * len(recent["form"]))[index],
                          desc=(recent.get("primaryDocDescription") or [""] * len(recent["form"]))[index],
                          company=payload["name"], cik=cik))
     return rows
@@ -121,6 +123,99 @@ TRADE_CODE = {
     "D": ("회사 반환", "회사에 반환"),
 }
 SIGNAL_CODES = ("P", "S")     # 이 둘만 매매 신호로 본다
+
+# 8-K 항목 코드. EDGAR가 공시마다 알려주므로 이것만으로도 무슨 일인지 대충 잡힌다.
+ITEM_LABEL = {
+    "1.01": "중요 계약 체결", "1.02": "중요 계약 종료", "1.03": "파산·법정관리",
+    "1.05": "사이버 보안 사고",
+    "2.01": "자산 인수·매각 완료", "2.02": "실적 발표", "2.03": "채무 발생",
+    "2.04": "채무 조기 상환 의무", "2.05": "구조조정 비용", "2.06": "자산 손상차손",
+    "3.01": "상장 규정 위반·상장폐지", "3.02": "미등록 주식 발행", "3.03": "주주 권리 변경",
+    "4.01": "회계법인 교체", "4.02": "과거 재무제표 신뢰 불가",
+    "5.01": "경영권 변동", "5.02": "임원·이사 변동", "5.03": "정관 변경",
+    "5.07": "주주총회 결과", "5.08": "주주 제안",
+    "7.01": "정보 공개(Reg FD)", "8.01": "기타 중요 사항", "9.01": "재무제표·첨부자료",
+}
+# 주가에 영향이 큰 항목. 이게 있으면 본문 요약까지 받는다.
+ITEM_KEY = {"1.01", "1.02", "1.03", "1.05", "2.01", "2.02", "2.05", "2.06",
+            "3.01", "4.01", "4.02", "5.01", "5.02"}
+BODY_CHARS = 3500
+
+
+def item_labels(raw):
+    """8-K 항목 코드를 한국어 이름으로. 모르는 코드는 번호 그대로 둔다."""
+    codes = [code.strip() for code in (raw or "").split(",") if code.strip()]
+    return codes, [f"{code} {ITEM_LABEL[code]}" if code in ITEM_LABEL else code
+                   for code in codes]
+
+
+def document_text(row):
+    """공시 본문을 텍스트로. 표지·법적 문구가 많아 뒤쪽 실제 내용까지 넉넉히 가져온다."""
+    plain = row["accession"].replace("-", "")
+    url = (f"https://www.sec.gov/Archives/edgar/data/{row['cik']}/{plain}/"
+           f"{row['doc']}")
+    page = get(url).decode("utf-8", "replace")
+    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", page, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", html.unescape(text)).strip()
+    # 표지 상단(회사 주소·CIK 등)은 잘라 내고 실제 항목부터 본다.
+    start = re.search(r"Item\s+\d+\.\d+", text)
+    if start:
+        text = text[start.start():]
+    return text[:BODY_CHARS]
+
+
+def explain(row, labels):
+    """8-K 본문을 한국어로 풀어 준다. 법률 영어라 그대로 읽기 어렵다."""
+    try:
+        from summarize import SCHEMA_ONLY_MARKER, ask, load_env, providers
+        load_env()          # sec.py를 단독 실행할 때도 .env의 키를 읽게 한다
+    except Exception as exc:
+        print(f"[경고] 요약 모듈 로드 실패: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return None
+    chain = providers()
+    if not chain:
+        print("[알림] 제공처가 없어 8-K 요약을 건너뜁니다.", file=sys.stderr)
+        return None
+    try:
+        body = document_text(row)
+    except Exception as exc:
+        print(f"[경고] 본문 조회 실패 {row['item']['ticker']}: {type(exc).__name__}: {exc}",
+              file=sys.stderr)
+        return None
+    if len(body) < 200:
+        print(f"[알림] {row['item']['ticker']} 본문이 {len(body)}자뿐이라 요약을 건너뜁니다.",
+              file=sys.stderr)
+        return None
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "summary": {"type": "string"},
+            "impact": {"type": "string"},
+        },
+        "required": ["summary", "impact"],
+        "additionalProperties": False,
+    }
+    instructions = (
+        "너는 미국 기업 공시(8-K)를 한국 개인 투자자에게 풀어 준다.\n"
+        "- summary: 무슨 일이 있었는지 2~3문장. 본문에 나온 이름·날짜·금액을 그대로 인용한다.\n"
+        "- impact: 이 종목 주가에 어떤 의미인지 1~2문장. 단정하지 말고 근거를 들어 말한다.\n"
+        "규칙: 본문에 없는 내용을 지어내지 않는다. 표지나 법적 상용구뿐이고 실질 내용이 없으면 "
+        "summary에 그렇게 적는다. 매수·매도를 권하지 않는다. 한국어로 쓴다.")
+    payload = (f"회사: {row['item']['name']} ({row['item']['ticker']})\n"
+               f"항목: {', '.join(labels) or '미표기'}\n\n{body}")
+    try:
+        result, used_in, used_out, _, provider = ask(
+            chain, 0, payload, instructions=instructions, schema=schema,
+            marker=SCHEMA_ONLY_MARKER)
+    except Exception as exc:
+        print(f"[경고] 8-K 요약 실패 {row['item']['ticker']}: "
+              f"{type(exc).__name__}: {str(exc)[:200]}", file=sys.stderr)
+        return None
+    result["usage"] = (used_in, used_out)
+    result["provider"] = provider
+    return result
 
 
 def insider_detail(row):
@@ -333,8 +428,18 @@ def company_message(row):
         if not signal and detail.get("trades"):
             lines.append("<i>보상 수령·세금 납부 등으로, 본인 판단의 매매가 아닙니다.</i>")
     else:
+        codes, labels = item_labels(row.get("items"))
         lines.append(f"{row['form']} · 접수 {row['date']}")
-        if row.get("desc"):
+        if labels:
+            lines.append("· " + " / ".join(esc(text) for text in labels))
+        # 주가에 영향이 큰 항목만 본문을 읽어 한국어로 풀어 준다.
+        if row["form"] == "8-K" and (set(codes) & ITEM_KEY or not codes):
+            told = explain(row, labels)
+            if told:
+                lines.append(f"\n{esc(told['summary'])}")
+                lines.append(f"→ {esc(told['impact'])}")
+                row["usage"] = told.get("usage")
+        elif row.get("desc"):
             lines.append(esc(row["desc"])[:120])
 
     lines.append(f'<a href="{filing_url(row)}">공시 원문</a>')
