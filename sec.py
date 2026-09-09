@@ -17,6 +17,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
@@ -37,7 +38,9 @@ PAUSE = 0.15
 # 매번 다시 알림이 나간다. 그래서 '언제 확인했는지'를 기준으로 오래 보관한다.
 KEEP_DAYS = 400
 KEEP_MAX = 5000
-MAX_NOTIFY = 12
+# 한꺼번에 많이 보낼 때 텔레그램이 429로 막는다. 간격을 두고, 막히면 알려 준 만큼 기다린다.
+SEND_GAP = 1.2
+SEND_RETRY = 4
 
 
 def get(url, retries=3):
@@ -432,8 +435,8 @@ def company_message(row):
         lines.append(f"{row['form']} · 접수 {row['date']}")
         if labels:
             lines.append("· " + " / ".join(esc(text) for text in labels))
-        # 주가에 영향이 큰 항목만 본문을 읽어 한국어로 풀어 준다.
-        if row["form"] == "8-K" and (set(codes) & ITEM_KEY or not codes):
+        # 8-K는 항목을 가리지 않고 모두 한국어로 풀어 준다.
+        if row["form"] == "8-K":
             told = explain(row, labels)
             if told:
                 lines.append(f"\n{esc(told['summary'])}")
@@ -473,14 +476,33 @@ def send(messages):
         for text in messages:
             print("---\n" + re.sub(r"<[^>]+>", "", text))
         return
-    for text in messages:
+    for order, text in enumerate(messages, 1):
         payload = json.dumps(dict(chat_id=chat, text=text, parse_mode="HTML",
                                   disable_web_page_preview=True)).encode()
-        request = urllib.request.Request(
-            f"https://api.telegram.org/bot{token}/sendMessage", data=payload,
-            headers={"Content-Type": "application/json"})
-        urllib.request.urlopen(request, timeout=30)
-        time.sleep(0.4)
+        for attempt in range(1, SEND_RETRY + 1):
+            try:
+                request = urllib.request.Request(
+                    f"https://api.telegram.org/bot{token}/sendMessage", data=payload,
+                    headers={"Content-Type": "application/json"})
+                urllib.request.urlopen(request, timeout=30)
+                break
+            except urllib.error.HTTPError as error:
+                if error.code != 429 or attempt == SEND_RETRY:
+                    print(f"[경고] {order}번째 메시지 전송 실패: HTTP {error.code}",
+                          file=sys.stderr)
+                    break
+                # 텔레그램이 몇 초 기다리라고 알려 준다. 그만큼 쉬었다 다시 보낸다.
+                try:
+                    wait = json.loads(error.read()).get("parameters", {}).get("retry_after", 5)
+                except Exception:
+                    wait = 5
+                print(f"    전송 제한, {wait}초 대기 ({order}/{len(messages)})", file=sys.stderr)
+                time.sleep(wait + 1)
+            except Exception as exc:
+                print(f"[경고] {order}번째 메시지 전송 실패: {type(exc).__name__}",
+                      file=sys.stderr)
+                break
+        time.sleep(SEND_GAP)
 
 
 def main():
@@ -503,13 +525,9 @@ def main():
     for row in investors:                      # 13F를 먼저 보낸다. 건수가 적고 중요도가 높다.
         messages.append(investor_message(row))
         marked.append(row)
-    for row in companies[:MAX_NOTIFY]:
+    for row in companies:
         messages.append(company_message(row))
         marked.append(row)
-    if len(companies) > MAX_NOTIFY:
-        messages.append(f"<i>이 밖에 {len(companies) - MAX_NOTIFY}건이 더 있습니다. "
-                        f"너무 많아 생략했습니다.</i>")
-        marked.extend(companies[MAX_NOTIFY:])
 
     if not messages:
         print("보낼 새 공시가 없습니다.")
