@@ -1,17 +1,137 @@
 {
-  "generated_at": "2026-09-09T07:48:39+09:00",
+  "generated_at": "2026-09-10T07:40:40+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#1/gpt-5.6-luna + OpenAI#2/gpt-5.6-luna",
+  "model": "OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 6500,
-    "output_tokens": 5446
+    "input_tokens": 5636,
+    "output_tokens": 4120
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "잘나가는반도체9월노사분수령삼성은노조재편하이닉스는재투표": {
+      "title": "잘 나가는 반도체, 9월 노사 분수령…삼성은 노조 재편·하이닉스는 재투표",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "AI와 HBM 호황으로 반도체 실적이 개선되는 가운데 SK하이닉스에서는 성과급의 자사주 지급 비중을 둘러싼 갈등이 커졌다. 올해 임단협 잠정합의안은 불과 25표 차로 부결됐으며, 9월 15~16일 재투표가 예정돼 추석 전 타결 여부가 분수령이 될 전망이다.",
+      "impact": "임단협 재투표와 성과 배분 갈등이 장기화되면 인건비 부담과 생산 차질, 노사관계 불확실성이 커질 수 있다. 다만 재투표가 예정돼 있고 파업이나 실제 생산 차질이 확정된 것은 아니어서 영향은 제한적으로 판단된다.",
+      "caution": "본문에는 재투표 결과나 파업 돌입 여부가 제시되지 않았으며, 기사 일부가 중간에 끊겨 있어 후속 협상 내용을 확인할 필요가 있다."
+    },
+    "월70만원타려다사기죄까지삼성전자월세꼼수100명넘": {
+      "title": "“월 70만원 타려다 사기죄까지?”…삼성전자 ‘월세 꼼수’ 100명 넘...",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자 평택사업장 일부 직원들이 월 최대 70만원의 주거비 지원금을 받기 위해 실제 임대 조건과 다른 계약서를 제출했다는 의혹이 제기됐다. 삼성전자는 100명 이상을 대상으로 사실관계를 확인 중이며, 사내에서는 연루자가 200명 안팎이라는 주장도 나오지만 회사는 조사 인원과 부정수급 규모를 공식 발표하지 않았다.",
+      "impact": "부정수급이 확인되면 지원금 환수와 중징계, 사기죄 논란으로 이어져 삼성전자의 내부통제와 기업 평판에 부담이 될 수 있다. 다만 현재는 의혹 조사 단계로 회사 차원의 직접적인 재무 영향은 확정되지 않았다.",
+      "caution": "조사 대상에 포함됐다는 사실만으로 부정수급이 확정된 것은 아니며, 직원별 허위 기재 여부와 고의성을 개별적으로 판단해야 한다."
+    },
+    "제조업버팀목조선철강덮친파업납기투자차질우려": {
+      "title": "韓 제조업 버팀목 '조선·철강' 덮친 파업…납기·투자 차질 우려↑",
+      "holding": "HD현대중공업",
+      "stance": "악재",
+      "summary": "HD현대중공업 노조는 2025년 임단협에서 합의점을 찾지 못해 4년 연속 파업에 들어갔고, 9월 10일까지 순환 파업을 진행한 뒤 15일 전체 조합원 4시간 부분 파업을 예고했다. 노조는 기본급 14만9600원 인상과 영업이익 최소 30% 성과 공유 등을 요구했으며, 회사의 1·2차 제시안도 거부했다.",
+      "impact": "파업이 지속되면 선박 생산과 납기 준수에 차질이 발생하고, 인건비 및 협상 비용이 늘어 HD현대중공업의 수익성과 고객 신뢰에 부담을 줄 수 있다. 수주 호황과 미래 투자가 진행되는 시점의 노사 갈등이라는 점도 투자 불확실성을 키운다.",
+      "caution": "기사에는 실제 생산 중단 규모나 납기 지연이 확정됐다는 내용은 없으며, 추가 협상으로 파업이 조기에 종료될 가능성도 있다."
+    },
+    "vistraceoburkebuys6665shares": {
+      "title": "Vistra CEO Burke Buys 6,665 Shares",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "Vistra의 사장 겸 CEO James A. Burke는 2026년 8월 31일과 9월 1일 가중평균 주당 135.49달러에 자사 보통주 6665주를 매입했다. 거래 금액은 90만3041달러이며, 매입 후 직접 보유 주식은 6만1690주, 간접 보유 주식은 120만주로 기재됐다.",
+      "impact": "최고경영자가 약 90만달러 규모로 자사주를 매입한 것은 회사 주가와 사업 전망에 대한 경영진의 자신감 신호로 해석될 수 있다. 이는 비스트라 에너지에 대한 투자심리를 개선하는 요인이다.",
+      "caution": "내부자 매수만으로 실적 개선이나 주가 상승이 보장되지는 않으며, 간접 보유분과 거래 구조의 구체적인 목적은 기사에서 충분히 설명되지 않았다."
+    },
+    "eosenergyenterpriseseoseinsidersetstaxdrivenstocksaleplan": {
+      "title": "Eos Energy Enterprises (EOSE) insider sets tax-driven stock sale plan",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "Eos Energy Enterprises의 이사급 보유자 Sumeet Puri는 2026년 9월 5일 RSU 베스팅에 따라 취득할 예정인 EOSE 주식 3만4167주를 Rule 10b5-1 계획에 따라 매도할 예정이다. 이는 예상 세금 원천징수 의무를 충당하기 위한 매도로 설명됐으며, 그는 앞서 2026년 6월 30일 8823주를 5만1693.07달러에, 7월 28일 2만9167주를 9만7922.37달러에 매도했다.",
+      "impact": "예정된 매도는 세금 납부 목적의 사전 계획 거래로 제시돼 회사의 사업 전망 변화나 내부자의 부정적 판단을 직접 의미하지 않는다. 다만 실제 매도 물량이 시장에 출회되면 단기적으로 수급 부담이 생길 가능성은 있다.",
+      "caution": "Rule 10b5-1 계획에 따른 세금 관련 매도라는 설명 외에 회사의 실적이나 가치에 관한 긍정·부정 정보는 기사에 없다."
+    },
+    "whatinvestorsneedtounderstandaboutbroadcomcredoandsnowflakeearnings": {
+      "title": "What Investors Need To Understand About Broadcom, Credo and Snowflake Earnings",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "기사에서는 Broadcom, Credo Technology Group, Snowflake가 대규모 실적 전망치 상회를 기록한 배경과 이것이 AI 투자 흐름에 시사하는 점을 다룬다고 소개했다. 2026년 9월 9일 공개된 AI Investor Podcast에서 Credo를 포함한 세 기업의 실적과 AI 관련 주식 흐름을 논의했다.",
+      "impact": "Credo Technology Group의 실적이 시장 예상치를 크게 웃돌았다는 내용은 AI 인프라 수요와 관련 제품에 대한 투자심리를 개선할 수 있다. 이는 크레도 테크놀로지의 성장 기대와 밸류에이션에 긍정적으로 작용할 여지가 있다.",
+      "caution": "본문은 팟캐스트 소개 수준으로, Credo의 매출·이익·전망치 상회 폭 등 구체적인 실적 수치를 제공하지 않는다."
+    },
+    "doamazonandalphabetscombined420billionincapitalexpendituresmakesense": {
+      "title": "Do Amazon and Alphabet's Combined $420 Billion in Capital Expenditures Make Sense?",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "Amazon은 2026년 데이터센터 자본지출로 약 2200억달러를 계획하고 있으며, Alphabet은 1950억~2050억달러를 제시했고 2026년 매 분기 가이던스를 상향해 실제 지출이 중간값 2000억달러를 웃돌 수 있다. 이 같은 대규모 투자는 컴퓨팅 능력을 확대하지만, 투자자에게 배당으로 지급할 수 있었던 자금이라는 기회비용도 함께 제기됐다.",
+      "impact": "Alphabet의 대규모 자본지출은 AI 및 데이터센터 역량을 확대해 검색·클라우드·AI 서비스의 장기 경쟁력을 높일 수 있다. 반면 감가상각과 현금흐름 부담, 배당 여력 감소가 커질 수 있어 단기 주주가치에는 긍정과 부정 요인이 공존한다.",
+      "caution": "기사에는 해당 투자의 실제 수익률이나 Alphabet의 구체적인 이익·현금흐름 전망이 제시되지 않아 방향성을 단정하기 어렵다."
+    },
+    "howfarcouldciscostockfallwithitsfastestgrowthridingonhyperscalers": {
+      "title": "How Far Could Cisco Stock Fall With Its Fastest Growth Riding On Hyperscalers?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "Cisco Systems 주가는 약 109달러로 52주 고점보다 16% 낮고, 최근 한 달간 10.1% 하락했지만 최근 12개월 기준으로는 66.6% 상승했다. 회계연도 2026년 매출은 사상 최대인 633억달러였고, 경영진은 회계연도 2027년 매출이 720억달러를 넘을 것으로 전망했으나 핵심 우려는 마진이었다.",
+      "impact": "Cisco의 데이터센터와 하이퍼스케일러 관련 성장 및 매출 전망은 네트워크 장비 업황을 보여주는 참고 자료가 될 수 있다. 그러나 이 기사는 Cisco Systems의 주가와 실적을 다룬 것으로, 알파벳의 매출이나 이익에 직접 영향을 주는 사건은 아니다.",
+      "caution": "보유 종목인 알파벳이 아닌 Cisco Systems가 기사 주제이며, 알파벳의 사업·실적·주가에 관한 직접적인 내용은 본문에 없다."
+    },
+    "whyvertivholdingscovrtdippedmorethanbroadermarkettoday": {
+      "title": "Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스(VRT)는 최근 거래일에 262.89달러로 마감하며 전 거래일 대비 9.61% 하락했고, 같은 날 S&P 500의 하락률 0.48%, 다우지수 0.77%, 나스닥 0.64%보다 부진했다. 다만 지난 한 달 동안 주가는 3.2% 상승했으며, 시장은 회사의 upcoming 실적 발표와 EPS에 주목하고 있다.",
+      "impact": "시장 대비 큰 폭의 주가 하락은 단기 투자심리와 보유 가치에 부정적이다. 그러나 기사에는 하락 원인이나 실적 전망의 구체적 내용이 없어 실적 발표 전까지 악재의 지속 여부는 불확실하다.",
+      "caution": "본문이 실적 발표 예고 부분에서 끊겨 있어 주가 급락의 구체적 원인과 EPS 전망을 확인할 수 없다."
+    },
+    "ubsseesastructuralshiftbuildingatlockheedmartin": {
+      "title": "UBS sees a structural shift building at Lockheed Martin",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "2026년 상반기 월가는 국방부 최대 공급업체인 록히드마틴에 대해 우려를 키웠고, 수주잔고가 증가하는 가운데 주가도 하락했다. 고정가 계약과 생산 지연이 과거 이익을 압박했지만, UBS는 9월 8일 이러한 우려가 곧 빗나갈 수 있다고 평가했으며, 주가는 3월 약 692달러의 사상 최고가를 기록한 뒤 크게 조정됐다.",
+      "impact": "UBS의 긍정적 견해가 맞다면 고정가 계약과 생산 지연에 따른 수익성 우려가 완화돼 록히드마틴의 밸류에이션과 주가 회복에 도움이 될 수 있다. 특히 증가하는 수주잔고가 실적 개선으로 연결될 것이라는 기대를 강화한다.",
+      "caution": "기사 본문이 중간에 끊겨 UBS가 제시한 구체적인 근거와 목표주가, 생산·수익성 전망은 확인할 수 없다."
+    },
+    "canmicrosoftstockkeepearninglikethis": {
+      "title": "Can Microsoft Stock Keep Earning Like This?",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "마이크로소프트는 최근 수년 중 가장 수익성이 높은 기간을 보냈으며, 주가는 493.95달러로 52주 최고가의 약 92% 수준이다. 최근 12개월 순이익률은 40.3%로 5년 이상 기간 중 최고치이고, 영업이익률은 46.8%, 매출은 전년 대비 17.8% 증가한 3,318억달러였지만 지출 증가가 계속되고 회사는 회계연도 2027년에 미칠 영향을 주주들에게 예고했다.",
+      "impact": "높은 마진과 17.8%의 매출 성장은 마이크로소프트의 사업 및 이익 창출력이 견조하다는 점에서 보유 종목에 긍정적이다. 다만 AI·성장 투자를 포함한 지출 증가가 향후 마진과 이익 성장률을 압박할 수 있어 강한 호재로 보기는 어렵다.",
+      "caution": "본문에 지출 증가의 규모와 회계연도 2027년 이익에 미칠 구체적인 영향이 제시되지 않았다."
+    },
+    "3reasonstosellnkeand1stocktobuyinstead": {
+      "title": "3 Reasons to Sell NKE and 1 Stock to Buy Instead",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "나이키 주가는 2026년 3월 이후 6개월 동안 32.7% 하락해 52주 신저가인 38.05달러를 기록했다. 기사 작성자는 가격이 낮아졌음에도 나이키에 신중한 입장이라며 NKE를 피해야 할 세 가지 이유와 대신 매수할 한 종목을 제시하겠다고 밝혔다.",
+      "impact": "주가의 큰 폭 하락과 매도 권고는 나이키의 실적·사업 전망에 대한 투자자 신뢰가 약하다는 신호로, 보유 주식의 평가가치와 투자심리에 부정적이다. 특히 기사에서 소비재·신발 기업의 고정환율 매출을 분석 대상으로 삼고 있어 매출 성장 둔화 우려가 핵심 악재일 가능성이 있다.",
+      "caution": "본문이 고정환율 매출 분석 부분에서 끊겨 있어 매도를 권고한 세부적인 세 가지 이유와 실제 실적 근거는 확인할 수 없다."
+    },
+    "novonordisksbalancingactbuybacksandbrazilpricecutsmeetacardiologysetback": {
+      "title": "Novo Nordisk's Balancing Act: Buybacks and Brazil Price Cuts Meet a Cardiology Setback",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보 노디스크는 2026년 8월 31일부터 9월 4일까지 B주 1,055,000주를 매입했으며, 2월 4일 시작된 150억 덴마크크로네 규모의 12개월 자사주 매입 프로그램 아래 총 32,034,179주를 평균 281.63크로네에 매입했다. 반면 Ziltivekimab의 차질과 경쟁 심화가 전망을 흐리고 있으며, 주가는 54.86유로의 52주 고점 대비 약 30% 낮은 38.54유로에 거래되고 있다.",
+      "impact": "자사주 매입은 경영진이 저평가를 인식하고 주주환원을 강화한다는 점에서 노보 노디스크 주가에 긍정적이다. 그러나 심혈관 치료제 후보의 차질과 경쟁 심화는 신약 파이프라인과 향후 성장 기대를 훼손할 수 있어 긍정·부정 요인이 상쇄된다.",
+      "caution": "기사에 제시된 정보만으로 Ziltivekimab 차질의 구체적인 임상 결과나 매출 영향을 판단하기 어렵고, 자사주 매입이 실제 주가 반등으로 이어질지도 확실하지 않다."
+    },
+    "mauricesannouncessuccessfulrefinancingandexpandedlendingpartnership": {
+      "title": "Maurices Announces Successful Refinancing and Expanded Lending Partnership",
+      "holding": "블루아울 캐피털",
+      "stance": "중립",
+      "summary": "여성 의류 소매업체 Maurices는 2026년 9월 9일 성공적인 차환 거래를 완료했다고 발표했다. 이번 거래에는 기존 대주단인 Wingspire Capital과 Tiger Finance에 Second Avenue Capital Partners가 합류했으며, 만기 연장과 차입비용 인하를 통해 재무 유연성을 높일 것으로 기대된다.",
+      "impact": "차환이 Maurices의 재무 부담을 낮추고 운영을 지원한다면 해당 기업의 채무상환 위험과 대출 관련 손실 가능성에는 긍정적일 수 있다. 다만 기사에서 보유 종목인 블루아울 캐피털의 대출 참여나 재무적 수혜는 확인되지 않는다.",
+      "caution": "기사의 주제는 Maurices의 차환이며, 본문에 블루아울 캐피털이 대주 또는 거래 참여자로 언급되지 않아 보유 종목과의 직접적인 관련성을 확인할 수 없다."
+    },
+    "realtyincomehikesitsdividendagaincangrowthcontinue": {
+      "title": "Realty Income Hikes Its Dividend Again: Can Growth Continue?",
+      "holding": "리얼티 인컴",
+      "stance": "호재",
+      "summary": "리얼티 인컴은 월 배당금을 주당 27.15센트, 연환산 3.258달러로 인상했으며, 1994년 뉴욕증권거래소 상장 이후 136번째 인상이다. 2분기 배당금은 주당 81.2센트로 조정운영현금흐름(AFFO) 주당 1.09달러의 74.5%였고, AFFO는 전년 대비 3.8% 증가했다.",
+      "impact": "반복적인 배당 인상과 AFFO 성장, 74.5%의 배당성향은 리얼티 인컴의 현금흐름이 현재 배당을 뒷받침하고 있음을 보여준다. 이는 배당을 중시하는 투자자에게 매력도를 높이고 보유 주식의 수익 안정성에 긍정적으로 작용한다.",
+      "caution": "기사에 제시된 수치는 2분기 기준이며, 향후 금리·임대수익·현금흐름 변화에 따라 배당 증가세가 계속될지는 확인되지 않았다."
+    },
     "3년만바짝벌어도강남간다3억버는부부의정체": {
       "title": "\"3년만 바짝 벌어도 강남 간다\"…'年 3억' 버는 부부의 정체",
       "holding": "SK하이닉스",
