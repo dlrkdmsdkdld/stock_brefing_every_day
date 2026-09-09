@@ -106,8 +106,25 @@ def filing_url(row):
             f"{row['doc'] or row['accession'] + '-index.htm'}")
 
 
+# Form 4 거래 코드. 같은 '취득'이라도 성격이 전혀 다르다.
+# P/S만 본인 판단으로 시장에서 사고판 것이고, A는 회사가 준 것, F는 세금 원천징수라
+# 자발적 매매가 아니다. 이걸 뭉뚱그리면 "CEO가 샀다"는 잘못된 신호가 된다.
+TRADE_CODE = {
+    "P": ("매수", "장내 매수"),
+    "S": ("매도", "장내 매도"),
+    "A": ("보상 수령", "주식 보상 수령"),
+    "F": ("세금 납부", "세금 원천징수용 주식 인도"),
+    "M": ("옵션 행사", "옵션·RSU 행사로 취득"),
+    "G": ("증여", "증여"),
+    "C": ("전환", "전환"),
+    "X": ("옵션 행사", "옵션 행사"),
+    "D": ("회사 반환", "회사에 반환"),
+}
+SIGNAL_CODES = ("P", "S")     # 이 둘만 매매 신호로 본다
+
+
 def insider_detail(row):
-    """Form 4 본문에서 누가 얼마나 사고팔았는지 뽑는다."""
+    """Form 4 본문에서 누가 어떤 성격으로 얼마나 거래했는지 뽑는다."""
     plain = row["accession"].replace("-", "")
     url = (f"https://www.sec.gov/Archives/edgar/data/{row['cik']}/{plain}/"
            f"{row['accession']}.txt")
@@ -117,24 +134,50 @@ def insider_detail(row):
         return {}
     who = re.search(r"<rptOwnerName>([^<]+)</rptOwnerName>", text)
     title = re.search(r"<officerTitle>([^<]+)</officerTitle>", text)
+    director = re.search(r"<isDirector>\s*(?:1|true)\s*</isDirector>", text, re.I)
+    tenpct = re.search(r"<isTenPercentOwner>\s*(?:1|true)\s*</isTenPercentOwner>", text, re.I)
     detail = {"who": (who.group(1).strip() if who else None),
-              "title": (title.group(1).strip() if title else None)}
-    buys = sells = 0.0
+              "title": (title.group(1).strip() if title else None),
+              "is_director": bool(director), "is_ten_percent": bool(tenpct)}
+
+    # 거래 코드별로 주식 수와 금액을 모은다. 가격이 없는 건(보상 수령 등)은 금액이 0이 된다.
+    groups = {}
+    prices = []
     for block in re.findall(r"<nonDerivativeTransaction>(.*?)</nonDerivativeTransaction>",
                             text, re.S):
-        code = re.search(r"<transactionAcquiredDisposedCode>.*?<value>([AD])</value>",
+        code = re.search(r"<transactionCode>([A-Z])</transactionCode>", block)
+        side = re.search(r"<transactionAcquiredDisposedCode>.*?<value>([AD])</value>",
                          block, re.S)
         shares = re.search(r"<transactionShares>.*?<value>([\d.]+)</value>", block, re.S)
-        price = re.search(r"<transactionPricePerShare>.*?<value>([\d.]+)</value>", block, re.S)
-        if not (code and shares):
+        price = re.search(r"<transactionPricePerShare>.*?<value>([\d.]*)</value>", block, re.S)
+        if not (code and shares and side):
             continue
-        amount = float(shares.group(1)) * (float(price.group(1)) if price else 0)
-        if code.group(1) == "A":
-            buys += amount
-        else:
-            sells += amount
-    detail["buy_value"] = round(buys)
-    detail["sell_value"] = round(sells)
+        count = float(shares.group(1))
+        unit = float(price.group(1)) if price and price.group(1) else 0.0
+        key = code.group(1)
+        bucket = groups.setdefault(key, dict(shares=0.0, value=0.0, side=side.group(1)))
+        bucket["shares"] += count
+        bucket["value"] += count * unit
+        if unit:
+            prices.append(unit)
+
+    detail["trades"] = [
+        dict(code=key, label=TRADE_CODE.get(key, ("기타", key))[0],
+             note=TRADE_CODE.get(key, ("기타", f"코드 {key}"))[1],
+             side=bucket["side"], shares=round(bucket["shares"]),
+             value=round(bucket["value"]))
+        for key, bucket in sorted(groups.items(), key=lambda pair: -pair[1]["value"])]
+    if prices:
+        detail["price_avg"] = round(sum(prices) / len(prices), 2)
+
+    held = re.findall(r"<sharesOwnedFollowingTransaction>.*?<value>([\d.]+)</value>", text, re.S)
+    if held:
+        detail["shares_after"] = round(float(held[-1]))
+
+    # 장내 매수·매도만 신호로 본다. 보상 수령이나 세금 납부는 본인 판단이 아니다.
+    detail["signal"] = {
+        key: dict(shares=round(bucket["shares"]), value=round(bucket["value"]))
+        for key, bucket in groups.items() if key in SIGNAL_CODES}
     return detail
 
 
@@ -241,29 +284,61 @@ def scan_investors(seen, config):
     return fresh
 
 
+def who_line(detail):
+    """보고자와 직위. 임원인지 이사인지 대주주인지에 따라 무게가 다르다."""
+    parts = [esc(detail["who"])] if detail.get("who") else []
+    role = []
+    if detail.get("title"):
+        role.append(esc(detail["title"]))
+    if detail.get("is_director"):
+        role.append("이사")
+    if detail.get("is_ten_percent"):
+        role.append("10% 이상 주주")
+    if role:
+        parts.append(" · ".join(role))
+    return " · ".join(parts)
+
+
 def company_message(row):
     item = row["item"]
     label = {"4": "내부자 거래", "8-K": "중요 사건"}.get(row["form"], row["form"])
-    lines = [f"<b>📄 {esc(item['name'])} ({esc(item['ticker'])}) · {label}</b>",
-             f"{row['form']} · 접수 {row['date']}"]
+    head = f"<b>📄 {esc(item['name'])} ({esc(item['ticker'])}) · {label}</b>"
+    lines = []
+
     if row["form"] == "4":
         detail = insider_detail(row)
-        who = detail.get("who")
-        title = detail.get("title")
-        if who:
-            lines.append(f"{esc(who)}{f' · {esc(title)}' if title else ''}")
-        buy, sell = detail.get("buy_value", 0), detail.get("sell_value", 0)
-        if buy or sell:
-            parts = []
-            if buy:
-                parts.append(f"취득 {money(buy)}")
-            if sell:
-                parts.append(f"처분 {money(sell)}")
-            lines.append(" · ".join(parts))
-    elif row.get("desc"):
-        lines.append(esc(row["desc"])[:120])
+        signal = detail.get("signal") or {}
+        # 장내 매수/매도가 있으면 그것만으로 제목을 붙인다. 이게 실제 신호다.
+        if "P" in signal and "S" in signal:
+            head = f"<b>🔵🔴 {esc(item['name'])} ({esc(item['ticker'])}) · 내부자 매수+매도</b>"
+        elif "P" in signal:
+            head = f"<b>🔵 {esc(item['name'])} ({esc(item['ticker'])}) · 내부자 매수</b>"
+        elif "S" in signal:
+            head = f"<b>🔴 {esc(item['name'])} ({esc(item['ticker'])}) · 내부자 매도</b>"
+        lines.append(f"{row['form']} · 접수 {row['date']}")
+        person = who_line(detail)
+        if person:
+            lines.append(person)
+
+        for trade in detail.get("trades", []):
+            mark = {"P": "🔵", "S": "🔴"}.get(trade["code"], "▪")
+            price = f" @ ${detail['price_avg']:,.2f}" if (
+                trade["code"] in SIGNAL_CODES and detail.get("price_avg")) else ""
+            amount = f" · {money(trade['value'])}" if trade["value"] else ""
+            lines.append(f"{mark} {trade['label']} {trade['shares']:,}주{price}{amount}")
+        if not detail.get("trades"):
+            lines.append("거래 내역을 읽지 못했습니다. 원문을 확인하세요.")
+        if detail.get("shares_after") is not None:
+            lines.append(f"거래 후 보유 {detail['shares_after']:,}주")
+        if not signal and detail.get("trades"):
+            lines.append("<i>보상 수령·세금 납부 등으로, 본인 판단의 매매가 아닙니다.</i>")
+    else:
+        lines.append(f"{row['form']} · 접수 {row['date']}")
+        if row.get("desc"):
+            lines.append(esc(row["desc"])[:120])
+
     lines.append(f'<a href="{filing_url(row)}">공시 원문</a>')
-    return "\n".join(lines)
+    return head + "\n" + "\n".join(lines)
 
 
 def investor_message(row):
