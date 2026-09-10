@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-10T07:39:28+09:00",
-  "today_kst": "2026-09-10",
+  "fetched_at": "2026-09-11T07:42:44+09:00",
+  "today_kst": "2026-09-11",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
     "국내": [
@@ -13,11 +13,11 @@
     ]
   },
   "counts": {
-    "종목": 24,
-    "기사": 22,
-    "교차확인": 11,
-    "본문확보": 15,
-    "하단이탈": 6
+    "종목": 28,
+    "기사": 28,
+    "교차확인": 15,
+    "본문확보": 24,
+    "하단이탈": 10
   },
   "errors": [],
   "news": {
@@ -25,29 +25,29 @@
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 43,
+      "today_count": 45,
       "stories": [
         {
-          "title": "잘 나가는 반도체, 9월 노사 분수령…삼성은 노조 재편·하이닉스는 재투표",
-          "published_kst": "2026-09-10T06:00+09:00",
+          "title": "“반도체 투자 정점은 2028년으로 전망… 하반기는 SK하이닉스에 기대...",
+          "published_kst": "2026-09-11T07:02+09:00",
           "relevance": "direct",
           "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "아이뉴스24",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42VmhsQUJOT3U4NGMta2xXelBPdmltT1o1aGVaNnFlSGpreHhHRUdzTllmN2M1ZlFIVUl4ZFVXS1hpWmVjNmY1RjRXTQ?oc=5",
-              "published_kst": "2026-09-10T06:00+09:00"
-            },
             "네이버 금융": {
-              "publisher": "아이뉴스24",
-              "url": "https://n.news.naver.com/mnews/article/031/0001057054",
-              "published_kst": "2026-09-10T06:01+09:00"
+              "publisher": "주간동아",
+              "url": "https://n.news.naver.com/mnews/article/037/0000038816",
+              "published_kst": "2026-09-11T07:02+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FZDlVb2JBRHhEd3RTX2NGeTJqRndEMXFQRnNaR01QWmlMSG1xZGMybFVrR3FtSFdKcHR3TGQzc3pEcGl5UjN5QU9TbG9WNTA?oc=5",
+              "published_kst": "2026-09-11T07:02+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 9.5,
-          "body": "삼성 DS·DX 보상 격차, 노조 간 갈등 넘어 내부 대립으로\n초기업노조, 가입 자격 DS로 제한…DX 간부 불신임 추진\n하이닉스, PS 주식 비중 놓고 15~16일 재투표…추석 전 타결 분수령 인공지능(AI)과 고대역폭메모리(HBM) 호황으로 반도체 실적이 살아나면서 삼성전자와 SK하이닉스에서 성과 배분을 둘러싼 갈등이 커지고 있다.\n\n삼성전자는 반도체를 담당하는 디바이스솔루션(DS)과 완제품을 맡는 디바이스경험(DX)의 보상 차이에서 시작된 갈등이 노조 간 대립을 넘어 최대 노조인 초기업노조 내부로 번졌다. SK하이닉스에서는 성과급의 자사주 지급 비중이 쟁점이 되면서 올해 임금·단체협약(임단협) 잠정합의안이 불과 25표 차로 부결됐다.\n\n 경기도 삼성전자 평택캠퍼스 모습. [사진=연합뉴스] \n\n 삼성, 성과급 갈등이 'DS 중심 노조' 재편으로\n\n삼성전자 노사는 올해 DS 사업 성과의 10.5%를 재원으로 특별경영성과급을 신설했다. DX에는 600만원 상당의 자사주를 지급하기로 했다.\n\n사업부별 보상 규모가 달라지면서 노조의 입장도 갈렸다.\n\nDX 직원 중심의 동행노조는 과거 DX부문의 이익이 반도체 등 다른 사업에 재투자된 만큼 현재 사업부 실적만으로 보상을 나누는 것은 불공정하다고 주장한다. 사업부 간 보상 격차를 줄이기 위한 전사 공통 성과재원을 마련해야 한다는 입장이다.\n\n반면 DS 직원이 대부분인 초기업노조에서는 반도체 사업에서 발생한 성과를 다른 사업부와 나누는 데 반대하는 목소리가 나온다. 사업부별 실적과 보상을 연계해야 한다는 것이다.\n\n이 같은 갈등은 초기업노조의 조직 재편으로 이어지고 있다. 초기업노조는 오는 16일 오후 2시부터 22일 오전 10시까지 모바일 총회를 열고 조합원 가입 자격을 DS부문 근로자로 제한하는 규약 개정안을 표결한다.\n\n개정안이 통과되면 ",
+          "importance": 11.5,
+          "body": "반도체 엔지니어 출신 박성문 작가가 본 슈퍼사이클… “하드웨어 병목 더 커질 것” \n\n ‘성공 투자를 위한 최소한의 반도체 지식’을 쓴 박성문 작가. 홍태식 “2028년이 반도체 투자자 입장에서 말하면 짐 싸서 나가야 할 때라고 생각한다. 장비 성능이 가장 좋아 마진율도 함께 올라가는 때다. 2023~2024년 폭발적으로 집행된 인공지능(AI) 인프라 설비투자(CAPEX·자본적 지출)도 감가상각 기간이 끝나기 시작한다. 미국 반도체 지원법으로 지어진 TSMC 애리조나, 인텔 오하이오, 삼성 테일러 공장도 본격 가동에 들어갈 시기다. 지금도 업황이 좋지만, 그때보다 나을 수는 없다.”\n\n15년간 반도체 설계 현장에서 일한 엔지니어 출신 투자자 박성문 작가가 9월 7일 인터뷰에서 강조한 말이다. 박 작가는 미국 반도체 설계·검증 소프트웨어 기업 시놉시스 등을 거치며 올해까지 반도체 현업에서 일했다. 현재는 X(옛 트위터)에서 ‘무니인사이트’라는 이름으로 반도체 투자에 관한 글을 연재하고 책 ‘성공 투자를 위한 최소한의 반도체 지식’을 펴냈다.\n\n박 작가는 현재 반도체 슈퍼사이클이 아직 정점을 지나지 않았다고 본다. 반도체 기업들의 생산능력과 수익성은 2028년쯤 정점에 이를 가능성이 크다는 분석이다. 다음은 박 작가와 나눈 일문일답.\n\n 메모리 사이클 피날레는 아직\n 현재 반도체 시장을 어떻게 보나. \n\n“요즘 D램 1㎏과 금 1㎏의 가치를 많이들 비교한다. 금도 산업재로 활용되지만, D램은 AI 연산을 수행하는 핵심 자원이다. 수출 지표도 매우 좋다. 최근 엔비디아가 필요로 하는 고대역폭메모리(HBM)의 적층 단수가 낮아진다는 소식이 있었지만, 이는 차세대 그래픽처리장치(GPU) ‘루빈’을 원활하게 공급하기 위한 전략이라고 판단한다. HBM 8단과 12단은 생산 난도에서 25% 이상 차",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -56,30 +56,24 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 64,
+      "today_count": 52,
       "stories": [
         {
-          "title": "“월 70만원 타려다 사기죄까지?”…삼성전자 ‘월세 꼼수’ 100명 넘...",
-          "published_kst": "2026-09-10T05:02+09:00",
+          "title": "삼성전자, ‘갤럭시 S26 FE’ 국내 출시",
+          "published_kst": "2026-09-11T03:05+09:00",
           "relevance": "direct",
           "sources": {
-            "네이버 금융": {
-              "publisher": "세계일보",
-              "url": "https://n.news.naver.com/mnews/article/022/0004157845",
-              "published_kst": "2026-09-10T05:02+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fTEtLNlkzZVhZVFVacGk0bUI5UTlfbTlVQkFkVUpQTW5MdmJVQnBTWXpzQU9OTmpnZVJ4dWs2bXlnb1Zpc0xWczk3NDNHUXM?oc=5",
-              "published_kst": "2026-09-10T05:03+09:00"
+              "publisher": "국민기자뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwZVBURGhTTFJoWVA3NTNDRFZRVGZ6WEVYZld6OS1rNUFFRUpjdmZBWm1kcHFkaTBQUlNNWDhKRTVaS1I1R0YyS011Z0tXXzRxR1ZrYndza0tJSzREMU9jZDFKZ9IBZ0FVX3lxTE5PVGhPclRsU2otZkcycy1udXZkYWpGTGRaR2pZYWEtU2hzUERqRElqUjJfakVUVHpjRHpPRlJlN0dsdFlJYmZhdXMyeXY1Y0hjY0NfZjVGeUZaU2pxa2RCa0VncmV5djg?oc=5",
+              "published_kst": "2026-09-11T03:05+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "실제 임대 조건과 딴판인 계약서 제출 의혹…면적·월세 허위 기재 핵심\n평택사업장 100명 안팎 사실관계 확인…최대 200명 연루 주장도 나와\n부정수급 확인 땐 전액 환수·중징계 불가피…‘사기죄’ 성립 여부 촉각 \n\n“월 70만원 받으려다 사기죄까지?”\n\n 삼성전자는 평택사업장 일부 직원의 주거비 지원금 부정수급 의혹과 관련해 사실관계를 확인하고 있다. 연합뉴스 삼성전자 반도체(DS) 부문 일부 직원의 주거비 지원금 부정수급 의혹이 확산하고 있다. 월 최대 70만원의 지원금을 받기 위해 실제 임대 조건과 다른 계약서를 회사에 제출했다는 것이 의혹의 핵심이다.\n\n 10일 업계에 따르면 삼성전자는 평택사업장 직원들이 제출한 주거비 지원 서류와 실제 임대 조건을 대조하며 사실관계를 확인하고 있다. 조사 대상은 100명 이상으로 알려졌다.\n\n 사내 일각에서는 200명 안팎이라는 주장도 나오지만, 삼성전자는 정확한 조사 인원이나 부정수급 규모를 공식적으로 밝히지 않았다.\n\n 조사 대상에 포함됐다는 사실만으로 부정수급이 확정되는 것은 아니다. 직원별 제출 서류와 실제 임대차계약 내용, 지원 기간과 금액, 허위 기재 여부와 고의성 등을 개별적으로 따져봐야 한다.\n\n ◆33㎡ 넘는 집 살면서 ‘10평 미만’ 기재 의혹\n\n 주거비 지원 대상은 원거리 출퇴근이나 교대근무 등으로 별도 거처가 필요한 직원 가운데 33㎡(약 10평) 미만 오피스텔·원룸·1.5룸 등에 거주하는 경우다.\n\n 일부 직원이 이 기준을 맞추기 위해 실제와 다른 내용의 임대차계약서를 냈다는 의혹이 제기됐다. 33㎡가 넘는 주택이나 투룸에 거주하면서 서류에는 면적을 줄이거나 주택 형태를 다르게 적었다는 것이다.\n\n 관리비 일부를 월세에 포함하거나, 실제 계약서와 회사 제출용 계약서를 따로 작성했다는 주장도 나온다. 실제보다 높은 월세를 ",
-          "body_source": "네이버 뉴스 본문"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
@@ -87,29 +81,24 @@
       "ticker": "329180",
       "market": "국내",
       "candidates": 90,
-      "today_count": 3,
+      "today_count": 7,
       "stories": [
         {
-          "title": "韓 제조업 버팀목 '조선·철강' 덮친 파업…납기·투자 차질 우려↑",
-          "published_kst": "2026-09-10T07:00+09:00",
-          "relevance": "tagged",
+          "title": "\"AI 전력시장 뚫는다\" 정기선號 HD현대, 엔진·SMR로 '2030년 매출 100조...",
+          "published_kst": "2026-09-11T05:20+09:00",
+          "relevance": "direct",
           "sources": {
             "네이버 금융": {
-              "publisher": "뉴스1",
-              "url": "https://n.news.naver.com/mnews/article/421/0009161677",
-              "published_kst": "2026-09-10T07:00+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6dE1ZRGdUWjJocG5JNVBSR3BOcGR2emIza1BMTkJfM3lzcE40QXZxNk16bjBkLTJUX1gta2h3aWNsbzZzQTZMTUhkdGFDVzQ?oc=5",
-              "published_kst": "2026-09-10T07:01+09:00"
+              "publisher": "뉴시스",
+              "url": "https://n.news.naver.com/mnews/article/003/0014183539",
+              "published_kst": "2026-09-11T05:20+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
+          "source_count": 1,
+          "verification": "single_source",
           "explainable": true,
-          "importance": 9.5,
-          "body": "파업, 현대重 4년 연속 포스코, 창사 이후 처음\n납기 신뢰도 '흔들'…미래 투자 먹구름 \n\n HD현대중공업 노조 조합원들이 울산조선소에서 파업 집회를 하는 모습(자료사진)(금속노조 현대중공업지부 제공. 재판매 및 DB 금지) 2025.8.29 ⓒ 뉴스1 조민주 기자 \n\n(서울=뉴스1) 신현우 기자 = 국내 주력 제조업 현장에 파업의 불길이 번지고 있다. 조선 맏형인 HD현대중공업(329180)이 4년 연속 파업에 들어갔고 창사 58년간 무분규를 지켜온 포스코마저 파업에 휩싸였다.\n\n경제계에서는 수주 호황을 이어가고 대규모 미래 투자가 진행되는 시점에 노사 갈등이 격화하면서 성장 동력이 흔들릴 수 있다고 우려한다. 특히 납기 준수와 투자 부담이 동시에 확대됐다는 분석이다. 노사 협상 '평행선'…노조, 파업 강도 높인다 예고\n10일 업계에 따르면 올해 임금 및 단체협약 교섭에서 합의점을 찾지 못한 HD현대중공업 노조(전국금속노동조합 현대중공업지부)는 이날까지 산하 조직별 순환 파업을 진행한다. 오는 15일에는 전체 조합원이 참여하는 4시간 부분 파업을 예고했다.\n\n교섭은 평행선이다. 노조는 올해 임단협에서 기본급 14만 9600원 인상(호봉승급분 별도), 상여금 100% 인상, 영업이익 최소 30% 성과 공유 등을 요구하고 있다.\n\n회사 측은 지난 1일 기본급 10만 5000원 인상(호봉승급분 포함), 격려금 200%+1000만 원 지급, 정년퇴직자 위로 휴가 14일 부여 등을 제시했지만 노조는 이를 받아들이지 않았다.\n\n일주일만인 지난 8일 회사 측은 2차 제시안을 내놨다. 1차안 골격을 유지하면서 호봉승급분을 3만 5000원에서 4만 7000원으로 1만 2000원 올리고, 공조 회비를 회사가 100% 부담한다는 내용이 담겼다.\n\n그러나 노조는 이 역시 거부했다. 1·2차 제시안이 모",
+          "importance": 9.0,
+          "body": "온산에 3GW 발전엔진 신규 기지 구축\nSMR 전용공장 건립…차세대 원전 속도\n힘센엔진 생산능력 2030년 7.2GW 확대\nAI 데이터센터 전력 수요 정조준 공략 \n\n [서울=뉴시스] 빌 게이츠 게이츠재단 이사장과 정기선 HD현대그룹 회장이 14일 서울 모처에서 만나 악수하고 있다.(사진=HD현대 제공) 2026.08.14. photo@newsis.com *재판매 및 DB 금지 [서울=뉴시스]유희석 기자 = HD현대가 급증하는 인공지능(AI) 데이터센터 전력 수요에 대응해 육상 발전엔진과 소형모듈원자로(SMR)에 총 1조722억원을 투자한다. \n\n정기선 HD현대 회장이 제시한 ‘2030년 그룹 매출 100조원’ 목표 달성을 위한 신성장동력 확보에도 속도를 낸다는 구상이다.\n\n 발전엔진 생산 거점 이원화…2030년 7.2GW로 확대\n11일 업계에 따르면 HD현대중공업은 8336억원을 투입해 울산 울주군 온산읍에 3GW 규모의 '힘센엔진(HiMSEN Engine)' 신규 생산기지를 구축한다.\n\n2028년 5월 준공이 목표다.\n\n생산 거점도 이원화한다. 울산 본공장은 선박용 엔진 생산에 집중하고 온산 신규 공장과 전남 영암 HD현대엔진은 육상 발전용 엔진을 전문적으로 생산한다.\n\n이를 통해 힘센엔진 전체 생산능력을 현재 3GW에서 2030년 7.2GW까지 확대할 계획이다.\n\n힘센엔진은 HD현대가 10년간의 연구개발을 거쳐 2000년 독자 기술로 개발에 성공한 중속 엔진으로, 선박의 주 추진용뿐만 아니라 발전소 인프라 등에 널리 쓰인다. \n\nHD현대는 이미 미국 에이페리온에너지그룹(AEG)과 코반에너지그룹을 대상으로 총 1조5831억원 규모의 데이터센터용 발전설비 공급 계약을 체결하는 등 관련 시장에서 성과를 내고 있다.\n\n [서울=뉴시스] HD현대중공업이 10년간의 연구개발 끝에 자체 개발",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -118,67 +107,107 @@
       "ticker": "DELL",
       "market": "해외",
       "candidates": 70,
-      "today_count": 20,
+      "today_count": 15,
       "stories": [
         {
-          "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges",
-          "published_kst": "2026-09-10T04:27+09:00",
+          "title": "Dell (DELL) Reports $60.9B of AI Server Orders and a $95B Backlog. Can the Demand Surge Produce Durable Cash Flow?",
+          "published_kst": "2026-09-11T02:21+09:00",
           "relevance": "direct",
           "sources": {
+            "Yahoo Finance": {
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/technology/ai/articles/dell-dell-reports-60-9b-172135958.html",
+              "published_kst": "2026-09-11T02:21+09:00"
+            },
             "구글 뉴스 RSS": {
-              "publisher": "WSJ",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMjhMMTN2ZXlVcVNLOGE4MTlpWFlLd2JWaFRPNU1waFRuWUJfbnpibzIyM25wT2xhOWtad1M4WVVoQVRIRF9PU2R4SnFLTUtaSG1MeVZiYlpvRkdaTnBVd0NWaXg2VW5RT0NkSnZhWG9wMmpXOFM4RUZuYkRKVjFmRUFYT3pGMHJyaWoyNjhzMmhhWFhWa2FlX0lNaV93UW1VRzNnZWFvSW1DRjUzb2REREFpNHoxbG9WRi1zVXhTaHh6WTBFWEZpUzRB?oc=5",
-              "published_kst": "2026-09-10T04:27+09:00"
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM1BIbHJQMllTejlGemlHQUVQbnNTempiSkpYR2MxM1VsbGtCUzlxWnJhUXlQTlFXdXlMejdZdUxFVkh4RUpQUDRKWFRSNm51el9WWFNpM3RqaExHY2x3Yk91aHpVS0lxVU9sb0k5Uk9iWVdIVmVKUTB5ZzBwVF9qTUdlZU5aUzQ2RzNKeUlBQmE?oc=5",
+              "published_kst": "2026-09-11T02:21+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 10.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 13.5,
+          "body": "Dell (DELL) Reports $60.9B of AI Server Orders and a $95B Backlog. Can the Demand Surge Produce Durable Cash Flow? \n\n Jeff Lewis \n Thu, September 10, 2026 at 1:21 PM EDT 4 min read \n\n DELL \n\n Dell Technologies Inc. (NYSE: DELL ) reported fiscal second-quarter 2027 revenue of $47.0 billion, up 58% year over year. AI server orders reached $60.9 billion, while recognized AI server revenue totaled $16.4 billion and ending AI server backlog reached $95.0 billion. \n Orders and backlog are company-reported operating metrics, not recognized revenue. Orders measure booked demand, while backlog represents orders awaiting conversion. The backlog provides substantial revenue visibility, although Dell Technologies Inc. (NYSE:DELL) did not disclose its conversion schedule. \n\n Dell Technologies Inc. (NYSE:DELL) raised its fiscal 2027 revenue outlook by $25 billion to $192 billion and increased expected",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/technology/ai/articles/dell-dell-reports-60-9b-172135958.html"
         }
       ]
     },
     "컨스텔레이션 브랜즈": {
       "ticker": "STZ",
       "market": "해외",
-      "candidates": 49,
-      "today_count": 2,
+      "candidates": 47,
+      "today_count": 5,
       "stories": [
         {
-          "title": "Constellation Brands (STZ) Could Be 29% Undervalued As It Redeems $600 Million In Notes",
-          "published_kst": "2026-09-10T03:48+09:00",
-          "relevance": "direct",
+          "title": "RH (RH) Q2 Earnings and Revenues Top Estimates",
+          "published_kst": "2026-09-11T06:45+09:00",
+          "relevance": "tagged",
           "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTmpDMlpUQ3JlSnl3RDYtUUkxS3NmYklfZ050WlBCbVlLd0FLMlAxalJYVVdmWEllOWVMdTlpclZGMGZ0ODNRYUIyMGRHb0pxN2x2cTFNYVh5MENISGIycFNWZlNwa0trN1RET1I0QVRrS3AtelBTTUVpbW5KV1dpcDJIcnBJVVFLbktsTzY5NkVjQmhVMUJkMjdUS2hiOWVkZUVyLVNiU0lDSVdSMml1RTJjdE9ra3dxa0tPU2tSUnBNSU5aQlRlOWN0eDBlVHAzUnJtNi1LMUJxY3Q1VGw3ZU4tZnFiRkV40gHoAUFVX3lxTFBOakMyWlRDcmVKeXdENi1RSTFLc2ZiSV9nTnRaUEJtWUt3QUsyUDFqUlhVV2ZYSWU5ZUx1OWlyVkYwZnQ4M1FhQjIwZEdvSnE3bHZxMU1hWHkwQ0hIYjJwU1ZmU3BrS2s3VERPUjRBVGtLcC16UFNNRWltbkpXV2lwMkhycElVUUtuS2xPNjk2RWNCaFUxQmQyN1RLaGI5ZWRlRXItU2JTSUNJV1IyaXVFMmN0T2trd3FrS09Ta1JScE1JTlpCVGU5Y3R4MGVUcDNScm02LUsxQnFjdDVUbDdlTi1mcWJGRXg?oc=5",
-              "published_kst": "2026-09-10T03:48+09:00"
+            "Yahoo Finance": {
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/rh-rh-q2-earnings-revenues-214501299.html",
+              "published_kst": "2026-09-11T06:45+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "explainable": true,
+          "importance": 7.0,
+          "body": "RH (RH) Q2 Earnings and Revenues Top Estimates \n\n Zacks Equity Research \n Thu, September 10, 2026 at 5:45 PM EDT 3 min read \n\n STZ \n\n RH \n\n RH (RH) came out with quarterly earnings of $2.7 per share, beating the Zacks Consensus Estimate of $0.42 per share. This compares to earnings of $2.93 per share a year ago. These figures are adjusted for non-recurring items. \n This quarterly report represents an earnings surprise of +542.86%. A quarter ago, it was expected that this furniture and housewares company would post a loss of $2.13 per share when it actually produced a loss of $1.97, delivering a surprise of +7.51%. \n\n Over the last four quarters, the company has surpassed consensus EPS estimates two times. \n RH, which belongs to the Zacks Consumer Products - Staples industry, posted revenues of $922.15 million for the quarter ended July 2026, surpassing the Zacks Consensus Estimate by 0.9",
+          "body_source": "원문 본문 · Yahoo 링크"
         }
       ]
     },
     "퍼스트솔라": {
       "ticker": "FSLR",
       "market": "해외",
-      "candidates": 56,
-      "today_count": 6,
+      "candidates": 58,
+      "today_count": 10,
       "stories": [
         {
-          "title": "BofA Securities Maintains First Solar(FSLR.US) With Buy Rating, Cuts Target Price to $260",
-          "published_kst": "2026-09-10T00:42+09:00",
+          "title": "First Solar (FSLR) Gains As Market Dips: What You Should Know",
+          "published_kst": "2026-09-11T06:45+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/first-solar-fslr-gains-market-214504227.html",
+              "published_kst": "2026-09-11T06:45+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo! Finance Canada",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYTF5NksweWF1aGVQUUdtS2s1M0hJTEpIalp0akF6R1dUeHNUVm1OTmRnLWFRYmFfMU1nS1BlWVhlY2tjRlRxcnhqUXBLbjNSYURIcmkwN1lLWkRoWHctZDJtTi1GVkpWbGM2Nkg1ZnIwOE9xeko0UWtLdVBwblhaakFxMlA?oc=5",
+              "published_kst": "2026-09-11T06:45+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "First Solar (FSLR) Gains As Market Dips: What You Should Know \n\n Zacks Equity Research \n Thu, September 10, 2026 at 5:45 p.m. EDT 3 min read \n\n FSLR \n\n ^GSPC \n\n ^DJI \n\n First Solar (FSLR) ended the recent trading session at $207.17, demonstrating a +2% change from the preceding day's closing price. The stock's change was more than the S&P 500's daily loss of 0.59%. Meanwhile, the Dow experienced a drop of 0.6%, and the technology-dominated Nasdaq saw a decrease of 0.65%. \n\n The largest U.S. solar company's shares have seen a decrease of 10.44% over the last month, not keeping up with the Oils-Energy sector's gain of 9.15% and the S&P 500's loss of 1.37%. \n The upcoming earnings release of First Solar will be of great interest to investors. The company is expected to report EPS of $4.56, up 7.55% from the prior-year quarter. Meanwhile, the Zacks Consensus Estimate for revenue is projectin",
+          "body_source": "원문 본문 · ca.finance.yahoo.com",
+          "article_url": "https://ca.finance.yahoo.com/news/first-solar-fslr-gains-market-214504227.html"
+        }
+      ]
+    },
+    "컨스텔레이션 에너지": {
+      "ticker": "CEG",
+      "market": "해외",
+      "candidates": 50,
+      "today_count": 9,
+      "stories": [
+        {
+          "title": "Constellation Energy stock gains attention as Rhode Island plant deal reshapes growth story",
+          "published_kst": "2026-09-11T06:07+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Moomoo",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdGp0SGM3dDBsb2xDVkZma1h3Q0ZWazgtZWNBNmlFWTNNNlVPWkI5V25ld1BscFppNTN1ckdJc0VFWXQ3cVNoUFhrT1d3VEQtVEZvT3l1dWhGS1ZTVURoS2FoU29FZE5wNDl4bTZKcG80bmdDZTFvZm9qVHU5WmxrczBIaDdzX1BEY29UdGNGcUZIeU1STGxSYmVMTkZ6NEh2dHVZbjk3RFBWM1U?oc=5",
-              "published_kst": "2026-09-10T00:42+09:00"
+              "publisher": "ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaURVSjNjdjl5M2pacnBpUzdJT3dUY05iTXpVd1BhMjhsSXZ2WWJTOGxoRkVubWdCdjlPOHdBTlpHQzQ5UEdsYjZiRjc1eUhHdEpZOUcyZ25NbHR3MHl0QVhHR2lXNFNmTXJNZk1JYlNjYU1ZdUJGaG11b3hlTVlndTlhd3pqTkNSNGx2bjNkQTNBSHpXMjlnSnVnR1hPbFNkWHQ0QjVfT0N5czM0cVN6UGVxaHJCMW5iTDFieXVmT2VaWUJ2S0VLeFNuV0o?oc=5",
+              "published_kst": "2026-09-11T06:07+09:00"
             }
           },
           "source_count": 1,
@@ -189,21 +218,414 @@
         }
       ]
     },
-    "컨스텔레이션 에너지": {
-      "ticker": "CEG",
+    "비스트라 에너지": {
+      "ticker": "VST",
       "market": "해외",
-      "candidates": 46,
-      "today_count": 2,
+      "candidates": 57,
+      "today_count": 3,
       "stories": [
         {
-          "title": "What Constellation Energy Stock Long Term Clean Energy Deals Mean For Shareholders",
-          "published_kst": "2026-09-10T06:42+09:00",
+          "title": "Vistra Insider Sold Shares Worth $6,747,545, According to a Recent SEC Filing",
+          "published_kst": "2026-09-11T06:02+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOTM5Q3NHNDhBbGh5d29nNHNIZEVYSG96S3hTTnRhM1E2X2psM196SmJJU2l2bTBVVlhrOHdLbmZqcEdSSXNwbVpSWV9lQjdudERpUzIzTHpVRUxfdVZ1VGxFWHU4cmZBSjd2VzVobl9WSVBDWDlIVUJnMkFwZUlua0dIRjJhNE42YjZicklRWTRnMUc2NHN1blZhRUkyMUx5eENMcGNuX2F0UGpCZ1B3MXJObjU3bGRMbmN6RUZSTDJhUFU1S3lhaXE0OTVMZDZZVzB0SHB30gHbAUFVX3lxTFBEV3R5alg5b1BSX3dRa3FNclh4X0JfZ3VmVE5PQTdmQTRNVjlWOGZ2MlhKY2piTkV4TnZXLVZFLTFEcUZQX3UwZEluTkR6UFMwMEFpUnd6QTlOVElQY0JPNHd4WVk1bXlpc2EzaEJVRDNIcHpLWWQ4S2NseEdYeUNwNVRsajk1S2EtbWxOZHlHbFlZUnU0QXdab216a240SjJydHVKaDRKaEhBMzVpYmM5X1VRaEM1aENqcXNBS0VkeUJFYnNiNFdySFZxbVlCZW1vNHNQaWVTZHFOWQ?oc=5",
-              "published_kst": "2026-09-10T06:42+09:00"
+              "publisher": "marketscreener.com",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWNGRXlzX1llbzFEMFE3bUt5LWFHRGk3S1pnWHhueGFJR09oZXBaMW4wY1R4NV9iQmFkcXNNZzIxeVdKd01ybFh1dERWLXE0UVpDb2Z1ZHJLRXdZTU91ek1NMmFQMjdoTnNsR1JJQXkwTTZCVGtCS0M4a2RlQ3dsOExOYlltSWMwZFBCU1l1NzV1bzB6RV82NlpjYl9lSGw5WHV0cl9pTGpWckpaN0pfcEdBZFFEcEJUX0oydEZVdmd3Sno4Tlhv?oc=5",
+              "published_kst": "2026-09-11T06:02+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+        }
+      ]
+    },
+    "이오스 에너지": {
+      "ticker": "EOSE",
+      "market": "해외",
+      "candidates": 44,
+      "today_count": 3,
+      "stories": [
+        {
+          "title": "EOSE Stock Slides As Legal Probes And Share Overhang Rattle Traders",
+          "published_kst": "2026-09-11T04:04+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "StocksToTrade",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeWV0X1RORVFvRWk3R201V1dOR2ttUUE4b3lDNk9KbU9BOFJjdTJ3SXBxZnBjUHpQcWpRMHhjUmZtT0U2eDR6dURwRVFFemxiejZHSmRFWWVZVkJrVW41bEo4U3g4TWVwbWdIMjhyQ2M3NXJ1anprck9qdnFYY1RPY0hGSDM5QQ?oc=5",
+              "published_kst": "2026-09-11T04:04+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body": "Eos Energy Enterprises Inc. stocks have been trading down by -3.6 percent amid investor concerns over financing and liquidity risks.\n\n Spot the Next Big Runner \n Click Here for a Millionaire's POV on Trading EOSE \n SUBSCRIBE FOR ALERTS \n JOIN 50,000+ ACTIVE TRADERS\n\n Key Takeaways For EOSE Traders \n\n Multiple securities law firms are investigating potential corporate wrongdoing at Eos Energy Enterprises tied to buyers before 2025/11/05, raising the risk of future class‑action or derivative litigation. \n Several probes specifically question whether Eos Energy Enterprises leadership harmed shareholders through misconduct, adding governance uncertainty around EOSE. \n The company filed to register the potential resale of up to 56.55M common shares, signaling heavy prospective supply and dilution pressure on the EOSE float. \n Registered resale shares link to warrants, exchange rights, a purch",
+          "body_source": "원문 본문 · stockstotrade.com",
+          "article_url": "https://stockstotrade.com/news/eos-energy-enterprises-inc-eose-news-2026_09_10/"
+        }
+      ]
+    },
+    "알먼티": {
+      "ticker": "ALM",
+      "market": "해외",
+      "candidates": 50,
+      "today_count": 3,
+      "stories": [
+        {
+          "title": "Almonty Industries (NASDAQ:ALM) Shares Down 6.3% - Here's Why",
+          "published_kst": "2026-09-11T01:58+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNakxaeHZHNkdPckEwenhKQWRjbEw0eDE0N1FNdHBWZVZreVZycURWaExXR1gtRFE5VkZpZy1xWUlMZUUxd1QwS0xfRFVUQ1pDR1Y5MmdfeS1ERkk3V0NxQXZmbU5NZ09vMkZLX3Y5Q1gwTDlldzN0LVJMbVloWkpEQ2FfTGNjdE9qaENldmZ4N184VTFEdjllc1NPcFJCRVpPWV9jdjZZbXV1TVJSS1dhOFRtekY?oc=5",
+              "published_kst": "2026-09-11T01:58+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
+          "body": "Almonty Industries (NASDAQ:ALM) Shares Down 6.3% - Here's Why \r\n\n Written by MarketBeat\n September 10, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n Almonty Industries shares fell 6.3% to $17.18 during Thursday trading, with volume down 83% from the average session. \n Despite the decline, analysts remain bullish: the stock has an average “Buy” rating and a consensus price target of $26.81 , implying substantial upside. \n Almonty has a $4.83 billion market capitalization and focuses on producing tungsten, a critical industrial material; several institutional investors have recently initiated or increased positions. \n Interested in Almonty Industries? Here are five stocks we like better . \n\n Almonty Industries Inc. ( NASDAQ:ALM - Get Free Report )'s share price traded down 6.3% during trading on Thursday . The compan",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/price-almonty-industries-nasdaq-alm-shares-down-63-heres-why-2026-09-10/"
+        }
+      ]
+    },
+    "크레도 테크놀로지": {
+      "ticker": "CRDO",
+      "market": "해외",
+      "candidates": 56,
+      "today_count": 8,
+      "stories": [
+        {
+          "title": "Credo (CRDO) Reports 115% Revenue Growth but Lower GAAP Gross Margin. Can AI Connectivity Scale Without Further Margin Compression?",
+          "published_kst": "2026-09-11T01:21+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/technology/ai/articles/credo-crdo-reports-115-revenue-162122654.html",
+              "published_kst": "2026-09-11T01:21+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWk1RRjV6YmdWZllaaXpsanJ3XzM4N1Z1UTBMZy01QXZlaEltdUw4bHJIa1ExV1dpXzNqTFJCaXRzWGdyd3JvNkR5aXFNQ295RFVRSWxNaFZRWVJuRGwwcUcyZUxqeThQeXZycS1kdWRZT0tJenVTY0VURVE0SnNtSndIWEdNejBsUFVWUEMxckZtZUlvWDdGaXhn?oc=5",
+              "published_kst": "2026-09-11T01:21+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 11.5,
+          "body": "Credo (CRDO) Reports 115% Revenue Growth but Lower GAAP Gross Margin. Can AI Connectivity Scale Without Further Margin Compression? \n\n Jeff Lewis \n Thu, September 10, 2026 at 12:21 PM EDT 4 min read \n\n CRDO \n\n Credo Technology Group Holding Ltd (NASDAQ: CRDO ) reported fiscal first-quarter 2027 revenue of $479.0 million, up 9.6% sequentially. Management said the company's connectivity portfolio now spans copper and optical products, while total revenue increased 114.7% year over year. GAAP gross margin fell to 64.5% from 68.2% in the preceding quarter and 67.4% one year earlier. \n\n GAAP operating expenses increased to $188.4 million from $142.2 million sequentially, while GAAP operating income declined to $120.7 million from $155.8 million. Credo Technology Group Holding Ltd (NASDAQ:CRDO) nevertheless expects another quarter of growth, guiding fiscal second-quarter revenue to $525 millio",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/technology/ai/articles/credo-crdo-reports-115-revenue-162122654.html"
+        }
+      ]
+    },
+    "알파벳 A": {
+      "ticker": "GOOGL",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 38,
+      "stories": [
+        {
+          "title": "Finland risks strained power supply after Google AI deal, opposition warns",
+          "published_kst": "2026-09-11T00:08+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Reuters",
+              "url": "https://finance.yahoo.com/energy/articles/finland-risks-strained-power-supply-150654738.html",
+              "published_kst": "2026-09-11T00:08+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": true,
+          "importance": 11.0,
+          "body": "Finland risks strained power supply after Google AI deal, opposition warns \n\n By Essi Lehto \n Thu, September 10, 2026 at 11:08 AM EDT 2 min read \n\n GOOG \n\n By Essi Lehto \n HELSINKI, Sept 10 (Reuters) - Finland should introduce a national permitting system for data centres to prevent the risk of power shortages and soaring ‌energy prices, opposition parties said on Thursday following Google's announcement of a large ‌new investment in the country. \n The Nordic region has for years been a magnet for data centres thanks to ​a cool climate, abundant low-carbon electricity and reliable power grids, but AI builders are now facing greater scrutiny from consumers and politicians. \n\n Alphabet's Google said on Wednesday it will spend at least €13 billion ($15.1 billion) on AI infrastructure in Finland over the next two years, its biggest European investment, ‌including a deal for the ⁠supply of nu",
+          "body_source": "원문 본문 · Yahoo 링크"
+        }
+      ]
+    },
+    "시스코 시스템즈": {
+      "ticker": "CSCO",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 15,
+      "stories": [
+        {
+          "title": "Cisco Slips as Huawei Source-Code Claims Reach Trial",
+          "published_kst": "2026-09-11T03:27+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/articles/cisco-slips-huawei-source-code-182752795.html",
+              "published_kst": "2026-09-11T03:27+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "TradingView",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQVZmRjVGNTJEVzAxeU9IdXgxbUhpSlpXV3NTNFRGenlqQmxlTl9tWXBybUlKdDJQSkwxS0NkU0RLWnBzZmozcmNLMlJVcjRUNVAzMnNQUml2TDlRV0gzRERoTmlGanNYVmpidUpxMEZEMU80S0tDREtXS1NpN1dLNGU5MUw2TmJBSUFlUVQ5dE1IQ0o5ZU5RUWlXSF9RMkxGV3ZxNHVHSDhvNlZXcDdMczJR?oc=5",
+              "published_kst": "2026-09-11T03:27+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Cisco Slips as Huawei Source-Code Claims Reach Trial Less than 1 min read \n\n CSCO \n Cisco Systems CSCO , the networking and cybersecurity giant, slipped approximately 0.5% to $108.865 Thursday as Huawei's federal criminal trial opened in Brooklyn. Prosecutors accused the Chinese technology company of conspiring to steal trade secrets from five U.S. businesses, including source code for Cisco's router operating system. \n The case stretches well beyond intellectual property. Federal prosecutors also alleged sanctions and financial-system violations tied to Iran, while Huawei rejected the charges and described the disputed activity as legitimate business conduct or isolated employee behavior. The trial could run for roughly three months. Cisco is not prosecuting the case, and investors have no disclosed financial recovery to price into the shares. \n\n The bigger earnings engine sits inside C",
+          "body_source": "원문 본문 · www.tradingview.com",
+          "article_url": "https://www.tradingview.com/news/gurufocus:0bd921e38094b:0-cisco-slips-as-huawei-source-code-claims-reach-trial/"
+        }
+      ]
+    },
+    "버티브 홀딩스": {
+      "ticker": "VRT",
+      "market": "해외",
+      "candidates": 65,
+      "today_count": 7,
+      "stories": [
+        {
+          "title": "Veteran analyst says buy Vertiv despite huge gains already",
+          "published_kst": "2026-09-11T00:33+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/veteran-analyst-says-buy-vertiv-153300535.html",
+              "published_kst": "2026-09-11T00:33+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance Singapore",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYWpTcnNRNlhBM0hnN3JKUXVEdnU2WDNiVEFaOFMtYnF4bFp5SGhTRUszeEItejhqQ1JCUzVySDBEelBGd1ZlaVozd2lNWFVDZTJoWnROVHE4aGk5XzNXd3ZIelE4a1Y3UkVoS0E0cC1QUFVrbDhwYVNVUWhwVnNBWlc4QlBaSzQ?oc=5",
+              "published_kst": "2026-09-11T00:33+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Veteran analyst says buy Vertiv despite huge gains already \n\n Peace Longe \n Thu, 10 September 2026 at 11:33 am GMT-4 3 min read \n\n VRT \n\n Investors tend to hesitate before buying a stock that has already climbed more than 1,000%, as that kind of gain usually signals the easy money is gone. \n However, Mike Khouw just said something noteworthy on a stock like that. \n On CNBC's \"Options Action,\" the veteran options trader presented a bullish case on Vertiv Holdings Co. (VRT). \n\n He also structured an options trade stretching into early 2027 . \n Khouw has spent over two decades in the markets as a strategist, portfolio manager, and proprietary trader. \n He has appeared on CNBC's Fast Money and Options Action since 2009, which makes his opinion on risk valuable for investors. \n According to Khouw, where the stock's earnings are heading is the most important thing. \n What Vertiv does and why A",
+          "body_source": "원문 본문 · sg.finance.yahoo.com",
+          "article_url": "https://sg.finance.yahoo.com/news/veteran-analyst-says-buy-vertiv-153300535.html"
+        }
+      ]
+    },
+    "록히드마틴": {
+      "ticker": "LMT",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 17,
+      "stories": [
+        {
+          "title": "Lockheed Martin Yields 2.6% and Trades at 17.6 Times Earnings. Is Wall Street Right to Be Cautious on the Stock ?",
+          "published_kst": "2026-09-11T06:25+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-yields-2-6-212500136.html",
+              "published_kst": "2026-09-11T06:25+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZnFjQ0NtQTd4cnFqeUxwXzVMV2I4bndOMzEzUmVmczRGb0UzaXJnZ3pwTkN6cnRBOTVXanJzMVZnZVhaQWE2X2pFelhGbU5qNktaVzRNbWcxcEZZUzlzRHhfdG5hQXdMd1N6TGxneDNwdVd6c3cyNjNTMU1WWXlCVzZSZDBwaHpwUDAzbEpKZ01lQ25aZ1E?oc=5",
+              "published_kst": "2026-09-11T06:25+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 11.5,
+          "body": "Lockheed Martin Yields 2.6% and Trades at 17.6 Times Earnings. Is Wall Street Right to Be Cautious on the Stock ? \n\n Lee Samaha, The Motley Fool \n Thu, September 10, 2026 at 5:25 PM EDT 3 min read \n\n LMT \n\n NVDA \n\n Given Wall Street's usual optimism, the three buy ratings, six hold ratings, and one sell rating (from Goldman Sachs ), according to Visible Alpha, indicate a cautious view of Lockheed Martin (NYSE: LMT) stock. That may surprise many investors, given the company's attractive valuation, all-time-high backlog of $230 billion in the second quarter (almost three times its estimated 2026 sales), and surging global defense budgets. \n\n Does the caution make sense? \n Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a \"Double Down\" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that same \"Total Conviction\" signal is flashing f",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-yields-2-6-212500136.html"
+        }
+      ]
+    },
+    "마이크로소프트": {
+      "ticker": "MSFT",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 30,
+      "stories": [
+        {
+          "title": "Is Microsoft Stock Overvalued At 28x Earnings?",
+          "published_kst": "2026-09-11T01:51+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Trefis",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3JrVjlhZVJZMFdtVDZKNndkdkM5dVl5UURnYXNwSXFsOW1uN1VRZzhQYjJzZXVvYzdhb0EtMU92djJwMFBJTzNrYVlmc3BNZUNVaDRCOU5Jc29TNzNaVU00RjVKcm5JVVRGM1FwZEdUNkFOdHh1MXFySWhBRndLZ3RLLUVrOVNmMFZ6Rk9YX2dVY1NXZVc1VW0wNmhTdzI4aEJoQVJQY0ZmQQ?oc=5",
+              "published_kst": "2026-09-11T01:51+09:00"
+            },
+            "Yahoo Finance": {
+              "publisher": "Trefis",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-overvalued-28x-earnings-165216180.html",
+              "published_kst": "2026-09-11T01:52+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 11.5,
+          "body": "Is Microsoft Stock Overvalued At 28x Earnings? September 10th, 2026 · by Trefis Team MSFT YTD +2.3% SPY YTD +12.1% QQQ YTD +16.8% \n Analyze MSFT → \n Microsoft (MSFT) runs the highest operating margin in its peer group and grows revenue faster than every rival there but one. Over the past twelve months its stock returned -0.5%, against 18.5% for the S&P 500 (SPY). At about $491.65 a share, it trades at 27.8 times earnings, second-richest in the group. Microsoft ranks first on profitability and fourth on the return, a gap worth explaining.\n\n Is Microsoft Being Paid For What It Earns? \n Alphabet (GOOGL) is the only company in this group that grew faster. Alphabet grew revenue 20.1% against Microsoft’s 17.8%, and did it on an operating margin of 33.1% against Microsoft’s 46.8%. Alphabet’s shares returned 41.6% over the same twelve months, against Microsoft’s -0.5%.\n\n MSFT \n GOOGL \n AMZN \n AA",
+          "body_source": "원문 본문 · www.trefis.com",
+          "article_url": "https://www.trefis.com/stock/msft/articles/614897/is-microsoft-stock-overvalued-at-28x-earnings/2026-09-10"
+        }
+      ]
+    },
+    "나이키 B": {
+      "ticker": "NKE",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 7,
+      "stories": [
+        {
+          "title": "Nike Just Gained Another Bearish Call on Wall Street—Here’s Why",
+          "published_kst": "2026-09-11T05:18+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Investopedia",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nike-just-gained-another-bearish-201857673.html",
+              "published_kst": "2026-09-11T05:18+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Investopedia",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVm8xM29JSWxKSjBFeW4xbmxWQ05MOWhKaTZlOU5wWjR0YVlBN0tmTGJQVWlWOHo3WTBvdzhheWswZ01pU29iV0VkZ3JCYUszdW5FRVZjZ2dVS1RjaktwSmt6LURuUFlVUHc2UzBkdkFEcWpDM0h5U01rb3Q3d3VhRVBtblVCbUNGVmhDNjdIME9sa082MDBoNG9nb2VRYTV1blFUYjRZME5IZWh3MnhWUDdpNlZUeVZy?oc=5",
+              "published_kst": "2026-09-11T05:18+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Nike Just Gained Another Bearish Call on Wall Street—Here’s Why \n\n Aaron McDade \n Thu, September 10, 2026 at 4:18 PM EDT 1 min read \n\n NKE \n\n Key Takeaways Morgan Stanley analysts reinstated coverage of Nike on Thursday with an \"underweight\" rating and Street-low price target of $31. \n The analysts said they believe the consensus forecast for Nike \"embeds too much growth too soon–particularly in China.\" \n Nike's stock has had a tough time lately. One group of analysts says it could get even worse. \n\n Analysts at Morgan Stanley relaunched coverage of Nike (NKE) Thursday with an \"underweight\" rating and a Street-low target of $31, well below the Visible Alpha consensus around $48. The shares ended down about 2% Thursday to a fresh 12-year low under $37. \n Only one of the other 13 analysts tracked by Visible Alpha has recommended selling the shares, with 10 neutral and two \"buy\" ratings. \n ",
+          "body_source": "원문 본문 · Yahoo 링크"
+        }
+      ]
+    },
+    "노보노디스크 ADR": {
+      "ticker": "NVO",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 9,
+      "stories": [
+        {
+          "title": "AbbVie vs. Novo Nordisk: Which Healthcare Stock Is a Better Buy in 2026?",
+          "published_kst": "2026-09-11T02:46+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Motley Fool",
+              "url": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-novo-nordisk-healthcare-174613348.html",
+              "published_kst": "2026-09-11T02:46+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWTJSUXQ1WmRvWmt2VElpbFlseWRPRlFlNTRkanlMZDVLOW5rMUFrRWtNTnlYR0xOal9LdmNUUkpoVUdwTFRKQV9udkVVN3d4SWx4WWVxblNTZWs5TXN3cU9nY1J4ME9sNTF4VkZMVXdGR3dnUGFoTEFJUy1WT2NNZmpsOGxQd0ZRLUlmYzRSRHo4N0xSRVFla1BKWjRKY2tSbW9Xc3l6TEhfemNrRXd6TFhhX0x6UU9LX2dXYWkyMA?oc=5",
+              "published_kst": "2026-09-11T02:47+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "The healthcare sector is shifting as legacy blockbusters face competition from low-cost generics while new chronic care treatments explode. Choosing between AbbVie Inc ( ABBV +1.63% ) and Novo Nordisk A/S ( NVO -1.23% ) requires weighing diversification against specialized growth.\n Collapse ABBV & NVO : Performance Comparison \n\n Key Financial Metrics \n ABBV – AbbVie \n $ 255.00\n + 1.63 % ( + $ 4.09 )\n\n NVO – Novo Nordisk \n $ 44.01\n – 1.23 % ( - $ 0.55 )\n\n Market Cap\n $443B\n 52wk Range\n $ 190.75 - $ 267.47\n Gross Margin\n 71.42 %\n P/E Ratio\n 70.94\n EPS (TTM)\n $ 3.54\n Dividend & Yield\n $6.83 (2.72%)\n\n Market Cap\n $149B\n 52wk Range\n $ 35.12 - $ 64.16\n Gross Margin\n 80.65 %\n P/E Ratio\n 10.88\n EPS (TTM)\n $ 4.09\n Dividend & Yield\n $1.80 (4.03%)\n\n ABBV – AbbVie \n $ 255.00\n + 1.63 % ( + $ 4.09 )\n\n Market Cap\n $443B\n 52wk Range\n $ 190.75 - $ 267.47\n Gross Margin\n 71.42 %\n P/E Ratio\n 70.94\n EPS (TTM",
+          "body_source": "원문 본문 · www.fool.com",
+          "article_url": "https://www.fool.com/coverage/better-buy/2026/09/10/abbvie-vs-novo-nordisk-which-healthcare-stock-is-a-better-buy-in-2026/"
+        }
+      ]
+    }
+  },
+  "alerts": {
+    "USA 레어어스": {
+      "ticker": "USAR",
+      "market": "해외",
+      "candidates": 54,
+      "today_count": 9,
+      "stories": [
+        {
+          "title": "USA Rare Earth (USAR) Acquired Serra Verde. Can it Manage the Debt and Production Ramp?",
+          "published_kst": "2026-09-11T03:30+09:00",
+          "relevance": "direct",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-acquired-183037654.html",
+              "published_kst": "2026-09-11T03:30+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXd3cWFaeDlZSGxCdk8zQU1hbzliU2EteGl5NXVhNVlwcFB4eHdJeHBKVHdraDBaOVB6MldnRU5Xd3ZxdjQ5d1dyUTZSZTFHajNZbDc3ckgtdXd0REgwQ25ZQi1lMGp2UTZ1T3B6MzgwWk5BU0tzMnFoVV9ZVTlhZnpTeTJIM3FxUjB6XzdBR1FtcEZ2UHRBVg?oc=5",
+              "published_kst": "2026-09-11T03:30+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 11.5,
+          "body": "USA Rare Earth (USAR) Acquired Serra Verde. Can it Manage the Debt and Production Ramp? \n\n Jeff Lewis \n Thu, September 10, 2026 at 2:30 PM EDT 4 min read \n\n USAR \n\n USA Rare Earth, Inc. (NASDAQ: USAR ) announced on September 4 that it completed the Serra Verde acquisition one day earlier, paying $300 million in cash and issuing approximately 126.8 million common shares. The transaction adds Brazil's Pela Ema mine to Less Common Metals in the United Kingdom, the Stillwater, Oklahoma, magnet facility, and the Round Top project in Texas. \n\n Serra Verde began production in January 2024 but is still completing optimization and commissioning. Stage 1 is expected to reach an annual run rate of approximately 4,000 metric tons of total rare-earth oxide, or TREO, by year-end 2026. Stage 2 construction targets average annual production of 6,400 metric tons, with commissioning expected to begin with",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-acquired-183037654.html"
+        }
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.063 · RSI 39.6 · 전일 대비 -5.98%"
+    },
+    "에리스 매니지먼트": {
+      "ticker": "ARES",
+      "market": "해외",
+      "candidates": 49,
+      "today_count": 2,
+      "stories": [
+        {
+          "title": "Blank: No need for more PE firms in NFL program",
+          "published_kst": "2026-09-11T06:57+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Sports Business Journal",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkJLSmlmdHpPR0dBVkNVSnhvZ1p2ZGZkRUVpa0tqX1dPVmhnOEVUWEJZVTh2VDA2UWVFaTE1c291QWlxR1JHcWZuaUtlTW8zLTFDZkpzV19ob19KUUhHVjBUYjlybTJQQ1pnc1QtTHFIcGN5a2ZrYjdJY0xfZUJPcDNWd015THVzMnFYdncxU2FsNFNXVUZ2elJ5cnRUdldUMnhvYWxadWg?oc=5",
+              "published_kst": "2026-09-11T06:57+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 0.0,
+          "body": "Falcons owner Arthur Blank said the NFL doesn’t need to approve more private equity firms to invest in teams, saying he encountered a competitive marketplace among the existing roster as he recently shopped a 10% stake.\nBlank confirmed he has a deal in place with Arctos Partners to acquire the 10%, first reported by CNBC , which is expected to be approved by other NFL owners in October. Some sports finance insiders have speculated the league may move to pre-approve more firms, noting that Arctos had been the only one of the four to do multiple deals until the Seahawks transaction closed this month, which was Sixth Street’s second team investment following their Patriots deal. (Ares Management invested in the Dolphins, and the Carlyle Group/Dynasty Equity combination also backed the Seahawks.)\nBut Blank said he had other, viable options if the Arctos deal hadn’t closed. He acknowledged so",
+          "body_source": "원문 본문 · www.sportsbusinessjournal.com",
+          "article_url": "https://www.sportsbusinessjournal.com/Articles/2026/09/10/blank-no-need-for-more-pe-firms-in-nfl-program/"
+        }
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.189 · RSI 38.9 · 전일 대비 -2.78%"
+    },
+    "블랙스톤": {
+      "ticker": "BX",
+      "market": "해외",
+      "candidates": 70,
+      "today_count": 13,
+      "stories": [
+        {
+          "title": "Ropes & Gray Advised Audax Private Equity Portfolio Company Flow Control Holdings in Majority Stake Sale to Blackstone",
+          "published_kst": "2026-09-11T05:26+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Ropes & Gray LLP",
+              "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTzY2cWk2dnpIODNMQVV4U1BZTnZHdVYwVjdIc2JFa0tDRTV0M0lVLTdYTk9JZjQtRGJpVk8yVGZOZldkdlhpNkZCZGp2QTZvcC1ubEhKMFpqOEoyeXZFZldWajNsZmttbUlmRDA4Z0NYdm5ETVoxLWJRa1RlVTZTMkVBLUIyLUZBbmNMMmNqZWQtQmYwMDFQSVJwRmZUSXNJNDMwajE5ZVU5OU1ZM3VQRmRUY2JTcF9HX2kySzZsVFpwT29FeGszbTczbkdCM2ZDeWhLaWlmTDRZUHJIU2VyemhicmZHazNT?oc=5",
+              "published_kst": "2026-09-11T05:26+09:00"
             }
           },
           "source_count": 1,
@@ -212,472 +634,232 @@
           "importance": 6.0,
           "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
-      ]
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.156 · RSI 32.1 · 전일 대비 -2.84%"
     },
-    "비스트라 에너지": {
-      "ticker": "VST",
+    "블루아울 캐피털": {
+      "ticker": "OWL",
       "market": "해외",
-      "candidates": 59,
-      "today_count": 5,
+      "candidates": 45,
+      "today_count": 3,
       "stories": [
         {
-          "title": "Vistra CEO Burke Buys 6,665 Shares",
-          "published_kst": "2026-09-10T06:20+09:00",
+          "title": "OWL Stock Slips As Legal Probes Threaten Momentum",
+          "published_kst": "2026-09-11T05:48+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "StocksToTrade",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vX0FNS0ttTU5JM2VrWEdZVks3RkEtaW9JZDByWkQxaXd4MFpQbDlqUEdnQmJNSU5pbjVBbmVhR2JfRTRzaTJoWlBPS01maTFGZlRVNU90MXYxajRhTVpQSzE0aHROMDlHZ3k0V3IyeXpza1NUOGhMcGtwa3Y?oc=5",
+              "published_kst": "2026-09-11T05:48+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body": "Blue Owl Capital Inc. stocks have been trading down by -3.78 percent amid heightened concerns over private credit market risks.\n\n Spot the Next Big Runner \n Click Here for a Millionaire's POV on Trading OWL \n SUBSCRIBE FOR ALERTS \n JOIN 50,000+ ACTIVE TRADERS\n\n Key Takeaways \n\n A securities law firm, Bronstein, Gewirtz & Grossman, LLC, has opened an investigation into potential claims on behalf of purchasers of Blue Owl Capital Inc. ( OWL ) who bought shares before 2025/02/06 and still hold them, focusing on whether the company and its officers or directors engaged in corporate wrongdoing. \n Several securities litigation and class‑action firms have launched investigations into potential corporate wrongdoing at Blue Owl Capital, targeting investors who bought shares before 2025/02/06 and still hold them, potentially paving the way for class‑action lawsuits or regulatory issues. \n Blue Owl",
+          "body_source": "원문 본문 · stockstotrade.com",
+          "article_url": "https://stockstotrade.com/news/blue-owl-capital-inc-owl-news-2026_09_10/"
+        }
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.174 · RSI 36.9 · 전일 대비 -3.96%"
+    },
+    "리얼티 인컴": {
+      "ticker": "O",
+      "market": "해외",
+      "candidates": 51,
+      "today_count": 2,
+      "stories": [
+        {
+          "title": "5 High-Yield Dividend Stocks Built for Reliable Retirement Income",
+          "published_kst": "2026-09-11T00:11+09:00",
+          "relevance": "tagged",
+          "sources": {
+            "Yahoo Finance": {
+              "publisher": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/5-high-yield-dividend-stocks-151102652.html",
+              "published_kst": "2026-09-11T00:11+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ1pUb1VFVXJMVEl1aFJyU1JMWHNEMXJLUXBhemR1Wm9kLVZYaVV1ck53SDJCa29CUXhZTXpTeVFhVWQzX1AtYVJMLXEwWk50RnprcGRmY2xoS1k5elVTM3hmZ0FMN0tPQ3B4WXY1bVZjSTA4cldUVzJYNU5MZkg3THQ0bEF0dnRRenFTOFM2cFlLdE5ZRVFaNnI1RjNwNkhuamdPX0MyWG93VXRjY1E?oc=5",
+              "published_kst": "2026-09-11T00:11+09:00"
+            }
+          },
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 7.5,
+          "body": "Investing \n\n 5 High-Yield Dividend Stocks Built for Reliable Retirement Income \n\n With the 10-year Treasury now paying nearly 5%, most dividend stocks no longer clear the bar. These five do, and each one backs its payout with hard cash flow rather than borrowed time.\n\n By Chris Lange \n\n Published September 10, 2026, 11:11am ET · 4 min read \n\n 𝕏 \n f \n\n ⧉ \n\n This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them.\n\n Income investors have watched the 10-year Treasury yield climb to 4.80% as of September 8, 2026, sharpening the bar for equity dividends. The five names below earn their keep by pairing yields well above that risk-free benchmark with cash-flow-backed distributions and multi-year raise histories. The shared angle: reliable income payers with track records of consistent, often monthly, distribut",
+          "body_source": "원문 본문 · 247wallst.com",
+          "article_url": "https://247wallst.com/investing/2026/09/10/5-high-yield-dividend-stocks-built-for-reliable-retirement-income/"
+        }
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.115 · RSI 28.6 · 전일 대비 -0.90%"
+    },
+    "도미노피자": {
+      "ticker": "DPZ",
+      "market": "해외",
+      "candidates": 54,
+      "today_count": 6,
+      "stories": [
+        {
+          "title": "Domino's Pizza sets Q3FY26 earnings webcast for Oct 13",
+          "published_kst": "2026-09-11T05:25+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "scanx.trade",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeS1XQTlKSzk0cm9MNnZvOGY5VjUzdmQ0a0FzYi1QTkhwZ3lvN3pnS3ZpMzg0ZlVCZWtreWhRRng2d0ZwcGlLX0hCc0VaQUVqZlc4bHUxNFpQQlF4aUE2X25uWHdvSExZNmFRa0RrNWE1UHRMT3puOUVSeFZfNFBnbU51WFRTbWIzel9UQnR6TXJNRXJoclpTa3Bod0dhcUZvMFF0XzUzUWVDRDA?oc=5",
+              "published_kst": "2026-09-11T05:25+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body": "ScanX News Domino's Pizza sets Q3FY26 earnings webcast for Oct 13 \n Domino's Pizza sets Q3FY26 earnings webcast for Oct 13 1 min read | Published on 11 Sept 2026, 01:44 AM | Updated on 11 Sept 2026, 01:44 AM \n Reviewed by Jubin V ScanX News Team \n\n Add as a preferred source on Google \n\n Key Highlights \n Domino's Pizza schedules Q3 2026 earnings call for Oct 13 \n Financial results to be released at 6:05 am ET on Oct 13 \n Live webcast begins at 8:30 am ET via ir.dominos.com \n Global retail sales topped $20.6 billion in trailing four quarters \n\n powered by \n\n *this image is generated using AI for illustrative purposes only.\n\n Domino's Pizza Inc (NASDAQ: DPZ) has scheduled its third quarter 2026 earnings webcast for October 13, 2026. The company will release its financial results at 6:05 am ET, preceding the live investor presentation.\n\n The earnings call is set to begin at 8:30 am ET. Inves",
+          "body_source": "원문 본문 · scanx.trade",
+          "article_url": "https://scanx.trade/stock-market-news/companies/domino-s-pizza-sets-q3fy26-earnings-webcast-oct-13/50616881"
+        }
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.136 · RSI 37.2 · 전일 대비 -1.29%"
+    },
+    "DR호튼": {
+      "ticker": "DHI",
+      "market": "해외",
+      "candidates": 59,
+      "today_count": 13,
+      "stories": [
+        {
+          "title": "D.R. Horton (DHI) Dips More Than Broader Market: What You Should Know",
+          "published_kst": "2026-09-11T07:15+09:00",
           "relevance": "direct",
           "sources": {
             "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-ceo-burke-buys-6-212001832.html",
-              "published_kst": "2026-09-10T06:20+09:00"
+              "publisher": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/d-r-horton-dhi-dips-221503255.html",
+              "published_kst": "2026-09-11T07:15+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVpEZk5PdVFWU1FMUTVfZjQ4eG9wMzl2bHB6Wkg5a2ZENV9UUGEzdWxabnhmYXB6N29LYVltZldCbjNRQzgwMXRXWHNrQmoxd19ZMnVoYjRPZ2wtWXhHYmRpNERnSUk2TWU4eE1qOTlLRS1MQV9XRTFDTkhZUnRObzJvTjRMU3B2UE5aMw?oc=5",
-              "published_kst": "2026-09-10T06:28+09:00"
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNekRkQl9lYl9LX09jWk90UWtiSDRfeUVLYWltSFFKMVRRRTdjZTMzZk01NHNzdm1GZDh3di1XM3F4S0lWUGl0emEzREllQVhjbjB0WkZod2hZZEdINFFqbElOTDBYYUhlaldWTlRtalhsSWF5V1BMby0tMDU4cmxrd2cySGpQTEdkcGZ5UQ?oc=5",
+              "published_kst": "2026-09-11T07:15+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 9.5,
-          "body": "James A. Burke, President and CEO of Vistra ( VST -0.41% ) , purchased 6,665 shares of common stock at a weighted-average price of $135.49 per share on Aug. 31, 2026, and Sept. 1, 2026, according to a recent SEC Form 4 filing .\n Transaction summary Metric Value Transaction value $903,041 Shares purchased (indirectly held) 6,665 Post-transaction shares (directly held) 61,690 Post-transaction shares (indirectly held) 1.2 million Post-transaction value $171.5 million \n Transaction value based on SEC Form 4 weighted average purchase price ($135.49); post-transaction value based on Sept. 01, 2026, market close ($138.08). \n Key questions What entities facilitate the indirect holdings reported in this transaction? \nThe purchase was executed by JAMEB, LP, an entity jointly owned by Burke and his spouse, adding to a portfolio that includes the James A. Burke 2012 Irrevocable Trust and the Marti E",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/coverage/filings/2026/09/09/vistra-ceo-burke-buys-6-665-shares/"
+          "body": "D.R. Horton (DHI) Dips More Than Broader Market: What You Should Know \n\n Zacks Equity Research \n Thu, September 10, 2026 at 6:15 PM EDT 3 min read \n\n DHI \n\n ^GSPC \n\n ^DJI \n\n D.R. Horton (DHI) closed the most recent trading day at $135.57, moving -2.42% from the previous trading session. This move lagged the S&P 500's daily loss of 0.59%. Meanwhile, the Dow experienced a drop of 0.6%, and the technology-dominated Nasdaq saw a decrease of 0.65%. \n Heading into today, shares of the homebuilder had lost 4.73% over the past month, outpacing the Construction sector's loss of 9.47% and lagging the S&P 500's loss of 1.37%. \n\n The upcoming earnings release of D.R. Horton will be of great interest to investors. On that day, D.R. Horton is projected to report earnings of $3.06 per share, which would represent year-over-year growth of 0.66%. Alongside, our most recent consensus estimate is anticipat",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/d-r-horton-dhi-dips-221503255.html"
         }
-      ]
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.073 · RSI 36.0 · 전일 대비 -2.42%"
     },
-    "이오스 에너지": {
-      "ticker": "EOSE",
+    "MP 머티리얼스": {
+      "ticker": "MP",
       "market": "해외",
-      "candidates": 49,
-      "today_count": 1,
+      "candidates": 48,
+      "today_count": 6,
       "stories": [
         {
-          "title": "Eos Energy Enterprises (EOSE) insider sets tax-driven stock sale plan",
-          "published_kst": "2026-09-10T05:13+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Stock Titan",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZUVpMDFXSTZUU2lEajhRYlpFeGtETU9UenE0aENhb2MzWVU2Q1NRT0NWTHplcm04cUhYa2txeWNKNXBDMVBtYVUyMmpwMFZVWDFYWEJDcmRwbHRiRlkzN0FnbUdjdkRsR1NEblV6cHdJcm83enpWLXlNVGQzRmlFOE50Smd6LXJ4STNpLUN1WG1JczZzRnNCbWdXbEZjOGlCYmx4OXhB?oc=5",
-              "published_kst": "2026-09-10T05:13+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body": "Eos Energy insider plans sale of 34,167 shares \n\n Director-level holder Sumeet Puri has arranged Rule 10b5-1 sales of EOSE shares tied to RSU vesting and recent prior transactions.\n\n 영향도 \n\n (Neutral) \n\n 투자심리 \n\n (Neutral) \n\n 서류 유형\n\n 144 \n\n Rhea-AI 서류 요약 \n\n English \n\n Italian \n\n Spanish \n\n German \n\n Korean \n\n French \n\n Arabic \n\n Eos Energy Enterprises, Inc. (EOSE) 는 Sumeet Puri가 34,167주 의 보통주를 매도할 계획이며, 이는 2026년 9월 5일 RSU 베스팅 시 취득될 것으로 예상된다고 밝혔다. 예정된 매도는 이 같은 제한조건부 주식(Restricted Stock Units)과 관련된 예상 세금 원천징수 의무를 충당하기 위해 Rule 10b5-1 거래 계획 에 따라 이뤄질 예정이다.\n 앞선 3개월 동안 Sumeet Puri는 보통주 8,823주 를 2026년 6월 30일에 $51,693.07 에 매도했으며, 29,167주 를 2026년 7월 28일에 $97,922.37 에 매도했다.\n\n 긍정적 \n\n 없음. \n\n 부정적 \n\n 없음. \n\n Key Figures \r\n\n Planned shares to be sold: 34,167 shares \r\n\n Sale on June 30, 2026: 8,823 shares; $51,693.07 \r\n\n Sale on July 28, 2026: 29,167 shares; $97,922.37 \r\n\n +2 more \r\n\n 5 metrics \r\n\n Planned ",
-          "body_source": "원문 본문 · www.stocktitan.net",
-          "article_url": "https://www.stocktitan.net/sec-filings/EOSE/144-eos-energy-enterprises-inc-sec-filing-d206230188f8.html"
-        }
-      ]
-    },
-    "알먼티": {
-      "ticker": "ALM",
-      "market": "해외",
-      "candidates": 46,
-      "today_count": 0,
-      "stories": []
-    },
-    "크레도 테크놀로지": {
-      "ticker": "CRDO",
-      "market": "해외",
-      "candidates": 61,
-      "today_count": 9,
-      "stories": [
-        {
-          "title": "What Investors Need To Understand About Broadcom, Credo and Snowflake Earnings",
-          "published_kst": "2026-09-10T04:50+09:00",
+          "title": "Rare Earth Stocks Tumble on U.S.-China Thaw Hopes: USA Rare Earth Sinks 4%, MP Materials Drops 5%, Critical Metals Slips",
+          "published_kst": "2026-09-11T01:41+09:00",
           "relevance": "direct",
           "sources": {
             "Yahoo Finance": {
               "publisher": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/video/investors-understand-broadcom-credo-snowflake-195011802.html",
-              "published_kst": "2026-09-10T04:50+09:00"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/rare-earth-stocks-tumble-u-164104081.html",
+              "published_kst": "2026-09-11T01:41+09:00"
             },
             "구글 뉴스 RSS": {
-              "publisher": "24/7 Wall St.",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXdtd0owcVhjYm1iTEJaRkdfUVhBbkRSMlk2RThyclI1WGVMQ3BJendnZ3JQa2htd1RwdV81enFrV190VlE5WVgySkpVZDdUZGZ5TWtOd0tsTjZISzZMMzdrck9LNjdOS2dJdHdWTkNBQmYzYTIxX2UwM1M5VEdsTWx6Y3Q0MGZDS1FJMVhnQUpjN01oUHlJQy03YUM3aEF6WHpxaF9OWGU0WDA?oc=5",
-              "published_kst": "2026-09-10T04:50+09:00"
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2RPcmNfZjI2OXJVVGJsZG5xeXZYQlBfbVdXTVFKbHBWRGNtQWMxR3BYQ2ZJbFlJUU41SW82aGxoajR6MWdXR19ZVWhuQ2hkNHhnM2gwcUZpbWFYa0x6bFpmZmdoeG0wV2FnSjBiTnZLNm9fUFhBeWlzaTZWbVF0Z0Nqa3dYanI2OU5rcHJKV1FPWDYxd2c?oc=5",
+              "published_kst": "2026-09-11T01:41+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 11.5,
-          "body": "What Investors Need To Understand About Broadcom, Credo and Snowflake Earnings \n\n What do massive earnings beats from Broadcom, Credo Technology Group, and Snowflake really tell us about the current state of the AI trade? During a recent episode of The AI Investor Podcast, Eric Bleeker and Austin Smith discussed why stocks…\n\n By Brad Faye \n\n Published September 9, 2026, 3:50pm ET · 1 min read \n\n 𝕏 \n f \n\n ⧉ \n\n https://videos.247wallst.com/247wallst.com/2026/09/What-Investors-Need-To-Understand-About-Broadcom-Credo-and-Snowflake-1657871.mp4 \n\n Brad Faye\n\n All articles →",
-          "body_source": "원문 본문 · 247wallst.com",
-          "article_url": "https://247wallst.com/videos/what-investors-need-to-understand-about-broadcom-credo-and-snowflake-earnings/"
-        }
-      ]
-    },
-    "알파벳 A": {
-      "ticker": "GOOGL",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 44,
-      "stories": [
-        {
-          "title": "Do Amazon and Alphabet's Combined $420 Billion in Capital Expenditures Make Sense?",
-          "published_kst": "2026-09-10T07:20+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-alphabets-combined-420-billion-222000624.html",
-              "published_kst": "2026-09-10T07:20+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMEZqcWdESnoyR3JRSXIyMS1ZSy1JOWZQUjNCdlM0T1BQb045MDBZV2pWcXhNZC05a2lBSG5UTEEyRkJqN0pWbnJxTmhJajBLbkRwZFRFZzVuUVhYVU1SRWVoaVUwdUctZmJMaV9nMDdNNTV4aVVhWWkydFFhbmUydG5BOEZKaW51U3VIVXUwS2NPcVJiMHZWMQ?oc=5",
-              "published_kst": "2026-09-10T07:21+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "Amazon ( AMZN -1.78% ) and Alphabet ( GOOG -2.09% ) ( GOOGL -2.28% ) are the two biggest spenders in the data center space. For 2026, Amazon projects spending about $220 billion. Alphabet is slightly behind that, giving investors a range of $195 billion to $205 billion, but it has also raised its guidance every quarter in 2026, so the actual figure may be much higher than the midpoint of $200 billion. In all reality, these two have nearly a blank check to get as much computing capacity online as possible, but that's a massive chunk of money that could have been used for other purposes.\n\n In fact, if Amazon and Alphabet decided to pay investors a one-time dividend using that money, Amazon shareholders could have received $20.41 per share, and Alphabet investors would have received $16.40 per share. That's a huge percentage of their stock price, but would that have made sense? Let's take a",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/09/09/do-amazon-and-alphabets-combined-420-billion-in-ca/"
-        }
-      ]
-    },
-    "시스코 시스템즈": {
-      "ticker": "CSCO",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 12,
-      "stories": [
-        {
-          "title": "How Far Could Cisco Stock Fall With Its Fastest Growth Riding On Hyperscalers?",
-          "published_kst": "2026-09-10T07:14+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Trefis",
-              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVHc4ek9VdHNtdzkxaVdqSHd4LS1UOVJ4cEgxODlkSUZwaTZoMll6Q3BpeWg4Rjl4Z3ltZkItYlpsMGJKOUFobTROU1FXXy1vMXhFUEg5VTBYTExDUGVES1BPN3N4dWVqVDM1Qnp6Y1JKM01LeDQyRFJjXy1JcmRxOEVJSlJ2WkROSnFTalNQOVBCTHN0SWwyeGIzMGlJblZtcE1QZjJPMGFFSnBQSVBSZ3dva2RuS2dQOFRvU3NFZmdPWGtWMjVaZ2xOb1gxSzNxMWMtdQ?oc=5",
-              "published_kst": "2026-09-10T07:14+09:00"
-            },
-            "Yahoo Finance": {
-              "publisher": "Trefis",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/far-could-cisco-stock-fall-221500760.html",
-              "published_kst": "2026-09-10T07:15+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "How Far Could Cisco Stock Fall With Its Fastest Growth Riding On Hyperscalers? September 9th, 2026 · by Trefis Team CSCO YTD +43.8% SPY YTD +12.6% QQQ YTD +17.1% \n Analyze CSCO → \n Cisco Systems (CSCO) trades near $109, about 16% below its 52-week high, after falling 10.1% over the past month. It is still up 66.6% over the trailing twelve months, against 19.3% for the S&P 500. Its own record since 2007 says a stock like this falls about as hard as the market and has usually come back within months, though its deepest shock-era fall took years. What Cisco sells, and who buys it, has changed since that record was set.\n\n One Line Pointed Down In Cisco’s Best Year \n\n Nothing in the fiscal 2026 results broke. Revenue for the year was a record $63.3 billion, and management guided fiscal 2027 revenue above $72 billion, ahead of what Wall Street expected.\n\n The exception was margin. Non-GAAP gro",
-          "body_source": "원문 본문 · www.trefis.com",
-          "article_url": "https://www.trefis.com/stock/csco/articles/614730/how-far-could-cisco-stock-fall-with-its-fastest-growth-riding-on-hyperscalers/2026-09-09"
-        }
-      ]
-    },
-    "버티브 홀딩스": {
-      "ticker": "VRT",
-      "market": "해외",
-      "candidates": 52,
-      "today_count": 6,
-      "stories": [
-        {
-          "title": "Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today",
-          "published_kst": "2026-09-10T06:45+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-vertiv-holdings-co-vrt-214501852.html",
-              "published_kst": "2026-09-10T06:45+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": true,
-          "importance": 7.0,
-          "body": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational.\nVertiv Holdings Co. (VRT) closed the most recent trading day at $262.89, moving -9.61% from the previous trading session. The stock fell short of the S&P 500, which registered a loss of 0.48% for the day. Elsewhere, the Dow lost 0.77%, while the tech-heavy Nasdaq lost 0.64%.\nComing into today, shares of the company had gained 3.2% in the past month. In that same time, the Computer and Technology sector gained 0.4%, while the S&P 500 lost 0.97%.\nThe investment community will be paying close attention to the earnings performance of Vertiv Holdings Co. in its upcoming release. The company's earnings per share (EPS) ",
-          "body_source": "원문 본문 · Yahoo 링크"
-        }
-      ]
-    },
-    "록히드마틴": {
-      "ticker": "LMT",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 20,
-      "stories": [
-        {
-          "title": "UBS sees a structural shift building at Lockheed Martin",
-          "published_kst": "2026-09-10T04:33+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "thestreet.com",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SQjBSclY1NTVxdFYyejNmM0duY3dsaWZzQzhuckswXzFCQ1lEekNlVUpiOTM4MmNRY0p0Z05QS2dnMEUwemdyM21RWU5Uc2R3eDlFQnFhanRDb1JoQ1VqSDRHSE14LXc5LS1mMGlwTUFfS3JLMk43Zm5Dcw?oc=5",
-              "published_kst": "2026-09-10T04:33+09:00"
-            },
-            "Yahoo Finance": {
-              "publisher": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-sees-structural-shift-building-223300105.html",
-              "published_kst": "2026-09-10T07:33+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational.\nWall Street spent the first half of 2026 souring on Lockheed Martin (LMT), the Pentagon's largest supplier, watching its stock slide as its order book kept swelling.\nFixed-price contracts and production delays had eaten into profits before, and investors bet they would again. On Tuesday, Sept. 8, UBS said that bet is about to go wrong.\nDefense stocks rallied broadly at the start of the year as military spending plans rose and geopolitical tensions stayed elevated, Bloomberg reported, and Lockheed climbed to an all-time high near $692 in March. That made the reversal that followed even sharper for investors who ha",
-          "body_source": "원문 본문 · Yahoo 링크"
-        }
-      ]
-    },
-    "마이크로소프트": {
-      "ticker": "MSFT",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 25,
-      "stories": [
-        {
-          "title": "Can Microsoft Stock Keep Earning Like This?",
-          "published_kst": "2026-09-10T04:54+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Trefis",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-keep-earning-195439759.html",
-              "published_kst": "2026-09-10T04:54+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "Trefis",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcDlKcjJkY09FY1gtRlB4UGNUbm56eURkOVFKNnJvVW9sbmkzTV8zLXRZaUpwdXNuVFgxWHBKSk1PaWRhZHFMNE1ibEtFbzBsU0R1NXF5dldVNUpRZ2d1STFJbXNOa281U0UzZ3RKZW1GRGtfRXZsekJpaktjZkUtbGNvZDB5Szl1d1ZBcTN3OXpFa1BGN3k4TElsMEZnZ1dDcG1qSDhn?oc=5",
-              "published_kst": "2026-09-10T04:54+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "Can Microsoft Stock Keep Earning Like This? September 9th, 2026 · by Trefis Team MSFT YTD +2.8% SPY YTD +12.6% QQQ YTD +17.1% \n Analyze MSFT → \n Microsoft (MSFT) is coming off the most profitable stretch it has posted in years, and its stock trades at $493.95, about 92% of its 52-week high. Nothing here is broken. The risk is quieter than that. The spending that came with those margins is still climbing, and the company has already told shareholders what it expects that to do to fiscal 2027.\n\n Microsoft Is Making More Money Than It Has In Years \n Net margin over the trailing twelve months is 40.3%, the highest in at least five years and well above a 36.8% three-year average. Operating margin runs 46.8% against a 45.3% three-year average, near the top of its multi-year range. Revenue of $331.8 billion grew 17.8% year over year, so none of this came from a shrinking business.\n\n Margins at ",
-          "body_source": "원문 본문 · www.trefis.com",
-          "article_url": "https://www.trefis.com/stock/msft/articles/614712/can-microsoft-stock-keep-earning-like-this/2026-09-09"
-        }
-      ]
-    },
-    "나이키 B": {
-      "ticker": "NKE",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 13,
-      "stories": [
-        {
-          "title": "3 Reasons to Sell NKE and 1 Stock to Buy Instead",
-          "published_kst": "2026-09-10T03:42+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-nke-1-184238019.html",
-              "published_kst": "2026-09-10T03:42+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjI4OF9zV3NzTEJXYVBHY19ua2p0VFJtTEZUcERsaEdlcmY5MmhjTllBZDNCZUhNZTlRSlYyTXBSWEwzc3A4aWFFUVQ0YlZVOTBrVGtYeHljMVp0VUp5bmZ6RDVMem9UTGhzUFUzSmVnNmo4Z00yR0ZCQVIyU0JTNjh3dXdSSVpOaldrQUZn?oc=5",
-              "published_kst": "2026-09-10T03:42+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 9.5,
-          "body": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational.\nNike has gotten torched over the last six months - since March 2026, its stock price has dropped 32.7% to a new 52-week low of $38.05 per share. This might have investors contemplating their next move.\nIs now the time to buy Nike, or should you be careful about including it in your portfolio? Get the full breakdown from our expert analysts, it's free .\nDespite the more favorable entry price, we're cautious about Nike. Here are three reasons we avoid NKE, plus one stock we'd rather own.\nWe can better understand Consumer Discretionary - Footwear companies by analyzing their constant currency revenue. This metric ex",
+          "body": "Rare Earth Stocks Tumble on U.S.-China Thaw Hopes: USA Rare Earth Sinks 4%, MP Materials Drops 5%, Critical Metals Slips \n\n David Moadel \n Thu, September 10, 2026 at 12:41 PM EDT 6 min read \n\n MP \n\n USAR \n\n REMX \n\n CRML \n\n SPY \n\n Quick Read USAR drops 4% and MP Materials falls 5% as Trump-Xi summit hopes erode the scarcity premium driving domestic rare earth valuations. \n REMX sinks 5% versus SPY's 0.5% dip, confirming a targeted sector repricing rather than a broad market risk-off move. \n USA Rare Earth broke ground on a $1.2 billion South Carolina facility Wednesday, yet diplomatic headlines overshadowed the milestone the very next day. \n Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and MP Materials didn't make the cut. Enter your email to see the names that beat MP. The report is free. Enter your email and see if any of you",
           "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-nke-1-184238019.html"
-        }
-      ]
-    },
-    "노보노디스크 ADR": {
-      "ticker": "NVO",
-      "market": "해외",
-      "candidates": 70,
-      "today_count": 3,
-      "stories": [
-        {
-          "title": "Novo Nordisk's Balancing Act: Buybacks and Brazil Price Cuts Meet a Cardiology Setback",
-          "published_kst": "2026-09-10T02:42+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "AD HOC NEWS",
-              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVU0tVjZUU1pXYlNhb2JiWGdyeEJkSUNDUVFzUk9aZF9JaFpvamlyRVFRMmhwV2x2N0h0X2lRVmF0eVRaODAtRmY1a2pWb01YVFZzVWlHTEJDM29COGhqMVo2TG9mTndjUnh6bUloSGRKNW1MT2FuTHJKb01lN2Y4STZJSGxhbEZQMExGaElTdzRubUVNRWplVWZhZVhtUmdYbFJwUkxHcG1vMzZ6R1E4MUcxN2FIRVRxWnBza2h3MEhnVTBHZlJmdUtPVC1PX1BLSklLcQ?oc=5",
-              "published_kst": "2026-09-10T02:42+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body": "Novo Nordisk's buybacks signal confidence, but Ziltivekimab setbacks and rising competition cloud the outlook ahead of its capital markets day.\nThe arithmetic at Novo Nordisk is getting harder to ignore. The Danish pharmaceutical group has been buying back its own shares with conspicuous determination — between 31 August and 4 September alone it acquired 1,055,000 B-shares under a 12-month programme worth 15 billion Danish kroner. Since the buyback began on 4 February, the company has repurchased 32,034,179 shares at an average price of 281.63 kroner, for a total outlay of 9.02 billion kroner. Its treasury now holds 46,074,876 of its own shares, equivalent to one percent of share capital.\nManagement signalling of that sort usually carries a simple message: the stock is cheap. At 38.54 euros, the shares sit roughly 30 percent below their 52-week high of 54.86 euros, reached in January. Ye",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/novo-nordisk-s-balancing-act-buybacks-and-brazil-price-cuts-meet-a/70077247"
-        }
-      ]
-    }
-  },
-  "alerts": {
-    "에리스 매니지먼트": {
-      "ticker": "ARES",
-      "market": "해외",
-      "candidates": 50,
-      "today_count": 4,
-      "stories": [
-        {
-          "title": "Ares Management Corp (ARES) Shares Fall 3.1% -- What GF Score of 87 Tells Investors",
-          "published_kst": "2026-09-10T07:06+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd21tMHB1c2RXTllUWW8yM0dPN0R2ZkY3M2prd2hrb0EzajEtcDBnTEFncnRxZS0yOV9yTW53S25zemdHZjhpZU1NZk5sb1ZPVS1aZEI2anVoQnlRd1lGazlIZVRoYlkxNHdKdmFMUGVKMXJPOW5wMzRLSkZ2Y2xGVExUcHFTMUlucnFrTG82OEVJQVRVZUM1S3FaRTJkMmgtcHZGT2t0OXFKWTRjYUVibmxpbTh3dw?oc=5",
-              "published_kst": "2026-09-10T07:06+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/rare-earth-stocks-tumble-u-164104081.html"
         }
       ],
       "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.111 · RSI 43.8 · 전일 대비 -3.07%"
+      "alert_detail": "%B -0.029 · RSI 43.3 · 전일 대비 -5.49%"
     },
-    "블랙스톤": {
-      "ticker": "BX",
+    "알코아": {
+      "ticker": "AA",
       "market": "해외",
       "candidates": 70,
-      "today_count": 15,
+      "today_count": 8,
       "stories": [
         {
-          "title": "Blackstone Secured Lending: Don't Buy Before The Likely Upcoming Dividend Cut (Rating Downgrade)",
-          "published_kst": "2026-09-10T05:31+09:00",
+          "title": "Cutting Canada tariffs alone won't flatten US aluminum premium, Alcoa says",
+          "published_kst": "2026-09-11T02:01+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Seeking Alpha",
-              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRDZHSHRobm0xV2xVOTQwczZValBkVVUxcFZRLVJrZW50M0FrSVlMcWNzNWNoQ3U1dEVPS3pBc05nNDNvWEFsbzRxR0hyOVZjcThNajNORHlXMHlpanREOHBRTFQ5WldmS09BV2VzRGcxemN2RUJsTHhGYVBBWDZNWnVwcW5sR1NFV0ZiOVVLUUVhaTRaT2FtTC1RVGttcm5IeE4yQThOQmVaUFdfWGc2VG5EX0ZMX3ZBYXFRUVN2RS1QaWtiakNtbXF0MmhPdw?oc=5",
-              "published_kst": "2026-09-10T05:31+09:00"
+              "publisher": "TradingView",
+              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQVVlZ25uVGhXNDZ0VkQ3VnFndk1fYkthZlktdkpJSUVwY21DbUgyb1dzUnJ1YU1PbW5nQlo4LXhGLVU3LVROdU1FSWV5Nkw0eGxrb2V3c2VVaklBYWhvNmV4LUIwdkhSSFQtMmh6OGhqanM1aHdGRUxvcndMS3l5M2JuRmNIZVhmU2RfT2FFSHlSbTNFTExZS29sUDhMVVFfX3RVb0ZpN05ySWdDcjlwVmNaTXhUQkw1LUZPVDhJT3RySVJudERfVkZMdjdvMV9tYXNSRl9Mc0JlNkU?oc=5",
+              "published_kst": "2026-09-11T02:01+09:00"
+            },
+            "Yahoo Finance": {
+              "publisher": "Reuters",
+              "url": "https://finance.yahoo.com/economy/policy/articles/cutting-canada-tariffs-alone-wont-170514242.html",
+              "published_kst": "2026-09-11T02:05+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 9.5,
+          "body": "Cutting Canada tariffs alone won't flatten US aluminum premium, Alcoa says \n\n Read the full article Get unlimited access to articles from Reuters and every other news source on TradingView.\n Keep reading",
+          "body_source": "원문 본문 · www.tradingview.com",
+          "article_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N4520RV:0-cutting-canada-tariffs-alone-won-t-flatten-us-aluminum-premium-alcoa-says/"
         }
       ],
       "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.149 · RSI 36.0 · 전일 대비 -3.66%"
+      "alert_detail": "%B -0.119 · RSI 44.2 · 전일 대비 -4.79%"
     },
-    "블루아울 캐피털": {
-      "ticker": "OWL",
+    "암라이즈": {
+      "ticker": "AMRZ",
       "market": "해외",
-      "candidates": 47,
+      "candidates": 43,
       "today_count": 1,
       "stories": [
         {
-          "title": "Maurices Announces Successful Refinancing and Expanded Lending Partnership",
-          "published_kst": "2026-09-10T04:37+09:00",
+          "title": "Alpha Buying: 4 Falling Knives Insiders Are Buying",
+          "published_kst": "2026-09-11T01:16+09:00",
           "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Financial Times",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaTYtczVwLTM5Qlg1eURIYWdGempIZmRTZUtqdWdlUGJMMmRHcVh4dlBnX0JhNVRkSFFMVFdvak5OaWpuU18xU1Bway12S2lpdHZ0clp4cWh3Nm56M0tTNmRhQUIzQ0oxV29Xc0UyX18zeUhla1hPZ1ZHbU42QjIwdnU4THBWS3hoWmtlbUtxLWNMVDJ0UmtYcA?oc=5",
-              "published_kst": "2026-09-10T04:37+09:00"
+              "publisher": "benzinga.com",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYWtJdGdUdzZtNS1TQ1FFRTBQTHdoUm9IUlptUGl1MFpCbW1pTGhXUkZoSUhWcE1HWVlJUnZhR3U1b29WckV6M2t1STRKVDAwaHdyV2dXTlRxdzEzV2Qtdnlnd3ZyZFZJRERlbGY5SWRsRW9sTTZSNmJxZjRrRVA2b3ZUWjVHWGxncWxiS1JfaEFKWE9YRDRlZHVncnRwQQ?oc=5",
+              "published_kst": "2026-09-11T01:16+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 0.0,
-          "body": "DULUTH, Minn. \r\n , Sept. 9, 2026 /PRNewswire/ -- Maurices , a leading women's fashion retailer, today announced the successful completion of a refinancing transaction.\nThe transaction expands Maurices' longstanding relationship with lending partners Wingspire Capital and Tiger Finance and welcomes Second Avenue Capital Partners to the financing relationship. This transaction strengthens the company's capital structure through extended maturities and lower borrowing costs. The refinancing is expected to enhance financial flexibility while supporting the company's long-term strategic objectives.\n\"This refinancing represents an important milestone for Maurices attributable to the success of our business turnaround and strong team. It further reflects the confidence our lending partners have in our business, our performance, and our future,\" said Brent Hickman , Chief Operating Officer of Ma",
-          "body_source": "원문 본문 · markets.ft.com",
-          "article_url": "https://markets.ft.com/data/announce/detail?dockey=600-202609091537PR_NEWS_USPRX____CG44211-1"
+          "body": "There are dozens of reasons corporate executives sell shares.\n They may need money to pay taxes, buy a house, settle a divorce, diversify their wealth, or fund a new boat they will use three times before deciding they hate boating.\n There is usually only one reason they reach into their own pockets and buy shares on the open market.\n They believe the stock is worth more than the price they are paying.\n That does not mean every insider purchase will produce an immediate profit. Corporate executives can be early, overly optimistic, or simply wrong.\n\n However, when a stock has been cut in half and several members of the C-suite begin buying meaningful amounts of stock with their own money, I pay attention.\n These people are not working from an analyst presentation or an earnings model assembled in a Manhattan office tower.\n They see the orders coming in.\n They know which customers are payin",
+          "body_source": "원문 본문 · www.benzinga.com",
+          "article_url": "https://www.benzinga.com/opinion/26/09/61720365/alpha-buying-4-falling-knives-insiders-are-buying"
         }
       ],
       "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.106 · RSI 41.7 · 전일 대비 -3.21%"
-    },
-    "리얼티 인컴": {
-      "ticker": "O",
-      "market": "해외",
-      "candidates": 48,
-      "today_count": 3,
-      "stories": [
-        {
-          "title": "Realty Income Hikes Its Dividend Again: Can Growth Continue?",
-          "published_kst": "2026-09-10T00:56+09:00",
-          "relevance": "direct",
-          "sources": {
-            "Yahoo Finance": {
-              "publisher": "Zacks",
-              "url": "https://finance.yahoo.com/real-estate/articles/realty-income-hikes-dividend-again-155600974.html",
-              "published_kst": "2026-09-10T00:56+09:00"
-            },
-            "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYktkVUpMVUJtckIyU3hnNjR4UnpPRmlHaWw0MF9ndk9UaHJWVVJ3OF9WVGlnUV9DY2tvUHBsZnBNVHA4RmtUc2cydGt6bTNYTmcwWHhLcjZOSjlxOGpySnM4emNuOW9fek9sdVNKdU0xMEFWNkJneUQ0UFI3T3hiLXFBemlOTzE4N1ZUbkpHUng0WGNIWWRldW9XWU0?oc=5",
-              "published_kst": "2026-09-10T00:56+09:00"
-            }
-          },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 11.5,
-          "body": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for certain activity generated through this link. Prices displayed are informational.\nFor Realty Income O, dividend growth is less about the size of each hike than the ability to keep repeating it. The latest increase lifts the monthly dividend to 27.15 cents per share, or $3.258 annualized, and marks the 136th increase since the REIT's 1994 NYSE listing. The question is whether cash flow can keep supporting that pattern.\n\nThe payout still has room beneath earnings. Realty Income paid 81.2 cents per share in dividends during the second quarter, equal to 74.5% of adjusted funds from operations (AFFO) per share of $1.09. AFFO per share rose 3.8% from a year earlier, leaving a cushion between operati",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/real-estate/articles/realty-income-hikes-dividend-again-155600974.html"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.117 · RSI 31.4 · 전일 대비 -1.49%"
-    },
-    "도미노피자": {
-      "ticker": "DPZ",
-      "market": "해외",
-      "candidates": 50,
-      "today_count": 5,
-      "stories": [
-        {
-          "title": "Domino's Pizza Inc (DPZ) Stock Down 4.2% -- Now Undervalued? GF Score: 71/100",
-          "published_kst": "2026-09-10T07:33+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTWZyWnlUcllLSm1rSDIyY1JmWGh2UnU1S0owSHYwNW9LbVE1bWFSZUJWZEZaZDlkVUoxelVHdmlBWVA0dVQ1U0k1bjdFZkRPVGxTeHBTcHV4amd6U2dHaFJUOW9OR3NEZDRJLU53RV81LVJzZW94bG9ncnYyTlgtWE9RbWxCWVZhT09Gc3VMdTFrS0RfTXFNRWpmOXozaEptT1JaZEM3b18?oc=5",
-              "published_kst": "2026-09-10T07:33+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.156 · RSI 39.0 · 전일 대비 -4.16%"
-    },
-    "암라이즈": {
-      "ticker": "AMRZ",
-      "market": "해외",
-      "candidates": 46,
-      "today_count": 0,
-      "stories": [],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.094 · RSI 31.0 · 전일 대비 -2.34%"
+      "alert_detail": "%B -0.067 · RSI 29.6 · 전일 대비 -1.29%"
     }
   }
 }

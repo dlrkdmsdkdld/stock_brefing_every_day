@@ -1,17 +1,209 @@
 {
-  "generated_at": "2026-09-10T07:40:40+09:00",
+  "generated_at": "2026-09-11T07:44:32+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#2/gpt-5.6-luna",
+  "model": "OpenAI#1/gpt-5.6-luna + OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 5636,
-    "output_tokens": 4120
+    "input_tokens": 7889,
+    "output_tokens": 6366
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "반도체투자정점은2028년으로전망하반기는sk하이닉스에기대": {
+      "title": "“반도체 투자 정점은 2028년으로 전망… 하반기는 SK하이닉스에 기대...",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "반도체 엔지니어 출신 박성문 작가는 현재 반도체 슈퍼사이클이 아직 정점을 지나지 않았으며, 반도체 기업의 생산능력과 수익성이 2028년쯤 정점에 이를 가능성이 크다고 전망했다. 그는 엔비디아의 차세대 GPU ‘루빈’ 공급을 위해 HBM 적층 단수가 낮아질 수 있지만, HBM 8단과 12단은 생산 난도에서 25% 이상 차이가 난다고 설명했다.",
+      "impact": "AI용 HBM 수요와 메모리 업황이 당분간 강하다는 전망은 SK하이닉스의 HBM 판매와 실적에 긍정적일 수 있다. 특히 기사에서 업황 정점 시점을 2028년으로 제시해 중기 수요 지속 가능성을 뒷받침한다.",
+      "caution": "이는 박성문 작가의 전망과 분석에 기반한 내용이며, 2028년이 투자 정점이자 업황의 사실상 고점이 될 수 있다는 경고도 포함한다. 제공된 본문이 중간에 끝나 구체적인 SK하이닉스 실적 전망은 확인되지 않는다."
+    },
+    "ai전력시장뚫는다정기선hd현대엔진smr로2030년매출100조": {
+      "title": "\"AI 전력시장 뚫는다\" 정기선號 HD현대, 엔진·SMR로 '2030년 매출 100조...",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대는 AI 데이터센터 전력 수요에 대응하기 위해 육상 발전엔진과 SMR에 총 1조722억원을 투자한다. HD현대중공업은 8336억원을 투입해 2028년 5월 준공 목표인 3GW 규모 온산 힘센엔진 생산기지를 구축하고, 전체 생산능력을 현재 3GW에서 2030년 7.2GW로 확대할 계획이다.",
+      "impact": "HD현대중공업의 발전엔진 생산능력 확대는 AI 데이터센터 전력 인프라 시장에서 수주와 매출을 늘릴 수 있는 성장 경로다. HD현대가 미국 AEG와 코반에너지그룹에 총 1조5831억원 규모의 데이터센터용 발전설비 공급 계약을 체결한 점도 관련 사업의 초기 실적 기반으로 작용한다.",
+      "caution": "생산기지는 2028년 5월 준공 예정이고 생산능력 확대 목표는 2030년 기준이어서 단기 실적에 미치는 영향은 제한적일 수 있다. 기사에 해당 투자의 수익성이나 HD현대중공업의 영업이익 영향은 제시되지 않았다."
+    },
+    "delldellreports609bofaiserverordersanda95bbacklogcanthedemandsurgeproducedurablecashflow": {
+      "title": "Dell (DELL) Reports $60.9B of AI Server Orders and a $95B Backlog. Can the Demand Surge Produce Durable Cash Flow?",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "Dell은 fiscal 2027년 2분기 매출 470억달러를 기록해 전년 동기보다 58% 증가했으며, AI 서버 주문액은 609억달러, 인식된 AI 서버 매출은 164억달러, 기말 backlog는 950억달러에 달했다. 회사는 fiscal 2027년 매출 전망을 250억달러 상향해 1920억달러로 제시했다.",
+      "impact": "AI 서버 주문과 backlog 증가는 Dell의 향후 서버 매출 가시성을 높이고, AI 인프라 투자 확대에 따른 수혜 가능성을 보여준다. 매출 전망 상향은 강한 수요가 당분간 실적 성장으로 이어질 것이라는 회사의 판단을 반영한다.",
+      "caution": "609억달러의 주문과 950억달러의 backlog는 인식된 매출이 아니며, Dell은 backlog의 매출 전환 일정도 공개하지 않았다. 제목에서 제기한 지속적인 현금흐름 창출 여부는 제공된 본문만으로 확인되지 않는다."
+    },
+    "rhrhq2earningsandrevenuestopestimates": {
+      "title": "RH (RH) Q2 Earnings and Revenues Top Estimates",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "기사는 가구·생활용품 기업 RH가 2026년 7월 종료 분기에 조정 주당순이익 2.70달러를 기록해 시장 예상치 0.42달러를 웃돌았고, 매출 9억2215만달러로 컨센서스를 0.9% 상회했다고 전한다. RH의 이번 EPS 서프라이즈는 +542.86%였으며, 전년 동기 EPS는 2.93달러였다.",
+      "impact": "기사의 실적 개선은 RH 주가에는 영향을 줄 수 있지만, 보유 종목인 컨스텔레이션 브랜즈의 매출·이익·사업 전망과 직접 연결되는 내용은 없다.",
+      "caution": "본문은 RH의 실적을 다룬 기사이며 컨스텔레이션 브랜즈(STZ)는 티커로만 언급된다. 따라서 보유 종목에 대한 직접적인 호재나 악재로 판단하기 어렵다."
+    },
+    "firstsolarfslrgainsasmarketdipswhatyoushouldknow": {
+      "title": "First Solar (FSLR) Gains As Market Dips: What You Should Know",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "First Solar 주가는 최근 거래에서 207.17달러로 마감해 전일 대비 2% 상승했으며, 같은 날 S&P 500은 0.59%, 다우지수는 0.6%, 나스닥은 0.65% 하락했다. 회사의 다음 실적 발표에서 주당순이익은 4.56달러로 전년 동기보다 7.55% 증가할 것으로 예상되지만, 주가는 최근 한 달간 10.44% 하락했다.",
+      "impact": "시장 약세에도 주가가 상승했고 예상 EPS 증가도 제시돼 단기 투자심리와 실적 기대에는 긍정적이다. 다만 이는 실적 발표 전 전망에 기반한 호재로, 실제 실적이 확인될 경우에만 지속적인 주가 상승 동력이 될 수 있다.",
+      "caution": "기사에는 예상 매출 수치가 끝까지 제시되지 않았고, 최근 한 달간 주가가 10.44% 하락해 상대적인 부진도 나타났다. EPS 4.56달러는 확정 실적이 아니라 시장 예상치다."
+    },
+    "eosestockslidesaslegalprobesandshareoverhangrattletraders": {
+      "title": "EOSE Stock Slides As Legal Probes And Share Overhang Rattle Traders",
+      "holding": "이오스 에너지",
+      "stance": "악재",
+      "summary": "Eos Energy Enterprises 주가는 자금조달 및 유동성 우려로 3.6% 하락했다. 여러 증권법률 회사가 2025년 11월 5일 이전 매수자와 관련된 잠재적 기업 부정행위를 조사 중이며, 회사는 최대 5655만주의 보통주 재매각 등록을 신청해 잠재적인 주식 공급과 희석 압력을 키웠다.",
+      "impact": "법률 조사와 경영진의 주주 피해 가능성은 소송·거버넌스 리스크를 높여 이오스 에너지의 기업가치와 투자심리를 훼손할 수 있다. 최대 5655만주의 재매각 가능 물량은 유통주식 공급 증가와 희석 우려를 통해 주가에 직접적인 부담이 될 수 있다.",
+      "caution": "기사에 언급된 조사는 잠재적 소송 및 의혹 단계이며, 실제 위법 행위가 확정됐다는 내용은 아니다. 재매각 등록도 실제 매각이나 확정 희석을 의미하지는 않는다."
+    },
+    "almontyindustriesnasdaqalmsharesdown63hereswhy": {
+      "title": "Almonty Industries (NASDAQ:ALM) Shares Down 6.3% - Here's Why",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "Almonty Industries 주가는 2026년 9월 10일 거래에서 6.3% 하락해 17.18달러를 기록했고, 거래량은 평균 거래일 대비 83% 감소했다. 반면 애널리스트 평균 투자의견은 ‘Buy’, 컨센서스 목표주가는 26.81달러였으며, 회사의 시가총액은 48억3000만달러이고 텅스텐 생산에 주력한다.",
+      "impact": "주가 하락은 단기 투자심리에 부정적이지만, 매수 의견과 26.81달러의 목표주가는 알먼티에 대한 시장의 중장기 기대를 지지하는 요인이다. 그러나 기사에 새로운 생산·매출·수익성 변화가 제시되지 않아 보유 종목의 펀더멘털 방향을 명확히 판단하기 어렵다.",
+      "caution": "기사에 하락 원인이 구체적으로 설명되지 않았고, 목표주가는 애널리스트 전망일 뿐 실현이 보장되지 않는다. 기관투자자의 신규·추가 매수 언급도 회사 실적 개선을 직접 입증하지 않는다."
+    },
+    "credocrdoreports115revenuegrowthbutlowergaapgrossmargincanaiconnectivityscalewithoutfurthermargincompression": {
+      "title": "Credo (CRDO) Reports 115% Revenue Growth but Lower GAAP Gross Margin. Can AI Connectivity Scale Without Further Margin Compression?",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "Credo Technology는 fiscal 2027년 1분기 매출 4억7900만달러를 기록해 전년 동기보다 114.7% 증가했고, 전분기보다 9.6% 늘었다. 그러나 GAAP 매출총이익률은 68.2%에서 64.5%로 하락했고, 영업비용은 1억4220만달러에서 1억8840만달러로 증가해 GAAP 영업이익은 1억5580만달러에서 1억2070만달러로 감소했다.",
+      "impact": "AI 연결성 제품 수요에 힘입은 115%에 가까운 매출 성장은 크레도 테크놀로지의 외형 성장과 시장 확장에 긍정적이다. 회사가 fiscal 2027년 2분기 매출을 5억2500만달러로 안내한 점도 성장세 지속 기대를 뒷받침한다.",
+      "caution": "매출 성장에도 매출총이익률 하락과 비용 증가로 GAAP 영업이익이 감소해 수익성 희생 가능성이 나타났다. 향후 매출 증가가 마진 회복과 현금흐름 개선으로 이어질지는 본문만으로 확인되지 않는다."
+    },
+    "finlandrisksstrainedpowersupplyaftergoogleaidealoppositionwarns": {
+      "title": "Finland risks strained power supply after Google AI deal, opposition warns",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "Alphabet의 Google은 2026년 9월 9일 핀란드 AI 인프라에 향후 2년간 최소 130억 유로(약 151억 달러)를 투자한다고 발표했으며, 이는 유럽 최대 규모의 투자다. 그러나 핀란드 야당은 데이터센터 확대로 전력 부족과 에너지 가격 급등이 발생할 수 있다며 국가 차원의 데이터센터 허가 제도를 도입해야 한다고 주장했다.",
+      "impact": "대규모 AI 인프라 투자는 Alphabet의 클라우드·AI 설비 확대와 장기적인 성장 기반 강화에 긍정적이다. 다만 전력망 부담과 인허가 규제가 투자 일정 및 비용을 높일 가능성이 있다.",
+      "caution": "본문이 투자와 전력 공급 우려를 설명하는 중간에 잘려 있어 구체적인 전력 공급 계약 및 후속 대응 내용은 확인되지 않는다."
+    },
+    "ciscoslipsashuaweisourcecodeclaimsreachtrial": {
+      "title": "Cisco Slips as Huawei Source-Code Claims Reach Trial",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "Huawei의 미국 연방 형사재판이 브루클린에서 시작됐고, 검찰은 Huawei가 Cisco를 포함한 미국 기업 5곳의 영업비밀과 Cisco 라우터 운영체제 소스코드를 탈취하려 했다고 주장했다. Cisco 주가는 목요일 약 0.5% 하락해 108.865달러를 기록했지만, Cisco는 소송 당사자가 아니며 투자자들이 반영할 공개된 금전적 회복 전망도 없다.",
+      "impact": "소스코드 탈취 혐의가 사실로 인정되면 Cisco의 지식재산 보호와 경쟁 환경에 간접적인 영향을 줄 수 있다. 그러나 현재 Cisco가 직접 소송을 진행하거나 금전적 보상을 받을 가능성이 공개된 것은 아니어서 실적 영향은 제한적이다.",
+      "caution": "Huawei는 혐의를 부인하며 정당한 사업 활동 또는 일부 직원의 단독 행동이라고 주장하고 있고, 재판은 약 3개월간 진행될 수 있어 최종 판단이 나오지 않았다."
+    },
+    "veterananalystsaysbuyvertivdespitehugegainsalready": {
+      "title": "Veteran analyst says buy Vertiv despite huge gains already",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "베테랑 옵션 트레이더 Mike Khouw는 CNBC의 ‘Options Action’에서 이미 주가가 1,000% 넘게 상승한 Vertiv Holdings에 대해 강세 의견을 제시했다. 그는 2027년 초까지 이어지는 옵션 거래를 구성했으며, 주가보다 향후 수익의 방향이 중요하다고 설명했다.",
+      "impact": "유명 시장 전문가의 긍정적 전망은 Vertiv에 대한 투자 심리와 단기 수급에 우호적으로 작용할 수 있다. 다만 이는 회사의 신규 계약이나 실적 발표가 아니라 개인 분석가의 의견이므로 기업가치에 대한 직접적인 변화는 제한적이다.",
+      "caution": "기사에 Khouw의 구체적인 실적 전망, 목표주가, 옵션 구조와 Vertiv의 사업 내용이 모두 제시되지 않았으며, 이미 1,000% 이상 상승한 주가의 밸류에이션 부담도 남아 있다."
+    },
+    "lockheedmartinyields26andtradesat176timesearningsiswallstreetrighttobecautiousonthestock": {
+      "title": "Lockheed Martin Yields 2.6% and Trades at 17.6 Times Earnings. Is Wall Street Right to Be Cautious on the Stock ?",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "Visible Alpha에 따르면 Lockheed Martin에 대한 월가 의견은 매수 3건, 보유 6건, 매도 1건으로 신중한 편이다. 반면 회사는 2026년 2분기 기준 2,300억 달러의 사상 최고 수주잔고를 보유하고 있으며, 이는 2026년 예상 매출의 거의 3배이고 글로벌 국방예산도 증가하고 있다.",
+      "impact": "높은 수주잔고와 국방비 증가는 Lockheed Martin의 미래 매출 가시성을 지지하는 긍정적 요인이다. 그러나 시장의 보수적인 투자의견은 현재 주가에 기대가 상당 부분 반영됐거나 성장성·수익성에 우려가 있음을 시사해 상승 여력을 제한할 수 있다.",
+      "caution": "본문은 월가가 신중한 이유를 설명하는 과정에서 중단되어 있어 구체적인 위험 요인과 결론을 확인할 수 없다."
+    },
+    "ismicrosoftstockovervaluedat28xearnings": {
+      "title": "Is Microsoft Stock Overvalued At 28x Earnings?",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "Microsoft는 약 491.65달러에서 거래되며 주가수익비율이 27.8배로 비교 기업군에서 두 번째로 높고, 최근 12개월 주가 수익률은 -0.5%였다. Microsoft는 동종업계 최고 수준인 46.8%의 영업이익률과 17.8%의 매출 성장을 기록했지만, Alphabet의 매출 성장률 20.1% 및 주가 수익률 41.6%와 비교하면 높은 밸류에이션을 정당화해야 하는 상황이다.",
+      "impact": "높은 수익성과 준수한 성장률은 Microsoft의 사업 경쟁력을 보여주는 호재다. 하지만 27.8배의 이익 배수와 최근 시장 대비 부진한 주가 수익률은 향후 실적이 기대에 미치지 못할 경우 밸류에이션 조정 위험을 높인다.",
+      "caution": "기사는 Microsoft가 실제로 고평가됐는지 분석하는 내용으로, 매출·이익 전망이나 명확한 목표주가는 제시하지 않는다."
+    },
+    "nikejustgainedanotherbearishcallonwallstreethereswhy": {
+      "title": "Nike Just Gained Another Bearish Call on Wall Street—Here’s Why",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "Morgan Stanley는 2026년 9월 10일 Nike에 대한 분석을 재개하며 투자의견을 ‘비중축소’로 제시했고, 월가 최저 수준인 목표주가 31달러를 설정했다. 분석가들은 특히 중국에서 시장 컨센서스가 너무 이른 시점에 과도한 성장을 반영했다고 봤으며, Nike 주가는 이날 약 2% 하락해 37달러 아래의 12년 최저치를 기록했다.",
+      "impact": "비중축소 의견과 31달러 목표주가는 Nike의 중국 성장과 회복 속도에 대한 우려를 부각해 투자심리와 주가에 직접적인 부담을 준다. 주가가 이미 급락했더라도 추가적인 실적 전망 하향 가능성이 남아 있다.",
+      "caution": "Visible Alpha가 추적하는 다른 13명 중 매도 의견은 1명뿐이고 중립 10명, 매수 2명이어서 월가 전체의 의견이 Morgan Stanley와 일치하는 것은 아니다."
+    },
+    "abbvievsnovonordiskwhichhealthcarestockisabetterbuyin2026": {
+      "title": "AbbVie vs. Novo Nordisk: Which Healthcare Stock Is a Better Buy in 2026?",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "기사의 제목은 AbbVie와 Novo Nordisk 중 2026년에 더 나은 헬스케어 투자처를 비교하는 내용이다. 제시된 지표상 Novo Nordisk는 주가 44.01달러, 시가총액 1,490억 달러, 매출총이익률 80.65%, 주가수익비율 10.88배, 배당수익률 4.03%였고, AbbVie는 시가총액 4,430억 달러와 주가수익비율 70.94배를 기록했다.",
+      "impact": "Novo Nordisk의 높은 매출총이익률과 낮은 주가수익비율은 밸류에이션 측면에서 긍정적으로 볼 수 있다. 그러나 이 기사는 AbbVie와의 비교 자료를 제시하는 성격이 강하고 Novo Nordisk의 구체적인 실적 전망이나 매수 결론이 명확하지 않아 보유 종목에 직접적인 방향성을 주기 어렵다.",
+      "caution": "본문이 비교 지표를 반복적으로 제시하는 중간에 끝나 있어 비만·당뇨 치료제 경쟁, 성장 전망 및 최종 투자 판단을 확인할 수 없다."
+    },
+    "usarareearthusaracquiredserraverdecanitmanagethedebtandproductionramp": {
+      "title": "USA Rare Earth (USAR) Acquired Serra Verde. Can it Manage the Debt and Production Ramp?",
+      "holding": "USA 레어어스",
+      "stance": "중립",
+      "summary": "USA Rare Earth는 2026년 9월 3일 브라질의 Pela Ema 광산을 보유한 Serra Verde 인수를 완료했으며, 대금으로 현금 3억 달러와 약 1억 2,680만 주의 신주를 지급했다. Serra Verde는 2024년 1월 생산을 시작했지만 최적화와 시운전을 진행 중이고, 1단계는 2026년 말까지 연간 약 4,000톤의 희토류 산화물 생산능력 달성을 목표로 한다.",
+      "impact": "이번 인수로 USA Rare Earth는 브라질 광산을 영국의 Less Common Metals, 오클라호마 자석 공장, 텍사스 Round Top 프로젝트와 결합해 희토류 공급망을 확대할 수 있다. 반면 3억 달러의 현금 지출과 1억 2,680만 주 신주 발행, 생산 최적화 및 시운전 위험은 재무 부담과 주주 희석 요인이다.",
+      "caution": "1단계 생산 목표는 아직 달성 전이며, 기사에 인수 이후 부채 규모와 실제 생산·수익성 전망이 충분히 제시되지 않아 긍정·부정 효과를 확정하기 어렵다."
+    },
+    "blanknoneedformorepefirmsinnflprogram": {
+      "title": "Blank: No need for more PE firms in NFL program",
+      "holding": "에리스 매니지먼트",
+      "stance": "중립",
+      "summary": "애틀랜타 팰컨스 구단주 아서 블랭크는 최근 지분 10%를 매각하는 과정에서 기존 사모펀드들 사이에 경쟁적인 시장이 형성돼 있었다며 NFL이 추가 사모펀드 승인을 서두를 필요가 없다고 말했다. 블랭크는 아르코스 파트너스와 10% 지분 인수 계약을 체결했으며, 해당 거래는 10월 다른 NFL 구단주들의 승인을 받을 예정이다.",
+      "impact": "기사의 핵심은 팰컨스와 아르코스 간 거래 및 NFL의 사모펀드 승인 정책으로, 에리스 매니지먼트에는 직접적인 실적·거래 영향이 확인되지 않는다.",
+      "caution": "에리스 매니지먼트는 기사에서 마이애미 돌핀스에 투자한 기존 사모펀드로 언급될 뿐이며, 에리스의 신규 투자나 재무 성과에 관한 내용은 없다."
+    },
+    "owlstockslipsaslegalprobesthreatenmomentum": {
+      "title": "OWL Stock Slips As Legal Probes Threaten Momentum",
+      "holding": "블루아울 캐피털",
+      "stance": "악재",
+      "summary": "블루아울 캐피털 주가는 사모대출 시장 위험에 대한 우려가 커지며 3.78% 하락했다. 브론스타인, 거위츠 앤드 그로스먼을 비롯한 여러 증권 소송 법률회사가 2025년 2월 6일 이전에 주식을 매수하고 아직 보유한 투자자를 대상으로 회사와 임원·이사들의 위법 행위 가능성을 조사하고 있다.",
+      "impact": "증권사 조사와 집단소송 가능성은 블루아울의 법률·규제 리스크와 평판 부담을 키우고, 투자심리 및 주가에 직접적인 하방 압력을 줄 수 있다.",
+      "caution": "본문은 조사 착수와 소송 가능성만 제시하며 실제 위법 행위가 확인됐거나 소송이 성립했다는 내용은 없다."
+    },
+    "5highyielddividendstocksbuiltforreliableretirementincome": {
+      "title": "5 High-Yield Dividend Stocks Built for Reliable Retirement Income",
+      "holding": "리얼티 인컴",
+      "stance": "중립",
+      "summary": "10년물 미국 국채 금리가 2026년 9월 8일 기준 4.80%까지 상승하면서 배당주에 요구되는 수익률 기준이 높아졌다고 설명한다. 기사는 현금흐름으로 배당을 뒷받침하고 여러 해 동안 배당을 인상해 온 고배당주 5개를 소개한다고 밝혔지만, 제공된 본문에는 구체적인 종목 목록이 포함돼 있지 않다.",
+      "impact": "금리 상승은 리츠의 배당 매력을 상대적으로 낮추고 자금조달 비용 부담을 높일 수 있지만, 제공된 내용만으로 리얼티 인컴의 배당이나 실적에 미친 구체적 영향을 판단하기 어렵다.",
+      "caution": "제공된 본문에는 리얼티 인컴의 기업명, 배당률, 실적 또는 기사 내 선정 여부가 명시돼 있지 않다."
+    },
+    "dominospizzasetsq3fy26earningswebcastforoct13": {
+      "title": "Domino's Pizza sets Q3FY26 earnings webcast for Oct 13",
+      "holding": "도미노피자",
+      "stance": "중립",
+      "summary": "도미노피자는 2026년 3분기 실적을 2026년 10월 13일 오전 6시 5분(미 동부시간)에 발표하고, 같은 날 오전 8시 30분에 투자자 대상 웹캐스트를 진행할 예정이다. 최근 4개 분기 누적 글로벌 소매 매출은 206억 달러를 넘어섰다.",
+      "impact": "실적 발표 일정과 과거 4개 분기 매출은 투자자들이 확인할 정보이지만, 이번 기사에는 실적 전망이나 사업 변화가 없어 도미노피자 주가에 대한 방향성은 중립적이다.",
+      "caution": "실적 발표 전 안내 기사이므로 2026년 3분기 실제 매출·이익 결과와 전망은 아직 제시되지 않았다."
+    },
+    "drhortondhidipsmorethanbroadermarketwhatyoushouldknow": {
+      "title": "D.R. Horton (DHI) Dips More Than Broader Market: What You Should Know",
+      "holding": "DR호튼",
+      "stance": "약한 악재",
+      "summary": "D.R. Horton 주가는 최근 거래일에 135.57달러로 마감하며 2.42% 하락했고, S&P 500의 0.59% 하락보다 부진했다. 최근 한 달 동안 주가는 4.73% 하락했으며, 회사의 다음 실적에서 주당순이익 3.06달러와 전년 대비 0.66% 성장이 예상된다고 보도됐다.",
+      "impact": "시장 대비 큰 주가 하락은 단기 투자심리 악화를 보여주는 약한 악재다. 다만 예상 EPS가 전년 대비 증가할 것으로 제시돼 실적 전망이 전면적으로 부정적인 것은 아니다.",
+      "caution": "기사에 제시된 수치는 주가 움직임과 애널리스트 예상치이며, 주가 하락의 구체적인 사업 원인이나 실제 실적은 확인되지 않았다."
+    },
+    "rareearthstockstumbleonuschinathawhopesusarareearthsinks4mpmaterialsdrops5criticalmetalsslips": {
+      "title": "Rare Earth Stocks Tumble on U.S.-China Thaw Hopes: USA Rare Earth Sinks 4%, MP Materials Drops 5%, Critical Metals Slips",
+      "holding": "MP 머티리얼스",
+      "stance": "악재",
+      "summary": "미·중 관계 개선 기대가 희토류 공급 부족에 붙었던 프리미엄을 약화시키면서 USA Rare Earth 주가는 4%, MP 머티리얼스는 5% 하락했다. 희토류 관련 ETF REMX도 5% 하락해 S&P 500의 0.5% 하락보다 낙폭이 컸으며, USA Rare Earth의 12억 달러 규모 사우스캐롤라이나 시설 착공 소식도 외교 관련 뉴스에 가려졌다.",
+      "impact": "미·중 긴장 완화 기대는 미국산 희토류 공급망과 비중국산 생산업체에 부여된 전략적 희소성 프리미엄을 낮출 수 있어 MP 머티리얼스의 밸류에이션과 주가에 부정적이다.",
+      "caution": "기사의 주된 원인은 트럼프·시진핑 정상회담 기대라는 시장 심리 변화이며, 실제 관세 철폐나 희토류 공급 증가가 확정됐다는 내용은 없다."
+    },
+    "cuttingcanadatariffsalonewontflattenusaluminumpremiumalcoasays": {
+      "title": "Cutting Canada tariffs alone won't flatten US aluminum premium, Alcoa says",
+      "holding": "알코아",
+      "stance": "중립",
+      "summary": "기사 제목은 알루미늄에 대한 미국의 프리미엄이 캐나다 관세만 인하해서는 사라지지 않을 것이라는 알코아의 입장을 전한다. 제공된 본문에는 이 발언의 세부 근거와 관세·가격·실적에 관한 추가 수치가 포함돼 있지 않다.",
+      "impact": "미국 내 알루미늄 프리미엄이 유지된다면 알코아의 북미 판매가격에는 긍정적일 가능성이 있지만, 기사 본문이 제공되지 않아 실제 수익 영향은 판단하기 어렵다.",
+      "caution": "본문이 ‘전체 기사 읽기’ 안내와 제목 중심으로만 제공돼 관세 변화의 규모, 시행 여부, 알코아의 구체적인 실적 영향이 확인되지 않는다."
+    },
+    "alphabuying4fallingknivesinsidersarebuying": {
+      "title": "Alpha Buying: 4 Falling Knives Insiders Are Buying",
+      "holding": "암라이즈",
+      "stance": "중립",
+      "summary": "기사는 임원이 공개시장에서 자기 돈으로 주식을 매수하는 행위가 회사 가치에 대한 자신감을 보여줄 수 있다고 설명한다. 다만 임원 매수도 항상 즉각적인 수익을 보장하지 않으며, 임원이 너무 이르거나 지나치게 낙관적일 수 있다고 경고한다.",
+      "impact": "임원 매수는 해당 기업에 대한 내부자 신뢰 신호가 될 수 있지만, 제공된 본문에는 암라이즈의 임원이 실제로 얼마의 주식을 언제 매수했는지와 기업 실적 정보가 없어 투자 영향은 중립적이다.",
+      "caution": "본문이 기사 도입부와 일부 내용에서 끊겨 있으며, 암라이즈의 기업명·매수 규모·매수 날짜 등 구체적인 사실이 확인되지 않는다."
+    },
     "잘나가는반도체9월노사분수령삼성은노조재편하이닉스는재투표": {
       "title": "잘 나가는 반도체, 9월 노사 분수령…삼성은 노조 재편·하이닉스는 재투표",
       "holding": "SK하이닉스",
