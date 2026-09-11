@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T07:44:32+09:00",
+  "generated_at": "2026-09-12T07:44:11+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#1/gpt-5.6-luna + OpenAI#2/gpt-5.6-luna",
+  "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 7889,
-    "output_tokens": 6366
+    "input_tokens": 8062,
+    "output_tokens": 6563
   },
   "skipped": {
     "본문없음": 4,
@@ -12,6 +12,174 @@
     "호출실패": []
   },
   "verdicts": {
+    "반도체etf에도급이란게있습니다hbm넘어613오른낸드": {
+      "title": "반도체 ETF에도 급이란 게 있습니다…HBM 넘어 613% 오른 낸드株",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "반도체 ETF가 HBM과 낸드플래시 등 메모리 품목별로 세분화되고 있으며, 기사에서는 올해 주가 상승률 기준으로 낸드 기업이 HBM 주요 기업을 웃돌았다고 전했다. 한화자산운용은 이달 중 ‘PLUS 코리아HBM반도체’를 출시할 예정이며, 삼성전자와 SK하이닉스를 합쳐 절반가량 편입할 계획이다.",
+      "impact": "HBM 특화 ETF 출시와 AI 추론 확산 기대는 HBM 주요 공급업체인 SK하이닉스에 대한 투자 수요와 관심을 높일 수 있다. 다만 올해 수익률에서는 샌디스크 등 낸드 기업이 앞섰다는 점은 상대적인 주가 모멘텀 측면에서 긍정 효과를 제한한다.",
+      "caution": "기사 후반부가 잘려 있어 낸드 특화 ETF의 구체적인 구성과 마이크론 실적 전망은 확인할 수 없다."
+    },
+    "월세지원금부정수령발칵삼성전자내역전수조사": {
+      "title": "‘월세 지원금 부정수령’ 발칵… 삼성전자 “내역 전수조사”",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자는 2022년부터 평택 캠퍼스의 저연차 미혼 직원에게 월 최대 70만원의 주거비를 지원해 왔지만, 일부 직원이 허위 계약서로 지원금을 부정 수령한 사실이 적발됐다. 회사는 관련 내역을 전수조사하고 있으며, 실제보다 면적이나 월세를 부풀리는 이른바 ‘월세깡’ 사례가 제기됐다.",
+      "impact": "부정수령 사건은 삼성전자의 내부통제와 임직원 관리에 대한 평판 부담을 키울 수 있다. 다만 현재 공개된 내용상 회사가 직접 입은 손실 규모나 실적 영향은 제시되지 않았다.",
+      "caution": "기사에 나온 문제는 일부 직원의 주거비 지원금 부정수령 의혹으로, 삼성전자의 사업 실적이나 재무성과에 미치는 영향은 확인되지 않는다."
+    },
+    "포스코이어hd현대도파업영업익30성과급달라주장": {
+      "title": "포스코 이어 HD현대重도 파업… “영업익 30% 성과급 달라” 주장",
+      "holding": "HD현대중공업",
+      "stance": "악재",
+      "summary": "HD현대중공업 노동조합은 임단협 교섭 난항을 이유로 11일 오후 1시부터 4시간 동안 전체 조합원 부분파업을 진행했고, 14~15일에는 4시간, 16~18일에는 7시간 파업을 예고했다. 노조는 기본급 14만9600원 인상과 영업이익 최소 30% 성과 공유 등을 요구했으며, 회사의 기본급 11만원 인상 및 격려금 등이 담긴 3차 제시안은 거부됐다.",
+      "impact": "파업이 장기화되면 HD현대중공업의 생산 일정과 선박 인도, 인건비 및 협상 비용에 부담을 줄 수 있어 단기 수익성과 사업 실행에 부정적이다. 성과급 요구를 둘러싼 노사 갈등이 커질수록 불확실성도 확대된다.",
+      "caution": "기사에는 파업으로 인한 실제 생산 차질이나 재무 손실 규모가 제시되지 않았고, 향후 협상 타결 가능성도 남아 있다."
+    },
+    "rbcdropsjawdroppingpricetargetondellstock": {
+      "title": "RBC Drops Jaw Dropping Price Target on Dell Stock",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "델 테크놀로지는 기업용 AI 지출, 서버 교체, PC 교체 수요 확대 기대에 힘입어 주가가 상승한 하드웨어 기업 중 하나로 언급됐다. RBC는 델에 ‘Outperform’ 등급과 640달러의 목표주가를 제시했으며, 델은 2Q27 종료 시점에 950억달러의 AI 서버 수주잔고와 약 1320억달러를 최근 12개월 동안 주문으로 전환한 파이프라인을 보유한 것으로 소개됐다.",
+      "impact": "대규모 AI 서버 수주잔고와 공급 제약은 델의 AI 서버 매출 및 수주 가시성을 높이는 요인이다. 전통적인 기업 고객으로 AI 인프라 투자가 확대되면 델의 서버 수요와 실적 개선으로 연결될 수 있다.",
+      "caution": "기사 본문이 잘려 있어 RBC 목표주가의 산정 근거와 수익성, 메모리 공급 제약이 델에 미치는 구체적 영향은 확인할 수 없다."
+    },
+    "cancegsexpandinggenerationportfoliodrivelongtermgrowth": {
+      "title": "Can CEG's Expanding Generation Portfolio Drive Long-Term Growth?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지는 2026년 9월 10일 셸로부터 로드아일랜드주 에너지센터(RISEC)를 7억1500만달러에 인수하기로 합의했으며, 거래는 규제 승인 등 조건을 남겨두고 있다. 609MW 규모의 복합화력 천연가스 발전소는 ISO 뉴잉글랜드 시장에서 유연하고 급전 가능한 전력을 제공하며, 회사는 영업이익 증가와 2027년까지 50억달러 자사주 매입 프로그램의 지속 가능성을 기대하고 있다.",
+      "impact": "발전 용량 포트폴리오 확대는 전력 수요 증가에 대응할 수 있는 CEG의 발전·판매 기반을 강화한다. 회사가 예상한 영업이익 증가가 실현되면 현금흐름과 자사주 매입 여력에도 긍정적일 수 있다.",
+      "caution": "인수는 규제 승인과 기타 종결 조건을 충족해야 하며, 기사에는 예상 영업이익 증가액이나 인수 후 수익성 수치가 제시되지 않았다."
+    },
+    "armvscredotechnologygroupwhichsemiconductorstockisabetterbuyin2026": {
+      "title": "Arm vs. Credo Technology Group: Which Semiconductor Stock Is a Better Buy in 2026?",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "인공지능 수요가 확대되는 가운데 Arm과 크레도 테크놀로지 그룹을 비교하며, Arm은 프로세서 설계도를 제공하고 크레도는 프로세서 간 고속 연결을 담당한다고 설명했다. 두 회사 모두 데이터센터 인프라와 관련된 기업으로 소개됐으며, 제시된 주가는 Arm 264.79달러, 크레도 162.95달러, 시가총액은 각각 2710억달러와 300억달러였다.",
+      "impact": "AI 데이터센터 투자가 확대되면 프로세서 간 고속 연결 제품을 제공하는 크레도의 수요 증가 기대가 커질 수 있다. 다만 이 기사는 두 종목의 투자 매력을 비교하는 성격이어서 크레도의 구체적인 신규 수주나 실적 개선을 직접 확인해 주지는 않는다.",
+      "caution": "본문이 중간에 잘려 있어 크레도의 매출, 이익, 밸류에이션 및 Arm과의 최종 비교 결론을 확인할 수 없다."
+    },
+    "alphabetgooglbeatsstockmarketupswingwhatinvestorsneedtoknow": {
+      "title": "Alphabet (GOOGL) Beats Stock Market Upswing: What Investors Need to Know",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳은 최근 거래에서 338.99달러로 전일보다 1.92% 상승해 S&P500의 0.86%, 다우지수의 0.98%, 나스닥의 0.96% 상승률을 웃돌았다. 그러나 최근 한 달 기준으로는 주가가 3.97% 하락해 컴퓨터·기술 섹터의 0.56% 하락과 S&P500의 1.96% 하락보다 부진했으며, 다음 실적 발표에서 EPS 2.93달러가 예상된다고 전해졌다.",
+      "impact": "하루 기준 시장 대비 강한 상승은 단기 투자심리에 긍정적이지만, 한 달 수익률은 상대적으로 부진해 방향성이 엇갈린다. 예정된 실적과 EPS 전망이 향후 주가의 핵심 촉매가 될 수 있으나, 기사만으로는 실적 결과를 판단하기 어렵다.",
+      "caution": "본문에 다음 실적 발표의 매출 전망과 구체적인 사업 뉴스가 충분히 제시되지 않았고, 현재 내용은 주가 움직임과 전망치 중심이다."
+    },
+    "howfarcouldciscostockswingonyouasainetworkingordersgrow": {
+      "title": "How Far Could Cisco Stock Swing On You As AI Networking Orders Grow?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈 주가는 2026년 9월 11일 기준 107.44달러이며, 옵션시장에서는 향후 12개월 동안 약 74~156달러 범위에서 움직일 가능성을 반영하고 있다. 기사에 따르면 시스코의 연초 이후 주가 상승률은 41.5%로, 같은 기간 SPY 11.4%와 QQQ 15.5%를 웃돌았다.",
+      "impact": "AI 네트워킹 주문 증가 기대와 높은 연초 이후 상승률은 시스코에 대한 시장 관심을 보여주는 긍정 요인이다. 그러나 옵션 범위는 주가 변동성의 크기만 나타낼 뿐 방향성을 제시하지 않으므로, 보유 종목의 추가 상승을 직접 뒷받침하는 근거로 보기는 어렵다.",
+      "caution": "제목은 AI 네트워킹 주문 증가를 언급하지만, 제공된 본문에는 주문 규모나 매출·이익에 미치는 구체적 수치가 없다. 따라서 실적 호재로 단정하기 어렵다."
+    },
+    "vertivannouncesagreementtoacquireutilityinnovationgrouptoacceleratetimetopowerforaidatacenters": {
+      "title": "Vertiv Announces Agreement to Acquire UtilityInnovation Group to Accelerate Time to Power for AI Data Centers",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스의 wholly-owned subsidiary인 Vertiv Corporation은 데이터센터용 마이크로그리드·전력제어 기업 UtilityInnovation Group(UIG)을 인수하기로 합의했다. 인수 대금은 종결 시 현금 약 14억5,000만 달러이며, 12개월 및 24개월 EBITDA 목표 달성에 따라 최대 11억5,000만 달러가 추가 지급된다. 초기 인수가격은 UIG의 2027년 예상 EBITDA의 약 13배이며, 버티브는 이번 인수가 조정 주당순이익에 기여할 것으로 예상했다.",
+      "impact": "AI 데이터센터의 전력 공급과 전력 인프라 설계 역량을 확보해 버티브의 ‘전력 공급까지 걸리는 시간’ 단축 및 사업 확장에 도움이 될 수 있다. 인수가 실제로 조정 EPS에 기여하면 성장 기대와 기업가치에 긍정적이다.",
+      "caution": "본문이 ‘조정 EPS에 기여할 것으로 예상’한다는 문장에서 중단되어 구체적인 실적 기여 규모와 최종 인수 조건은 확인되지 않는다. 최대 11억5,000만 달러의 추가 대가는 UIG의 EBITDA 달성 여부에 따라 발생한다."
+    },
+    "canadafinalizedanagreementtobuy88lockheedmartinf35afighterjetsinjanuary2023almost18monthsintoarevieworderedbyprimeministermarkcarneyottawaiscommittedtoonly16ofthemandthefirstonesstillarrivethisyear": {
+      "title": "Canada Finalized an Agreement to Buy 88 Lockheed Martin F-35A Fighter Jets in January 2023. Almost 18 Months Into a Review Ordered by Prime Minister Mark Carney, Ottawa Is Committed to Only 16 of Them — and the First Ones Still Arrive This Year.",
+      "holding": "록히드마틴",
+      "stance": "악재",
+      "summary": "캐나다는 2023년 1월 록히드마틴 F-35A 전투기 88대를 구매하는 계약을 확정했지만, 마크 카니 총리의 검토 이후 현재 확정적으로 추진하는 물량은 16대인 것으로 보도됐다. 첫 F-35A 인도는 올해 진행될 예정이며, 캐나다는 Saab의 Gripen E를 포함한 대안을 검토하고 있다.",
+      "impact": "기존 88대 계약이 16대로 축소되면 록히드마틴의 캐나다향 F-35 매출과 수주잔고가 줄어들 수 있다. Saab과의 경쟁 심화는 향후 추가 구매 물량 확보에도 부담이다.",
+      "caution": "기사에는 캐나다가 최종적으로 16대만 구매할 것인지, 기존 계약의 나머지 72대가 공식 취소됐는지에 대한 상세한 확정 내용이 부족하다. F-35 첫 인도는 올해 예정되어 있어 단기 매출 영향은 일부 유지될 수 있다."
+    },
+    "appleandmicrosoftlooklikevaluestocksmorningstaronsandisks2107year": {
+      "title": "‘Apple and Microsoft Look Like Value Stocks’: Morningstar on SanDisk’s 2,107% Year",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "이 기사는 SanDisk 주가가 지난 1년간 2,107% 상승하면서 AI 저장장치 투자 열기를 보여줬다고 설명한다. Morningstar의 톰 로리첼라는 이러한 흐름 때문에 S&P 500의 대형주인 Apple과 Microsoft가 상대적으로 ‘가치주처럼 보인다’고 평가했다.",
+      "impact": "Microsoft가 AI 투자와 관련해 시장에서 상대적으로 저평가된 대형주로 인식될 수 있다는 점은 심리적으로 긍정적일 수 있다. 그러나 기사에서 Microsoft의 실적, 제품, 사업 전망에 대한 직접적인 변화는 제시되지 않았다.",
+      "caution": "주된 내용은 SanDisk의 주가 급등과 AI 저장장치 사이클이며, Microsoft는 비교 대상으로 언급됐을 뿐이다. 따라서 보유 종목에 대한 직접적인 호재나 악재로 판단하기 어렵다."
+    },
+    "nikeisnowdown40thisyearisnkestockdeadmoneyordueforabounce": {
+      "title": "Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce?",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "Nike 주가는 올해 들어 40% 하락해 37달러까지 떨어졌으며, On Holding과 Lululemon도 각각 41%, 53% 하락했다. 반면 S&P 500을 추종하는 SPY는 12% 상승하고 소비재 관련 XLY는 5% 하락하는 데 그쳐, 기사가 운동복 업종 전반의 재평가 가능성을 제기했다.",
+      "impact": "Nike의 주가 하락은 투자심리와 밸류에이션에 부담을 주며, 업종 전반의 수요 둔화 또는 성장 우려가 지속되면 회복이 지연될 수 있다. 다만 경쟁사도 함께 하락했다는 점은 Nike만의 실행 실패보다는 섹터 요인이 크다는 의미다.",
+      "caution": "기사는 향후 ‘카테고리 주도 반등’ 가능성도 제기하지만, 구체적인 매출·이익 전망이나 반등을 뒷받침할 실적 근거는 제한적이다. 본문 중 일부는 투자 리포트 홍보 문구다."
+    },
+    "novonordiskstockplungesonmorganstanleydowngradewarnsofsemaglutidepatentcliff": {
+      "title": "Novo Nordisk Stock Plunges on Morgan Stanley Downgrade Warns of Semaglutide Patent Cliff",
+      "holding": "노보노디스크 ADR",
+      "stance": "악재",
+      "summary": "Morgan Stanley는 Novo Nordisk의 투자의견을 Equal-weight에서 Underweight로 낮췄고, 이에 따라 9월 11일 주가가 2% 넘게 하락했다. Morgan Stanley는 세마글루타이드가 2026년 Novo 매출의 약 75%를 차지할 것으로 예상하며, 2031년 독점권 상실과 제네릭 경쟁 가능성을 장기 위험으로 지적했다. 한편 경구 비만치료제 사업은 2031년 100억 달러 매출을 낼 것으로 전망했다.",
+      "impact": "매출의 약 75%가 세마글루타이드에 집중되면 특허·독점권 만료와 경쟁 약물 출시가 매출 및 이익에 큰 영향을 줄 수 있다. 투자의견 하향과 주가 하락은 이러한 장기 리스크가 기업가치에 반영되는 경로다.",
+      "caution": "2031년 특허 절벽과 제네릭 경쟁은 장기 전망이며, 실제 독점권 만료 시점과 경쟁 강도는 변동될 수 있다. 경구 비만치료제의 2031년 100억 달러 매출 전망은 부정적 영향을 일부 상쇄할 가능성이 있다."
+    },
+    "usarfallsbelow50daysmaisittimetoholdorexitthestock": {
+      "title": "USAR Falls Below 50-Day SMA: Is It Time to Hold or Exit the Stock?",
+      "holding": "MP 머티리얼스",
+      "stance": "중립",
+      "summary": "USA Rare Earth(USAR)는 2026년 9월 9일 $17.06에 마감해 50일 단순이동평균 $17.54와 200일 이동평균 $19.26을 모두 밑돌았다. 기사는 회사가 상업 생산 초기 단계에 있고 소결 NdFeB 자석에서 아직 매출을 창출하지 못했으며, 지속적인 영업손실이 단기 재무성과에 부담을 준다고 설명한다.",
+      "impact": "기사의 주된 대상은 보유 종목인 MP 머티리얼스가 아니라 USA Rare Earth(USAR)이므로 MP의 주가나 실적에 직접 미치는 영향은 확인되지 않는다.",
+      "caution": "본문에 MP 머티리얼스에 대한 구체적인 언급이나 사업·재무 연결고리가 없어 보유 종목 관점의 호재 또는 악재로 판단하기 어렵다."
+    },
+    "aresmanagementstockfell22thisyearonaifearsisitpricedatadiscountordoesitstillhavefurthertofall": {
+      "title": "Ares Management Stock Fell 22% This Year on AI Fears. Is It Priced at a Discount or Does It Still Have Further to Fall?",
+      "holding": "에리스 매니지먼트",
+      "stance": "약한 악재",
+      "summary": "Ares Management 주가는 올해 22% 하락했으며, 1분기에는 투자자들이 직접대출 포트폴리오의 소프트웨어 차입자 노출을 AI disruption 위험으로 판단하면서 32% 하락했다. 회사 측은 2월 5일 실적 발표에서 소프트웨어가 직접대출 장부의 약 12%이고, AI로 인해 높은 위험에 처한 비중은 ‘매우 작다’고 설명했지만, 같은 분기 레버리지론 시장은 2022년 9월 이후 최악의 한 달을 기록했다.",
+      "impact": "AI가 소프트웨어 차입자의 상환능력이나 담보가치를 훼손하면 Ares의 직접대출 손실과 대손충당금 부담이 커질 수 있다. 레버리지론 시장의 약세가 지속되면 투자회수와 신규 자금 모집에도 부정적인 영향을 줄 수 있다.",
+      "caution": "기사에 따르면 경영진은 고위험 소프트웨어 대출 비중이 작다고 반박했으며, 실제 부실률이나 손실 규모는 제시되지 않았다. 따라서 현재 주가 하락이 펀더멘털 악화로 확정됐다고 보기는 어렵다."
+    },
+    "insidershifts202mblueowlnyseowlunitsinrestructuringmove": {
+      "title": "Insider shifts 2.02M Blue Owl (NYSE: OWL) units in restructuring move",
+      "holding": "블루아울 캐피털",
+      "stance": "중립",
+      "summary": "Blue Owl Capital의 10% 지분 보유자인 Owl Rock Capital Feeder LLC와 Owl Rock Capital Partners LP는 2026년 9월 11일 구조조정 유형의 처분을 완료했다. Owl Rock Feeder는 대가 없이 특정 임원 및 관련 법인에 Blue Owl의 Class D 주식 1,010,000주와 동일 수량의 Blue Owl Operating Group Units를 배분했으며, 거래 후 보고 법인들은 각각 169,874,846주의 간접 보유 Class D 주식을 보고했다.",
+      "impact": "이번 거래는 공개시장 매도보다는 관련 법인·임원 간 무상 배분에 해당해 Blue Owl의 영업실적이나 현금흐름에 직접적인 변화가 확인되지 않는다. 따라서 보유 종목에 대한 단기 주가 영향은 제한적으로 판단된다.",
+      "caution": "내부자 및 10% 보유자 관련 주식 이동이라는 점에서 투자심리에 영향을 줄 수 있지만, 기사에는 매도나 현금화가 발생했다는 내용이 없다. 또한 Rule 10b5-1 거래 계획은 보고되지 않았다."
+    },
+    "unitedhealthgroupunhstockdropsdespitemarketgainsimportantfactstonote": {
+      "title": "UnitedHealth Group (UNH) Stock Drops Despite Market Gains: Important Facts to Note",
+      "holding": "유나이티드헬스 그룹",
+      "stance": "약한 악재",
+      "summary": "유나이티드헬스 그룹(UNH)은 최근 거래일에 $379.09로 마감하며 전 거래일보다 2.37% 하락했고, 같은 날 S&P 500은 0.86%, 다우지수는 0.98%, 나스닥은 0.96% 상승했다. 최근 한 달간 주가는 2.7% 하락해 의료 부문(-2.34%)과 S&P 500(-1.96%)보다 부진했지만, आगामी 실적의 주당순이익(EPS)은 전년 동기 대비 38.01% 증가한 $4.03으로 예상된다.",
+      "impact": "시장 상승에도 주가가 하락하고 동종 부문 및 시장 대비 부진한 점은 투자심리와 단기 주가에 부정적이다. 다만 예상 EPS 증가율 38.01%는 실적 발표를 앞둔 기대 요인으로 하락 폭을 제한할 수 있다.",
+      "caution": "EPS는 아직 실제 실적이 아닌 전망치이며, 제공된 본문이 컨센서스 추정치 설명 중간에 끝나 있어 실적 전망의 전체 근거를 확인하기 어렵다."
+    },
+    "realtyincomestockgainsasmonthlydividendandyieldstayattractive": {
+      "title": "Realty Income stock gains as monthly dividend and yield stay attractive",
+      "holding": "리얼티 인컴",
+      "stance": "호재",
+      "summary": "리얼티 인컴은 2026년 9월 11일 기준 주당 선행 연환산 배당금 $3.252, 월 배당금 $0.271, 약 5.04%의 배당수익률을 제시하고 있으며 주가는 약 $61.25에 거래됐다. 회사는 674번째 연속 월 배당을 선언해 장기간 이어진 배당 지급 기록을 강조했다.",
+      "impact": "약 5% 수준의 배당수익률과 월별 현금 distribution은 소득 중심 투자자의 수요를 뒷받침할 수 있다. 674회 연속 월 배당 기록은 리얼티 인컴의 배당 지속성에 대한 투자자 신뢰를 강화하는 요인이다.",
+      "caution": "기사에는 배당의 재원인 임대수익, 배당성향, 금리 변화나 향후 배당 증가 가능성에 대한 분석이 없어 배당 지속성을 추가로 판단하기는 어렵다."
+    },
+    "dominoswildestpromoeverburnedthrough1millionin24hoursanditwasspectacular": {
+      "title": "Domino's Wildest Promo Ever Burned Through $1 Million in 24 Hours—and It Was Spectacular",
+      "holding": "도미노피자",
+      "stance": "약한 호재",
+      "summary": "도미노피자는 8월 말 신제품 개인용 스페셜티 피자 ‘The Domino’ 홍보를 위해 8월 31일부터 9월 30일까지 또는 준비 물량 소진 시까지 총 $1 million 상당의 무료 피자를 제공하는 프로모션을 시작했다. 고객은 맥도날드의 Big Mac이나 버거킹의 Whopper 등 경쟁 패스트푸드 제품을 구매한 뒤 영수증을 업로드해야 했으며, 높은 수요로 프로모션이 빠르게 소진된 것으로 전해졌다.",
+      "impact": "경쟁사 제품 구매 고객을 도미노피자 신제품 체험으로 유도해 브랜드 화제성과 신제품 인지도를 높인 점은 향후 판매에 긍정적일 수 있다. 다만 프로모션 비용이 발생하고, 높은 수요가 반복 구매나 수익성으로 이어지는지는 확인되지 않았다.",
+      "caution": "본문은 프로모션의 초기 반응과 화제성 중심이며, 실제 매출·이익 기여나 프로모션 종료 후 수요에 대한 수치는 제공하지 않는다. 또한 본문 후반이 잘려 있어 결과를 완전히 확인하기 어렵다."
+    },
+    "alcoanyseaatargets900millionindealsynergiesalongsideajumpinannualspending": {
+      "title": "Alcoa (NYSE: AA) targets $900 million in deal synergies—alongside a jump in annual spending",
+      "holding": "알코아",
+      "stance": "약한 호재",
+      "summary": "알코아는 South32의 보크사이트·알루미나·알루미늄 자산을 인수하는 거래를 추진하고 있으며, 회사 역사상 최대 규모의 인수로 2027년 상반기 종결을 예상하고 있다. 경영진은 조달·물류·상업 부문에서 순현재가치 기준 $900 million의 시너지를 기대하지만, 기존 전망에 더해 연간 자본지출이 $350 million~$450 million 증가할 것으로 예상했다.",
+      "impact": "인수가 성사되면 기존 사업과 연계된 원료·정련·제련 자산을 확보하고 $900 million 규모의 시너지를 실현할 가능성이 있어 장기적인 비용 구조와 경쟁력에 긍정적일 수 있다. 반면 추가 자본지출과 인수 통합 부담은 현금흐름 및 투자수익률에 부담을 줄 수 있다.",
+      "caution": "거래는 2027년 상반기 종결 예정으로 아직 완료되지 않았고, 제시된 $900 million 시너지는 예상치다. 실제 시너지 실현 여부와 추가 자본지출의 수익성은 확인되지 않았다."
+    },
+    "oklosharesslideaftercompanylaunchesnew1bstockoffering": {
+      "title": "Oklo shares slide after company launches new $1B stock offering",
+      "holding": "오클로",
+      "stance": "악재",
+      "summary": "오클로는 기존 $1 billion 규모의 ATM 주식 매각 프로그램을 모두 소진한 뒤 새로운 $1 billion ATM 주식 매각 프로그램을 시작했으며, 이에 주가가 7% 넘게 하락했다. 이전 프로그램에서는 4개월 동안 17.97 million주를 평균 $55.64에 매각했고, 새 프로그램을 주당 약 $40에 전액 활용할 경우 약 25 million주가 발행돼 기존 주주 지분이 약 11.5% 희석될 수 있다.",
+      "impact": "신규 주식 발행은 유통주식 수를 늘려 기존 주주의 소유 지분과 주당순이익을 희석시키고, 매각 물량이 시장에 출회되는 동안 주가에 하방 압력을 줄 수 있다. 실제로 발표 직후 주가가 7% 넘게 하락해 투자자들의 부정적 반응이 나타났다.",
+      "caution": "약 25 million주 발행과 약 11.5% 희석은 주당 약 $40에 $1 billion을 전액 조달한다는 가정에 따른 추정치이며, 실제 발행 규모와 가격은 달라질 수 있다."
+    },
     "반도체투자정점은2028년으로전망하반기는sk하이닉스에기대": {
       "title": "“반도체 투자 정점은 2028년으로 전망… 하반기는 SK하이닉스에 기대...",
       "holding": "SK하이닉스",
