@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T07:44:11+09:00",
+  "generated_at": "2026-09-13T07:27:11+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#1/gpt-5.6-luna",
+  "model": "OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 8062,
-    "output_tokens": 6563
+    "input_tokens": 6332,
+    "output_tokens": 4836
   },
   "skipped": {
     "본문없음": 4,
@@ -12,6 +12,134 @@
     "호출실패": []
   },
   "verdicts": {
+    "한달67아셴브레너의귀환sk하이닉스amd에다시베팅김주완": {
+      "title": "\"한 달 -67%\" 아셴브레너의 귀환…SK하이닉스·AMD에 다시 베팅 [김주완...",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "헤지펀드 시추에이셔널 어웨어니스(SA)가 지난 7월 한 달간 67%의 손실을 낸 뒤에도 SK하이닉스, AMD, 샌디스크 등 AI 인프라 관련 종목의 옵션 투자를 재개한 것으로 전해졌다. SA는 옵션 프리미엄으로 수억달러를 투입했으며, 6월 말 SEC 13F 기준 샌디스크와 마이크론 보통주 보유액은 약 112억4756만달러로 전체 공시금액 202억4229만달러의 55.56%였다.",
+      "impact": "SK하이닉스가 AI 인프라 투자와 메모리 반도체 수요의 주요 종목으로 다시 거론되면 투자심리와 관련 수급에 긍정적으로 작용할 수 있다. 다만 직접 주식을 매수한 것이 아니라 옵션 투자이므로 실제 매수세와 기업 실적 개선으로 곧바로 이어지는 것은 아니다.",
+      "caution": "옵션 프리미엄 투자는 주가 방향에 대한 제한적인 신호일 뿐이며, 기사 본문이 중간에 끊겨 SA의 구체적인 투자 규모와 조건은 확인되지 않는다."
+    },
+    "월세70만원때문에삼성전자해고위기": {
+      "title": "'월세 70만원' 때문에 삼성전자 해고 위기?",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자 DS부문 평택사업장에서 일부 저연차 직원들이 전용 33㎡ 미만 주택에 지급되는 월세 지원금 70만원을 부정하게 수령했다는 의혹이 제기됐다. 회사는 100명이 넘는 직원을 대상으로 사실관계를 확인 중이며, 부정수급이 확인되면 지원금 환수와 징계가 이뤄질 수 있지만 해고나 권고사직 문서는 사실이 아니라고 밝혔다.",
+      "impact": "의혹이 사실로 확정되면 삼성전자의 내부통제와 조직 신뢰에 부정적인 영향을 줄 수 있고, 조사·환수·징계에 따른 행정 부담도 발생할 수 있다. 그러나 사안의 규모가 회사 전체 실적에 미치는 재무적 영향은 현재로서는 제한적으로 보인다.",
+      "caution": "현재는 의혹 조사 단계이며 부정수급이나 해고 인원이 확정되지 않았다."
+    },
+    "주문전에일단짓는다hd현대중공업1조투자전말b급기자의": {
+      "title": "\"주문 전에 일단 짓는다\"...HD현대중공업 '1조 투자' 전말 [B급기자의...",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대중공업은 육상·해상용 엔진 공장에 8336억원, 소형모듈원전(SMR)에 2386억원을 투입하는 총 1조 722억원 규모의 시설 투자를 결정했다. 엔진 생산능력은 육상용 3.2GW와 해상용 1.0GW 등 총 4.2GW 늘어나지만, 현재 확보한 주문은 1.6GW이고 이를 연간 기준으로 환산하면 새 육상용 생산능력의 약 15%만 채우는 수준이다.",
+      "impact": "데이터센터 확대와 전력 수요 증가를 겨냥한 선제적 증설은 향후 엔진 및 SMR 사업의 매출 기반을 확대할 수 있다. 다만 공장이 완공되는 2028년 5월 전까지 추가 주문을 확보해야 하므로, 실제 수익성은 신규 수주와 가동률에 달려 있다.",
+      "caution": "현재 수주량만으로는 증설된 생산능력을 충분히 채우지 못하며, 기사도 투자를 미래 수요에 대한 선제적 베팅으로 설명하고 있다."
+    },
+    "delltechnologiesaiorderssurgeasstoragegrowthbuildsandsupplytightens": {
+      "title": "Dell Technologies: AI Orders Surge as Storage Growth Builds and Supply Tightens",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "Dell Technologies는 회계연도 2분기에 61억달러 규모의 AI 서버 GPU 주문을 수주했으며, 이는 직전 3개 분기 합계와 같은 규모다. 같은 분기 전통적 서버 매출은 122%, 스토리지 매출은 26% 증가했고, Dell은 연간 스토리지 사업의 두 자릿수 성장을 예상하는 가운데 DRAM·NAND 등 AI 부품 공급 부족이 심화될 수 있다고 밝혔다.",
+      "impact": "AI 서버 주문 증가는 델의 서버 매출과 데이터센터 고객 기반 확대에 직접적인 호재다. 스토리지 성장과 규모의 경제에 따른 마진 개선 가능성도 긍정적이지만, 부품 부족은 생산 차질이나 원가 상승 요인이 될 수 있다.",
+      "caution": "기사에 제시된 실적과 주문 수치는 긍정적이지만, DRAM·NAND 공급 제약이 향후 출하량과 수익성에 미칠 영향은 아직 불확실하다."
+    },
+    "almontyssplitpersonalityajefferiesbuycallapensionfundstakeandastockthattradeson": {
+      "title": "Almonty's Split Personality: A Jefferies Buy Call, a Pension Fund Stake, and a Stock That Trades on",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "알먼티 주가는 9월 8일 장중 10.3% 급등했다가 이후 6.1% 하락해 EUR 13.40에 마감하는 등 뚜렷한 촉매 없이 높은 변동성을 보였다. Jefferies는 알먼티에 대해 매수 의견과 목표가 26.25달러로 커버리지를 시작했고, 상동 프로젝트 진전과 8월 승인된 최대 3억달러 규모 자사주 매입 계획도 기존 호재로 언급됐다.",
+      "impact": "Jefferies의 매수 의견과 목표가는 알먼티에 대한 기관 투자자 관심과 시장 평가를 높일 수 있으며, 상동 프로젝트와 자사주 매입은 주가의 잠재적 지지 요인이다. 다만 주가 움직임이 텅스텐 공급 기대와 수급·심리에 크게 좌우되고 있어 지속적인 기업가치 개선으로 단정하기는 어렵다.",
+      "caution": "주가가 10.3% 상승 후 6.1% 하락하는 등 변동성이 크고, 기사도 9월 8일 상승에 명확한 기업 발표가 없었다고 설명한다."
+    },
+    "wallstreetanalystsarebullishontoptechnologypicks": {
+      "title": "Wall Street Analysts Are Bullish on Top Technology Picks",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "이 기사는 월가 애널리스트들이 마벨과 리서치 솔루션스에 대해 긍정적인 의견을 냈다는 내용을 다룬다. 뱅크오브아메리카의 Vivek Arya는 마벨에 매수 의견을 유지했고, 마벨의 시장 컨센서스 목표가는 298.38달러, 추가 상승 여력은 27.2%로 제시됐으며 크레도 테크놀로지는 애널리스트의 커버리지 종목 중 하나로만 언급됐다.",
+      "impact": "크레도 테크놀로지가 기술주 및 AI 관련 애널리스트의 관심 종목군에 포함된 점은 간접적인 투자심리 개선 요인이 될 수 있다. 그러나 해당 기사에서 크레도에 대한 투자의견, 목표가, 실적 전망은 제시되지 않아 보유 종목에 대한 직접적인 영향은 확인하기 어렵다.",
+      "caution": "기사의 주제와 구체적인 긍정 의견은 마벨과 리서치 솔루션스에 관한 것이며, 크레도 테크놀로지는 언급만 됐다."
+    },
+    "googleshistoric396mwcleanenergydealjustchangedthegamefor1aipowerplay": {
+      "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳의 자회사 구글은 지열에너지 기업 Fervo Energy와 협력해 396MW 규모의 청정 지열에너지 전력구매계약(PPA)을 체결했다. AI 데이터센터 확대로 전력 수요가 증가하고 전력망 연결이 지연되는 상황에서, 이번 계약은 구글의 안정적이고 청정한 전력 확보를 지원하고 Fervo Energy의 사업 확대에도 기여할 수 있다.",
+      "impact": "알파벳이 데이터센터 운영에 필요한 전력을 장기적으로 확보하면 AI 인프라 확장의 전력 제약을 완화하고 탄소배출 및 전력 조달 리스크를 줄일 수 있다. 다만 전력 확보 자체가 곧바로 매출이나 이익 증가로 이어지는 것은 아니므로 직접적인 재무 호재보다는 인프라 운영 측면의 긍정 요인이다.",
+      "caution": "기사에는 396MW 계약의 세부 조건과 비용, 수익성 영향이 제시되지 않았으며 구글의 실제 비용 절감 규모도 확인되지 않는다."
+    },
+    "ciscofirewallbugsletinsandwormqilin": {
+      "title": "Cisco Firewall Bugs Let in Sandworm, Qilin",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 악재",
+      "summary": "Cisco의 Secure Firewall Management Center와 클라우드 제공 버전에서 발견된 2개의 취약점이 국가 지원 공격자와 랜섬웨어 세력에 의해 악용되고 있는 것으로 나타났다. CVE-2026-20079는 인증 없이 원격으로 명령을 실행해 루트 권한을 얻을 수 있는 고위험 취약점이며, CVE-2026-20316은 인증되지 않은 원격 로그인을 허용할 수 있는 하드코딩 비밀번호 취약점이다.",
+      "impact": "실제 악용 중인 보안 취약점은 Cisco 제품의 신뢰도와 고객 보안에 부담을 주고, 패치·지원 및 대응 비용을 늘릴 수 있다. 침해 사고가 확대될 경우 법적·평판 리스크와 제품 수요에도 부정적인 영향을 줄 가능성이 있다.",
+      "caution": "기사에는 피해 고객 수, 실제 침해 규모, Cisco의 재무적 손실이나 판매 영향이 제시되지 않았으며, 취약점 악용 사실만으로 회사 전체 실적 악화를 확정할 수는 없다."
+    },
+    "industrialstockstofollownowseptember12th": {
+      "title": "Industrial Stocks To Follow Now - September 12th",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "MarketBeat의 2026년 9월 12일 산업주 스크리너는 최근 달러 거래대금이 가장 높았던 7개 종목으로 Bloom Energy, Coherent, Uber Technologies, Caterpillar, Vertiv, ACV Auctions, GE Vernova를 제시했다. Vertiv는 AI 데이터센터의 제약을 겨냥한 거래와 관련해 언급됐지만, 해당 거래의 세부 내용이나 실적 영향은 본문에 충분히 제시되지 않았다.",
+      "impact": "Vertiv가 AI 데이터센터 관련 수요와 거래 기회를 주목받고 있다는 점은 인지도와 잠재적 수요 측면에서 긍정적일 수 있다. 그러나 단순 스크리너 선정과 짧은 언급만으로 매출이나 수익성 개선을 판단하기는 어렵다.",
+      "caution": "본문은 산업주 목록과 Vertiv의 관련 키워드만 제시하며, 구체적인 계약 규모·일정·재무 효과를 설명하지 않는다."
+    },
+    "pac3acelockheedshalfpricepatriotinterceptor": {
+      "title": "PAC-3 ACE: Lockheed's Half-Price Patriot Interceptor",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "제목은 ‘PAC-3 ACE: Lockheed's Half-Price Patriot Interceptor’이지만, 본문에는 2025년 6월 12일 발생한 Air India Boeing 787-8 사고와 조종사 무선통신, 1963년 Northrop X-21A에 관한 다른 기사 목록이 포함되어 있다. 록히드마틴의 PAC-3 ACE 또는 가격 관련 내용은 본문에서 확인되지 않는다.",
+      "impact": "보유 종목인 록히드마틴의 방산 수주, 제품 가격 또는 실적에 관한 사실이 없어 투자 영향은 판단하기 어렵다.",
+      "caution": "제목과 본문이 일치하지 않고, 본문은 록히드마틴 관련 기사 내용을 제공하지 않는 사이트 목록·다른 항공 기사에 가깝다."
+    },
+    "msftstockfacesabiggertestthanearningsgenemunstersayswhythebotboogeymanwontgoaway": {
+      "title": "MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "Deepwater Asset Management의 Gene Munster는 마이크로소프트가 분기 실적보다 인공지능과 사업모델의 장기적 변화에 더 큰 시험을 받고 있다고 말했다. 그는 AI 에이전트가 전통적인 소프트웨어 인터페이스의 중요성을 낮출 수 있다고 경고했으며, 마이크로소프트는 2026년 9월 12일 기준 다음 수요일 장 마감 후 분기 실적을 발표할 예정이었다; 일부 Stocktwits 개인투자자들은 주가가 420달러까지 오르거나 이전 고점을 재시험할 수 있다고 기대했다.",
+      "impact": "AI 에이전트가 기존 소프트웨어 인터페이스와 사용 방식을 바꾸면 마이크로소프트의 제품 경쟁력과 사업모델에 장기적인 부담이 될 수 있다는 우려다. 다만 실적 발표를 앞두고 일부 투자자들은 여전히 주가 상승을 예상하고 있어 단기 시장 심리는 엇갈린다.",
+      "caution": "Munster의 전망과 개인투자자 기대가 중심이며, 본문에 구체적인 실적 수치나 실제 AI 사업 악화가 제시되지는 않았다."
+    },
+    "novonordisknvospediatricobesityopportunityfacesabiggertest": {
+      "title": "Novo Nordisk (NVO)’s Pediatric Obesity Opportunity Faces a Bigger Test",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "Novo Nordisk는 비만 치료제 Wegovy의 소아 시장 확대 가능성을 평가하는 후기 단계 STEP Young 임상시험에서 주요 평가변수를 충족했다. 68주 동안 세마글루타이드를 투여받은 어린이의 40.4%가 비만 분류에서 벗어난 반면 위약군은 0%였지만, 이 임상 결과를 의미 있는 상업적 기회로 전환할 수 있을지는 추가로 확인해야 한다.",
+      "impact": "긍정적인 소아 임상 결과는 Wegovy의 대상 환자와 잠재적 시장을 확대하고 노보노디스크의 장기 성장 동력을 강화할 수 있다. 다만 실제 매출 기여에는 허가, 처방 확대, 보험 적용 및 시장 수용이 필요하다.",
+      "caution": "본문에는 임상시험의 전체 안전성 결과, 규제 승인 일정, 소아 시장의 실제 매출 규모가 제시되지 않았다."
+    },
+    "shouldyouignorempmaterialsandbuythisrareearthstockinstead": {
+      "title": "Should You Ignore MP Materials and Buy This Rare-Earth Stock Instead?",
+      "holding": "MP 머티리얼스",
+      "stance": "약한 호재",
+      "summary": "The Motley Fool은 미국 내 희토류 공급망 확보를 둘러싸고 MP Materials와 USA Rare Earth를 비교하는 2026년 9월 12일자 기사를 게재했다. 두 회사 모두 미국 정부의 상당한 지원을 받았으며, 중국이 희토류 시장을 지배하고 희토류 자석이 미국 방위·제조업에 중요하다는 점이 강조됐다.",
+      "impact": "MP Materials가 미국 정부 지원을 받는 국내 희토류 공급망 기업으로 평가된다는 점은 정책 및 국가안보 관련 수요의 수혜 가능성을 높인다. 국내 생산 확대가 실제로 진행되면 장기적인 사업 기회가 커질 수 있다.",
+      "caution": "기사 본문이 비교 설명 도중 끝나 MP Materials의 지원 규모, 생산 계획, USA Rare Earth 대비 경쟁력이나 구체적인 투자 결론은 확인되지 않는다."
+    },
+    "calperscommits800mtotwoaresrealestatefunds": {
+      "title": "CalPERS Commits $800M to Two Ares Real Estate Funds",
+      "holding": "에리스 매니지먼트",
+      "stance": "약한 호재",
+      "summary": "캘리포니아 공무원연금인 CalPERS는 2026년 1분기에 Ares Management가 운용하는 두 부동산 투자기구에 총 8억 달러를 약정했다. Ares US Real Estate Fund XI에 4억5천만 달러, 계열 공동투자기구에 3억5천만 달러가 배정됐으며, CalPERS의 2025년 말 부동산 자산은 550억 달러로 목표 배분 비중은 10%였다.",
+      "impact": "대형 기관투자자의 신규 약정은 Ares의 부동산 운용 플랫폼에 자금이 유입되고 기관 고객 기반이 강화되는 신호다. 이는 향후 운용자산과 수수료 수익 확대에 긍정적으로 작용할 수 있다.",
+      "caution": "약정액이 Ares Management의 전체 실적이나 순이익으로 곧바로 이어지는 것은 아니며, 실제 납입 시점과 운용 성과는 제시되지 않았다."
+    },
+    "majorpizzachainfranchiseeclosesstoresnobankruptcyfiled": {
+      "title": "Major pizza chain franchisee closes stores, no bankruptcy filed",
+      "holding": "도미노피자",
+      "stance": "중립",
+      "summary": "기사 제목은 대형 피자 체인 가맹점주가 파산 신청 없이 매장을 폐점했다고 전하지만, 본문에서 구체적으로 확인되는 사례는 2026년 상반기 250개 매장 폐점을 계획한 Pizza Hut의 모기업 Yum Brands와 2026년 말까지 200개 매장 폐점을 발표한 Papa John's다. 또한 Chuck E. Cheese의 모기업은 경제성이 낮은 매장의 임대차 갱신을 중단했다고 설명한다.",
+      "impact": "업계 전반의 부진한 매장 폐점과 가맹점 구조조정은 외식 수요와 점포 수익성에 대한 우려를 보여줄 수 있다. 그러나 본문에 Domino's Pizza의 폐점 수나 가맹점 실적이 없어 도미노피자에 직접 미치는 영향은 판단하기 어렵다.",
+      "caution": "보유 종목인 도미노피자는 제목과 본문 말미에 언급될 뿐, 구체적인 폐점·매출·수익성 사실은 본문에 제시되지 않았다."
+    },
+    "nuscalepowerstockjumps15in1dayhereshownuclearenergyinvestorsshouldrespond": {
+      "title": "NuScale Power Stock Jumps 15% in 1 Day. Here's How Nuclear Energy Investors Should Respond.",
+      "holding": "오클로",
+      "stance": "약한 호재",
+      "summary": "NuScale Power 주가는 지난주 하루 동안 15% 넘게 급등했으며, 같은 기간 SMR 업종에 대한 관심이 되살아나면서 오클로(OKLO) 주가도 7% 상승했다. 다만 기사 작성 시점인 2026년 9월 12일 기준으로 올해 누적 주가는 NuScale이 28%, 오클로가 약 44% 하락한 상태다.",
+      "impact": "오클로가 동종 소형모듈원자로(SMR) 기업과 함께 상승했다는 점은 업종 전반의 투자심리 개선과 밸류에이션 회복 가능성 측면에서 긍정적이다. 그러나 오클로의 상승은 개별 기업의 발표나 실적 개선이 아니라 업종 관심에 따른 움직임으로, 직접적인 기업가치 개선 효과는 제한적이다.",
+      "caution": "NuScale이나 오클로가 주요 발표를 내놓은 것이 아니며 월가 애널리스트의 신규 보고서도 없었고, 기사도 주가 상승 원인을 확정하지 못하고 있다. 오클로 주가는 여전히 올해 약 44% 하락했다."
+    },
     "반도체etf에도급이란게있습니다hbm넘어613오른낸드": {
       "title": "반도체 ETF에도 급이란 게 있습니다…HBM 넘어 613% 오른 낸드株",
       "holding": "SK하이닉스",
