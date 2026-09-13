@@ -1,6 +1,6 @@
-# 포트폴리오 브리핑 · 2026-09-13 (Sun) 07:27 KST
+# 포트폴리오 브리핑 · 2026-09-14 (Mon) 07:32 KST
 
-보유 18종목 · 관심 118종목 · 종가 기준일 2026-09-11 · 뉴스 2026-09-13 발행분 21건
+보유 18종목 · 관심 118종목 · 종가 기준일 2026-09-11 · 뉴스 2026-09-14 발행분 22건
 
 > **밴드 하단 이탈 10종목** — 아래 '오늘의 특이점'에 관련 뉴스를 함께 실었습니다.
 >
@@ -19,8 +19,8 @@
 
 18종목 중 상승 10 · 하락 8 · 보합 0, 단순 평균 +0.77%. 최고 델 +11.98%, 최저 알먼티 -6.52%.
 
-환율 USD/KRW 1,341.05 (-0.53%, 2026-09-12).
-해외 보유 종목은 달러 기준 평균 +0.93%지만, 환율을 반영한 **원화 기준으로는 +0.40%**입니다.
+환율 USD/KRW 1,342.97 (-0.39%, 2026-09-13).
+해외 보유 종목은 달러 기준 평균 +0.93%지만, 환율을 반영한 **원화 기준으로는 +0.54%**입니다.
 
 ## 보유 종목 · 국내
 
@@ -42,7 +42,7 @@
 | 록히드마틴 (LMT, $120.98B) | $524.19 | ▼ -1.12% | 36.9 | 밴드 내 | Yahoo |
 | 컨스텔레이션 에너지 (CEG, $100.89B) | $284.75 | ▼ -0.43% | 53.7 | 밴드 내 | Yahoo |
 | 버티브 홀딩스 (VRT, $98.97B) | $257.06 | ▲ +3.60% | 45.1 | 밴드 내 | Yahoo |
-| 나이키 B (NKE, $54.50B) | $36.80 | ▲ +0.49% | 34.2 | 밴드 내 | Yahoo |
+| 나이키 B (NKE, $54.59B) | $36.80 | ▲ +0.49% | 34.2 | 밴드 내 | Yahoo |
 | 비스트라 에너지 (VST, $49.80B) | $148.38 | ▲ +0.90% | 54.5 | 밴드 내 | Yahoo |
 | 크레도 테크놀로지 (CRDO, $30.63B) | $162.95 | ▲ +1.65% | 33.2 | 밴드 내 | Yahoo |
 | 퍼스트솔라 (FSLR, $22.46B) | $209.03 | ▲ +0.90% | 47.1 | 밴드 내 | Yahoo |
@@ -64,7 +64,7 @@
 | 브로드컴 (AVGO) | $1.73T | $361.99 | +$1.16 | ▲ +0.32% | 42.2 | 밴드 내 |
 | 마이크론 (MU) | $1.10T | $975.26 | -$2.15 | ▼ -0.22% | 53.0 | 밴드 내 |
 | AMD (AMD) | $842.57B | $516.13 | +$12.53 | ▲ +2.49% | 58.0 | 밴드 내 |
-| 인텔 (INTC) | $544.15B | $102.94 | +$2.62 | ▲ +2.61% | 57.5 | 밴드 내 |
+| 인텔 (INTC) | $540.90B | $102.94 | +$2.62 | ▲ +2.61% | 57.5 | 밴드 내 |
 | 램리서치 (LRCX) | $373.17B | $298.22 | +$0.21 | ▲ +0.07% | 45.2 | 밴드 내 |
 | 텍사스 인스트루먼트 (TXN) | $245.39B | $268.70 | +$9.88 | ▲ +3.82% | 51.7 | 밴드 내 |
 | 샌디스크 (SNDK) | $239.15B | $1,633.35 | -$59.24 | ▼ -3.50% | 53.6 | 밴드 내 |
@@ -75,7 +75,7 @@
 | 테라다인 (TER) | $59.37B | $379.72 | +$9.53 | ▲ +2.57% | 53.1 | 밴드 내 |
 | 키사이트 테크놀로지스 (KEYS) | $57.65B | $338.64 | +$12.99 | ▲ +3.99% | 56.8 | 밴드 내 |
 | 시에나 (CIEN) | $49.57B | $349.54 | +$14.98 | ▲ +4.48% | 43.3 | 밴드 내 |
-| ST마이크로일렉트로닉스 (STM) | $45.95B | $51.51 | +$0.77 | ▲ +1.52% | 46.4 | 밴드 내 |
+| ST마이크로일렉트로닉스 (STM) | $45.94B | $51.51 | +$0.77 | ▲ +1.52% | 46.4 | 밴드 내 |
 | 세레브라스 시스템즈 (CBRS) | $45.60B | $191.93 | +$0.59 | ▲ +0.31% | 47.1 | 밴드 내 |
 | 어플라이드 옵토일렉트로닉스 (AAOI) | $8.95B | $105.36 | +$2.07 | ▲ +2.00% | 44.4 | 밴드 내 |
 
@@ -88,7 +88,7 @@
 | 휴렛팩커드 엔터프라이즈 (HPE) | $82.42B | $62.09 | +$6.87 | ▲ +12.44% | 64.1 | 상단 이탈 |
 | 네비우스 그룹 (NBIS) | $61.05B | $224.55 | -$3.56 | ▼ -1.56% | 51.4 | 밴드 내 |
 | 코어위브 (CRWV) | $49.08B | $88.99 | -$0.13 | ▼ -0.15% | 50.0 | 밴드 내 |
-| 아이렌 (IREN) | $15.66B | $43.83 | +$0.19 | ▲ +0.44% | 54.1 | 밴드 내 |
+| 아이렌 (IREN) | $17.27B | $43.83 | +$0.19 | ▲ +0.44% | 54.1 | 밴드 내 |
 | 비트마인 이머션 테크놀로지스 (BMNR) | $15.10B | $25.03 | +$0.83 | ▲ +3.43% | 61.0 | 밴드 내 |
 | 아이온큐 (IONQ) | $14.89B | $36.75 | -$0.09 | ▼ -0.24% | 41.1 | 밴드 내 |
 | 피규어 테크놀로지 솔루션스 (FIGR) | $7.82B | $34.87 | -$1.70 | ▼ -4.65% | 50.2 | 밴드 내 |
@@ -104,7 +104,7 @@
 | 넷플릭스 (NFLX) | $322.29B | $77.40 | +$1.39 | ▲ +1.83% | 48.0 | 밴드 내 |
 | 크라우드스트라이크 (CRWD) | $211.69B | $206.74 | -$2.12 | ▼ -1.02% | 50.0 | 밴드 내 |
 | 앱러빈 (APP) | $108.83B | $323.96 | +$9.47 | ▲ +3.01% | 46.1 | 상단 이탈 |
-| 스포티파이 (SPOT) | $108.10B | $525.75 | +$4.02 | ▲ +0.77% | 50.2 | 밴드 내 |
+| 스포티파이 (SPOT) | $108.09B | $525.75 | +$4.02 | ▲ +0.77% | 50.2 | 밴드 내 |
 
 #### 전력·에너지 (10)
 
@@ -113,12 +113,12 @@
 | 엑슨모빌 (XOM) | $682.54B | $165.99 | +$0.76 | ▲ +0.46% | 61.6 | 밴드 내 |
 | 셰브론 (CVX) | $419.90B | $214.06 | +$1.30 | ▲ +0.61% | 68.9 | 밴드 내 |
 | GE 버노바 (GEV) | $254.95B | $957.27 | +$33.36 | ▲ +3.61% | 48.7 | 밴드 내 |
-| 넥스트에라 에너지 (NEE) | $171.67B | $82.31 | -$0.13 | ▼ -0.16% | 36.4 | 밴드 내 |
+| 넥스트에라 에너지 (NEE) | $171.70B | $82.31 | -$0.13 | ▼ -0.16% | 36.4 | 밴드 내 |
 | 발레로 에너지 (VLO) | $112.41B | $390.42 | +$4.99 | ▲ +1.29% | 78.6 과매수 | 밴드 내 |
 | 블룸 에너지 (BE) | $81.22B | $275.75 | +$17.26 | ▲ +6.68% | 65.0 | 밴드 내 |
 | 옥시덴탈 페트롤리엄 (OXY) | $61.44B | $61.46 | +$0.30 | ▲ +0.49% | 62.3 | 밴드 내 |
 | 오클로 (OKLO) | $6.74B | $36.22 | -$3.66 | ▼ -9.18% | 38.7 | 하단 이탈 |
-| 엔페이즈 에너지 (ENPH) | $4.79B | $36.35 | -$0.51 | ▼ -1.38% | 43.4 | 밴드 내 |
+| 엔페이즈 에너지 (ENPH) | $4.80B | $36.35 | -$0.51 | ▼ -1.38% | 43.4 | 밴드 내 |
 | 썬런 (RUN) | $2.04B | $8.56 | -$0.07 | ▼ -0.81% | 38.7 | 밴드 내 |
 
 #### 산업·인프라 (10)
@@ -127,7 +127,7 @@
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 캐터필러 (CAT) | $376.28B | $818.57 | +$13.57 | ▲ +1.69% | 47.7 | 밴드 내 |
 | GE 에어로스페이스 (GE) | $335.82B | $323.66 | -$0.49 | ▼ -0.15% | 34.7 | 밴드 내 |
-| 이튼 (ETN) | $165.17B | $425.37 | +$16.22 | ▲ +3.96% | 54.3 | 밴드 내 |
+| 이튼 (ETN) | $165.21B | $425.37 | +$16.22 | ▲ +3.96% | 54.3 | 밴드 내 |
 | 콴타 서비시스 (PWR) | $97.81B | $650.58 | +$31.85 | ▲ +5.15% | 53.4 | 밴드 내 |
 | 델타항공 (DAL) | $52.55B | $79.91 | +$1.67 | ▲ +2.13% | 43.3 | 밴드 내 |
 | DR호튼 (DHI) | $38.57B | $137.89 | +$2.32 | ▲ +1.71% | 40.1 | 밴드 내 |
@@ -154,12 +154,12 @@
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 스페이스 익스플로레이션 테크놀로지스 (SPCX) | $1.99T | $151.21 | +$3.03 | ▲ +2.04% | 59.0 | 밴드 내 |
 | 테슬라 (TSLA) | $1.44T | $365.44 | +$1.88 | ▲ +0.52% | 54.5 | 밴드 내 |
-| 로켓랩 (RKLB) | $40.25B | $62.95 | +$0.99 | ▲ +1.60% | 37.8 | 밴드 내 |
+| 로켓랩 (RKLB) | $40.24B | $62.95 | +$0.99 | ▲ +1.60% | 37.8 | 밴드 내 |
 | AST 스페이스모바일 (ASTS) | $17.95B | $59.86 | -$0.05 | ▼ -0.08% | 44.3 | 밴드 내 |
 | 조비 에비에이션 (JOBY) | $6.35B | $6.39 | +$0.08 | ▲ +1.27% | 33.8 | 밴드 내 |
 | 온다스 홀딩스 (ONDS) | $4.13B | $7.23 | -$0.02 | ▼ -0.28% | 39.5 | 밴드 내 |
 | 레드와이어 (RDW) | $2.65B | $10.62 | -$0.25 | ▼ -2.30% | 44.7 | 밴드 내 |
-| 드라간플라이 (DPRO) | $208.40M | $5.61 | +$0.14 | ▲ +2.56% | 58.3 | 밴드 내 |
+| 드라간플라이 (DPRO) | $206.91M | $5.61 | +$0.14 | ▲ +2.56% | 58.3 | 밴드 내 |
 | 브리저 에어로스페이스 (BAER) | $61.18M | $1.04 | $0.00 | - +0.00% | 30.0 과매도 | 밴드 내 |
 
 #### 금융·핀테크 (9)
@@ -191,7 +191,7 @@
 | 종목 | 시가총액 | 종가 | 변동 | 변동률 | RSI(14) | 볼린저(20,2σ) |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 코카콜라 (KO) | $379.87B | $88.29 | +$0.46 | ▲ +0.52% | 51.5 | 밴드 내 |
-| P&G (PG) | $337.67B | $145.27 | +$2.30 | ▲ +1.61% | 49.9 | 밴드 내 |
+| P&G (PG) | $337.41B | $145.27 | +$2.30 | ▲ +1.61% | 49.9 | 밴드 내 |
 | 맥도날드 (MCD) | $178.70B | $252.53 | -$0.52 | ▼ -0.21% | 31.2 | 밴드 내 |
 | 리얼티 인컴 (O) | $56.30B | $59.50 | -$0.07 | ▼ -0.12% | 28.2 과매도 | 하단 이탈 |
 | 도미노피자 (DPZ) | $10.31B | $311.60 | -$5.70 | ▼ -1.80% | 34.8 | 하단 이탈 |
@@ -274,45 +274,45 @@
 
 ## 오늘의 추천 종목
 
-### 내 목록에서 — 델 (DELL) · $567.29 (+11.98%)
+### 내 목록에서 — 노보노디스크 ADR (NVO) · $43.07 (-2.14%)
 
-**AI 서버 수주 급증, 고점에서 확인**
+**경구용 GLP-1 기대와 반등 가능성**
 
-- **왜**: 회계연도 2분기 AI 서버 GPU 주문이 61억달러로, 직전 3개 분기 합계와 같은 규모였다. 전통적 서버 매출도 122%, 스토리지 매출은 26% 증가해 실적 동력을 확인할 만하지만, 주가는 이날 11.98% 올라 52주 위치 100%에 도달했다.
-- **유의**: 볼린저 상단 이탈과 RSI 66.6으로 단기 과열 부담이 있다. 이미 52주 고점 부근인 만큼 추가 상승보다 차익 실현이나 변동성 확대가 나타날 수 있다.
+- **왜**: NVO는 이날 2.14% 하락해 RSI 36.3, 볼린저 하단 이탈, 52주 위치 27%로 약세 부담이 누적된 상태다. 기사에서 새로운 경구용 GLP-1 약물이 Eli Lilly에 내준 경쟁 우위를 되찾을 핵심 촉매로 거론돼, 기술적 반등과 신약 기대를 함께 살펴볼 만하다.
+- **유의**: 경구용 GLP-1의 실제 경쟁력과 출시 시점은 확인되지 않았고, 현재는 하락 추세가 이어질 가능성도 있다.
 
 ### 새로 볼 종목 — HP Inc. (HPQ) · $35.48 (+8.40%)
 
 **강한 상승 뒤 과열 여부 점검**
 
-- **왜**: HPQ는 이날 8.40% 상승했고 거래량도 평소의 1.6배로 늘어 관심이 집중됐다. 주가는 52주 고점의 2.1% 아래까지 올라 추세 지속 여부를 살펴볼 만하다.
-- **유의**: RSI가 71.1이고 볼린저 상단을 이탈해 단기 과열 신호가 뚜렷하다. 뉴스 요약이 없는 새 종목이라 지표만으로 판단한 근거가 얕고, 상승 배경과 지속 가능성을 별도로 확인해야 한다.
+- **왜**: HPQ는 거래량 1.6배와 함께 8.40% 상승했고, RSI 71.1 및 볼린저 상단 이탈로 강한 단기 수급이 나타났다. 52주 위치도 96%로 고점에 근접해 상승 지속 여부와 과열 조정을 함께 확인할 종목이다.
+- **유의**: 오늘 뉴스가 수집되지 않아 상승 배경을 지표만으로 판단하는 근거가 얕다. RSI 71.1과 상단 이탈은 단기 차익실현 위험도 보여준다.
 
 ### 지난 추천 성적
 
-최근 7건 · 상승 2건(29%) · 평균 -1.26%
+최근 7건 · 상승 2건(29%) · 평균 +0.51%
 
 | 추천일 | 구분 | 종목 | 추천 시점 | 현재 | 수익률 |
 | --- | --- | --- | ---: | ---: | ---: |
+| 2026-09-13 | 내 목록에서 | 델 (DELL) | $567.29 | $567.29 | +0.00% |
+| 2026-09-13 | 새로 볼 종목 | HP Inc. (HPQ) | $35.48 | $35.48 | +0.00% |
 | 2026-09-12 | 내 목록에서 | 오클로 (OKLO) | $36.22 | $36.22 | +0.00% |
 | 2026-09-12 | 새로 볼 종목 | Kadant Inc (KAI) | $266.30 | $266.30 | +0.00% |
 | 2026-09-11 | 내 목록에서 | DR호튼 (DHI) | $135.57 | $137.89 | +1.71% |
 | 2026-09-11 | 새로 볼 종목 | The Cooper Companies, Inc. (COO) | $54.17 | $53.91 | -0.48% |
 | 2026-09-10 | 내 목록에서 | 알파벳 A (GOOGL) | $330.65 | $338.50 | +2.37% |
-| 2026-09-10 | 새로 볼 종목 | ServiceTitan, Inc. (TTAN) | $57.12 | $54.68 | -4.27% |
-| 2026-09-09 | 내 목록에서 | 이오스 에너지 (EOSE) | $4.30 | $3.95 | -8.14% |
 
 _추천 시점 종가 대비 최근 종가입니다. 표본이 적어 참고용입니다._
 
 함께 검토한 후보:
-- OKLO: 거래량 2.2배와 볼린저 하단 이탈, 52주 저점 대비 +0.1%로 반등보다 약세 지속 여부를 우선 점검할 종목이다.
-- HPE: 12.44% 상승해 52주 위치 95%지만, 볼린저 상단 이탈과 뉴스 부재로 추격보다 과열 여부 확인이 필요하다.
-- NVO: 소아 임상에서 세마글루타이드군의 비만 분류 이탈률이 40.4%였지만, 주가는 하단 이탈과 RSI 36.3으로 약세다.
-- O: RSI 28.2와 볼린저 하단 이탈로 과매도 신호가 있으나, 제공된 뉴스 요약만으로 반등 근거는 제한적이다.
-- RCUS: 거래량 2.6배, 5.97% 하락, RSI 28.1로 변동성과 과매도 신호가 함께 나타났지만 뉴스가 없어 판단 근거가 얕다.
-- SLS: 14.42% 급락과 거래량 2.1배가 눈에 띄지만 RSI 40.8로 과매도 폭은 제한적이고 뉴스가 없다.
-- KAI: RSI 23.7과 52주 위치 20%로 과매도 가능성은 있으나, 6.96% 하락 및 뉴스 부재로 추가 약세 위험도 점검해야 한다.
-- TENB: 거래량 2.5배와 5.99% 하락이 나타났지만 RSI 34.8이며, 뉴스가 없어 하락 원인을 확인하기 어렵다.
+- OKLO: 52주 저점 부근에서 거래량 2.2배와 하단 이탈이 나타났고, PJM 대기열 제외 관련 일정 차질 위험이 있다.
+- DELL: 11.98% 급등해 52주 고점 수준이지만, 상단 이탈과 RSI 66.6으로 단기 과열을 점검할 필요가 있다.
+- HPE: 12.44% 상승과 상단 이탈이 두드러지지만, 별도 뉴스가 없어 상승 지속 근거가 제한적이다.
+- O: RSI 28.2와 하단 이탈로 낙폭 과대 신호가 있으나, ADC 대비 투자등급 임차인 비중과 성장성 열위가 부담이다.
+- RCUS: 거래량 2.6배, RSI 28.1, 하단 이탈로 약세와 반등 가능성을 함께 살필 수 있으나 뉴스가 없다.
+- SLS: 14.42% 급락과 거래량 2.1배, 하단 이탈이 나타나 변동성 확대 여부를 확인할 종목이다.
+- KAI: RSI 23.7과 52주 위치 20%로 기술적 반등 후보지만, 6.96% 하락과 뉴스 부재가 부담이다.
+- TENB: 거래량 2.5배와 5.99% 하락, 하단 이탈이 나타났으며 RSI 34.8로 약세 흐름을 점검할 만하다.
 
 _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 내 목록 5개, 목록 밖 5개 후보 중에서 골랐습니다. 목록 밖 종목은 뉴스를 수집하지 않아 지표만으로 판단합니다._
 
@@ -324,7 +324,7 @@ _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 
 - **하락 상위** — 오클로(관심 $6.74B, -9.18%), 한미반도체(관심 22.0조, -8.70%), 알먼티(보유 $4.47B, -6.52%), 피규어 테크놀로지 솔루션스(관심 $7.82B, -4.65%), 제주반도체(관심 2.6조, -4.57%)
 - **거래량 급증 (10일 평균 대비)** — 오라클(관심 $432.88B, 2.4배 · -1.74%), 오클로(관심 $6.74B, 2.2배 · -9.18%), HD현대중공업(보유 50.3조, 2.1배 · +5.62%), 알먼티(보유 $4.47B, 1.6배 · -6.52%), 에이피알(관심 13.9조, 1.5배 · +3.05%)
 - **52주 신고가 근접 (-3% 이내)** — 델(보유 $360.69B, 고점 대비 -0.1%), 셰브론(관심 $419.90B, 고점 대비 -1.5%), 발레로 에너지(관심 $112.41B, 고점 대비 -2.2%), JP모건 체이스(관심 $946.93B, 고점 대비 -2.8%)
-- **52주 신저가 근접 (+5% 이내)** — 브리저 에어로스페이스(관심 $61.18M, 저점 대비 +0.0%), 오클로(관심 $6.74B, 저점 대비 +0.1%), 맥도날드(관심 $178.70B, 저점 대비 +0.1%), 나이키 B(보유 $54.50B, 저점 대비 +0.7%), 자일럼(관심 $24.97B, 저점 대비 +1.6%)
+- **52주 신저가 근접 (+5% 이내)** — 브리저 에어로스페이스(관심 $61.18M, 저점 대비 +0.0%), 오클로(관심 $6.74B, 저점 대비 +0.1%), 맥도날드(관심 $178.70B, 저점 대비 +0.1%), 나이키 B(보유 $54.59B, 저점 대비 +0.7%), 자일럼(관심 $24.97B, 저점 대비 +1.6%)
 - **RSI 과매수 (70 이상)** — 발레로 에너지(관심 $112.41B, RSI 78.6)
 - **RSI 과매도 (30 이하)** — 리얼티 인컴(관심 $56.30B, RSI 28.2), 브리저 에어로스페이스(관심 $61.18M, RSI 30.0)
 
@@ -338,7 +338,7 @@ _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 
 | --- | --- | --- | --- | --- | --- | --- |
 |   |   | 1 | 2 | 3<br>`HPE` `CIEN` | 4 | 5 |
 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-| **13** | 14 | 15 | 16 | 17 | 18 | 19 |
+| 13 | **14** | 15 | 16 | 17 | 18 | 19 |
 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
 | 27 | 28 | 29 | 30 |   |   |   |
 
@@ -352,7 +352,7 @@ _투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다. 
 | 18 | 19 | 20<br>`KO` `GE` `LMT` | 21<br>`NFLX` `VRT` | 22<br>`LS ELE…` `HD현대일렉…` `TSLA` +5 | 23<br>`현대로템` `INTC` | 24 |
 | 25 | 26<br>`POSCO홀…` `한화오션` | 27<br>`SK하이닉스` `UNH` `NEE` +1 | 28<br>`삼성전자` `V` `GEV` +4 | 29<br>`KB금융` `HD현대중공업` `LG화학` +11 | 30<br>`LG전자` `AAPL` `AMZN` +6 | 31 |
 
-가까운 순: 마이크론(MU) D-18, 나이키 B(NKE) D-19, 컨스텔레이션 브랜즈(STZ) D-24, 델타항공(DAL) D-25, JP모건 체이스(JPM) D-30, 도미노피자(DPZ) D-30
+가까운 순: 마이크론(MU) D-17, 나이키 B(NKE) D-18, 컨스텔레이션 브랜즈(STZ) D-23, 델타항공(DAL) D-24, JP모건 체이스(JPM) D-29, 도미노피자(DPZ) D-29
 
 ## 배당
 
@@ -392,260 +392,268 @@ _수익률 상위 20종목만 표시했습니다. 전체 78종목._
 ### [관심] 유나이티드헬스 그룹 (UNH) $379.09 ▼ -2.37%
 
 - %B -0.143 · RSI 35.5 (중립) · 하단 밴드 382.45
-- 오늘자 관련 기사 없음
+- **중립** · [Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth](https://finance.yahoo.com/markets/stocks/articles/five-dividend-stocks-crushing-inflation-152635618.html)
+  - 24/7 Wall St. · 00:26 KST · 단일출처(Yahoo Finance)
+  - 요약: 기사는 물가 상승을 웃도는 배당 증가를 보이는 5개 종목을 소개하며, ADP가 분기 배당을 1.54달러에서 1.70달러로 인상했고 영업현금흐름이 54억 달러라고 설명한다. 배당수익률 자체보다 물가를 따라가는 배당 성장률이 은퇴 투자자에게 중요하다는 논리를 제시한다.
+  - 판단: UnitedHealth Group은 기사에서 배당주 목록의 종목 티커로만 포함됐고, 배당 인상 규모나 실적·현금흐름 등 회사별 내용은 제공되지 않았다. 따라서 이 기사만으로 UNH의 배당 지속 가능성이나 주가 영향을 판단하기 어렵다.
+  - 유의: 본문에서 구체적으로 설명된 배당 인상 사례는 ADP이며, UNH에 대한 직접적인 분석이나 수치가 없다. 또한 일부 내용은 이메일 구독을 유도하는 홍보 문구다.
 
 ### [관심] 오클로 (OKLO) $36.22 ▼ -9.18%
 
 - %B -0.133 · RSI 38.7 (중립) · 하단 밴드 37.29
-- **약한 호재** · [NuScale Power Stock Jumps 15% in 1 Day. Here's How Nuclear Energy Investors Should Respond.](https://finance.yahoo.com/energy/articles/nuscale-power-stock-jumps-15-151500537.html)
-  - Motley Fool, Yahoo Finance · 00:15 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: NuScale Power 주가는 지난주 하루 동안 15% 넘게 급등했으며, 같은 기간 SMR 업종에 대한 관심이 되살아나면서 오클로(OKLO) 주가도 7% 상승했다. 다만 기사 작성 시점인 2026년 9월 12일 기준으로 올해 누적 주가는 NuScale이 28%, 오클로가 약 44% 하락한 상태다.
-  - 판단: 오클로가 동종 소형모듈원자로(SMR) 기업과 함께 상승했다는 점은 업종 전반의 투자심리 개선과 밸류에이션 회복 가능성 측면에서 긍정적이다. 그러나 오클로의 상승은 개별 기업의 발표나 실적 개선이 아니라 업종 관심에 따른 움직임으로, 직접적인 기업가치 개선 효과는 제한적이다.
-  - 유의: NuScale이나 오클로가 주요 발표를 내놓은 것이 아니며 월가 애널리스트의 신규 보고서도 없었고, 기사도 주가 상승 원인을 확정하지 못하고 있다. 오클로 주가는 여전히 올해 약 44% 하락했다.
+- **약한 악재** · [Oklo files emergency FERC complaint after PJM removes its undisclosed Virginia power project from interconnection queue](https://news.google.com/rss/articles/CBMicEFVX3lxTFBJeTc1Vk1xQnNTRDczdDlxSnBXV2U5OXE1elhCdUR4Z0tQZXFyOEdNbnF0dnJVRVM5V2MxY052ejRmV0c2S1Fpd3g3VjJUamwxdVZ3S1lXeFZuSlU3OEdKZzdSeUFMeGlzT3d5VG5XcTg?oc=5)
+  - Energies Media · 05:15 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: Oklo는 지난 금요일 PJM Interconnection이 자사의 발전 프로젝트를 Cycle 01 연계 대기열에서 부당하게 제외했다며 FERC에 긴급 민원을 제기했고, 원래 대기 순서로 복귀시켜 달라고 요청했다. 공개되지 않았던 버지니아 프로젝트는 첨단 원자력 150MW, 연료전지 300MW, 천연가스 300MW로 구성되며 리치먼드 인근 연계 지점을 계획했지만, PJM의 대기열 제외로 일정과 계통연계에 차질 가능성이 생겼다.
+  - 판단: 대기열 지위를 잃으면 Oklo의 잠재 발전 프로젝트가 계통에 연결되는 절차와 상업화 일정이 지연될 수 있어 사업 실행 위험이 커진다. 다만 FERC에 복구를 요청한 점은 해당 프로젝트와 권리를 지키려는 대응으로, 결과에 따라 부정적 영향이 완화될 가능성도 있다.
+  - 유의: 현재는 Oklo의 주장에 근거한 긴급 민원 단계이며 FERC의 최종 판단이나 PJM의 반론·복구 여부는 제시되지 않았다. 프로젝트가 기존에 공개되지 않았던 만큼 실제 개발 확정성과 경제성도 불확실하다.
 
 ### [관심] 도미노피자 (DPZ) $311.60 ▼ -1.80%
 
 - %B -0.130 · RSI 34.8 (중립) · 하단 밴드 317.04
-- **중립** · [Major pizza chain franchisee closes stores, no bankruptcy filed](https://finance.yahoo.com/small-business/articles/popular-pizza-dining-chain-franchisee-160300852.html)
-  - TheStreet · 01:03 KST · 단일출처(Yahoo Finance)
-  - 요약: 기사 제목은 대형 피자 체인 가맹점주가 파산 신청 없이 매장을 폐점했다고 전하지만, 본문에서 구체적으로 확인되는 사례는 2026년 상반기 250개 매장 폐점을 계획한 Pizza Hut의 모기업 Yum Brands와 2026년 말까지 200개 매장 폐점을 발표한 Papa John's다. 또한 Chuck E. Cheese의 모기업은 경제성이 낮은 매장의 임대차 갱신을 중단했다고 설명한다.
-  - 판단: 업계 전반의 부진한 매장 폐점과 가맹점 구조조정은 외식 수요와 점포 수익성에 대한 우려를 보여줄 수 있다. 그러나 본문에 Domino's Pizza의 폐점 수나 가맹점 실적이 없어 도미노피자에 직접 미치는 영향은 판단하기 어렵다.
-  - 유의: 보유 종목인 도미노피자는 제목과 본문 말미에 언급될 뿐, 구체적인 폐점·매출·수익성 사실은 본문에 제시되지 않았다.
+- **약한 악재** · [Domino’s Pizza Stock Keeps Getting Cheaper. Here’s Whether the Discount Is Real.](https://news.google.com/rss/articles/CBMipAFBVV95cUxQY2dUOTNSNEx3ZG1VZU9mT2VNNFM2VU5vWTJlS09EbVR1M1lGYVd1QjFkTmpwTWtfUlZTZ3RMNzJTb2l0V0RUOXJ5MTdzRXVuOV9rTTR2Nlh0MmhpR0dtX2pfcVIyYUZMVnJ2aC02MHJVZFJQMEdWWkU5YTg4NVFTdzZmNnJCZzFjeGNnZmkxSDNvV2FVOXByc2V5X1JoN3JRQW9Ybw?oc=5)
+  - tikr.com · 06:31 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 도미노피자(DPZ)는 2026년 9월 11일 311.60달러에 마감했으며, 52주 최저가 282달러에 가까워졌고 지난해 고점 455.72달러보다 약 3분의 1 하락했다. TIKR의 중간 시나리오 목표가는 8월 말 약 535달러에서 현재 약 485달러로 낮아져, 주가 하락과 함께 추정치도 하향되고 있다고 분석했다.
+  - 판단: 주가가 싸졌더라도 밸류에이션 모델의 목표가가 계속 하향되면 시장이 도미노피자의 실적 또는 성장 전망을 낮추고 있다는 신호로 해석될 수 있다. 이는 투자심리와 주가 회복 가능성에 부정적인 영향을 줄 수 있다.
+  - 유의: 기사에 제시된 목표가는 TIKR의 모델 추정치일 뿐이며, 실제 실적이나 회사의 공식 전망은 아니다. 본문이 중간에 잘려 있어 목표가 하향의 구체적 원인과 추가 분석은 확인할 수 없다.
 
 ### [보유] 노보노디스크 ADR (NVO) $43.07 ▼ -2.14%
 
 - %B -0.071 · RSI 36.3 (중립) · 하단 밴드 43.42
-- **약한 호재** · [Novo Nordisk (NVO)’s Pediatric Obesity Opportunity Faces a Bigger Test](https://finance.yahoo.com/healthcare/articles/novo-nordisk-nvo-pediatric-obesity-171917899.html)
-  - Insider Monkey, Yahoo Finance · 02:19 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: Novo Nordisk는 비만 치료제 Wegovy의 소아 시장 확대 가능성을 평가하는 후기 단계 STEP Young 임상시험에서 주요 평가변수를 충족했다. 68주 동안 세마글루타이드를 투여받은 어린이의 40.4%가 비만 분류에서 벗어난 반면 위약군은 0%였지만, 이 임상 결과를 의미 있는 상업적 기회로 전환할 수 있을지는 추가로 확인해야 한다.
-  - 판단: 긍정적인 소아 임상 결과는 Wegovy의 대상 환자와 잠재적 시장을 확대하고 노보노디스크의 장기 성장 동력을 강화할 수 있다. 다만 실제 매출 기여에는 허가, 처방 확대, 보험 적용 및 시장 수용이 필요하다.
-  - 유의: 본문에는 임상시험의 전체 안전성 결과, 규제 승인 일정, 소아 시장의 실제 매출 규모가 제시되지 않았다.
+- **약한 호재** · [Novo Nordisk May Be Poised to Outpace Eli Lilly With This Key Catalyst](https://finance.yahoo.com/healthcare/articles/novo-nordisk-may-poised-outpace-213500160.html)
+  - Motley Fool, The Motley Fool · 06:35 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: Novo Nordisk는 당뇨병 치료제에서 출발한 GLP-1 약물 Wegovy와 Ozempic으로 체중 감량 시장을 개척했지만, 수요를 따라가지 못하면서 Eli Lilly에 선두를 내줬다. 기사는 Novo Nordisk의 새로운 경구용 GLP-1 약물이 경쟁에서 우위를 되찾을 수 있는 핵심 촉매가 될 수 있다고 예고한다.
+  - 판단: 경구용 GLP-1 약물이 효과와 편의성에서 경쟁력을 확보하면 Novo Nordisk의 시장점유율과 매출 회복에 기여할 수 있다. 특히 주사제 중심 시장에서 복용 편의성은 신규 환자 확대의 경로가 될 수 있다.
+  - 유의: 제공된 본문은 경구 약물의 구체적인 임상 결과, 승인 여부, 출시 일정과 실제 경쟁 우위 내용을 끝까지 담고 있지 않다. 따라서 촉매 가능성만 확인되며 확정적인 실적 개선으로 보기는 어렵다.
 
 ### [관심] 에리스 매니지먼트 (ARES) $131.64 ▲ +0.77%
 
 - %B -0.069 · RSI 40.8 (중립) · 하단 밴드 132.64
-- **약한 호재** · [CalPERS Commits $800M to Two Ares Real Estate Funds](https://finance.yahoo.com/real-estate/articles/calpers-commits-800m-two-ares-213513801.html)
-  - CRE Daily · 06:35 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: 캘리포니아 공무원연금인 CalPERS는 2026년 1분기에 Ares Management가 운용하는 두 부동산 투자기구에 총 8억 달러를 약정했다. Ares US Real Estate Fund XI에 4억5천만 달러, 계열 공동투자기구에 3억5천만 달러가 배정됐으며, CalPERS의 2025년 말 부동산 자산은 550억 달러로 목표 배분 비중은 10%였다.
-  - 판단: 대형 기관투자자의 신규 약정은 Ares의 부동산 운용 플랫폼에 자금이 유입되고 기관 고객 기반이 강화되는 신호다. 이는 향후 운용자산과 수수료 수익 확대에 긍정적으로 작용할 수 있다.
-  - 유의: 약정액이 Ares Management의 전체 실적이나 순이익으로 곧바로 이어지는 것은 아니며, 실제 납입 시점과 운용 성과는 제시되지 않았다.
+- **중립** · [SanDisk Stock Trades at Bargain, Yet Technical Pattern Raises Red Flags](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPR0xsUHZ2ZmxWZTZPZHN4cXF6eFJrVXRTWWg3X1N6ZkV3d1V1MEphQklTMTBBTFJWbklHSWxIMTM1WVA3bmVpLU9RSW9QTS1WaWg4Y1g4TVFKNUVvRjJsLUNDNDgyQmZmU3NxWG5IRTlBOF93Z2RyWVRsUDZEeThyR1pKVkdJUTZtMnMzSTJyRk1seXgzSnpZeW5hODJrMFNxTDhfU2t3Zlc5U2FSZW5zMHM1cEFSdVdZR2ZjYVpaVHhBT3JQR1ZxclNRdWRGYktvenpsaGZqdWQzeElwRFZLc0dNRVI1U2dWbkVtVGpuZw?oc=5)
+  - Benzinga · 03:25 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: SanDisk 주가는 연중 고점 대비 31% 하락했지만 매출과 수익성이 크게 성장해 저평가됐다는 평가를 받고 있다. 선행 주가수익비율은 7.6으로 기술업종 중간값 22와 S&P 500 평균 19.1보다 낮고, 선행 PEG는 0.19로 기술업종 평균 1.25보다 낮지만 약세 돌파 가능성이 있는 기술적 패턴도 나타나고 있다.
+  - 판단: 이 기사는 SanDisk의 밸류에이션과 기술적 흐름을 다루며, 보유 종목인 에리스 매니지먼트의 직접적인 사업이나 자산에는 영향을 설명하지 않는다.
+  - 유의: 기사의 주제는 보유 종목이 아닌 SanDisk이며, 에리스 매니지먼트에 대한 언급이나 연결고리가 없다.
 
 ### [관심] USA 레어어스 (USAR) $15.56 ▼ -2.99%
 
 - %B -0.060 · RSI 37.6 (중립) · 하단 밴드 15.82
-- **약한 호재** · [Should You Ignore MP Materials and Buy This Rare-Earth Stock Instead?](https://finance.yahoo.com/markets/stocks/articles/ignore-mp-materials-buy-rare-173300735.html)
-  - Motley Fool, currently.att.yahoo.com · 02:33 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: The Motley Fool은 미국 내 희토류 공급망 확보를 둘러싸고 MP Materials와 USA Rare Earth를 비교하는 2026년 9월 12일자 기사를 게재했다. 두 회사 모두 미국 정부의 상당한 지원을 받았으며, 중국이 희토류 시장을 지배하고 희토류 자석이 미국 방위·제조업에 중요하다는 점이 강조됐다.
-  - 판단: MP Materials가 미국 정부 지원을 받는 국내 희토류 공급망 기업으로 평가된다는 점은 정책 및 국가안보 관련 수요의 수혜 가능성을 높인다. 국내 생산 확대가 실제로 진행되면 장기적인 사업 기회가 커질 수 있다.
-  - 유의: 기사 본문이 비교 설명 도중 끝나 MP Materials의 지원 규모, 생산 계획, USA Rare Earth 대비 경쟁력이나 구체적인 투자 결론은 확인되지 않는다.
+- **호재** · [USA Rare Earth's new $1.2 billion plant to produce magnet metals](https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRFJwYS1NeW5ybkFTaWJ2OTBCOGRFTGZFdHEzNENKQXkyNWtaeHFKeU1naVdhSXZFMWwzZUpDa2VTcFJQeGlfVEtHOV9MeXF5TVRQUkluWk5WaHdmaWNYc3lteWNzNW5RYTluVVpGU3dRaHp2NXFLNmhvR24?oc=5)
+  - Interesting Engineering · 03:31 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: USA Rare Earth는 사우스캐롤라이나주 블랙스버그의 베일리 산업단지에 12억 달러 규모의 희토류 금속·자석 제조시설을 착공했다. 약 80만 제곱피트 규모의 이 시설은 124에이커 부지에 들어서며, 사우스캐롤라이나 북부 지역에 약 490개의 고숙련·고임금 제조 일자리를 창출할 것으로 예상된다.
+  - 판단: 대규모 시설 투자는 USA Rare Earth가 희토류 원료부터 금속·자석 제조까지 아우르는 공급망을 구축하고 생산능력을 확대하려는 움직임이다. 시설이 계획대로 가동되면 미국 내 핵심광물 공급망 강화와 향후 매출 기반 확대에 긍정적일 수 있다.
+  - 유의: 기사는 착공 사실과 예상 고용만 제시하고 있으며, 완공 일정, 자금 조달, 생산량, 고객 계약 또는 수익성은 확인되지 않는다.
 
 ### [관심] 알코아 (AA) $48.26 ▼ -0.08%
 
 - %B -0.045 · RSI 44.1 (중립) · 하단 밴드 48.44
-- [Alcoa (AA) Stock Could Be 42% Undervalued On South32 Deal Financing](https://news.google.com/rss/articles/CBMivgFBVV95cUxNMzI5Skt5d25CMFNlWG8zLS1QYnRBdXNWMnFJUnI3ajRvdVptZGN3cU5KcGM1akJPbDVrV3FxZEhtc18wRUp6OElnb2luRUpZTnZBT3YzczRiYmgyZmxVREg2a3d5RHo5OWpSaElFVnJEd1NreE92Z2NFTjgyNl9rYWE2Vkd0eXZkWV83MnRUQmVmTmFQZWx1aDczS2pxTkMwOENxVno4NlUtMVB6Vld5ZnRJMkZZNWd2UWIxdGp30gHDAUFVX3lxTE9lenZXN0lDX3lRTjlSbHVPZEt3Z3VLYXJOdnVwN05jWER4NW5EdnR4NmhSRWIweTZjZDVqN1NQN3JlYXhmV1BuWXA2bG0wVXNrSEhIWWlLdkRNNHB1MEM3Tk1oQThwNTlucENpNGEwVnBpMXFCMjZXcEJCVzB1ZkVRZXFEWVdNcXNxUU5admtMNk85NlV6X0M2WG1KMWdzdXZwR2JwUGdhMGZlZ2Z4TXpUeVNYN09qb2V1Y3BhcjBqX0VoQQ?oc=5)
-  - simplywall.st · 07:23 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
+- **중립** · [VIDEO: Prep scoreboard for Week 4](https://news.google.com/rss/articles/CBMivAFBVV95cUxNdGxYTW5aRENGUXhpUWVUMWtsUzI2T2IxOHJyMVJvRloyX2JnTVU2UkF4TGJGN0NuU1M0MTI5Ql9uUl9jV3RwSnJjc0hrVkgyMlFFZXFfUWdLQUZlSGlpa19CNnZhRjd0OTkwTDQzRVFnQkVZUkVoZmt0RzRKbmZweU1rRFcyNlhnR3hKODNIRDFoWDhpUWFPRVV1a0JXdUxDNEdnWWdRSDA1UWNTMHVOOFRqODdsUm1YZ3pmSg?oc=5)
+  - The Daily Times · 06:00 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 본문에는 ‘Week 4’ 관련 영상 제목과 이메일 알림, 전자판 안내, 브라우저 업데이트 권고 등의 사이트 안내문만 포함되어 있다. 알코아의 사업, 실적, 주가 또는 관련 사건에 대한 기사 내용은 제시되지 않았다.
+  - 판단: 알코아의 실적이나 사업 전망에 관한 정보가 없어 보유 종목의 가치와 주가에 영향을 줄 수 있는 경로를 판단할 수 없다.
+  - 유의: 기사 내용이 아니라 이메일 구독 및 사이트 이용 안내문 위주이므로 알코아 관련 투자 정보로 활용하기 어렵다.
 
 ### [관심] 블루아울 캐피털 (OWL) $10.56 ▲ +1.25%
 
 - %B -0.041 · RSI 39.2 (중립) · 하단 밴드 10.64
-- [3 Financial Stocks That Could Gain From Higher US Interest Rates](https://news.google.com/rss/articles/CBMizgFBVV95cUxOSy1rZDFDWEpPZC03WHgyTmRycHlQblllbjlXcnlfM2FsNllmQ0JrVThvTW50RTNLM3g1aWpyLVl4VEpTZGI2ZEEzMnJMNHZHclZNSDFmQzRsbHdwZmUzT3k3aG9xVVhhd3h0OFJVR0owSUxrWkk3MjBmQXFlZTdzUnNSNVl5aWFrWEQ5UFlxaHJvRWR2WkJ2WTd4VmhHaHR3Q2ctcnNaUXhKcjR2bVVwbDJJLVB5b0lseVZkQUllaERaSHE3WXRwSkRkSDZBd9IBzgFBVV95cUxOSy1rZDFDWEpPZC03WHgyTmRycHlQblllbjlXcnlfM2FsNllmQ0JrVThvTW50RTNLM3g1aWpyLVl4VEpTZGI2ZEEzMnJMNHZHclZNSDFmQzRsbHdwZmUzT3k3aG9xVVhhd3h0OFJVR0owSUxrWkk3MjBmQXFlZTdzUnNSNVl5aWFrWEQ5UFlxaHJvRWR2WkJ2WTd4VmhHaHR3Q2ctcnNaUXhKcjR2bVVwbDJJLVB5b0lseVZkQUllaERaSHE3WXRwSkRkSDZBdw?oc=5)
-  - simplywall.st · 06:27 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
+- 오늘자 관련 기사 없음
 
 ### [관심] 리얼티 인컴 (O) $59.50 ▼ -0.12%
 
 - %B -0.030 · RSI 28.2 (과매도) · 하단 밴드 59.63
-- [Insider trades: Nvidia, Tesla, Uber among notable names (O:NYSE)](https://news.google.com/rss/articles/CBMilAFBVV95cUxQMU9icG8tRUpmcXhRVHE5cUt1Y1o5UGdRRmZaYnhtM0k2YzdtUmVLMTVacHZCYnQ4VkEweDVQaGw3Qkk5WE5rT09ld0NXMUxRXzZ6NWZvZDB4c1NhalB5dEEtTE9ieGxZVXhBRmFtb3ZIZFNacnJNVVJQTnZKT2tMU1JIa01jbGxxb185LWhkSkRVZmN1?oc=5)
-  - Seeking Alpha · 00:03 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
+- **약한 악재** · [Realty Income or Agree Realty: Which Monthly Dividend Should Retirees Own?](https://finance.yahoo.com/real-estate/articles/realty-income-agree-realty-monthly-174604946.html)
+  - 24/7 Wall St., Yahoo Finance · 02:46 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: 2026년 9월 13일 기사에서는 리얼티 인컴(O)과 Agree Realty(ADC)를 비교하며, ADC가 투자등급 임차인 비중에서 O의 약 2배이고 AFFO 배당성향 70%, 주당 성장률 전망 약 6%로 O보다 우위라고 평가했다. 반면 리얼티 인컴은 5.43%의 배당수익률과 670회 이상의 연속 월배당 기록으로 현재 소득을 중시하는 은퇴 투자자에게 적합하다고 설명했다.
+  - 판단: 동일한 월배당 리츠인 ADC와 비교할 때 성장성과 임차인 신용도 측면에서 상대적 열위로 평가되면 리얼티 인컴의 신규 투자 매력과 주가 재평가에 부담이 될 수 있다. 다만 높은 현재 배당수익률과 장기간의 월배당 기록은 소득형 투자자 수요를 지지한다.
+  - 유의: 기사 일부만 제공되어 리얼티 인컴의 구체적인 재무·임대 현황과 비교 근거 전체를 확인할 수 없다. 또한 ‘매수할 최고의 10개 종목’ 보고서로 유도하는 홍보성 문구가 포함되어 있다.
 
 ### [관심] MP 머티리얼스 (MP) $50.51 ▼ -1.58%
 
 - %B -0.018 · RSI 41.7 (중립) · 하단 밴드 50.70
-- **약한 호재** · [Should You Ignore MP Materials and Buy This Rare-Earth Stock Instead?](https://finance.yahoo.com/markets/stocks/articles/ignore-mp-materials-buy-rare-173300735.html)
-  - Motley Fool, currently.att.yahoo.com · 02:33 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: The Motley Fool은 미국 내 희토류 공급망 확보를 둘러싸고 MP Materials와 USA Rare Earth를 비교하는 2026년 9월 12일자 기사를 게재했다. 두 회사 모두 미국 정부의 상당한 지원을 받았으며, 중국이 희토류 시장을 지배하고 희토류 자석이 미국 방위·제조업에 중요하다는 점이 강조됐다.
-  - 판단: MP Materials가 미국 정부 지원을 받는 국내 희토류 공급망 기업으로 평가된다는 점은 정책 및 국가안보 관련 수요의 수혜 가능성을 높인다. 국내 생산 확대가 실제로 진행되면 장기적인 사업 기회가 커질 수 있다.
-  - 유의: 기사 본문이 비교 설명 도중 끝나 MP Materials의 지원 규모, 생산 계획, USA Rare Earth 대비 경쟁력이나 구체적인 투자 결론은 확인되지 않는다.
+- 오늘자 관련 기사 없음
 
 ## 종목별 오늘의 뉴스
 
 _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님._
 
 <details>
-<summary><b>SK하이닉스</b> <code>000660</code> ▼ -2.21% ₩1,812,000 — 약한 호재 1</summary>
+<summary><b>SK하이닉스</b> <code>000660</code> ▼ -2.21% ₩1,812,000 — 중립 1</summary>
 
-- **약한 호재** · ["한 달 -67%" 아셴브레너의 귀환…SK하이닉스·AMD에 다시 베팅 [김주완...](https://n.news.naver.com/mnews/article/015/0005331632)
-  - 한국경제, 네이트 · 07:01 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
-  - 요약: 헤지펀드 시추에이셔널 어웨어니스(SA)가 지난 7월 한 달간 67%의 손실을 낸 뒤에도 SK하이닉스, AMD, 샌디스크 등 AI 인프라 관련 종목의 옵션 투자를 재개한 것으로 전해졌다. SA는 옵션 프리미엄으로 수억달러를 투입했으며, 6월 말 SEC 13F 기준 샌디스크와 마이크론 보통주 보유액은 약 112억4756만달러로 전체 공시금액 202억4229만달러의 55.56%였다.
-  - 판단: SK하이닉스가 AI 인프라 투자와 메모리 반도체 수요의 주요 종목으로 다시 거론되면 투자심리와 관련 수급에 긍정적으로 작용할 수 있다. 다만 직접 주식을 매수한 것이 아니라 옵션 투자이므로 실제 매수세와 기업 실적 개선으로 곧바로 이어지는 것은 아니다.
-  - 유의: 옵션 프리미엄 투자는 주가 방향에 대한 제한적인 신호일 뿐이며, 기사 본문이 중간에 끊겨 SA의 구체적인 투자 규모와 조건은 확인되지 않는다.
-
-</details>
-
-<details>
-<summary><b>삼성전자</b> <code>005930</code> ▼ -3.53% ₩259,500 — 약한 악재 1</summary>
-
-- **약한 악재** · ['월세 70만원' 때문에 삼성전자 해고 위기?](https://n.news.naver.com/mnews/article/648/0000050713)
-  - 비즈워치, v.daum.net · 07:00 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
-  - 요약: 삼성전자 DS부문 평택사업장에서 일부 저연차 직원들이 전용 33㎡ 미만 주택에 지급되는 월세 지원금 70만원을 부정하게 수령했다는 의혹이 제기됐다. 회사는 100명이 넘는 직원을 대상으로 사실관계를 확인 중이며, 부정수급이 확인되면 지원금 환수와 징계가 이뤄질 수 있지만 해고나 권고사직 문서는 사실이 아니라고 밝혔다.
-  - 판단: 의혹이 사실로 확정되면 삼성전자의 내부통제와 조직 신뢰에 부정적인 영향을 줄 수 있고, 조사·환수·징계에 따른 행정 부담도 발생할 수 있다. 그러나 사안의 규모가 회사 전체 실적에 미치는 재무적 영향은 현재로서는 제한적으로 보인다.
-  - 유의: 현재는 의혹 조사 단계이며 부정수급이나 해고 인원이 확정되지 않았다.
+- **중립** · [[비즈톡톡] ‘메모리 초호황기’에 D램 점유율 25%로 하락… ‘HBM 왕좌...](https://n.news.naver.com/mnews/article/366/0001192081)
+  - 조선비즈, biz.chosun.com · 06:01 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
+  - 요약: SK하이닉스의 올해 2분기 D램 매출은 전분기보다 37.9% 증가한 385억9000만달러였지만, 시장점유율은 28.8%에서 24.9%로 3.9%포인트 하락했다. HBM 출하 비중이 높고 삼성전자보다 생산 규모가 작아 범용 D램 가격 급등의 수혜가 상대적으로 작았으며, 삼성전자와 마이크론의 매출 증가율은 각각 63.4%, 65.5%로 SK하이닉스를 웃돌았다.
+  - 판단: D램 전체 점유율 하락은 경쟁력과 외형 성장에 부담이 될 수 있지만, HBM 중심의 제품 구성은 고부가 제품 수익성과 AI 메모리 경쟁력으로 이어질 수 있다. 따라서 점유율만으로는 SK하이닉스의 실적 방향을 단정하기 어렵다.
+  - 유의: 본문이 생산량 차이와 HBM 왕좌 수성 과제를 언급하지만, HBM 수익성이나 구체적인 출하·계약 전망은 제시하지 않는다.
 
 </details>
 
 <details>
-<summary><b>HD현대중공업</b> <code>329180</code> ▲ +5.62% ₩479,000 — 약한 호재 1</summary>
+<summary><b>삼성전자</b> <code>005930</code> ▼ -3.53% ₩259,500 — 약한 호재 1</summary>
 
-- **약한 호재** · ["주문 전에 일단 짓는다"...HD현대중공업 '1조 투자' 전말 [B급기자의...](https://n.news.naver.com/mnews/article/215/0001265760)
-  - 한국경제TV, v.daum.net · 06:00 KST · 교차확인(네이버 금융+구글 뉴스 RSS)
-  - 요약: HD현대중공업은 육상·해상용 엔진 공장에 8336억원, 소형모듈원전(SMR)에 2386억원을 투입하는 총 1조 722억원 규모의 시설 투자를 결정했다. 엔진 생산능력은 육상용 3.2GW와 해상용 1.0GW 등 총 4.2GW 늘어나지만, 현재 확보한 주문은 1.6GW이고 이를 연간 기준으로 환산하면 새 육상용 생산능력의 약 15%만 채우는 수준이다.
-  - 판단: 데이터센터 확대와 전력 수요 증가를 겨냥한 선제적 증설은 향후 엔진 및 SMR 사업의 매출 기반을 확대할 수 있다. 다만 공장이 완공되는 2028년 5월 전까지 추가 주문을 확보해야 하므로, 실제 수익성은 신규 수주와 가동률에 달려 있다.
-  - 유의: 현재 수주량만으로는 증설된 생산능력을 충분히 채우지 못하며, 기사도 투자를 미래 수요에 대한 선제적 베팅으로 설명하고 있다.
-
-</details>
-
-<details>
-<summary><b>델</b> <code>DELL</code> ▲ +11.98% $567.29 — 호재 1</summary>
-
-- **호재** · [Dell Technologies: AI Orders Surge as Storage Growth Builds and Supply Tightens](https://finance.yahoo.com/technology/ai/articles/dell-technologies-ai-orders-surge-150159071.html)
-  - MarketBeat, Yahoo Finance · 00:01 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: Dell Technologies는 회계연도 2분기에 61억달러 규모의 AI 서버 GPU 주문을 수주했으며, 이는 직전 3개 분기 합계와 같은 규모다. 같은 분기 전통적 서버 매출은 122%, 스토리지 매출은 26% 증가했고, Dell은 연간 스토리지 사업의 두 자릿수 성장을 예상하는 가운데 DRAM·NAND 등 AI 부품 공급 부족이 심화될 수 있다고 밝혔다.
-  - 판단: AI 서버 주문 증가는 델의 서버 매출과 데이터센터 고객 기반 확대에 직접적인 호재다. 스토리지 성장과 규모의 경제에 따른 마진 개선 가능성도 긍정적이지만, 부품 부족은 생산 차질이나 원가 상승 요인이 될 수 있다.
-  - 유의: 기사에 제시된 실적과 주문 수치는 긍정적이지만, DRAM·NAND 공급 제약이 향후 출하량과 수익성에 미칠 영향은 아직 불확실하다.
+- **약한 호재** · [삼성전자, 日 패키징 R&D 거점 문 열어…TSMC도 택한 '소부장 강국'](https://n.news.naver.com/mnews/article/031/0001057916)
+  - 아이뉴스24 · 07:00 KST · 교차확인(구글 뉴스 RSS+네이버 금융)
+  - 요약: 삼성전자는 2024년부터 5년간 400억엔(약 3500억원)을 투자해 일본 요코하마에 첨단 패키징 연구거점인 어드밴스드 패키지 랩(APL)을 열었다. 약 6600㎡ 규모의 시설에서 한일 연구원 95명이 2.xD·3D를 결합한 3.xD 칩렛, 본딩, 인터포저, 기판 실장 기술 등을 연구하고 일본 소부장 기업 50여곳과 협력한다.
+  - 판단: 일본의 반도체 기판·소재·장비 생태계를 활용하면 삼성전자의 AI 반도체 후공정 기술 검증과 차세대 패키징 개발을 강화할 수 있다. 이는 장기적으로 고성능 AI 반도체 경쟁력에 긍정적이다.
+  - 유의: APL은 양산공장이 아니라 공정 시험과 시제품 제작을 위한 연구시설이므로, 즉각적인 매출이나 생산능력 증가로 이어진다고 보기는 어렵다.
 
 </details>
 
 <details>
-<summary><b>컨스텔레이션 브랜즈</b> <code>STZ</code> ▼ -1.10% $122.45</summary>
+<summary><b>HD현대중공업</b> <code>329180</code> ▲ +5.62% ₩479,000 — 호재 1</summary>
 
-- 오늘자 기사 없음 (후보 43건, 과거 기사로 대체하지 않음)
-
-</details>
-
-<details>
-<summary><b>퍼스트솔라</b> <code>FSLR</code> ▲ +0.90% $209.03</summary>
-
-- 오늘자 기사 없음 (후보 52건, 과거 기사로 대체하지 않음)
+- **호재** · [HD현대중공업, 발전엔진·SMR에 1조원 투자... 전력 인프라 경쟁력 강화](https://news.google.com/rss/articles/CBMibkFVX3lxTE03cUFUMVZZN0Flc00tS2draUt0VU5MNTV4cVp2cnVLNVpJU19DODRrbF9KdzNGV3hyMUg1YmxPVnRmQjAwYzBBSXBDbnl2ZURyczM5TGwyR3dKUGl6Yk85OXFwUllQUjVzRkZDcGxR0gFyQVVfeXFMTWtKTmFOWTN4VHdoamg0S09kZHhjcGxIdkEtVERqb29MTTlibEh1SW9uTmh1cVI3TFhXVDlBcTRSYkJuYTF2RmJfZTZwMGRhT2M0NnFtLV9oelIwYnBscTZxZTUzS2dqTVdTU3VpTTNjRWJ3?oc=5)
+  - techdaily.co.kr · 00:30 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: HD현대중공업은 육상용 발전엔진과 SMR에 총 1조722억원을 투자한다. 8336억원을 들여 울산 온산에 3GW 규모의 힘센엔진 신규 생산기지를 건설해 2028년 5월 준공할 예정이며, 육상 발전용 엔진 생산능력을 연간 4GW로 확대하고 전체 생산능력은 현재 3GW에서 2030년 7.2GW로 늘릴 계획이다. 또 2386억원을 투자해 SMR 주기기 제작공장을 건립하고 2029년 상반기 완공을 목표로 한다.
+  - 판단: AI 데이터센터의 전력 수요 증가를 겨냥해 발전엔진 생산능력을 확대하면 관련 수주와 매출 기반을 넓힐 수 있다. SMR 제작 역량 확보도 향후 전력 인프라 사업의 신규 성장동력이 될 수 있다.
+  - 유의: 대부분의 투자는 2028~2029년 완공을 목표로 하므로 단기 실적 기여는 제한적일 수 있으며, 실제 수주와 투자수익은 아직 확정되지 않았다.
 
 </details>
 
 <details>
-<summary><b>컨스텔레이션 에너지</b> <code>CEG</code> ▼ -0.43% $284.75</summary>
+<summary><b>델</b> <code>DELL</code> ▲ +11.98% $567.29 — 판단보류 1</summary>
 
-- 오늘자 기사 없음 (후보 44건, 과거 기사로 대체하지 않음)
+- [Michael Dell’s family office nears deal to take insurance broker private](https://news.google.com/rss/articles/CBMihAFBVV95cUxPbVFHdGlRRFoyR3FHRmtiMjNlT1R1dk1ReUtMQWNCQnVJd2NNM1V3ZkhFaU9nR2Y3YmJzdTAwVGZDMF9rQUNiSThCT3NxT2dFTFdFWjNqbkxlaU0xOEVqcDNJdFJZNkljNzFGNTZJVXdkYXk5cy1tNmxrNkM4ZDRsZUpabmM?oc=5)
+  - Financial Times · 07:14 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
+
+</details>
+
+<details>
+<summary><b>컨스텔레이션 브랜즈</b> <code>STZ</code> ▼ -1.10% $122.45 — 약한 호재 1</summary>
+
+- **약한 호재** · [Constellation Brands Refines Beer Playbook, Reaffirms Full-Year Outlook](https://finance.yahoo.com/markets/stocks/articles/constellation-brands-refines-beer-playbook-160200366.html)
+  - MarketBeat, Yahoo Finance · 01:02 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: Constellation Brands는 Corona와 같은 성숙 브랜드의 마케팅을 강화하는 동시에 Modelo, Pacifico, Victoria의 확장을 이어가는 맥주 전략을 조정했다. 온프레미스 수요와 월드컵 기간 점유율은 강했지만 소비자 및 거시경제 압력으로 오프프레미스 수요는 부진했으며, 회사는 연간 전망을 재확인하고 공급망 비용을 6억달러 이상 절감했다고 밝혔다.
+  - 판단: 연간 실적 전망 재확인과 6억달러 이상의 공급망 절감은 실적 가시성과 마진 방어에 긍정적이다. 다만 오프프레미스 수요 부진은 판매량과 브랜드 성장에 부담으로 작용할 수 있다.
+  - 유의: 기사에는 하반기 마진 전망이 일부 잘려 있고, 구체적인 매출·이익 전망 수치도 제시되지 않아 긍정적 영향의 규모를 판단하기 어렵다.
+
+</details>
+
+<details>
+<summary><b>퍼스트솔라</b> <code>FSLR</code> ▲ +0.90% $209.03 — 중립 1</summary>
+
+- **중립** · [It is 'madness' to prioritise solar panels over farmland, says MP](https://news.google.com/rss/articles/CBMikwFBVV95cUxOMTF6MnF1UGt3SFlqUmZVWDBoVk9GUjhRMDYtdVdZWTVYZWpNMjFYX1VBTWlFM3NCUDduV1dJYVplOEJPTnNydW02ZnVSWldnN1ZjTThvV3dNZWRVbktnQVRxTElQWkFkLTdFYzhBX3NkT3Zfd2l3SVVuU1Z3Vk9wNXRleGMzOUJtMnk2YlJUeXFUcEE?oc=5)
+  - Farmers Guardian · 01:00 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 영국 노퍽에서 대규모 태양광 개발과 농지 보존의 우선순위를 둘러싼 논쟁이 제기됐다. 미드노퍽 지역구 의원 조지 프리먼은 9월 4일 열린 노퍽 최초의 태양광 서밋 이후 대규모 태양광 개발 인허가에 대한 새로운 접근이 필요하다고 주장했다.
+  - 판단: 농지와 태양광 개발을 둘러싼 인허가 논쟁은 영국 태양광 프로젝트의 개발 속도와 사업 환경에 영향을 줄 수 있다. 다만 퍼스트솔라의 특정 프로젝트나 수주, 실적에 대한 직접적인 내용은 없다.
+  - 유의: 본문은 유료기사 안내로 일부 내용만 제공되며, 보유 종목인 퍼스트솔라가 직접 언급되거나 회사에 미치는 영향이 제시되지 않는다.
+
+</details>
+
+<details>
+<summary><b>컨스텔레이션 에너지</b> <code>CEG</code> ▼ -0.43% $284.75 — 판단보류 1</summary>
+
+- [Entergy (ETR) Stock Looks Pricey On Dividends And Earnings After 136% Run](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdW5uWmZJMkFCemJmMkVCYmp0S3NLdVJmeHJ3eGlIR0x2YjRWb1dfLXktdlphUkYtQkRzQjAzaVJ4bmFSTTh5X0tyazJLMjJHbHBtQlRCREFwT2NTeXY2Q21QTUx4S2xub1BrdjJENE9BeS1hZGNTMlU2ZDFwNGJiZWVxTU91YlBadUcxNS1DTzlfMWRmUzFEZU44aTZBNmNEUi1GZzU1Y3Jmb0d3dE1QU1dRYi0wckFPa3dSYUF5TDIzZ9IBxwFBVV95cUxPcFJCa1dXcS1CQzY3RVJ1blZuemdrX1UyT3g4Wlctd0R2QjM2N2p3bzE3NTM1Mk8yVHBiUHkxMjQ3V0lpbllfeEJISDhBZlM4alhuR2JPcU1ZQVdVRzhacmlMcUZkdk45U0ZsalVDd21iMEo3T3lzVDFVRjZGYkhTVUw1QzhfTXFYYWF6V2hiUlpxR3pJZmVjdkV3UWdQd1A0ZHJKbUNIQ2lEZ0ZFR0FEeXRta0dsVG5yaEJncGJlT3NpdGwzN0Zr?oc=5)
+  - simplywall.st · 07:27 KST · 단일출처(구글 뉴스 RSS)
+  - 제목만 확보(본문 추출 실패 · 구글복원: HTTPError) · 요약·판단 보류
 
 </details>
 
 <details>
 <summary><b>비스트라 에너지</b> <code>VST</code> ▲ +0.90% $148.38</summary>
 
-- 오늘자 기사 없음 (후보 44건, 과거 기사로 대체하지 않음)
+- 오늘자 기사 없음 (후보 41건, 과거 기사로 대체하지 않음)
 
 </details>
 
 <details>
 <summary><b>이오스 에너지</b> <code>EOSE</code> ▼ -1.00% $3.95</summary>
 
-- 오늘자 기사 없음 (후보 42건, 과거 기사로 대체하지 않음)
+- 오늘자 기사 없음 (후보 43건, 과거 기사로 대체하지 않음)
 
 </details>
 
 <details>
-<summary><b>알먼티</b> <code>ALM</code> ▼ -6.52% $15.49 — 약한 호재 1</summary>
+<summary><b>알먼티</b> <code>ALM</code> ▼ -6.52% $15.49 — 중립 1</summary>
 
-- **약한 호재** · [Almonty's Split Personality: A Jefferies Buy Call, a Pension Fund Stake, and a Stock That Trades on](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaUE3MnB2Ym13cWxBYnFFVHRjRXUtTjcweFFWUGtjRmU5NkRVLWpiNUNOX1lIYUJtaVpZcTY5Q3N4VUZjOGFTZ2FsSXdOTk1PeXlFNHJBeDMtTmp6ZC1WTkstbm5rNklYWFBjMXlyWUtIRGFiNXh0cGloYjFYclJ1MkNzYXFEWmpyQVNIQWJjcktfZEZWYTIwclpWSFVIYW5tY3NvalR4MS03TGFjV2pHcEg2ZzMtYmZkbVVmMWI5a1ZvOTF5SklMUHFJdFZEemlPWVdrMVR5VmQ?oc=5)
-  - ad-hoc-news.de · 02:30 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 알먼티 주가는 9월 8일 장중 10.3% 급등했다가 이후 6.1% 하락해 EUR 13.40에 마감하는 등 뚜렷한 촉매 없이 높은 변동성을 보였다. Jefferies는 알먼티에 대해 매수 의견과 목표가 26.25달러로 커버리지를 시작했고, 상동 프로젝트 진전과 8월 승인된 최대 3억달러 규모 자사주 매입 계획도 기존 호재로 언급됐다.
-  - 판단: Jefferies의 매수 의견과 목표가는 알먼티에 대한 기관 투자자 관심과 시장 평가를 높일 수 있으며, 상동 프로젝트와 자사주 매입은 주가의 잠재적 지지 요인이다. 다만 주가 움직임이 텅스텐 공급 기대와 수급·심리에 크게 좌우되고 있어 지속적인 기업가치 개선으로 단정하기는 어렵다.
-  - 유의: 주가가 10.3% 상승 후 6.1% 하락하는 등 변동성이 크고, 기사도 9월 8일 상승에 명확한 기업 발표가 없었다고 설명한다.
+- **중립** · [Almonty's Listing Shake-Up and the Jefferies Effect: Making Sense of a Tungsten Stock in Flux](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdnhiVkhoS1JuUml2NVdZWUFITHhNR1JKekR0WThFWDJuUkI5UWtrTkx3eDZvT2FxcVZxbXd0VUZYZUszVExMcU1lN1lMbFlSdG5GQkk5SHZYYjJyak4wUVVjOUVrbmpGS3p4WFFxYTV6YXZDSlNObDZoZXZSTF80MS1GeGE5UXN2MWo2ZEY5NW9YZmo1SDVrUHduWlF6d09hWDA1Q3I5dFlRT3lJT1k3X0gxYW1WVDNPN3ZfRUk2bUx0OHZqR0o2RHNQdHNWWFhTTVFwc1lSQXo?oc=5)
+  - ad-hoc-news.de · 04:21 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: Almonty Industries의 주가는 TSX와 ASX 상장 종료 및 나스닥 집중 이후 6.1% 하락해 13.40유로를 기록했다. 반면 Jefferies는 알몬티에 대해 매수 의견으로 커버리지를 시작했으며, 회사는 최근 약 6주 동안 상장 구조 변화와 주가 급등락을 겪는 가운데 운영 측면에서는 진전을 보였다고 소개됐다.
+  - 판단: 나스닥 중심의 상장 구조는 투자자 접근성과 유동성 개선을 기대하게 하지만, 상장 변경 과정과 6.1% 주가 하락은 단기 변동성 부담을 보여준다. 텅스텐 공급망의 서방 독립이라는 전략적 기대와 Jefferies의 매수 의견은 투자심리에 긍정적일 수 있다.
+  - 유의: 기사 본문이 운영 업데이트 중간에서 끊겨 구체적인 생산량, 매출, 프로젝트 진행 상황을 확인할 수 없다. 따라서 상장 변경과 애널리스트 의견만으로 실적 영향을 판단하기 어렵다.
 
 </details>
 
 <details>
 <summary><b>크레도 테크놀로지</b> <code>CRDO</code> ▲ +1.65% $162.95 — 중립 1</summary>
 
-- **중립** · [Wall Street Analysts Are Bullish on Top Technology Picks](https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYjB0TTY5NFYxR0NvZ1oxaEFHaXBnRzMxVkdjUmtWR1I0UVZGUEJWb01tazA3ck4xTHRWamlzMVFwQW5vYnJ2VGwzd3F4N01xVUp4Y2pJTjJmTkZjS0d4UnlfZkV2RWV2dXZOMkxVOERjUUx6c0l2OHRfQnRmbUYydGtINjRDM1lXc1B4Zk1XZmVBM3ZwR0pVby1XME5wRW0tRGJuZnZVQ3Bab2EycFBrU2ZEMzhlRDdyY3F2UGo3WEphSTVwREtQY0VZOTZXdWRXVGtB?oc=5)
-  - The Globe and Mail · 02:43 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 이 기사는 월가 애널리스트들이 마벨과 리서치 솔루션스에 대해 긍정적인 의견을 냈다는 내용을 다룬다. 뱅크오브아메리카의 Vivek Arya는 마벨에 매수 의견을 유지했고, 마벨의 시장 컨센서스 목표가는 298.38달러, 추가 상승 여력은 27.2%로 제시됐으며 크레도 테크놀로지는 애널리스트의 커버리지 종목 중 하나로만 언급됐다.
-  - 판단: 크레도 테크놀로지가 기술주 및 AI 관련 애널리스트의 관심 종목군에 포함된 점은 간접적인 투자심리 개선 요인이 될 수 있다. 그러나 해당 기사에서 크레도에 대한 투자의견, 목표가, 실적 전망은 제시되지 않아 보유 종목에 대한 직접적인 영향은 확인하기 어렵다.
-  - 유의: 기사의 주제와 구체적인 긍정 의견은 마벨과 리서치 솔루션스에 관한 것이며, 크레도 테크놀로지는 언급만 됐다.
+- **중립** · [Viral AI Dommer Tweet: Engineered Panic?](https://news.google.com/rss/articles/CBMihgFBVV95cUxQc2tiN1A4NXVVa3A0cTVtRER0TnkwQm9NLUkzZmdack5EQUhvd19iTk1UeG1hakx6ZTc4RVJ2NlNnRWhUaTd2anZyY2NhendBb2NqTjBEa2RKUXBmRHVEbmN5ZHRVOE5FYmhCMVI1dHBmVENPcnRQdGNSTUh6djRXY3ZyN3ZhQQ?oc=5)
+  - Zacks Investment Research · 04:44 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 제공된 본문은 ‘Viral AI Dommer Tweet: Engineered Panic?’ 기사 내용이 아니라, 사용자가 봇으로 감지됐을 수 있으며 쿠키와 자바스크립트를 활성화하라는 브라우저 안내문이다. 기사 본문이나 크레도 테크놀로지와 관련된 사실·사건은 제시되지 않았다.
+  - 판단: 크레도 테크놀로지의 사업, 실적, 수주 또는 시장 전망에 관한 정보가 없어 보유 종목에 대한 영향은 판단할 수 없다.
+  - 유의: 본문이 광고·사이트 접속 안내문만 포함하고 있어 실제 기사 내용을 확인할 수 없다.
 
 </details>
 
 <details>
 <summary><b>알파벳 A</b> <code>GOOGL</code> ▲ +1.77% $338.50 — 약한 호재 1</summary>
 
-- **약한 호재** · [Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play](https://finance.yahoo.com/energy/articles/googles-historic-396-mw-clean-190500123.html)
-  - Motley Fool, fool.com · 04:05 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: 알파벳의 자회사 구글은 지열에너지 기업 Fervo Energy와 협력해 396MW 규모의 청정 지열에너지 전력구매계약(PPA)을 체결했다. AI 데이터센터 확대로 전력 수요가 증가하고 전력망 연결이 지연되는 상황에서, 이번 계약은 구글의 안정적이고 청정한 전력 확보를 지원하고 Fervo Energy의 사업 확대에도 기여할 수 있다.
-  - 판단: 알파벳이 데이터센터 운영에 필요한 전력을 장기적으로 확보하면 AI 인프라 확장의 전력 제약을 완화하고 탄소배출 및 전력 조달 리스크를 줄일 수 있다. 다만 전력 확보 자체가 곧바로 매출이나 이익 증가로 이어지는 것은 아니므로 직접적인 재무 호재보다는 인프라 운영 측면의 긍정 요인이다.
-  - 유의: 기사에는 396MW 계약의 세부 조건과 비용, 수익성 영향이 제시되지 않았으며 구글의 실제 비용 절감 규모도 확인되지 않는다.
+- **약한 호재** · [Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid](https://finance.yahoo.com/markets/stocks/articles/amazon-alphabet-microsoft-2-buy-202800287.html)
+  - Motley Fool, Yahoo Finance · 05:28 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: Amazon, Alphabet, Microsoft는 AI 사업을 각 기업 전반에 통합하고 있으며, Amazon과 Microsoft는 클라우드 인프라 시장에서 각각 28%와 20%의 점유율을 보유한 것으로 제시됐다. Microsoft의 클라우드 사업은 AI 인프라 확대의 핵심 기반으로 평가되지만, 기사는 세 기업 중 어떤 종목을 매수·회피할지 비교하는 의견 기사다.
+  - 판단: Microsoft의 높은 클라우드 점유율은 AI 관련 클라우드 수요가 늘어날 때 Azure 매출과 사업 경쟁력에 긍정적으로 작용할 수 있다. 그러나 AI 인프라 투자가 비용 증가나 경쟁 심화로 이어질 경우 실제 주주가치 개선 폭은 제한될 수 있다.
+  - 유의: 제공된 본문에는 Microsoft에 대한 최종 투자 판단과 최신 실적·성장률이 포함되지 않았으며, 20% 점유율의 기준과 출처도 명확하지 않다.
 
 </details>
 
 <details>
-<summary><b>시스코 시스템즈</b> <code>CSCO</code> ▲ +4.37% $112.13 — 약한 악재 1</summary>
+<summary><b>시스코 시스템즈</b> <code>CSCO</code> ▲ +4.37% $112.13 — 중립 1</summary>
 
-- **약한 악재** · [Cisco Firewall Bugs Let in Sandworm, Qilin](https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmplckRXbk83UUhXS1ZydW5yTV9BZGhUdEJBX1FfTk8yYkJUOXJmQURmeTY1UWdhS3RId0xWZ3EwUjdXby1wNWp2Vi1ZTzRPLUFJangwUzhJX2ktYml2ano3SVg4NEJsTVdPd2tubGlSODY0NGdHU2hyV203R0J0WTJnTlZTWkkzUVE?oc=5)
-  - BankInfoSecurity · 06:16 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Cisco의 Secure Firewall Management Center와 클라우드 제공 버전에서 발견된 2개의 취약점이 국가 지원 공격자와 랜섬웨어 세력에 의해 악용되고 있는 것으로 나타났다. CVE-2026-20079는 인증 없이 원격으로 명령을 실행해 루트 권한을 얻을 수 있는 고위험 취약점이며, CVE-2026-20316은 인증되지 않은 원격 로그인을 허용할 수 있는 하드코딩 비밀번호 취약점이다.
-  - 판단: 실제 악용 중인 보안 취약점은 Cisco 제품의 신뢰도와 고객 보안에 부담을 주고, 패치·지원 및 대응 비용을 늘릴 수 있다. 침해 사고가 확대될 경우 법적·평판 리스크와 제품 수요에도 부정적인 영향을 줄 가능성이 있다.
-  - 유의: 기사에는 피해 고객 수, 실제 침해 규모, Cisco의 재무적 손실이나 판매 영향이 제시되지 않았으며, 취약점 악용 사실만으로 회사 전체 실적 악화를 확정할 수는 없다.
-
-</details>
-
-<details>
-<summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +3.60% $257.06 — 중립 1</summary>
-
-- **중립** · [Industrial Stocks To Follow Now - September 12th](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc05ycm5XN2FpQ2dLUnV0TTluaUF4Z2ZWS2FOa1lGa2V2WEI5Mk40eWVHQjFEcTdZTk9TM24ydl9Ka0NHX1U0SmVHRWhkTlNCOGZsN2FBcHZWQ1h2MzctM2ttYUVUY19BM0R1Ukl1UThBbFVabWdjeVlRUm1wSlo2a0hSbkR3cjNvTUNTLXowRW1ZZWNZclNJTXBiRjVmcWFaNERRUnZ6M0s?oc=5)
-  - MarketBeat · 03:04 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: MarketBeat의 2026년 9월 12일 산업주 스크리너는 최근 달러 거래대금이 가장 높았던 7개 종목으로 Bloom Energy, Coherent, Uber Technologies, Caterpillar, Vertiv, ACV Auctions, GE Vernova를 제시했다. Vertiv는 AI 데이터센터의 제약을 겨냥한 거래와 관련해 언급됐지만, 해당 거래의 세부 내용이나 실적 영향은 본문에 충분히 제시되지 않았다.
-  - 판단: Vertiv가 AI 데이터센터 관련 수요와 거래 기회를 주목받고 있다는 점은 인지도와 잠재적 수요 측면에서 긍정적일 수 있다. 그러나 단순 스크리너 선정과 짧은 언급만으로 매출이나 수익성 개선을 판단하기는 어렵다.
-  - 유의: 본문은 산업주 목록과 Vertiv의 관련 키워드만 제시하며, 구체적인 계약 규모·일정·재무 효과를 설명하지 않는다.
+- **중립** · [Arista Released Critical Security Advisories. Cisco Shows Why AI Network Growth Also Creates Repair Work](https://finance.yahoo.com/technology/ai/articles/arista-released-critical-security-advisories-165652596.html)
+  - Insider Monkey, Yahoo Finance · 01:56 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: Arista는 2026년 9월 9일 EOS와 VeloCloud에 영향을 주는 중요 보안 취약점 관련 권고를 발표했다. Cisco의 9월 4일 보안 논평은 취약점 발견 속도가 고객의 대응·복구 능력을 앞서고 있으며, AI 네트워크 확대가 보안 유지 비용과 운영 중단 위험을 키울 수 있다고 설명했다.
+  - 판단: Cisco에는 보안 솔루션 및 유지보수 수요를 늘릴 기회가 될 수 있지만, 고객의 보안 대응 비용과 네트워크 장애가 커지면 신뢰와 AI 네트워크 투자에도 부담이 될 수 있다.
+  - 유의: 기사의 직접적인 보안 사고, Cisco의 매출·수익 영향 또는 고객 이탈 수치는 제시되지 않았고, 핵심 사례는 경쟁사인 Arista의 취약점이다.
 
 </details>
 
 <details>
-<summary><b>록히드마틴</b> <code>LMT</code> ▼ -1.12% $524.19 — 중립 1</summary>
+<summary><b>버티브 홀딩스</b> <code>VRT</code> ▲ +3.60% $257.06</summary>
 
-- **중립** · [PAC-3 ACE: Lockheed's Half-Price Patriot Interceptor](https://news.google.com/rss/articles/CBMipAFBVV95cUxPbjI1c19MZldqZ0h6TzdQN1ZzSUVGY3N1SEpOMUJwVklsY1NhSUdnNERaNHJhek94c2JVazY3M0hZZzUtY0hjOFVMVGE2aVJYOThtOVdDa1Nzd2RfU0V5RTVGcXA3Q3ZGMFhXOWItZ0w3VXZzQndORFNWcDB0bWhNYnQ5cGMyb3hWaGNjUTFTX0c4aEdibzd1UE9JUlFkaWgxZGtOVg?oc=5)
-  - MiGFlug · 04:41 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: 제목은 ‘PAC-3 ACE: Lockheed's Half-Price Patriot Interceptor’이지만, 본문에는 2025년 6월 12일 발생한 Air India Boeing 787-8 사고와 조종사 무선통신, 1963년 Northrop X-21A에 관한 다른 기사 목록이 포함되어 있다. 록히드마틴의 PAC-3 ACE 또는 가격 관련 내용은 본문에서 확인되지 않는다.
-  - 판단: 보유 종목인 록히드마틴의 방산 수주, 제품 가격 또는 실적에 관한 사실이 없어 투자 영향은 판단하기 어렵다.
-  - 유의: 제목과 본문이 일치하지 않고, 본문은 록히드마틴 관련 기사 내용을 제공하지 않는 사이트 목록·다른 항공 기사에 가깝다.
+- 오늘자 기사 없음 (후보 42건, 과거 기사로 대체하지 않음)
 
 </details>
 
 <details>
-<summary><b>마이크로소프트</b> <code>MSFT</code> ▲ +0.65% $495.63 — 약한 악재 1</summary>
+<summary><b>록히드마틴</b> <code>LMT</code> ▼ -1.12% $524.19 — 호재 1</summary>
 
-- **약한 악재** · [MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away](https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjFzOWcyU0l4RWdoWEtPT2VhOXBHNnUtYzNRd2RJUnVFY1U4WTdaWDVpYU5WV3llbHJIM3NQQklGNkZCQy1Zc0ZncmJMaHRLa2tZQ25CVHA2LUNFakhIbFN4bUxjWmlpR3RwZXB5UC1IQ21NOUJfcFBvcldiZ1A5OHIteExENld3dnMtTTFleFVVaVI2ZzRUTnpGd2YtT1hxQVNJY1ZoS0ZNVDZ6VEp2QUJOb29zcUhRNG82anpRWnVzcTBibUk2QzVvckliUVp4N2FobHBOQlB5U2U3Q01aUGstNlB0UEVFX2l1NURZV1o?oc=5)
-  - Stocktwits · 04:05 KST · 단일출처(구글 뉴스 RSS)
-  - 요약: Deepwater Asset Management의 Gene Munster는 마이크로소프트가 분기 실적보다 인공지능과 사업모델의 장기적 변화에 더 큰 시험을 받고 있다고 말했다. 그는 AI 에이전트가 전통적인 소프트웨어 인터페이스의 중요성을 낮출 수 있다고 경고했으며, 마이크로소프트는 2026년 9월 12일 기준 다음 수요일 장 마감 후 분기 실적을 발표할 예정이었다; 일부 Stocktwits 개인투자자들은 주가가 420달러까지 오르거나 이전 고점을 재시험할 수 있다고 기대했다.
-  - 판단: AI 에이전트가 기존 소프트웨어 인터페이스와 사용 방식을 바꾸면 마이크로소프트의 제품 경쟁력과 사업모델에 장기적인 부담이 될 수 있다는 우려다. 다만 실적 발표를 앞두고 일부 투자자들은 여전히 주가 상승을 예상하고 있어 단기 시장 심리는 엇갈린다.
-  - 유의: Munster의 전망과 개인투자자 기대가 중심이며, 본문에 구체적인 실적 수치나 실제 AI 사업 악화가 제시되지는 않았다.
+- **호재** · [Lockheed Martin lays out strategy for Patriot and THAAD production surge, F-35 upgrades, autonomous aircraft and Golden Dome role](https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcmtVMDIwaUNuQXV2N0c0d21PYlg4VjZKalJnekpQQWc1bFc3bER5QzBPU2FlSm5OWnlaOWo4djh1UHlfX1RDVUIwVFdFelVVRW5weHk1Zjd4MjR0QmxZeDliOVVhT08tZEVtdUZnSHN3azJkcGpVa0dXaDZ1NUpWM2puVThlSHRxZlNud1pVaFFWLXdQc0RPRzRvV2RRakhKQ1ZrelJLNzgzeDUxTlQ4bnFJbTFQWElRZVlxbXY1Zm51OERrTUhCMkhzQThoRmdOQ0M1NkpSZ1lzUmlZRDFNSjA0VlJxSVZuY0FUOA?oc=5)
+  - Defence Industry Europe · 04:01 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: Lockheed Martin은 PAC-3 MSE, THAAD, JASSM, LRASM 등 수요가 높은 미사일 프로그램의 생산을 확대하고 정밀타격 및 장거리 화력 사업도 강화하고 있다. 미국 국방부와의 장기 계약에 따라 PAC-3 MSE 생산량을 3배로 늘리는 계획이 언급됐으며, 기록적인 수주잔고를 실제 인도 물량으로 전환하는 것이 당면 과제다.
+  - 판단: 미사일과 방공 체계 수요 확대 및 PAC-3 MSE 생산 3배 증가는 Lockheed Martin의 수주잔고를 매출로 전환할 기회를 키운다. 다만 생산능력 확대가 납기 준수와 비용 통제로 이어져야 실적 개선으로 연결될 수 있다.
+  - 유의: 기사 본문이 중간에 잘려 있어 전체 생산 목표, 일정, 계약 금액과 수익성 영향은 확인할 수 없다. 공급망 부족과 긴 리드타임도 여전히 위험 요인이다.
 
 </details>
 
 <details>
-<summary><b>나이키 B</b> <code>NKE</code> ▲ +0.49% $36.80 — 판단보류 1</summary>
+<summary><b>마이크로소프트</b> <code>MSFT</code> ▲ +0.65% $495.63 — 약한 호재 1</summary>
 
-- [Dear Nike Stock Fans, Mark Your Calendars for September 21](https://news.google.com/rss/articles/CBMiowFBVV95cUxQMUI5LXVMaEFDSkNQN0l2c2R1TGFNT2lXa1VtM1h4V19wMDFBX1lIVk1TX1dCamk2aF9oVGJOVnpNYUlxU0puR0RzODRqLXFJemR4dFpFVzRoRGhDU2dhYlBqNDd3VlZ3SUFzUEdBNzVsUUtOSDZ3d045elZSeDNkV09ESzB6cUFvRm10MVlUQXR2QlV4Qlh0SWN4QUJzbVBDbDdB?oc=5)
-  - barchart.com · 04:30 KST · 단일출처(구글 뉴스 RSS)
-  - 제목만 확보(본문 추출 실패 · 구글복원: ValueError) · 요약·판단 보류
+- **약한 호재** · [Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid](https://finance.yahoo.com/markets/stocks/articles/amazon-alphabet-microsoft-2-buy-202800287.html)
+  - Motley Fool, Yahoo Finance · 05:28 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: Amazon, Alphabet, Microsoft는 AI 사업을 각 기업 전반에 통합하고 있으며, Amazon과 Microsoft는 클라우드 인프라 시장에서 각각 28%와 20%의 점유율을 보유한 것으로 제시됐다. Microsoft의 클라우드 사업은 AI 인프라 확대의 핵심 기반으로 평가되지만, 기사는 세 기업 중 어떤 종목을 매수·회피할지 비교하는 의견 기사다.
+  - 판단: Microsoft의 높은 클라우드 점유율은 AI 관련 클라우드 수요가 늘어날 때 Azure 매출과 사업 경쟁력에 긍정적으로 작용할 수 있다. 그러나 AI 인프라 투자가 비용 증가나 경쟁 심화로 이어질 경우 실제 주주가치 개선 폭은 제한될 수 있다.
+  - 유의: 제공된 본문에는 Microsoft에 대한 최종 투자 판단과 최신 실적·성장률이 포함되지 않았으며, 20% 점유율의 기준과 출처도 명확하지 않다.
+
+</details>
+
+<details>
+<summary><b>나이키 B</b> <code>NKE</code> ▲ +0.49% $36.80 — 중립 1</summary>
+
+- **중립** · [Nike Stock (NKE) Opinions on Long-Term Performance Challenges](https://news.google.com/rss/articles/CBMinwFBVV95cUxPWE5YZnVTQzVSTlRXRFlzWVhFU1dIdkE2Y0tFTFFidlY5clZ0UXQ4eFJRMXpPT3BhVkZ5Q1RIS0hOVmNyRzkyd2ZsTHhabm9fWjNpSjJibHpFOHAySjBJNTZDQjhRMjEtcm5XYUx1cVo4UlZ5N09rTFpLZWpJSnBFUVlwQUYxM3V6OXNZTkh0UF9VcDgtS0RhY3B6WU5yQVE?oc=5)
+  - Quiver Quantitative · 02:33 KST · 단일출처(구글 뉴스 RSS)
+  - 요약: 시장 참여자들은 Nike의 장기간 부진을 최근 기업 역사에서 두드러진 setbacks로 평가하며 투자자들의 우려를 나타내고 있다. 배당수익률은 약 4%로 언급됐고, 일부에서는 광범위한 부정적 심리가 향후 긍정적 반전과 비대칭적 상승 가능성을 만들 수 있다고 본다.
+  - 판단: Nike의 장기 주가 부진과 투자심리 악화는 보유 종목의 주가 회복을 제한할 수 있다. 반면 약 4% 배당수익률과 낮은 기대치가 하방을 일부 지지하거나 실적 개선 시 반등의 기반이 될 가능성도 있다.
+  - 유의: 본문은 게시물의 AI 요약이며 구체적인 실적, 매출 전망, 경쟁 상황이나 회복 계획이 제시되지 않아 판단 근거가 제한적이다.
 
 </details>
 
 <details>
 <summary><b>노보노디스크 ADR</b> <code>NVO</code> ▼ -2.14% $43.07 — 약한 호재 1</summary>
 
-- **약한 호재** · [Novo Nordisk (NVO)’s Pediatric Obesity Opportunity Faces a Bigger Test](https://finance.yahoo.com/healthcare/articles/novo-nordisk-nvo-pediatric-obesity-171917899.html)
-  - Insider Monkey, Yahoo Finance · 02:19 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
-  - 요약: Novo Nordisk는 비만 치료제 Wegovy의 소아 시장 확대 가능성을 평가하는 후기 단계 STEP Young 임상시험에서 주요 평가변수를 충족했다. 68주 동안 세마글루타이드를 투여받은 어린이의 40.4%가 비만 분류에서 벗어난 반면 위약군은 0%였지만, 이 임상 결과를 의미 있는 상업적 기회로 전환할 수 있을지는 추가로 확인해야 한다.
-  - 판단: 긍정적인 소아 임상 결과는 Wegovy의 대상 환자와 잠재적 시장을 확대하고 노보노디스크의 장기 성장 동력을 강화할 수 있다. 다만 실제 매출 기여에는 허가, 처방 확대, 보험 적용 및 시장 수용이 필요하다.
-  - 유의: 본문에는 임상시험의 전체 안전성 결과, 규제 승인 일정, 소아 시장의 실제 매출 규모가 제시되지 않았다.
+- **약한 호재** · [Novo Nordisk May Be Poised to Outpace Eli Lilly With This Key Catalyst](https://finance.yahoo.com/healthcare/articles/novo-nordisk-may-poised-outpace-213500160.html)
+  - Motley Fool, The Motley Fool · 06:35 KST · 교차확인(Yahoo Finance+구글 뉴스 RSS)
+  - 요약: Novo Nordisk는 당뇨병 치료제에서 출발한 GLP-1 약물 Wegovy와 Ozempic으로 체중 감량 시장을 개척했지만, 수요를 따라가지 못하면서 Eli Lilly에 선두를 내줬다. 기사는 Novo Nordisk의 새로운 경구용 GLP-1 약물이 경쟁에서 우위를 되찾을 수 있는 핵심 촉매가 될 수 있다고 예고한다.
+  - 판단: 경구용 GLP-1 약물이 효과와 편의성에서 경쟁력을 확보하면 Novo Nordisk의 시장점유율과 매출 회복에 기여할 수 있다. 특히 주사제 중심 시장에서 복용 편의성은 신규 환자 확대의 경로가 될 수 있다.
+  - 유의: 제공된 본문은 경구 약물의 구체적인 임상 결과, 승인 여부, 출시 일정과 실제 경쟁 우위 내용을 끝까지 담고 있지 않다. 따라서 촉매 가능성만 확인되며 확정적인 실적 개선으로 보기는 어렵다.
 
 </details>
 
@@ -655,6 +663,6 @@ _기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자�
 - NXT 종가는 넥스트레이드(ATS) 최종 체결가로, 등락률로 역산한 전일 종가가 KRX 전일 종가와 맞을 때만 표시합니다.
 - 해외 종가는 Yahoo 단일 출처이며 독립 검증한 값이 아닙니다.
 - 시장 현지 날짜 기준 당일 일봉은 제외합니다. 실시간·시간외 가격이 아닙니다.
-- 오늘 뉴스 21건 중 교차확인 10건, 본문 확보 17건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.
+- 오늘 뉴스 22건 중 교차확인 8건, 본문 확보 20건. 본문을 못 읽은 기사는 요약·판단하지 않습니다.
 - RSI(14)는 와일더 방식, 볼린저밴드는 이동평균 20일·표준편차 2배(모집단 기준)이며 종가와 같은 데이터로 최근 약 100거래일을 써서 계산합니다. 국내는 KRX 종가 기준입니다.
 - 지표는 참고용이며 투자 자문이 아닙니다.

@@ -1,17 +1,169 @@
 {
-  "generated_at": "2026-09-13T07:27:11+09:00",
+  "generated_at": "2026-09-14T07:32:29+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#2/gpt-5.6-luna",
+  "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 6332,
-    "output_tokens": 4836
+    "input_tokens": 6736,
+    "output_tokens": 5212
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "비즈톡톡메모리초호황기에d램점유율25로하락hbm왕좌": {
+      "title": "[비즈톡톡] ‘메모리 초호황기’에 D램 점유율 25%로 하락… ‘HBM 왕좌...",
+      "holding": "SK하이닉스",
+      "stance": "중립",
+      "summary": "SK하이닉스의 올해 2분기 D램 매출은 전분기보다 37.9% 증가한 385억9000만달러였지만, 시장점유율은 28.8%에서 24.9%로 3.9%포인트 하락했다. HBM 출하 비중이 높고 삼성전자보다 생산 규모가 작아 범용 D램 가격 급등의 수혜가 상대적으로 작았으며, 삼성전자와 마이크론의 매출 증가율은 각각 63.4%, 65.5%로 SK하이닉스를 웃돌았다.",
+      "impact": "D램 전체 점유율 하락은 경쟁력과 외형 성장에 부담이 될 수 있지만, HBM 중심의 제품 구성은 고부가 제품 수익성과 AI 메모리 경쟁력으로 이어질 수 있다. 따라서 점유율만으로는 SK하이닉스의 실적 방향을 단정하기 어렵다.",
+      "caution": "본문이 생산량 차이와 HBM 왕좌 수성 과제를 언급하지만, HBM 수익성이나 구체적인 출하·계약 전망은 제시하지 않는다."
+    },
+    "삼성전자패키징rd거점문열어tsmc도택한소부장강국": {
+      "title": "삼성전자, 日 패키징 R&D 거점 문 열어…TSMC도 택한 '소부장 강국'",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자는 2024년부터 5년간 400억엔(약 3500억원)을 투자해 일본 요코하마에 첨단 패키징 연구거점인 어드밴스드 패키지 랩(APL)을 열었다. 약 6600㎡ 규모의 시설에서 한일 연구원 95명이 2.xD·3D를 결합한 3.xD 칩렛, 본딩, 인터포저, 기판 실장 기술 등을 연구하고 일본 소부장 기업 50여곳과 협력한다.",
+      "impact": "일본의 반도체 기판·소재·장비 생태계를 활용하면 삼성전자의 AI 반도체 후공정 기술 검증과 차세대 패키징 개발을 강화할 수 있다. 이는 장기적으로 고성능 AI 반도체 경쟁력에 긍정적이다.",
+      "caution": "APL은 양산공장이 아니라 공정 시험과 시제품 제작을 위한 연구시설이므로, 즉각적인 매출이나 생산능력 증가로 이어진다고 보기는 어렵다."
+    },
+    "hd현대중공업발전엔진smr에1조원투자전력인프라경쟁력강화": {
+      "title": "HD현대중공업, 발전엔진·SMR에 1조원 투자... 전력 인프라 경쟁력 강화",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 육상용 발전엔진과 SMR에 총 1조722억원을 투자한다. 8336억원을 들여 울산 온산에 3GW 규모의 힘센엔진 신규 생산기지를 건설해 2028년 5월 준공할 예정이며, 육상 발전용 엔진 생산능력을 연간 4GW로 확대하고 전체 생산능력은 현재 3GW에서 2030년 7.2GW로 늘릴 계획이다. 또 2386억원을 투자해 SMR 주기기 제작공장을 건립하고 2029년 상반기 완공을 목표로 한다.",
+      "impact": "AI 데이터센터의 전력 수요 증가를 겨냥해 발전엔진 생산능력을 확대하면 관련 수주와 매출 기반을 넓힐 수 있다. SMR 제작 역량 확보도 향후 전력 인프라 사업의 신규 성장동력이 될 수 있다.",
+      "caution": "대부분의 투자는 2028~2029년 완공을 목표로 하므로 단기 실적 기여는 제한적일 수 있으며, 실제 수주와 투자수익은 아직 확정되지 않았다."
+    },
+    "constellationbrandsrefinesbeerplaybookreaffirmsfullyearoutlook": {
+      "title": "Constellation Brands Refines Beer Playbook, Reaffirms Full-Year Outlook",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "약한 호재",
+      "summary": "Constellation Brands는 Corona와 같은 성숙 브랜드의 마케팅을 강화하는 동시에 Modelo, Pacifico, Victoria의 확장을 이어가는 맥주 전략을 조정했다. 온프레미스 수요와 월드컵 기간 점유율은 강했지만 소비자 및 거시경제 압력으로 오프프레미스 수요는 부진했으며, 회사는 연간 전망을 재확인하고 공급망 비용을 6억달러 이상 절감했다고 밝혔다.",
+      "impact": "연간 실적 전망 재확인과 6억달러 이상의 공급망 절감은 실적 가시성과 마진 방어에 긍정적이다. 다만 오프프레미스 수요 부진은 판매량과 브랜드 성장에 부담으로 작용할 수 있다.",
+      "caution": "기사에는 하반기 마진 전망이 일부 잘려 있고, 구체적인 매출·이익 전망 수치도 제시되지 않아 긍정적 영향의 규모를 판단하기 어렵다."
+    },
+    "itismadnesstoprioritisesolarpanelsoverfarmlandsaysmp": {
+      "title": "It is 'madness' to prioritise solar panels over farmland, says MP",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "영국 노퍽에서 대규모 태양광 개발과 농지 보존의 우선순위를 둘러싼 논쟁이 제기됐다. 미드노퍽 지역구 의원 조지 프리먼은 9월 4일 열린 노퍽 최초의 태양광 서밋 이후 대규모 태양광 개발 인허가에 대한 새로운 접근이 필요하다고 주장했다.",
+      "impact": "농지와 태양광 개발을 둘러싼 인허가 논쟁은 영국 태양광 프로젝트의 개발 속도와 사업 환경에 영향을 줄 수 있다. 다만 퍼스트솔라의 특정 프로젝트나 수주, 실적에 대한 직접적인 내용은 없다.",
+      "caution": "본문은 유료기사 안내로 일부 내용만 제공되며, 보유 종목인 퍼스트솔라가 직접 언급되거나 회사에 미치는 영향이 제시되지 않는다."
+    },
+    "almontyslistingshakeupandthejefferieseffectmakingsenseofatungstenstockinflux": {
+      "title": "Almonty's Listing Shake-Up and the Jefferies Effect: Making Sense of a Tungsten Stock in Flux",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "Almonty Industries의 주가는 TSX와 ASX 상장 종료 및 나스닥 집중 이후 6.1% 하락해 13.40유로를 기록했다. 반면 Jefferies는 알몬티에 대해 매수 의견으로 커버리지를 시작했으며, 회사는 최근 약 6주 동안 상장 구조 변화와 주가 급등락을 겪는 가운데 운영 측면에서는 진전을 보였다고 소개됐다.",
+      "impact": "나스닥 중심의 상장 구조는 투자자 접근성과 유동성 개선을 기대하게 하지만, 상장 변경 과정과 6.1% 주가 하락은 단기 변동성 부담을 보여준다. 텅스텐 공급망의 서방 독립이라는 전략적 기대와 Jefferies의 매수 의견은 투자심리에 긍정적일 수 있다.",
+      "caution": "기사 본문이 운영 업데이트 중간에서 끊겨 구체적인 생산량, 매출, 프로젝트 진행 상황을 확인할 수 없다. 따라서 상장 변경과 애널리스트 의견만으로 실적 영향을 판단하기 어렵다."
+    },
+    "viralaidommertweetengineeredpanic": {
+      "title": "Viral AI Dommer Tweet: Engineered Panic?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "제공된 본문은 ‘Viral AI Dommer Tweet: Engineered Panic?’ 기사 내용이 아니라, 사용자가 봇으로 감지됐을 수 있으며 쿠키와 자바스크립트를 활성화하라는 브라우저 안내문이다. 기사 본문이나 크레도 테크놀로지와 관련된 사실·사건은 제시되지 않았다.",
+      "impact": "크레도 테크놀로지의 사업, 실적, 수주 또는 시장 전망에 관한 정보가 없어 보유 종목에 대한 영향은 판단할 수 없다.",
+      "caution": "본문이 광고·사이트 접속 안내문만 포함하고 있어 실제 기사 내용을 확인할 수 없다."
+    },
+    "amazonalphabetandmicrosoftwhich2tobuyandwhich1toavoid": {
+      "title": "Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "Amazon, Alphabet, Microsoft는 AI 사업을 각 기업 전반에 통합하고 있으며, Amazon과 Microsoft는 클라우드 인프라 시장에서 각각 28%와 20%의 점유율을 보유한 것으로 제시됐다. Microsoft의 클라우드 사업은 AI 인프라 확대의 핵심 기반으로 평가되지만, 기사는 세 기업 중 어떤 종목을 매수·회피할지 비교하는 의견 기사다.",
+      "impact": "Microsoft의 높은 클라우드 점유율은 AI 관련 클라우드 수요가 늘어날 때 Azure 매출과 사업 경쟁력에 긍정적으로 작용할 수 있다. 그러나 AI 인프라 투자가 비용 증가나 경쟁 심화로 이어질 경우 실제 주주가치 개선 폭은 제한될 수 있다.",
+      "caution": "제공된 본문에는 Microsoft에 대한 최종 투자 판단과 최신 실적·성장률이 포함되지 않았으며, 20% 점유율의 기준과 출처도 명확하지 않다."
+    },
+    "aristareleasedcriticalsecurityadvisoriesciscoshowswhyainetworkgrowthalsocreatesrepairwork": {
+      "title": "Arista Released Critical Security Advisories. Cisco Shows Why AI Network Growth Also Creates Repair Work",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "Arista는 2026년 9월 9일 EOS와 VeloCloud에 영향을 주는 중요 보안 취약점 관련 권고를 발표했다. Cisco의 9월 4일 보안 논평은 취약점 발견 속도가 고객의 대응·복구 능력을 앞서고 있으며, AI 네트워크 확대가 보안 유지 비용과 운영 중단 위험을 키울 수 있다고 설명했다.",
+      "impact": "Cisco에는 보안 솔루션 및 유지보수 수요를 늘릴 기회가 될 수 있지만, 고객의 보안 대응 비용과 네트워크 장애가 커지면 신뢰와 AI 네트워크 투자에도 부담이 될 수 있다.",
+      "caution": "기사의 직접적인 보안 사고, Cisco의 매출·수익 영향 또는 고객 이탈 수치는 제시되지 않았고, 핵심 사례는 경쟁사인 Arista의 취약점이다."
+    },
+    "lockheedmartinlaysoutstrategyforpatriotandthaadproductionsurgef35upgradesautonomousaircraftandgoldendomerole": {
+      "title": "Lockheed Martin lays out strategy for Patriot and THAAD production surge, F-35 upgrades, autonomous aircraft and Golden Dome role",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "Lockheed Martin은 PAC-3 MSE, THAAD, JASSM, LRASM 등 수요가 높은 미사일 프로그램의 생산을 확대하고 정밀타격 및 장거리 화력 사업도 강화하고 있다. 미국 국방부와의 장기 계약에 따라 PAC-3 MSE 생산량을 3배로 늘리는 계획이 언급됐으며, 기록적인 수주잔고를 실제 인도 물량으로 전환하는 것이 당면 과제다.",
+      "impact": "미사일과 방공 체계 수요 확대 및 PAC-3 MSE 생산 3배 증가는 Lockheed Martin의 수주잔고를 매출로 전환할 기회를 키운다. 다만 생산능력 확대가 납기 준수와 비용 통제로 이어져야 실적 개선으로 연결될 수 있다.",
+      "caution": "기사 본문이 중간에 잘려 있어 전체 생산 목표, 일정, 계약 금액과 수익성 영향은 확인할 수 없다. 공급망 부족과 긴 리드타임도 여전히 위험 요인이다."
+    },
+    "nikestocknkeopinionsonlongtermperformancechallenges": {
+      "title": "Nike Stock (NKE) Opinions on Long-Term Performance Challenges",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "시장 참여자들은 Nike의 장기간 부진을 최근 기업 역사에서 두드러진 setbacks로 평가하며 투자자들의 우려를 나타내고 있다. 배당수익률은 약 4%로 언급됐고, 일부에서는 광범위한 부정적 심리가 향후 긍정적 반전과 비대칭적 상승 가능성을 만들 수 있다고 본다.",
+      "impact": "Nike의 장기 주가 부진과 투자심리 악화는 보유 종목의 주가 회복을 제한할 수 있다. 반면 약 4% 배당수익률과 낮은 기대치가 하방을 일부 지지하거나 실적 개선 시 반등의 기반이 될 가능성도 있다.",
+      "caution": "본문은 게시물의 AI 요약이며 구체적인 실적, 매출 전망, 경쟁 상황이나 회복 계획이 제시되지 않아 판단 근거가 제한적이다."
+    },
+    "novonordiskmaybepoisedtooutpaceelilillywiththiskeycatalyst": {
+      "title": "Novo Nordisk May Be Poised to Outpace Eli Lilly With This Key Catalyst",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "Novo Nordisk는 당뇨병 치료제에서 출발한 GLP-1 약물 Wegovy와 Ozempic으로 체중 감량 시장을 개척했지만, 수요를 따라가지 못하면서 Eli Lilly에 선두를 내줬다. 기사는 Novo Nordisk의 새로운 경구용 GLP-1 약물이 경쟁에서 우위를 되찾을 수 있는 핵심 촉매가 될 수 있다고 예고한다.",
+      "impact": "경구용 GLP-1 약물이 효과와 편의성에서 경쟁력을 확보하면 Novo Nordisk의 시장점유율과 매출 회복에 기여할 수 있다. 특히 주사제 중심 시장에서 복용 편의성은 신규 환자 확대의 경로가 될 수 있다.",
+      "caution": "제공된 본문은 경구 약물의 구체적인 임상 결과, 승인 여부, 출시 일정과 실제 경쟁 우위 내용을 끝까지 담고 있지 않다. 따라서 촉매 가능성만 확인되며 확정적인 실적 개선으로 보기는 어렵다."
+    },
+    "usarareearthsnew12billionplanttoproducemagnetmetals": {
+      "title": "USA Rare Earth's new $1.2 billion plant to produce magnet metals",
+      "holding": "USA 레어어스",
+      "stance": "호재",
+      "summary": "USA Rare Earth는 사우스캐롤라이나주 블랙스버그의 베일리 산업단지에 12억 달러 규모의 희토류 금속·자석 제조시설을 착공했다. 약 80만 제곱피트 규모의 이 시설은 124에이커 부지에 들어서며, 사우스캐롤라이나 북부 지역에 약 490개의 고숙련·고임금 제조 일자리를 창출할 것으로 예상된다.",
+      "impact": "대규모 시설 투자는 USA Rare Earth가 희토류 원료부터 금속·자석 제조까지 아우르는 공급망을 구축하고 생산능력을 확대하려는 움직임이다. 시설이 계획대로 가동되면 미국 내 핵심광물 공급망 강화와 향후 매출 기반 확대에 긍정적일 수 있다.",
+      "caution": "기사는 착공 사실과 예상 고용만 제시하고 있으며, 완공 일정, 자금 조달, 생산량, 고객 계약 또는 수익성은 확인되지 않는다."
+    },
+    "sandiskstocktradesatbargainyettechnicalpatternraisesredflags": {
+      "title": "SanDisk Stock Trades at Bargain, Yet Technical Pattern Raises Red Flags",
+      "holding": "에리스 매니지먼트",
+      "stance": "중립",
+      "summary": "SanDisk 주가는 연중 고점 대비 31% 하락했지만 매출과 수익성이 크게 성장해 저평가됐다는 평가를 받고 있다. 선행 주가수익비율은 7.6으로 기술업종 중간값 22와 S&P 500 평균 19.1보다 낮고, 선행 PEG는 0.19로 기술업종 평균 1.25보다 낮지만 약세 돌파 가능성이 있는 기술적 패턴도 나타나고 있다.",
+      "impact": "이 기사는 SanDisk의 밸류에이션과 기술적 흐름을 다루며, 보유 종목인 에리스 매니지먼트의 직접적인 사업이나 자산에는 영향을 설명하지 않는다.",
+      "caution": "기사의 주제는 보유 종목이 아닌 SanDisk이며, 에리스 매니지먼트에 대한 언급이나 연결고리가 없다."
+    },
+    "fivedividendstockscrushinginflationwithconsistentdividendpayoutgrowth": {
+      "title": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
+      "holding": "유나이티드헬스 그룹",
+      "stance": "중립",
+      "summary": "기사는 물가 상승을 웃도는 배당 증가를 보이는 5개 종목을 소개하며, ADP가 분기 배당을 1.54달러에서 1.70달러로 인상했고 영업현금흐름이 54억 달러라고 설명한다. 배당수익률 자체보다 물가를 따라가는 배당 성장률이 은퇴 투자자에게 중요하다는 논리를 제시한다.",
+      "impact": "UnitedHealth Group은 기사에서 배당주 목록의 종목 티커로만 포함됐고, 배당 인상 규모나 실적·현금흐름 등 회사별 내용은 제공되지 않았다. 따라서 이 기사만으로 UNH의 배당 지속 가능성이나 주가 영향을 판단하기 어렵다.",
+      "caution": "본문에서 구체적으로 설명된 배당 인상 사례는 ADP이며, UNH에 대한 직접적인 분석이나 수치가 없다. 또한 일부 내용은 이메일 구독을 유도하는 홍보 문구다."
+    },
+    "realtyincomeoragreerealtywhichmonthlydividendshouldretireesown": {
+      "title": "Realty Income or Agree Realty: Which Monthly Dividend Should Retirees Own?",
+      "holding": "리얼티 인컴",
+      "stance": "약한 악재",
+      "summary": "2026년 9월 13일 기사에서는 리얼티 인컴(O)과 Agree Realty(ADC)를 비교하며, ADC가 투자등급 임차인 비중에서 O의 약 2배이고 AFFO 배당성향 70%, 주당 성장률 전망 약 6%로 O보다 우위라고 평가했다. 반면 리얼티 인컴은 5.43%의 배당수익률과 670회 이상의 연속 월배당 기록으로 현재 소득을 중시하는 은퇴 투자자에게 적합하다고 설명했다.",
+      "impact": "동일한 월배당 리츠인 ADC와 비교할 때 성장성과 임차인 신용도 측면에서 상대적 열위로 평가되면 리얼티 인컴의 신규 투자 매력과 주가 재평가에 부담이 될 수 있다. 다만 높은 현재 배당수익률과 장기간의 월배당 기록은 소득형 투자자 수요를 지지한다.",
+      "caution": "기사 일부만 제공되어 리얼티 인컴의 구체적인 재무·임대 현황과 비교 근거 전체를 확인할 수 없다. 또한 ‘매수할 최고의 10개 종목’ 보고서로 유도하는 홍보성 문구가 포함되어 있다."
+    },
+    "dominospizzastockkeepsgettingcheaperhereswhetherthediscountisreal": {
+      "title": "Domino’s Pizza Stock Keeps Getting Cheaper. Here’s Whether the Discount Is Real.",
+      "holding": "도미노피자",
+      "stance": "약한 악재",
+      "summary": "도미노피자(DPZ)는 2026년 9월 11일 311.60달러에 마감했으며, 52주 최저가 282달러에 가까워졌고 지난해 고점 455.72달러보다 약 3분의 1 하락했다. TIKR의 중간 시나리오 목표가는 8월 말 약 535달러에서 현재 약 485달러로 낮아져, 주가 하락과 함께 추정치도 하향되고 있다고 분석했다.",
+      "impact": "주가가 싸졌더라도 밸류에이션 모델의 목표가가 계속 하향되면 시장이 도미노피자의 실적 또는 성장 전망을 낮추고 있다는 신호로 해석될 수 있다. 이는 투자심리와 주가 회복 가능성에 부정적인 영향을 줄 수 있다.",
+      "caution": "기사에 제시된 목표가는 TIKR의 모델 추정치일 뿐이며, 실제 실적이나 회사의 공식 전망은 아니다. 본문이 중간에 잘려 있어 목표가 하향의 구체적 원인과 추가 분석은 확인할 수 없다."
+    },
+    "videoprepscoreboardforweek4": {
+      "title": "VIDEO: Prep scoreboard for Week 4",
+      "holding": "알코아",
+      "stance": "중립",
+      "summary": "본문에는 ‘Week 4’ 관련 영상 제목과 이메일 알림, 전자판 안내, 브라우저 업데이트 권고 등의 사이트 안내문만 포함되어 있다. 알코아의 사업, 실적, 주가 또는 관련 사건에 대한 기사 내용은 제시되지 않았다.",
+      "impact": "알코아의 실적이나 사업 전망에 관한 정보가 없어 보유 종목의 가치와 주가에 영향을 줄 수 있는 경로를 판단할 수 없다.",
+      "caution": "기사 내용이 아니라 이메일 구독 및 사이트 이용 안내문 위주이므로 알코아 관련 투자 정보로 활용하기 어렵다."
+    },
+    "oklofilesemergencyferccomplaintafterpjmremovesitsundisclosedvirginiapowerprojectfrominterconnectionqueue": {
+      "title": "Oklo files emergency FERC complaint after PJM removes its undisclosed Virginia power project from interconnection queue",
+      "holding": "오클로",
+      "stance": "약한 악재",
+      "summary": "Oklo는 지난 금요일 PJM Interconnection이 자사의 발전 프로젝트를 Cycle 01 연계 대기열에서 부당하게 제외했다며 FERC에 긴급 민원을 제기했고, 원래 대기 순서로 복귀시켜 달라고 요청했다. 공개되지 않았던 버지니아 프로젝트는 첨단 원자력 150MW, 연료전지 300MW, 천연가스 300MW로 구성되며 리치먼드 인근 연계 지점을 계획했지만, PJM의 대기열 제외로 일정과 계통연계에 차질 가능성이 생겼다.",
+      "impact": "대기열 지위를 잃으면 Oklo의 잠재 발전 프로젝트가 계통에 연결되는 절차와 상업화 일정이 지연될 수 있어 사업 실행 위험이 커진다. 다만 FERC에 복구를 요청한 점은 해당 프로젝트와 권리를 지키려는 대응으로, 결과에 따라 부정적 영향이 완화될 가능성도 있다.",
+      "caution": "현재는 Oklo의 주장에 근거한 긴급 민원 단계이며 FERC의 최종 판단이나 PJM의 반론·복구 여부는 제시되지 않았다. 프로젝트가 기존에 공개되지 않았던 만큼 실제 개발 확정성과 경제성도 불확실하다."
+    },
     "한달67아셴브레너의귀환sk하이닉스amd에다시베팅김주완": {
       "title": "\"한 달 -67%\" 아셴브레너의 귀환…SK하이닉스·AMD에 다시 베팅 [김주완...",
       "holding": "SK하이닉스",
