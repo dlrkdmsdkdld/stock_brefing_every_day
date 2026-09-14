@@ -1,17 +1,145 @@
 {
-  "generated_at": "2026-09-14T07:32:29+09:00",
+  "generated_at": "2026-09-15T08:16:38+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 6736,
-    "output_tokens": 5212
+    "input_tokens": 6284,
+    "output_tokens": 4664
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자sk하이닉스3분기영업익전망치급상향hbm4성적은삼": {
+      "title": "삼성전자·SK하이닉스, 3분기 영업익 전망치 급상향… “HBM4 성적은 삼...",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자의 3분기 영업이익 추정치는 약 114조원으로, 3개월 전 101조9052억원보다 12조2836억원, 12% 상향됐다. 이는 2분기 영업이익 89조4000억원보다 28% 많은 수준이며, 삼성전자의 HBM4 전환 성과가 SK하이닉스보다 긍정적으로 평가되고 있다는 내용이다.",
+      "impact": "AI 데이터센터 수요와 메모리 가격 상승은 삼성전자의 메모리 사업 실적을 끌어올릴 수 있다. 특히 HBM4 전환이 실제 공급과 수익성 개선으로 이어지면 고부가 메모리 시장에서 삼성전자의 점유율 및 이익률 개선에 도움이 된다.",
+      "caution": "기사에 제시된 수치는 증권사와 해외 투자은행의 추정치이며, HBM4 성과의 구체적인 공급 규모나 확정 실적은 제시되지 않았다."
+    },
+    "hd현대중공업연간수주목표초과달성목표가84만원으로상향ib": {
+      "title": "HD현대중공업, 연간 수주 목표 초과 달성…목표가 84만원으로 상향-IB...",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "IBK투자증권은 HD현대중공업이 올해 연간 수주 목표를 초과 달성했다며 목표주가를 81만6000원에서 84만원으로 상향하고 매수 의견을 유지했다. 올해 매출액은 전년 대비 40.2% 증가한 24조6418억원, 영업이익은 95.9% 늘어난 3조9919억원으로 전망됐으며, 상선과 엔진의 연간 수주 목표는 이미 초과 달성한 것으로 제시됐다.",
+      "impact": "2024년 이후 수주 물량의 매출 인식 비중이 올해 상선 매출의 56.4%로 높아지고, HD현대미포 합병 효과와 LPG운반선·힘센엔진 수요가 실적 및 추가 수주를 뒷받침할 수 있다. 기존 수주를 기반으로 2028년까지 실적 성장 가시성이 높다는 점도 긍정적이다.",
+      "caution": "매출·영업이익은 IBK투자증권의 전망치이며, 호르무즈 해협 교란과 VLGC 발주 강세가 장기화될지는 불확실하다."
+    },
+    "dellstocktumbles5asfreshaiwarningsparkstechselloff": {
+      "title": "Dell Stock Tumbles 5% as Fresh AI Warning Sparks Tech Selloff",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "Dell Technologies 주가는 2026년 9월 14일 인공지능 투자 속도에 대한 우려가 기술주 전반으로 확산되면서 nearly 5% 하락했다. 고도화된 AI 시스템 개발이 둔화되면 서버와 데이터센터 장비 수요가 줄어들 수 있다는 논쟁이 하락 배경으로 제시됐다.",
+      "impact": "Dell은 AI용 하드웨어와 데이터센터 장비를 공급하므로 AI 인프라 투자 둔화 우려는 주문과 매출 성장 기대를 낮출 수 있다. 다만 이번 내용은 시장의 우려와 주가 반응을 중심으로 하며, 실제 주문 감소나 실적 하향은 확인되지 않았다.",
+      "caution": "기사에는 Dell의 구체적인 실적 전망 변경이나 AI 서버 수주 감소 수치가 제시되지 않았다."
+    },
+    "firstsolarincstockholdsaboveusd209astechnicalsignalsstaymixed": {
+      "title": "First Solar Inc. stock holds above USD 209 as technical signals stay mixed",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "First Solar 주가는 2026년 9월 11일 나스닥에서 209.03달러로 마감해 전일 대비 0.90% 상승했고, 시간외 거래에서는 209.15달러를 기록했다. 그러나 14일 RSI는 47.06으로 중립 영역에 있었고, 일부 장기 이동평균선은 매도 압력을 가리켜 기술적 신호가 엇갈렸다.",
+      "impact": "주가의 단기 상승은 투자심리에 긍정적이지만, 약한 하락 추세와 장기 이동평균선의 매도 신호가 상승 지속성을 제한한다. 기업의 수주, 생산, 정책 또는 실적 변화가 제시되지 않아 보유 종목의 펀더멘털에는 뚜렷한 영향이 확인되지 않는다.",
+      "caution": "기술적 지표와 단일 거래일 주가 움직임만 다룬 기사로, 실적이나 태양광 산업의 사업 환경에 대한 정보는 부족하다."
+    },
+    "hereswhyconstellationenergycorporationcegfellmorethanbroadermarket": {
+      "title": "Here's Why Constellation Energy Corporation (CEG) Fell More Than Broader Market",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 악재",
+      "summary": "Constellation Energy 주가는 최근 거래에서 264.57달러로 마감해 전일 대비 7.09% 하락했으며, S&P500의 0.48% 하락보다 부진했다. 다만 지난 한 달 주가는 0.8% 상승했고, 다음 실적 발표에서 주당순이익은 3달러 수준으로 예상된다고 제시됐다.",
+      "impact": "시장 대비 큰 폭의 주가 하락은 단기 투자심리와 보유 가치에 악재다. 그러나 월간 수익률은 플러스이고 예상 EPS도 제시되어 있어, 실제 실적이나 사업 전망이 훼손됐다고 단정하기는 어렵다.",
+      "caution": "기사에 주가가 하루 동안 7.09% 하락한 구체적 원인과 실적 전망의 세부 내용이 충분히 제시되지 않았으며, EPS 전망 문장도 일부 잘려 있다."
+    },
+    "vistracorpvstsuffersalargerdropthanthegeneralmarketkeyinsights": {
+      "title": "Vistra Corp. (VST) Suffers a Larger Drop Than the General Market: Key Insights",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "Vistra 주가는 최근 거래에서 140.73달러로 마감해 전일 대비 5.16% 하락했으며, S&P500의 0.48% 하락보다 큰 낙폭을 보였다. 반면 최근 한 달 주가는 0.17% 상승했고, 다음 실적의 예상 EPS는 2.88달러로 전년 동기보다 64.57% 증가할 것으로 전망됐다.",
+      "impact": "단기적으로 시장 대비 큰 하락은 보유 종목에 부정적이지만, 예상 EPS의 큰 폭 증가는 실적 기대를 지지한다. 주가 하락의 구체적 원인이나 사업 펀더멘털 악화가 기사에 제시되지 않아 방향성은 중립으로 판단한다.",
+      "caution": "주가 하락 배경과 EPS 증가를 뒷받침하는 세부 실적 전망이 기사에 부족해, 어느 요인이 향후 주가에 더 크게 작용할지 판단하기 어렵다."
+    },
+    "netflixclimbs4alphabetticksupamazonbarelybudgesasnewstreamingpolicyalliancelaunches": {
+      "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "2026년 9월 14일 넷플릭스는 디지털 플랫폼의 라이브 엔터테인먼트·스포츠 중계권 경쟁을 다루는 새 정책 연합 출범 이후 주가가 4% 올라 80.78달러를 기록했다. 기사 제목에서는 알파벳 주가도 소폭 상승했다고 언급했지만, 주요 내용은 넷플릭스의 스포츠 중계권 접근 가능성과 주가 반응에 초점을 맞췄다.",
+      "impact": "알파벳의 주가가 소폭 올랐다는 점 외에 알파벳의 사업, 실적, 규제 또는 경쟁력에 직접 영향을 주는 내용은 제시되지 않았다. 따라서 이 기사만으로 알파벳 A의 투자 판단에 유의미한 영향을 부여하기 어렵다.",
+      "caution": "기사의 주제는 넷플릭스와 스트리밍 정책 연합이며, 보유 종목인 알파벳은 언급만 됐다."
+    },
+    "ciscosnewsplunkaipackagetargetscomputinginsidethecustomerswalls": {
+      "title": "Cisco's New Splunk AI Package Targets Computing Inside the Customer's Walls",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "Cisco Systems가 2026년 9월 14일 Splunk의 AI 기능을 고객 자체 인프라에서 실행할 수 있도록 Cisco AI POD for Splunk 버전 1.0을 출시했다. 이 솔루션은 Red Hat OpenShift 기반으로 기업 내부의 고객 통제형 AI 환경을 지원하며, 기사에 표시된 Cisco 주가는 약 1.5% 하락한 110.395달러였다.",
+      "impact": "기업이 데이터를 외부 클라우드로 이전하지 않고 자체 인프라에서 AI를 운영하려는 수요를 공략할 수 있어 Cisco의 AI·네트워킹·보안 사업 확대에 긍정적이다. Splunk와 Cisco 제품의 결합은 기존 고객에 대한 교차판매 기회도 제공할 수 있다.",
+      "caution": "본문이 제품 구성과 사업 성과에 대한 구체적인 매출 전망을 끝까지 제시하지 않으며, 출시와 주가 하락의 직접적인 연관성도 문서에서 확인되지 않는다."
+    },
+    "vertivhasguideditselfintoasteepsecondhalf": {
+      "title": "Vertiv Has Guided Itself Into A Steep Second Half",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "Vertiv의 2026년 2분기 순매출은 전년 대비 24% 증가했지만, 인수 효과 5%포인트와 환율 효과 1%포인트를 제외한 유기적 성장률은 18%였다. 회사는 2026년 3분기 유기적 성장률을 약 35%로 전망했고, 최근 상향한 연간 매출 목표 140억 달러는 이 가속이 실현되는 것을 전제로 한다.",
+      "impact": "2분기의 실제 유기적 성장률보다 3분기 가이던스가 크게 높아 목표 달성 부담과 실망 위험이 커졌다. 가이던스를 충족하지 못하면 성장 둔화 우려가 부각되어 Vertiv의 주가와 밸류에이션에 압박이 될 수 있다.",
+      "caution": "연간 매출 목표가 상향됐고 회사의 가이던스가 실제로 실현될 가능성도 있으므로, 해당 기사는 위험 요인을 강조한 분석에 가깝다."
+    },
+    "microsoftjustmadeamovethatcouldputmorepressureonitsazurebusinesshereswhyitcouldturnoutgreatforthestock": {
+      "title": "Microsoft Just Made a Move That Could Put More Pressure on Its Azure Business. Here's Why It Could Turn Out Great for the Stock",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "Microsoft의 Azure 사업은 회사의 주가와 투자자 심리에 중요한 영향을 주며, 올해 초 Azure 성장률 둔화 우려가 주가 하락으로 이어진 사례가 있었다. Microsoft는 Azure에 더 큰 초점을 맞추는 보고 방식 변경을 최근 발표했지만, 본문에는 변경의 구체적인 내용이 제시되지 않았다.",
+      "impact": "Azure 성과를 더 명확히 보여주는 보고 방식이라면 사업의 강점을 부각하고 투자자 평가를 개선할 수 있다. 반대로 성장 둔화가 더욱 선명하게 드러날 경우 주가 부담이 될 수 있어 방향성이 확정되지 않는다.",
+      "caution": "기사 본문이 보고 방식 변경의 세부 사항과 실제 Azure 실적을 제공하지 않아, Microsoft에 미치는 영향을 단정하기 어렵다."
+    },
+    "shouldyoubuynikestockbeforeoct1": {
+      "title": "Should You Buy Nike Stock Before Oct. 1?",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "Nike는 2027 회계연도 1분기 실적을 10월 1일 발표할 예정이다. 회사는 최근 성장에 어려움을 겪고 있지만, 이번 실적은 전년의 약한 비교 기준과 낮은 밸류에이션을 상대하게 되어 시장 기대를 웃돌 가능성이 제기됐다.",
+      "impact": "낮은 기대치와 약한 전년 동기 실적은 Nike가 실적 발표에서 상대적으로 좋은 모습을 보일 경우 주가가 긍정적으로 반응할 여지를 만든다. 다만 실제 성장 회복이 확인되어야 투자심리 개선이 지속될 수 있다.",
+      "caution": "기사는 실적 발표 전 가능성을 다룬 내용이며, 구체적인 매출·이익 전망이나 턴어라운드 성과는 제시하지 않는다."
+    },
+    "novonordiskisdroppingsomeweightcanarebrandsavethestock": {
+      "title": "Novo Nordisk Is Dropping Some Weight. Can a Rebrand Save the Stock?",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "Novo Nordisk가 회사명을 짧게 ‘Novo’로 변경하고 있다고 기사는 전한다. 그러나 월스트리트의 신뢰를 회복하려면 단순한 브랜드 변경 이상의 조치가 필요하다고 평가한다.",
+      "impact": "이름 변경 자체는 Novo Nordisk의 의약품 판매, 실적, 연구개발 또는 경쟁력에 직접적인 변화를 만들지 않으므로 보유 종목에 대한 영향은 제한적이다.",
+      "caution": "본문이 리브랜딩의 구체적 일정이나 사업 전략, 실적 개선 방안을 설명하지 않아 투자 판단에 필요한 정보가 부족하다."
+    },
+    "nvidiabroadcomtumbleinairotationtheseukbasednamesgain": {
+      "title": "Nvidia, Broadcom Tumble In AI Rotation; These U.K.-Based Names Gain",
+      "holding": "브로드컴",
+      "stance": "약한 악재",
+      "summary": "2026년 9월 14일 AI 관련 종목에서 자금이 빠져나가고 다른 산업으로 이동하는 순환매가 이어졌으며, Nvidia와 Broadcom 주가가 하락했다. 투자자들은 AI 기술에 대한 규제 강화 요구와 기술 통제력 상실 우려 속에서 AI 종목의 비중을 줄인 것으로 보도됐다.",
+      "impact": "Broadcom은 AI 투자와 관련된 대표 종목으로 분류되기 때문에 AI 업종 전반의 규제 우려와 순환매는 주가 및 밸류에이션에 단기 하방 압력을 줄 수 있다.",
+      "caution": "본문에는 Broadcom의 하락 폭, 실적 변화 또는 회사 고유의 악재가 제시되지 않아, 영향은 업종 전반의 투자심리 변화로 제한된다."
+    },
+    "chemoursdeallargesteverinncadvocatessayitstoolittle": {
+      "title": "Chemours deal largest ever in NC; advocates say it’s too little",
+      "holding": "케무어스",
+      "stance": "악재",
+      "summary": "노스캐롤라이나주는 Chemours 및 관련 회사들과 PFAS 오염 피해에 대해 5억9,000만 달러의 합의에 도달했다. 해당 합의는 Fayetteville 인근 산업 운영에서 GenX를 포함한 유독성 물질이 수십 년간 배출된 사건과 관련되며, 주 역사상 최대 규모의 환경 피해 회수액으로 발표됐다.",
+      "impact": "Chemours는 거액의 합의금 지급과 함께 PFAS 오염 관련 법적·환경적 책임을 부담하게 되어 현금흐름과 비용에 부정적 영향을 받을 수 있다. 이번 합의가 관련 불확실성을 줄이는 효과는 있지만, 금액 자체가 상당해 보유 종목에는 악재로 판단된다.",
+      "caution": "합의로 향후 소송 위험이 일부 줄어들 수 있고, 합의금의 실제 지급 시기와 Chemours의 최종 부담액은 본문에 구체적으로 제시되지 않았다."
+    },
+    "alcoaprices26billionseniornotesofferingtofinancesouth32assetacquisition": {
+      "title": "Alcoa Prices $2.6 Billion Senior Notes Offering To Finance South32 Asset Acquisition",
+      "holding": "알코아",
+      "stance": "약한 악재",
+      "summary": "Alcoa는 South32의 보크사이트·알루미나·알루미늄 제련 사업 지분 인수를 위해 26억 달러 규모의 선순위 채권 발행 가격을 확정했다. 채권은 2034년 만기 15억 달러, 금리 6.625%와 2036년 만기 11억 달러, 금리 6.875%로 구성되며, 약 31억 달러의 현금 인수대금과 관련 비용을 현금과 함께 조달하는 데 사용될 예정이다.",
+      "impact": "South32 거래를 위한 자금 조달이 구체화됐다는 점은 인수 실행에는 긍정적이지만, Alcoa에 26억 달러의 부채와 연 6.625~6.875%의 이자 부담을 추가한다. 인수 자산이 충분한 수익을 내기 전까지 재무 부담과 거래 실행 위험이 주가에 압력을 줄 수 있다.",
+      "caution": "인수 대상 자산의 수익성이나 거래 후 시너지, Alcoa의 전체 재무상태는 본문에 제시되지 않아 장기적인 거래 효과는 판단하기 어렵다."
+    },
+    "oklohasmassivepotentialduetoartificialintelligencebutthestockissinkinghereswhatiddo": {
+      "title": "Oklo Has Massive Potential Due to Artificial Intelligence, but the Stock Is Sinking. Here's What I'd Do",
+      "holding": "오클로",
+      "stance": "중립",
+      "summary": "2026년 9월 14일 데이비드 자기엘스키가 쓴 Motley Fool 기사는 오클로(NYSE: OKLO)가 인공지능(AI) 관련 사업을 직접 하는 기업은 아니지만, 데이터센터의 지속적인 전력 수요를 원자로·발전소(powerhouses)로 공급하며 AI 확산의 수혜를 받을 가능성이 있다고 설명한다. 엔비디아와 팔란티어 같은 대표적인 AI 종목보다 오클로처럼 규모가 작은 기업에 더 큰 장기 상승 여력이 있을 수 있다고 언급하지만, 현재 오클로 주가는 하락하고 있다고 평가한다.",
+      "impact": "AI 데이터센터 확대가 오클로의 전력 수요와 사업 기회로 이어진다면 장기적으로 매출 및 기업가치 상승 기대를 높일 수 있다. 다만 기사에 제시된 내용은 잠재력에 대한 설명 중심이며, 구체적인 계약·매출·착공 일정 등은 확인되지 않는다.",
+      "caution": "제공된 본문이 'Mis'에서 중단되어 있어 기사 전체의 결론과 투자 판단을 확인할 수 없다. 또한 실제 AI 데이터센터 공급 계약이나 상업 운전 실적이 제시되지 않아 잠재력만으로 호재를 확정하기 어렵다."
+    },
     "비즈톡톡메모리초호황기에d램점유율25로하락hbm왕좌": {
       "title": "[비즈톡톡] ‘메모리 초호황기’에 D램 점유율 25%로 하락… ‘HBM 왕좌...",
       "holding": "SK하이닉스",
