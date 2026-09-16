@@ -1,17 +1,225 @@
 {
-  "generated_at": "2026-09-16T08:01:25+09:00",
+  "generated_at": "2026-09-17T08:06:25+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 7824,
-    "output_tokens": 6697
+    "input_tokens": 9383,
+    "output_tokens": 7572
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자sk하이닉스ai추론메모리확장경쟁치열": {
+      "title": "삼성전자·SK하이닉스, AI 추론 메모리 확장 경쟁 '치열'",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자와 SK하이닉스가 AI 학습 중심에서 추론 중심으로 이동하는 시장에 대응해 차세대 메모리 구조를 발표한다. 삼성전자는 2026년 8월 4~6일 열린 FMS 2026에서 AI 가속기 위에 HBM을 수직 적층하는 zHBM 구상과 고성능 낸드 적층 기술인 zNAND-O를 공개했으며, 10세대 V낸드는 400단 이상으로 적층된다.",
+      "impact": "zHBM은 기존의 가속기 옆 HBM 배치보다 데이터 이동 거리를 줄여 대역폭과 전력 효율을 높이는 것을 목표로 하므로, 삼성전자의 AI 메모리·스토리지 제품 경쟁력 강화에 긍정적이다.",
+      "caution": "zHBM과 zNAND-O는 기사상 목업 또는 구상 단계로 보이며 실제 양산·고객 채택·수익성은 확인되지 않는다. SK하이닉스와의 경쟁도 심화되고 있다."
+    },
+    "오만국영선사asyadshippinghd현대중공업에5만dwt급mr탱커2척추가발주": {
+      "title": "오만 국영 선사 Asyad Shipping, HD현대중공업에 5만DWT급 MR 탱커 2척 추가 발주",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "오만 국영 선사 Asyad Shipping이 HD현대중공업에 5만DWT급 MR 탱커 2척을 추가 발주해 2028~2029년 인도 예정인 동형 선박 발주량을 총 8척으로 확대했다. 추가 선박은 척당 약 5,180만달러 규모이며, 8척 모두 글로벌 에너지 기업과 5년 장기 용선 계약이 확보돼 있다.",
+      "impact": "HD현대중공업의 선박 수주잔고와 2028~2029년 매출 가시성을 높이는 계약이며, 장기 용선이 확보돼 발주 취소 및 운항 수요에 대한 불확실성도 상대적으로 낮다.",
+      "caution": "기사에 선박 건조에 따른 실제 이익 규모나 계약 조건, 수익성은 제시되지 않았다. 또한 Asyad가 한화오션에도 VLCC 6척을 발주해 선사 발주가 HD현대중공업에만 집중된 것은 아니다."
+    },
+    "delljumps47asa45wattinferenceoptionjoinsitsracks": {
+      "title": "Dell Jumps 4.7% as a 45-Watt Inference Option Joins Its Racks",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "Dell Technologies가 Axelera AI의 45와트급 Europa 추론 가속기를 일부 Dell 시스템에서 제공하기 시작했다. Axelera는 Europa가 629TOPS와 45와트 열설계전력, 약 14TOPS/W를 제공한다고 밝혔고, 이 소식 이후 Dell 주가는 약 4.7% 올라 568.86달러를 기록했다.",
+      "impact": "저전력 AI 추론 가속기 선택지를 Dell 서버 라인업에 추가하면 전력 효율을 중시하는 기업·데이터센터 고객에 대한 제품 경쟁력과 판매 기회가 확대될 수 있다.",
+      "caution": "Europa의 Dell 시스템 채택은 일부 제품에 한정돼 있고, Axelera가 언급한 15억달러는 확정 매출이 아닌 잠재 파이프라인이다. 기사도 중간에 끊겨 실제 주문 규모와 Dell의 수익 기여는 확인되지 않는다."
+    },
+    "constellationbrandsstockholdssteadyaheadofoctoberearnings": {
+      "title": "Constellation Brands stock holds steady ahead of October earnings",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈 주가는 2026년 9월 16일 약 124.13달러에 거래됐고, 시가총액은 약 211억달러, 주가수익비율은 약 11.9배로 제시됐다. 회사는 2026년 10월 6일 장 마감 후 회계연도 2027년 2분기 실적을 발표하고, 10월 7일 오전 8시 ET에 실적 콘퍼런스콜을 진행할 예정이다.",
+      "impact": "예정된 실적 발표가 단기 주가의 핵심 촉매가 될 수 있지만, 현재 기사에는 매출·이익 전망이나 실적 개선 내용이 없어 방향성을 판단하기 어렵다.",
+      "caution": "본문은 주가와 실적 발표 일정 중심의 안내이며, 실제 분기 실적이나 전망 변화는 포함하지 않는다."
+    },
+    "firstsolarfslrdeclinesmorethanmarketsomeinformationforinvestors": {
+      "title": "First Solar (FSLR) Declines More Than Market: Some Information for Investors",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "퍼스트솔라는 2026년 9월 16일 191.07달러로 마감해 전일보다 5.57% 하락했으며, 최근 한 달간 주가는 8.03% 떨어져 S&P500의 2.43% 하락보다 부진했다. 다만 다음 실적에서 주당순이익(EPS) 4.59달러, 전년 동기 대비 8.25% 증가가 예상된다고 제시됐다.",
+      "impact": "시장 대비 큰 주가 하락과 최근 한 달간의 부진은 투자심리와 단기 모멘텀에 부정적이다. 반면 예상 EPS 증가가 실제 실적으로 확인되면 주가 약세를 일부 완화할 수 있다.",
+      "caution": "기사에 제시된 EPS 4.59달러와 8.25% 증가는 예상치이며 확정 실적이 아니다. 본문이 중간에 끊겨 하락 원인과 회사의 구체적인 실적 전망은 확인되지 않는다."
+    },
+    "cegstocktrailsindustryin6monthsshouldyoubuyholdorsell": {
+      "title": "CEG Stock Trails Industry in 6 Months: Should You Buy, Hold or Sell?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 악재",
+      "summary": "컨스텔레이션 에너지 주가는 최근 6개월 동안 15.5% 하락해, Zacks 대체에너지-기타 업종의 4% 상승과 대조됐다. 원전연료·천연가스·유가 변동, 공급 제약, 관세, 거래상대방 부도, 지정학적 위험과 함께 Calpine 인수 관련 레버리지 및 주식 희석 위험이 제시됐다.",
+      "impact": "업종 대비 주가 부진과 연료비·인수금융·희석 위험은 컨스텔레이션 에너지의 밸류에이션과 주주가치에 부담이다. 다만 전력 수요 증가, 양질의 원전 자산, 장기 원전 계약은 실적을 지지할 수 있다.",
+      "caution": "기사에는 구체적인 매출·이익 전망이나 위험 요인의 실제 발생 규모가 없다. 전력 수요 증가와 장기 계약이 부정적 요인을 상쇄할 가능성도 있어 악재로 단정하기는 어렵다."
+    },
+    "constellationenergyvsvistra2verydifferentbetsonthesameaipowerboomhereswhichoneidbuy": {
+      "title": "Constellation Energy vs. Vistra: 2 Very Different Bets on the Same AI Power Boom. Here's Which One I'd Buy.",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "AI 시장 확대로 데이터센터 전력 수요가 증가하면서 미국 독립 발전사업자인 비스트라와 컨스텔레이션 에너지가 수혜를 받고 있다는 내용이다. 최근 3년간 컨스텔레이션 에너지 주가는 137%, 비스트라 주가는 330% 상승했으며, 컨스텔레이션은 원전·가스·석유·지열·수력·풍력·태양광 등 총 55GW의 발전 용량을 보유하고 있다.",
+      "impact": "AI 데이터센터의 전력 수요 증가는 비스트라의 발전 전력 판매와 발전자산 가동률·전력가격에 우호적인 구조적 수요 요인이다. 실제로 최근 3년간 주가가 330% 상승한 점도 시장이 AI 전력 수요 기대를 반영했음을 보여준다.",
+      "caution": "기사 제목은 비스트라와 컨스텔레이션 중 한 종목을 선호하는 비교·추천 내용이지만, 제공된 본문이 중간에 끊겨 비스트라에 대한 구체적인 발전 용량과 최종 투자 결론은 확인되지 않는다. 이미 큰 폭으로 상승해 기대가 주가에 반영됐을 가능성도 있다."
+    },
+    "insidersellingeosenergyenterprisesnasdaqeosecaosells43750shares": {
+      "title": "Insider Selling: Eos Energy Enterprises (NASDAQ:EOSE) CAO Sells 43,750 Shares",
+      "holding": "이오스 에너지",
+      "stance": "약한 악재",
+      "summary": "이오스 에너지(Eos Energy Enterprises)의 최고회계책임자(CAO) 수밋 푸리는 사전 계획된 Rule 10b5-1에 따라 43,750주를 평균 3.92달러에 매도해 171,500달러를 확보했으며, 보유 지분은 13.51% 줄어든 280,195주가 됐다. 회사 주가는 약 3.93달러로 최근 3.4% 하락했고, 분기 주당순손실은 1.20달러로 컨센서스 0.19달러 손실보다 컸지만 매출은 6,878만달러였다.",
+      "impact": "임원의 주식 매도와 예상보다 큰 분기 손실은 투자심리와 기업의 수익성 평가에 부담을 줄 수 있다. 다만 매도가 RSU 베스팅에 따른 세금 원천징수를 위한 사전 계획 거래라는 점은 일반적인 신뢰 훼손성 매도보다 부정적 의미를 완화한다.",
+      "caution": "매도 목적이 세금 납부였고 Rule 10b5-1 사전 계획에 따른 거래이므로 경영진의 기업가치 판단을 직접적으로 의미한다고 단정하기 어렵다. 또한 기사에 제시된 실적은 분기 기준이다."
+    },
+    "almontyscashpileandrwandaexpansioncollidewitharestlessmarket": {
+      "title": "Almonty's Cash Pile and Rwanda Expansion Collide With a Restless Market",
+      "holding": "알먼티",
+      "stance": "약한 악재",
+      "summary": "알먼티는 프랑크푸르트에서 12.14유로에 거래되며 연초 대비 53% 상승했지만, 최근 30일간 14%, 7일간 24% 하락했다. 회사는 재무상태가 강화된 가운데 탐사 기업에서 대규모 텅스텐 생산업체로 전환하려 하고 있으며, 시장은 전략적 기대가 실제 운영 성과로 이어지는지 주시하고 있다.",
+      "impact": "단기간의 큰 주가 하락은 투자자들이 알먼티의 텅스텐 생산 전환과 성장 서사에 대해 회의적으로 변했음을 보여준다. 생산 확대가 계획대로 진행되지 않으면 자본 투입 부담과 밸류에이션 조정이 주가에 악영향을 줄 수 있다.",
+      "caution": "본문은 재무상태가 강화됐다는 점과 생산 전환 계획을 언급하지만, 현금 규모나 생산량·수익성 같은 구체적인 운영 성과는 제공하지 않는다. 이미 연초 대비 53% 상승한 만큼 최근 하락이 단기 차익실현일 가능성도 있다."
+    },
+    "credos236millionadjustedprofitcamewithjust83millioninfreecashflow": {
+      "title": "Credo’s $236 Million Adjusted Profit Came With Just $83 Million in Free Cash Flow",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "크레도는 회계연도 1분기에 조정이익 2억3,630만달러를 기록했지만, 잉여현금흐름은 8,290만달러에 그쳤다. AI 연결성 사업은 세 자릿수 성장세를 보였으나 주가는 최근 한 달간 42.14% 하락해 150.39달러에 거래됐고, 월가 평균 목표주가는 281.4달러였다.",
+      "impact": "조정이익과 실제 현금창출 사이의 큰 차이는 이익의 질과 현금 전환 능력에 대한 우려를 키울 수 있어 크레도 주가의 밸류에이션에 부담이다. 다만 AI 연결성 사업의 고성장은 향후 현금흐름 개선과 주가 회복의 잠재적 요인이다.",
+      "caution": "기사에는 조정이익과 잉여현금흐름의 차이가 발생한 구체적인 회계·비현금 항목이 설명되지 않았다. 또한 목표주가는 전망치일 뿐 실제 주가 하락을 막는다는 보장은 없다."
+    },
+    "gregabelgrewberkshirehathawaysalphabetstakeby83lastquarteroneofhisboldestequitybetsyetasceoisalphabetnowacoreberkshireholding": {
+      "title": "Greg Abel Grew Berkshire Hathaway's Alphabet Stake by 83% Last Quarter, One of His Boldest Equity Bets Yet as CEO. Is Alphabet Now a Core Berkshire Holding?",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "버크셔 해서웨이는 워런 버핏이 CEO로 재임하던 시기에 처음 알파벳 주식을 편입한 뒤 보유량을 크게 늘렸으며, 그렉 아벨 CEO 체제에서는 주식 포트폴리오의 세 번째 또는 네 번째로 큰 보유 종목이 됐다. 기사의 제목은 버크셔가 지난 분기에 알파벳 보유량을 83% 늘렸다고 설명하며, 알파벳이 버크셔의 핵심 보유 종목이 되는지 분석한다.",
+      "impact": "대형 장기 투자자인 버크셔의 알파벳 지분 확대는 알파벳의 사업과 장기 가치에 대한 외부 신뢰를 높이는 신호로 작용할 수 있다. 버크셔 포트폴리오 내 비중 확대는 알파벳 주식에 대한 투자심리 개선과 수요 증가 기대를 뒷받침한다.",
+      "caution": "본문에 제시된 내용은 버크셔의 매수 및 포트폴리오 내 순위에 관한 것이며, 알파벳의 최근 실적이나 규제·AI 경쟁 위험을 다루지 않는다. 또한 본문 일부가 생략돼 83% 증가의 정확한 주식 수와 매입 시점은 확인되지 않는다."
+    },
+    "topstockreportsforciscolamresearchthermofisher": {
+      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
+      "holding": "램리서치",
+      "stance": "중립",
+      "summary": "2026년 9월 16일 Zacks Research Daily가 시스코(CSCO), 램리서치(LRCX), 써모 피셔(TMO) 등 16개 주요 종목에 대한 연구 보고서를 선정해 소개했다. 램리서치가 해당 보고서 대상에 포함됐다는 사실은 제시됐지만, 램리서치에 대한 구체적인 실적 전망이나 투자의견 내용은 본문에 나오지 않는다.",
+      "impact": "보고서 발간 자체는 램리서치에 대한 분석 관심을 보여줄 뿐이며, 실적·목표주가·투자의견이 없어 주가에 미칠 방향성은 판단하기 어렵다.",
+      "caution": "본문은 연구 보고서 목록과 링크 안내 중심이며 램리서치 관련 분석 내용이 없다."
+    },
+    "vertivnysevrthrchiefhasshareswithheldtopayrsutaxes": {
+      "title": "Vertiv (NYSE: VRT) HR chief has shares withheld to pay RSU taxes",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브의 최고인사책임자 프랭크 폰체리는 2026년 9월 15일 RSU 및 배당등가 주식단위의 베스팅과 관련한 세금 납부를 위해 Class A 주식 2,352주를 원천징수 방식으로 처리했다. 처리 후 직접 보유 주식은 14,307.61주, 401(k)를 통한 간접 보유분은 169.59주로 남았다.",
+      "impact": "세금 납부를 위한 주식 원천징수는 일반적인 보상·세금 처리로, 버티브의 영업실적이나 성장 전망을 직접적으로 변화시키지 않는다. 따라서 해당 거래가 주가에 미치는 영향은 제한적이다.",
+      "caution": "이는 시장에서 주식을 매도해 현금을 확보한 거래가 아니라 세금 납부 목적의 원천징수다. 기사에도 버티브의 사업 실적이나 전망에 관한 긍정·부정 정보가 없다."
+    },
+    "5elitedividendstocksbackedbyamericasmassivedefensebudget": {
+      "title": "5 Elite Dividend Stocks Backed by America’s Massive Defense Budget",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "이 기사는 미국 국방예산을 기반으로 안정적인 배당을 제공하는 5개 방산주를 소개하며, 록히드마틴을 포함한 5개 기업의 합산 수주잔고가 2,300억달러를 넘는다고 설명한다. 방산업체는 법률에 의해 장기간 계획된 국방 지출을 고객 기반으로 삼아 산업 기업보다 예측 가능한 매출과 배당을 확보할 수 있다는 내용이다.",
+      "impact": "록히드마틴의 장기 국방계약과 대규모 수주잔고는 매출 가시성과 배당 지속 가능성을 높이는 요인으로 작용할 수 있다. 이는 배당을 중시하는 투자자에게 록히드마틴의 투자 매력을 강화한다.",
+      "caution": "2,300억달러가 록히드마틴 단독이 아닌 5개 기업 합산 수치이며, 기사 본문에는 록히드마틴의 개별 배당률·실적·계약 규모가 제시되지 않았다. 국방예산이 실제 이익과 현금흐름으로 이어지는지에 대한 세부 분석도 부족하다."
+    },
+    "microsoftraisesdividendby8": {
+      "title": "Microsoft Raises Dividend by 8%",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트는 분기 배당을 주당 0.91달러에서 0.98달러로 8% 인상했으며, 11월 19일 기준 주주에게 12월 10일 지급할 예정이다. 이에 따라 연환산 배당금은 주당 3.92달러가 되고, 화요일 종가 497.12달러 기준 선행 배당수익률은 약 0.79%다.",
+      "impact": "배당 인상은 마이크로소프트의 주주환원 강화와 현금창출력에 대한 긍정적 신호로 작용한다. 클라우드와 인공지능에 대한 대규모 투자와 동시에 배당을 늘렸다는 점은 장기 보유 투자자의 신뢰를 높일 수 있다.",
+      "caution": "배당수익률은 약 0.79%로 높지 않으며, 배당 인상만으로 주가 상승이 보장되지는 않는다. 회사가 클라우드와 AI에 계속 대규모 투자하고 있어 향후 현금흐름과 비용 부담을 함께 확인할 필요가 있다."
+    },
+    "reflectingonconsumerdiscretionaryfootwearstocksq2earningsnikenysenke": {
+      "title": "Reflecting On Consumer Discretionary - Footwear Stocks’ Q2 Earnings: Nike (NYSE:NKE)",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "소비재·신발 업종의 2분기 실적을 나이키(NYSE:NKE)와 동종 업체 중심으로 돌아보는 기사다. 소비재는 경기 악화나 소비자 취향 변화 시 지출이 쉽게 줄어들 수 있고, 장기적으로 안정적인 수요와 이익 성장을 이어가는 기업이 소수라는 점을 설명한다.",
+      "impact": "나이키가 속한 신발·소비재 업종의 구조적 위험을 지적하지만, 나이키의 실제 2분기 실적이나 구체적인 전망은 본문에 제시되지 않았다. 따라서 보유 종목에 대한 직접적인 방향성은 제한적이다.",
+      "caution": "본문이 기사 도입부에서 끝나 나이키의 매출, 이익, 전망 등 핵심 실적 정보가 빠져 있다."
+    },
+    "novonordisknvoregistersabiggerfallthanthemarketimportantfactstonote": {
+      "title": "Novo Nordisk (NVO) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "최근 거래에서 노보 노디스크 주가는 2.02% 하락한 41.67달러로, S&P 500의 0.45% 하락보다 부진했다. 최근 한 달 동안 주가는 6.96% 하락했으며, 다음 실적에서 주당순이익(EPS)은 0.80달러로 전년 동기 대비 21.57% 감소할 것으로 예상된다.",
+      "impact": "주가 하락과 시장 대비 부진, EPS 감소 전망은 노보 노디스크의 실적 기대와 투자심리에 부정적이다. 특히 실적 발표를 앞두고 이익 감소 전망이 현실화될 경우 주가에 추가 부담이 될 수 있다.",
+      "caution": "EPS 수치는 확정 실적이 아닌 컨센서스 예상치이며, 본문에는 매출 전망이나 하락 원인 등 추가 정보가 포함되지 않았다."
+    },
+    "thisenergysolutionsstocksurged40afterhourswhatstheamznconnection": {
+      "title": "This Energy Solutions Stock Surged 40% After-Hours — What’s The AMZN Connection?",
+      "holding": "아마존",
+      "stance": "약한 호재",
+      "summary": "제너랙은 9월 16일 아마존 데이터센터에 비상 발전기를 공급하는 장기 계약을 체결했으며, 2027년과 2028년 초기 납품 규모는 총 24억 달러로 예상된다. 아마존의 자회사에는 주당 200.9266달러에 GNRC 주식 최대 169만 주를 살 수 있는 워런트도 발행됐고, 전체 계약 규모는 80억 달러를 넘을 수 있다.",
+      "impact": "아마존 데이터센터의 전력 인프라 투자를 뒷받침하는 계약으로, 데이터센터 확대와 클라우드 사업 운영에 필요한 전력 확보 측면에서 아마존에 긍정적이다. 다만 워런트 발행은 향후 주식 취득 및 잠재적 희석 요인이 될 수 있어 강한 호재로 단정하기는 어렵다.",
+      "caution": "계약의 전체 규모는 80억 달러를 넘을 수 있다는 잠정치이며, 본문에는 아마존의 실제 비용 부담이나 수익성 영향이 구체적으로 제시되지 않았다."
+    },
+    "hocktanjustguidedbroadcomsairevenuetoreach230billionby2028shouldyoubelievehim": {
+      "title": "Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him?",
+      "holding": "브로드컴",
+      "stance": "약한 호재",
+      "summary": "브로드컴 CEO 혹 탄은 회사의 2028 회계연도 연간 AI 반도체 매출이 2,300억 달러에 이를 수 있다고 전망했다. 기사에서는 GPU 기반 서버와 비교해, 작업이 충분히 예측 가능할 때 맞춤형 AI 칩이 비용 및 성능 측면의 이점을 제공할 수 있으며 브로드컴의 맞춤형 AI 칩 사업이 성장하고 있다고 설명한다.",
+      "impact": "AI 반도체 매출 전망이 달성되면 브로드컴의 성장성과 기업가치에 큰 긍정적 영향을 줄 수 있다. 맞춤형 AI 칩 수요 확대는 브로드컴의 AI 관련 매출 증가와 연결된다.",
+      "caution": "2,300억 달러 전망은 CEO의 미래 예측이며, 달성에 필요한 성장률과 실제 수주·매출 규모가 본문에 제시되지 않았다. 기사도 해당 전망을 신뢰할 수 있는지 검토하는 의견성 내용이다."
+    },
+    "cfpuasaysnearly100mspentaddressingpfasaschemourslawsuitcontinues": {
+      "title": "CFPUA says nearly $100M spent addressing PFAS as Chemours lawsuit continues",
+      "holding": "케무어스",
+      "stance": "악재",
+      "summary": "노스캐롤라이나의 Cape Fear Public Utility Authority(CFPUA)는 PFAS 오염 대응에 거의 1억 달러를 지출했고 매년 수백만 달러를 추가로 쓰고 있다고 밝혔다. Chemours와 DuPont를 상대로 한 연방법원 소송은 약 9년째 해결되지 않았으며, 다른 당사자들과의 합의가 발표된 뒤에도 CFPUA 사건은 미해결 상태다.",
+      "impact": "Chemours가 PFAS 오염 대응 비용과 관련 소송의 잠재적 배상·합의 부담에 노출돼 있음을 보여준다. 소송이 장기화될수록 법률비용과 향후 환경 정화·보상 관련 현금 유출 불확실성이 커질 수 있다.",
+      "caution": "본문에는 Chemours가 실제로 부담해야 할 확정 금액이나 소송 결과가 제시되지 않았고, CFPUA의 주장은 소송 당사자 중 한쪽의 입장이다."
+    },
+    "nexteraenergyneestocklooksfairlypricedasmergerapprovalloomslarge": {
+      "title": "NextEra Energy (NEE) Stock Looks Fairly Priced As Merger Approval Looms Large",
+      "holding": "넥스트에라 에너지",
+      "stance": "중립",
+      "summary": "넥스트에라 에너지 주가는 최근 3년 동안 31.1% 상승했으며, 현재 가격이 배당 수준으로 정당화될 수 있는지가 주요 쟁점으로 제시됐다. 승인된 668억 달러 규모의 전액 주식 교환 방식 Dominion Energy 합병은 향후 현금흐름, 자본 수요, 배당 여력에 영향을 줄 수 있고, 넥스트에라의 주가수익비율(P/E)은 18.2배로 언급됐다.",
+      "impact": "합병은 장기적으로 사업 규모와 현금흐름 구조를 바꿀 수 있지만, 자본 필요와 배당 여력에 부담을 줄 가능성도 함께 있다. 주가 상승과 18.2배 P/E는 기대가 이미 일부 반영됐을 가능성을 보여 방향성이 혼재하므로 중립으로 판단한다.",
+      "caution": "기사 제목은 합병 승인 임박을 언급하지만, 본문에는 승인 일정이나 합병 이후의 구체적인 재무 효과가 충분히 제시되지 않았다."
+    },
+    "jpmorganceojamiedimonitsnotcleartomeweveslayedinflation": {
+      "title": "JPMorgan CEO Jamie Dimon: 'It's not clear to me we've slayed inflation'",
+      "holding": "JP모건 체이스",
+      "stance": "약한 악재",
+      "summary": "JP모건 CEO 제이미 다이먼은 고물가 문제가 끝났다고 확신할 수 없다며 인플레이션이 아직 해결되지 않았다고 말했다. 연방준비제도는 기준금리를 25bp 인상했고 2026년에 최소 한 차례 추가 인상을 시사했으며, 미국 10년물 금리는 이번 주 다시 5%를 넘어섰다.",
+      "impact": "높은 금리는 JP모건의 대출금리와 순이자마진에 긍정적으로 작용할 수 있지만, 차입 부담 증가와 경기 둔화·신용위험 확대를 유발할 수 있다. CEO의 발언과 추가 금리 인상 전망은 금융환경의 불확실성을 높인다는 점에서 단기적으로 약한 악재로 볼 수 있다.",
+      "caution": "기사에는 금리 인상이 JP모건의 순이자수익이나 대손비용에 미친 구체적 수치가 없으며, 은행에는 금리 상승이 긍정적으로 작용할 여지도 있다."
+    },
+    "only11of237activedividendfundsbeatschdsindex": {
+      "title": "Only 11 of 237 Active Dividend Funds Beat SCHD’s Index",
+      "holding": "유나이티드헬스 그룹",
+      "stance": "중립",
+      "summary": "이 기사는 15년 동안 237개 액티브 배당펀드의 성과를 비교한 내용으로, SCHD의 벤치마크가 226개 펀드를 앞섰고 운용보수는 연 0.06%라고 설명한다. SCHD의 성과는 VYM·VIG와 비교해 기간별 차이가 있었으며, 해외 주식이 없고 대형 기술주 비중이 낮다는 특징도 언급됐다.",
+      "impact": "기사의 주제는 SCHD와 액티브 배당펀드의 성과 비교이며 유나이티드헬스 그룹의 사업이나 실적을 다루지 않는다. 따라서 보유 종목인 유나이티드헬스에 미치는 직접적인 영향은 판단하기 어렵다.",
+      "caution": "본문에서 유나이티드헬스 그룹이 핵심 분석 대상이 아니며, 해당 종목에 대한 언급이나 관련 수치가 제시되지 않았다."
+    },
+    "monthlypaydaysvscompoundgrowthwhyjnjbeatsoforlongtermretirees": {
+      "title": "Monthly Paydays vs. Compound Growth: Why JNJ Beats O for Long-Term Retirees",
+      "holding": "리얼티 인컴",
+      "stance": "약한 악재",
+      "summary": "2026년 9월 16일 게재된 기사는 은퇴 투자자가 리얼티 인컴(O)과 존슨앤드존슨(JNJ) 중 20년간의 소득 계획에 적합한 종목을 비교한다. 리얼티 인컴은 매월 배당금을 지급하지만, 기사 제목과 서론은 장기적인 복리 성장과 소득 안정성 측면에서 JNJ가 O보다 우수하다고 주장한다.",
+      "impact": "리얼티 인컴의 월 배당이라는 강점보다 장기 배당 성장과 복리 효과가 중요하다는 평가가 확산되면, 은퇴 목적의 투자자 수요와 밸류에이션에 부정적일 수 있다.",
+      "caution": "본문이 'current yield and'에서 끊겨 있어 실제 비교 수치와 결론의 근거가 충분히 제시되지 않았다. 또한 JNJ와 O의 사업 구조와 투자 목적이 달라 기사 주장은 분석자의 견해에 가깝다."
+    },
+    "alcoaaapriced26billionofacquisitionnotescantheassetscover175millionininterest": {
+      "title": "Alcoa (AA) Priced $2.6 Billion of Acquisition Notes. Can the Assets Cover $175 Million in Interest?",
+      "holding": "알코아",
+      "stance": "약한 악재",
+      "summary": "알코아(AA)는 2026년 9월 9일 인수 자금 조달을 위해 두 자회사를 통해 총 26억 달러의 채권을 발행했으며, 9월 23일 결제가 예정돼 있다. Alumina Pty Ltd는 2034년 만기 15억 달러 규모의 6.625% 채권을, Alcoa Nederland Holding B.V.는 2036년 만기 11억 달러 규모의 6.875% 채권을 발행하고 알코아와 일부 자회사가 선순위 무담보로 보증한다.",
+      "impact": "인수 자금 조달로 알코아의 부채와 연간 이자 부담이 늘어나며, 기사에 제시된 연간 쿠폰은 총 1억7,500만 달러다. 인수 자산이 이자와 재투자 비용을 웃도는 현금흐름을 내지 못하면 수익성과 재무 유연성이 악화될 수 있다.",
+      "caution": "본문이 'annual coupons of $99.375 million an'에서 끊겨 인수 대상 자산의 현금창출력과 거래의 구체적 조건을 확인할 수 없다. 따라서 실제 재무 부담과 인수 효과는 아직 불확실하다."
+    },
+    "amrizefindssuccesswithfirstdeliveriesofvolvor70rigidhaulers": {
+      "title": "Amrize Finds Success with First Deliveries of Volvo R70 Rigid Haulers",
+      "holding": "암라이즈",
+      "stance": "중립",
+      "summary": "제목은 암라이즈가 볼보 R70 리지드 하울러를 처음 인도해 성공을 거뒀다고 제시한다. 그러나 본문은 볼보 건설기계와 관련 부품·장비 공급업체의 제품 및 서비스 안내문으로 구성돼 있으며, 암라이즈의 인도 규모나 사업 성과에 대한 구체적인 내용은 포함하지 않는다.",
+      "impact": "암라이즈와 볼보 장비의 거래가 실제 매출이나 비용에 미치는 영향, 인도 수량 및 계약 규모가 확인되지 않아 보유 종목의 실적 전망으로 연결하기 어렵다.",
+      "caution": "본문이 기사 내용이 아닌 볼보 및 관련 공급업체의 광고·사이트 안내문 중심이며, 암라이즈 관련 사실을 뒷받침하는 세부 정보가 없다."
+    },
     "우리도삼전하이닉스훈풍중견건설사일감확대수혜": {
       "title": "\"우리도 삼전·하이닉스 훈풍\"…중견 건설사 '일감 확대' 수혜",
       "holding": "SK하이닉스",
@@ -1251,14 +1459,6 @@
       "summary": "HD현대중공업은 미국 데이터센터용 발전설비 계약을 올해 총 1조5831억원 규모로 수주했으며, 두 계약의 발전용량은 총 1684MW다. 4월 아페리온에너지그룹과 684MW·6271억원 규모 계약을 맺었고, 이후 코반에너지그룹과 1000MW·9560억원 규모 계약을 체결했으며 각각 2030년까지 공급이 진행된다.",
       "impact": "선박용 힘센(HiMSEN)엔진이 미국 AI 데이터센터 전력 인프라 시장으로 확장되면서 엔진 사업의 수주잔고와 성장성이 커질 수 있다. 대규모 계약은 2030년까지 매출 인식과 생산설비 확대를 뒷받침할 가능성이 있다.",
       "caution": "계약 금액이 곧바로 이익으로 전환되는 것은 아니며, 원가·납기·고객사의 데이터센터 프로젝트 진행 여부에 따라 수익성이 달라질 수 있다."
-    },
-    "constellationbrandsstockholdssteadyaheadofoctoberearnings": {
-      "title": "Constellation Brands stock holds steady ahead of October earnings",
-      "holding": "컨스텔레이션 브랜즈",
-      "stance": "중립",
-      "summary": "컨스텔레이션 브랜즈 주가는 2026년 9월 7일 기준 다음 실적 발표를 앞두고 비교적 좁은 범위에서 움직이고 있다. 다음 분기 실적 발표 예정일은 2026년 10월 4일이며, 애널리스트 컨센서스는 주당순이익(EPS) 1.74달러를 가리키고 있다.",
-      "impact": "예상 EPS 1.74달러는 향후 실적에 대한 시장의 기준점이지만, 아직 실제 실적이나 전망 변경이 발생한 것은 아니다. 따라서 주가에는 실적 발표 전 기대감과 변동성 정도의 영향이 예상된다.",
-      "caution": "기사에는 매출 전망, 전년 대비 증감, 실제 실적과의 비교가 없고 주가가 안정적이라는 설명이 중심이어서 방향성을 확정하기 어렵다."
     },
     "constellationenergystockholdsfirmasnuclearcapacityandearningsshapeoutlook": {
       "title": "Constellation Energy stock holds firm as nuclear capacity and earnings shape outlook",
