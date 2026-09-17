@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T08:06:25+09:00",
+  "generated_at": "2026-09-18T07:59:06+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#1/gpt-5.6-luna",
+  "model": "OpenAI#2/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 9383,
-    "output_tokens": 7572
+    "input_tokens": 6793,
+    "output_tokens": 5178
   },
   "skipped": {
     "본문없음": 2,
@@ -12,6 +12,150 @@
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스인텔손잡나투자압박해소기술유출우려": {
+      "title": "SK하이닉스, 인텔 손잡나?...\"투자 압박 해소\" \"기술유출 우려\"",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK하이닉스가 미국에서 메모리 반도체를 생산하기 위해 인텔과 협상 중이라는 외신 보도가 나왔지만, 회사는 글로벌 경쟁력 강화를 위한 여러 방안을 검토 중일 뿐 어떤 사안도 확정되지 않았다고 밝혔습니다. 협력이 성사되면 인디애나주에서 HBM을 포함한 전 공정을 진행해 미국 AI 데이터센터 고객에게 신속히 납품하고, 트럼프 행정부의 미국 내 생산 확대 압박을 완화할 가능성이 있습니다.",
+      "impact": "미국 현지 생산이 현실화되면 미국 고객 접근성과 공급망 대응력이 강화되고, 미국 정부의 투자 압박에 따른 정책 리스크도 줄어들 수 있습니다. 다만 실제 투자·협력 조건이 확정되지 않은 단계입니다.",
+      "caution": "기사는 협상 가능성과 기대 효과를 다루고 있으며, SK하이닉스는 확정된 사안이 없다고 밝혔습니다. 또한 본문에는 기술 해외 이전 우려가 변수로 제시됐고, 인텔과의 협력 내용 및 투자 규모는 확인되지 않았습니다."
+    },
+    "사이드b기아디자인혁신피터슈라이어삼성전자에오다": {
+      "title": "[사이드B] '기아 디자인 혁신' 피터 슈라이어, 삼성전자에 오다",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "삼성전자는 2026년 9월 14일부터 18일까지 서울R&D캠퍼스에서 ‘디자인 위크 2026’을 진행했으며, 올해 주제는 ‘디자인은 사랑의 표현’입니다. 9월 15일 행사에는 기아의 ‘타이거 노즈’ 디자인으로 알려진 피터 슈라이어 전 현대차그룹 디자인경영담당 사장과 스테판 자그마이스터, 마우로 포르치니 삼성전자 DX부문 CDO가 참여했습니다.",
+      "impact": "세계적 디자이너의 세미나 참석은 삼성전자의 디자인 역량과 브랜드 경쟁력 강화에 참고가 될 수 있습니다. 그러나 제품 출시, 계약, 실적 개선 등 직접적인 사업 변화는 기사에서 확인되지 않습니다.",
+      "caution": "기사는 피터 슈라이어의 삼성전자 행사 참석과 과거 기아 디자인 성과가 주된 내용이며, 보유 종목에 대한 신규 사업이나 재무 효과를 제시하지 않습니다."
+    },
+    "오너정기선첫1조원베팅조선호황으로번돈전력에도건다": {
+      "title": "‘오너 정기선’ 첫 1조원 베팅…조선 호황으로 번 돈, 전력에도 건다",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 발전엔진과 소형모듈원자로(SMR)에 총 1조722억원을 투자한다고 9월 10일 공시했습니다. 이 중 8336억원은 울산 온산에 3GW 규모 발전엔진 생산기지를 건설하는 데, 2386억원은 울산조선소 내 SMR 주기기 제작 전용 공장에 투입되며, AI 데이터센터 확산으로 증가하는 글로벌 전력 수요를 겨냥합니다.",
+      "impact": "선박용 엔진 기술과 생산 역량을 발전엔진·SMR 등 육상 전력시장으로 확장하면 HD현대중공업의 신규 성장동력과 사업 다각화에 기여할 수 있습니다. 특히 데이터센터 전력 수요와 원전 시장 확대가 이어질 경우 관련 수주 기반이 넓어질 가능성이 있습니다.",
+      "caution": "대규모 시설투자는 향후 수주와 가동률이 뒷받침돼야 성과로 이어지며, 기사에는 투자 회수 시점이나 확정된 수주 규모가 제시되지 않았습니다. SMR 사업은 상용화와 인허가에 시간이 걸릴 수 있습니다."
+    },
+    "dellsaibacklogsurgepositionsstockfor600asserverrevenuedoubles": {
+      "title": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "기사 제목은 델의 AI 주문 파이프라인 확대와 서버 매출 증가 가능성을 근거로 주가가 600달러를 넘을 수 있다고 주장합니다. 2026년 9월 17일 기준 기사에 따르면 델 주가는 연초 이후 335.77% 상승했고, 24/7 Wall St.의 목표가는 종가 543.56달러보다 약 15.87% 높은 631.30달러이며 매수 의견과 90%의 높은 확신도가 제시됐습니다.",
+      "impact": "AI 서버 수요와 주문잔고 확대가 실제 매출로 전환되면 델의 서버 사업과 주가에 긍정적일 수 있습니다. 하지만 제공된 본문에는 주문잔고의 구체적 규모나 실제 서버 매출 증가 수치가 포함되지 않아 투자 판단에 직접 연결하기 어렵습니다.",
+      "caution": "Investing.com의 후원·제휴 링크 및 보상 가능성이 표시된 홍보성 분석이며, 본문이 ‘Metric’ 표 앞에서 끝나 세부 근거가 불완전합니다. 제시된 목표가는 외부 분석기관의 전망이지 확정된 실적이나 사건이 아닙니다."
+    },
+    "sunrunandfirstsolarrise6assolarselloffunwindssolaredgeclimbs4": {
+      "title": "Sunrun and First Solar Rise 6% as Solar Selloff Unwinds; SolarEdge Climbs 4%",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "9월 17일 미국 태양광 관련주가 전반적으로 반등하면서 First Solar 주가가 6% 상승했고, Sunrun도 6%, SolarEdge는 4% 올랐습니다. Invesco Solar ETF(TAN)는 4% 오른 46.52달러로, 1% 상승한 SPDR S&P 500 ETF(SPY)의 762.20달러 상승률을 웃돌았습니다.",
+      "impact": "First Solar 주가 상승과 태양광 업종 전반의 매수세는 단기 투자심리와 동종업계 밸류에이션에 긍정적으로 작용할 수 있습니다. 업종 자금 유입이 이어지면 First Solar의 주가 회복에도 도움이 될 수 있습니다.",
+      "caution": "기사에 따르면 상승을 설명할 실적 발표, 애널리스트 상향, 정책 뉴스가 없었으며, 본문은 반등의 성격을 분석하는 내용에서 끝납니다. 따라서 First Solar의 수익성이나 수주 등 펀더멘털 개선으로 보기는 어렵습니다."
+    },
+    "mergerpaidconstellationnasdaqcegsharesmaybesoldthroughgoldman": {
+      "title": "Merger-paid Constellation (NASDAQ: CEG) shares may be sold through Goldman",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "Constellation Energy의 주주 Andrew Novotny가 Goldman Sachs를 통해 최대 19,825주의 CEG 보통주를 매각할 수 있도록 수정된 Form 144를 제출했습니다. 해당 주식은 2026년 1월 7일 합병 또는 인수의 대가로 취득됐으며, 회사의 보통주 발행주식 수는 354,307,379주로 기재됐습니다.",
+      "impact": "주주 매각이 실제로 진행되면 단기적으로 소량의 매도 물량이 발생할 수 있지만, 예정 매각 물량은 전체 발행주식 대비 매우 작은 규모입니다. 따라서 회사의 영업이나 재무구조에 미치는 직접 영향은 제한적입니다.",
+      "caution": "Form 144는 잠재적 매각 계획에 대한 공시로, 실제 매각 완료를 의미하지 않습니다. 기사에는 해당 주주의 매각 사유나 시장 충격에 대한 추가 정보가 없습니다."
+    },
+    "vistracorpstockfallsasjuniorbondissueandebitdaguidancedrawfocus": {
+      "title": "Vistra Corp. stock falls as junior bond issue and EBITDA guidance draw focus",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "Vistra 주가는 2026년 9월 17일 140.39달러에 거래됐으며, 제시된 목표가 220달러보다 약 36.2% 낮은 수준입니다. 회사는 2026년 EBITDA 가이던스로 68억~76억달러를 제시했고, 후순위채 발행과 9월 21일 배당락 일정이 단기 현금흐름의 주요 변수로 부각됐습니다.",
+      "impact": "후순위채 발행은 자금 조달과 성장 투자에 활용될 수 있지만, 이자·재무 부담과 주주가치 희석 우려를 키울 수 있어 단기 주가에는 부담입니다. 주가 하락과 함께 자금조달 이슈가 부각된 점도 투자심리에 부정적일 수 있습니다.",
+      "caution": "68억~76억달러의 EBITDA 가이던스는 실적 기반의 긍정적 요소이며, 기사에 제시된 220달러 목표가는 실제 시장 가치가 아닌 외부 평가입니다. 후순위채의 발행 규모와 조건, 자금 사용처가 본문에 충분히 제시되지 않았습니다."
+    },
+    "bronsteingewirtzgrossmanllcisinvestigatingeosenergyenterprisesinceoseandencouragesinvestorstoconnect": {
+      "title": "Bronstein, Gewirtz & Grossman, LLC Is Investigating Eos Energy Enterprises, Inc. (EOSE) And Encourages Investors to Connect",
+      "holding": "이오스 에너지",
+      "stance": "약한 악재",
+      "summary": "Bronstein, Gewirtz & Grossman 법무법인은 2026년 9월 17일 Eos Energy Enterprises(나스닥: EOSE)와 일부 임원·이사의 기업상 위법행위 가능성에 대한 조사를 시작했다고 밝혔습니다. 2025년 11월 5일 이전에 Eos Energy 증권을 매수하고 현재까지 보유한 투자자에게 조사 관련 정보 제공과 참여를 권고했습니다.",
+      "impact": "기업의 위법행위 가능성에 대한 법률조사는 소송·규제 비용, 평판 훼손, 투자심리 악화로 이어질 수 있어 Eos Energy 주가에 부정적 위험을 만듭니다. 다만 현재 확인된 것은 로펌의 조사 착수 및 투자자 모집이며, 위법행위가 확정된 것은 아닙니다.",
+      "caution": "기사에는 구체적인 혐의, 피해 규모, 정부기관의 제재 또는 소송 결과가 제시되지 않았습니다. 로펌의 고객 확보 성격이 있는 안내문일 수 있어 조사만으로 기업의 책임을 단정할 수 없습니다."
+    },
+    "ifaispendingkeepsexplodingcredostockcouldlookverydifferentby2030": {
+      "title": "If AI Spending Keeps Exploding, Credo Stock Could Look Very Different by 2030",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지 그룹은 AI 데이터센터 구축의 핵심 연결 부품인 구리 케이블, 광 DSP, 리타이머 및 인터커넥트 반도체를 공급하고 있다. 2026 회계연도 매출은 전년 대비 3배 이상 증가한 13억3500만 달러였고, 최근 분기 매출도 전년 대비 115% 늘어난 4억7900만 달러를 기록했지만 주가는 최근 고점보다 42% 낮은 150.39달러에 거래되고 있다.",
+      "impact": "AI 인프라 투자가 계속 확대되면 하이퍼스케일러 GPU 클러스터 연결 수요가 증가해 크레도의 매출과 주가 재평가에 긍정적으로 작용할 수 있다. 특히 매출의 급성장은 AI 수요에 대한 실적 레버리지를 보여준다.",
+      "caution": "기사는 2030년 400달러 가능성을 제시하는 전망성 내용이며, AI 지출이 계속 폭증한다는 가정에 의존한다. 주가가 최근 고점 대비 42% 하락했고 월가와 독립 모델의 전망도 크게 엇갈린다고 설명한다."
+    },
+    "alphabetgooglriseshigherthanmarketkeyfacts": {
+      "title": "Alphabet (GOOGL) Rises Higher Than Market: Key Facts",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳은 2026년 9월 17일 최근 거래에서 전일 대비 1.3% 오른 347.33달러로 마감해 S&P500의 1.14% 상승률을 웃돌았다. 시장은 다음 실적 발표를 주목하고 있으며, 컨센서스는 주당순이익(EPS) 2.93달러와 전년 동기 대비 2.09% 성장을 예상하고 있다.",
+      "impact": "시장 대비 강한 당일 주가 흐름과 예상 EPS 성장은 단기 투자심리에 긍정적이다. 다만 실적 발표 전 기대치에 불과하므로 실제 실적과 가이던스가 주가 방향을 결정할 가능성이 높다.",
+      "caution": "기사에 제시된 내용은 주로 하루 주가 변동과 애널리스트 예상치이며, 실제 실적이나 매출 전망은 확인되지 않았다. 최근 한 달 주가는 0.54% 하락했다."
+    },
+    "isciscostockpricedforordersthatarenotyetrevenue": {
+      "title": "Is Cisco Stock Priced For Orders That Are Not Yet Revenue?",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "시스코 시스템즈의 최근 12개월 매출 성장률은 11.8%로 비교 대상 기업 중 가장 낮았지만, 최근 분기 성장률은 18%로 개선됐다. 시스코의 주가수익비율은 32.1배로, 최근 12개월 매출이 49% 증가한 델 테크놀로지의 31.9배와 비슷한 수준이며, AI 네트워킹 주문이 아직 매출로 충분히 반영되지 않았다는 점이 향후 투자 논리로 제시됐다.",
+      "impact": "AI 네트워킹 주문이 실제 매출로 전환되면 시스코의 성장률과 실적 전망이 개선될 수 있어 보유 종목에 긍정적이다. 최근 분기 성장률이 18%로 높아진 점도 주문 증가가 일부 실적에 반영되고 있음을 시사한다.",
+      "caution": "현재 성장률은 델보다 낮은데도 밸류에이션은 비슷해 기대가 이미 주가에 반영됐을 수 있다. AI 주문의 규모와 매출 전환 시점이 구체적으로 제시되지 않아 실적 개선을 확정하기 어렵다."
+    },
+    "vertivsproductrevenueacceleratescanitoutpaceaphsmci": {
+      "title": "Vertiv's Product Revenue Accelerates: Can It Outpace APH & SMCI?",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브는 하이퍼스케일러와 데이터센터 운영사의 AI 설비 확장으로 전력·열관리·통합 인프라 수요가 증가하고 있다. 2026년 2분기 제품 매출은 전년 대비 22% 증가한 26억5000만 달러로 전체 매출의 약 81%를 차지했고, 총매출은 24% 늘어난 32억7000만 달러를 기록했으며 미주와 아시아·태평양 매출은 각각 29% 증가했다.",
+      "impact": "AI 데이터센터 증설이 지속되면 버티브의 전력 및 냉각 제품 수요가 늘어 매출 성장과 경쟁력 강화로 이어질 수 있다. 지역별 매출 증가와 높은 제품 매출 비중은 AI 인프라 수요가 실제 실적으로 연결되고 있음을 보여준다.",
+      "caution": "기사의 초점은 버티브의 성장세와 경쟁사 비교에 있으며, 수익성·현금흐름·밸류에이션 정보는 제시되지 않았다. AI 인프라 투자 둔화 시 성장률이 낮아질 가능성도 있다."
+    },
+    "lockheedmartintargetsdronedefensemissileoutputsurgewithaipoweredstrategy": {
+      "title": "Lockheed Martin Targets Drone Defense, Missile Output Surge With AI-Powered Strategy",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 AI 기반 ‘미션 기술 로드맵’을 통해 기존 무기 플랫폼을 넘어 자율 시스템과 저비용 대드론 기술을 결합하는 전략을 추진하고 있다. 대드론 체계에는 개조한 헬파이어 미사일, 지향성 에너지 무기, 자율 항공기, 이동식 레이더 및 Sanctum 지휘통제 시스템이 포함되며, 다년간의 방산 계약을 바탕으로 PAC-3 생산량 3배, THAAD 생산량 4배 확대를 계획하고 있다.",
+      "impact": "대드론 및 미사일 수요 증가와 생산능력 확대는 록히드마틴의 수주, 매출 및 장기 방산 성장에 긍정적일 수 있다. 특히 PAC-3와 THAAD 생산 확대 계획은 다년간 방산 계약이 실제 공급 증가로 이어질 가능성을 보여준다.",
+      "caution": "기사 일부가 잘려 있어 80억 달러 투자 계획의 세부 내용과 계약 규모·수익성은 확인할 수 없다. 생산 확대 계획이 실제 매출과 이익으로 전환되는 시점도 제시되지 않았다."
+    },
+    "microsoftjumpsasazureturnspaymentvaultsintoaservice": {
+      "title": "Microsoft Jumps as Azure Turns Payment Vaults Into a Service",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "마이크로소프트는 은행과 결제 처리업체를 대상으로 결제 보안 관리 서비스인 Azure Payment HSM v2를 출시했고, 해당 서비스의 공개 프리뷰는 미국 서부와 서유럽에서 제공된다. 이 서비스는 Marvell의 LiquidSecurity 하드웨어와 Utimaco의 Atalla 결제 모듈을 결합하며, 발표 당일 주가는 약 1.6% 오른 498.17달러를 기록했다.",
+      "impact": "규제 산업의 결제 보안 업무가 Azure로 유입되면 클라우드 사용량과 기업용 매출 확대에 기여할 수 있다. 금융기관의 보안·통제 요구를 충족하는 서비스 출시는 Azure의 산업별 경쟁력을 강화할 수 있다.",
+      "caution": "현재는 공개 프리뷰 단계로 실제 고객 수나 매출 기여도는 제시되지 않았다. 기사에서 언급한 585.29달러의 GF Value는 GuruFocus의 추정치일 뿐 객관적인 적정가치나 실적 전망을 보장하지 않는다."
+    },
+    "nikefirstquarterearningslikelytomissstreetviewsamidsalesslowdownubssays": {
+      "title": "Nike First-Quarter Earnings Likely to Miss Street Views Amid Sales Slowdown, UBS Says",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "UBS는 나이키의 회계연도 1분기 실적이 매출 둔화로 인해 월가 전망치를 밑돌 가능성이 있다고 분석했다. 다만 해당 기사는 프리미엄 콘텐츠로 대부분의 세부 내용이 공개되지 않았으며, 구체적인 실적 예상 수치와 매출 감소 폭은 확인되지 않는다.",
+      "impact": "실적과 매출이 예상보다 부진하면 나이키의 이익 전망과 투자심리가 악화돼 주가에 하방 압력을 줄 수 있다. 특히 실적 발표를 앞둔 시점의 컨센서스 하회 우려는 단기 변동성을 키울 수 있다.",
+      "caution": "기사 본문이 유료 구독으로 제한되어 있어 UBS의 구체적인 근거와 전망 수치는 확인할 수 없다. 따라서 실제 실적 부진 여부와 악화 정도는 불확실하다."
+    },
+    "novonordiskshemophiliadrugclearsakeyhurdleineurope": {
+      "title": "Novo Nordisk's hemophilia drug clears a key hurdle in Europe",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "유럽의약품청(EMA) 패널이 노보 노디스크의 혈우병 A 치료제 Frehemgo에 대해 성인과 소아, 억제인자 보유 여부와 관계없이 사용할 수 있도록 승인 권고를 내렸다. 권고는 Novo의 FRONTIER 임상 프로그램 결과에 뒤따른 것으로, Frehemgo는 기존 응고인자 예방치료보다 연간 출혈률을 낮췄다.",
+      "impact": "유럽 승인 권고가 최종 승인으로 이어지면 노보 노디스크가 당뇨·비만 치료제 외에 혈우병 치료제 시장에서도 상업적 기회를 확대할 수 있다. 임상에서 출혈률 감소가 확인된 점은 제품 경쟁력과 시장 채택 가능성에 긍정적이다.",
+      "caution": "현재 단계는 EMA 패널의 승인 권고이며 최종 허가와 실제 판매 성과가 확정된 것은 아니다. 기사에는 예상 매출, 경쟁약 대비 시장 규모 및 출시 일정이 제시되지 않았다."
+    },
+    "realtyincomeoannounces528mpartnerinvestmentcanitliftreturns": {
+      "title": "Realty Income (O) Announces €528M Partner Investment. Can it Lift Returns?",
+      "holding": "리얼티 인컴",
+      "stance": "약한 호재",
+      "summary": "리얼티 인컴은 2026년 9월 14일 유럽 부동산 벤처를 발표했으며, KKR이 자문하는 자본이 5억2800만 유로를 투자해 지분 49%를 취득할 예정이다. 거래 종결은 통상적인 조건 충족을 전제로 9월 30일로 예정됐고, 리얼티 인컴은 약 5억2800만 유로의 총 proceeds를 받고 51% 지분과 일상적인 자산관리를 유지한다. 출자 포트폴리오의 반복 관리비 반영 후 유효 초기 자본환원율은 5.9%다.",
+      "impact": "대규모 파트너 자금을 활용하면서도 51% 지분과 자산관리권을 유지하므로 유럽 부동산 확장과 관리수수료 수익에 기여할 가능성이 있다. 다만 실제 주주가치 개선은 재투자 수익률, 관리수수료 수익성, 향후 바이아웃 조건에 달려 있다.",
+      "caution": "본문이 중간에 끊겨 있어 벤처의 구체적인 수익성·자금 사용처와 최종 조건을 모두 확인할 수 없다. 거래는 9월 30일 예정이며 통상적인 조건 충족이 필요하다."
+    },
+    "gregabelexitedaconsumerbrandwarrenbuffettbackedfor6straightquartershereswhythatwasthewrongmove": {
+      "title": "Greg Abel Exited a Consumer Brand Warren Buffett Backed for 6 Straight Quarters. Here's Why That Was the Wrong Move.",
+      "holding": "도미노피자",
+      "stance": "약한 악재",
+      "summary": "버크셔 해서웨이는 올해 도미노피자 주식을 전량 매도했으며, 기사에서는 최근 도미노피자의 매출이 부진했다고 설명한다. 이는 그렉 아벨이 워런 버핏의 뒤를 이어 버크셔의 주식 포트폴리오를 조정한 사례로 제시됐지만, 기사 작성자는 도미노피자의 장기 투자 논리는 여전히 유효하다고 평가한다.",
+      "impact": "버크셔의 전량 매도는 도미노피자에 대한 시장 심리와 투자자 신뢰를 약화시킬 수 있고, 최근 매출 부진도 실적 우려를 키우는 요인이다. 다만 해당 매도는 버크셔의 포트폴리오 재편일 수 있으며, 장기 성장 논리가 훼손됐다는 직접적인 근거는 제한적이다.",
+      "caution": "기사의 핵심은 버크셔의 매도 이유에 대한 해석이며, 도미노피자의 구체적인 매출 수치나 실적 전망은 제시되지 않았다. 또한 버크셔의 매도 자체가 도미노피자의 기업가치 악화를 의미하지는 않는다."
+    },
     "삼성전자sk하이닉스ai추론메모리확장경쟁치열": {
       "title": "삼성전자·SK하이닉스, AI 추론 메모리 확장 경쟁 '치열'",
       "holding": "삼성전자",
