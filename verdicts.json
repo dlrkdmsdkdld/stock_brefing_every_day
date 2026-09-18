@@ -1,17 +1,169 @@
 {
-  "generated_at": "2026-09-18T07:59:06+09:00",
+  "generated_at": "2026-09-19T07:43:22+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#2/gpt-5.6-luna",
+  "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 6793,
-    "output_tokens": 5178
+    "input_tokens": 6803,
+    "output_tokens": 4956
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 3,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "서40조끌어온sk하이닉스한국외환시장까지움직였다": {
+      "title": "美서 40조 끌어온 SK하이닉스…한국 외환시장까지 움직였다",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스는 7월 ADR 발행을 통해 총 265억710만 달러를 조달했으며, 7월 14일 환율 기준 원화로 약 39조8905억원에 해당한다. 조달 자금 중 약 200억 달러를 외환당국이 장외에서 매입했다는 로이터 보도가 나왔고, SK하이닉스는 이를 AI 메모리 투자 재원으로 활용할 계획이다.",
+      "impact": "대규모 자금 조달로 용인·청주 등을 포함한 AI 메모리 생산능력 및 관련 투자를 확대할 수 있어 장기적인 매출 성장과 시장 지배력 강화에 긍정적이다. 글로벌 자본시장에서 조달한 자금이 실제 설비 투자와 수요 대응으로 이어지는지가 핵심이다.",
+      "caution": "본문은 자금 조달 및 외환시장 영향을 중심으로 설명하며, 용인·청주 투자 세부 일정이나 예상 수익성은 제시하지 않았다. 외환당국의 200억 달러 장외매입도 로이터가 소식통을 인용한 보도다."
+    },
+    "엇갈리는삼성전자주가전망외국인순매도끝은어디종목현미경": {
+      "title": "엇갈리는 삼성전자 주가전망…외국인 순매도 끝은 어디[종목현미경]",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자는 전날 3.37% 오른 26만1000원에 거래를 마쳤지만 외국인은 4630억원을 순매도했고, 8거래일간 누적 순매도액은 5조8700억원에 달했다. 반면 노무라증권은 삼성전자의 목표주가 67만원을 유지하며 메모리 수요와 공급 부족을 근거로 주가가 심각하게 저평가됐다고 평가했다.",
+      "impact": "외국인 매도세가 지속되면 수급이 주가 상승을 제한하고 조정 국면을 연장할 수 있어 단기적으로 부정적이다. 다만 저평가 평가와 메모리 수요 강세는 향후 외국인 수급이 개선될 경우 반등 요인이 될 수 있다.",
+      "caution": "기사는 외국인 매도와 저평가 의견을 함께 제시해 방향성이 엇갈리며, 외국인 수급이 언제 개선될지는 확인되지 않았다."
+    },
+    "산업x파일수상함은hd현대잠수함은한화는옛말": {
+      "title": "[산업X파일] ‘수상함은 HD현대, 잠수함은 한화’는 옛말?",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대중공업은 지난해부터 800·1500·2300t급 잠수함 설계에 특수선 사업부 역량을 집중하고 있으며, 올해 말 페루와 창사 이후 첫 잠수함 수출 계약을 앞두고 있다. 또한 한국의 2030년대 후반 핵추진 잠수함 3척 전력화 계획이 현실화하면 관련 사업 규모가 29조원에 이를 수 있다고 기사는 설명한다.",
+      "impact": "수상함 중심이던 HD현대중공업이 잠수함과 핵추진 잠수함 분야로 사업을 확장하면 수주 시장과 장기 성장 기회가 넓어질 수 있다. 잠수함 수출 계약이 실제 체결되면 특수선 부문의 매출과 수주잔고 확대에 직접 기여할 가능성이 있다.",
+      "caution": "페루 계약은 아직 체결 전이며, 핵추진 잠수함 사업 역시 정부 계획과 가능성에 기반한 내용이다. 한화오션 등 경쟁사의 수상함·잠수함 사업 확장으로 경쟁 심화 가능성도 있다."
+    },
+    "canhewlettpackardenterprisestockkeeprunningonordersitcannotship": {
+      "title": "Can Hewlett Packard Enterprise Stock Keep Running On Orders It Cannot Ship?",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "기사는 휴렛팩커드엔터프라이즈(HPE)가 AI 데이터센터용 네트워킹 장비 주문 증가로 최근 12개월 동안 주가가 156% 상승했고 52주 고점에 위치했다고 전한다. HPE의 2026 회계연도 3분기 AI 네트워크 관련 주문은 7억 달러에 달했으며, 회사는 2026 회계연도 누적 주문 목표를 25억~30억 달러로 상향했다.",
+      "impact": "본문의 핵심은 HPE의 AI 네트워크 주문과 주가 전망으로, 델의 실적·수주·사업 변화에 직접적인 영향을 주는 내용은 확인되지 않는다.",
+      "caution": "보유 종목인 델은 본문에서 비교 대상 또는 관련 기업으로만 언급된 것으로 보이며, 델에 대한 구체적인 실적이나 사건은 제시되지 않았다."
+    },
+    "enphaseenergydrops5assolarsellingresumesfirstsolarandsunrunfall4": {
+      "title": "Enphase Energy Drops 5% as Solar Selling Resumes; First Solar and Sunrun Fall 4%",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "태양광 관련주가 목요일의 반등을 반납하며 금요일 다시 하락했고, Invesco Solar ETF는 2% 내렸다. 퍼스트솔라와 선런은 각각 4% 하락했으며, 시장의 관심은 금리 경로가 태양광주에 미칠 영향에 쏠리고 있다.",
+      "impact": "퍼스트솔라 주가가 태양광 업종 전반의 매도세와 금리 불확실성에 동반 하락했다는 점은 단기 투자심리와 밸류에이션에 부정적이다. 금리가 높게 유지되면 태양광 프로젝트의 financing 비용과 수요 전망에 부담이 될 수 있다.",
+      "caution": "기사 본문은 퍼스트솔라의 개별 실적이나 수주 변화보다 업종 전반의 주가 움직임을 다룬다. 따라서 하락이 회사의 펀더멘털 악화에서 비롯됐다고 단정하기 어렵다."
+    },
+    "mn8energyeosenergyenterprisesandgoogleannouncefirstofitskindutilityscalesolarstoragecollaborationinwestvirginia": {
+      "title": "MN8 Energy, Eos Energy Enterprises and Google Announce First-of-its-Kind Utility-Scale Solar + Storage Collaboration in West Virginia",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "제목에는 MN8 Energy, Eos Energy Enterprises, Google이 웨스트버지니아에서 대규모 태양광·저장장치 협력을 발표했다고 적혀 있다. 그러나 제공된 본문은 해당 프로젝트의 세부 내용이 아니라 법률자문사 관계자인 Giji John의 경력과 연락처, 담당 업무를 소개하는 내용으로 구성돼 있다.",
+      "impact": "Eos Energy Enterprises가 협력 주체로 제목에 등장하지만, 프로젝트 규모·계약 조건·Eos의 공급 범위나 재무 효과가 본문에 없어 보유 종목에 미칠 영향을 판단하기 어렵다.",
+      "caution": "본문에 실질적인 기사 내용이 없고 법률사무소의 인물 소개 및 사이트 안내문 위주이므로, 제목만으로 호재 여부를 판단하지 않았다."
+    },
+    "almontytapsspaintailingsfortungsten": {
+      "title": "Almonty taps Spain tailings for tungsten",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리스는 스페인 로스 산토스 광산의 기존 광미에서 텅스텐 회수를 재개하고, 회수된 정광을 샌드빅그룹 자회사 Wolfram Bergbau und Hütten AG에 공급하는 다년 계약을 체결했다. 텅스텐은 금속가공·광업·건설·항공우주·전자·방산 등에 사용되며, 2025년 세계 광산 생산량의 약 79%를 중국이 차지했다.",
+      "impact": "기존 광미에서 텅스텐을 회수해 다년 공급계약으로 판매하면 알먼티의 생산 재개와 매출 기반 확보에 도움이 될 수 있다. 중국에 생산이 집중된 전략 광물인 만큼 비중국권 공급원으로서의 사업 가치와 고객 접근성이 강화될 가능성도 있다.",
+      "caution": "본문에는 생산 재개 시점, 회수량, 계약 금액이나 수익성이 제시되지 않았다. 따라서 계약의 실제 매출·현금흐름 기여 규모는 확인이 필요하다."
+    },
+    "credovsnvidiaafterearningswhichaistockshouldyoubuynow": {
+      "title": "Credo vs. NVIDIA After Earnings: Which AI Stock Should You Buy Now?",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "Credo Technology는 2027 회계연도 1분기 매출 4억7900만 달러를 기록해 전년 동기 대비 114.7%, 직전 분기 대비 9.6% 성장했다. 경영진은 2027 회계연도 2분기 매출을 5억2500만~5억3500만 달러로 예상했으며, 이는 중간값 기준 전 분기 대비 약 10.6% 증가한 수준이다.",
+      "impact": "AI 인프라 수요를 바탕으로 매출이 세 자릿수 성장하고 다음 분기에도 순차 성장이 예상된다는 점은 크레도 테크놀로지의 사업 모멘텀에 긍정적이다. AI 데이터센터 연결·인터커넥트 수요 확대가 실제 매출 성장으로 이어지고 있음을 보여준다.",
+      "caution": "기사는 크레도와 엔비디아 중 어느 종목이 더 매력적인지 비교하는 내용이며, 높은 성장률이 주가에 이미 반영됐는지와 밸류에이션·수익성에 대한 구체적인 수치는 제공하지 않는다."
+    },
+    "analystsetsjawdroppingpricetargetonalphabetstock": {
+      "title": "Analyst Sets Jaw-Dropping Price Target on Alphabet Stock",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "Tigress Financial Partners의 애널리스트 Ivan Feinseth는 알파벳에 대한 ‘Strong Buy’ 의견을 재확인하고 목표주가를 415달러에서 월가 최고 수준인 485달러로 올렸다. 인공지능 투자가 검색, 클라우드, Gemini의 성장을 촉진하고 AI Overviews와 AI Mode가 복잡한 검색 및 고의도 검색의 수익화를 확대할 수 있다는 분석이다.",
+      "impact": "알파벳의 AI 투자가 검색 광고와 클라우드 매출 성장으로 이어질 것이라는 기대가 커지면 실적 전망과 밸류에이션에 긍정적으로 작용할 수 있다. 목표주가 상향 자체도 투자심리를 개선하는 요인이다.",
+      "caution": "기사 본문이 ‘Alphabet's second-quarter revenue rose 24’에서 중단돼 2분기 매출 관련 구체적인 전체 사실과 추가 근거를 확인할 수 없다. 목표주가는 한 애널리스트의 전망이며 AI 기능의 실제 수익화 여부는 아직 불확실하다."
+    },
+    "ciscodrops8in3monthsshouldyoubuythestockonthedip": {
+      "title": "Cisco Drops 8% in 3 Months: Should You Buy the Stock on the Dip?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "제목은 시스코 시스템즈 주가가 3개월 동안 8% 하락했으며 하락 시점에 매수할지 묻고 있다. 그러나 본문에는 기사 내용 대신 봇 감지, 쿠키와 JavaScript 활성화 및 페이지 로딩 안내만 제공돼 있다.",
+      "impact": "시스코의 실적, 사업 전망 또는 주가 하락 원인을 판단할 수 있는 정보가 없어 보유 종목에 대한 방향성 있는 영향을 평가하기 어렵다.",
+      "caution": "본문이 광고·사이트 접근 안내문에 해당하며 시스코 관련 분석이나 사실관계가 없다."
+    },
+    "vertivnysevrtproductrevenuesurges22ascompetitionwithamphenolandsupermicrocomputerintensifies": {
+      "title": "Vertiv (NYSE: VRT) Product Revenue Surges 22% As Competition With Amphenol And Super Micro Computer Intensifies",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브의 2026년 2분기 제품 매출은 전년 동기 대비 22% 증가한 26억5,000만달러로 전체 매출의 약 81%를 차지했다. 총매출도 24% 늘어난 32억7,000만달러를 기록했으며, 미주 매출은 29% 증가한 20억7,000만달러, 아시아·태평양 매출은 29% 증가한 7억2,000만달러였다.",
+      "impact": "AI 데이터센터 증설에 필요한 전력·열관리·통합 인프라 수요가 실제 매출 성장으로 나타나 버티브의 실적과 성장 기대를 높인다. 특히 주요 지역에서 고른 매출 증가가 확인된 점은 사업 확장에 긍정적이다.",
+      "caution": "기사 본문이 중간에 끊겨 수익성, 수주잔고, 경쟁사인 Amphenol 및 Super Micro Computer와의 경쟁 결과 등은 확인할 수 없다. 매출 증가가 이익 증가로 이어졌는지도 제시되지 않았다."
+    },
+    "lockheedlmtupgradedtobuywhatdoesitmeanforthestock": {
+      "title": "Lockheed (LMT) Upgraded to Buy: What Does It Mean for the Stock?",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "Zacks는 록히드마틴을 Zacks Rank #2인 ‘Buy’로 상향했다. 상향의 주된 이유는 올해와 다음 해의 EPS 전망치가 개선되는 추세이며, Zacks는 애널리스트 컨센서스의 실적 추정치 변화를 중심으로 등급을 산정한다고 설명했다.",
+      "impact": "EPS 전망치 상향은 향후 실적 기대와 단기 주가 흐름에 긍정적인 신호가 될 수 있다. 다만 이는 실제 실적 발표가 아니라 애널리스트 추정치 변화에 기반한 투자등급이다.",
+      "caution": "기사에는 EPS 추정치가 구체적으로 얼마만큼 상향됐는지, 수주·매출·현금흐름 등 사업의 직접적인 개선 근거가 제시되지 않았다. 본문도 분석 설명 중간에 중단돼 있다."
+    },
+    "oraclefalls3whilecloudrivalsholdtheirgroundmicrosoftdipsamazonnudgeshigher": {
+      "title": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "9월 18일 기사에서 오라클 주가는 금요일 오후 거래에서 하락한 반면 대형 기술주와 클라우드 경쟁사들은 대체로 보합권에 머물렀다고 설명한다. 마이크로소프트는 하락했고 아마존은 소폭 상승했다는 내용이 제목에 언급되지만, 본문은 주로 오라클 주가 하락 원인을 다룬다.",
+      "impact": "마이크로소프트의 주가가 하락했다는 사실은 단기 투자심리에 영향을 줄 수 있으나, 기사에서 하락 폭이나 마이크로소프트의 실적·사업 전망에 대한 구체적인 분석은 제공되지 않는다.",
+      "caution": "주요 주제가 보유 종목인 마이크로소프트가 아니라 오라클이며, 마이크로소프트는 비교 대상으로만 언급됐다. 따라서 마이크로소프트에 대한 직접적인 호재나 악재로 해석하기 어렵다."
+    },
+    "nikefacesearningspressureasubscutspricetarget": {
+      "title": "Nike faces earnings pressure as UBS cuts price target",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "UBS는 나이키의 목표주가를 13% 낮춰 42달러로 제시했으며, 글로벌 판매 추세 악화를 이유로 들었다. UBS는 2027 회계연도 1분기 EPS가 컨센서스를 0.05달러 밑돌고, 2분기 가이던스가 0.31~0.43달러로 컨센서스 0.53달러보다 낮을 것으로 예상했으며, FY2027 EPS 전망도 1.55달러 수준의 바이사이드 컨센서스보다 낮은 1.30달러로 제시했다.",
+      "impact": "매출 둔화와 EPS 전망치 하향은 나이키의 향후 이익과 밸류에이션을 직접적으로 압박한다. 경영진이 향후 실적 기대치를 낮출 가능성까지 제기돼 실적 발표와 11월 투자자 행사 전 투자심리에 부정적이다.",
+      "caution": "이는 UBS의 전망과 추정에 기반한 내용으로, 실제 2027 회계연도 1분기 실적 및 회사 가이던스가 확정된 것은 아니다. 기사 본문이 FY2029 전망 설명 중간에 중단돼 추가 근거는 확인할 수 없다."
+    },
+    "novonordiskshemophiliaacandidatewinseupanelbackingasrebrandandbuybackrollon": {
+      "title": "Novo Nordisk's Hemophilia A Candidate Wins EU Panel Backing as Rebrand and Buyback Roll On",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "유럽의약품청 산하 CHMP는 혈우병 A 치료 후보물질 Denecimig인 FREHEMGO의 성인 및 소아 사용에 대해 EU 승인을 권고했다. 최종 판매허가는 아니지만 유럽연합 집행위원회가 통상 CHMP 의견을 따르며, 임상 3b FRONTIER5 데이터에서 혈전색전성 사건이 보고되지 않았다는 소식에 노보노디스크 주가는 3.6% 상승해 37.74유로로 마감했다.",
+      "impact": "최종 허가로 이어질 경우 Denecimig가 비만·당뇨 사업을 넘어선 새로운 성장 제품이 될 수 있어 노보노디스크의 제품 포트폴리오와 매출 전망에 긍정적이다. 실제 주가 상승은 시장이 이번 규제 진전을 긍정적으로 평가했음을 보여준다.",
+      "caution": "CHMP 권고는 최종 판매허가가 아니므로 유럽연합 집행위원회의 결정을 통과해야 한다. 또한 기사에는 예상 시장 규모, 출시 시점 및 상업적 수익성에 대한 구체적인 수치가 없다."
+    },
+    "wellsfargodowngradesnetflixstockcutspricetargetto57": {
+      "title": "Wells Fargo downgrades Netflix stock, cuts price target to $57",
+      "holding": "넷플릭스",
+      "stance": "악재",
+      "summary": "Wells Fargo의 애널리스트 Steven Cahall은 넷플릭스 투자의견을 ‘Hold’에서 ‘Underweight’로 낮추고 목표주가를 80달러에서 57달러로 내렸다. 시청자 참여도 약화와 콘텐츠 라인업 둔화가 향후 성장과 마진을 압박할 수 있다는 경고에 넷플릭스 주가는 금요일 장전 약 4% 하락했으며, 연초 이후 약 20% 하락한 상태라고 설명했다.",
+      "impact": "구독자당 시청시간 감소는 이용자 참여와 가입자 유지, 광고·구독 수익 성장에 부담을 줄 수 있다. 콘텐츠 공급이 약해지면 성장률과 마진 전망이 동시에 악화될 가능성이 있어 주가에 부정적이다.",
+      "caution": "부정적 평가는 Wells Fargo와 한 애널리스트의 전망이며, 기사 본문이 구독자당 시청시간 예상치를 제시하는 중간에 중단됐다. 따라서 참여도 악화의 규모와 실제 실적 영향은 확인이 필요하다."
+    },
+    "3unstoppabledividendstockstobuynow1yields55": {
+      "title": "3 Unstoppable Dividend Stocks to Buy Now (1 Yields 5.5%)",
+      "holding": "리얼티 인컴",
+      "stance": "호재",
+      "summary": "기사에서는 S&P 500의 배당수익률이 약 1%인 상황에서 리얼티 인컴(Realty Income)을 포함한 3개 기업을 장기적으로 배당을 지급할 수 있는 매력적인 종목으로 소개한다. 리얼티 인컴은 기사 제목상 배당수익률이 5.5%인 종목으로 제시됐으며, 사람들이 매일 이용하는 제품·서비스를 제공하는 기업으로 설명된다.",
+      "impact": "리얼티 인컴의 높은 배당수익률과 안정적인 사업 기반이 투자 매력 및 배당 지속 기대를 높이는 내용이어서 보유 종목에는 긍정적이다. 특히 배당주를 찾는 투자자들의 관심을 유도할 수 있다.",
+      "caution": "본문이 중간에 잘려 있어 리얼티 인컴의 구체적인 재무 실적, 배당 성장률, 배당성향 및 부동산 사업 관련 세부 근거는 확인할 수 없다."
+    },
+    "alcoastockdropsaswellsfargocutspricetargettousd60": {
+      "title": "Alcoa stock drops as Wells Fargo cuts price target to USD 60",
+      "holding": "알코아",
+      "stance": "약한 악재",
+      "summary": "Alcoa 주가는 2026년 9월 18일 약 45달러에 거래됐고, Wells Fargo는 목표주가를 71달러에서 60달러로 11달러, 15.5% 낮췄다. 다만 투자의견은 Overweight를 유지했으며, Alcoa는 2026년 2분기 기록적인 매출을 냈지만 알루미나 전망은 약화된 것으로 언급됐다.",
+      "impact": "목표주가 하향은 Alcoa의 향후 주가 상승 기대와 알루미나 사업 전망에 대한 우려를 키우는 악재다. 그러나 Overweight 의견 유지와 기록적인 2분기 매출은 부정적 영향을 일부 완화한다.",
+      "caution": "목표주가 하향은 Wells Fargo의 전망 변화이며, 기사에는 알루미나 전망이 얼마나 악화됐는지와 실제 이익·현금흐름에 미치는 구체적인 수치가 충분히 제시되지 않았다."
+    },
+    "appsorspotwhichisthebettervaluestockrightnow": {
+      "title": "APPS or SPOT: Which Is the Better Value Stock Right Now?",
+      "holding": "스포티파이",
+      "stance": "약한 악재",
+      "summary": "Zacks는 Digital Turbine(APPS)과 Spotify(SPOT)를 비교하며 가치투자 관점에서 어느 종목이 더 나은지 분석했다. 2026년 9월 18일 기준 Digital Turbine의 Zacks Rank는 2등급(Buy), Spotify는 3등급(Hold)으로 제시돼 Spotify가 상대적으로 낮은 평가를 받았다.",
+      "impact": "보유 종목인 Spotify가 비교 대상인 Digital Turbine보다 Zacks 등급에서 낮은 평가를 받은 점은 단기 투자심리에 부정적일 수 있다. 이는 Spotify의 실적 추정치 개선 흐름이나 가치평가 매력이 상대적으로 약하다는 신호로 해석될 수 있다.",
+      "caution": "기사 본문이 일부만 제공돼 Spotify의 구체적인 밸류에이션, 실적 전망, 목표주가 및 APPS와의 세부 비교 근거는 확인할 수 없다."
+    },
     "sk하이닉스인텔손잡나투자압박해소기술유출우려": {
       "title": "SK하이닉스, 인텔 손잡나?...\"투자 압박 해소\" \"기술유출 우려\"",
       "holding": "SK하이닉스",
