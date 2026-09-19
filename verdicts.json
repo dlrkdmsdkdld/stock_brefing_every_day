@@ -1,17 +1,177 @@
 {
-  "generated_at": "2026-09-19T07:43:22+09:00",
+  "generated_at": "2026-09-20T07:24:57+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 6803,
-    "output_tokens": 4956
+    "input_tokens": 7026,
+    "output_tokens": 5462
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 0,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스중국통부회장전진배치현지반도체전략은": {
+      "title": "SK하이닉스, '중국통' 부회장 전진 배치…中 현지 반도체 전략은",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK그룹의 중국 담당 서진우 부회장 등이 SK하이닉스로 이동하면서 중국 내 D램·낸드 생산 거점인 우시와 다롄의 운영 전략 및 대관 기능 강화 가능성이 제기됐다. SK하이닉스는 D램과 낸드 생산량의 약 30%를 각각 중국 공장에서 생산하고 있으며, 다롄 2공장 투자를 4년 만에 재개했고 인텔 낸드 사업부 인수 당시 중국이 부과한 제한조건은 올해 12월 해제될 예정이다.",
+      "impact": "중국 정부 및 현지 이해관계자와의 협상력 강화와 다롄 2공장 투자 재개는 중국 생산거점의 안정적 운영과 메모리 공급 확대에 긍정적일 수 있다. 다만 이는 전략 및 인사 변화에 대한 기대감 중심으로, 실적 개선이 확정된 내용은 아니다.",
+      "caution": "본문이 다롄 2공장 투자 재개 이후의 구체적인 투자 규모와 생산 효과를 제시하지 않았고, 중국 내 규제 및 미·중 갈등 관련 불확실성도 남아 있다."
+    },
+    "삼성전자광주사업장37년만의대규모투자hvac공장첫삽": {
+      "title": "삼성전자 광주사업장 37년 만의 대규모 투자…HVAC 공장 첫삽",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자는 광주사업장 제3캠퍼스에 2400억 원을 투입해 연면적 2만1800㎡ 규모의 HVAC 생산라인을 건립하며, 21일 착공식을 진행할 예정이다. 플랙트그룹의 15번째 글로벌 생산거점인 이 시설은 2028년 초부터 냉각수 분배 장치(CDU), 팬월유닛(FWU), CRAH, AHU 등을 생산해 AI 데이터센터 시장을 공략한다.",
+      "impact": "AI 데이터센터용 액체·공기 냉각 장비 생산능력 확대는 삼성전자의 HVAC 사업과 데이터센터 솔루션 매출 기반을 넓힐 수 있다. 2400억 원의 국내 생산시설 투자는 플랙트그룹 인수 후 사업 통합과 신규 성장동력 확보에도 긍정적으로 작용할 가능성이 있다.",
+      "caution": "생산은 2028년 초부터 시작될 예정이어서 단기 실적 기여는 제한적일 수 있으며, 수주 규모와 수익성은 본문에 제시되지 않았다."
+    },
+    "더싣고덜샌다hd현대3탱크lng선으로해운경제성혁신": {
+      "title": "더 싣고 덜 샌다…HD현대, 3탱크 LNG선으로 '해운 경제성' 혁신",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 GTT 및 노르웨이 선급 DNV와 함께 17만6800㎥급 3탱크 LNG선 설계를 개발해 상용화했으며, BW LNG가 발주한 4척에 적용된다. 기존 17만4000㎥급 선박과 외형은 같지만 약 2800㎥의 화물 공간을 추가 확보했고, 선박은 2028년부터 2029년까지 순차 인도될 예정이다.",
+      "impact": "같은 선박 크기에서 적재량을 늘리고 화물창 표면적을 줄이면 선주의 단위 운송비와 LNG 운항 중 손실을 낮출 수 있어 신규 LNG선 수주 경쟁력에 도움이 된다. 4척의 실제 적용 및 인도 일정은 HD현대중공업의 친환경 가스선 기술력과 수주 실적을 뒷받침한다.",
+      "caution": "기술의 상용화와 수주 사실은 긍정적이지만, 해당 선박의 계약금액과 HD현대중공업의 이익 기여 규모는 본문에 공개되지 않았다."
+    },
+    "michaeldellputsbostonpenthouseupforauction": {
+      "title": "Michael Dell Puts Boston Penthouse Up for Auction",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "Dell Technologies의 회장 겸 CEO인 마이클 델이 보유한 보스턴 밀레니엄타워 펜트하우스를 경매에 내놓을 예정이라고 Mansion Global이 보도했다. 그는 2016년 이 주택을 1090만 달러에 매입했으며, 최근 매물 가격은 789만5000달러였고 Forbes 기준 순자산은 2729억 달러로 제시됐다.",
+      "impact": "개인 소유 부동산의 매각 또는 경매 소식은 Dell Technologies의 제품 수요, 매출, 이익 등 기업 펀더멘털에 직접적인 영향을 주지 않는다.",
+      "caution": "기사의 주제가 마이클 델 개인의 부동산 처분이며, Dell Technologies의 사업이나 재무 실적에 관한 내용은 아니다."
+    },
+    "heinekenstockholdssteadyasinvestorseyemarginsandinnovation": {
+      "title": "Heineken stock holds steady as investors eye margins and innovation",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "하이네켄 주가는 2026년 9월 17일 유로넥스트 암스테르담에서 71.68유로로 마감해 전일보다 0.28% 하락했으며, 52주 고점인 80.44유로보다 약 11.5% 낮았다. 기사에서는 최근 반기 실적과 신제품 혁신을 바탕으로 하이네켄의 매출 성장과 마진을 투자자들이 주시하고 있다고 설명한다.",
+      "impact": "하이네켄의 주가와 실적 동향은 맥주 업계 전반의 참고 정보일 수 있지만, 컨스텔레이션 브랜즈의 실적이나 주가에 직접 연결되는 구체적 사건은 제시되지 않았다.",
+      "caution": "기사의 핵심 대상은 하이네켄이며 컨스텔레이션 브랜즈는 본문에 직접적인 사업·실적 관련 내용이 없다."
+    },
+    "learnwhythebullcaseforfirstsolarstockcouldchangefollowing2026guidancereaffirmation": {
+      "title": "Learn Why The Bull Case For First Solar Stock Could Change Following 2026 Guidance Reaffirmation",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "First Solar는 미국 중심의 제조 기반과 정책 지원, 2030년까지 이어지는 45.1GW 규모의 계약 수주잔고를 바탕으로 한 사업 구조를 갖고 있으며, 2026년 가이던스를 재확인했다. 다만 미국 유틸리티급 태양광 및 데이터센터 프로젝트의 정책·수요 불확실성, 프로젝트 지연과 고객의 가격 인하 요구가 현금화 속도를 늦출 위험으로 지적됐다.",
+      "impact": "2026년 가이던스 재확인과 미국 생산능력 확대는 First Solar의 중기 매출 가시성과 생산 계획에 대한 신뢰를 높이는 요인이다. 그러나 수주잔고가 실제 매출과 현금흐름으로 전환되는 속도가 핵심이므로, 긍정적 효과는 리스크를 동반한 제한적 호재로 판단된다.",
+      "caution": "본문에는 재확인된 2026년 가이던스의 구체적인 매출·이익 수치나 생산능력 규모가 없으며, 정책 변화와 고객 가격 협상에 따라 현금 전환이 지연될 수 있다."
+    },
+    "incaseyoumisseditaidatacenterarticlesnewclipsfromlastweekseptember21": {
+      "title": "In Case You Missed It: A.I./Data Center Articles - NewClips From Last Week - September 21",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "기사는 9월 21일자 AI·데이터센터 관련 기사 모음으로, 난방유 비용 31% 이상 상승 전망, 전기요금 9% 상승 전망, 천연가스 가격 5.8% 상승 전망 등을 소개했다. 또한 데이터센터 확대로 PJM 전력망이 2027년에 신뢰도 기준을 충족하지 못할 수 있다는 연구와, 9월 17~18일 최대발전 및 수요관리 경보가 발령됐다는 내용도 담고 있다.",
+      "impact": "AI 데이터센터 전력 수요와 전력망 제약은 전력 생산업체에 장기적인 수요 기회를 제공할 수 있지만, 본문에는 컨스텔레이션 에너지의 발전량·계약·실적 또는 사업 대응이 언급되지 않았다.",
+      "caution": "개별 기사들의 제목을 나열한 뉴스 클립 모음이며, 컨스텔레이션 에너지와 직접 연결되는 구체적인 사건이나 수치가 없어 투자 종목에 대한 방향성을 판단하기 어렵다."
+    },
+    "vistracorpstockholdsnearitsyearlylowafteranalystreset": {
+      "title": "Vistra Corp stock holds near its yearly low after analyst reset",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "Vistra 주가는 2026년 9월 17일 전일보다 0.8% 하락한 140.39달러로 마감해 연중 저점 부근에 머물렀다. 그러나 Morgan Stanley는 9월 19일 투자의견을 매수로 유지하면서 목표주가를 227달러로 제시했고, 기사에 인용된 컨센서스 목표주가는 221.88~222.46달러 수준이었다.",
+      "impact": "현재 주가보다 크게 높은 증권사 목표주가와 매수 의견 유지가 투자심리 및 주가 회복 기대를 지지하는 요인이다. 다만 이는 애널리스트 전망에 따른 평가로, 실제 실적이나 현금흐름 개선을 확인한 뉴스는 아니다.",
+      "caution": "주가는 140.39달러로 하락세를 보이고 있으며, 목표주가는 전망치일 뿐 달성 여부가 보장되지 않는다. 기사에는 Morgan Stanley가 목표주가를 상향한 구체적 근거와 Vistra의 실적 수치가 충분히 제시되지 않았다."
+    },
+    "almontyturnsspanishtailingsintorevenuewhilerwandaventureopensafricasdoor": {
+      "title": "Almonty Turns Spanish Tailings Into Revenue While Rwanda Venture Opens Africa's Door",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티는 Sandvik 그룹 자회사 Wolfram Bergbau und Hütten AG와 다년간 텅스텐 정광 공급계약을 체결했으며, 계약은 최소 물량을 보장하는 take-or-pay 구조로 구성됐다. 또한 르완다 합작법인에서 Shyorongi 지분 75%를 보유하며 아프리카 탐사 사업에도 진출했다. 주가는 금요일 EUR 12.07로 하루 1.8% 하락했지만 연초 대비 52% 상승했다.",
+      "impact": "Sandvik 계열사와의 계약은 텅스텐 판매량과 단기 현금흐름의 가시성을 높일 수 있고, 르완다 합작사업은 장기적인 자원개발 선택지를 확대한다. 유럽 내 즉각적인 매출원과 아프리카 장기 성장사업을 동시에 확보했다는 점이 알먼티에 긍정적이다.",
+      "caution": "제공된 본문이 계약의 최소 물량과 세부 조건이 끝까지 제시되기 전에 잘려 있어 실제 매출·수익성 영향을 정량화하기 어렵다. 르완다 사업 역시 탐사 단계의 장기 프로젝트일 가능성이 있어 단기 실적 기여는 불확실하다."
+    },
+    "hosthealthychoicewellnesscorpkeycompanymetricsnonfinancemetrics": {
+      "title": "HOST : Healthy Choice Wellness Corp. Key Company Metrics & Non-finance Metrics",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "본문은 Healthy Choice Wellness Corp.의 주요 지표를 소개하는 기사 제목과 함께, 사용자가 봇으로 판단되어 쿠키와 JavaScript를 활성화한 뒤 다시 로드하라는 사이트 안내문만 담고 있다. 크레도 테크놀로지에 관한 사업·실적·공시 내용은 제시되지 않았다.",
+      "impact": "기사 내용이 크레도 테크놀로지의 실적이나 사업에 관한 것이 아니므로 보유 종목 가치에 직접 영향을 주는 정보가 없다.",
+      "caution": "광고 또는 사이트 접근 차단 안내문으로, 분석할 수 있는 실질적인 기사 내용이 없다."
+    },
+    "threefrontierlabsarebuildingafinrastylesafetybodyhistorysuggestsitwontbeabrake": {
+      "title": "Three Frontier Labs Are Building a FINRA-Style Safety Body. History Suggests It Won’t Be a Brake.",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "OpenAI, Anthropic, Google DeepMind가 2026년 9월 15일 기준 수 주 동안 AI 안전 프로토콜을 조율해 왔다고 OpenAI의 Chris Lehane이 워싱턴 브리핑에서 확인했다. 다만 제안된 조직은 아직 공식화되지 않았고 Anthropic과 Google은 해당 협력을 언론에 공개적으로 확인하지 않아 전략적 모호성이 남아 있다.",
+      "impact": "알파벳의 Google DeepMind가 AI 안전 논의에 참여하면 AI 규제와 안전 기준 형성에 발언권을 확보할 수 있지만, 구체적인 제도나 상업적 효과는 아직 확인되지 않았다. 따라서 현재로서는 기업가치에 대한 직접적인 영향이 제한적이다.",
+      "caution": "본문이 FINRA의 역사적 사례를 설명하는 중간에 잘려 있으며, 협력체의 공식 출범·권한·알파벳의 비용이나 규제 부담이 제시되지 않았다."
+    },
+    "ciscocscoleansonsplunktobroadenitsshareofenterpriseaispendingitfacesabigtest": {
+      "title": "Cisco (CSCO) Leans on Splunk to Broaden Its Share of Enterprise AI Spending. It Faces a Big Test",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "Cisco는 Splunk를 기업용 AI 지출 확대의 통로로 활용하기 위해 2026년 9월 14~17일 덴버에서 열린 Splunk 컨퍼런스에서 Cisco AI POD for Splunk를 공개했다. 이 솔루션은 온프레미스·프라이빗 클라우드·에어갭 환경의 Splunk Enterprise 고객을 대상으로 하며, Cisco 인프라와 Nvidia 가속 컴퓨팅을 결합해 일부 AI 모델의 자체 호스팅을 지원한다.",
+      "impact": "Cisco는 네트워크 장비뿐 아니라 Splunk의 모니터링·보안·관리 기능과 AI 인프라를 함께 판매해 기업 AI 투자에서 차지하는 매출 기회를 넓힐 수 있다. 다만 신규 제품이 실제 고객 도입과 수주로 이어질 경우에만 실적 개선이 나타날 가능성이 높다.",
+      "caution": "기사에는 제품의 가격, 수주 규모, 고객 수 또는 매출 기여 전망이 제시되지 않아 상업적 성공 여부를 판단하기 어렵다."
+    },
+    "hanwhaaerospaceandlockheedmartinukunveilupdated40mminfantryfightingvehicle": {
+      "title": "Hanwha Aerospace and Lockheed Martin UK unveil updated 40mm infantry fighting vehicle",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "Hanwha Aerospace와 Lockheed Martin UK는 Defence Vehicle Dynamics 2026에서 CTA International 40mm 기관포를 탑재한 보병전투차량(IFV)과 대드론(C-UAS) 포탑의 재구성 모델을 공개했다. 포탑은 록히드마틴 UK의 베드퍼드셔 시설에서 개발·통합됐으며, Lockheed Martin UK의 SkyKeeper 지휘통제체계가 포탑 시스템에 처음 통합됐다.",
+      "impact": "신형 IFV와 C-UAS 포탑 공개는 록히드마틴의 지상전투체계 및 대드론 기술 역량을 보여주고 향후 방산 수주 가능성을 넓힐 수 있다. 디지털 아키텍처를 통한 업그레이드 용이성도 장기 경쟁력에 긍정적일 수 있다.",
+      "caution": "본문에는 공개 사실만 있고 실제 수주, 계약 규모, 양산 일정 또는 매출 전망은 언급되지 않았다. 따라서 현재 재무적 영향은 확인되지 않는다."
+    },
+    "microsoftbattlesaibacklashwhiledoublingdownongrowth": {
+      "title": "Microsoft Battles AI Backlash While Doubling Down on Growth",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트는 AI 모델 학습 과정이 인간이 작성한 콘텐츠를 착취하는 것일 수 있다는 내부 및 OpenAI 연구자들의 비판으로 새로운 scrutiny를 받고 있으며, 이를 두고 ‘인류 역사상 가장 큰 노동 착취’라는 표현까지 나왔다. 주가는 지난 1년간 약 3.9% 하락했지만 월가는 여전히 Strong Buy 의견과 12개월 목표주가 약 571달러를 부여하고 있다.",
+      "impact": "AI 학습 데이터에 대한 저작권·노동 논란은 마이크로소프트의 AI 사업에 법적 비용, 규제 부담, 평판 훼손을 초래할 수 있어 단기 투자심리에 악재다. 다만 시장의 Strong Buy 평가와 약 571달러의 목표주가는 핵심 AI·클라우드 성장 기대가 여전히 유지되고 있음을 보여준다.",
+      "caution": "본문이 중간에 잘려 있어 관련 법적 조치나 실제 재무 손실은 확인되지 않는다. 또한 제시된 주가 하락은 AI 논란만의 결과라고 단정할 수 없다."
+    },
+    "whatdoesnikenysenkerevealaboutchangingdemand": {
+      "title": "What Does Nike (NYSE:NKE) Reveal About Changing Demand?",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "기사는 나이키를 소비자 수요 변화, 제품 재정비, 유통채널 전략의 관점에서 다루고 있으며 2026년 9월 19일 기준 주가는 35.51달러로 2.34% 하락했다. 제공된 본문에는 이 같은 변화를 뒷받침하는 구체적인 판매·실적 수치나 경영진 발언이 충분히 제시되지 않았다.",
+      "impact": "소비자 수요와 제품·채널 전략은 나이키의 매출과 마진에 직접 영향을 줄 수 있지만, 기사에 구체적인 방향과 규모가 부족해 호재·악재를 확정하기 어렵다.",
+      "caution": "본문이 주요 내용에 들어가기 전에 잘려 있으며, 35.51달러와 2.34% 하락은 기사 시점의 주가 정보일 뿐 사업 전망을 직접 의미하지 않는다."
+    },
+    "novonordiskbolsterspipelinewithkallyopedealandtwineunodsbeforelondonstrategyday": {
+      "title": "Novo Nordisk Bolsters Pipeline With Kallyope Deal and Twin EU Nods Before London Strategy Day",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크는 2026년 9월 21일 런던 자본시장 행사를 앞두고 미국 바이오기업 Kallyope로부터 초기 단계 프로그램 3개를 인수했으며, 핵심 후보물질 K-554는 비인크레틴 계열의 전임상 펩타이드로 2026년 하반기 1상 시험이 예정돼 있다. 회사는 Orbis 관련 거래, 유럽연합 CHMP 의견 2건, Anthropic과의 AI 협력도 발표하며 비만 치료제 중심의 파이프라인을 확대했다.",
+      "impact": "Kallyope의 K-554와 초기 후보물질 확보는 Eli Lilly와의 경쟁이 심화되는 비만 치료제 시장에서 노보 노디스크의 중장기 파이프라인을 보강할 수 있다. 규제 의견과 AI 협력도 신약 개발 및 사업 확장 기대를 높이는 요인이다.",
+      "caution": "K-554는 아직 전임상 단계이며 1상 시험도 2026년 하반기 예정이어서 임상 성공과 상업화를 보장하지 않는다. 인수 금액과 다른 거래의 구체적인 조건·재무 효과도 본문에 제시되지 않았다."
+    },
+    "netflixnflxgetsabullish110targetwhatsdrivingtheoutlook": {
+      "title": "Netflix (NFLX) Gets a Bullish $110 Target: What’s Driving the Outlook?",
+      "holding": "넷플릭스",
+      "stance": "호재",
+      "summary": "2026년 9월 14일 Evercore ISI는 넷플릭스의 목표주가를 100달러에서 110달러로 올리고 ‘Outperform’ 등급을 유지했다. 2028년 주당순이익(EPS) 추정치에 25배의 멀티플을 적용했으며, 9월 16일 주가 76.41달러 대비 목표주가는 40% 이상 상승 여력을 의미한다. 미국 넷플릭스 침투율은 63%로 다년간 최고 수준, 일본은 22%로 사상 최고치를 기록했다.",
+      "impact": "목표주가 상향과 미국·일본 시장의 높은 침투율 및 참여도는 넷플릭스의 가입자 성장과 기업가치에 대한 긍정적 기대를 높일 수 있다. 이는 투자심리 개선과 주가 상승의 재료가 될 수 있다.",
+      "caution": "목표주가는 Evercore ISI의 추정치일 뿐이며, 기사 본문이 일본의 가입자 참여도 관련 문장에서 중단되어 세부 근거를 모두 확인하기 어렵다. 넷플릭스 주가는 연초 대비 약 16% 하락했고 52주 최고가 124.86달러에도 못 미쳤다."
+    },
+    "universalhealthrealtyincometruststockholdssteadyasinvestorsweighrecentfundamentals": {
+      "title": "Universal Health Realty Income Trust stock holds steady as investors weigh recent fundamentals",
+      "holding": "리얼티 인컴",
+      "stance": "중립",
+      "summary": "2026년 9월 19일 기준 Universal Health Realty Income Trust는 최근 실적이 안정적인 가운데 시가총액 약 5억 5,303만달러의 헬스케어 시설 리츠로 소개됐다. 2026년 초 발표된 최근 분기 실적에서 매출과 FFO가 배당 재원을 뒷받침했다고 설명하지만, 본문에는 구체적인 실적 수치가 제시되지 않았다.",
+      "impact": "기사의 대상은 보유 종목인 리얼티 인컴이 아니라 별도의 헬스케어 리츠인 Universal Health Realty Income Trust다. 따라서 리얼티 인컴의 임대수익, 배당 또는 주가에 직접 미치는 영향은 확인되지 않는다.",
+      "caution": "보유 종목이 아닌 다른 회사에 대한 기사이며, 리얼티 인컴 관련 내용은 본문에 없다."
+    },
+    "footballrecaptoughlossforunioncountyhowtowatch": {
+      "title": "Football Recap: Tough Loss for Union County + How To Watch",
+      "holding": "알코아",
+      "stance": "중립",
+      "summary": "2026년 9월 18일 경기에서 Alcoa Tornadoes가 Union County를 70-7로 꺾으며 5-0으로 시즌을 시작했다. Union County는 3연패를 기록했고 시즌 전적은 1승 4패인 반면, Alcoa는 지난해부터 원정 6연승을 이어갔다.",
+      "impact": "기사의 Alcoa는 미국 고등학교 미식축구팀인 Alcoa Tornadoes를 의미하며, 보유 종목인 알코아(Alcoa Corporation)의 사업이나 실적과 관련이 없다. 따라서 알코아 주가와 기업가치에 미치는 영향은 없다.",
+      "caution": "보유 종목과 동일한 명칭이 등장하지만 기업 뉴스가 아니라 고등학교 스포츠 경기 기사다."
+    },
+    "taylorswifts58officialmusicvideosnowavailableonspotify": {
+      "title": "Taylor Swift's 58 Official Music Videos Now Available On Spotify",
+      "holding": "스포티파이",
+      "stance": "약한 호재",
+      "summary": "스포티파이는 프리미엄 가입자를 대상으로 Taylor Swift의 공식 뮤직비디오 58편 전체를 제공하기 시작했다. 2006년 ‘Tim McGraw’부터 최신 앨범 ‘The Life of a Showgirl’의 영상까지 포함되며, 베타 시장의 이용자는 TV·데스크톱 웹·iOS·안드로이드에서 시청하고 ‘Switch to video’와 ‘Switch to audio’ 기능을 사용할 수 있다.",
+      "impact": "테일러 스위프트의 인기 콘텐츠 추가는 프리미엄 이용자의 시청·청취 참여와 서비스 이용 편의성을 높여 스포티파이의 콘텐츠 경쟁력에 긍정적일 수 있다. 다만 이는 직접적인 매출이나 가입자 증가보다 이용자 체류시간과 만족도 개선을 통한 간접적 호재다.",
+      "caution": "기사에는 이 콘텐츠 제공으로 인한 신규 가입자 수, 매출 증가 또는 수익성 개선 수치가 제시되지 않았다. 또한 영상 기능은 베타 시장에서 제공된다고 명시돼 있다."
+    },
     "서40조끌어온sk하이닉스한국외환시장까지움직였다": {
       "title": "美서 40조 끌어온 SK하이닉스…한국 외환시장까지 움직였다",
       "holding": "SK하이닉스",
