@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-09-21T07:35:26+09:00",
+  "generated_at": "2026-09-22T08:26:05+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "OpenAI#1/gpt-5.6-luna",
   "usage": {
-    "input_tokens": 5768,
-    "output_tokens": 4083
+    "input_tokens": 7472,
+    "output_tokens": 5471
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "단독반도체화학사고5년간12건sk하이닉스삼성전자가11건": {
+      "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건",
+      "holding": "삼성전자",
+      "stance": "악재",
+      "summary": "2021년부터 2026년 6월까지 반도체 제조업에서 발생한 화학사고 12건 가운데 삼성전자에서 5건이 발생해 전체의 41.7%를 차지했다. 전체 사고 중 9건에서 10명이 부상했고, 즉시신고 의무 위반·부적격자 도급·보호장구 미착용 등으로 형사고발이나 과태료 처분을 받은 사례도 4건이었다.",
+      "impact": "삼성전자 사업장에서의 화학사고 집중은 안전관리와 규제 준수 리스크를 높이며, 향후 생산 차질이나 비용 증가로 연결될 가능성이 있다. 대형 사업장에 대한 사회적·정부 감시 강화 역시 운영 부담으로 작용할 수 있다.",
+      "caution": "기사에 삼성전자 사고별 상세 내용, 생산 중단 여부, 처분 금액과 재무 영향은 제시되지 않았다. 따라서 주가나 실적에 미치는 직접적 규모는 판단하기 어렵다."
+    },
+    "최태복hd현대상무k해양방산인재선순환필요": {
+      "title": "최태복 HD현대重 상무 \"K해양방산, 인재 선순환 필요\"",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "최태복 HD현대중공업 함정·중형선사업부 상무는 16일 인터뷰에서 대·중소기업과 군을 연결하는 방산 인력의 선순환 체계가 필요하다고 밝혔다. 필리핀과 태국 등으로 K해양방산 수출이 확대되는 가운데, 새로운 함정 개발·설계에는 통상 100명 이상의 엔지니어가 필요하며 ‘방산 마일리지’ 도입으로 인재 풀을 넓히자는 제안이 나왔다.",
+      "impact": "해양방산 수출 확대와 인력 확보 체계 개선은 HD현대중공업의 함정 개발·수출 사업을 뒷받침할 수 있다. 숙련 엔지니어 확보가 원활해지면 수주 프로젝트의 설계·생산 역량과 장기 성장성이 개선될 여지가 있다.",
+      "caution": "기사의 핵심은 경영진의 인력정책 제안과 업계 현황으로, 새로운 수주나 매출 증가가 확정된 내용은 아니다. 조선해양공학 전공자의 조선산업 선택 비율이 5명 중 1명 수준이라는 인력 부족 문제도 여전히 남아 있다."
+    },
+    "cansmcisrecordbacklogsustainrevenuemomentuminfy27": {
+      "title": "Can SMCI's Record Backlog Sustain Revenue Momentum in FY27?",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "기사에서는 AI 인프라 기업 Super Micro Computer(SMCI)가 NVIDIA의 GB300 NVL72, HGX B300, B200 NVL4 등 기반 시스템을 출하하고 AMD와 Helios·MI450 Total Solution 등을 출시했다고 설명한다. SMCI의 2026회계연도 매출은 전년 대비 78% 증가한 391억달러였고, 4분기에 600억달러 이상의 신규 주문을 받아 2027회계연도 진입 시점에 사상 최대 수준의 수주잔고를 확보했다.",
+      "impact": "SMCI의 AI 서버 수요와 수주잔고 증가는 AI 인프라 업황을 보여주는 자료이지만, 델의 매출·수주·경쟁력에 직접 영향을 주는 내용은 아니다.",
+      "caution": "기사의 주제와 실적은 보유 종목인 델이 아니라 Super Micro Computer에 관한 것이다. 델의 사업이나 주가에 대한 구체적인 언급이 없어 직접적인 투자 판단 근거로 보기 어렵다."
+    },
+    "constellationenergycorporationcegbeatsstockmarketupswingwhatinvestorsneedtoknow": {
+      "title": "Constellation Energy Corporation (CEG) Beats Stock Market Upswing: What Investors Need to Know",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 호재",
+      "summary": "Constellation Energy(CEG)는 최근 거래일에 262.11달러로 마감하며 전 거래일보다 2.91% 상승했고, S&P500의 1.49% 상승률을 웃돌았다. 다만 최근 한 달간 주가는 6.66% 하락해 에너지 섹터의 0.51% 상승과 S&P500의 0.1% 상승을 밑돌았으며, 시장은 향후 실적에서 주당순이익 3.96달러와 전년 대비 30.26% 증가를 예상하고 있다.",
+      "impact": "시장 대비 강한 하루 주가 흐름과 예상 EPS 증가는 CEG에 대한 단기 투자심리와 실적 기대를 지지한다. 전력·에너지 업종 내 상대적 관심이 높아지면 비스트라와 같은 전력 발전 기업에도 업종 투자심리 개선 효과가 일부 나타날 수 있다.",
+      "caution": "기사는 보유 종목인 비스트라의 실적이나 사업을 직접 다루지 않고 CEG의 주가와 시장 전망을 설명한다. CEG의 상승이 비스트라의 실적 개선으로 이어진다는 보장은 없으며, CEG 역시 최근 한 달간 시장 대비 부진했다."
+    },
+    "vistraisdown36fromitsalltimehighistheaipowertradestillworthowning": {
+      "title": "Vistra Is Down 36% From Its All-Time High. Is the AI Power Trade Still Worth Owning?",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "Vistra의 주가는 사상 최고가 대비 36% 하락했으며, 52주 가격 범위는 132.66~219.82달러로 제시됐다. 회사는 미국에서 천연가스·원자력·석탄·태양광 발전 자산을 운영하고 텍사스와 PJM 지역에 집중돼 있으며, 기사에는 평균 목표주가 217.58달러, 선행 12개월 주가수익비율 약 14배, 배당수익률 0.7%가 소개됐다.",
+      "impact": "발전 자산 다각화와 AI 전력 수요 관련 성장 기대는 Vistra의 장기 투자 논리를 뒷받침할 수 있다. 그러나 사상 최고가 대비 큰 폭의 하락은 시장이 성장 기대와 함께 밸류에이션·전력시장 위험도 반영하고 있음을 보여준다.",
+      "caution": "제공된 본문은 기사 서두와 주요 지표 중심으로 끝나 있어 AI 전력 거래의 구체적 수익 전망이나 최종 투자 의견을 확인할 수 없다. 따라서 현재 정보만으로 뚜렷한 호재 또는 악재로 단정하기 어렵다."
+    },
+    "moderatelybullishactivityineosenergywithsharesup215": {
+      "title": "Moderately bullish activity in Eos Energy with shares up 2.15%",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "Eos Energy(EOSE)는 8센트, 2.15% 상승한 약 4.04달러에 거래됐고, 옵션 거래량은 약 4만3000계약으로 평균과 비슷했다. 콜옵션이 풋옵션보다 우세해 풋·콜 비율은 0.16으로 통상 수준인 0.35보다 낮았지만, 풋옵션 스큐는 하방 보호 수요 증가를 나타냈고 Needham은 목표주가를 11달러에서 10달러로 낮췄다.",
+      "impact": "주가 상승과 콜옵션 우위는 Eos Energy에 대한 단기적인 강세 심리를 보여주는 요소다. 다만 목표주가 하향과 하방 보호 수요는 시장이 상승 여력과 함께 변동성·하락 위험도 크게 보고 있음을 의미한다.",
+      "caution": "옵션 흐름은 단기 수급·심리를 나타낼 뿐 기업의 실적이나 사업 펀더멘털을 확정하지 않는다. 기사에 구체적인 매출·수주·현금흐름 개선 내용도 없다."
+    },
+    "almontyclearsfinalhurdletostartproducingtungstenatsouthkoreamine": {
+      "title": "Almonty clears final hurdle to start producing tungsten at South Korea mine",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "Almonty Industries는 한국 정부로부터 상동 텅스텐 광산에서 텅스텐 정광을 상업적으로 처리할 수 있는 승인을 받았다. 한국 당국은 2026년 9월 17일 파쇄·처리 시설의 운영 및 국내외 정광 판매를 허가했으며, 상동 광산은 연간 약 20만 MTU 생산이 예상된다.",
+      "impact": "이번 승인은 상동 광산의 상업 생산과 정광 판매를 시작하기 위해 필요한 최종 규제 절차를 통과했다는 의미다. 생산과 국내외 판매가 현실화되면 알먼티의 매출·현금흐름 창출 기반과 텅스텐 공급망 내 전략적 가치가 강화될 수 있다.",
+      "caution": "본문에는 실제 상업 생산 개시일, 생산량 달성 여부, 판매계약이나 수익성에 대한 내용이 없다. 따라서 승인 자체는 긍정적이지만 생산 ramp-up과 실적 반영에는 실행 위험이 남아 있다."
+    },
+    "jimcrameroncredocrdoithinkyoucanbuythestock": {
+      "title": "Jim Cramer on Credo (CRDO): “I Think You Can Buy the Stock”",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "Jim Cramer는 2026년 9월 17일 ‘Mad Money’에서 크레도 테크놀로지(CRDO)에 대해 최근 6개월간 주가가 부진했지만 매수할 수 있는 수준이라며 지지 의견을 밝혔다. 그는 칩렛, 패키징, 배선 등 크레도의 사업 분야를 긍정적으로 평가했으며, 회사는 2027 회계연도 1분기에 매출 4억7,900만 달러와 전년 대비 114.7% 성장을 기록했다.",
+      "impact": "유명 투자자의 매수 의견과 고속 인터커넥트 수요에 따른 매출 성장은 투자심리와 크레도의 성장 기대를 높일 수 있다. 다만 Cramer의 의견은 정성적 평가에 가깝고, 기사에 제시된 실적 정보도 일부만 제공됐다.",
+      "caution": "Cramer의 발언은 개인 의견이며 목표주가나 구체적인 기업가치 평가를 제시하지 않았다. 기사 본문이 2027 회계연도 1분기 실적 설명 중간에 끝나 전체 재무 상황을 확인하기 어렵다."
+    },
+    "alphabetpushesdeeperintovoiceaiwithnewgeminimodels": {
+      "title": "Alphabet Pushes Deeper Into Voice AI With New Gemini Models",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "알파벳은 음성 기반 AI 에이전트를 위해 Gemini 3.8 Live와 Gemini 3.8 Live Extended Thinking을 출시했다. Gemini 3.8 Live는 대화 중 도구 및 API 호출, 거의 실시간에 가까운 시각 정보 처리, 97개 언어 전환 기능을 지원하며, 알파벳이 AI 경쟁력 강화를 위해 투자한 방향을 보여준다.",
+      "impact": "기능이 강화된 Gemini 모델은 검색, 클라우드 및 AI 서비스의 사용 확대와 수익화 기회를 높여 알파벳의 장기적인 매출과 경쟁력에 기여할 수 있다. 특히 API와 도구 호출 기능은 기업용 AI 에이전트 활용을 넓히는 경로가 될 수 있다.",
+      "caution": "기사에는 출시 사실과 기능은 제시됐지만 사용자 수, 매출 기여도, 비용 및 수익성에 관한 구체적인 수치가 없다."
+    },
+    "dellridesongrowingaiclientelecanthestockoutpacesmcicsco": {
+      "title": "DELL Rides on Growing AI Clientele: Can the Stock Outpace SMCI & CSCO?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "Dell Technologies는 2027 회계연도 2분기에 AI Factory 고객이 6,500곳을 넘었고, 최근 3개 분기 동안 3,300곳이 추가됐다고 밝혔다. 기사는 Dell의 AI 인프라 수요 확대를 설명하면서 경쟁사로 Super Micro Computer와 Cisco Systems(CSCO)를 언급한다.",
+      "impact": "Dell의 AI 인프라 고객 확대는 Cisco가 경쟁하는 AI 네트워킹 시장의 성장성을 보여줄 수 있지만, 기사 자체는 Dell의 실적과 전략을 중심으로 다룬다. Cisco의 매출, 수주 또는 시장점유율 변화가 직접 제시되지 않아 보유 종목에 대한 방향성은 제한적이다.",
+      "caution": "기사의 주제는 Cisco가 아니라 Dell이며, Cisco는 경쟁사로 언급된 수준이므로 보유 종목에 직접적인 호재나 악재로 판단하기 어렵다."
+    },
+    "whyisvertivstockupsharplyoverthepastyearyetwellbelowitspeak": {
+      "title": "Why Is Vertiv Stock Up Sharply Over The Past Year Yet Well Below Its Peak?",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "Vertiv 주가는 지난 1년간 75.9% 상승했지만 52주 최고가보다 약 3분의 1 낮은 수준에 있다. 2026년 2분기 순매출은 전년 대비 24% 증가했고, 미주와 아시아·태평양 매출은 각각 29%, EMEA 매출은 2% 늘었으며, 조정 영업이익률은 22.6%로 410bp 상승했다.",
+      "impact": "AI 데이터센터에 필요한 전력·냉각 장비 수요와 매출 및 영업이익률 개선은 Vertiv의 실적과 수익성에 긍정적이다. 말레이시아 조호르와 미주 공장 증설은 증가하는 수요에 대응할 생산능력 확대 경로를 제공한다.",
+      "caution": "기사 제목과 본문은 주가가 고점보다 낮은 이유로 납기 및 실행 능력에 대한 우려를 제기한다. 주가가 이미 지난 1년간 75.9% 상승해 기대치가 높아졌다는 점도 부담일 수 있다."
+    },
+    "lockheedwinsusarmymissilecontractworthupto12billion": {
+      "title": "Lockheed wins US Army missile contract worth up to $1.2 billion",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 미국 육군으로부터 차세대 장거리 정밀타격 미사일인 PrSM Increment 2 생산 계약을 최대 12억 달러 규모로 수주했다. 계약은 이동 해상 표적 교전 능력을 입증한 두 번째 시험 비행 성공 이후 체결됐으며, 회사는 장거리 타격 무기 수요 증가에 맞춰 PrSM 생산을 확대하고 있다.",
+      "impact": "최대 12억 달러 규모의 군 계약은 록히드마틴의 수주잔고와 향후 매출 가시성을 높일 수 있다. 성공적인 시험과 생산 확대는 PrSM이 ATACMS를 대체하는 차세대 체계로 채택되는 과정에서 회사의 방산 사업 경쟁력을 강화한다.",
+      "caution": "계약 금액은 ‘최대’ 12억 달러로 실제 매출 인식 규모와 시점은 확정되지 않았다. 기사에는 계약의 세부 기간이나 수익성 정보가 제시되지 않았다."
+    },
+    "microsoftmsftstocklooksreasonabledespiteits75fiveyearrun": {
+      "title": "Microsoft (MSFT) Stock Looks Reasonable Despite Its 75% Five Year Run",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "마이크로소프트 주가는 2026년 9월 21일 493.78달러로 마감했으며, 최근 5년간 74.9% 상승했다. 인공지능 파트너십과 인프라 투자는 향후 현금흐름을 뒷받침할 수 있지만 지출과 위험도 높이며, 기사에서는 주가의 27.4배 주가수익비율(P/E)을 바탕으로 밸류에이션이 합리적인지 검토한다.",
+      "impact": "AI와 데이터센터 투자가 장기적으로 클라우드 및 소프트웨어 현금창출력을 높일 가능성은 마이크로소프트에 긍정적이다. 다만 현재 주가와 27.4배 P/E에 미래 성장 기대가 반영돼 있어, 실제 현금흐름 증가가 밸류에이션을 정당화해야 한다.",
+      "caution": "본문은 ‘합리적으로 보인다’는 분석 방향을 제시하지만 목표주가나 구체적인 현금흐름 전망은 제공하지 않는다. AI 관련 대규모 지출은 수익 창출 전까지 비용과 투자 위험으로 작용할 수 있다."
+    },
+    "whathappenstonikestocksyieldifthestockdoubles": {
+      "title": "What Happens to Nike Stock's Yield if the Stock Doubles?",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "나이키는 2025년 11월 주당 배당금을 0.40달러에서 0.41달러로 올렸고, 이는 24년 연속 배당 인상이다. 지난 10년간 배당금은 약 128% 증가했으며, 주가 하락으로 현재 배당수익률은 사상 최고 수준인 4.6%에 이르렀고 기사에서는 주가가 두 배가 될 경우의 수익률 변화를 가정한다.",
+      "impact": "지속적인 배당 인상과 4.6%의 높은 현재 배당수익률은 나이키의 주주환원 매력을 높인다. 그러나 주가가 두 배가 되면 동일한 주당 배당금 기준 수익률은 낮아지는 구조이므로, 주가 상승 자체가 배당수익률 개선을 의미하지는 않는다.",
+      "caution": "주가가 두 배가 되는 상황은 가정일 뿐이며 실제 배당금이나 주가 회복을 보장하지 않는다. 기사에는 최근 영업실적이나 배당 지속 가능성을 판단할 현금흐름 정보가 충분히 제시되지 않았다."
+    },
+    "novonordisksharesplungeover7asnewtargetsfailtoreassureinvestors": {
+      "title": "Novo Nordisk shares plunge over 7% as new targets fail to reassure investors",
+      "holding": "노보노디스크 ADR",
+      "stance": "악재",
+      "summary": "노보 노디스크의 미국 상장 주가는 2026년 9월 21일 7% 넘게 하락해 39.82달러를 기록했다. 회사가 2030년까지 5개 이상의 블록버스터 의약품을 출시하고 2035년까지 위험조정 파이프라인 매출 1,500억 덴마크크로네(230억 달러) 이상을 목표로 제시했지만, 체중감량 약물 시장의 경쟁 우려를 완화하지 못했다.",
+      "impact": "장기 성장 목표에도 시장이 안심하지 못했다는 점은 노보 노디스크의 체중감량 치료제 경쟁력과 미래 성장률에 대한 투자자 신뢰가 약해졌음을 보여준다. 주가 급락은 경쟁 심화 우려가 밸류에이션과 자금조달·투자심리에 즉각적인 악영향을 준 결과로 볼 수 있다.",
+      "caution": "기사에 따르면 회사는 2026~2030년 매출 성장률이 일라이 릴리, 아스트라제네카 등 업계 동종 기업과 비슷할 것으로 예상했지만, 목표 달성 여부와 경쟁사별 실제 실적은 확인되지 않았다."
+    },
+    "nexteraenergyanddominionenergyexpandvirginiamergerbenefitswithfouryearsofbillcreditsand1000newjobs": {
+      "title": "NextEra Energy And Dominion Energy Expand Virginia Merger Benefits With Four Years Of Bill Credits And 1,000 New Jobs",
+      "holding": "넥스트에라 에너지",
+      "stance": "약한 호재",
+      "summary": "넥스트에라 에너지와 도미니언 에너지는 제안된 합병과 관련해 주거용 고객에게 월 10달러의 요금 크레딧을 4년간 제공하고, 저소득층 에너지 지원금을 1억 달러 추가하는 방안을 내놓았다. 또한 버지니아주에 1,000개의 일자리를 만들고 리치먼드에 주주 부담의 공동 본사 타워를 건설할 계획이며, 거래는 규제 승인과 종결을 조건으로 한다.",
+      "impact": "합병에 따른 고객·지역사회 편익을 확대하면 버지니아 규제당국과 이해관계자의 수용 가능성을 높여 넥스트에라의 거래 성사와 장기적 사업 확장에 긍정적으로 작용할 수 있다. 다만 요금 크레딧과 추가 지원금은 합병 비용 또는 주주 부담으로 이어질 가능성이 있다.",
+      "caution": "합병은 아직 버지니아주 규제 승인과 거래 종결이 필요하며, 기사에는 규제 승인 가능성이나 합병의 재무적 효과가 제시되지 않았다."
+    },
+    "occidentalpetroleumoxystockdeclineswhilemarketimprovessomeinformationforinvestors": {
+      "title": "Occidental Petroleum (OXY) Stock Declines While Market Improves: Some Information for Investors",
+      "holding": "옥시덴탈 페트롤리엄",
+      "stance": "약한 악재",
+      "summary": "옥시덴탈 페트롤리엄 주가는 2026년 9월 21일 57.25달러로 마감해 전 거래일보다 2.7% 하락했고, 같은 날 S&P 500은 1.49%, 다우지수는 0.71%, 나스닥은 2.26% 상승했다. OXY는 최근 한 달 동안 4.01% 하락해 석유·에너지 업종의 0.51% 상승과 S&P 500의 0.1% 상승을 밑돌았으며, 다음 실적에서 주당순이익 1.37달러가 예상된다고 보도됐다.",
+      "impact": "시장과 관련 업종이 상승한 날에도 OXY가 하락하고 최근 한 달간 상대적으로 부진했다는 점은 투자심리와 단기 주가 흐름에 부정적이다. 다만 예상 EPS 1.37달러와 전년 동기 대비 114.06% 증가 전망은 실적 기대를 통해 부정적 영향을 일부 상쇄할 수 있다.",
+      "caution": "기사는 주가 움직임과 시장 전망을 중심으로 하며, 하락의 구체적 원인이나 향후 유가·생산·부채 전망을 설명하지 않는다. 또한 본문이 중간에 끊겨 있어 실적 전망의 세부 근거를 확인하기 어렵다."
+    },
+    "슈퍼사이클조선업계노사갈등에몸살파업장기화우려": {
+      "title": "'슈퍼사이클' 조선업계, 노사 갈등에 몸살…파업 장기화 우려",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "친환경·고부가 선박 수요와 한미 조선 협력 프로젝트 ‘마스가’로 조선업이 장기 호황 국면에 들어섰지만, 임금과 성과급을 둘러싼 노사 갈등이 이어지고 있다고 보도했다. 한화오션 노조는 9월 14일 7시간 파업을 진행하고 18일에는 골리앗 크레인 4대의 가동을 중단했으며, 파업이 장기화할 경우 납기 지연과 비용 증가, 생산 차질이 발생할 수 있다.",
+      "impact": "기사의 직접적인 영향 대상은 한화오션과 HD현대중공업 등 조선사이며, POSCO홀딩스의 실적이나 주가에 미치는 직접 경로는 제시되지 않았다. 조선업의 장기 호황이라는 산업 배경이 언급되지만 POSCO홀딩스에 대한 구체적 수혜나 피해로 연결되지는 않는다.",
+      "caution": "본문은 POSCO홀딩스를 언급하지 않고 다른 조선업체들의 노사 갈등을 다룬 기사이므로 보유 종목 관점에서는 중립으로 판단했다."
+    },
     "삼성sk하이닉스통크게쐈지만갈길먼기업주주환원확대": {
       "title": "삼성·SK하이닉스 통 크게 쐈지만…갈 길 먼 기업 ‘주주환원’ 확대",
       "holding": "SK하이닉스",
