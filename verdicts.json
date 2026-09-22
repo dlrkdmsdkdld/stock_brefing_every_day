@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T08:26:05+09:00",
+  "generated_at": "2026-09-23T08:05:08+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
-  "model": "OpenAI#1/gpt-5.6-luna",
+  "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7472,
-    "output_tokens": 5471
+    "input_tokens": 8200,
+    "output_tokens": 4007
   },
   "skipped": {
     "본문없음": 2,
@@ -12,6 +12,174 @@
     "호출실패": []
   },
   "verdicts": {
+    "반도체주일제히상승마이크론5sk하이닉스345급등": {
+      "title": "美 반도체주 일제히 상승…마이크론 5%·SK하이닉스 3.45% 급등",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "뉴욕증시에서 AI 에이전트 확산 기대감으로 필라델피아 반도체지수가 2.06% 상승한 가운데, SK하이닉스 미국 주식예탁증서(ADR)는 3.45% 오른 195.37달러를 기록했다. 메타의 AI 에이전트 '뮤즈' 흥행으로 향후 복잡한 연산에 따른 AI용 반도체 및 메모리 수요 확대 기대가 커졌다.",
+      "impact": "AI 에이전트 확산으로 인한 연산 수요 급증이 메모리 반도체 수요로 직결되어 SK하이닉스의 실적과 주가에 긍정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "1000주면460만원삼성전자배당28일까지사야받는다잇슈": {
+      "title": "“1000주면 460만 원?”…삼성전자 배당, 28일까지 사야 받는다 [잇슈...",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자가 올해 주주환원 규모를 기존 90조 원에서 110조 원으로 확대하고, 이 중 3분기에 약 30조 원을 먼저 현금 배당한다. 증권가에서는 주당 약 4,500원~4,604원으로 추산하고 있으며, 배당을 받기 위해서는 9월 28일까지 주식을 매수해야 한다.",
+      "impact": "역대급 규모의 현금 배당이 주주 환원 강화로 이어져 투자 매력도를 높이고 주가에 긍정적으로 작용한다.",
+      "caution": "제시된 배당금 수치는 증권사 추정치이며 최종 확정 배당금은 10월 말 이사회에서 결정된다."
+    },
+    "hd현대울산발전엔진공장에17조투자": {
+      "title": "HD현대, 울산 ‘발전 엔진’ 공장에 1.7조 투자",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업이 울산에 1조 722억 원을 투자하여 AI 데이터센터 전력 수요에 대응할 발전 엔진 공장과 소형모듈원자로(SMR) 주기기 전용공장을 건립한다. 관련 협약식은 22일 울산시청에서 김상욱 울산시장과 이상균 HD현대중공업 대표이사가 참석한 가운데 진행됐다.",
+      "impact": "대규모 설비 투자를 통해 AI 데이터센터 관련 전력 인프라 및 SMR 시장 수요에 선제적으로 대응함으로써 미래 성장 동력을 확보한다.",
+      "caution": ""
+    },
+    "dellfalls25as1199googlebooktestspcmargin": {
+      "title": "Dell Falls 2.5% as $1,199 Googlebook Tests PC Margin",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "델 테크놀로지스가 1,199달러짜리 프리미엄 AI 노트북 'XPS 구글북'을 출시하며 PC 마진에 대한 시험대에 오른 가운데, 주가는 약 2.5% 하락한 561.01달러를 기록했다. 다만 최근 분기 609억 달러의 AI 서버 수주와 164억 달러의 AI 서버 매출을 기록하며 AI 서버 부문에서 강력한 성장 엔진을 유지하고 있다.",
+      "impact": "신제품 출시와 관련된 마진 우려 등으로 주가가 단기 조정을 받았으나, 거대한 AI 서버 사업이 실적을 방어하고 있다.",
+      "caution": "주가가 밸류에이션 추정치 대비 높게 형성되어 있어 성장 기대감이 이미 주가에 상당 부분 반영되어 있다."
+    },
+    "canconstellationenergyreduceefofandimprovefleetperformance": {
+      "title": "Can Constellation Energy Reduce EFOF and Improve Fleet Performance?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 악재",
+      "summary": "컨스텔레이션 에너지는 2026년 1월 캘파인(Calpine) 인수로 발전 설비 용량이 확대되었으나, 강제 가동 중단 및 가동 능력 저하를 측정하는 지표인 환산 강제 정지율(EFOF)이 2026년 1분기 4.5%에서 2분기 6.2%로 상승했다. 이 지표는 천연가스, 석유, 양수발전 등 다양한 발전 기술을 아우르는 복합 함량 기준이다.",
+      "impact": "EFOF 상승은 발전 설비의 예기치 않은 가동 중단 비율이 늘었음을 뜻하며, 전력 수요가 높은 시기에 운영 효율성에 부담을 줄 수 있다.",
+      "caution": "EFOF는 여러 발전 기술을 결합한 복합 지표이므로 단일 벤치마크와 직접 비교하기 어렵다."
+    },
+    "isvistravstabargainorfullypricedafternewpowerdeals": {
+      "title": "Is Vistra (VST) A Bargain Or Fully Priced After New Power Deals?",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "비스트라 에너지는 최근 몇 년간 주가가 크게 상승한 후 최근 조정을 받으며, 뉴에라 에너지 & 디지털 및 아마존 웹 서비스(AWS)와의 20년 전력 구매 계약(PPA)이 장기적인 전력 수요를 뒷받침할 수 있을지 주목받고 있다.",
+      "impact": "대규모 장기 전력 계약이 향후 안정적인 수익 창출 가시성을 높여주지만, 이미 과거 주가 상승에 많은 실적이 선반영되어 추가적인 상승 여력에 대한 평가는 엇갈리고 있다.",
+      "caution": ""
+    },
+    "formereosenergyofficernasdaqeoselinesupsharesaletiedtorsutaxbill": {
+      "title": "Former Eos Energy officer (NASDAQ: EOSE) lines up share sale tied to RSU tax bill",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "이오스 에너지의 전직 임원 Michael Silberman이 제한조건부 주식(RSU) 베스팅에 따른 세금 원천징수 의무를 충당하기 위해 보통주 114,650주를 매각할 계획과 관련된 Form 144 통지서를 제출했다. 매각 예정인 주식의 총 시장 가치는 467,263달러이며, 발행주식 총수는 364,167,744주이다.",
+      "impact": "임원의 주식 매각은 세금 납부 목적의 기계적인 매도에 해당하여 기업의 근본적인 펀더멘털이나 사업 방향에 직접적인 타격을 주지 않는다.",
+      "caution": ""
+    },
+    "almontyssangdongoutputlockedinaswashingtonredrawstungstensupplylines": {
+      "title": "Almonty's Sangdong Output Locked In as Washington Redraws Tungsten Supply Lines",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인두스트리즈는 중국 외 지역에서 텅스텐 공급을 원하는 서구권 구매자들의 수요 속에서 한국 상동 프로젝트를 통해 계약 기반 매출을 확보하고 있다. 상동 프로젝트 1단계 가공 공장은 연간 64만 톤의 광석을 처리할 수 있으며, 이 물량의 90% 이상이 글로벌 텅스텐 & 파우더스(GTP)와의 21년 오프테이크 계약을 통해 이미 선점되었다.",
+      "impact": "서방권의 텅스텐 공급망 재편 속에서 안정적인 장기 오프테이크 계약을 통해 확정된 수요와 매출 기반을 확보하여 기업 가치를 높인다.",
+      "caution": ""
+    },
+    "oneundertheradarstockwith100upsidepotential": {
+      "title": "One Under-the-Radar Stock With 100% Upside Potential",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "크레도 테크놀로지는 코헤인트 등과 함께 수익성 있는 성장 경로를 보여주는 사례로 언급되며, 115%의 매출 성장과 주당순이익(EPS) 2.83달러를 기록했다.",
+      "impact": "강력한 재무 성장세와 실적이 부각되면서 크레도 테크놀로지의 기업 가치와 투자 매력도가 높아지는 방향으로 작용한다.",
+      "caution": "기사의 주된 초점은 POET 테크놀로지에 있으며, 크레도는 비교 대상으로만 간략히 언급되었다."
+    },
+    "vgtholdersboughttechandownnogooglemetaoramazonthesectorrulethatdecideswhatsinside": {
+      "title": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "Vanguard Information Technology ETF(VGT)의 GICS 분류 규칙으로 인해 알파벳, 메타, 아마존이 지수에서 제외되어 있다는 내용이다.",
+      "impact": "보유 종목인 알파벳 A가 특정 ETF에 포함되지 않는다는 구조적 특성을 설명할 뿐, 알파벳 자체의 기업 실적이나 주가에 직접적인 매수·매도 압력을 주지 않는다.",
+      "caution": "기사는 특정 펀드의 구성 종목과 지수 규칙을 다룰 뿐 알파벳의 개별 호재나 악재를 다루지 않는다."
+    },
+    "ciscosinks6whilethetechsectorrisesaristaandcienaholdflat": {
+      "title": "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 악재",
+      "summary": "시스코 시스템즈는 기술 섹터가 상승하는 중에도 6% 하락하여 약 105달러를 기록했으나, 이는 AI 네트워킹 수요 감소가 아닌 단기 차익실현에 기인한 것으로 분석되었다.",
+      "impact": "주가가 6% 하락하며 단기적인 주가 하방 압력으로 작용하나, 섹터 전반의 수요 둔화가 아니라는 점에서 근본적인 펀더멘털 훼손은 제한적이다.",
+      "caution": "파이퍼 샌들러의 목표주가 125달러는 여전히 현재 주가보다 높게 유지되고 있다."
+    },
+    "vertivholdingscovrtstockmoves104whatyoushouldknow": {
+      "title": "Vertiv Holdings Co. (VRT) Stock Moves 1.04%: What You Should Know",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브 홀딩스는 최근 거래일에서 1.04% 상승한 253.46달러로 마감했으며, 다가오는 실적 발표에서 주당순이익 1.83달러와 매출 37억 7000만 달러가 예상된다.",
+      "impact": "주가 변동폭이 크지 않고 다가올 실적 컨센서스를 전달하는 정보성 기사로, 방향성에 큰 영향을 주지 않는다.",
+      "caution": ""
+    },
+    "lockheedmartinlmtstockmoves244whatyoushouldknow": {
+      "title": "Lockheed Martin (LMT) Stock Moves -2.44%: What You Should Know",
+      "holding": "록히드마틴",
+      "stance": "약한 악재",
+      "summary": "록히드마틴은 최근 세션에서 2.44% 하락한 522.34달러로 마감했으며, 다가오는 실적 발표에서 주당순이익 7.25달러와 매출 203억 5000만 달러가 전망된다.",
+      "impact": "최근 주가 하락세와 방위산업 섹터의 부진이 겹치며 단기적으로 투자 심리에 부정적인 영향을 미친다.",
+      "caution": "예상 실적 자체는 전년 동기 대비 성장이 전망되고 있다."
+    },
+    "microsoftmsftraisesitsdividend8doesaispendingchangetheinvestmentcase": {
+      "title": "Microsoft (MSFT) Raises Its Dividend 8%. Does AI Spending Change the Investment Case?",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트는 클라우드와 AI 투자를 확대하는 가운데서도 주주 환원을 위해 분기 배당금을 8% 인상한 주당 0.98달러로 결정했다.",
+      "impact": "대규모 AI 투자 와중에도 탄탄한 현금 창출력과 주주 환원 의지를 보여줌으로써 투자자들의 신뢰를 높이고 주가에 호재로 작용한다.",
+      "caution": ""
+    },
+    "nikesharesholdingsteadyaftersp100drop": {
+      "title": "Nike Shares Holding Steady After S&P 100 Drop",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "나이키는 시가총액 급감과 최근 주가 78% 하락의 여파로 S&P 100 지수에서 제외되었으며, 주가는 36.10달러에서 보합세를 보였다.",
+      "impact": "대형 우량주 지수인 S&P 100에서 방출됨에 따라 지수를 추종하는 패시브 자금 이탈 및 브랜드 위상 저하로 이어질 수 있다.",
+      "caution": "나이키는 여전히 광범위한 S&P 500 지수에는 포함되어 있다."
+    },
+    "novonordiskhasafreshnewnamebutitstillfacesthesameoldproblems": {
+      "title": "Novo Nordisk Has a Fresh New Name -- but It Still Faces the Same Old Problems",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "노보노디스크는 GLP-1 비만 치료제 시장에서 일라이릴리에 주도권을 내어준 상황에서 알약 형태의 신제품 출시와 함께 사명을 'Novo'로 변경하는 리브랜딩을 진행하고 있다.",
+      "impact": "중요한 신제품 출시 시점에 혼란을 줄 수 있는 사명 변경을 단행하여 경쟁 심화 속에서 마케팅 및 브랜드 이미지 관리 측면의 리스크로 작용한다.",
+      "caution": "알약 형태의 GLP-1 신약이 성공할 경우 반전의 계기가 될 수 있다."
+    },
+    "neestockcloseslowerafterthebell": {
+      "title": "NEE stock closes lower after the bell",
+      "holding": "넥스트에라 에너지",
+      "stance": "약한 악재",
+      "summary": "2026년 9월 22일 뉴욕증권거래소에서 넥스트에라 에너지(NEE) 주가는 전장 대비 1.1% 하락한 79.60달러로 마감했다. 이날 거래 범위는 79.55달러에서 81.00달러를 기록했다. 또한 넥스트에라 에너지는 도미니언 에너지와 함께 2027년 하반기 완료를 목표로 하는 버지니아 관련 복합 패키지를 공개했다.",
+      "impact": "단기 주가 하락과 전일 종가(80.47달러) 대비 부진한 거래 흐름은 투자 심리에 단기적으로 부정적일 수 있다.",
+      "caution": "장기 프로젝트인 도미니언 에너지와의 협력 발표는 미래 성장 요인이지만 단기 주가 하락 흐름이 우선 반영되었다."
+    },
+    "jpmorganchasecojpmstockmoves334whatyoushouldknow": {
+      "title": "JPMorgan Chase & Co. (JPM) Stock Moves -3.34%: What You Should Know",
+      "holding": "JP모건 체이스",
+      "stance": "약한 악재",
+      "summary": "2026년 9월 22일 JP모건 체이스(JPM) 주가는 전 거래일 대비 3.34% 하락한 340.29달러로 마감했다. 주가는 지난 한 달간 1.22% 하락하여 금융 섹터와 S&P 500의 수익률을 밑돌았다. 오는 10월 13일 예정된 실적 발표에서 애널리스트들은 주당순이익(EPS) 5.84달러를 예상하고 있다.",
+      "impact": "최근 거래일의 주가 하락과 한 달간 지수 대비 부진한 수익률은 단기적인 투자 심리를 위축시킨다.",
+      "caution": "향후 발표될 실적에서 예상치를 상회하는 성과를 낼 경우 반등할 여지가 있다."
+    },
+    "spotifyspotstockmoves326whatyoushouldknow": {
+      "title": "Spotify (SPOT) Stock Moves -3.26%: What You Should Know",
+      "holding": "스포티파이",
+      "stance": "약한 악재",
+      "summary": "2026년 9월 22일 스포티파이(SPOT) 주가는 전일 대비 3.26% 하락한 499.91달러로 장을 마감했다. 지난 한 달 동안 주가는 3.92% 하락하여 컴퓨터 및 기술 섹터와 S&P 500 상승세에 미치지 못했다. 향후 실적 발표에서 예상되는 주당순이익은 3.24달러로 전년 동기 대비 15.4% 감소할 것으로 전망된다.",
+      "impact": "주가 하락세와 더불어 전년 대비 감익이 예상되는 실적 전망은 단기적으로 주가에 부정적 요인으로 작용한다.",
+      "caution": "예상 매출액은 5억 7600만 달러 규모로 제시되었으며 향후 실제 실적에 따라 변동성이 클 수 있다."
+    },
+    "수익률에가린esg투자국민연금투자기업온실가스연4억t": {
+      "title": "\"수익률에 가린 ESG투자…국민연금 투자기업, 온실가스 연 4억t\"",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "국민연금이 포스코와 삼성전자 등 주요 온실가스 배출 기업에 188조원을 투자하고 있다는 지적이 국정감사에서 제기되었다. 국민연금의 책임투자 원칙 강화에도 불구하고 이들 기업은 연간 3억 9천만 톤의 온실가스를 배출하며 전체의 약 60%를 차지하고 있다.",
+      "impact": "보유 종목인 POSCO홀딩스가 국민연금의 주요 투자 및 온실가스 배출 기업으로 언급되었으나, 직접적인 실적이나 사업 제재로 이어지는 내용은 아니다.",
+      "caution": "기사의 주된 내용은 국민연금의 ESG 책임투자 실효성 지적이며 특정 기업에 대한 개별 악재라기보다는 거시적 정책 논의에 가깝다."
+    },
+    "임신준비돕는피하주사제출시1위자궁내막증치료제도입조선비즈": {
+      "title": "임신 준비 돕는 피하주사제 출시… 日 1위 자궁내막증 치료제 도입 - 조선비즈",
+      "holding": "LG화학",
+      "stance": "호재",
+      "summary": "LG화학은 난임 치료제 피하주사 '유티프로'를 지난 5월 국내에 출시해 수급 불안을 낮췄으며, 지난 4월에는 일본 모치다제약의 자궁내막증 치료제 '디나게스트'를 도입해 여성 건강 의약품 포트폴리오를 확대했다. 유티프로는 황체기 보조 치료에 사용되며 식품의약품안전처 품목 허가를 받았다.",
+      "impact": "신제품 출시와 여성 건강 의약품 포트폴리오 확장은 제약 사업 부문의 매출 성장과 포트폴리오 다변화에 긍정적인 영향을 미친다.",
+      "caution": "신제품들의 시장 점유율 확대 속도와 실제 매출 기여도는 향후 모니터링이 필요하다."
+    },
     "단독반도체화학사고5년간12건sk하이닉스삼성전자가11건": {
       "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건",
       "holding": "삼성전자",
