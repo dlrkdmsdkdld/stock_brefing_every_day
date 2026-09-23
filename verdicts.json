@@ -1,17 +1,193 @@
 {
-  "generated_at": "2026-09-23T08:05:08+09:00",
+  "generated_at": "2026-09-24T08:03:40+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8200,
-    "output_tokens": 4007
+    "input_tokens": 8541,
+    "output_tokens": 4398
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 3,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "마이크론매출또신기록쓰나hbm4로삼성sk하이닉스맹추격": {
+      "title": "마이크론, 매출 또 신기록 쓰나…HBM4로 삼성·SK하이닉스 ‘맹추격’",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "마이크론이 2026 회계연도 4분기 매출 500억달러 전망과 함께 HBM4 대량 출하 및 인증용 샘플 공급을 진행하며 SK하이닉스와 삼성전자를 맹추격하고 있다.",
+      "impact": "경쟁사인 마이크론이 HBM4를 앞세워 공급을 확대하고 시장 점유율을 위협하면서 SK하이닉스의 독점력이나 프리미엄에 하방 압력으로 작용할 수 있다.",
+      "caution": ""
+    },
+    "삼성전자온누리상품권아직도미지급국민감사가국민분통으로": {
+      "title": "삼성전자 온누리상품권 아직도 미지급…‘국민감사’가 ’국민분통’으로",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자가 지난 6월부터 7월까지 진행한 가전·모바일 감사 페스티벌에서 구매 금액의 20%를 지급하기로 한 온누리상품권의 지급이 두 달 이상 지연되면서 소비자들의 불만이 커지고 있다.",
+      "impact": "예상보다 훨씬 많은 약 4조원 규모의 판매로 인해 약 8천억원에 달하는 상품권 지급이 늦어지며 브랜드 이미지와 소비자 신뢰도에 부정적인 영향을 줄 수 있다.",
+      "caution": ""
+    },
+    "슈퍼사이클인데우울한추석정부막아도계속파업": {
+      "title": "슈퍼사이클인데 ‘우울한 추석’…정부 막아도 '계속 파업'",
+      "holding": "HD현대중공업",
+      "stance": "약한 악재",
+      "summary": "HD현대중공업 노조가 추석 연휴를 앞두고 임단협을 마무리하지 못한 채 조선업종노동연대와 공동 파업 등 투쟁 수위를 높일 예정이며, 영업이익의 30% 이상을 성과급 재원으로 요구하고 있다.",
+      "impact": "파업 장기화 및 성과급 갈등이 R&D 설비 투자 지연과 생산 차질로 이어져 회사의 수익성과 비용 부담을 가중시킬 우려가 있다.",
+      "caution": ""
+    },
+    "ubsseespcsalesshrinkingagainin2027dellandhpinvestorsarenthappy": {
+      "title": "UBS Sees PC Sales Shrinking Again in 2027. Dell and HP Investors Aren’t Happy",
+      "holding": "델",
+      "stance": "악재",
+      "summary": "UBS가 메모리 가격 인상을 이유로 2027년 PC 출하량 전망을 성장세에서 감소세로 하향 조정하면서 델(Dell) 주가가 HP보다 더 큰 폭으로 하락했다.",
+      "impact": "메모리 가격 상승과 PC 수요 둔화 전망이 겹치면서 델의 실적 성장 기대감에 직접적인 타격을 주고 주가 하락을 유발했다.",
+      "caution": ""
+    },
+    "pantheoninfrastructuresellshalfitsstakeinconstellationenergytogenerate445mmorecashforreinvestment": {
+      "title": "Pantheon Infrastructure sells half its stake in Constellation Energy to generate $44.5m more cash for reinvestment",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "판테온 인프라스트럭처가 재투자 재원 마련을 위해 컨스텔레이션 에너지 지분의 절반을 매각했으며, 앞서 데이터센터 공급 계약 부재 우려로 컨스텔레이션 주가가 30% 하락한 바 있다.",
+      "impact": "지분 매각과 과거 주가 하락 소식이 언급되었으나 컨스텔레이션 에너지 자체의 직접적인 영업 실적이나 신규 계약 변화를 나타내는 내용은 아니다.",
+      "caution": "타사의 포트폴리오 조정 및 과거 주가 변동을 다룬 내용으로 현재 컨스텔레이션 에너지의 펀더멘털 변화를 직접 시사하진 않는다."
+    },
+    "vistracorpvstseesamoresignificantdipthanbroadermarketsomefactstoknow": {
+      "title": "Vistra Corp. (VST) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "비스트라 에너지(VST) 주가가 최근 세션에서 1.74% 하락하며 S&P 500 등 광범위한 시장 지수와 유틸리티 섹터 대비 부진한 흐름을 보였다.",
+      "impact": "최근 주가 하락세는 단기적인 차익실현이나 시장 전반의 변동성에 영향을 받았으나, 다가오는 실적 발표를 앞두고 관망세가 짙어질 수 있다.",
+      "caution": ""
+    },
+    "eosestockslipsaslegalscrutinyandshareoverhanggrow": {
+      "title": "EOSE Stock Slips As Legal Scrutiny And Share Overhang Grow",
+      "holding": "이오스 에너지",
+      "stance": "악재",
+      "summary": "이오스 에너지 엔터프라이즈(EOSE) 주가가 유동성 리스크와 자금 조달 불확실성에 따른 약세 심리로 인해 8.87% 하락했다.",
+      "impact": "증권 관련 로펌의 기업 불법행위 조사 착수와 최대 5650만 주의 보통주 재발행을 위한 등록 서류 제출 등이 겹쳐 주가 하방 압력과 지분 희석 우려를 키우고 있다.",
+      "caution": ""
+    },
+    "should16topticslaunchrequireactionfromcredostockinvestors": {
+      "title": "Should 1.6T Optics Launch Require Action From Credo Stock Investors?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지 홀딩스의 1.6T 제로플랩(ZeroFlap) 광학 부품 및 관련 제품들이 안정적인 광학 매출로 원활하게 전환될지가 향후 주가의 핵심 변수로 지목됐다.",
+      "impact": "AI 인프라 수요 지속과 제품 전환 과정에서 높은 기대치에 부응해야 하는 실행력과 고객 집중도 리스크가 공존하고 있다.",
+      "caution": "특정 호재나 악재가 확정된 것이 아니라 향후 실적 전환 과정의 리스크와 관전 포인트를 다룬 분석 기사이다."
+    },
+    "alphabetincgoogdipsmorethanbroadermarketwhatyoushouldknow": {
+      "title": "Alphabet Inc. (GOOG) Dips More Than Broader Market: What You Should Know",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳 A(GOOG) 주가는 직전 거래일 대비 3.58% 하락한 334.98달러로 마감하여 S&P 500의 하락폭(0.76%)보다 부진했다. 최근 한 달간 주가는 1.19% 상승했으나 컴퓨터 및 기술 섹터의 상승률(6.68%)에는 미치지 못했다. 향후 발표될 실적에서 예상 EPS는 2.93달러로 전년 동기 대비 2.09% 증가할 것으로 전망된다.",
+      "impact": "단기적인 주가 하락과 시장 대비 부진한 수익률을 기록했으나 향후 실적 발표를 앞두고 있어 방향성이 결정될 시점이다.",
+      "caution": "단순 시세 하락 및 실적 기대치 언급 외에 기업의 근본적인 펀더멘털 변화에 대한 새로운 내용은 없다."
+    },
+    "ciscostocklooksexpensiveuntilyoupricetheyearitalreadyguided": {
+      "title": "Cisco Stock Looks Expensive Until You Price The Year It Already Guided",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈(CSCO)는 주당 약 106달러에 거래되며 2026 회계연도 non-GAAP EPS 4.33달러 기준 24.6배의 밸류에이션을 기록하고 있다. 이는 633억 3000만 달러의 매출을 올린 네트워킹 공급업체로서는 높은 수준이며 향후 2년치 실적 전망을 이미 선반영한 가격이다. 애널리스트들의 2027 회계연도 예상치 기준으로는 주가수익비율이 약 20.6배로 낮아진다.",
+      "impact": "현재 주가는 향후 예상 실적을 상당히 선반영하고 있어 밸류에이션 부담이 존재한다.",
+      "caution": "높은 밸류에이션 지표에 대한 분석일 뿐 단기 주가 방향성에 직접적인 호재나 악재로 작용하기는 어렵다."
+    },
+    "whydoesvertivcostthemostinagroupitdoesnotoutgrow": {
+      "title": "Why Does Vertiv Cost The Most In A Group It Does Not Out-Grow?",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스(VRT)는 주가수익비율 56.3배로 동종 업계에서 가장 비싼 주식이나 매출 성장률과 영업이익률 측면에서 피어 그룹을 압도하지는 못한다. 경쟁사인 nVent Electric(NVT)은 최근 12개월 매출 성장률이 46.2%로 버티브(26.2%)보다 높으면서도 밸류에이션은 44.0배로 더 낮다. 현재의 높은 프리미엄은 2026년 하반기 경영진이 제시한 실적 가속화에 대한 기대로 유지되고 있다.",
+      "impact": "동종 업계 대비 과도한 밸류에이션 부담과 경쟁사 대비 낮은 성장률이 부각되어 투자 심리에 부정적으로 작용할 수 있다.",
+      "caution": "경영진이 제시한 하반기 실적 가속화가 실제로 달성될 경우 주가 프리미엄이 정당화될 여지가 있다."
+    },
+    "islockheedmartinenteringanewgrowthcyclethroughmissiledefense": {
+      "title": "Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴(LMT)의 미사일 및 화력 제어(MFC) 부문이 성장을 견인하며 2026년 2분기 MFC 매출은 전년 동기 대비 19% 증가한 41억 달러, 영업이익은 24% 증가한 594만 달러를 기록했다. PAC-3, THAAD, PrSM 프로그램의 물량 증가가 매출 성장을 이끌었으며 특히 THAAD 관련 계약에 힘입어 2026년 6월 28일 기준 수주 잔고가 2304억 달러로 상반기 동안 368억 달러 증가했다.",
+      "impact": "핵심 사업 부문의 매출과 영업이익이 크게 증가하고 대규모 수주 잔고가 쌓이면서 현재의 생산 실적과 미래의 매출 가시성이 모두 높아졌다.",
+      "caution": ""
+    },
+    "microsoftstockgetsanotherupgradepricetargethike": {
+      "title": "Microsoft Stock Gets Another Upgrade, Price-Target Hike",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트(MSFT) 주가는 월스트리트의 추가적인 투자등급 상향과 목표주가 상향 조정에 힘입어 수요일 상승했다. 스티펠(Stifel)의 브래드 리백 애널리스트는 마이크로소프트에 대한 투자의견을 '보유'에서 '매수'로 상향하고 목표주가를 530달러에서 575달러로 높였다.",
+      "impact": "클라우드 및 소프트웨어 분야의 선두 주자로서 회사가 다시 본궤도에 오르고 있다는 분석과 함께 월가의 목표가 상향이 매수세를 유입시키는 요인으로 작용한다.",
+      "caution": ""
+    },
+    "whydidonholdingstockjumpifitsneartermguidancedidnotchange": {
+      "title": "Why Did On Holding Stock Jump If Its Near-Term Guidance Did Not Change?",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "온 홀딩(ONON)이 첫 자사주 매입과 2029년 장기 목표를 발표하며 주가가 급등한 반면, 언급된 경쟁사인 나이키(NKE) 주가는 거의 변동이 없었다. 온 홀딩은 2029년까지 최대 10억 달러 규모의 자사주 매입을 승인하고 2026년 가이드라인은 유지한 채 2029년까지 매출 성장이 10대 후반을 기록할 것이라고 밝혔다.",
+      "impact": "기사가 다루고 있는 핵심 내용은 경쟁사인 온 홀딩스의 자사주 매입 및 가이던스 발표이므로 보유 종목인 나이키에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "본문의 주된 대상은 온 홀딩(ONON)이며 나이키(NKE)는 주가 변동이 거의 없었다는 비교군으로만 언급되었다."
+    },
+    "novonordiskceoopensthedoortomajormoveforusinvestors": {
+      "title": "Novo Nordisk CEO opens the door to major move for U.S. investors",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보노디스크(NVO)의 신임 CEO 마이크 두스타르는 파이낸셜 타임즈와의 인터뷰에서 현재의 미국주식예탁증서(ADR) 구조를 대체하기 위해 미국 뉴욕증권거래소(NYSE) 직상장을 고려할 수 있다고 밝혔다. 이는 미국 투자자들이 유럽 제약주에 투자할 때 겪는 ADR의 스프레드와 거래 매커니즘 등의 마찰과 불편함을 해소하기 위한 조치다.",
+      "impact": "NYSE 직상장이 성사될 경우 미국 투자자들의 접근성이 크게 개선되고 주식 유동성과 밸류에이션에 긍정적인 영향을 줄 수 있다.",
+      "caution": "현재는 최고경영자가 '고려하고 있다'고 언급한 단계로 구체적인 실행 계획이나 일정이 확정된 것은 아니다."
+    },
+    "enphaseenergyenphregistersabiggerfallthanthemarketimportantfactstonote": {
+      "title": "Enphase Energy (ENPH) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "holding": "엔페이즈 에너지",
+      "stance": "약한 악재",
+      "summary": "엔페이즈 에너지(ENPH) 주가는 직전 거래일 대비 3.92% 하락한 33.07달러로 마감하여 S&P 500 하락률(0.76%)을 밑돌았다. 태양광 기술 기업인 이 회사의 주가는 지난 한 달간 7.84% 하락하며 오일-에너지 섹터와 S&P 500의 수익률에 뒤처졌다. 향후 실적 발표에서 예상 EPS는 0.48달러로 전년 동기 대비 46.67% 급감할 것으로 예측된다.",
+      "impact": "단기 주가 하락세가 이어지고 있고 전년 동기 대비 큰 폭의 실적 감소가 예상되어 투자 심리에 악영향을 미친다.",
+      "caution": "실적 감소 전망이 이미 주가에 일부 반영되어 있을 수 있으며 실제 실적 발표 결과를 지켜봐야 한다."
+    },
+    "jpmorganchasejpmcouldbe9undervaluedafterdividendhikeandbuyback": {
+      "title": "JPMorgan Chase (JPM) Could Be 9% Undervalued After Dividend Hike And Buyback",
+      "holding": "JP모건 체이스",
+      "stance": "호재",
+      "summary": "JP모건 체이스(JPMorgan Chase)는 분기 배당금을 주당 1.65달러로 인상하고 500억 달러 규모의 자사주 매입 프로그램을 승인했다. 최근 30일간 주가가 5.29% 하락했음에도 불구하고, 대규모 자사주 매입과 배당 증가로 장기적인 투자 매력이 유지되고 있다.",
+      "impact": "배당금 인상과 자사주 매입은 주주환원을 확대하여 주가 하방을 지지하고 장기 가치 상승에 긍정적인 영향을 미친다.",
+      "caution": "최근 단기 주가 모멘텀이 다소 냉각된 상태이므로 즉각적인 주가 반등으로 이어질지는 지켜봐야 한다."
+    },
+    "isvisavtradingatadiscountasstablecoinscalegrows": {
+      "title": "Is Visa (V) Trading At A Discount As Stablecoin Scale Grows?",
+      "holding": "비자",
+      "stance": "약한 호재",
+      "summary": "비자(Visa)는 지난 5년간 65.6%의 수익률을 기록하며 현재 약 361달러 부근에서 거래되고 있다. 최근 스테이블코인 결제 및 온체인 인프라의 급격한 확장이 자본 효율성과 지속적인 초과 수익 창출력에 영향을 미치고 있다.",
+      "impact": "새로운 결제 기술인 스테이블코인 인프라 확장은 장기적으로 비자의 결제 생태계 경쟁력과 자본 효율성을 강화하는 요인으로 작용한다.",
+      "caution": "현재 주가수익비율(P/E)이 29.6배인 상황에서 새로운 기술 도입이 단기적으로 실적에 미치는 영향은 추가 검증이 필요하다."
+    },
+    "hereswhymcdonaldsmcdfellmorethanbroadermarket": {
+      "title": "Here's Why McDonald's (MCD) Fell More Than Broader Market",
+      "holding": "맥도날드",
+      "stance": "약한 악재",
+      "summary": "맥도날드(McDonald's) 주가는 전장 기준 4.81% 하락한 238.32달러를 기록하며 S&P 500의 하락 폭(0.76%)보다 부진한 모습을 보였다. 다가오는 실적 발표에서 시장은 주당순이익(EPS) 3.39달러, 매출 72억 9000만 달러를 예상하고 있다.",
+      "impact": "광범위한 시장 지수와 동종 소매 부문보다 큰 폭으로 하락한 것은 단기 투자 심리 위축을 나타내며 주가에 부담으로 작용한다.",
+      "caution": "예상되는 실적 개선(EPS 5.28% 증가)이 실제 발표에서 확인될 경우 주가가 반등할 여지가 있다."
+    },
+    "isrealtyincomeocheapafteritsneweuropeventureandrecentslide": {
+      "title": "Is Realty Income (O) Cheap After Its New Europe Venture And Recent Slide?",
+      "holding": "리얼티 인컴",
+      "stance": "약한 호재",
+      "summary": "리얼티 인컴(Realty Income)은 KKR과 함께 유럽 내 54개의 순임대 부동산을 기여하는 새로운 유로 합작법인을 설립했으며 뱅크오브아메리카(BofA) 글로벌 부동산 컨퍼런스 참여를 앞두고 있다. 최근 1개월간 주가가 9.7% 하락했으나 장기적인 토탈 리턴 기록은 견조하다.",
+      "impact": "유럽 합작법인 설립을 통한 자산 포트폴리오 다변화는 장기적인 성장 동력과 현금 흐름 창출에 긍정적인 영향을 준다.",
+      "caution": "최근 단기 주가 하락은 단기적인 위험과 소득에 대한 시장 시각 변화를 반영할 수 있어 변동성이 지속될 수 있다."
+    },
+    "대미투자첫발두산에너빌포스코인터수혜기대감": {
+      "title": "대미 투자 첫발…두산에너빌·포스코인터 수혜 '기대감'",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "한국 정부가 2000억 달러 규모 대미 전략투자의 1호 사업으로 텍사스 가스복합화력발전소 건설을 확정했고, 2호 원전 및 3호 알래스카 LNG 사업을 논의 중이다. 이 과정에서 두산에너빌리티와 포스코인터내셔널 등의 수혜가 기대된다는 내용이다.",
+      "impact": "기사에서 직접 언급된 보유 종목은 '포스코인터내셔널'이며, 본문에 언급된 '포스코홀딩스'는 지주사로서 직접적인 사업 수혜 경로가 구체적으로 명시되지 않았다.",
+      "caution": "본문이 다루는 핵심 기업은 포스코인터내셔널이며 포스코홀딩스는 간접적 연관성에 그치므로 중립으로 분류한다."
+    },
+    "코트라배터리데이유럽컨퍼런스개최삼성sdilg화학참여": {
+      "title": "코트라, '배터리데이 유럽' 컨퍼런스 개최...삼성SDI·LG화학 참여",
+      "holding": "LG화학",
+      "stance": "중립",
+      "summary": "코트라는 오는 30일 '배터리 데이 유럽 2026' 온라인 콘퍼런스를 개최하며, 삼성SDI와 LG화학 등 국내 배터리 및 소재 기업 핵심 인사들이 참여해 유럽 시장 현황과 차세대 기술을 논의한다. LG화학의 강태경 박사 등이 화재 안전과 AI 인프라 연계 세션에 참여할 예정이다.",
+      "impact": "유럽 배터리 공급망과 기술 동향을 공유하는 행사 참여는 기술력 과시 및 네트워킹에 도움이 되나, 즉각적인 재무적 성과로 이어지지는 않는다.",
+      "caution": "행사 참여 안내 성격의 기사로 단기적인 주가 변동성에 미치는 직접적인 영향은 제한적이다."
+    },
     "반도체주일제히상승마이크론5sk하이닉스345급등": {
       "title": "美 반도체주 일제히 상승…마이크론 5%·SK하이닉스 3.45% 급등",
       "holding": "SK하이닉스",
