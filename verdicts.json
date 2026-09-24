@@ -1,17 +1,225 @@
 {
-  "generated_at": "2026-09-24T08:03:40+09:00",
+  "generated_at": "2026-09-25T08:58:01+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8541,
-    "output_tokens": 4398
+    "input_tokens": 9745,
+    "output_tokens": 4648
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 0,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "hbm호황에달라진위상그룹베테랑품은sk하이닉스": {
+      "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스가 HBM 호황에 힘입어 지주사 SK㈜ 소속 서진우, 유정준, 이형희 등 핵심 부회장 3명을 영입하며 그룹 내 달라진 위상을 입증했다. 이들은 미중 반도체 패권 경쟁과 빅테크 협력 등 대외 변수를 전담하여 실무진이 기술 개발에 집중할 수 있도록 지원할 예정이다.",
+      "impact": "그룹의 핵심 경영진이 전면에 나서서 대외 협력과 해외 사업을 지원함으로써 SK하이닉스의 실적 성장과 사업 확장 속도가 더욱 가속화될 것이다.",
+      "caution": ""
+    },
+    "1000주면460만원삼성전자28일배당막차타볼까김미정의머": {
+      "title": "“1000주면 460만원”…삼성전자, 28일 배당 막차 타볼까[김미정의 머...",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자가 올해 총 90조~100조원 규모의 주주환원 정책의 일환으로 약 30조원 규모의 3분기 배당을 실시한다. 배당을 받기 위한 매수 가능 거래일은 28일 단 하루 남았으며, 배당락일은 29일이다.",
+      "impact": "대규모 현금 배당 집행은 주주 가치를 제고하고 투자 매력도를 높여 단기적인 주가 하방 압력을 방어하는 긍정적 요인으로 작용한다.",
+      "caution": ""
+    },
+    "추투돌입하는조선업계파업장기화갈림길": {
+      "title": "추투 돌입하는 조선업계, 파업 장기화 갈림길",
+      "holding": "HD현대중공업",
+      "stance": "약한 악재",
+      "summary": "조선업계 노사 갈등이 심화되는 가운데 HD현대중공업은 기본급 및 성과 배분 입장차로 노조와 임단협 타결에 실패했다. 연휴 직후인 29일 교섭이 예정되어 있으나 결렬 시 파업 장기화 및 조선업종노조연대의 공동투쟁 확대가 우려된다.",
+      "impact": "파업으로 인한 생산 차질과 비용 증가 우려가 커져 단기적인 실적 및 주가 흐름에 부정적인 영향을 미칠 수 있다.",
+      "caution": ""
+    },
+    "isdelltechnologiesdellstockabuyafterits5billionaifueledbondsale": {
+      "title": "Is Dell Technologies (DELL) Stock a Buy After its $5 Billion AI-Fueled Bond Sale?",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "델 테크놀로지스(DELL)가 AI 인프라 확장을 지원하기 위해 50억 달러 규모의 투자적격 회사채 발행을 성공적으로 완료했다. AI 서버에 대한 기록적인 수요와 95억 달러 규모의 백로그를 바탕으로 재무적 유연성을 확보하고 부채를 차환할 계획이다.",
+      "impact": "AI 서버 시장의 폭발적 수요에 대응하기 위한 선제적 자금 조달로, 향후 인프라 확장을 통한 매출 성장 기대를 높인다.",
+      "caution": "레버리지 리스크가 존재한다는 지적이 있다."
+    },
+    "fslrstockhitsfresh52weeklowastargetcutsslowerbookingvisibilityweighpeersenphasesolaredgealsodown": {
+      "title": "FSLR Stock Hits Fresh 52-Week Low As Target Cuts, Slower Booking Visibility Weigh — Peers Enphase, SolarEdge Also Down",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "퍼스트솔라(FSLR) 주가가 목표가 하향 조정, 수주 가시성 둔화, 무역 정책 불확실성 속에서 10% 이상 하락하며 52주 신저가를 기록했다. 2분기 매출은 약 10억 6000만 달러로 예상치를 밑돌았고 전년 동기 대비 감소했다.",
+      "impact": "실적 부진과 관세 및 규제 관련 불확실성으로 인해 투자 심리가 악화되어 단기적인 주가 하방 압력이 커지고 있다.",
+      "caution": "일부 애널리스트는 부정적 뉴스가 이미 주가에 상당 부분 반영되어 리스크가 해소되는 국면일 수 있다고 평가했다."
+    },
+    "couldconstellationenergycegs715millionshellsheldealaccelerateitspowergrowth": {
+      "title": "Could Constellation Energy (CEG)’s $715 Million Shell (SHEL) Deal Accelerate its Power Growth?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지(CEG)가 셸 에너지 북아메리카로부터 로드아일랜드 주립 에너지 센터(RISEC)를 7억 1500만 달러에 인수하기로 합의했다. 첫해 세제 혜택을 제외한 실질 매수가는 약 5억 8000만 달러이며, 운영 이익에 즉각적으로 기여할 것으로 예상된다.",
+      "impact": "이번 발전 자산 인수를 통해 전력 성장 가속화와 즉각적인 수익성 개선을 동시에 달성할 수 있어 기업 가치에 긍정적이다.",
+      "caution": ""
+    },
+    "vistraraises15billionvia2057juniorsubordinatednotesat700and725": {
+      "title": "Vistra Raises $1.5 Billion Via 2057 Junior Subordinated Notes at 7.00% and 7.25%",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "비스트라 에너지가 2057년 만기인 7.00% 및 7.25% 금리의 후순위채 발행을 통해 15억 달러의 장기 자금을 조달했다. 이번 자금 조달은 재무적 유연성을 강화하고 전략적 이니셔티브를 지원하기 위한 목적이다.",
+      "impact": "안정적인 장기 자본 확충을 통해 향후 사업 확장 및 재무 구조 건전성을 다지는 데 도움이 된다.",
+      "caution": ""
+    },
+    "eosestockslidesaslegalprobesandshareoverhangrattletraders": {
+      "title": "EOSE Stock Slides As Legal Probes And Share Overhang Rattle Traders",
+      "holding": "이오스 에너지",
+      "stance": "악재",
+      "summary": "이오스 에너지 엔터프라이즈(EOSE) 주가가 유동성 리스크에 대한 부정적 심리가 확산되면서 9% 이상 급락했다. 최근 주가는 4달러대 초반에서 3.26달러 부근까지 하락세를 보이고 있다.",
+      "impact": "막대한 영업손실과 부정적인 수익성 지표 속에서 유동성 우려가 부각되어 투자 심리가 크게 위축되었다.",
+      "caution": ""
+    },
+    "goldmansachsopensalmontycoveragewithneutralratingasbuybackandglobalexpansioncollide": {
+      "title": "Goldman Sachs Opens Almonty Coverage With Neutral Rating as Buyback and Global Expansion Collide",
+      "holding": "알먼티",
+      "stance": "약한 악재",
+      "summary": "골드만삭스가 알먼티 인더스트리즈에 대해 13.00달러의 목표주가와 함께 '중립' 의견으로 커버리지를 개시하였고, 이 여파로 주가가 7.7% 하락하여 11.05유로를 기록했다.",
+      "impact": "월스트리트의 신중한 평가가 단기적인 주가 하락 및 투자 심리 위축으로 이어질 수 있다.",
+      "caution": "D.A. Davidson 등 다른 기관에서는 33.00달러 목표가와 매수 의견을 유지하고 있어 시각이 엇갈린다."
+    },
+    "shouldinvestorschasetheaifueledsurgeineverpurepstock": {
+      "title": "Should Investors Chase the AI-Fueled Surge in Everpure (P) Stock?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지와 관련된 본문 내용 없이, 브라우저가 봇으로 인식하여 쿠키와 자바스크립트 활성화를 요구하는 안내문만 포함되어 있다.",
+      "impact": "기사 내용이 없어 크레도 테크놀로지의 주가나 사업에 직접적인 영향을 주지 않는다.",
+      "caution": "광고 또는 사이트 안내문만 있고 실제 기사 내용이 존재하지 않는다."
+    },
+    "alphabetreportedlyvaluesitsanthropicstakeat124billiona2trillionipocoulddoubleitonpaper": {
+      "title": "Alphabet Reportedly Values Its Anthropic Stake at $124 Billion. A $2 Trillion IPO Could Double It -- on Paper.",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳의 7월 분기 보고서에 따르면 사기업 투자 지분의 가치가 1243억 달러로 평가되었으며, 블룸버그는 이 투자가 앤트로픽이라고 보도했다. 앤트로픽이 11월에 2조 달러 규모의 기업공개(IPO)를 추진할 것으로 알려졌다.",
+      "impact": "알파벳이 보유한 앤트로픽의 지분 가치가 부각되면서 기업 가치 상승에 긍정적인 기대감을 준다.",
+      "caution": "124억 달러의 장부상 평가액과 2조 달러의 전체 기업공개 가치는 직접적으로 동일한 의미가 아니므로 주의가 필요하다."
+    },
+    "ciscoceowarnsworkerswhoworryaboutchangethatnothingsgoingtofeelgoodrightnowwithai": {
+      "title": "Cisco CEO warns workers who worry about change that ‘nothing’s going to feel good right now’ with AI",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코의 CEO 척 로빈스는 인공지능 도입으로 인해 변화를 두려워하는 직원들이 많은 어려움을 겪을 것이며, 변화의 속도가 매우 빠르다고 언급했다.",
+      "impact": "기업 내부의 AI 전환에 따른 조직 변화와 인력 재편 과정을 다룬 내용으로, 시스코의 단기 실적이나 주가에 직접적인 방향성을 주기는 어렵다.",
+      "caution": "보유 종목 경영진의 일반적인 AI 시대 조직 운영 철학에 관한 발언이다."
+    },
+    "willvertivholdingsvrts145billionuigdealaccelerateitsaiinfrastructuregrowth": {
+      "title": "Will Vertiv Holdings (VRT)’s $1.45 Billion UIG Deal Accelerate its AI Infrastructure Growth?",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스는 유틸리티 이노베이션 홀딩스(UIG)를 14억 5000만 달러에 현금 인수하기로 합의했으며, 거래는 2026년 4분기에 완료될 예정이다. 이번 인수를 통해 마이크로그리드 제어, 배전반 등을 확보하여 AI 인프라 전력 공급 속도를 높일 수 있게 되었다.",
+      "impact": "AI 데이터센터 수요 급증에 발맞춰 전력 아키텍처 역량을 강화함으로써 중장기 성장을 가속화할 수 있다.",
+      "caution": "실적 연동 성과급 조건이 최대 11억 5000만 달러 포함되어 있어 향후 통합 과정과 비용을 지켜봐야 한다."
+    },
+    "defensecontractorsstocksq2highlightslockheedmartinnyselmt": {
+      "title": "Defense Contractors Stocks Q2 Highlights: Lockheed Martin (NYSE:LMT)",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "록히드마틴 등 방위산업체들의 2분기 실적과 섹터 동향을 다루며, 높은 진입장벽과 지정학적 긴장으로 인한 장기 계약 및 방위비 지출 수요를 언급했다.",
+      "impact": "업종 전반의 구조적 특징과 록히드마틴의 실적 점검 내용을 다루고 있어 전반적인 방산 업황에 대한 이해를 돕는다.",
+      "caution": "특정 기업의 새로운 개별 계약이나 실적 발표 속보가 아니라 일반적인 분기 하이라이트 요약이다."
+    },
+    "canmicrosoftmsftsustainitsrecurringcashflowsgrowingpayoutsandazuremomentum": {
+      "title": "Can Microsoft (MSFT) Sustain its Recurring Cash Flows, Growing Payouts, and Azure Momentum?",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트는 2026 회계연도에 영업 현금흐름 1829억 달러를 기록하여 전년 대비 34% 이상 증가했으며, 이를 바탕으로 지속적인 배당금 증가와 AI 역량 및 애저(Azure) 플랫폼 투자를 뒷받침하고 있다.",
+      "impact": "막대한 AI 자본 지출 속에서도 강력한 현금 창출력과 애저의 성장세가 입증되면서 재무적 안정성과 성장성을 동시에 보여준다.",
+      "caution": "AI 관련 대규모 투자가 지속되는 만큼 향후 투자 대비 수익률(ROI) 추이를 계속 주시해야 한다."
+    },
+    "nikeoffersasecondlifetoitsusedsneakersapparelatsohopopup": {
+      "title": "Nike Offers a Second Life to Its Used Sneakers, Apparel at SoHo Pop-up",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "나이키는 뉴욕 기후 주간에 맞춰 맨해튼 소호 매장에서 중고 스니커즈와 의류를 대상으로 한 (Re)Play 팝업 스토어를 운영하며 수선, 세탁, 재활용 서비스를 제공한다.",
+      "impact": "지속 가능성 및 친환경 브랜드 이미지 제고에는 도움을 주나, 전사 실적이나 주가에 즉각적인 큰 변화를 주기는 어렵다.",
+      "caution": "특정 매장의 일시적인 친환경 이벤트 행사에 가깝다."
+    },
+    "novonordisknvosetspipelinesalestargetabove23billionby2035": {
+      "title": "Novo Nordisk (NVO) Sets Pipeline Sales Target Above $23 Billion By 2035",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크는 2026년 9월 24일 투자자 업데이트에서 2035년까지 파이프라인 매출 목표를 23억 달러 이상으로 설정했다고 밝혔다. 경영진은 주요 시장에서 당뇨병 및 비만 치료 매출 집중도에 영향을 미칠 세마글루티드 특허 만료에 대응하기 위한 장기 성장 전략을 설명했다.",
+      "impact": "향후 세마글루티드 특허 만료에 대비한 파이프라인 목표를 제시하여 장기적인 매출 공백 우려를 완화하려는 긍정적인 신호로 작용한다.",
+      "caution": "특허 만료 이후의 실제 성과는 파이프라인 개발 진행 상황에 따라 달라질 수 있다."
+    },
+    "solarstocksslideashighborrowingcostsweighonprojectfinancingfirstsolarsinks8solaredgefalls5enphaseenergydrops4": {
+      "title": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%",
+      "holding": "엔페이즈 에너지",
+      "stance": "악재",
+      "summary": "2026년 9월 24일 치솟는 차입 비용으로 인해 태양광 관련 주가가 하락세를 보였다. 엔페이즈 에너지는 4% 하락했으며, 퍼스트 솔라는 8%, 솔라엣지는 5% 하락했다.",
+      "impact": "프로젝트 자금 조달 의존도가 높은 태양광 산업 특성상 금리 및 차입 비용 상승은 엔페이즈 에너지의 사업 확장에 직접적인 부담을 준다.",
+      "caution": "단기적인 금리 변동성에 따른 시장 전반의 하락 흐름일 수 있다."
+    },
+    "nexterastockhasfallen22fromitshighistheselloffabuyingopportunity": {
+      "title": "NextEra Stock Has Fallen 22% From Its High. Is the Selloff a Buying Opportunity?",
+      "holding": "넥스트에라 에너지",
+      "stance": "약한 악재",
+      "summary": "넥스트에라 에너지는 2026년 9월 23일 기준 종가 77.02달러를 기록하며 5월 1일 최고가 대비 약 22% 하락했다. 미국 국채 금리 상승, 모건스탠리의 목표가 하향, 67억 달러 규모의 도미니언 에너지 인수 추진 등이 하락 요인으로 작용했다.",
+      "impact": "금리 상승과 대규모 인수합병에 대한 불확실성이 주가에 하방 압력을 가하고 있다.",
+      "caution": "최근 연방 대출을 통한 원자력 발전소 재가동 등 긍정적 요인도 함께 존재한다."
+    },
+    "carnivalnysecclpricetargetloweredto3900atjpmorganchaseco": {
+      "title": "Carnival (NYSE:CCL) Price Target Lowered to $39.00 at JPMorgan Chase & Co.",
+      "holding": "JP모건 체이스",
+      "stance": "중립",
+      "summary": "JP모건 체이스는 카니발(NYSE:CCL)의 목표주가를 기존 43달러에서 39달러로 하향 조정했으나 '비중 확대(overweight)' 의견은 유지했다. 카니발은 최근 분기 실적에서 EPS 예상을 상회했으나 매출은 기대에 약간 못 미쳤다.",
+      "impact": "보유 종목인 JP모건 체이스가 다른 기업(카니발)의 목표가를 조정한 내용이므로 JP모건 체이스 본사의 직접적인 실적이나 주가에 미치는 영향은 제한적이다.",
+      "caution": "기사는 카니발에 대한 내용이며 JP모건 체이스는 분석 주체로만 언급되었다."
+    },
+    "mcdonaldsceowarnselevatedinflationwillstickaroundjustdaysafterfedraisesrates": {
+      "title": "McDonald’s CEO Warns Elevated Inflation Will Stick Around Just Days After Fed Raises Rates",
+      "holding": "맥도날드",
+      "stance": "약한 악재",
+      "summary": "맥도날드의 크리스 켐프친스키 CEO는 2026년 9월 23일 투자자의 날 인터뷰에서 높은 인플레이션 환경이 일시적이 아니라 뉴노멀(영구적 환경)이 되었다고 경고했다. 이는 연방준비제도의 금리 인상 직후에 나온 발언이다.",
+      "impact": "장기화된 고물가와 소비 환경 악화가 맥도날드의 실적과 소비자 수요 회복에 부담으로 작용할 수 있음을 시사한다.",
+      "caution": "경영진의 보수적 전망 표명일 뿐 실제 실적 감소로 이어지는지는 향후 발표를 지켜봐야 한다."
+    },
+    "customtruckonesourceterexxylemonterrisandoshkoshsharesplummetwhatyouneedtoknow": {
+      "title": "Custom Truck One Source, Terex, Xylem, Onterris, and Oshkosh Shares Plummet, What You Need To Know",
+      "holding": "자일럼",
+      "stance": "악재",
+      "summary": "2026년 9월 24일 10년 만기 미국 국채 금리가 2007년 이후 최고치인 5.14%로 급등하면서 자일럼을 포함한 여러 기업의 주가가 급락했다. 국채 금리 상승은 기업들의 차입 비용을 높이고 경제 전반의 소비와 투자를 둔화시킬 수 있다.",
+      "impact": "금리 급등으로 인한 차입 비용 증가와 주식 시장 전반의 투자 매력 저하가 자일럼의 주가에 직접적인 악영향을 미친다.",
+      "caution": "거시경제 지표에 따른 시장 전체의 동조화 하락일 수 있다."
+    },
+    "alcoanyseaaadvancesamajoracquisitionasaluminiumstaystight": {
+      "title": "Alcoa (NYSE:AA) Advances a Major Acquisition as Aluminium Stays Tight",
+      "holding": "알코아",
+      "stance": "중립",
+      "summary": "알코아(NYSE:AA)가 알루미늄 공급 타이트 현상 속에서 주요 인수를 추진하고 있다는 제목이 언급되었으나, 본문에는 인텔, 크래프트 하인즈, 다우 등 다른 기업들의 기사 링크와 알코아의 주가(42.68달러, -3.04%) 및 기본 정보만 나열되어 있다.",
+      "impact": "알코아의 주요 인수와 관련된 구체적인 본문 내용이나 세부 사실이 부족하여 실질적인 투자 판단의 근거로 삼기 어렵다.",
+      "caution": "본문에 구체적인 인수 내용이 없고 단순 헤드라인과 타사 관련 링크만 포함되어 있다."
+    },
+    "fluenceenergyrichardsonelectronicsplugpowersunrunandmethodeelectronicssharesplummetwhatyouneedtoknow": {
+      "title": "Fluence Energy, Richardson Electronics, Plug Power, Sunrun, and Methode Electronics Shares Plummet, What You Need To Know",
+      "holding": "썬런",
+      "stance": "악재",
+      "summary": "10년 만기 미국 국채 금리가 5.14%로 급등하면서 썬런을 포함한 위험 자산 주식들이 오후 거래에서 급락했다. 국채 금리 상승은 기업들의 차입 비용을 증가시키고 투자자들로 하여금 주식에서 국채로 자금을 이동하게 만든다.",
+      "impact": "태양광 및 신재생에너지 관련 기업인 썬런은 자금 조달 비용 증가와 투자 심리 위축으로 인해 직접적인 타격을 입는다.",
+      "caution": "매크로 환경 변화에 따른 시장 전체의 일시적 매도세일 수 있다."
+    },
+    "첫파업추석에도지킨불꽃포스코비상대응체계가동": {
+      "title": "첫 파업·추석에도 지킨 불꽃…포스코, 비상대응체계 가동",
+      "holding": "POSCO홀딩스",
+      "stance": "약한 악재",
+      "summary": "포스코 노조가 1968년 창사 이래 첫 부분 파업(1, 2차)을 단행한 가운데 다음 달 2일 이후 교섭 재개를 앞두고 노사 대치가 이어지고 있다. 회사는 비상 인력 투입으로 현재까지 공급 차질을 막았으나 추석 연휴와 향후 전면 파업 가능성으로 인해 생산 타격 우려가 상존한다.",
+      "impact": "파업 장기화 및 전면 파업으로 번질 경우 철강 생산 차질이 발생해 자동차, 가전, 건설 등 전방 수요업체로 연쇄 타격이 가해질 수 있으며 이는 포스코홀딩스의 실적과 주가에 부정적인 영향을 준다.",
+      "caution": "현재까지는 사측의 비상 대응 체계로 조업 차질 없이 24시간 가동이 유지되고 있어 실질적인 피해는 제한적이다."
+    },
+    "고가사치재가일상필수품으로k샴푸50년변천사": {
+      "title": "\"고가 사치재가 일상 필수품으로\"…K-샴푸 50년 변천사",
+      "holding": "LG화학",
+      "stance": "중립",
+      "summary": "기사는 1960~70년대 락희화학공업사(LG화학 전신)의 '크림샴푸'와 '유니나 샴푸' 출시 등 한국 샴푸의 50년 역사와 변천사를 다루고 있다. 현재의 K-샴푸 글로벌 열풍까지 이어지는 과거 역사적 사실들을 소개하고 있다.",
+      "impact": "과거 락희화학 시절의 역사적 사실에 대한 회고성 기사로, 현재 LG화학의 주력 사업이나 실적에 직접적인 재무적 영향을 미치지 않는다.",
+      "caution": "보유 종목인 LG화학의 전신인 락희화학이 언급되었으나, 현재 사업 구조와는 무관한 역사 정보에 불과하다."
+    },
     "마이크론매출또신기록쓰나hbm4로삼성sk하이닉스맹추격": {
       "title": "마이크론, 매출 또 신기록 쓰나…HBM4로 삼성·SK하이닉스 ‘맹추격’",
       "holding": "SK하이닉스",
@@ -2091,14 +2299,6 @@
       "summary": "First Solar 주가는 최근 거래에서 207.17달러로 마감해 전일 대비 2% 상승했으며, 같은 날 S&P 500은 0.59%, 다우지수는 0.6%, 나스닥은 0.65% 하락했다. 회사의 다음 실적 발표에서 주당순이익은 4.56달러로 전년 동기보다 7.55% 증가할 것으로 예상되지만, 주가는 최근 한 달간 10.44% 하락했다.",
       "impact": "시장 약세에도 주가가 상승했고 예상 EPS 증가도 제시돼 단기 투자심리와 실적 기대에는 긍정적이다. 다만 이는 실적 발표 전 전망에 기반한 호재로, 실제 실적이 확인될 경우에만 지속적인 주가 상승 동력이 될 수 있다.",
       "caution": "기사에는 예상 매출 수치가 끝까지 제시되지 않았고, 최근 한 달간 주가가 10.44% 하락해 상대적인 부진도 나타났다. EPS 4.56달러는 확정 실적이 아니라 시장 예상치다."
-    },
-    "eosestockslidesaslegalprobesandshareoverhangrattletraders": {
-      "title": "EOSE Stock Slides As Legal Probes And Share Overhang Rattle Traders",
-      "holding": "이오스 에너지",
-      "stance": "악재",
-      "summary": "Eos Energy Enterprises 주가는 자금조달 및 유동성 우려로 3.6% 하락했다. 여러 증권법률 회사가 2025년 11월 5일 이전 매수자와 관련된 잠재적 기업 부정행위를 조사 중이며, 회사는 최대 5655만주의 보통주 재매각 등록을 신청해 잠재적인 주식 공급과 희석 압력을 키웠다.",
-      "impact": "법률 조사와 경영진의 주주 피해 가능성은 소송·거버넌스 리스크를 높여 이오스 에너지의 기업가치와 투자심리를 훼손할 수 있다. 최대 5655만주의 재매각 가능 물량은 유통주식 공급 증가와 희석 우려를 통해 주가에 직접적인 부담이 될 수 있다.",
-      "caution": "기사에 언급된 조사는 잠재적 소송 및 의혹 단계이며, 실제 위법 행위가 확정됐다는 내용은 아니다. 재매각 등록도 실제 매각이나 확정 희석을 의미하지는 않는다."
     },
     "almontyindustriesnasdaqalmsharesdown63hereswhy": {
       "title": "Almonty Industries (NASDAQ:ALM) Shares Down 6.3% - Here's Why",
