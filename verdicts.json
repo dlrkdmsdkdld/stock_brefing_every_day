@@ -1,17 +1,177 @@
 {
-  "generated_at": "2026-09-25T08:58:01+09:00",
+  "generated_at": "2026-09-26T09:01:21+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 9745,
-    "output_tokens": 4648
+    "input_tokens": 7588,
+    "output_tokens": 4081
   },
   "skipped": {
-    "본문없음": 0,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자sk하이닉스독주체제강화증시쏠림속ai데이터센터": {
+      "title": "\"삼성전자·SK하이닉스 독주 체제 강화\"…증시 쏠림 속 AI 데이터센터...",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "미국과 일본의 통화정책 불확실성 완화로 국내 반도체 중심의 2차 상승 국면이 전망되며, AI 설비투자 확대에 힘입어 SK하이닉스를 비롯한 메모리·기판 부문의 수요 성장이 지속될 것이라는 분석이 나왔다. 다만 단일종목 레버리지 ETF와 신용잔고의 급격한 증가로 인한 시장 변동성 확대는 주의해야 한다고 지적했다.",
+      "impact": "거시경제 악재 해소와 AI 데이터센터 투자 확대로 인해 SK하이닉스의 메모리 반도체 수요가 견조하게 유지될 것으로 기대되어 긍정적이다.",
+      "caution": "신용잔고 급증에 따른 수급 불균형과 변동성 확대 가능성이 언급되었다."
+    },
+    "추석끝나면30만전자삼성전자배당낙수효과증권가전망은": {
+      "title": "\"추석 끝나면 30만전자?\"...삼성전자, '배당 낙수효과' 증권가 전망은?",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "추석 연휴 이후 삼성전자의 사상 최대 규모 주주환원(90조~110조원) 기대감과 계절적 수급 호조가 맞물려 주가 상승 탄력이 커질 것이라는 증권가 전망이 나왔다. 삼성전자는 3분기 약 30조원의 현금배당을 실시할 예정이며 남은 재원의 배분 방식이 내년 1월 결정된다.",
+      "impact": "사상 최대 규모의 주주환원 정책과 3분기 대규모 현금배당 예정 소식이 주주가치 제고로 이어져 삼성전자 주가에 직접적인 호재로 작용한다.",
+      "caution": "남은 주주환원 재원의 구체적인 방식에 따라 금융계열사 지분 조정 부담 등의 변수가 존재한다."
+    },
+    "공장만지으면뭐하나해외거점넓히는k제조업현지사람": {
+      "title": "“공장만 지으면 뭐하나”… 해외 거점 넓히는 K제조업, ‘현지 사람...",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대중공업이 필리핀 노동고용부 등과 협력하여 잠발레스 지역에 친환경 조선 전문인력 교육센터 설립을 논의하고 현지 수빅조선소에서 숙련인력 양성을 확대하고 있다. 수빅조선소는 지난해 9월 첫 건조 선박의 강재절단을 시작으로 본격적인 생산에 들어간 상태다.",
+      "impact": "해외 생산 거점인 필리핀 수빅조선소의 본격적인 가동과 현지 맞춤형 조선 인력 육성 추진은 HD현대중공업의 글로벌 생산 역량 강화에 기여한다.",
+      "caution": "단기적인 실적 직결보다는 장기적인 인프라 구축 및 현지화 성격이 강하다."
+    },
+    "dellstockjumpsasmorganstanleyraisesoddsof756bullcase": {
+      "title": "Dell Stock Jumps as Morgan Stanley Raises Odds of $756 Bull Case",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "모건스탠리가 델 테크놀로지스(DELL) 최고운영책임자(COO) 제프 클라크와의 미팅 이후 756달러 강세 시나리오의 달성 확률을 상향 조정한 후 델 주가가 4% 상승했다. AI 에이전트가 2030년까지 추론 토큰 사용량을 87배 높여 컴퓨팅 용량에 대한 추가 수요를 창출할 수 있다는 전망이 제시되었다.",
+      "impact": "AI 관련 인프라 수요 확장과 긍정적 시나리오 확률 상향 조정이 투자 심리를 개선하여 델 주가 상승을 견인했다.",
+      "caution": "기본 목표가와 중립 등급 자체는 유지되었으며 AI 지출이 일시적 교체 주기에 그칠지 구조적 확장이 될지는 계속 지켜봐야 한다."
+    },
+    "whatsgoingonwithconstellationbrandsstockfriday": {
+      "title": "What's Going On With Constellation Brands Stock Friday?",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "약한 악재",
+      "summary": "JP모간의 애널리스트 드류 레바인은 컨스텔레이션 브랜즈(STZ)에 대해 중립 등급을 유지하면서도 12개월 목표주가를 165달러에서 133달러로 하향 조정했다. 주류 부문 전반의 소비자 재량 지출 둔화 우려와 타이트한 가계 예산이 프리미엄 제품의 단기 상승 여력을 제한할 수 있다고 분석했다.",
+      "impact": "목표주가 하향 조정과 주류 소비 둔화 우려가 반영되면서 단기적으로 컨스텔레이션 브랜즈 주가의 상단을 제약하는 요인으로 작용한다.",
+      "caution": "투자의견 자체는 중립을 유지했으므로 거시 경제 지표에 따라 변동될 수 있다."
+    },
+    "fslrstockheadsforitsworstweekinoveramonthrothsaysuspolysiliconcrackdowncouldprovideatailwind": {
+      "title": "FSLR Stock Heads For Its Worst Week In Over A Month — Roth Says US Polysilicon Crackdown Could Provide A Tailwind",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "로스 캐피털은 최근 태양광 모듈 가격 약세 우려로 퍼스트솔라(FSLR) 주가가 하락했으나 이를 매력적인 진입 기회로 평가했다. 미국의 폴리실리콘 비축 단속과 20건 이상의 수입업자 라이선스 취소 조치가 공급을 조여 국내 태양광 제조업체에 수혜를 줄 수 있다고 분석했다.",
+      "impact": "미국의 폴리실리콘 규제 강화로 공급 제한과 가격 지지 효과가 발생해 퍼스트솔라와 같은 미국 내 태양광 제조업체에 긍정적 환경을 조성한다.",
+      "caution": "태양광 모듈 가격 하락에 대한 시장의 우려로 인해 단기 주가 변동성이 컸던 점은 유의해야 한다."
+    },
+    "whatdoeseosenergyenterpriseseoseneedtoproveafteritsdoeadvance": {
+      "title": "What Does Eos Energy Enterprises (EOSE) Need To Prove After Its DOE Advance?",
+      "holding": "이오스 에너지",
+      "stance": "호재",
+      "summary": "이오스 에너지 엔터프라이즈(EOSE)가 손힐(Thorn Hill) 시설의 제조 능력 확장을 지원하기 위해 미국 에너지부(DOE)로부터 새로운 자금 지원을 받았다. 이번 자금은 손힐 사이트가 새로운 생산 라인에서 상업 운전에 돌입하는 시점에 맞추어 장주기 배터리 제조 규모를 확대하는 데 연계되어 있다.",
+      "impact": "미국 에너지부의 추가 자금 지원과 신규 생산 라인 가동은 이오스 에너지의 장주기 배터리 생산 능력 확장과 상업화 속도를 높이는 데 직접적인 동력이 된다.",
+      "caution": "기업이 극복해야 할 추가적인 재무적·운영적 경고 신호들이 존재하므로 지속적인 모니터링이 필요하다."
+    },
+    "credovsnvidiawhichaichipstockisabetterbuyin2026": {
+      "title": "Credo vs. Nvidia: Which AI Chip Stock Is a Better Buy in 2026?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "인공지능 붐 속에서 고속 연결성 전문가인 크레도 테크놀로지스(CRDO)와 업계 거물인 엔비디아(NVDA)의 역할과 재무 지표를 비교하는 분석 기사가 보도되었다. 크레도는 데이터 이동을 위한 고속 배선과 연결성 칩을 제공하며 엔비디아는 AI 모델을 구동하는 처리 능력을 공급한다.",
+      "impact": "크레도 테크놀로지스가 AI 데이터 센터 생태계에서 중요한 위치를 차지하고 있음을 다루고 있으나, 특정 기업의 개별 호재성 사건보다는 두 종목의 구조적 비교에 초점이 맞춰져 있다.",
+      "caution": "보유 종목에 대한 직접적인 실적 발표나 계약 뉴스가 아닌 일반적인 비교 분석 기사이다."
+    },
+    "sundarpichaireportedalphabetscloudbackloghit514billionafter82revenuegrowthlastquarterwithnearly90ofthefortune100usinggeminienterpriseisgooglecloudbecomingabiggergrowthdriverthansearch": {
+      "title": "Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemini Enterprise. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "알파벳의 2분기 클라우드 매출이 전년 대비 82% 급증했으며, 순다르 피차이 CEO는 5,140억 달러 규모의 백로그를 발표했다. 또한 포춘 100대 기업의 약 90%가 제미니 엔터프라이즈를 사용하고 있어 클라우드가 핵심 성장 동력으로 자리 잡고 있다.",
+      "impact": "구글 클라우드의 가파른 매출 성장과 거대한 백로그, AI 서비스의 높은 채택률은 알파벳의 기업 가치와 향후 실적 전망에 매우 긍정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "whatwasciscotellingyoubeforeitsstockran": {
+      "title": "What Was Cisco Telling You Before Its Stock Ran?",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코 시스템즈는 2026년 9월까지 12개월 동안 S&P 500 대비 뛰어난 주가 상승률을 기록했다. 이러한 상승은 하이퍼스케일러들의 AI 데이터센터 주문 증가에 기인하며, 회사는 이미 2024년 8월부터 웹스케일 고객 대상 AI 주문 목표치를 제시하며 성장을 예고했다.",
+      "impact": "AI 데이터센터 관련 주문의 가시성과 실제 실적 반영은 시스코의 제품 주문 증가로 이어져 주가 상승의 강력한 동력으로 작용한다.",
+      "caution": ""
+    },
+    "howmuchfurthercouldvertivstockfall": {
+      "title": "How Much Further Could Vertiv Stock Fall?",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스 주가는 지난 3개월 동안 가치가 약 25% 하락하여 245달러 근처에서 거래되고 있다. 옵션 시장은 향후 12개월 동안 135달러에서 444달러 사이의 넓은 가격대를 형성하며 변동성과 하락 위험을 시사하고 있다.",
+      "impact": "최근 주가 하락과 넓은 옵션 가격대는 투자자들에게 큰 하방 리스크로 인식되어 주가에 부담을 준다.",
+      "caution": "옵션 시장의 가격대는 공황 상태를 의미하지 않으며 향후 상승 여력의 가능성도 함께 열려 있다."
+    },
+    "lockheedmartinopensmassivequantumcentertosecureusarmsedge": {
+      "title": "Lockheed Martin opens massive quantum center to secure US arms edge",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 미국 방위 임무를 위한 양자 기술 연구를 통합하기 위해 'QuIC'라는 대규모 양자 혁신 센터를 개소했다. 록히드의 양자 전략에는 1억 달러 규모의 벤처펀드, 스위스 허브, 미국 전용 센터 설립이 포함된다.",
+      "impact": "미래 국방 기술의 핵심인 양자 연구의 통합과 투자는 향후 록히드마틴의 기술 경쟁력과 장기적 방산 계약 수주에 긍정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "microsoftibdstockofthedaymakesbullishmoveassoftwaregiantlaunchesaisuperapp": {
+      "title": "Microsoft, IBD Stock Of The Day, Makes Bullish Move As Software Giant Launches AI Super-App",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트가 AI 슈퍼앱을 출시하며 IBD 오늘의 주식으로 선정되었고 강세 움직임을 보였다. 본문에는 팔로알토 네트워킹(PANW) 관련 분석 내용과 저작권 고지가 주로 포함되어 있다.",
+      "impact": "마이크로소프트의 AI 슈퍼앱 출시는 제품 경쟁력 측면에서 호재이나, 제공된 본문 내용 자체에는 구체적인 재무적 수치가 없어 주가에 미치는 영향은 제한적이다.",
+      "caution": "본문 내용의 상당 부분이 다른 기업(팔로알토 네트워킹) 분석으로 채워져 있어 마이크로소프트에 대한 구체적인 근거가 부족하다."
+    },
+    "bofadowngradesniketounderperformaheadofearnings": {
+      "title": "BofA Downgrades Nike to Underperform Ahead of Earnings",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "BofA 시큐리티는 나이키의 투자의견을 '중립'에서 '비중축소'로 하향 조정하고 목표주가를 47달러에서 30달러로 낮췄다. 나이키의 클래식 비즈니스 압박과 거시경제적 역풍이 혁신 노력을 압도하고 있으며, 2027회계년도와 2028회계년도 주당순이익(EPS) 전망치도 각각 11%, 12% 하향 조정되었다.",
+      "impact": "목표주가 대폭 하향과 실적 추정치 하락은 투자 심리에 직접적인 악영향을 미치며 단기 주가 하락을 유발한다.",
+      "caution": ""
+    },
+    "couldthisbenovonordisksnextbilliondollarweightlossproduct": {
+      "title": "Could This Be Novo Nordisk’s Next Billion-Dollar Weight-Loss Product?",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크는 비만 및 당뇨병 치료제 후보물질인 제나감타이드(zenagamtide)의 임상 개발을 진행 중이다. 최근 몇 년간 주가가 60% 이상 하락한 가운데, 제나감타이드가 차세대 블록버스터 약물이 될 수 있을지 주목받고 있다.",
+      "impact": "핵심 치료 영역에서 일라이릴리 등 경쟁사에 밀려 점유율을 잃은 상황에서, 신약 파이프라인의 성공 가능성은 향후 실적 반등의 중요한 돌파구가 된다.",
+      "caution": "현재는 개발 단계이므로 실제 상용화 및 매출 기여까지는 불확실성이 존재한다."
+    },
+    "enphstockgainsretailmomentumaftergoldmansachsreaffirmsbullishstance": {
+      "title": "ENPH Stock Gains Retail Momentum After Goldman Sachs Reaffirms Bullish Stance",
+      "holding": "엔페이즈 에너지",
+      "stance": "호재",
+      "summary": "골드만삭스가 엔페이즈 에너지를 향한 강세 의견과 목표주가 상향을 재확인한 가운데, 연방 태양광 세액공제(ITC) 일몰 기한인 7월 4일을 앞두고 주가가 급등했다. 스톡팹츠 등 소셜 미디어에서 관련 메시지 볼륨이 24시간 동안 313% 이상 급증했다.",
+      "impact": "투자 은행의 긍정적 리포트와 세액공제 기한 임박에 따른 수요 기대감이 겹쳐 단기적인 수급과 주가 상승을 견인한다.",
+      "caution": ""
+    },
+    "whydominionenergyhalteddividendgrowthdespitestrongoperatingperformance": {
+      "title": "Why Dominion Energy Halted Dividend Growth Despite Strong Operating Performance",
+      "holding": "넥스트에라 에너지",
+      "stance": "중립",
+      "summary": "Dominion Energy는 2022년 이후 분기 배당금을 0.6675달러로 유지하고 있으며, 넥스트에라 에너지(NEE)와의 합병 심사가 11월 17일에 시작될 예정입니다. 만약 합병이 성사된다면 NEE의 배당 성장 기록이 도미니언의 동결된 배당 정책에 변화를 줄 수 있습니다.",
+      "impact": "보유 종목인 넥스트에라 에너지가 도미니언 에너지와의 합병 가능성과 관련해 언급되었으나, 현재는 규제 승인 및 합병 심사 단계이므로 직접적인 주가 영향은 중립적입니다.",
+      "caution": "기사의 주된 내용은 도미니언 에너지의 배당 및 실적에 관한 것이며, 넥스트에라 에너지는 합병 관련 언급에 그칩니다."
+    },
+    "xylemxylstockmaytradeatadiscountdespitecashflowgrowth": {
+      "title": "Xylem (XYL) Stock May Trade At A Discount Despite Cash Flow Growth",
+      "holding": "자일럼",
+      "stance": "중립",
+      "summary": "자일럼(XYL)의 주가는 지난 1년간 26.4% 하락하여 현재 102.66달러 수준에서 거래되고 있습니다. 할인현금흐름(DCF) 모델과 23.5배의 주가수익비율(P/E)을 통해 회사의 향후 현금 창출력과 가치 평가에 대한 분석이 제기되고 있습니다.",
+      "impact": "과거 주가 하락과 밸류에이션 지표를 다룬 일반적인 시장 분석 기사로, 보유 종목의 펀더멘털 변화보다는 주가 할인 가능성을 점검하는 성격이 강합니다.",
+      "caution": "특정 호재나 악재의 발생보다는 주가 하락에 따른 밸류에이션 관점의 진단이므로 단기적 방향성은 중립으로 판단합니다."
+    },
+    "전통제조업에서반도체ai로전남광주산업지도다시그린다": {
+      "title": "전통 제조업에서 반도체·AI로…전남광주 산업지도 다시 그린다",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "전남광주 지역이 기존의 자동차·가전·석유화학·철강 중심 산업에서 반도체, AI, 데이터센터, 저탄소 제조업 중심으로 재편되고 있습니다. 이 과정에서 철강은 저탄소 전환을 추진하고 있으며, 광주 지역에는 삼성전자·SK하이닉스의 반도체 생산시설 투자 등이 추진되고 있습니다.",
+      "impact": "POSCO홀딩스의 주력 사업인 철강 부문이 저탄소 전환을 추진하고 있다는 산업 지형도 변화의 맥락에서 언급되었으나, 개별 기업의 실적이나 직접적인 수혜로 직결되기는 아직 이릅니다.",
+      "caution": "지역 전체의 산업 구조 개편을 다룬 거시적 기사로 POSCO홀딩스에 미치는 직접적인 영향은 제한적입니다."
+    },
+    "에너지오디세이폐플라스틱에서석유뽑는다열분해유사업재시": {
+      "title": "[에너지 오디세이]⑥폐플라스틱에서 석유 뽑는다…열분해유 사업 재시...",
+      "holding": "LG화학",
+      "stance": "중립",
+      "summary": "폐플라스틱을 열분해하여 나프타 등의 석유 제품을 추출하는 열분해유 사업이 에너지 안보와 탄소중립 대안으로 주목받고 있습니다. 기후에너지환경부에 따르면 열분해유 생산량은 2023년 2만4677t에서 2025년 4만7199t으로 매년 증가하고 있으나 증가세는 다소 둔화되었습니다.",
+      "impact": "석유화학 업계 전반의 친환경 원료 확보 및 열분해유 트렌드를 다룬 내용으로, 특정 기업인 LG화학의 구체적인 실적이나 수주 계약 내용이 직접 언급되지 않아 영향은 중립적입니다.",
+      "caution": "보유 종목인 LG화학이 직접 명시되지 않고 국내 석유화학 산업 전반의 열분해유 트렌드만 다루어졌습니다."
+    },
     "hbm호황에달라진위상그룹베테랑품은sk하이닉스": {
       "title": "HBM 호황에 달라진 위상…그룹 '베테랑' 품은 SK하이닉스",
       "holding": "SK하이닉스",
