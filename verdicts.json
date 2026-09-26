@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-26T09:01:21+09:00",
+  "generated_at": "2026-09-27T08:02:02+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7588,
-    "output_tokens": 4081
+    "input_tokens": 7918,
+    "output_tokens": 3824
   },
   "skipped": {
     "본문없음": 2,
@@ -12,6 +12,150 @@
     "호출실패": []
   },
   "verdicts": {
+    "상장사3분기실적전망치변화는삼전닉스상향조정": {
+      "title": "상장사 3분기 실적 전망치 변화는…삼전닉스 상향 조정",
+      "holding": "LG화학",
+      "stance": "약한 악재",
+      "summary": "국내 상장사들의 3분기 실적 전망치가 엇갈리는 가운데 LG화학은 3분기 영업이익 추정치가 하향 조정된 기업 중 하나로 언급되었다. 증권사 3곳 이상이 추정치를 제시한 232개 기업 중 55%는 상향되었으나, LG화학을 포함한 일부 기업은 눈높이가 낮아졌다.",
+      "impact": "시장 컨센서스 및 영업이익 추정치가 하향 조정된 것은 단기적으로 투자 심리에 부정적으로 작용하여 주가에 하방 압력을 줄 수 있다.",
+      "caution": "추정치 하향의 구체적인 사업 부문별 원인이나 수치가 본문에 상세히 적시되지는 않았다."
+    },
+    "삼성전자dx노조추석에도한남동서농성선명성경쟁에무리수": {
+      "title": "삼성전자 DX 노조, 추석에도 한남동서 농성…'선명성 경쟁'에 무리수",
+      "holding": "삼성전자",
+      "stance": "악재",
+      "summary": "삼성전자 디바이스경험(DX) 부문 동행노동조합이 추석 연휴 기간인 2026년 9월 25일에도 이재용 회장의 용산구 한남동 자택 인근에서 농성을 이어갔다. 올해 임단협이 마무리되었음에도 DS부문과의 보상 격차 해소를 요구하며 사측 압박을 지속하고 있다.",
+      "impact": "노조의 지속적인 장외 농성과 사측 압박은 내부 갈등과 경영 불확실성을 키워 주가 및 기업 이미지에 부정적인 영향을 줄 수 있다.",
+      "caution": "조합원 규모가 커졌으나 실제 경영 실적에 미치는 재무적 타격은 단기적으로 제한적일 수 있다."
+    },
+    "내달7일누리호5차발사앞둬한화에어로등민간주도우주시": {
+      "title": "내달 7일 '누리호 5차' 발사 앞둬…한화에어로 등 '민간 주도' 우주시...",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "2026년 10월 7일 전남 고흥 나로우주센터에서 역대 최다인 15기의 위성을 싣고 누리호 5차 발사가 진행된다. 이번 발사에는 한화에어로스페이스가 발사 운용으로 역할을 확대하고, HD현대중공업과 현대로템 등이 인프라 구축에 동참한다.",
+      "impact": "민간 주도 우주산업 생태계가 확장되는 과정에서 HD현대중공업이 인프라 구축에 참여함으로써 관련 사업 수혜 및 기업 이미지 제고에 긍정적이다.",
+      "caution": "우주 사업이 단기적인 매출 비중에서 차지하는 규모는 크지 않을 수 있다."
+    },
+    "adformsaysaiassistantscanaccess800ofitsadplatformcapabilities": {
+      "title": "Adform says AI assistants can access 800 of its ad platform capabilities",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "애드폼(Adform)은 2026년 9월 21일 챗GPT, 클로드, 마이크로소프트 코파일럿 등의 AI 어시스턴트가 자사의 FLOW 플랫폼과 연동되어 800개 이상의 광고 기능을 사용할 수 있다고 밝혔다. 이는 3개월 전 칸 라이언즈 무대에서 델 테크놀로지스 및 퍼블리시스 그룹과 협력한 인프라를 바탕으로 한다.",
+      "impact": "델 테크놀로지스가 과거 인프라 협력으로 언급되기는 하나, 본 기사의 핵심 내용은 애드폼 플랫폼의 AI 기능 확장으로 델의 단기 실적이나 주가에 미치는 직접적 경로는 크지 않다.",
+      "caution": "델은 과거 협력 사례로만 짧게 언급되었을 뿐 본문의 주된 사업 주체는 애드폼이다."
+    },
+    "vincorinternationalvcxstockpricenewsanalysisvcx": {
+      "title": "Vincor International (VCX) Stock Price, News & Analysis $VCX",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "NYSE에 상장된 빈코 인터내셔널(VCX)의 2026년 9월 25일 종가는 30.18달러로 전일 대비 0.18달러(+0.61%) 상승 마감했다. 시간외 거래에서는 30.15달러로 소폭 하락했다.",
+      "impact": "주가 데이터와 시세 정보만 제공될 뿐 회사의 펀더멘털이나 보유 종목 관점에서의 유의미한 사업적 변화 내용이 없어 중립적이다.",
+      "caution": "단순 주가 시세 안내 기사이므로 특별한 호재나 악재로 해석하기 어렵다."
+    },
+    "firstsolarfslrslidestowarda52weeklowisthestocknowcheap": {
+      "title": "First Solar (FSLR) Slides Toward A 52 Week Low, Is The Stock Now Cheap?",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "퍼스트솔라(FSLR) 주가가 미국 장기 국채 금리 급등의 영향으로 대형 태양광 프로젝트의 자금 조달 비용이 상승하고 정책적 기대가 흔들리며 52주 신저가 부근으로 10% 이상 하락했다. 최근 1주일간 9.31%, 30일간 15.42% 하락세를 보였다.",
+      "impact": "금리 상승으로 인한 자금 조달 비용 증가와 투자 심리 위축이 퍼스트솔라의 태양광 프로젝트 수주 및 주가에 직접적인 하방 압력으로 작용한다.",
+      "caution": "5년 장기 수익률은 여전히 긍정적이며 애널리스트 목표가 대비 저평가 상태라는 시각도 존재한다."
+    },
+    "constellationenergynasdaqcegadvancescranenuclearrestartasdatacenterpowerdealssharpenfocus": {
+      "title": "Constellation Energy (NASDAQ:CEG) Advances Crane Nuclear Restart As Data Center Power Deals Sharpen Focus",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지가 크레인 원자력 발전소 재가동을 추진하는 가운데, 데이터센터 전력 공급 계약이 시장의 주목을 받고 있다. 해당 기사는 2026년 9월 26일자 보도로 컨스텔레이션 에너지의 관련 동향을 다루고 있다.",
+      "impact": "데이터센터 전력 수요 증가에 따른 원전 재가동 추진은 장기적으로 전력 공급 사업자에게 호재이나, 본문 요약문 형태의 짧은 발췌에서는 구체적인 계약 규모나 실적 반영 시점이 명시되지 않았다.",
+      "caution": "텍스트가 제목과 요약 위주로 구성되어 있어 세부적인 재무적 파급 효과를 단정하기 어렵다."
+    },
+    "vistrastockisdown31overthelastyearisittimetobuythedip": {
+      "title": "Vistra Stock Is Down 31% Over the Last Year. Is It Time to Buy the Dip?",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "비스트라(VST) 주가는 2026년 9월 25일 기준 138달러로 마감하며 지난 1년간 31% 하락했다. ERCOT(텍사스 전력망)의 도매 전력 가격이 메가와트시당 30달러로 낮게 유지되어 신규 발전 설비 건설 유인이 부족하고, 텍사스 주의 데이터센터 전력망 연결 감사 등 정책 불확실성이 겹쳤다.",
+      "impact": "낮은 도매 전력 가격과 규제 불확실성은 전력 발전 사업자의 수익성 개선 기대감을 낮추고 주가에 부담으로 작용한다.",
+      "caution": "평균 애널리스트 목표가가 218달러로 장기적 상승 여력에 대한 시각도 공존한다."
+    },
+    "credotechnologysearningscallsignalsopticalfueledsurge": {
+      "title": "Credo Technology’s Earnings Call Signals Optical-Fueled Surge",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지는 1분기 매출 4억 7,900만 달러를 기록해 전년 동기 대비 115% 급증하며 사상 최대 실적을 달성했다. 광학 DSP와 리타이머 분야의 뛰어난 성과로 7분기 연속 세 자릿수 성장세를 이어갔다.",
+      "impact": "사상 최대 매출과 높은 비GAAP 매출총이익률(68%)은 회사의 다년간 확장성에 대한 긍정적 신호로 작용해 주가에 호재가 된다.",
+      "caution": "경영진이 언급한 R&D 지출 증가, 재고 상승, 현금 흐름 압박 및 고객 집중도 리스크는 향후 모니터링이 필요하다."
+    },
+    "elonmuskrespondswithtwoemojisasgoogleceosundarpichaisaysprojectsuncatcherheadstospacecanourtpussurvive": {
+      "title": "Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'Can Our TPUs Survive...'",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳의 CEO 순다르 피차이는 구글의 '프로젝트 선캐처'를 통해 인공지능 칩인 텐서 처리 장치(TPU)의 성능을 우주 공간에서 사상 최초로 테스트할 것이라고 발표했다. 이 프로토타입 위성은 스페이스X의 트랜스포터-18 라이드쉐어 임무를 통해 발사될 예정이다.",
+      "impact": "구글의 AI 기술 확장성과 혁신 역량을 우주 공간으로까지 넓히는 시도로서 알파벳의 기술 리더십을 부각시킨다.",
+      "caution": "초기 테스트 단계이며 실제 사업적 수익이나 성과로 직결되는 것은 아니므로 영향은 제한적이다."
+    },
+    "ciscosystemsnasdaqcscoinfocusafterrecordfiscalrevenueandaisecuritypush": {
+      "title": "Cisco Systems (NASDAQ:CSCO) In Focus After Record Fiscal Revenue And AI Security Push",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈는 사상 최대 재정 매출과 AI 보안 추진으로 시장의 주목을 받고 있다. 본문은 관련 주가 지수 및 다른 기업들의 뉴스 목록을 함께 나열하고 있다.",
+      "impact": "보유 종목인 시스코의 사상 최대 매출과 AI 보안 추진은 펀더멘털 측면에서 긍정적이나, 본문 기사 내용이 상세히 다뤄지지 않고 요약 형태로만 언급되어 직접적인 주가 변동 트리거로는 한계가 있다.",
+      "caution": "기사 본문이 다른 종목들과 함께 제목 위주로 나열된 형태의 인덱스 페이지여서 상세 정보를 파악하기 어렵다."
+    },
+    "westerndigitaland2moreaiinfrastructurestockstowatch": {
+      "title": "Western Digital And 2 More AI Infrastructure Stocks To Watch",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "AI 관련 투자가 지속되면서 인프라, 전력, 쿨링 등의 하드웨어를 다루는 AI 인프라스트럭처 주식들이 주목받고 있다. 본문은 이러한 하드웨어 수혜 종목들을 발굴하기 위한 스크리너를 소개하고 있다.",
+      "impact": "버티브 홀딩스가 속한 AI 인프라 및 전력·냉각 테마가 전반적인 주목을 받고 있음을 보여주나, 특정 기업의 개별 실적이나 계약 뉴스는 아니다.",
+      "caution": "버티브 홀딩스가 직접 언급되지 않았고 AI 인프라 테마 전반을 다룬 일반적인 투자 안내 기사이다."
+    },
+    "f35productionreboundstorecord191deliveriesin2025afterlockheedmartinclearstr3backlogbutsoftwareandsupplierrisksremain": {
+      "title": "F-35 production rebounds to record 191 deliveries in 2025 after Lockheed Martin clears TR-3 backlog, but software and supplier risks remain",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "록히드마틴은 TR-3 적체 물량을 해소하며 2025년 F-35 생산량을 사상 최대인 191대 인도 기록을 세웠다. 인도 병목 현상은 완화되었으나 복잡한 소프트웨어 개발 및 공급업체 관련 리스크는 여전히 남아 있다.",
+      "impact": "인도 대수의 급증과 재고 감축은 단기적인 실적 실현과 생산 정상화를 의미하므로 긍정적이다.",
+      "caution": "TR-3 업그레이드 비용 상승과 향후 전투 능력을 위한 복잡한 소프트웨어 완성 지연 위험이 공존한다."
+    },
+    "microsoftstockmsftopinionsonanalystupgrades": {
+      "title": "Microsoft Stock (MSFT) Opinions on Analyst Upgrades",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "스티펠(Stifel)은 마이크로소프트의 투자의견을 매수로 상향 조정하고 목표주가를 높였다. 이는 회사의 AI 및 클라우드 포지셔닝에 대한 강한 자신감을 반영한다.",
+      "impact": "애널리스트의 투자의견 상향과 목표가 상향은 시장의 매수세를 자극하여 주가 상승 압력으로 작용한다.",
+      "caution": "시장의 단기적 통합 패턴과 거시경제적 변수에 따라 주가 반응이 달라질 수 있다."
+    },
+    "whatisnovonordiskcpsenovobgettingfroma1165billionlicensingdeal": {
+      "title": "What Is Novo Nordisk (CPSE:NOVO B) Getting From A €1.165 Billion Licensing Deal?",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크는 스웨덴의 약물 전달 전문 기업 나넥사와 비만, 제2형 당뇨병 등의 치료를 위한 장기 지속형 주사제 관련 11억 6,500만 유로 규모의 글로벌 라이선스 계약을 체결했다. 노보노디스크는 나넥사의 파마셸 기술을 파이프라인 자산에 적용할 독점적 권리를 확보했다.",
+      "impact": "대규모 라이선스 계약을 통해 비만 및 당뇨 파이프라인의 경쟁력을 강화하고 장기 지속형 주사제 포트폴리오를 넓힐 수 있어 장기 성장에 긍정적이다.",
+      "caution": "분석에서 지적된 노보노디스크에 대한 일부 경고 신호 및 규제 리스크는 지속적으로 점검해야 한다."
+    },
+    "enphaseenergynasdaqenphshowcasesaidatacenterpowerhardwareassolarsellingresumes": {
+      "title": "Enphase Energy (NASDAQ:ENPH) Showcases AI Data Center Power Hardware As Solar Selling Resumes",
+      "holding": "엔페이즈 에너지",
+      "stance": "중립",
+      "summary": "엔페이즈 에너지가 AI 데이터 센터 전력 하드웨어를 선보인 가운데 태양광 관련 주식들이 움직임을 보이고 있다. 본문은 관련 종목 티커와 주가 변동을 보여주는 나스닥 인덱스 뉴스 페이지의 일부이다.",
+      "impact": "엔페이즈가 AI 데이터 센터 전력 하드웨어 시장으로 확장할 가능성을 보여주나 본문에 구체적인 계약이나 실적 내용이 없다.",
+      "caution": "기사 본문이 다른 종목들의 헤드라인과 함께 나열된 인덱스 페이지여서 상세한 내용이나 파급효과를 확인하기 어렵다."
+    },
+    "xylemxylraises15basundervaluednarrativefacesamarkettest": {
+      "title": "Xylem (XYL) Raises $1.5b As Undervalued Narrative Faces A Market Test",
+      "holding": "자일럼",
+      "stance": "중립",
+      "summary": "수자원 기술 그룹 자일럼(Xylem)이 고정금리 콜어블 선순위채 발행을 통해 약 15억 달러의 신규 자금을 조달했다. 최근 한 달간 주가는 약 9.5% 하락했고 연초 대비로는 약 25% 하락했으나, 3년 총주주수익률은 약 17%를 기록하고 있다.",
+      "impact": "대규모 자본 조달은 향후 성장을 위한 실탄을 확보한다는 점에서 긍정적일 수 있으나, 최근 주가 하락세와 맞물려 시장의 엄격한 검증을 받고 있어 단기적인 주가 방향성은 불확실하다.",
+      "caution": "기사 내용이 주로 자금 조달 사실과 주가 흐름을 객관적으로 전달하는 수준이어서 구체적인 실적 개선 여부는 추가 확인이 필요하다."
+    },
+    "클수록더오른다1500가구이상대단지집값상승세두각": {
+      "title": "“클수록 더 오른다”…1500가구 이상 대단지 집값 상승세 ‘두각’",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "올해 8월 기준 1500가구 이상 전국 대단지 아파트의 3.3㎡당 평균 매매가는 3059만원으로 전년 동기 대비 약 277만원 상승했다. 반면 300가구 미만 소규모 단지는 90만원 오르는 데 그쳐 대단지와 소규모 단지 간 집값 상승폭이 3배 이상 벌어졌다.",
+      "impact": "POSCO홀딩스가 직접 언급되지 않았으며 부동산 시장의 단지 규모별 양극화 현상을 다룬 기사로, 보유 종목에 미치는 영향은 직접적이지 않다.",
+      "caution": "보유 종목인 POSCO홀딩스와 직접적인 연관성이 없는 부동산 시황 기사이다."
+    },
     "삼성전자sk하이닉스독주체제강화증시쏠림속ai데이터센터": {
       "title": "\"삼성전자·SK하이닉스 독주 체제 강화\"…증시 쏠림 속 AI 데이터센터...",
       "holding": "SK하이닉스",
