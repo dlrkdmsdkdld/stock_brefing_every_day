@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-28T08:11:12+09:00",
+  "generated_at": "2026-09-29T09:28:51+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7020,
-    "output_tokens": 3148
+    "input_tokens": 5771,
+    "output_tokens": 3169
   },
   "skipped": {
     "본문없음": 2,
@@ -12,6 +12,134 @@
     "호출실패": []
   },
   "verdicts": {
+    "ds투자증권sk하이닉스4분기실적기대감에도목표주가264만원하향": {
+      "title": "DS투자증권, SK하이닉스 4분기 실적 기대감에도 목표주가 ‘264만원’ 하향",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "DS투자증권은 SK하이닉스의 목표주가를 기존 310만원에서 264만원으로 15% 하향 조정했다. 환율 하락과 3분기 DRAM 출하 비트그로스(B/G)가 예상치를 밑돌았으며, 3분기 영업이익 추정치도 70조1000억원으로 낮아졌다. 다만 4분기에는 HBM4 매출 기여 확대와 고부가 제품 믹스 개선이 실적을 견인할 것으로 기대된다.",
+      "impact": "단기 실적 추정치와 목표주가가 하향 조정되어 주가에 하방 압력으로 작용할 수 있으나, 4분기 이후 HBM 성장성에 대한 기대는 여전히 유효하다.",
+      "caution": "목표주가 하향의 주된 원인이 환율 하락과 일시적 출하량 조정에 기인하므로 펀더멘털의 치명적 훼손으로 보기에는 무리가 있다."
+    },
+    "삼성전자실적전망낮춘유진메모리가격추가상승가능": {
+      "title": "삼성전자 실적 전망 낮춘 유진證…“메모리 가격 추가 상승 가능”",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "유진투자증권은 삼성전자에 대해 투자의견 '강력 매수'와 목표주가 56만원을 유지하면서도 원화 강세와 MX 사업부 적자 등을 반영해 실적 전망치를 낮췄다. 3분기 DS 부문 영업이익은 서버용 D램과 eSSD 가격 상승에 힘입어 전 분기 대비 17% 증가한 104조원으로 예상했다. 반면 DX 부문은 1조8000억원의 영업적자가 전망된다.",
+      "impact": "메모리 가격 상승과 HBM4 램프업 등 긍정적 요인과 모바일 부문 적자 확대 등 부정적 요인이 혼재되어 주가에 미치는 영향이 중립적이다.",
+      "caution": "환율 변동 및 원가 상승 압력으로 인한 실적 추정치 조정이 동반되었다."
+    },
+    "코스피6800선급락출발후낙폭축소삼전하닉반등": {
+      "title": "코스피, 6800선 급락 출발 후 낙폭 축소…삼전·하닉 반등",
+      "holding": "HD현대중공업",
+      "stance": "약한 악재",
+      "summary": "코스피가 외국인의 대규모 순매도와 미국 장기금리 상승, 중동 불안 등의 악재로 약세 출발했으나 낙폭을 축소하고 있다. 시가총액 상위 종목 중 삼성전자와 SK하이닉스는 반등한 반면, HD현대중공업은 2.04% 하락하며 운송장비·부품 업종의 약세를 이끌었다.",
+      "impact": "보유 종목인 HD현대중공업이 시장 전반의 하락 압력과 업종 부진 속에서 약세를 보여 단기적으로 주가에 부정적이다.",
+      "caution": "지수 낙폭 축소 과정에서 개별 종목의 수급 변화를 주시할 필요가 있다."
+    },
+    "dellstocklookslessexpensiveonceyoucounttheaibacklog": {
+      "title": "Dell Stock Looks Less Expensive Once You Count The AI Backlog",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "델(Dell)의 주가는 지난 1년간 크게 상승하여 trailing PER 기준으로 고평가된 것처럼 보이지만, 회사는 2027 회계연도에 192억 달러의 매출을 가이드하고 있다. 특히 델은 AI 주문에서 사상 최대인 609억 달러를 기록한 바 있다.",
+      "impact": "거대한 AI 주문 백로그가 존재하므로 향후 실적 성장을 통해 밸류에이션 부담을 해소할 수 있으며 주가에 긍정적이다.",
+      "caution": "주가가 이미 단기간에 급등하여 멀티플 부담이 존재한다는 점은 유의해야 한다."
+    },
+    "firstsolarfacespricingpressureamidhighinventoryslowprojectstartskeybancsays": {
+      "title": "First Solar Faces Pricing Pressure Amid High Inventory, Slow Project Starts, KeyBanc Says",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "키방크(KeyBanc)에 따르면 퍼스트솔라(FSLR)는 높은 미국 내 재고 수준과 느린 프로젝트 착공 등의 요인으로 인해 중기적인 가격 압박에 직면해 있다.",
+      "impact": "재고 증가와 프로젝트 지연은 수익성 및 판매 가격에 하방 압력을 주어 주가에 부정적 요인으로 작용한다.",
+      "caution": "유료 기사의 요약문 형태로 세부 수치나 구체적 규모를 파악하는 데 한계가 있다."
+    },
+    "constellationenergycorporationcegseesamoresignificantdipthanbroadermarketsomefactstoknow": {
+      "title": "Constellation Energy Corporation (CEG) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 악재",
+      "summary": "컨스텔레이션 에너지(CEG)의 주가는 직전 거래일 종가 대비 1.08% 하락한 260.43달러로 마감하며 S&P 500의 하락률보다 더 큰 낙폭을 기록했다. 회사의 다가오는 실적 발표에서 주당순이익(EPS)은 3.99달러로 예상되고 있다.",
+      "impact": "시장 평균보다 큰 낙폭을 기록하며 단기적인 매도 우위 흐름을 보여주어 투자 심리에 부정적이다.",
+      "caution": "단기 주가 조정을 겪고 있으나 곧 예정된 실적 발표 결과에 따라 방향성이 달라질 수 있다."
+    },
+    "samsungtoinvestusd1billioninaiinfrastructurecompanyhelix": {
+      "title": "Samsung To Invest USD 1 Billion in AI Infrastructure Company Helix",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "삼성전자 등 삼성 계열사들이 KKR이 설립한 AI 인프라 기업 '헬릭스(Helix)'에 총 1억 달러 규모의 공동 투자를 단행했다. 헬릭스는 하이퍼스케일 데이터 센터 개발 및 전력 공급을 포함한 AI 인프라 통합 솔루션을 제공하는 기업으로 KKR, 엔비디아, 비스트라(Vistra) 등이 함께 참여한다.",
+      "impact": "보유 종목인 비스트라가 글로벌 AI 인프라 및 전력 공급 파트너로서 삼성 및 엔비디아 등 빅플레이어들과 협력 관계를 구축하게 되어 장기 성장에 호재다.",
+      "caution": "구체적인 지분 구조나 단기 실적 기여 시점은 본문 내용만으로 확정하기 어렵다."
+    },
+    "eosenergyenterprisesnasdaqeosehitsnew1yearlowtimetosell": {
+      "title": "Eos Energy Enterprises (NASDAQ:EOSE) Hits New 1-Year Low - Time to Sell?",
+      "holding": "이오스 에너지",
+      "stance": "악재",
+      "summary": "이오스 에너지 엔터프라이즈(EOSE)는 52주 신저가인 3.01달러를 기록했으며, 주가는 50일 및 200일 이동평균선 아래에서 거래되고 있다. 최근 분기 주당순손실 1.20달러를 기록해 시장 예상치인 0.19달러 손실보다 실적이 크게 악화되었으며 내부자 매도도 발생했다.",
+      "impact": "어닝 쇼크와 신저가 경신, 내부자 매도가 겹치며 투자 심리가 급격히 악화되어 주가 하락 압력이 커졌다.",
+      "caution": "매출액은 소기의 예상치를 상회했으나 대규모 적자가 펀더멘털에 큰 부담을 준다."
+    },
+    "almontyindustriesstocklasttradesatusd1326onseptember282026": {
+      "title": "Almonty Industries stock last trades at USD 13.26 on September 28, 2026",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리스는 2026년 9월 28일 기준 주가가 13.26달러를 기록했으며, 한국 상동 프로젝트의 채광 시설 검사 증명서를 수령해 상업 운전 및 텅스텐 정광 판매를 승인받았다. 글로벌 텅스텐 앤 파우더스(GTP)와의 수정된 오프테이크 계약을 통해 생산될 정광의 대부분이 계약되어 있다.",
+      "impact": "상동 광산의 상업 운전 개시와 판매 승인은 본격적인 매출 발생으로 이어져 알먼티의 기업 가치와 펀더멘털에 긍정적인 영향을 준다.",
+      "caution": "주가 자체는 전일 대비 3.35% 하락한 13.26달러에 거래되었다."
+    },
+    "marvelllikelytoliftfiscal2029airevenueestimatebyatleast2billionlargelyduetogoogledealrbcsays": {
+      "title": "Marvell Likely to Lift Fiscal 2029 AI Revenue Estimate by at Least $2 Billion Largely Due to Google Deal, RBC Says",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "알파벳(Google)과의 거래에 힘입어 마블 테크놀로지가 2029 회계연도 인공지능(AI) 매출 전망치를 최소 20억 달러 이상 상향 조정할 것으로 예상된다고 RBC가 밝혔다.",
+      "impact": "알파벳의 AI 관련 비즈니스 확장과 파트너사의 성장을 시사하며, 구글 생태계의 가치를 높이는 요인으로 작용한다.",
+      "caution": "전문 구독 서비스 기사로 본문 전체 내용이 제한되어 있어 세부 파트너십 조건은 확인하기 어렵다."
+    },
+    "ciscostockmoveslowerwhileagentsecurityescapesthedatace": {
+      "title": "Cisco Stock Moves Lower While Agent Security Escapes the Data Ce",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "시스코 시스템즈는 엔비디아의 새로운 AI 에이전트 안전 플랫폼에 자사 보안 도구를 결합할 계획이라고 2026년 9월 28일 월요일에 밝혔다. 시스코의 Hypershield, AI Defense 등이 엔비디아의 OpenShell 및 BlueField-4 하드웨어와 연동된다.",
+      "impact": "AI 보안 분야에서의 협력 강화는 시스코의 엔터프라이즈 보안 솔루션 경쟁력을 높여 장기적으로 긍정적이다.",
+      "caution": "이날 발표와 함께 시스코 주가는 약 0.3% 하락한 106.42달러를 기록했다."
+    },
+    "whyvertivholdingscovrtdippedmorethanbroadermarkettoday": {
+      "title": "Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스(VRT)는 2026년 9월 28일 마감된 세션에서 3.72% 하락한 243.85달러를 기록하며 광범위한 시장 지수보다 부진한 모습을 보였다. 다가오는 실적 발표에서 예상 EPS는 1.83달러, 예상 매출은 3.77억 달러로 전망된다.",
+      "impact": "최근 한 달간의 단기 하락세와 시장 평균 대비 부진한 주가 흐름은 투자 심리에 단기적인 부담으로 작용한다.",
+      "caution": "다가오는 실적 발표에서 47.58%의 EPS 성장이 예상되는 등 펀더멘털 자체는 견조할 수 있다."
+    },
+    "whatislockheedmartinlmtbuildingindefenseaiandspace": {
+      "title": "What Is Lockheed Martin (LMT) Building In Defense AI And Space?",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드 마틴은 2026년에 지향성 에너지 무기, AI 기반 군용 드론, 우주 기반 컴퓨팅 플랫폼 분야로 사업을 확장하고 있다. 업계 보고서에 따르면 이 회사는 레이저, 마이크로파 방어, 자율주행 시스템의 핵심 방산 계약업체로 꼽힌다.",
+      "impact": "차세대 방산 기술 및 AI 우주 컴퓨팅 분야에서의 입지 표명은 미래 성장 동력 확보 측면에서 긍정적이다.",
+      "caution": ""
+    },
+    "microsoftoraclestockstumbleaftermetaunveilsnewaienterprisepush": {
+      "title": "Microsoft, Oracle Stocks Tumble After Meta Unveils New AI Enterprise Push",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "메타플랫폼스(META)가 기업용 AI 비즈니스 플랫폼을 새롭게 공개한 후, 마이크로소프트(MSFT) 주가는 2026년 9월 28일 오전 거래에서 약 2% 하락했다. 메타의 신규 플랫폼은 뮤즈 AI 에이전트 및 메타 비즈니스 에이전트 등의 제품을 기업에 제공한다.",
+      "impact": "메타의 기업용 AI 시장 진출로 인해 마이크로소프트 등 기존 엔터프라이즈 소프트웨어 기업들의 경쟁 심화 우려가 부각되며 단기 주가 하락을 유발했다.",
+      "caution": ""
+    },
+    "nikefaces2majorteststhisweekearningsisnttheonetowatch": {
+      "title": "Nike Faces 2 Major Tests This Week. Earnings Isn't the One To Watch",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키는 다가오는 목요일 1분기 실적 발표를 앞두고 있으며, 주가는 10년 내 최저가 수준에서 거래되고 있다. 지난 금요일 뱅크오브아메리카(BofA)는 향후 2년간의 실적 하락 리스크를 이유로 투자의견을 언더퍼폼으로 내리고 목표주가를 47달러에서 30달러로 하향 조정했다.",
+      "impact": "월가의 실적 기대치 하향과 거듭된 목표가 인하는 단기적인 주가 반등을 어렵게 만드는 악재로 작용한다.",
+      "caution": "회사는 1분기부터 관세를 지나 재고 합리화 효과로 매출총이익률이 반등할 것으로 기대하고 있다."
+    },
+    "canrocheslatestobesitydrugresultshelpitchallengeelilillyandnovonordisk": {
+      "title": "Can Roche’s Latest Obesity Drug Results Help it Challenge Eli Lilly and Novo Nordisk?",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "로슈의 실험용 비만 치료제 에니세파티드가 중기 임상에서 환자들의 체중을 평균 15.5% 줄이며 혈당 조절 개선 효과를 보였다. 이는 노보 노디스크(NVO)와 일라이 릴리가 주도해온 비만 치료제 시장에 강력한 도전자 등장을 의미한다.",
+      "impact": "경쟁사인 로슈의 비만 치료제 임상 성공은 시장 점유율 경쟁 심화를 예고하며 노보 노디스크의 독점력에 위협 요소가 될 수 있다.",
+      "caution": "임상 단계의 결과이며, 노보 노디스크의 기존 시장 지위와 파이프라인 경쟁력이 즉각적으로 무너지지는 않는다."
+    },
     "삼성전자3분기실적3개월대비5상향조정sk하이닉스도2올라가": {
       "title": "삼성전자 3분기 실적, 3개월 대비 5% 상향 조정...SK하이닉스도 2% 올라가",
       "holding": "SK하이닉스",
@@ -2947,14 +3075,6 @@
       "summary": "Cisco Systems 주가는 약 109달러로 52주 고점보다 16% 낮고, 최근 한 달간 10.1% 하락했지만 최근 12개월 기준으로는 66.6% 상승했다. 회계연도 2026년 매출은 사상 최대인 633억달러였고, 경영진은 회계연도 2027년 매출이 720억달러를 넘을 것으로 전망했으나 핵심 우려는 마진이었다.",
       "impact": "Cisco의 데이터센터와 하이퍼스케일러 관련 성장 및 매출 전망은 네트워크 장비 업황을 보여주는 참고 자료가 될 수 있다. 그러나 이 기사는 Cisco Systems의 주가와 실적을 다룬 것으로, 알파벳의 매출이나 이익에 직접 영향을 주는 사건은 아니다.",
       "caution": "보유 종목인 알파벳이 아닌 Cisco Systems가 기사 주제이며, 알파벳의 사업·실적·주가에 관한 직접적인 내용은 본문에 없다."
-    },
-    "whyvertivholdingscovrtdippedmorethanbroadermarkettoday": {
-      "title": "Why Vertiv Holdings Co. (VRT) Dipped More Than Broader Market Today",
-      "holding": "버티브 홀딩스",
-      "stance": "약한 악재",
-      "summary": "버티브 홀딩스(VRT)는 최근 거래일에 262.89달러로 마감하며 전 거래일 대비 9.61% 하락했고, 같은 날 S&P 500의 하락률 0.48%, 다우지수 0.77%, 나스닥 0.64%보다 부진했다. 다만 지난 한 달 동안 주가는 3.2% 상승했으며, 시장은 회사의 upcoming 실적 발표와 EPS에 주목하고 있다.",
-      "impact": "시장 대비 큰 폭의 주가 하락은 단기 투자심리와 보유 가치에 부정적이다. 그러나 기사에는 하락 원인이나 실적 전망의 구체적 내용이 없어 실적 발표 전까지 악재의 지속 여부는 불확실하다.",
-      "caution": "본문이 실적 발표 예고 부분에서 끊겨 있어 주가 급락의 구체적 원인과 EPS 전망을 확인할 수 없다."
     },
     "ubsseesastructuralshiftbuildingatlockheedmartin": {
       "title": "UBS sees a structural shift building at Lockheed Martin",
