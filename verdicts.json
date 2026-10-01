@@ -1,17 +1,185 @@
 {
-  "generated_at": "2026-09-30T08:51:15+09:00",
+  "generated_at": "2026-10-01T09:00:55+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8902,
-    "output_tokens": 3757
+    "input_tokens": 8151,
+    "output_tokens": 3854
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 1,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "정부현대차sk하이닉스현장규제푼다79조투자속도전": {
+      "title": "정부, 현대차·SK하이닉스 현장 규제 푼다… 7.9조 투자 속도전",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "정부는 SK하이닉스의 반도체 공장 신설 시 전기와 통신 공사의 통합 발주를 허용하여 준공을 앞당길 방침이다. 이번 규제 완화 등을 통해 총 7조9,000억 원 규모의 기업 투자가 속도감 있게 추진될 것으로 기대된다.",
+      "impact": "반도체 공장 건설 과정에서 행정적·절차적 부담이 줄어들며, 설비 투자의 속도가 빨라져 SK하이닉스의 생산 기반 확충에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "kb증권삼성전자하반기70조현금배당가능": {
+      "title": "KB증권 “삼성전자, 하반기 70조 현금배당 가능”",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "KB증권은 삼성전자가 메모리 반도체 실적 개선을 바탕으로 하반기 총 70조 원 규모의 현금배당을 실시할 수 있다고 전망했다. 향후 3개년 주주환원 규모는 기존 140조 원에서 600조 원으로 대폭 확대될 것으로 예상된다.",
+      "impact": "대규모 주주환원과 배당 확대 전망은 투자 매력을 높여 주가에 호재로 작용한다.",
+      "caution": "증권사의 추정치에 기반한 전망이며 실제 실적과 정책에 따라 달라질 수 있다."
+    },
+    "조선3사수주총액연내최대67조수주곳간12년만200조넘겼다": {
+      "title": "조선3사 수주총액, 연내 최대 67조..수주곳간 12년만 200조 넘겼다",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "국내 조선 3사의 올해 수주 총액이 약 52조원에 달했으며, 연내 최대 67조원까지 늘어날 전망이다. 한화오션과 삼성중공업의 수주 소식이 중심이며 수주잔고는 12년 만에 200조원을 넘어섰다.",
+      "impact": "보유 종목인 HD현대중공업의 모회사인 HD한국조선해양 및 업계 전반의 수주 호조를 보여주나, 본문은 주로 한화오션과 삼성중공업의 계약 건을 상세히 다루고 있다.",
+      "caution": "기사의 주요 수주 내용은 경쟁사인 한화오션과 삼성중공업 중심이다."
+    },
+    "dellisquietlyridingoneofthebiggesttechtrends": {
+      "title": "Dell Is Quietly Riding One of the Biggest Tech Trends",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "델은 AI 서버 사업이 급성장하며 지난 분기에만 AI 서버 부문에서 164억 달러의 매출을 기록했다. 24/7 월스트리트는 델의 목표주가를 594.78달러로 제시하며 매수 의견을 유지했다.",
+      "impact": "AI 인프라 수요 증가에 따른 실적 성장세가 확인되면서 주가 상승 모멘텀으로 작용한다.",
+      "caution": "공급 제약이나 현금 흐름 둔화 여부에 대한 우려가 존재한다."
+    },
+    "genescosportsgetstheassistonnhlsmichelobultradeal": {
+      "title": "Genesco Sports gets the assist on NHL’s Michelob Ultra deal",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "제네스코 스포츠 엔터프라이즈가 미켈롭 울트라의 NHL 복귀 계약을 도왔다는 소식이다. 미켈롭 울트라와 모델로 에스페샬 등이 미국 시장에서 경쟁하고 있으며 모델로 에스페샬은 콘스텔레이션 브랜즈가 미국 내 유통을 맡고 있다.",
+      "impact": "보유 종목인 콘스텔레이션 브랜즈의 주요 맥주 브랜드인 모델로 에스페샬이 언급되었으나, 기사의 핵심 내용은 경쟁사인 A-B 인베브의 미켈롭 울트라 NHL 계약 건이다.",
+      "caution": "콘스텔레이션 브랜즈의 직접적인 실적 발표가 아닌 타사 브랜드 계약 기사 내 단순 언급에 불과하다."
+    },
+    "firstsolarnasdaqfslrreaffirmsguidanceasdomesticbuildoutadvancesdespitesolarsectorslide": {
+      "title": "First Solar (NASDAQ:FSLR) Reaffirms Guidance as Domestic Build-Out Advances Despite Solar Sector Slide",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라가 태양광 섹터의 하락세 속에서도 가이던스를 재확인하고 미국 내 설비 확장을 지속하고 있다는 내용의 기사이다. 본문에는 다른 기업들의 공시 내용이 함께 나열되어 있다.",
+      "impact": "회사의 가이던스 유지와 미국 내 사업 확장은 펀더멘털에 긍정적이나, 본문 내용이 요약에 그치고 상세 정보가 부족하다.",
+      "caution": "기사 본문이 다른 기업들의 공시 안내 등으로 중복 구성되어 있어 제한적인 정보만 제공된다."
+    },
+    "constellationenergystockclimbsonamazonnuclearpowerdeal": {
+      "title": "Constellation Energy stock climbs on Amazon nuclear power deal",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지는 아마존과 20년간의 원자력 발전 공급 계약을 체결한 후 시간외 거래에서 주가가 최대 5% 상승했다. 이번 계약은 맬릴랜드주의 캘버트 클리프스 청정에너지 센터 확장을 지원하며 30억 달러 이상의 인프라 투자를 가능하게 한다.",
+      "impact": "장기적이고 안정적인 전력 공급 계약과 대규모 투자가 확정됨에 따라 수익성 개선 및 성장 동력이 강화된다.",
+      "caution": "신규 발전 용량은 2030년부터 2032년 사이에 가동될 예정이다."
+    },
+    "vistravstalenwhichstockisbetterpositionedforinvestors": {
+      "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "전력 및 유틸리티 산업 내에서 친환경 에너지 전환과 AI 데이터 센터 등으로 인한 전력 수요 증가 속에서 비스트라 에너지와 탈렌 에너지를 비교하는 내용이다. 친환경 발전 기술 투자가 가속화되고 있다.",
+      "impact": "산업 전반의 전력 수요 증가라는 우호적인 환경을 보여주나, 특정 기업의 개별 실적이나 계약 뉴스가 아닌 비교 분석 서두에 해당한다.",
+      "caution": "구체적인 기업별 실적 수치나 개별 계약 내용이 포함되어 있지 않다."
+    },
+    "zincfivetodiscussdatacentreesssafetyatglobalsummit": {
+      "title": "ZincFive to discuss data centre ESS safety at global summit",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "ZincFive의 에너지 저장 시스템(ESS) 안전성 전문가 Dan Lambert가 2026년 10월 OCP 글로벌 서밋에 참가하여 데이터 센터 ESS 안전성에 대해 논의할 예정입니다. 이번 세션은 인공지능(AI) 오픈 데이터 센터 트랙의 일환으로 업계 전반의 안전 규정 모범 사례 지침을 다룹니다.",
+      "impact": "보유 종목인 이오스 에너지와는 직접적인 관련이 없는 타 기업(ZincFive)의 행사 참여 뉴스이므로 기업 실적이나 주가에 미치는 영향은 제한적입니다.",
+      "caution": "본문은 ZincFive의 활동을 다루고 있으며 이오스 에너지는 전혀 언급되지 않았습니다."
+    },
+    "almontyindustriesstockafterhoursateur1161minus009percentversuspriorclose": {
+      "title": "Almonty Industries stock after-hours at EUR 11.61: minus 0.09 percent versus prior close",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "알먼티 인더스트리는 2026년 9월 30일 기준 장외 거래에서 전 거래일 종가 대비 0.09% 하락한 11.61유로를 기록했습니다. 주주 서한을 통해 회사는 한국 상동 광산에서 첫 텅스텐 정광 백 생산을 완료하고 수출 준비를 마쳤으며 2단계 지하 개발이 진행 중이라고 밝혔습니다.",
+      "impact": "상동 광산의 생산 시작과 수출 준비 완료는 향후 본격적인 매출 발생으로 이어질 수 있어 긍정적입니다.",
+      "caution": "장외 시장에서의 주가는 소폭 하락세를 보였으며 본격적인 상업 생산 및 실적 반영까지는 시간이 더 필요할 수 있습니다."
+    },
+    "googleunveilsnewaimodelgemini4argonsendingalphabetstockhigher": {
+      "title": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "구글은 새로운 AI 모델인 '제미나이 4 아르곤(Gemini 4 Argon)'을 공개했으며, 우선 사이버 보안 기업들을 대상으로 도입을 시작하고 향후 개발자와 고객, 소비자에게 확대할 예정입니다. 이 소식으로 모회사인 알파벳 주가가 상승세를 보였습니다.",
+      "impact": "새로운 첨단 AI 모델 출시와 초기 도입 확대는 구글의 AI 기술 경쟁력 강화와 수익화 기대를 높여 알파벳 주가에 호재로 작용합니다.",
+      "caution": "일부 사이버 보안 기업에 우선 배포되는 단계로, 일반 소비자 및 기업용 시장에서의 구체적인 상업적 성과와 매출 기여도는 향후 지켜봐야 합니다."
+    },
+    "didbellciscosovereignaipactjustrecastciscosystemscscoregulatedmarketstrategy": {
+      "title": "Did Bell–Cisco Sovereign AI Pact Just Recast Cisco Systems' (CSCO) Regulated-Market Strategy?",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "2026년 9월 말 벨 캐나다와 시스코는 캐나다 내 소버린 AI 인프라 플랫폼 구축을 위한 양해각서를 체결했습니다. 이번 협력을 통해 시스코의 AI 및 보안 기술이 엄격한 데이터 주권 요구가 있는 규제 시장에 통합될 예정입니다.",
+      "impact": "규제 시장에서 시스코의 인프라와 보안 기술 채택이 늘어나며 장기적인 B2B 사업 성장 동력으로 작용할 수 있습니다.",
+      "caution": "양해각서 체결 단계로 실제 계약 체결 및 본격적인 매출 인식까지는 시간이 소요될 수 있습니다."
+    },
+    "shouldyouthinkaboutvertivdifferentlynow": {
+      "title": "Should You Think About Vertiv Differently Now?",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브 홀딩스(VRT)는 높은 주가수익비율(PER 55.1배)로 거래되고 있으며, 투자자들은 AI 데이터 센터로부터 지속적인 고성장과 대규모 주문을 기대하고 있습니다. 과거 경영진은 수주 성장률을 실적 발표의 핵심 지표로 강조해 왔습니다.",
+      "impact": "현재 주가는 높은 기회를 반영하고 있으나, 향후 실제 실적과 수주 잔고가 뒷받침되어야 하므로 단기적인 방향성은 중립적입니다.",
+      "caution": "구체적인 신규 수주 실적 발표 내용이 본문에 상세히 숫자로 제공되지 않았습니다."
+    },
+    "lockheedmartinsecuresover1billionindefensedeals": {
+      "title": "Lockheed Martin Secures Over $1 Billion in Defense Deals",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 미 해군 및 일본으로부터 10억 달러가 넘는 규모의 방산 계약을 추가로 체결했습니다. 이번 계약에는 첨단 전투기 시스템 및 해상 미사일 방어 관련 내용이 포함되어 장기적인 매출 가시성을 높였습니다.",
+      "impact": "대규모 신규 수주 확보는 방산 부문의 안정적인 현금 흐름과 실적 성장을 견인하여 록히드마틴의 주가에 호재로 작용합니다.",
+      "caution": "구체적인 납기 일정이나 수익성 비율은 기사에 상세히 명시되지 않았습니다."
+    },
+    "pipersandlerraisesmicrosofttargetseesbillionsinpotentialfrome7andai": {
+      "title": "Piper Sandler Raises Microsoft Target, Sees Billions in Potential From E7 and AI",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "파이퍼 샌들러의 애널리스트 빌리 피츠제럴드는 마이크로소프트(MSFT)에 대한 목표 주가를 550달러에서 610달러로 상향 조정하고 투자의견 '비중 확대'를 유지했습니다. 상승 근거로는 새로운 '슈퍼 앱' 발표와 새로운 E7 기업용 라이선스 플랜 등이 꼽혔습니다.",
+      "impact": "월가 주요 금융사의 목표가 상향과 신규 기업용 라이선스(E7)에 대한 긍정적 평가는 투자 심리를 개선하고 주가 상승 압력으로 작용합니다.",
+      "caution": "애널리스트의 전망과 목표가 상향은 주관적인 예측에 기반하므로 실제 실적 발표 시그널을 함께 확인해야 합니다."
+    },
+    "nikenysenkereachesnew1yearlowafteranalystdowngrade": {
+      "title": "NIKE (NYSE:NKE) Reaches New 1-Year Low After Analyst Downgrade",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키(NKE) 주가는 RBC가 목표 주가를 45달러에서 40달러로 낮추고 섹터 퍼폼 등급을 유지한 여파로 52주 최저가인 35.16달러까지 하락했습니다. 시장에서는 중국 수요 부진, 유통업체들의 주문 축소, 경쟁 심화 및 판촉 압력을 우려하고 있습니다.",
+      "impact": "목표가 하향 조정과 주가 1년 내 신저가 경신은 단기 투자 심리를 악화시키며 실적 부진 우려를 키웁니다.",
+      "caution": "중국 전략 개편과 신제품 출시 등 턴어라운드 노력이 진행 중이나 단기 실적 개선 여부는 불확실합니다."
+    },
+    "nvosozempicoutshinesllysmounjaroinloweringcardiovascularrisk": {
+      "title": "NVO's Ozempic Outshines LLY's Mounjaro in Lowering Cardiovascular Risk",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보노디스크(NVO)는 COMPETE SWITCH CV 임상 연구의 새로운 실사용 데이터에서 오젬픽(Ozempic) 용량을 늘린 제2형 당뇨병 환자들이 일라이릴리(LLY)의 마운자로(Mounjaro)로 전환한 환자들에 비해 주요 심혈관 사건(MACE) 위험이 더 낮았다고 발표했다. 오젬픽은 노보노디스크가 개발한 주 1회 투여하는 GLP-1 수용체 작용제이다.",
+      "impact": "경쟁사인 일라이릴리의 마운자로 대비 심혈관 위험 감소 효과의 우수성이 부각되면서 시장 점유율 확대와 제품 경쟁력 강화로 이어질 수 있어 노보노디스크 ADR 보유 종목에 호재로 작용한다.",
+      "caution": ""
+    },
+    "whatcouldderailapplovinstock": {
+      "title": "What Could Derail AppLovin Stock?",
+      "holding": "앱러빈",
+      "stance": "약한 악재",
+      "summary": "앱러빈(APP) 주가는 지난 1년간 54% 하락했으며 9월에는 투자자를 상대로 한 증권 집단소송이 제기되었다. 경영진은 2026년 2분기에 의미 있는 광고 모델 개선 속도가 평소보다 느렸던 점이 실적 부진의 원인이라고 밝혔다.",
+      "impact": "핵심 성장 동력인 광고 모델의 개선 속도 저하는 향후 실적 성장성에 부정적인 영향을 미칠 수 있어 보유 종목에 약한 악재가 된다.",
+      "caution": ""
+    },
+    "2reasonstowatchkoand1tostaycautious": {
+      "title": "2 Reasons to Watch KO and 1 to Stay Cautious",
+      "holding": "코카콜라",
+      "stance": "중립",
+      "summary": "코카콜라(KO) 주가는 2026년 3월 이후 S&P 500 상승률에 비해 다소 부진한 14.1%의 수익률을 기록했다. 높은 매출총이익률 등 강력한 사업 모델의 장점이 있으나 현재 주가 수준에 대해 투자자들 사이에서 엇갈린 평가가 나오고 있다.",
+      "impact": "회사의 탄탄한 사업 모델은 긍정적이나 상대적으로 부진한 주가 흐름과 일반적인 분석을 다루고 있어 단기적인 주가 변동에 직접적인 영향을 주기 어렵다.",
+      "caution": ""
+    },
+    "알림현대로템의수소트램vr로타보고다족보행로봇도확인해보": {
+      "title": "[알림]현대로템의 '수소트램' VR로 타보고, '다족보행로봇'도 확인해보...",
+      "holding": "HD현대일렉트릭",
+      "stance": "중립",
+      "summary": "현대 rotem이 'SEP 2026' 전시회에 참가해 수소전기트램의 VR 체험 및 다족보행로봇 등을 선보일 예정이라고 보도되었다. 현대로템은 수소연료전지 하이브리드 동력 방식과 피지컬 AI 기반 자율주행 기술을 적용한 트램을 개발하고 있다.",
+      "impact": "보유 종목인 HD현대일렉트릭이 아니라 다른 회사인 현대로템의 행사 참가 및 기술 소개 내용을 다루고 있다.",
+      "caution": "기사의 주된 내용은 현대로템에 대한 것이며 보유 종목인 HD현대일렉트릭은 직접 언급되지 않았다."
+    },
+    "개장전주요공시ls한화솔루션한화투자증권한화생명등": {
+      "title": "[개장 전 주요 공시] LS·한화솔루션·한화투자증권·한화생명 등",
+      "holding": "한화생명",
+      "stance": "중립",
+      "summary": "9월 30일 마감 이후 LS, 한화솔루션, 한화투자증권, 한화생명 등 주요 기업들의 공시가 발표됐다. 메디콕스와 핀텔은 상장폐지 절차에 돌입하며, LS전선과 한화큐셀, 한화투자증권 등은 유상증자와 자회사 지분 취득 결정을 공시했다.",
+      "impact": "한화생명이 제목과 본문 일부에 언급되었으나, 구체적인 사업 성과나 실적에 영향을 미칠 만한 단독 뉴스가 아니라 여러 기업의 공시를 나열한 기사다.",
+      "caution": "한화생명에 대한 구체적인 분석이나 호재·악재성 상세 내용이 포함되어 있지 않다."
+    },
     "삼전63만원하이닉스310만원증권가목표주가줄줄이상향": {
       "title": "\"삼전 63만원·하이닉스 310만원\"…증권가 목표주가 줄줄이 상향",
       "holding": "SK하이닉스",
