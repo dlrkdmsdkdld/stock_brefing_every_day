@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T09:01:02+09:00",
+  "generated_at": "2026-10-03T08:55:20+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6646,
-    "output_tokens": 3276
+    "input_tokens": 6950,
+    "output_tokens": 2957
   },
   "skipped": {
     "본문없음": 7,
@@ -12,6 +12,134 @@
     "호출실패": []
   },
   "verdicts": {
+    "주간e종목윈팩sk하이닉스물량4년만에수주주가급등": {
+      "title": "[주간e종목] 윈팩, SK하이닉스 물량 4년 만에 수주···주가 급등",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "반도체 후공정업체 윈팩이 SK하이닉스로부터 4년 만에 DDR4와 DDR5 D램 등 외주 물량을 수주하여 양산에 돌입했다. 이로 인해 윈팩의 주가는 지난주 2430원에서 이번주 4065원으로 67.3% 급등했다.",
+      "impact": "보유 종목인 SK하이닉스가 메모리반도체 플립칩 패키징 외주 물량을 확대하며 협력사인 윈팩을 통해 생산 능력을 보완하고 있음을 보여주는 긍정적인 신호다.",
+      "caution": ""
+    },
+    "삼전하닉80담았는데어쩌죠목표주가만믿었다간": {
+      "title": "\"삼전·하닉 80% 담았는데 어쩌죠?\"…목표주가만 믿었다간",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "증권사들이 삼성전자와 SK하이닉스에 대해 현 주가 대비 80% 높은 목표주가를 제시했으나, 증권사별 전망 차이가 크고 일부 증권사는 투자의견을 중립으로 낮췄다. 전문가들은 두 종목의 합산 비중을 30~40%로 조절할 것을 조언했다.",
+      "impact": "목표주가 상승 기대감은 매수 심리에 긍정적이지만, 증권사 간 전망 격차가 크고 과도한 집중 투자가 경고되어 직접적인 펀더멘털 변화보다는 투자 주의를 요구하는 내용이다.",
+      "caution": "특정 기업의 실적 발표나 수주 소식이 아닌 증권가 전망 요약 기사임."
+    },
+    "hd현대중공업4900억수주vlac첫선박진수내년1월인도": {
+      "title": "HD현대중공업, 4900억 수주 VLAC 첫 선박 진수…내년 1월 인도",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 유러피언 마리타임 파이낸스(EMF) 등으로부터 수주한 3척의 초대형 암모니아 운반선(VLAC) 중 첫 선박인 8만8000㎥급 'EMF 바이킹 I'을 진수했다. 해당 선박은 울산조선소에서 건조되어 내년 1월 인도될 예정이다.",
+      "impact": "친환경 선박인 VLAC 건조 및 인도가 차질 없이 진행되면서 HD현대중공업의 대형 가스선 건조 역량과 실적 성장에 대한 기대감이 커진다.",
+      "caution": ""
+    },
+    "15603delltechnologiesincdellsharesacquiredbycxinstitutional": {
+      "title": "15,603 Dell Technologies Inc. $DELL Shares Acquired by CX Institutional",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "기관투자자인 CX 인스티튜셔널이 2026년 3분기에 델 테크놀로지스 주식 1만5,603주를 추가 취득하여 총 2만4,794주를 보유하게 되었다. 델은 앞서 주당 7.04달러의 순이익과 469억7000만 달러의 매출을 기록하며 시장 예상을 웃도는 실적을 거두었다.",
+      "impact": "기관의 대규모 지분 확대와 우수한 실적은 델의 주가에 긍정적인 수급 요인으로 작용한다.",
+      "caution": "내부자들이 약 207만 주를 매도했다는 언급이 함께 존재한다."
+    },
+    "constellationbrandsstockafterhoursateur10020minus005percent": {
+      "title": "Constellation Brands stock after-hours at EUR 100.20: minus 0.05 percent",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈의 주가가 시간외 거래에서 0.05% 하락한 100.20유로를 기록했다. 회사는 10월 6일 미국 장 마감 후 8월 31일 마감된 회계 2분기 실적을 발표할 예정이다.",
+      "impact": "실적 발표를 앞두고 주가가 보합세를 보이고 있어 직접적인 방향성보다는 향후 실적 발표 결과에 주가가 좌우될 전망이다.",
+      "caution": "단순한 주가 등락 및 실적 발표 일정 안내 기사이다."
+    },
+    "constellationenergydirectorrogerwcrandallreportsacquisitionofdeferredcompensationphantomshares": {
+      "title": "Constellation Energy Director Roger W. Crandall Reports Acquisition of Deferred Compensation Phantom Shares",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지의 이사인 로저 W. 크랜달이 SEC 공시를 통해 양도제한조건부주식(Phantom Share)을 취득했다고 보고했다.",
+      "impact": "내부자의 주식 관련 변동 사항이나 회사의 핵심 실적 변화를 직접적으로 주가에 큰 영향을 주지 않는 일반적인 공시 내용이다.",
+      "caution": "단순 임원의 지분 취득 공시 내용이다."
+    },
+    "emersoninkslongtermleasefor88000squarefootrdfacilityinwarrendale": {
+      "title": "Emerson inks long-term lease for 88,000-square-foot R&D facility in Warrendale",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "에머슨(Emerson)이 미국 펜실베이니아주 워렌데일에 위치한 8만8,000제곱피트 규모의 R&D 시설에 대해 장기 임대 계약을 체결했다. 해당 시설은 기존 rue21의 전 본부 건물이던 곳이다.",
+      "impact": "본문에서 언급된 에머슨의 R&D 시설 확장 뉴스는 보유 종목인 이오스 에너지와 직접적인 관련이 없다.",
+      "caution": "보유 종목인 이오스 에너지가 기사 본문에 언급되지 않았으며 타 회사(Emerson)의 부동산 계약 소식이다."
+    },
+    "acoosellssharesunderatradingplanashisspousegifts75000sharesatcredotechnologycrdo": {
+      "title": "A COO sells shares under a trading plan as his spouse gifts 75,000 shares at Credo Technology (CRDO).",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "크레도 테크놀로지(CRDO)의 최고운영책임자 겸 이사인 얏 퉁 램(Yat Tung Lam)이 10b5-1 거래 계획에 따라 5만 주의 보통주를 주당 205.2175달러에 매각했다. 또한 배우자가 7만5,000주를 신탁에 증여하고 회사 측이 세금 의무를 위해 3,180주를 공제했다.",
+      "impact": "핵심 임원의 주식 매각은 단기적으로 투자 심리에 부정적인 영향을 줄 수 있다.",
+      "caution": "사전 계획된 거래 계획(Rule 10b5-1) 및 가족 신탁 증여가 포함되어 있다."
+    },
+    "alphabetasaiarmsdealerthebullcasetakingholdonreddit": {
+      "title": "Alphabet as AI arms dealer: the bull case taking hold on Reddit",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "구글(알파벳)이 AI 경쟁에서 인프라인 TPU와 클라우드 컴퓨팅을 라이벌 기업들에게 판매하며 수혜를 입는다는 레딧의 투자 아이디어가 확산되고 있다. 한 트레이더는 2027년 6월 만기의 300달러 콜옵션에 베팅하기도 했다.",
+      "impact": "AI 인프라 판매를 통한 실질적 수익 창출 기대감이 알파벳에 대한 시장의 강세론을 지지하는 요인으로 작용한다.",
+      "caution": "레딧 커뮤니티의 개인 투자자 의견에 기반한 내용이며 실제 기업의 공식 실적 발표와는 거리가 있다."
+    },
+    "ciscosystemsstockholdssteadyasfiscal2025revenuereaches567billion": {
+      "title": "Cisco Systems stock holds steady as fiscal 2025 revenue reaches $56.7 billion",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코 시스템즈는 회계연도 2025년 매출 567억 달러와 비GAAP 주당순이익(EPS) 3.80달러를 기록했다. 연간 제품 주문과 서비스 매출이 각각 3% 증가했고 4분기 매출은 147억 달러를 기록했다.",
+      "impact": "견조한 연간 매출과 서비스 부문의 성장은 기업 네트워킹 및 인프라 수요가 안정적으로 유지되고 있음을 보여주어 주가에 긍정적이다.",
+      "caution": ""
+    },
+    "vertivholdingscovrtsharesnewlyboughtbypolarisfinancialpartners": {
+      "title": "Vertiv Holdings Co. $VRT Shares Newly Bought by Polaris Financial Partners",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "폴라리스 파이낸셜 파트너스가 1,7435주의 버티브 홀딩스 주식을 약 423만 달러어치 신규 매수했다. 버티브의 최근 분기 EPS는 1.52달러로 컨센서스인 1.43달러를 상회했고 매출은 전년 동기 대비 24.1% 증가했다.",
+      "impact": "기관 투자자의 신규 지분 취득과 시장 예상을 웃도는 실적은 AI 데이터센터 인프라 수요에 힘입어 긍정적인 투자 심리를 뒷받침한다.",
+      "caution": "주가가 57배에 달하는 높은 밸류에이션에 거래되고 있으며 실행 리스크와 소송 가능성 등이 존재한다."
+    },
+    "isoldnvidiagoogleandmicrosoftovera2trillionaigapwasiwrong": {
+      "title": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong?",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "한 레딧 투자자가 엔비디아, 구글, 마이크로소프트 등 AI 핵심 종목들의 경제성과 2조 달러에 달하는 AI 지출 격차를 이유로 보유 주식을 전량 매도했다고 밝혔다. 이 투자자의 매도 타이밍이 옳았는지는 향후 AI 투자 비용 회수 여부에 따라 결정될 전망이다.",
+      "impact": "개인 투자자의 주관적인 매도 의견을 다룬 내용으로 마이크로소프트의 기업 실적이나 펀더멘털에 직접적인 타격을 주지는 않는다.",
+      "caution": "보유 종목인 마이크로소프트가 직접 분석의 대상이라기보다는 커뮤니티 투자자의 매도 사례로 언급된 것에 그친다."
+    },
+    "novonordiskstrikesnearly4billionin2dealshereswhatthatmeansforinvestors": {
+      "title": "Novo Nordisk Strikes Nearly $4 Billion in 2 Deals. Here's What That Means for Investors",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보노디스크는 체중감량 및 대사질환 치료제 파이프라인 강화를 위해 스웨덴의 나넥사와 약 4펙(40억 달러 규모)에 달하는 라이선스 계약을 체결했다. 이는 경쟁사인 일라이릴리에 대응하기 위한 전략의 일환이다.",
+      "impact": "신약 파이프라인 확장을 위한 투자는 장기적으로 긍정적이나 다수의 라이선스 계약과 대규모 지출이 단기 실적에 미치는 영향은 지켜볼 필요가 있다.",
+      "caution": "기사 내 금액 표기에 일부 오타가 있으나 회사의 파이프라인 강화 목적 라이선스 체결이라는 사실 자체에 집중한다."
+    },
+    "communitycollectionanchorscocacolaspetrecyclingpush": {
+      "title": "Community collection anchors Coca-Cola’s PET recycling push",
+      "holding": "코카콜라",
+      "stance": "중립",
+      "summary": "코카콜라는 지방 정부 및 파트너사들과 함께 페트병 수거 프로그램인 'Tapon to Ipon'을 비난 시로 확장했다. 동네 소매점들이 수거 거점 역할을 하며 주민들은 포인트를 적립해 상품이나 할인 쿠폰으로 교환할 수 있다.",
+      "impact": "친환경 및 ESG 경영 강화 차원의 지역 사회 공헌 활동으로 장기적 기업 이미지에는 좋으나 단기적인 주가 반등이나 매출 증대에 직접적인 영향을 주기는 어렵다.",
+      "caution": "직접적인 재무적 성과보다는 기업의 ESG 활동을 다룬 내용이다."
+    },
+    "주간사모펀드eqt팔고한화생명센트로이드산다애큐온새판": {
+      "title": "[주간사모펀드] EQT 팔고 한화생명·센트로이드 산다…애큐온 새판",
+      "holding": "한화생명",
+      "stance": "약한 호재",
+      "summary": "글로벌 사모펀드 EQT가 애큐온그룹(애큐온캐피탈 및 저축은행)의 경영권을 한화생명과 센트로이드PE 컨소시엄에 매각하는 계약을 체결했다. 한화생명은 약 4,400억원을 투입해 애큐온캐피탈 지분 50.54%를 취득한다.",
+      "impact": "대규모 자금 투입을 통한 비은행 계열사 포트폴리오 확장과 경영권 인수는 한화생명의 사업 다각화 및 장기적 시너지 창출 측면에서 긍정적이다.",
+      "caution": "인수 후 통합(PMI) 과정에서 발생하는 리스크나 저축은행 업황에 따른 변동성을 모니터링할 필요가 있다."
+    },
+    "wld1023만개10배교차마진롱미실현수익률655": {
+      "title": "WLD 1023만개 10배 교차마진 롱, 미실현 수익률 655%",
+      "holding": "이월드",
+      "stance": "중립",
+      "summary": "하이퍼리퀴드의 한 고래 지갑이 월드코인(WLD) 1023만개를 10배 교차마진 롱 포지션으로 보유해 655%의 미실현 수익률을 기록했다. 해당 포지션은 5월 하순부터 보유되어 온 것으로 관측됐다.",
+      "impact": "가상자산 시장의 특정 고래 지갑 레버리지 투자 현황을 다룬 기사로, 주식 종목인 이월드와는 직접적인 관련이 없다.",
+      "caution": "본문은 가상자산 월드코인 및 파생상품 거래에 관한 내용이며 보유 종목인 이월드와는 무관하다."
+    },
     "솔리다임루머에입연sk하이닉스증권가미국상장실리커": {
       "title": "솔리다임 루머에 입 연 SK하이닉스, 증권가 \"미국 상장 실리 커\"",
       "holding": "SK하이닉스",
