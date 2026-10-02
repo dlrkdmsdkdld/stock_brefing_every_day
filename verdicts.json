@@ -1,17 +1,153 @@
 {
-  "generated_at": "2026-10-01T09:00:55+09:00",
+  "generated_at": "2026-10-02T09:01:02+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8151,
-    "output_tokens": 3854
+    "input_tokens": 6646,
+    "output_tokens": 3276
   },
   "skipped": {
-    "본문없음": 1,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "솔리다임루머에입연sk하이닉스증권가미국상장실리커": {
+      "title": "솔리다임 루머에 입 연 SK하이닉스, 증권가 \"미국 상장 실리 커\"",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK하이닉스가 자회사 솔리다임의 미국 증시 상장 루머에 대해 구체적으로 결정된 바는 없다고 해명하면서도, 자본 활용 방안을 종합적으로 검토하겠다고 밝혔다. 증권가에서는 이를 단순 중복상장이 아닌 현지 자본 유치와 자본 선순환 모델로 평가하며 긍정적으로 보고 있다.",
+      "impact": "솔리다임의 미국 IPO 가능성이 주주 가치 희석보다는 자금 조달 및 투자 재원 마련 측면에서 긍정적인 실익을 줄 수 있다는 기대감이 반영됐다.",
+      "caution": "사측이 구체적으로 결정된 바가 없다고 밝혀 실제 상장 추진 여부와 시기는 불확실하다."
+    },
+    "삼성전자분기영업이익100조시대주주환원주가올릴것ibk": {
+      "title": "삼성전자, 분기 영업이익 100조 시대…\"주주환원 주가 올릴 것\"-IBK",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "IBK투자증권은 삼성전자의 3분기 매출액을 195조2000억원, 영업이익을 101조7000억원으로 예상하며 투자의견 매수와 목표주가 46만원을 유지했다. 메모리 공급 부족 장기화와 사상 최대 규모의 배당 등 주주환원이 주가 상승을 견인할 것으로 분석했다.",
+      "impact": "막대한 영업이익 전망과 사상 최대 규모의 배당 집행 예고가 투자 심리를 자극하여 주가에 긍정적인 영향을 미친다.",
+      "caution": "원/달러 환율 변동 등이 영업이익률에 변수로 작용할 수 있다."
+    },
+    "기업이슈미마이크론이확인한메모리호황": {
+      "title": "[기업이슈] 미 마이크론이 확인한 '메모리 호황'",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "마이크론의 호실적으로 메모리 호황 기대감이 부각되었고, 엔씨소프트의 신작 아이온2가 글로벌 흥행을 기록했다는 내용이다. 본문에 HD현대중공업에 대한 직접적인 언급이나 실적 내용은 포함되지 않았다.",
+      "impact": "보유 종목인 HD현대중공업과 직접적인 관련이 없는 반도체 및 게임 업계의 일반적인 동향을 다룬 기사다.",
+      "caution": "보유 종목인 HD현대중공업이 본문에 전혀 언급되지 않았다."
+    },
+    "constellationbrandspreq2earningsisitpoisedtobeatestimates": {
+      "title": "Constellation Brands' Pre-Q2 Earnings: Is It Poised to Beat Estimates?",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈(Constellation Brands)가 2027 회계연도 2분기 실적 발표를 2026년 10월 6일에 앞두고 있다. 시장 컨센서스에 따르면 주당순이익(EPS)은 전년 동기 대비 0.3% 감소한 3.62달러, 매출은 3.6% 증가한 25억7000만 달러로 예상된다.",
+      "impact": "실적 발표 전 예상치에 대한 정보 제공 차원으로, 실제 실적 발표 결과에 따라 향후 주가 방향성이 결정될 것이다.",
+      "caution": "아직 실제 실적 결과가 나오지 않았고 단순한 애널리스트 추정치 요약이다."
+    },
+    "constellationvsvistrastockpjmdelayputscontractsfirst": {
+      "title": "Constellation vs Vistra stock: PJM delay puts contracts first",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "미국 PJM의 전력망 신뢰성 백스톱 프레임워크 승인이 5개월 유예되었으나, 비스트라와 컨스텔레이션은 이미 양자 간 전력 계약을 보유하고 있어 기존 데이터센터 전력 계약에는 영향이 없다. 투자자들 사이에서는 AI 관련 계약이 얼마나 전력을 실제 창출하고 있는지에 따라 두 기업을 구분해 평가하고 있다.",
+      "impact": "규제 기관의 유예 조치에도 불구하고 기존 계약이 취소되지 않았기 때문에 단기적인 실적 타격은 제한적이다.",
+      "caution": "비스트라 에너지가 언급되나 규제 환경의 불확실성이 완전히 해소된 것은 아니다."
+    },
+    "10industrialsstockswhaleactivityintodayssession": {
+      "title": "10 Industrials Stocks Whale Activity In Today’s Session",
+      "holding": "이오스 에너지",
+      "stance": "약한 악재",
+      "summary": "벤징가의 옵션 활동 스캐너 결과, 이오스 에너지(EOSE)의 2027년 1월 15일 만기, 행사가 5.00달러인 콜 옵션에서 약 7만 7천 달러 규모의 베어리시(하락세) 거래가 포착되었다.",
+      "impact": "대규모 자금을 운용하는 주체들이 하락 방향의 옵션 거래를 체결한 것으로 나타나 단기적인 투자 심리에 부정적 영향을 줄 수 있다.",
+      "caution": "옵션 시장의 특정 베팅 내역일 뿐 회사의 실제 펀더멘털이나 사업 성과와는 직접적인 연관이 없다."
+    },
+    "almontyindustriesstockafterhoursateur1165minus034percentversusthepriorclose": {
+      "title": "Almonty Industries stock after-hours at EUR 11.65: minus 0.34 percent versus the prior close",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리는 2026년 9월 29일 SEC에 제출한 주주 서한을 통해 한국 상동 광산에서 첫 텅스텐 정광 백을 생산해 수출 준비를 마쳤다고 밝혔다. 또한 상동 2단계 지하 개발이 진행 중이며 2027년 완료될 경우 생산량이 증가할 것으로 예상된다.",
+      "impact": "상동 광산의 상업 생산 및 수출 개시가 가시화되면서 향후 매출 발생과 2단계 확장 기대감이 기업 가치에 긍정적으로 작용한다.",
+      "caution": "시간외 거래에서 주가는 소소하게 하락(0.34%)하는 등 단기 주가 반응은 제한적일 수 있다."
+    },
+    "alphabetsharesslideasgemini4launchdisappointsthestreet": {
+      "title": "Alphabet shares slide as Gemini 4 launch disappoints the Street",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "알파벳의 주가가 제미니 4(Gemini 4)의 출시가 시장의 기대에 미치지 못하면서 하락세를 보였다.",
+      "impact": "핵심 AI 모델인 제미니의 신제품 출시에 대한 시장의 실망감이 매도세로 이어져 주가에 단기적인 하방 압력을 가한다.",
+      "caution": "기사 본문에 구체적인 주가 하락 폭이나 상세한 실적 수치가 명시되어 있지 않다."
+    },
+    "ciscorecalledforjeffersongreatnesscareforkidsstaffoverhalfcenturyascoach": {
+      "title": "Cisco Recalled for Jefferson Greatness, Care for Kids & Staff Over Half-Century as Coach",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "미국 미시간주 고등학교 미시간 풋볼 감독으로 47년간 재직하며 지역 사회에 큰 발자취를 남긴 marc cisco가 9월 24일 그랜드래피즈에서 90세를 일기로 별세했다.",
+      "impact": "기사에서 다루는 시스코는 고인이 된 미시간주의 전직 미국풋볼 감독으로, 보유 종목인 IT 기업 시스코 시스템즈와는 전혀 무관하다.",
+      "caution": "동명이인의 인물에 대한 부고 기사이며, 보유 종목인 시스코 시스템즈에 대한 언급이나 영향은 전혀 없다."
+    },
+    "vertivsoars49ytdisthistherighttimetobuythestock": {
+      "title": "Vertiv Soars 49% YTD: Is This the Right Time to Buy the Stock?",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스(VRT)는 연초 이후 48.9% 상승하며 브로드캣(AVGO), 암페놀(APH), 슈퍼마이크로컴퓨터(SMCI) 등 주요 AI 및 데이터센터 인프라 관련 경쟁사들을 뛰어넘는 성과를 거두었다. 풍부한 파트너십과 열관리, 액체 냉각, UPS 등 광범위한 제품 포트폴리오가 주가 상승을 견인했다.",
+      "impact": "AI 및 데이터센터 인프라 시장에서의 강력한 수혜와 제품 경쟁력이 확인되면서, 보유 종목인 버티브 홀딩스의 견조한 실적 성장 기대감을 높인다.",
+      "caution": ""
+    },
+    "alphabetslipsaftergemini4argonlaunchastechsectorrisesmicrosoftholdssteadyamazondips": {
+      "title": "Alphabet Slips After Gemini 4 Argon Launch as Tech Sector Rises; Microsoft Holds Steady, Amazon Dips",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "알파벳(Google)이 새로운 기업용 AI 모델 'Gemini 4 Argon'을 출시했음에도 투자자들의 매도세로 주가가 2% 하락한 반면, 마이크로소프트는 보합세를 유지했고 아마존은 하락했다.",
+      "impact": "마이크로소프트는 직접적인 악재나 호재 없이 주가가 보합세를 유지하며 시장에서 안정적인 흐름을 보였다.",
+      "caution": "마이크로소프트 자체의 새로운 실적이나 제품 출시보다는 알파벳의 신제품 출시 및 시장 반응을 주로 다룬 기사이다."
+    },
+    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
+      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "화이자의 라임병 백신 효능 발표와 텍사스 주의료 사기 사건, 그리고 노보노디스크가 웨고비 구독 모델을 출시했다는 단신이 보도되었으나, 본문에서는 구체적인 내용 없이 다른 의료계 논란이 언급되었다.",
+      "impact": "노보노디스크의 웨고비 구독 모델 출시 소식이 제목에 언급되었으나 본문에는 세부 내용이 포함되지 않아 보유 종목에 미치는 영향이 제한적이다.",
+      "caution": "본문에 노보노디스크의 구체적인 실적이나 사업 내용이 누락되어 있고 다른 의료계 기사가 본문을 채우고 있다."
+    },
+    "cerebrassystemsthisisnotagoldenbuyingopportunitynasdaqcbrs": {
+      "title": "Cerebras Systems: This Is Not A Golden Buying Opportunity (NASDAQ:CBRS)",
+      "holding": "세레브라스 시스템즈",
+      "stance": "약한 악재",
+      "summary": "세레브라스 시스템즈(CBRS)는 초고속 추론 분야에서 완벽한 실행력이 요구되는 높은 밸류에이션을 가지고 있으나, 비즈니스 모델이 완전히 검증되지 않았다. 특히 오픈아이의 재정 및 운영상 도전 과제와 엔비디아의 AI GPU 지배력, 높은 비용 등이 성장의 위험 요소로 지적되었다.",
+      "impact": "높은 밸류에이션과 오픈아이 의존도, 엔비디아와의 경쟁 부담 등으로 인해 단기적인 주가 상승 여력과 백로그 가시성에 대한 우려가 커질 수 있다.",
+      "caution": "애널리스트의 주관적인 투자 의견이며 향후 기술 채택 추이에 따라 평가가 달라질 수 있다."
+    },
+    "applovinappstockmaystillhaveupsidedespiteailawsuitpressure": {
+      "title": "AppLovin (APP) Stock May Still Have Upside Despite AI Lawsuit Pressure",
+      "holding": "앱러빈",
+      "stance": "중립",
+      "summary": "앱러빈은 2026년 주가가 큰 폭의 조정을 겪었으며 법적 분쟁 리스크와 함께 현재의 밸류에이션이 수익 창출력에 부합하는지가 투자자들의 주요 관심사로 떠올랐다.",
+      "impact": "AI 및 광고 기술 스토리와 연계된 밸류에이션 및 법적 리스크가 부각되고 있으나, 구체적인 실적 가이던스 변화나 새로운 수치는 제시되지 않았다.",
+      "caution": "최근 주가 하락과 법적 리스크에 대한 일반적인 평가를 다룬 칼럼 성격의 기사이다."
+    },
+    "kovspep64and54straightyearsofraiseswhichdividendkingwillcrushtheotheroverthenextdecade": {
+      "title": "KO vs. PEP: 64 and 54 Straight Years of Raises. Which Dividend King Will Crush the Other Over the Next Decade?",
+      "holding": "코카콜라",
+      "stance": "중립",
+      "summary": "코카콜라와 펩시코는 각각 64년, 54년 연속 배당금을 인상해 온 대표적인 배당킹 종목이다. 코카콜라는 올해 2월 분기 배당금을 주당 0.53달러로 인상하고 7월에 2026년 가이던스를 상향 조정한 반면, 펩시코는 기존 가이던스를 유지했다.",
+      "impact": "코카콜라의 배당 인상과 실적 가이던스 상향은 기업의 재무 건전성을 보여주는 긍정적 요소이나, 이미 알려진 사실로 단기 주가에 미치는 직접적인 영향은 중립적이다.",
+      "caution": "펩시코와의 비교 분석에 초점이 맞춰진 장기 투자 관점의 기사이다."
+    },
+    "nhkb금융자본시장둔화에도견조한실적예상돼조선비즈": {
+      "title": "NH證 “KB금융, 자본시장 둔화에도 견조한 실적 예상돼” - 조선비즈",
+      "holding": "KB금융",
+      "stance": "호재",
+      "summary": "NH투자증권은 KB금융에 대해 자본시장 둔화에도 불구하고 계열 증권사와 보험사의 양호한 실적을 바탕으로 견조한 실적을 이어갈 것으로 전망하며, 목표주가 22만 6000원과 투자의견 '매수'를 유지했다. 3분기 지배순이익은 1조 8175억원으로 예상되며, 환율 안정에 힘입어 연말까지 주주환원율이 지속 상승할 것으로 기대된다.",
+      "impact": "견조한 이익 체력과 자본비율 상승에 따른 주주환원 기대감 확대는 KB금융의 투자 매력도를 높여 주가에 긍정적으로 작용한다.",
+      "caution": "증권사 리포트의 전망치에 기반한 내용이며, 향후 환율 및 자본시장 변동성에 따라 실적은 달라질 수 있다."
+    },
+    "한화증권자본확충에캐피탈저축은행인수김동원호한화금융몸집": {
+      "title": "한화증권 자본확충에 캐피탈·저축은행 인수…김동원호 한화금융 몸집...",
+      "holding": "한화생명",
+      "stance": "약한 호재",
+      "summary": "한화생명은 계열사인 한화자산운용과 함께 한화투자증권에 각각 2,500억원씩 총 5,000억원의 유상증자를 출자하며, 최대 4,000억원 규모의 신종자본증권 발행을 추진하여 한화금융의 사업 확대를 뒷받침하고 있습니다. 이를 통해 한화투자증권은 자기자본 3조원 이상이 요구되는 종합금융투자사업자 진입 기반을 마련하고 있습니다.",
+      "impact": "한화생명이 한화투자증권에 2,500억원을 출자하는 등 자본 확충에 직접 참여하여 그룹 내 금융 계열사의 경쟁력 강화와 종합금융그룹 도약을 지원하고 있습니다.",
+      "caution": "대규모 자본 투자가 단기적으로는 한화생명의 현금 유출이나 재무적 부담으로 작용할 여지가 있으나, 장기적인 그룹 금융 시너지 측면에서 긍정적입니다."
+    },
     "정부현대차sk하이닉스현장규제푼다79조투자속도전": {
       "title": "정부, 현대차·SK하이닉스 현장 규제 푼다… 7.9조 투자 속도전",
       "holding": "SK하이닉스",
