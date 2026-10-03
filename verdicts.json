@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-10-03T08:55:20+09:00",
+  "generated_at": "2026-10-04T08:13:08+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6950,
-    "output_tokens": 2957
+    "input_tokens": 6838,
+    "output_tokens": 3544
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "는260만원인데왜한국에선180만원속타는sk하이닉스투자자들의의문증시레이더": {
+      "title": "美는 260만원인데 왜 한국에선 180만원?…속타는 SK하이닉스 투자자들의 의문 [증시레이더]",
+      "holding": "SK하이닉스",
+      "stance": "중립",
+      "summary": "국내에서 180만원 안팎인 SK하이닉스가 미국 나스닥에서는 원화로 환산하면 250만원을 웃돌며 가격 차이가 40% 안팎까지 벌어지고 있다. 미국 ADS 1주는 국내 보통주 0.1주에 해당하며, 양국 시장 간 거래 시간 차이와 환율 변동 등을 감안하더라도 이 같은 가격 격차는 지속되고 있다.",
+      "impact": "해당 기사는 양국 시장 간 가격 괴리 현상을 다룰 뿐 기업의 실적이나 펀더멘털 변화에 직접적인 영향을 주지 않는다.",
+      "caution": "단순 시장 간 가격 차이에 대한 분석 기사로 주가 방향성에 직접적인 호재나 악재로 작용하지 않는다."
+    },
+    "지루한박스권장세삼성전자3분기실적에쏠리는눈주간전망": {
+      "title": "지루한 박스권 장세…삼성전자 3분기 실적에 쏠리는 눈 [주간전망]",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "미국채 10년 만기 금리가 연 5.3%를 넘어 24년 만에 최고치를 기록하며 국내 증시의 상단을 제한하고 있다. 오는 8일 발표되는 삼성전자의 3분기 잠정 실적을 앞두고 원화 강세 등에 따른 어닝 쇼크 우려와 경계감이 짙어지고 있다.",
+      "impact": "금리 상승 부담과 실적 기대치 하회 우려는 단기적으로 투자 심리를 위축시켜 주가에 하방 압력으로 작용할 수 있다.",
+      "caution": "실적 발표 전의 경계감과 증권가 컨센서스 변화를 다룬 내용으로 실제 발표 결과에 따라 주가 반응이 달라질 수 있다."
+    },
+    "dellraiseditsquarterlydividendby20thisyearafteronlyinitiatingitsdividendprogramin2023canpassiveincomeinvestorstrustthestock": {
+      "title": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "델 테크놀로지스는 인공지능(AI) 수요 급증에 힘입어 올해 주가가 거의 325% 상승했다. 자유현금흐름과 이익이 급증하면서 2023년에 시작한 배당 프로그램을 올해 20% 인상하는 등 주주환원을 확대하고 있다.",
+      "impact": "AI 서버 수요 확대로 인한 실적 개선과 주주환원 강화는 투자 매력을 높여 주가에 긍정적이다.",
+      "caution": "델의 배당 이력이 짧아 패시브 소득 투자자 관점에서 지속 가능성에 대한 검증이 더 필요하다는 시각이 존재한다."
+    },
+    "cloroxgeneralmillsandconstellationbrandsaredownbetween22and33heresthestocktobuyevenifthefedkeepshikinginterestrates": {
+      "title": "Clorox, General Mills, and Constellation Brands Are Down Between 22% and 33%. Here's the Stock to Buy, Even if the Fed Keeps Hiking Interest Rates.",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "클로락스, 제너럴 밀스, 컨스텔레이션 브랜즈 등 소비재 종목들이 고점 대비 두 자릿수 하락세를 기록하고 있다. 고금리 환경 속에서 실제 현금을 창출하고 부채 의존도가 낮은 기업만이 배당을 유지할 수 있는 기준을 통과하고 있다.",
+      "impact": "보유 종목인 컨스텔레이션 브랜즈가 언급되었으나 전체 소비재 섹터의 고금리 환경 속 주가 부진과 선별 기준을 다룬 내용이다.",
+      "caution": "보유 종목이 직접 언급되었으나 개별 기업의 새로운 실적 발표나 호재성 이슈보다는 거시경제 환경에 따른 섹터 전반의 평가를 다룬다."
+    },
+    "swtdtolaunchitsfirstsolarpoweredtouristboatinkochi": {
+      "title": "SWTD to launch its first solar-powered tourist boat in Kochi",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "SWTD가 인도 코치에서 첫 태양광 관광선을 출시할 예정이라는 내용이다. 본문은 쿠키 사용 및 개인정보 처리 방침에 대한 안내 문구로 채워져 있다.",
+      "impact": "보유 종목인 퍼스트솔라와 직접적인 관련이 없는 타사의 소식이며 기사 본문 내용이 부족하다.",
+      "caution": "기사 내용이 실질적인 기업 뉴스가 아니며 쿠키 안내문 위주로 구성되어 있어 종목에 영향을 주지 않는다."
+    },
+    "xcelenergypactfacesagrequesttowithholdpucapproval": {
+      "title": "Xcel Energy pact faces AG request to withhold PUC approval",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "미네소타주 법무장관이 엑셀 에너지와 구글의 15년 전력 공급 계약에 대한 공익위원회 승인을 보류해 달라고 요청했다. 엑셀 에너지가 구글의 피인섬 데이터 센터를 위해 맺은 이 계약이 다른 고객들에게 10억 달러 규모의 순비용을 초래할 수 있다는 주장이 제기됐다.",
+      "impact": "본 기사의 주 대상은 엑셀 에너지(Xcel Energy) 및 알파벳(Google)이며 보유 종목인 컨스텔레이션 에너지는 직접적으로 다뤄지지 않았다.",
+      "caution": "보유 종목인 컨스텔레이션 에너지와는 무관한 타 전력회사 관련 뉴스이다."
+    },
+    "vistratosecure42billionusloanfornuclearoutputincrease": {
+      "title": "Vistra to secure $4.2 billion U.S. loan for nuclear output increase",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "비스트라는 미국 내 전력 수요 증가에 대응하기 위해 최소 3개의 원자력 발전소 출력을 늘리는 데 연방 정부로부터 약 42억 달러의 자금을 확보할 예정이다. 이번 자금 지원은 원자력 규제위원회의 별도 신규 허가 없이 출력 증강(uprates)을 가능하게 하는 개량 작업을 지원한다.",
+      "impact": "보유 종목인 비스트라 에너지의 대규모 정부 자금 확보 및 발전 용량 증대 추진은 장기적인 사업 성장에 긍정적일 수 있다.",
+      "caution": "보유 종목명이 직접 명시되지 않았거나 다른 회사의 뉴스로 분류될 경우에 해당할 수 있으나, 본문 속 Vistra의 원전 출력 확대는 기업 가치에 호재성 요인이다. (단, 프롬프트 지시에 따라 다른 회사 언급인 경우 중립 처리 가능하나 본문 주체이므로 호재 성격이 강함. 엄격하게 보유종목명 '비스트라 에너지'와 일치하므로 호재로 볼 수 있음)"
+    },
+    "emersongrabsoldrue21hqinwarrendalefornew88000squarefootrdhub": {
+      "title": "Emerson Grabs Old rue21 HQ in Warrendale for New 88,000-Square-Foot R&D Hub",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "에머슨(Emerson)이 뉴욕증권거래소 티커 EMR로 상장된 가운데, 파산한 의류 소매업체 rue21의 전 본사 건물을 임차하여 8만 8000제곱러피트 규모의 새로운 연구개발(R&D) 허브를 조성할 예정이다. 이번 거래는 Thorn Hill 산업 단지 내에 위치한 시설을 확장하는 것이다.",
+      "impact": "보유 종목인 이오스 에너지가 아니라 에머슨(Emerson)의 부동산 임차 및 R&D 센터 확장 소식이다.",
+      "caution": "보유 종목인 이오스 에너지가 기사에 전혀 언급되지 않고 다른 기업(Emerson)의 시설 확장만 다루고 있다."
+    },
+    "whatdoalphabetgooglaisafetypactandantitrustwinsmeannow": {
+      "title": "What Do Alphabet (GOOGL) AI Safety Pact And Antitrust Wins Mean Now?",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳의 CEO 순다르 피차이는 2026년 10월 3일 백악관과 자발적 AI 안전 기준 협정에 서명하며 보안 테스트 및 투명성 강화에 합의했다. 또한 구글은 최근 미국 연방 법원에서 두 건의 반독점 소송에서 승소하여 사업 모델의 법적 불확실성을 일부 해소했다.",
+      "impact": "반독점 소송 승소는 규제 리스크를 완화하고, AI 안전 협정 참여는 정부 정책과의 마찰을 줄여 장기적인 사업 안정성에 긍정적인 영향을 준다.",
+      "caution": "기사에서는 AI 인프라 확장에 따른 추가적인 경고 신호도 함께 언급하고 있다."
+    },
+    "issovereignaipartnershipalteringtheinvestmentcaseforciscocsco": {
+      "title": "Is Sovereign AI Partnership Altering The Investment Case For Cisco (CSCO)?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈는 벨 캐나다와의 소버린 AI 파트너십을 체결했으며, 93억 달러 규모의 하이퍼스케일 AI 주문을 매출로 전환하는 과정에 있다. 35.9%의 비 GAAP 영업이익률을 유지하고 있으나, 하드웨어 비중 증가에 따른 총마진 압박이 리스크로 남아 있다.",
+      "impact": "AI 네트워킹과 보안 분야의 실적 기여 기대감이 유효하지만, 하드웨어 중심 배포로 인한 마진 압박 우려가 상쇄 요인으로 작용한다.",
+      "caution": "단기 스윙 팩터인 AI 주문의 현금화 효율성과 마진 추이를 계속 지켜봐야 한다."
+    },
+    "isdatacenterdemandenoughtosustainvertivholdingsnysevrt": {
+      "title": "Is Data Center Demand Enough to Sustain Vertiv Holdings (NYSE:VRT)?",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브 홀딩스는 데이터센터 투자 확대에 힘입어 주목받고 있으며, 시장은 용량과 납품 리스크를 모니터링하고 있다. 해당 기사는 버티브 외에도 카르구루스, 헛 8, 맥스리니어 등 여러 종목의 뉴스를 함께 나열하고 있다.",
+      "impact": "데이터 센터 수요 증가는 버티브의 산업용 공급업체로서의 입지를 지지하지만, 본문 내용이 요약 수준에 그쳐 직접적인 주가 변동 요인으로는 제한적이다.",
+      "caution": "본문이 다른 종목들의 동향을 함께 다루는 개요 성격의 글이라 구체적인 실적 수치는 부족하다."
+    },
+    "microsoftstockgetsausd610targetasaisalesexpand": {
+      "title": "Microsoft stock gets a USD 610 target as AI sales expand",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "파이퍼 샌들러는 2026년 9월 30일 마이크로소프트의 목표주가를 550달러에서 610달러로 상향 조정하고 비중확대 의견을 유지했다. 마이크로소프트의 회계연도 4분기 매출은 900억 1,000만 달러를 기록했고 애저(Azure) 성장률은 43%에 달했다.",
+      "impact": "클라우드 고성장과 코파일럿(Copilot) 등 엔터프라이즈 AI 수익화가 가시화되면서 투자 심리와 목표가 상향에 직접적인 호재로 작용한다.",
+      "caution": ""
+    },
+    "analystwarnsnikesbestquarterthisyearmaybebehindit": {
+      "title": "Analyst warns Nike's best quarter this year may be behind it",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "나이키는 2026년 10월 1일 발표한 1분기 실적에서 이익 예상치를 상회했으나, 모건 스탠리는 이번 분기가 올해의 고점이 될 것으로 경고했다. 나이키는 2027 회계연도 매출이 한 자릿수 후반대 감소할 것으로 전망했다.",
+      "impact": "회사의 자체적인 매출 부진 전망과 재고 처리(클리어런스 랙)에 대한 우려가 겹치며 투자자들의 매도세로 이어졌다.",
+      "caution": ""
+    },
+    "novonordiskbetsonexternalsciencetobridgeitspatentcliff": {
+      "title": "Novo Nordisk Bets on External Science to Bridge Its Patent Cliff",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "노보노디스크는 특허 만료(패트프 클리프)에 대비해 나넥사의 파마셸과 헝루이의 HRS-1596 등 외부 기술 라이선스 계약을 체결했다. 세마글루타이드 의존도를 낮추기 위한 파이프라인 확충 노력에도 불구하고 자본시장 행사 이후 주가는 하락했다.",
+      "impact": "미래 성장 동력 확보를 위한 투자가 진행 중이나, 투자자들은 단기적인 실적 공백 우려와 자본시장 행사 결과에 실망하며 주가 약세로 반응했다.",
+      "caution": "장기 파이프라인 다변화 자체는 긍정적이나 단기적인 시장 기대치에는 미치지 못했다."
+    },
+    "applovincorporationappsecuritiesfraudclassactionlawsuitfilednovember162026leadplaintiffdeadline": {
+      "title": "AppLovin Corporation (APP) Securities Fraud Class Action Lawsuit Filed; November 16, 2026, Lead Plaintiff Deadline",
+      "holding": "앱러빈",
+      "stance": "악재",
+      "summary": "케슬러 토파즈 멜처 앤 체크 로펌은 2026년 10월 3일 앱러빈(APP)에 대한 증권 사기 집단소송 제기를 공지했다. 소송의 집단 기간은 2026년 2월 12일부터 8월 5일까지이며, AI 제품 및 셀프서비스 애플리케이션의 예상 매출 성장과 관련된 오인 진술이 쟁점이다.",
+      "impact": "AI 제품 관련 매출 성장 예측에 대한 허위 진술 의혹으로 집단소송이 제기됨에 따라 기업 이미지 훼손 및 법적 불확실성이 커졌다.",
+      "caution": "대표 원고 신청 마감일은 2026년 11월 16일이며 소송 초기 단계로 최종 판결 결과를 지켜봐야 한다."
+    },
+    "thinkingaboutbuying10yeartreasurynotesyielding53insteadofdividendstockslikecocacolaconsiderthese3factorsfirst": {
+      "title": "Thinking About Buying 10-Year Treasury Notes Yielding 5.3% Instead of Dividend Stocks Like Coca-Cola? Consider These 3 Factors First.",
+      "holding": "코카콜라",
+      "stance": "약한 악재",
+      "summary": "연방준비제도의 금리 인상과 인플레이션 압력으로 인해 10년 만기 미 국채 수익률이 2007년 이후 최고 수준인 5.3%(5.28%)에 도달했다. 이는 코카콜라 같은 배당주 투자자들에게 매력적인 대안이 되고 있다.",
+      "impact": "고수익을 제공하는 안전자산인 국채로 자금이 이동하면서, 상대적으로 코카콜라와 같은 배당주의 투자 매력이 희석될 수 있다.",
+      "caution": "배당주의 개별 펀더멘털보다는 거시경제 금리 환경 변화에 따른 자금 이동 관점의 영향이다."
+    },
+    "저축은행하반기새판짜기속도전ma리브랜딩잇따라": {
+      "title": "저축은행 하반기 '새판짜기' 속도전…M&A·리브랜딩 잇따라",
+      "holding": "한화생명",
+      "stance": "호재",
+      "summary": "한화생명은 지난달 30일 이사회에서 4400억원을 투자해 애큐온캐피탈 경영권 인수 안건을 의결했다. 이를 통해 애큐온저축은행 지분 100%를 보유한 애큐온캐피탈을 품게 되며, 저축은행업계 5위권(총자산 5조1000억원)의 자산을 확보하게 된다.",
+      "impact": "한화생명은 이번 인수로 리테일 금융 접점을 확대하고 금융 계열사 간 고객 기반을 연계하며 상품군을 넓힐 수 있는 기반을 마련하여 기업 가치에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "bts정국남미5개도시초대형투어서포트로팬사랑입증": {
+      "title": "BTS 정국, 남미 5개 도시 초대형 투어 서포트로 팬 사랑 입증",
+      "holding": "이월드",
+      "stance": "중립",
+      "summary": "방탄소년단(BTS) 정국의 남미 5개 도시(콜롬비아 보고타, 페루 리마, 칠레 산티아고, 아르헨티나 부에노스아이레스, 브라질 상파울루) 투어 일정에 맞춰 현지 팬들이 대형 옥외 광고와 패러글라이더 및 경비행기 등을 활용한 대규모 서포트를 진행한다.",
+      "impact": "보유 종목인 이월드와 직접적인 관련이 없는 아티스트의 해외 팬 투어 서포트 관련 기사로, 주가에 미치는 영향은 없다.",
+      "caution": "기사 본문에 보유 종목인 이월드에 대한 언급이 전혀 없다."
+    },
     "주간e종목윈팩sk하이닉스물량4년만에수주주가급등": {
       "title": "[주간e종목] 윈팩, SK하이닉스 물량 4년 만에 수주···주가 급등",
       "holding": "SK하이닉스",
