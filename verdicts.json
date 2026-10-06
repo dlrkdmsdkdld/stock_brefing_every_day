@@ -1,17 +1,105 @@
 {
-  "generated_at": "2026-10-06T10:23:58+09:00",
+  "generated_at": "2026-10-07T08:57:14+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6177,
-    "output_tokens": 2734
+    "input_tokens": 4378,
+    "output_tokens": 2096
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "3q실적앞둔삼성전자프리마켓서약보합sk하이닉스1": {
+      "title": "3Q 실적 앞둔 삼성전자, 프리마켓서 약보합…SK하이닉스 1%↓",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "SK하이닉스는 7일 프리마켓에서 실적 리스크와 매물 출회로 1.64% 하락한 174만 4000원에 거래되었다. 미국 뉴욕증시에서 마블 테크가 AI 성장 로드맵을 제시하며 강세를 보였으나, SK하이닉스 ADR은 3분기 실적 리스크 부각으로 6.39% 급락했다.",
+      "impact": "글로벌 메모리 반도체주 약세와 ADR 급락은 투자 심리에 부정적인 영향을 주어 단기 주가 하락 경로로 작용한다.",
+      "caution": "본 실적 발표 이전의 일시적인 시장 변동성일 수 있다."
+    },
+    "삼성전자사상최초분기영업이익100조시대연다주가반등할까": {
+      "title": "삼성전자, 사상 최초 분기 영업이익 ’100조 시대' 연다...주가 반등할까",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자가 8일 3분기 잠정 실적을 발표하는 가운데 증권가 컨센서스는 영업이익 106조 9435억 원으로 집계되었다. 미래에셋증권은 3분기 D램 출하가 예상치를 상회해 메모리 매출액 1000억 달러를 돌파했다고 분석하며 목표주가 40만 원을 제시했다.",
+      "impact": "사상 최대 수준의 영업이익 전망과 D램 출하 호조는 기업 가치 재평가 및 주가 반등의 강한 호재로 작용한다.",
+      "caution": "최근 원달러 환율 하락으로 인한 완제품 사업 원가 부담과 ETF 종목 비율 조정에 따른 매도세 가능성이 존재한다."
+    },
+    "hd현대중공업단기모멘텀부재엔진추가수주중요nh": {
+      "title": "HD현대중공업, 단기 모멘텀 부재…\"엔진 추가 수주 중요\"-NH",
+      "holding": "HD현대중공업",
+      "stance": "약한 악재",
+      "summary": "NH투자증권은 HD현대중공업의 3분기 영업이익이 9011억 원으로 시장 컨센서스를 하회할 것으로 추정하고 목표주가를 72만 원에서 70만 원으로 하향 조정했다. 중국 조선사의 공세와 LNG선 선가 하락으로 인해 단기 모멘텀이 부재하다는 분석이다.",
+      "impact": "목표주가 하향과 컨센서스 하회 전망은 단기적으로 투자 심리를 위축시키고 주가 상승을 제한하는 요인이 된다.",
+      "caution": "발전용 엔진 부문의 추가 수주 가시성이 높고 투자의견 '매수'는 유지되었다."
+    },
+    "delltechnologiesnysedellsharesup38onanalystupgrade": {
+      "title": "Dell Technologies (NYSE:DELL) Shares Up 3.8% on Analyst Upgrade",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "미즈호가 델 테크놀로지스의 목표주가를 600달러에서 650달러로 상향하고 'outperform' 등급을 유지하면서 주가가 3.8% 상승했다. AI 서버 수요 급증에 힘입어 분기 매출 4697억 달러, 주당순이익(EPS) 7.04달러로 시장 예상을 크게 상회했다.",
+      "impact": "AI 서버 부문의 강력한 실적 성과와 주요 애널리스트의 목표가 상향은 추가 주가 상승을 이끄는 핵심 동력이다.",
+      "caution": "최근 3개월 동안 내부자들이 약 190만 주의 주식을 매도한 점은 밸류에이션 부담 요인이다."
+    },
+    "constellationbrandsmissesfy27outlookacquiresreadytodrinkspikedadestznyse": {
+      "title": "Constellation Brands misses FY27 outlook, acquires ready-to-drink SpikedAde (STZ:NYSE)",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈는 2분기 맥주 매출이 기대치를 웃돌고 와인 및 스피릿 포트폴리오가 호조를 보이며 실적 기대치를 상회했다. 다만 회사는 회계연도 27년 전망(outlook)을 달성하지 못했다고 전했다.",
+      "impact": "실적 상회와 전망치 미달 요인이 혼재되어 있어 보유 종목 관점에서의 방향성이 뚜렷하지 않다.",
+      "caution": "기사 본문 내용이 일부 누락되어 있으며 구체적인 가이던스 미달 폭을 파악하기 어렵다."
+    },
+    "outerspaceslauncheswithanewcategorybeyondthewallsofthehomemergingoutdoorlivingwithhomeenergy": {
+      "title": "Outer Spaces Launches With A New Category Beyond The Walls of The Home - Merging Outdoor Living With Home Energy",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "태양광 및 배터리 저장 장치를 야외 구조물에 결합한 신규 기업 '아우터 스페이스'가 업프런트 벤처스 등의 주도로 800만 달러 규모의 프리시드 투자 유치를 받고 출범했다. 첫 제품 출시는 2027년으로 예정되어 있다.",
+      "impact": "퍼스트솔라 종목 자체가 직접 언급되지 않고 신생 스타트업의 주거용 태양광 시장 진출 소식이므로 직접적인 실적 영향은 제한적이다.",
+      "caution": "보유 종목인 퍼스트솔라에 대한 직접적인 언급이 없는 타사 관련 기사이다."
+    },
+    "vistrasurgesnearly6afterhoursadding3binmarketvalue": {
+      "title": "Vistra Surges Nearly 6% After Hours, Adding $3B in Market Value",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "전력 생산 기업 비스트라의 주가는 시간외 거래에서 약 6% 급등하여 160.50달러를 기록하며 하루 만에 시가총액 약 3어 달러가 증가했다. 세션 고점 부근인 158.75달러를 상회한 뒤 마감하여 매수 우위의 흐름을 보였다.",
+      "impact": "대형 전력 생산 기업의 주가 급등과 시가총액 확장은 전력 수요 증가 모멘텀 속에서 투자 심리를 크게 개선한다.",
+      "caution": "단기 급등에 따른 160달러선 지지 여부를 다음 거래일 개장 시점에서 확인할 필요가 있다."
+    },
+    "vertivstockheadstowardoctober28earningsafterq2growth": {
+      "title": "Vertiv stock heads toward October 28 earnings after Q2 growth",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "버티브 홀딩스의 주가는 10월 6일 기준 255.81달러로 마감되었으며 오는 10월 28일 3분기 실적 발표를 앞두고 있다. 앞서 발표된 2분기 매출은 32억 7000만 달러로 전년 동기 대비 24.1% 증가했고 조정 EPS는 1.52달러를 기록했다.",
+      "impact": "견조한 2분기 실적 성장세와 다가오는 3분기 실적 발표에 대한 기대감이 주가 하단을 지지하는 역할을 한다.",
+      "caution": "2분기 당시 매출이 애널리스트 예상치(33억 8000만 달러)를 소폭 하회했던 전력이 있다."
+    },
+    "lockheedmartinnabs245millionmodforsecondirstblockiiorder": {
+      "title": "Lockheed Martin Nabs $245 Million Mod For Second IRST Block II Order",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "미국 해군은 록히드마틴과 2억 4500만 달러 규모의 F/A-18E/F IRST 21 블록 II 시스템 두 번째 양산 계약을 체결했다. 이번 주문에는 미국과 호주를 위한 적외선 수신기 48대, 프로세서 74대, 관성측정장치 및 테스트 장비 등이 포함된다.",
+      "impact": "방위산업 부문의 대규모 신규 수주 확보로 향후 매출 증대와 실적 성장에 직접적으로 기여한다.",
+      "caution": "기사 본문 하단이 구독자 전용 콘텐츠로 잘려 있어 전체 세부 계약 조건은 확인이 어렵다."
+    },
+    "nikenkecouldbe6undervaluedafteritsfiscal2027revenuewarning": {
+      "title": "NIKE (NKE) Could Be 6% Undervalued After Its Fiscal 2027 Revenue Warning",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "나이키는 1분기 부진한 실적과 함께 회계연도 2027년 매출이 한 자릿수 후반 감소할 것이라는 경고를 발표했다. 이에 따라 나이키 주가는 최근 90일간 19.31% 하락하는 등 장기적인 수요 둔화 우려가 커지고 있다.",
+      "impact": "향후 매출 감소 전망과 모멘텀 약화는 주가 하방 압력을 높이고 투자 심리를 크게 악화시킨다.",
+      "caution": "주가가 밸류에이션상 저평가 구간일 수 있다는 시각도 존재하나 단기 전망은 부정적이다."
+    },
+    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
+      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "기사 제목에 노보노디스크의 웨고비 구독 모델 런칭이 언급되었으나, 본문 내용은 의사들의 인공지능(AI) 계약 및 법적 리스크에 관한 인터뷰만 다루고 있다.",
+      "impact": "보유 종목인 노보노디스크의 핵심 사업에 직접적인 실적 영향이나 새로운 변화를 확인할 수 있는 구체적인 내용이 본문에 없다.",
+      "caution": "제목에 노보노디스크가 언급되었으나 본문에는 관련 상세 정보가 전혀 포함되지 않아 중립으로 처리했다."
+    },
     "삼성전자하이닉스주춤하자날았다지금은소부장담을때": {
       "title": "'삼성전자·하이닉스' 주춤하자 날았다...\"지금은 소부장 담을 때\"",
       "holding": "SK하이닉스",
@@ -651,14 +739,6 @@
       "summary": "알파벳(Google)이 새로운 기업용 AI 모델 'Gemini 4 Argon'을 출시했음에도 투자자들의 매도세로 주가가 2% 하락한 반면, 마이크로소프트는 보합세를 유지했고 아마존은 하락했다.",
       "impact": "마이크로소프트는 직접적인 악재나 호재 없이 주가가 보합세를 유지하며 시장에서 안정적인 흐름을 보였다.",
       "caution": "마이크로소프트 자체의 새로운 실적이나 제품 출시보다는 알파벳의 신제품 출시 및 시장 반응을 주로 다룬 기사이다."
-    },
-    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
-      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
-      "holding": "노보노디스크 ADR",
-      "stance": "중립",
-      "summary": "화이자의 라임병 백신 효능 발표와 텍사스 주의료 사기 사건, 그리고 노보노디스크가 웨고비 구독 모델을 출시했다는 단신이 보도되었으나, 본문에서는 구체적인 내용 없이 다른 의료계 논란이 언급되었다.",
-      "impact": "노보노디스크의 웨고비 구독 모델 출시 소식이 제목에 언급되었으나 본문에는 세부 내용이 포함되지 않아 보유 종목에 미치는 영향이 제한적이다.",
-      "caution": "본문에 노보노디스크의 구체적인 실적이나 사업 내용이 누락되어 있고 다른 의료계 기사가 본문을 채우고 있다."
     },
     "cerebrassystemsthisisnotagoldenbuyingopportunitynasdaqcbrs": {
       "title": "Cerebras Systems: This Is Not A Golden Buying Opportunity (NASDAQ:CBRS)",
