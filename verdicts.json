@@ -1,17 +1,137 @@
 {
-  "generated_at": "2026-10-05T08:22:09+09:00",
+  "generated_at": "2026-10-06T10:23:58+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7890,
-    "output_tokens": 3539
+    "input_tokens": 6177,
+    "output_tokens": 2734
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자하이닉스주춤하자날았다지금은소부장담을때": {
+      "title": "'삼성전자·하이닉스' 주춤하자 날았다...\"지금은 소부장 담을 때\"",
+      "holding": "SK하이닉스",
+      "stance": "중립",
+      "summary": "삼성전자와 SK하이닉스 같은 반도체 대형주가 박스권에 갇힌 사이, 코스닥 소부장 기업들은 8~9월 동안 44.5% 상승하며 차별화된 흐름을 보였다. 관련 ETF 수익률도 20%대 후반의 높은 상승률을 기록했다.",
+      "impact": "보유 종목인 SK하이닉스는 대형주로서 최근 주가 상승률이 소부장 중소형주에 비해 상대적으로 주춤한 모습을 보였다.",
+      "caution": "기사의 주된 내용은 코스닥 소부장 기업과 관련 ETF의 강세이며, SK하이닉스는 대조군으로 간략히 언급만 되었다."
+    },
+    "삼성전자갤럭시탭s12시리즈스마트태그3국내출시": {
+      "title": "삼성전자, ‘갤럭시 탭 S12 시리즈·스마트태그3’ 국내 출시",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자는 오는 7일 갤럭시 탭 S12 시리즈와 스마트태그3를 국내에 출시한다. 신제품은 갤럭시 AI 기능과 어도비 포토샵 등을 탑재했으며, 다양한 구독 및 구매 혜택이 제공된다.",
+      "impact": "신제품 태블릿과 AI 기능의 상용화 및 판매 확대는 삼성전자의 모바일 부문 실적과 브랜드 가치에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "nhhd현대일렉트릭북미초고압변압기시장견조밸류에이션": {
+      "title": "NH證 “HD현대일렉트릭, 북미 초고압 변압기 시장 견조…밸류에이션 ...",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "NH투자증권은 HD현대일렉트릭에 대해 북미 초고압 변압기 호황 등을 이유로 매수 의견을 유지했다. 또한 HD현대중공업의 3조 원 규모 엔진 부문 증설이 회전기기 매출로 이어질 수 있다고 분석했다.",
+      "impact": "HD현대중공업의 증설 발표가 계열사의 실적 모멘텀으로 연결된다는 간접적 영향이 언급되었다.",
+      "caution": "본 기사의 주된 분석 대상은 HD현대일렉트릭이며, HD현대중공업은 연관 관계 속에서 일부 언급되었다."
+    },
+    "delltechnologiesannouncesnewamdserversinbrazilreinforcesaistrategy": {
+      "title": "Dell Technologies announces new AMD servers in Brazil, reinforces AI strategy",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지스는 브라질에서 AMD 기반 서버 포트폴리오를 확장하고 5세대 AMD EPYC 프로세서를 탑재한 PowerEdge 서버를 발표했다. 또한 AMD Instinct GPU 지원을 통해 인공지능 솔루션 라인업을 강화했다.",
+      "impact": "기업의 신제품 출시와 AI 인프라 확장은 델의 사업 경쟁력에 기여할 수 있다.",
+      "caution": "본 종목(델)이 직접 언급된 보도이나, 주가나 실적에 미치는 즉각적인 재무적 수치는 포함되지 않았다."
+    },
+    "firstsolarstockfacesanewtopconpatentlawsuitintheus": {
+      "title": "First Solar stock faces a new TOPCon patent lawsuit in the US",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라는 2026년 10월 5일 기준 175.30달러에 거래되었으며 2분기 순이익 4,230만 달러를 기록했다. 또한 JA솔라와 아메리칸 패널 솔루션을 상대로 TOPCon 태양전지 기술 관련 특허 침해 소송을 제기했다.",
+      "impact": "특허 소송은 향후 기술 보호와 시장 지위 유지에 영향을 줄 수 있으나, 단기적 주가 방향성에 미치는 영향은 불확실하다.",
+      "caution": "특허 소송의 결과가 확정되지 않았으며 소송 비용 및 리스크가 존재한다."
+    },
+    "whatsbehindconstellationenergyslatest46stocksurge": {
+      "title": "What's behind Constellation Energy's latest 4.6% stock surge?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지는 캘버트 클리프스 원전과 관련해 아마존과 20년 계약을 체결한 후 주가가 4.58% 급등했다. 이 계약은 30억 달러 이상의 인프라 투자를 뒷받침하며 무탄소 전력 공급 능력을 확대한다.",
+      "impact": "대규모 장기 계약과 무탄소 전력 수요 급증에 따른 수혜로 기업의 수익성과 성장 기대감이 높아졌다.",
+      "caution": "주가가 20일 이동평균선 위에 있으나 50일 및 200일선 아래에 있어 중장기 기술적 압박은 남아 있다."
+    },
+    "almontyssangdongrevivalgainswallstreetbackingasbuybackandontariosettlementreshapethee": {
+      "title": "Almonty's Sangdong Revival Gains Wall Street Backing as Buyback and Ontario Settlement Reshape the E",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "캔터 피츠제럴드는 알먼티에 대해 매수 의견과 목표주가 25.50달러를 유지했다. 한국 상동 광산에서 1993년 이후 처음으로 텅스텐 정광을 출하한 마일스톤이 반영되었다.",
+      "impact": "보유 종목이 아니므로 투자 관점의 직접적인 영향은 없다.",
+      "caution": "사용자가 요청한 보유 종목이 아닌 다른 회사(알먼티)에 관한 기사이다."
+    },
+    "stifelcutstargetforcredotechnologystocktousd310": {
+      "title": "Stifel cuts target for Credo Technology stock to USD 310",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "스티펠 니콜라우스는 크레도 테크놀로지의 목표주가를 350달러에서 310달러로 하향 조정했으나 매수 의견은 유지했다. 회계연도 2027년 1분기 매출은 4억 7,900만 달러를 기록했다.",
+      "impact": "보유 종목이 아니므로 포트폴리오에 직접적인 영향을 주지 않는다.",
+      "caution": "사용자가 지정한 보유 종목이 아닌 타사(크레도 테크놀로지)에 대한 리포트이다."
+    },
+    "ciscosystemsstockgained32percentonoctober2amidtargetcutsandaigrowthdebate": {
+      "title": "Cisco Systems stock gained 3.2 percent on October 2 amid target cuts and AI growth debate",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "2026년 10월 2일 시스코 시스템즈 주가는 전일 대비 3.2퍼센트 상승한 112.20달러를 기록했다. 회계연도 4분기 매출은 172억 5000만 달러로 전년 동기 대비 17.6퍼센트 증가했고, 주당순이익(EPS)은 1.22달러로 컨센서스를 상회했다.",
+      "impact": "호실적 발표와 인공지능(AI) 인프라 관련 수혜 기대감이 주가 상승을 이끌어 보유 주식의 가치 제고에 긍정적이다.",
+      "caution": "파이퍼샌들러가 목표주가를 132달러에서 125달러로 하향 조정한 점은 단기적인 눈높이 조정을 의미할 수 있다."
+    },
+    "vertivvsnventwhyisthefastergrowingaiinfrastructurestockcheaper": {
+      "title": "Vertiv vs. nVent: Why Is the Faster-Growing AI Infrastructure Stock Cheaper?",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브 홀딩스와 엔벤트 일렉트릭의 AI 인프라 수혜주로서의 성장성과 밸류에이션을 비교 분석한 기사다. 2026년 10월 2일 종가 기준 버티브는 252.18달러, 엔벤트는 169.56달러를 기록했다.",
+      "impact": "보유 종목인 버티브 홀딩스의 AI 전력 및 냉각 부문 경쟁력과 밸류에이션 수준을 타사와 비교해 점검할 수 있으나, 직접적인 주가 변동 요인은 없다.",
+      "caution": "타사인 엔벤트와의 비교 분석일 뿐 버티브 자체의 실적이나 계약 발표가 아니다."
+    },
+    "spcxstockreclaims165asupgradeandmicrosoftdealhopesliftrevenueoutlook": {
+      "title": "SPCX Stock Reclaims $165 as Upgrade and Microsoft Deal Hopes Lift Revenue Outlook",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "스페이스X의 컴퓨팅 사업에 대한 월가의 기대감이 커지면서 주가가 165달러를 웃돌고 있으며, 마이크로소프트가 스페이스X로부터 컴퓨팅 용량을 임대하는 방안을 논의했다는 보도가 나왔다. 마이크로소프트의 공식 입장은 아직 나오지 않았다.",
+      "impact": "마이크로소프트가 스페이스X의 대형 고객으로 확보될 경우 클라우드 및 컴퓨팅 인프라 분야에서의 확장성과 파트너십 강화로 이어질 수 있다.",
+      "caution": "양사 간 논의의 최종 성사 여부와 구체적인 계약 조건이 명확히 확정되지 않았다."
+    },
+    "execnikefacesstockpricecutsdowngradefollowingdisappointingq1report": {
+      "title": "EXEC: Nike Faces Stock Price Cuts, Downgrade Following Disappointing Q1 Report",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키의 회계연도 1분기 매출이 전년 동기 대비 4퍼센트 감소하여 시장 예상치에 못 미쳤다. 이로 인해 월가로부터 1건의 등급 하향 조정과 다수의 목표주가 인하가 이어졌다.",
+      "impact": "실적 부진과 향후 회복 시점에 대한 지연 전망이 투자 심리에 부정적으로 작용해 보유 주가에 하방 압력을 가한다.",
+      "caution": "1분기 주당순이익(48센트)은 당초 컨센서스(42센트)를 상회했으나 매출 감소와 가이던스 부진이 더 크게 작용했다."
+    },
+    "fdadelaysnovonordisksdenecimigoverfacilityfixes": {
+      "title": "FDA Delays Novo Nordisk's Denecimig Over Facility Fixes",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "미국 식품의약국(FDA)은 노보 노디스크의 혈우병 A 치료제 데네시미그(denecimig)에 대한 생물학적제제 허가신청(BLA) 심사를 연장했다. FDA는 임상 데이터가 아닌 제조 시설 개선(remediation) 작업이 지연 원인이라고 밝혔다.",
+      "impact": "신약 승인 일정 지연은 단기적으로 파이프라인 상용화 기대감을 낮추어 주가에 부정적 요인으로 작용할 수 있다.",
+      "caution": "약물의 효능이나 안전성 자체에 문제가 있는 것이 아니라 제조 시설 관련 보완 사항 때문이므로 장기적 가치 훼손과는 거리가 있다."
+    },
+    "한화생명편입에한숨돌린애큐온고금리시름덜어": {
+      "title": "한화생명 편입에 한숨돌린 애큐온… 고금리 시름 덜어",
+      "holding": "한화생명",
+      "stance": "호재",
+      "summary": "한화생명이 애큐온캐피탈을 공동 인수함에 따라 신용평가사들이 애큐온캐피탈의 신용등급 상향 검토 대상에 올렸다. 대주주가 사모펀드에서 최상위 등급 보험사로 바뀌면서 신용도 개선과 고금리 차환 부담 완화가 기대된다.",
+      "impact": "한화생명이 전략적 투자자로서 자회사에 대한 재무적·계열 지원 가능성을 높여 그룹 전반의 신뢰도와 시너지 효과를 강화한다.",
+      "caution": "금융당국의 자회사 편입 승인과 대주주 적격성 심사 등 최종 절차가 남아 있다."
+    },
+    "지분도경영도제로오너물러나도승계없는이랜드": {
+      "title": "'지분도 경영도 제로' 오너 물러나도 승계 없는 이랜드",
+      "holding": "이월드",
+      "stance": "중립",
+      "summary": "국내 재계 50위 이랜드그룹의 지배구조와 경영 체제를 다룬 기사로, 이랜드월드가 이월드를 비롯한 다수의 계열사를 거느리고 있다는 내용이다. 올해 상반기 이랜드그룹의 미래 부문 매출은 5307억원을 기록했다.",
+      "impact": "자회사 이월드를 소속으로 둔 이랜드그룹의 전반적인 경영 현황과 실적을 파악하는 데 참고가 되나, 이월드 개별 기업에 미치는 직접적 영향은 적다.",
+      "caution": "기사의 초점이 그룹 전반의 승계 구조와 패션·유통 부문에 맞춰져 있어 이월드 단독의 호재나 악재로 해석하기 어렵다."
+    },
     "삼전닉스자사주매입막바지수급공백메울190조실적기대": {
       "title": "삼전닉스 자사주 매입 막바지…'수급 공백' 메울 190조 실적 '기대'",
       "holding": "SK하이닉스",
