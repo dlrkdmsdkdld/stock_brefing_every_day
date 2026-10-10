@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T09:09:04+09:00",
+  "generated_at": "2026-10-11T08:43:16+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 9499,
-    "output_tokens": 4020
+    "input_tokens": 12223,
+    "output_tokens": 5186
   },
   "skipped": {
     "본문없음": 3,
@@ -12,6 +12,214 @@
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스이르면28일실적공개영업이익률80돌파하나": {
+      "title": "SK하이닉스 이르면 28일 실적 공개…영업이익률 80% 돌파하나",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스가 이르면 28일 공개할 3분기 실적에서 매출 98조 5258억 원, 영업이익 77조 1682억 원으로 사상 최대 실적을 기록할 것으로 전망된다. 반도체 공급 부족에 힘입어 분기 영업이익률 80% 돌파 여부에도 관심이 모아지고 있다.",
+      "impact": "역대급 실적과 높은 영업이익률은 기업 가치 상승과 주가에 직접적인 호재로 작용한다.",
+      "caution": "컨센서스 기반 전망치이므로 실제 발표 수치에 따라 주가 변동성이 나타날 수 있다."
+    },
+    "마켓인사이트삼성전자역대급실적에도짓눌린코스피반등가능": {
+      "title": "[마켓인사이트] 삼성전자 역대급 실적에도 짓눌린 코스피, 반등 가능...",
+      "holding": "HD한국조선해양",
+      "stance": "중립",
+      "summary": "미국 국채금리 상승과 삼성전자의 3분기 잠정 영업이익 107조 4천억 원 사상 최대 실적 경신에도 불구하고 코스피가 약세를 보였다. 반도체 피크아웃 우려는 불식되었으나 재료 소멸에 따른 셀온 현상과 휴장 앞둔 관망세가 겹쳤다.",
+      "impact": "증시 전반의 거시적 변동성과 대형주 실적 발표에 따른 시장 반응을 다룬 내용으로, HD한국조선해양의 개별 사업이나 주가에 직접적인 방향성을 주지 않는다.",
+      "caution": "보유 종목인 HD한국조선해양이 본문에 전혀 언급되지 않고 코스피 시황만 다루고 있음."
+    },
+    "한화hd현대다음은어디재계인사올해도빨라지나": {
+      "title": "한화·HD현대 다음은 어디…재계 인사 올해도 빨라지나",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "한화와 HD현대가 예년보다 빠르게 정기 인사를 단행하며 주요 대기업들이 연말 인사에 돌입했다. 삼성은 이달 말 임원 평가를 마치며, SK그룹은 지난해에 이어 올해도 10월 말에서 11월 초에 CEO 인사를 예상하고 있다.",
+      "impact": "글로벌 불확실성에 대응하기 위한 조기 인사 움직임이나, 개별 기업의 실적이나 사업 성과와 직접 연결되지는 않는다.",
+      "caution": "HD현대중공업이 재계 트렌드의 예시로 언급되었을 뿐 구체적인 실적이나 수주 소식은 포함되어 있지 않다."
+    },
+    "whathappenedtosusandellsappearancemaralagofacecomparisonsandplasticsurgeryrumorsexplored": {
+      "title": "What Happened to Susan Dell's Appearance? 'Mar-a-Lago Face' Comparisons and Plastic Surgery Rumors Explored",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지스 CEO 마이클 델의 아내 수잔 델이 백악관 컨퍼런스에 참석해 트럼프 계좌 프로그램에 62억 5천만 달러를 약속했다. 이 과정에서 수잔 델의 외모와 관련된 성형 수술 루머가 온라인의 관심을 끌었다.",
+      "impact": "오너 일가의 정치적 행사 참석 및 가십성 내용으로, 델 테크놀로지스의 본업이나 재무적 성과에는 직접적인 영향을 주지 않는다.",
+      "caution": "기업 가치와 무관한 개인적 가십을 다룬 기사다."
+    },
+    "firstsolarfslrstockmaybeunderpricedascashflowbuilds": {
+      "title": "First Solar (FSLR) Stock May Be Underpriced As Cash Flow Builds",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라의 주가가 최근 변동성을 겪은 가운데 현재 177.82달러의 주가가 예상 현금 흐름과 일치하는지 밸류에이션 관점에서 분석했다. 지난 12개월 동안의 잉여현금흐름은 약 8.362억 달러로 나타났다.",
+      "impact": "현금 흐름과 내재 가치 분석을 통해 투자자들에게 밸류에이션 판단 기준을 제공한다.",
+      "caution": "특정 호재나 악재의 확정적 발생보다는 일반적인 주가 적정성 분석 리포트 성격이다."
+    },
+    "couldconstellationenergynasdaqcegbuildastrongermarketstory": {
+      "title": "Could Constellation Energy (NASDAQ:CEG) Build a Stronger Market Story?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지가 전력 수요와 그리드 신뢰성을 바탕으로 시장의 주목을 받고 있다. 광범위한 시장 반등 속에서 유형의 발전 자산을 보유한 기업들이 재조명받고 있다.",
+      "impact": "전력 수요 증가 테마 속에서 시장의 관심을 환기시키나, 새로운 계약이나 실적 발표와 같은 구체적 사실은 없다.",
+      "caution": "타 종목들과 함께 간략히 언급된 수준의 시장 동향 기사다."
+    },
+    "whyisvistranysevstbackinfocus": {
+      "title": "Why Is Vistra (NYSE:VST) Back in Focus?",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "비스트라 에너지가 최근 시장 반등 국면에서 전력 수요와 그리드 신뢰성 이슈로 다시 주목받고 있다. 발전 자산을 보유한 기업들의 가치가 부각되는 흐름이다.",
+      "impact": "전력 인프라 및 에너지 수요 테마의 수혜 기대감을 높이나 구체적인 실적 변동 요인은 제시되지 않았다.",
+      "caution": "다른 기업들과 함께 나열된 형식의 일반적인 시장 언급 기사다."
+    },
+    "howinvestorsmayrespondtoalmontyindustriesstockafterplantcertification": {
+      "title": "How Investors May Respond To Almonty Industries Stock After Plant Certification",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "알먼티 인더스트리는 새로 인증받은 상동 공장과 21년간의 장기 오프테이크 계약을 바탕으로 텅스텐 생산 기반을 다지고 있다. 경영진은 성공적인 공장 램프업과 비용 통제를 통해 장기 계약을 현금 창출로 연결해야 하는 과제를 안고 있다.",
+      "impact": "상동 공장 인증 완료와 장기 계약이 실제 현금 흐름과 수익성 개선으로 이어질 수 있는 기반을 마련했다.",
+      "caution": "성공적인 공장 가동과 원가 통제 여부에 따라 성과가 달라질 수 있으므로 실행 과정을 지켜봐야 한다."
+    },
+    "wherewillcredotechnologybein3years": {
+      "title": "Where Will Credo Technology Be in 3 Years?",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지는 데이터 센터 네트워크 분야에서 급격한 성장을 보이고 있으며 회계연도 2026년에 매출이 3배 이상 증가했고 올해도 85% 이상의 성장이 예상된다. 엔비디아의 AI 가속기 생태계 안에서 능동형 전기 케이블(AEC)과 광학 라인업을 통해 서버 랙 내부와 장거리를 연결하는 핵심 역할을 담당하고 있다.",
+      "impact": "AI 인프라 지출 증가의 수혜를 직접 받아 매출과 실적이 빠르게 성장하면서 주가에 강력한 긍정적 요인으로 작용한다.",
+      "caution": "본문 내용이 잘리며 향후 성장을 좌우할 핵심 요인 중 일부가 누락되었다."
+    },
+    "undppartnersciscotoadvancedigitalskillsemploymentopportunitiesforyoungnigerians": {
+      "title": "UNDP partners Cisco to advance digital skills, employment opportunities for young Nigerians",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "유엔개발계획(UNDP)과 시스코는 금요일 아부다비에서 나이지리아 청소년들의 미래 지향적 디지털 기술 습득과 양질의 고용 기회 접근성을 높이기 위한 양해각서(MoU)를 체결했다. 이 협력은 나이지리아 주빌리 펠로십 프로그램(NJFP)의 일환으로 진행된다.",
+      "impact": "공공 부문과의 전략적 파트너십 강화를 통해 사회적 가치 창출과 브랜드 인지도 향상에 기여할 수 있으나, 단기적인 직접 재무적 영향은 크지 않다.",
+      "caution": "기업 전체 실적에 미치는 직접적인 매출 기여도는 제한적이다."
+    },
+    "usnavyplanscontractforlockheedmartintointegratelrasmantishipmissileonb52": {
+      "title": "U.S. Navy plans contract for Lockheed Martin to integrate LRASM anti-ship missile on B-52",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "미 해군은 록히드마틴의 LRASM 대함 미사일을 B-52 폭격기에 통합하는 계약을 추진 중이며, 이는 미사일 소프트웨어 업데이트와 테스트 작업 등을 포함한다. B-52는 최대 20발의 미사일을 탑재할 수 있어 해상 목표물 타격 능력이 대폭 향상될 것으로 기대된다.",
+      "impact": "방산 부문의 주요 계약 추진 및 무기 체계 통합은 안정적인 수주 잔고와 장기적 매출 확보로 이어져 록히드마틴의 기업 가치에 긍정적이다.",
+      "caution": "계약이 아직 최종 확정 단계가 아닌 추진 계획 상태라는 점에 유의해야 한다."
+    },
+    "microsoftopenscopilotbenefitstomicrosoft365familymemberscutssharedstorage": {
+      "title": "Microsoft Opens Copilot Benefits to Microsoft 365 Family Members, Cuts Shared Storage",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트는 Microsoft 365 패밀리 및 프리미엄 구독자들이 코파일럿과 AI 기능을 최대 5명의 추가 사용자와 공유할 수 있도록 혜택을 확대한다고 밝혔다. 다만 이 변경과 함께 가족 구성원 전체의 원드라이브 저장 용량은 1인당 1TB에서 공유 2TB 풀로 조정된다.",
+      "impact": "AI 기능 접근성을 넓혀 사용자 참여를 유도할 수 있으나, 저장 용량 축소에 따른 소비자 반응이 엇갈릴 수 있어 주가에 미치는 영향은 복합적이다.",
+      "caution": "AI 기능 공유 확대와 저장 용량 감소가 실적에 미치는 순효과는 불확실하다."
+    },
+    "bristolmyerssquibbvsnovonordiskwhichhealthcarestockisabetterbuyin2026": {
+      "title": "Bristol Myers Squibb vs. Novo Nordisk: Which Healthcare Stock Is a Better Buy in 2026?",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "브리스톨 마이어스 스큅과 노보 노디스크는 2026년 헬스케어 투자처로 비교되며, 브리스톨 마이어스는 암 및 혈액 질환 포트폴리오를 가진 다각화된 바이오 제약사로 소개되었다. 노보 노디스크는 비만 및 당뇨병 시장에서의 지배력으로 잘 알려져 있으며 두 회사 모두 규제 환경 변화에 대응하고 있다.",
+      "impact": "기사가 두 기업을 비교하는 개괄적인 내용이며 노보 노디스크의 구체적인 개별 호재나 악재를 다루지 않아 직접적인 주가 영향은 중립적이다.",
+      "caution": "단순 비교 분석 기사이며 노보 노디스크 단독의 새로운 실적이나 사건을 다루지 않는다."
+    },
+    "topyorkspacesystemsysscompetitors2026": {
+      "title": "Top York Space Systems (YSS) Competitors 2026",
+      "holding": "온다스 홀딩스",
+      "stance": "중립",
+      "summary": "요크 스페이스 시스템즈(YSS)의 2026년 주요 경쟁사로 MDA 스페이스, VSE, 카르만, 온다스 홀딩스(ONDS), AAR 등이 언급되었다. 이들 기업은 시장, 산업, 규모의 유사성을 바탕으로 비교 대상에 올랐다.",
+      "impact": "온다스 홀딩스가 우주 및 방산 관련 경쟁사 목록에 포함된 것을 보여줄 뿐 구체적인 사업 성과나 계약 소식은 없다.",
+      "caution": "온다스 홀딩스가 직접 주된 분석 대상이 아닌 경쟁사 목록의 일부로 언급되었을 뿐이다."
+    },
+    "jobystocktumblestodaywhatspookedinvestorsandwhatwallstreetseesnext": {
+      "title": "Joby Stock Tumbles Today: What Spooked Investors and What Wall Street Sees Next",
+      "holding": "조비 에비에이션",
+      "stance": "악재",
+      "summary": "바클레이즈는 조비 에비에이션의 투자의견을 동일 비중에서 비중 축소로 하향 조정하고 목표주가를 6달러에서 4달러로 대폭 낮추었으며, 이로 인해 금요일 주가가 약 7% 하락했다. 분석가는 회사의 자체 제조, 운영, 서비스 통합 전략이 규제 인증 획득 여부와 관계없이 비용 부담이 너무 클 수 있다고 경감했다.",
+      "impact": "월스트리트 주요 투자은행의 투자의견 하향과 목표가 삭감은 투자 심리를 급격히 위축시키며 단기적인 주가 하락 압력으로 작용한다.",
+      "caution": "애널리틱스의 주관적 전망에 기반한 리포트이므로 향후 회사의 실제 인증 및 상용화 속도에 따라 반박될 여지가 있다."
+    },
+    "redwirevsrocketlabwhichindustrialsstockisabetterbuyin2026": {
+      "title": "Redwire vs. Rocket Lab: Which Industrials Stock Is a Better Buy in 2026?",
+      "holding": "레드와이어",
+      "stance": "약한 호재",
+      "summary": "우주 경제 성장에 따라 레드와이어와 로켓랩이 투자 대안으로 비교되었으며, 레드와이어는 미션 크리티컬 우주 인프라와 특수 부품을 공급하는 방산 주식으로 소개되었다. 회사는 미 우주군, NASA, DARPA뿐만 아니라 브리스톨 마이어스 스큅 같은 상업 거물들을 고객으로 두고 있으며 2026년에는 혼다와 파트너십을 체결했다.",
+      "impact": "다양한 공공 및 민간 우주 기관과의 파트너십과 고객 포트폴리오는 레드와이어의 사업 성장성과 안정성에 대한 기대감을 높여준다.",
+      "caution": "경쟁사인 로켓랩과의 장단점이 함께 논의되는 비교 기사 성격이 강하다."
+    },
+    "astspacemobilehas37billioninliquidityandnocommercialrevenuehereshowtovaluethat": {
+      "title": "AST SpaceMobile Has $3.7 Billion in Liquidity and No Commercial Revenue. Here's How to Value That.",
+      "holding": "AST 스페이스모바일",
+      "stance": "중립",
+      "summary": "AST 스페이스모바일은 6월말 기준 37억 달러 이상의 유동성을 확보하고 있으나, 상업 계약에 따른 지속적인 상용 매출은 아직 발생하지 않고 있다. 방산 계약과 상업적 선결제 위주로 매출을 내고 있으며, 2026년까지 위성 군집이 45개로 늘어나면 변화가 생길 수 있다.",
+      "impact": "풍부한 유동성은 긍정적이fahr나 상업 매출이 아직 없어 밸류에이션 산정이 까다롭고 향후 위성 확대 계획을 지켜봐야 하므로 단기적인 주가 영향은 중립적이다.",
+      "caution": "시가총액이 153억 달러로 예상 2026년 매출 대비 90배가 넘어 고평가 논란이 있을 수 있다."
+    },
+    "nvidiabackedneocloudsfaceatestasirencoreweaveandnebiusstocksslide": {
+      "title": "Nvidia-Backed Neoclouds Face a Test as IREN, CoreWeave and Nebius Stocks Slide",
+      "holding": "아이렌",
+      "stance": "약한 악재",
+      "summary": "엔비디아가 지원하는 네오클라우드 기업들인 IREN, 네비우스, 코어위브 등의 주가가 하락세를 보이고 있다. 특히 비트코인 채굴에서 AI로 피벗 중인 IREN은 최고점 대비 54% 하락한 35.20달러를 기록했으며, 엔비디아가 2억 달러를 투자한 기업들의 밸류에이션 부담과 IPO 철회 등이 악재로 작용했다.",
+      "impact": "보유 종목인 IREN이 AI 버블 우려와 높은 공매도 비율 속에 주가 하락 및 밸류에이션 압박을 받고 있어 투자 심리에 부정적이다.",
+      "caution": ""
+    },
+    "ai해킹알고도당한금융권사고2주전에도노출자산경고": {
+      "title": "AI해킹 알고도 당한 금융권…사고 2주전에도 '노출자산' 경고",
+      "holding": "KB금융",
+      "stance": "악재",
+      "summary": "신한은행, KB국민은행, 하나은행 등 국내 주요 시중은행에서 AI 해킹으로 인한 고객정보 유출 사고가 발생했다. 금융보안원이 사고 2주 전 노출자산 경고와 세미나를 열었으나 KB국민은행 등 금융사들의 사전 대응이 부실했다는 지적이 나온다.",
+      "impact": "보유 종목인 KB금융의 계열사인 KB국민은행에서 직접적인 AI 해킹 침해 사고와 정보 유출이 발생해 기업 이미지 훼손 및 보안 리스크가 커졌다.",
+      "caution": ""
+    },
+    "허위조작정보신고2천732건구글메타는현황조차깜깜": {
+      "title": "허위조작정보 신고 2천732건…구글·메타는 현황조차 '깜깜'",
+      "holding": "네이버",
+      "stance": "중립",
+      "summary": "개정 정보통신망법 시행 이후 석 달간 네이버에 900건의 허위조작정보 신고가 접수되는 등 국내 플랫폼 5곳에 총 2천732건의 신고가 들어왔다. 반면 구글, 메타 등 해외 플랫폼은 자료 제출을 거부하며 대비되는 모습을 보였다.",
+      "impact": "네이버가 허위조작정보 신고 처리 및 규제 대상에 포함되어 모니터링 부담이 존재하지만, 플랫폼 운영 전반에 미치는 직간접적 재무 영향은 제한적이어서 중립적이다.",
+      "caution": ""
+    },
+    "송변전호황배전시장개화ls일렉트릭수혜본격화네이버블로그": {
+      "title": "송변전 호황·배전시장 개화…LS일렉트릭, 수혜 본격화 : 네이버 블로그",
+      "holding": "HD현대일렉트릭",
+      "stance": "중립",
+      "summary": "미국 전력 인프라 투자 확대와 AI 데이터센터 확산에 힘입어 송변전 및 배전 시장이 호황을 맞이하고 있다. 기사 본문은 주로 LS일렉트릭의 수혜 확대를 다루면서, 하이엔드 초고압 변압기 시장을 주도하는 기업으로 HD현대일렉트릭과 효성중공업을 언급했다.",
+      "impact": "기사의 주된 분석 대상은 경쟁사인 LS일렉트릭이며 HD현대일렉트릭은 기존 주도 기업으로 언급만 되었기 때문에 직접적인 새로운 투자 정보보다는 업황 호조 확인에 그친다.",
+      "caution": "보유 종목인 HD현대일렉트릭이 직접 분석된 것이 아니라 경쟁사 분석 과정에서 비교군으로 언급만 되었음."
+    },
+    "마켓인사이트삼성전자역대급실적에도짓눌린코스피반등가능성은": {
+      "title": "[마켓인사이트] 삼성전자 역대급 실적에도 짓눌린 코스피, 반등 가능성은",
+      "holding": "효성중공업",
+      "stance": "중립",
+      "summary": "국내 주식시장은 미국 국채금리 고공행진과 삼성전자의 역대급 실적 발표 직후 셀온 현상 등의 영향으로 약세를 기록했다. 코스피는 전주 대비 377.81포인트 하락한 6,625.93으로 마감했다.",
+      "impact": "거시경제 지표 악화와 증시 전반의 하락 흐름을 다룬 시황 기사로, 효성중공업 개별 기업의 실적이나 사업 내용에 대한 직접적인 언급이 없어 영향은 중립적이다.",
+      "caution": "보유 종목인 효성중공업에 대한 구체적인 언급 없이 전체 코스피 시황만 다루고 있음."
+    },
+    "조선9월선박수주량127급증누적실적은이76장악": {
+      "title": "韓 조선, 9월 선박 수주량 127% 급증…누적 실적은 中이 76% 장악",
+      "holding": "한화오션",
+      "stance": "중립",
+      "summary": "올해 1~9월 누적 선박 수주량에서 중국이 1995척, 한국이 277척을 기록하며 격차가 벌어졌으나, 9월 한 달간 한국의 선박 수주량은 127% 급증했다. 9월 말 기준 전 세계 수주잔량 비중은 중국이 68%, 한국이 17%를 차지했다.",
+      "impact": "조선 업황 전반의 수주 지표와 국가별 점유율을 다룬 기사로, 한화오션 개별 기업의 수주 계약이나 실적 변화가 구체적으로 명시되지 않아 영향은 중립적이다.",
+      "caution": "특정 기업의 개별 수주 소식이 아닌 국가별 전체 수주 통계를 다룸."
+    },
+    "마켓스토리거래소애프터마켓한달퇴근후개미가가장많이산": {
+      "title": "[마켓스토리] 거래소 애프터마켓 한달…퇴근 후 개미가 가장 많이 산...",
+      "holding": "두산에너빌리티",
+      "stance": "약한 악재",
+      "summary": "한국거래소가 애프터마켓을 개장한 가운데, 개인투자자들이 두산에너빌리티를 105억5천만원 규모로 순매도한 것으로 나타났다. 전체 애프터마켓 일평균 거래대금은 1조3천억원으로 정규장의 4.78% 수준이다.",
+      "impact": "개인투자자들이 애프터마켓에서 두산에너빌리티를 순매도 상위 종목(105억5천만원)에 올리며 단기적으로 매도 우위 수급 압력이 존재함을 시사한다.",
+      "caution": "순매도 수치는 애프터마켓(오후 4시~8시) 한 달간의 집계 결과일 뿐이며, 정규장 전체 흐름이나 기업의 펀더멘털을 직접 반영하지는 않는다."
+    },
+    "현대로템폴란드현지전차조립조기착수계획기술이전이견은지속": {
+      "title": "현대로템, 폴란드 현지 전차 조립 조기 착수 계획…기술 이전 이견은 지속",
+      "holding": "현대로템",
+      "stance": "약한 호재",
+      "summary": "현대로템이 폴란드 글리비체 부마르-와베디 공장의 K2PL 전차 첫 조립 착수 일정을 기존보다 4개월 앞당기기로 했다. 2차 계약 물량 64대 중 3대는 한국에서, 61대는 폴란드 현지 조립으로 진행될 예정이며 지식재산권과 기술 이전 협상은 여전히 진통을 겪고 있다.",
+      "impact": "유럽 생산 거점 확보 속도가 빨라지면서 글로벌 방산 시장에서의 입지와 향후 추가 수주 기대감이 높아진다.",
+      "caution": "기술 이전 세부 조건과 정비 책임 분담을 두고 양국 간 협상이 여전히 진통을 겪고 있어 향후 실무 협상 과정에서 변동성이 발생할 수 있다."
+    },
+    "골든크로스뜬월드코인wld075달러저항선넘어야1달러간다": {
+      "title": "골든크로스 뜬 월드코인(WLD)… ‘0.75달러 저항선’ 넘어야 1달러 간다",
+      "holding": "이월드",
+      "stance": "중립",
+      "summary": "가상자산 월드코인(WLD)이 200일 이동평균선을 상회하고 골든크로스를 형성하며 반등세를 보이고 있다. 코인피디아는 0.56~0.75달러의 저항 구간을 돌파해야 1달러 도달이 가능할 것이라고 보도했다.",
+      "impact": "보유 종목인 이월드와 직접적인 사업 연관성이 없는 가상자산 관련 기사이다.",
+      "caution": "기사의 주된 내용은 월드코인의 기술적 분석이며, 보유 종목인 이월드 기업 자체의 펀더멘털이나 주가에 직접적인 영향을 주지 않는다."
+    },
     "창립43주년맞은sk하이닉스hbm넘어차세대ai메모리시장넘본다": {
       "title": "창립 43주년 맞은 SK하이닉스…HBM 넘어 차세대 AI 메모리 시장 넘본다",
       "holding": "SK하이닉스",
