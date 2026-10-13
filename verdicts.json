@@ -1,17 +1,249 @@
 {
-  "generated_at": "2026-10-12T08:49:05+09:00",
+  "generated_at": "2026-10-13T11:10:21+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 11808,
-    "output_tokens": 5379
+    "input_tokens": 12955,
+    "output_tokens": 5154
   },
   "skipped": {
-    "본문없음": 5,
+    "본문없음": 11,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스올해실적전망치상향조정영업이익405조하나머니투데이": {
+      "title": "\"SK하이닉스 올해 실적 전망치 상향조정…영업이익 405조\"-하나 - 머니투데이",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "하나증권은 SK하이닉스의 올해 매출액을 500조원, 영업이익을 405조원으로 상향 조정했으며, 3분기 예상 영업이익도 77조9000억원으로 컨센서스에 부합할 것으로 전망했다. 디램(DRAM) 가격 상승 가정과 서버 및 B2C 업체의 LPDDR 장기 공급계약 체결이 실적 호조의 주된 배경이다.",
+      "impact": "DRAM 및 LPDDR 가격 상승과 장기 공급계약으로 인해 SK하이닉스의 수익성이 직접적으로 개선될 것으로 기대되므로 보유 종목에 긍정적인 호재다.",
+      "caution": ""
+    },
+    "키움운용삼성전자sk하이닉스채권혼합50이달분배금146원": {
+      "title": "키움운용, '삼성전자&SK하이닉스채권혼합50' 이달 분배금 146원",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "키움투자자산운용은 'KIWOOM 삼성전자&SK하이닉스채권혼합50' ETF의 10월 월중 분배금으로 주당 146원을 지급한다고 13일 밝혔다. 해당 상품은 삼성전자와 SK하이닉스에 각각 25%, 단기채권에 50%를 투자하며 6개월 연속 분배금을 지급해왔다.",
+      "impact": "개별 기업의 본업 실적이나 직접적인 가치 변동보다는 간접적인 ETF 분배금 지급에 관한 내용이므로 주가에 직접적인 대형 호재나 악재로 작용하기는 어렵다.",
+      "caution": "종목의 펀더멘털 변화가 아닌 금융상품의 분배금 지급 소식이다."
+    },
+    "ai타고바다서육상으로hd현대확장전략통할까": {
+      "title": "'AI 타고 '바다'서 '육상'으로'…HD현대, 확장 전략 통할까",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대는 AI 데이터센터 중심의 전력 인프라 시장 공략을 위해 계열사별 역할을 분담하고 있으며, HD현대마린솔루션이 엔진 MRO 기업 골텐스의 지분 100%를 약 3315억원에 인수했다. 이를 통해 선박뿐만 아니라 육상 발전설비 및 데이터센터용 전력 인프라 사업으로 영역을 확장하고 있다.",
+      "impact": "HD현대중공업을 포함한 계열사들이 AI 데이터센터 전력 및 엔진 정비 등 신사업으로 포트폴리오를 넓히면서 장기적인 성장 동력이 강화될 수 있다.",
+      "caution": ""
+    },
+    "billionairemichaeldellhitsbackaftertrollsmockwifesusansappearanceatwhitehouse": {
+      "title": "Billionaire Michael Dell hits back after trolls mock wife Susan's appearance at White House",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지의 CEO 마이클 델의 아내 수잔 델이 백악관에 방문해 62억 5000만 달러를 기부한 것과 관련해 인터넷상의 외모 조롱에 마이클 델이 대응했다는 내용이다.",
+      "impact": "기업의 실적이나 사업 내용과 무관한 최고경영자(CEO) 개인의 사생활 및 가십성 뉴스이므로 보유 종목에 미치는 영향은 제한적이다.",
+      "caution": "델 테크놀로지의 본업이나 재무 상태와 무관한 가십 기사이다."
+    },
+    "theenergydepartmentofferedvistraupto42billionfor433moremegawattsfromnuclearupratesatthreeplantsinohioandpennsylvaniaandtheupgradescouldhelpkeepthemrunning20yearspasttheirlicenses": {
+      "title": "The Energy Department offered Vistra up to $4.2 billion for 433 more megawatts from nuclear uprates at three plants in Ohio and Pennsylvania, and the upgrades could help keep them running 20 years past their licenses",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "미국 에너지부는 오하이오와 펜실베이니아에 위치한 비스트라(Vistra)의 원전 3곳에 대해 원전 출력 증강(uprates)을 위해 최대 42억 달러의 연방 대출을 제안했다. 이번 업그레이드를 통해 약 4기가와트의 안정적인 기저부하 전력을 보존하고 433메가와트를 추가할 수 있게 된다.",
+      "impact": "정부의 대규모 자금 지원과 발전 용량 확대를 통해 비스트라의 전력 공급 능력이 향상되고 장기적인 수익 창출 기반이 강화된다.",
+      "caution": ""
+    },
+    "eosestockslidesaslegalprobescloudoutlook": {
+      "title": "EOSE Stock Slides As Legal Probes Cloud Outlook",
+      "holding": "이오스 에너지",
+      "stance": "악재",
+      "summary": "이오스 에너지 엔터프라이즈(Eos Energy Enterprises)는 부정적인 기술 및 자금 관련 소식 속에 주가가 6.35% 하락했다. 여러 증권 로펌들이 2025년 11월 5일 이전 주식을 매수한 투자자들을 대리해 기업의 잠재적 위법 행위 및 공시 위반 여부에 대한 조사를 시작했다.",
+      "impact": "증권가 집단소송 및 법적 조사가 개시되면서 투자 심리가 악화되고 기업 지배구조 리스크가 부각되어 주가에 하방 압력으로 작용한다.",
+      "caution": ""
+    },
+    "credoteamswithopticalsupplierstolaunchocpsrmointerconnectstandardsworkstream": {
+      "title": "Credo teams with optical suppliers to launch OCP SRMO interconnect standards workstream",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "크레도 테크놀로지(Credo Technology Group)는 AI 데이터센터용 고속 광 인터커넥트를 표준화하기 위해 오픈 컴퓨트 프로젝트(Open Compute Project) 내에 SRMO 워크스트림 컨소시엄을 출범시켰다. 2027년 OCP 승인을 목표로 전력, 신호 처리 등에 대한 표준 규격을 개발할 예정이다.",
+      "impact": "AI 클러스터 규모가 커지는 가운데 핵심 광 컴포넌트의 표준화를 주도함으로써 시장 내 입지와 공급망에서의 영향력을 확대할 수 있다.",
+      "caution": ""
+    },
+    "cyberleadersexchange2026ciscosnormanstlaurentonbuildingafuturereadycyberworkforce": {
+      "title": "Cyber Leaders Exchange 2026: Cisco’s Norman St. Laurent on building a future-ready cyber workforce",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "연방 뉴스 네트워크의 '사이버 리더스 엑스체인지 2026' 행사에서 시스코의 선임 제품 마케팅 매니저인 노먼 스토 로랑이 미래 대비 사이버 보안 인력 양성의 중요성을 강조했다.",
+      "impact": "시스코 임직원의 일반적인 업계 행사 발언 및 인력 육성 중요성에 대한 내용으로, 단기적인 매출이나 실적에 직접적인 변화를 주지 않는다.",
+      "caution": "구체적인 수주나 실적 관련 내용이 포함되지 않은 일반적인 인터뷰 기사이다."
+    },
+    "vertivvrtstockmaybefullypricedafterinvestorrightsprobe": {
+      "title": "Vertiv (VRT) Stock May Be Fully Priced After Investor Rights Probe",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브 홀딩스의 주가는 최근 하락 이후 현 주가가 내재 현금흐름과 일치하는지에 대한 질문을 받고 있다. 지난 12개월 동안 버티브는 약 30억 3000만 달러의 잉여현금흐름을 창출했다.",
+      "impact": "투자자 권리 조사 이슈와 현금흐름에 기반한 가치평가 우려가 혼재되어 있어 주가 방향성에 직접적인 단기 호재나 악재로 작용하기보다 관망세를 유도한다.",
+      "caution": "특정 실적 발표나 계약 체결보다는 전반적인 밸류에이션 점검 성격의 기사이다."
+    },
+    "tdcowensaysderatinginaerospacestockshasbeendisorderlycutstargetsonboeinglockheedmartinamongothers": {
+      "title": "TD Cowen Says De-Rating In Aerospace Stocks Has Been ‘Disorderly,’ Cuts Targets On Boeing, Lockheed Martin Among Others",
+      "holding": "록히드마틴",
+      "stance": "약한 악재",
+      "summary": "TD 코웬은 3분기 실적 프리뷰를 통해 록히드마틴의 목표주가를 기존 600달러에서 570달러로 하향 조정하고 '중립(Hold)' 의견을 유지했다. 금요일 장에서 록히드마틴(LMT) 주가는 0.30% 하락했다.",
+      "impact": "투자의견 하향 및 목표가 인하는 단기적으로 투자 심리에 부정적인 영향을 미칠 수 있다.",
+      "caution": "미사일 프레임워크 계약과 함정 계약이 방위산업체들의 수주 잔고를 늘릴 것이라는 기대감도 함께 언급되었다."
+    },
+    "nkestockmorganstanleyflagselevatedvaluationmoreearningsrisk": {
+      "title": "NKE Stock: Morgan Stanley Flags ‘Elevated’ Valuation, More Earnings Risk",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "모건 스탠리는 나이키(NKE)에 대한 커버지를 '비중축소(Underweight)' 등급과 목표주가 31달러로 재개했다. 중화권 시장의 2026 회계연도 4분기 17% 매출 감소 등 운영 압박이 지속되고 있다.",
+      "impact": "월가의 실적 회복에 대한 기대가 여전히 과도할 수 있다는 경고와 함께 중국 시장에서의 부진이 주가에 하방 압력을 가하고 있다.",
+      "caution": ""
+    },
+    "novonordisksusshareerosionpromptsfreshtargetcutsaspipelinebetsfacedelays": {
+      "title": "Novo Nordisk's US Share Erosion Prompts Fresh Target Cuts as Pipeline Bets Face Delays",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "BMO 캐피털과 도이체방크는 노보 노디스크의 미국 내 시장 점유율 하락과 스웨덴 내 위고비 정가 20% 인하 등을 이유로 목표주가를 하향 조정했다. BMO는 오젬픽의 전년 동기 대비 높은 기저 효과로 인해 2026년 3분기 매출에 부담이 될 것으로 예상했다.",
+      "impact": "미국 시장 경쟁 심화와 주요 제품의 성장 둔화 우려가 반영되어 주가 상승 모멘텀을 제한한다.",
+      "caution": "유럽에서 발표된 파이프라인 데이터 등 일부 긍정적 요인이 하락 폭을 상쇄할 수 있다."
+    },
+    "ondasandpalantirlaunchaiventuretargetinggovernmentsanddefensecustomers": {
+      "title": "Ondas and Palantir launch AI venture targeting governments and defense customers",
+      "holding": "온다스 홀딩스",
+      "stance": "호재",
+      "summary": "온다스와 팔란티어는 정부 및 국방 고객을 겨냥한 새로운 인공지능 합작사인 '레그나 AI(Regna AI)'를 설립했다. 온다스는 이 합작사의 첫 번째 고객이 될 예정이다.",
+      "impact": "팔란티어와의 협력을 통해 방위산업 및 중요 인프라 시장에서 보안성이 강화된 AI 모델과 자율 시스템을 제공함으로써 장기적인 사업 성장을 기대할 수 있다.",
+      "caution": ""
+    },
+    "jobystockslidesasbarclaysslashespricetargetto4": {
+      "title": "JOBY Stock Slides As Barclays Slashes Price Target To $4",
+      "holding": "조비 에비에이션",
+      "stance": "악재",
+      "summary": "바클레이즈는 조비 에비에이션의 투자의견을 '동일비중'에서 '비중축소'로 하향하고 목표주가를 6달러에서 4달러로 대폭 낮췄다. eVTOL 인증 관련 규제 지연 우려와 장기 시장 점유율에 대한 의문이 제기되면서 주가는 5~7% 이상 급락했다.",
+      "impact": "투자은행의 대폭적인 목표가 하향과 규제 지연 소식은 단기 주가 하락 및 투자 심리 악화로 직결된다.",
+      "caution": "증권가 전체 평균 목표주가는 여전히 10.31달러 수준의 '보유' 의견을 유지하고 있다."
+    },
+    "redwirenyserdwstockfalls36hereswhy": {
+      "title": "Redwire (NYSE:RDW) Stock Falls 3.6% - Here's Why",
+      "holding": "레드와이어",
+      "stance": "약한 악재",
+      "summary": "레드와이어(RDW) 주가는 월요일 거래량 부진 속에 3.6% 하락하여 약 9.24달러를 기록했다. 최근 분기 실적은 예상보다 적은 주당 0.09달러의 손실과 1억 1707만 달러의 매출을 기록했으나, 이사 관련 법인이 약 1050만 달러 규모의 주식을 매각했다.",
+      "impact": "실적 자체는 예상치를 상회했으나 내부자의 대규모 주식 매각 소식이 단기적인 차익실현 매물 및 주가 하락 압력으로 작용했다.",
+      "caution": ""
+    },
+    "astspacemobilestockupgradedisittimetobuythedip": {
+      "title": "AST SpaceMobile Stock Upgraded: Is it Time to Buy the Dip?",
+      "holding": "AST 스페이스모바일",
+      "stance": "호재",
+      "summary": "도이체방크는 최근 하락세를 겪은 AST 스페이스모바일(ASTS)에 대해 매수 기회라며 투자의견을 '보유'에서 '매수'로 상향하고 목표주가 93달러를 유지했다. 브라이언 크래프트 애널리스트는 지난 주의 주가 하락이 잘못된 판단이었다고 평가했다.",
+      "impact": "대형 투자은행의 매수 의견 상향과 저가 매수세 유입 분석은 주가 회복을 이끄는 강력한 호재로 작용한다.",
+      "caution": "연초 대비 주가가 26% 이상 하락해 있으며 고점 대비 여전히 낮은 수준에서 거래되고 있다."
+    },
+    "oklosharesfallasinvestorsassessnuclearexpansionrisks": {
+      "title": "Oklo Shares Fall As Investors Assess Nuclear Expansion Risks",
+      "holding": "오클로",
+      "stance": "약한 악재",
+      "summary": "오클로는 10월 8일 주가가 6.11% 하락하여 34.57달러로 마감하며 52주 신저가를 기록했다. 시장은 원전 개발 프로젝트 진척 속도와 함께 밸류에이션, 자금 조달 필요성 등을 종합적으로 평가하고 있다.",
+      "impact": "주가가 52주 신저가로 떨어지며 시장의 우려를 반영하고 있으므로 단기 투자 심리에 부정적이다.",
+      "caution": ""
+    },
+    "신한이어kb도인도네시아지주추진세계인구4위시장k금융글로벌전장으로": {
+      "title": "신한 이어 KB도 인도네시아 지주 추진…세계 인구 4위 시장, K-금융 글로벌 전장으로",
+      "holding": "KB금융",
+      "stance": "호재",
+      "summary": "KB금융은 인도네시아 금융감독청으로부터 지주회사 설립 승인을 받았으며 내년 2분기 관련 절차를 마무리할 계획이다. 이를 통해 현지 은행과 카드, 증권 간 협업을 강화하고 새로운 성장동력을 확보할 예정이다.",
+      "impact": "인도네시아 시장에서 현지 지주사 체제를 갖추게 되면서 그룹 차원의 리스크 관리와 계열사 간 시너지 확대로 글로벌 수익성이 개선될 수 있다.",
+      "caution": ""
+    },
+    "쇼핑몰달라도주소입력한번만카페24쇼핑패스포트출시": {
+      "title": "\"쇼핑몰 달라도 주소 입력 한 번만\"…카페24, '쇼핑패스포트' 출시",
+      "holding": "네이버",
+      "stance": "중립",
+      "summary": "카페24는 여러 쇼핑몰에서 배송정보를 한 번만 저장하고 활용할 수 있는 '쇼핑패스포트' 서비스를 11월 2일 출시한다. 해당 서비스는 비회원 주문과 인증 절차 간소화를 지원하여 쇼핑 편의성을 높인다.",
+      "impact": "보유 종목인 네이버가 직접 발행한 기사가 아니며, 네이버 인증 등이 수단으로 언급되는 수준이므로 주가에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "네이버가 직접적인 사업 주체가 아니며 인증 수단 중 하나로만 언급됨."
+    },
+    "삼성중공업flng매출32조확대전망목표가42만원유지ds": {
+      "title": "\"삼성중공업, FLNG 매출 3.2조 확대 전망…목표가 4.2만원 유지\" - DS",
+      "holding": "삼성중공업",
+      "stance": "호재",
+      "summary": "DS투자증권은 삼성중공업의 3분기 매출액이 3조 2360억 원, 영업이익이 3791억 원으로 전년 동기 대비 각각 22.8%, 59.2% 증가할 것으로 전망했다. 또한 고선가 물량 반영과 부유식 데이터센터(FDC) 및 FLNG 수주 모멘텀이 본격화되고 있다.",
+      "impact": "실적 개선세가 뚜렷하고 대규모 신규 프로젝트 수주 가능성이 부각되면서 기업 가치 상승에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "내년6000이바닥최대1만2000": {
+      "title": "\"내년 6000이 바닥, 최대 1만2000\"",
+      "holding": "LIG디펜스앤에어로스페이스",
+      "stance": "중립",
+      "summary": "유안타증권은 내년 코스피 지수가 AI와 반도체 기업의 실적 성장에 힘입어 하반기로 갈수록 강세를 보이며 기본 범위 6000~1만, 최대 1만2000까지 오를 수 있다고 전망했다. 국내 주식시장의 하방 지지력은 견고하다는 분석이다.",
+      "impact": "증권가의 거시경제 및 증시 전망 리포트로, 특정 보유 종목에 대한 개별 실적이나 사건보다는 시장 전체의 흐름을 다룬다.",
+      "caution": "특정 종목 뉴스가 아니라 증시 전반의 전망을 다룬 내용임."
+    },
+    "lg전자가전전장쌍끌이에ai가세내년매출100조돌파기대": {
+      "title": "LG전자, 가전·전장 '쌍끌이'에 AI 가세…내년 매출 100조 돌파 기대",
+      "holding": "LG전자",
+      "stance": "호재",
+      "summary": "증권가에 따르면 LG전자는 생활가전과 전장 사업의 성장에 힘입어 내년에 창사 최초로 연간 매출액 100조 원을 돌파할 것으로 예상된다. 여기에 AI 데이터센터 냉각 솔루션과 로보틱스 등 신사업 매출도 가세할 전망이다.",
+      "impact": "주력 사업의 견조한 성장과 함께 신사업인 AI 냉각 설루션에서 대규모 수주 잔고가 확보되면서 중장기 실적 성장에 대한 기대감이 커진다.",
+      "caution": ""
+    },
+    "효성중공업주가10월13일장중2108000원598하락": {
+      "title": "효성중공업 주가, 10월 13일 장중 2,108,000원 5.98% 하락",
+      "holding": "효성중공업",
+      "stance": "약한 악재",
+      "summary": "10월 13일 오전 기준 효성중공업의 주가는 전 거래일 대비 5.98% 하락한 2,108,000원을 기록했다. 동일업종 등락률(-4.64%)과 비교할 때 상대적으로 하락 폭이 더 크게 나타나고 있다.",
+      "impact": "단기적인 주가 하락과 업종 평균 대비 부진한 수익률은 투자 심리에 단기적인 부담으로 작용한다.",
+      "caution": ""
+    },
+    "속보ls일렉트릭lselectric1852억원규모미국연료전지전력설비공급계약": {
+      "title": "[속보] LS일렉트릭(LS ELECTRIC), 1852억원 규모 미국 연료전지 전력설비 공급계약",
+      "holding": "LS ELECTRIC",
+      "stance": "호재",
+      "summary": "LS일렉트릭은 미국 펜실베니아 연료전지 전력설비 공급 프로젝트와 관련해 약 1852억 원 규모의 공급계약을 체결했다고 공시했다. 이는 2025년 말 연결기준 매출액의 3.73%에 해당하는 규모로, 북미 데이터센터용 전력설비 공급을 위해 진행된다.",
+      "impact": "북미 데이터센터 향 대규모 수주를 확보함으로써 해외 시장에서의 매출 성장성과 실적 가시성이 높아진다.",
+      "caution": ""
+    },
+    "친환경선박전환및mro모멘텀유효조선기자재주옥석가리기": {
+      "title": "친환경 선박 전환 및 MRO 모멘텀 유효… 조선기자재주 옥석 가리기",
+      "holding": "HD현대마린엔진",
+      "stance": "약한 호재",
+      "summary": "조선기자재 테마주가 차익실현 매물로 약세를 보이고 있으나, HD현대마린솔루션은 선박 개조와 생애주기 서비스 수요 확대로 주가가 0.23% 상승한 22만1000원에 거래되었다. 친환경 선박 전환과 MRO 시장 확대가 중장기 성장 동력으로 꼽히고 있다.",
+      "impact": "보유 종목인 HD현대마린엔진과 직접 연관된 HD현대마린솔루션이 서비스 및 개조 수요로 상승세를 보이며 조선기자재 업황 내 긍정적 모멘텀을 지지하고 있다.",
+      "caution": "시장 전반의 투자심리 위축과 단기 차익 실현 매물 확산은 하방 압력으로 작용할 수 있다."
+    },
+    "거제최대랜드마크한화오션직주근접": {
+      "title": "거제 최대 랜드마크… 한화오션 직주근접",
+      "holding": "한화오션",
+      "stance": "중립",
+      "summary": "현대엔지니어링이 경상남도 거제시 옥포동에 총 1963세대 규모의 '힐스테이트 거제시그니처' 분양을 시작한다. 해당 단지는 한화오션 거제사업장과 인접해 있어 종사자들의 직주근접성이 우수하다는 평가를 받고 있다.",
+      "impact": "한화오션 거제사업장 인근의 대단지 아파트 분양 소식으로, 임직원들의 주거 편의성 향상에 도움을 줄 수 있으나 직접적인 재무적 실적 개선으로 이어지지는 않는다.",
+      "caution": "부동산 분양 소식으로 한화오션의 본업인 조선업 실적이나 주가에 미치는 직접적인 영향은 제한적이다."
+    },
+    "서울데이터랩개장직후인기검색종목20": {
+      "title": "[서울데이터랩]개장 직후 인기 검색 종목 20選",
+      "holding": "두산에너빌리티",
+      "stance": "약한 악재",
+      "summary": "13일 오전 네이버 증권 검색 상위 20개 종목 중 18개가 하락한 가운데, 검색 3위를 기록한 두산에너빌리티는 3.78% 하락한 6만8800원에 거래되었다. 개장 직후 시장 전반의 투자심리가 위축되면서 대형주 전반에 매도세가 집중되었다.",
+      "impact": "시장 전반의 하락 흐름과 맞물려 두산에너빌리티의 주가도 단기 하락세를 기록하며 투자심리에 부정적인 영향을 주었다.",
+      "caution": "단순 개장 직후의 주가 등락 및 검색 순위 변동을 다룬 기사로 기업 자체의 펀더멘털 변화와는 거리가 있다."
+    },
+    "청기홍기매출두배뛰었는데에이피알목표주가줄하향": {
+      "title": "[청기홍기]매출 두배 뛰었는데…에이피알 목표주가 줄하향",
+      "holding": "에이피알",
+      "stance": "약한 악재",
+      "summary": "에이피알의 3분기 연결 매출액은 전년 동기 대비 101% 증가한 7770억원으로 예상되나, 영업이익은 원화 강세와 물류비 부담으로 시장 기대치를 15% 밑돌 전망이다. 이에 따라 메리츠증권, 신한투자증권 등 주요 증권사들이 에이피알의 목표주가를 일제히 하향 조정했다.",
+      "impact": "미국과 유럽 중심의 매출 성장세에도 불구하고 원가 및 물류비 부담으로 단기 수익성이 둔화되면서 목표주가 하향 등 투자심리 악화 요인으로 작용한다.",
+      "caution": "증권사들은 4분기 성수기 진입과 해외 유통망 확대로 인한 반등 기대감은 여전히 유지하고 있다."
+    },
+    "방탄소년단월드투어아리랑매회새로운이유": {
+      "title": "방탄소년단 월드투어 ‘아리랑’, 매회 새로운 이유",
+      "holding": "이월드",
+      "stance": "중립",
+      "summary": "방탄소년단이 월드투어 'BTS WORLD TOUR 'ARIRANG''에서 매회 새로운 무대를 선보이며 관객들에게 특별한 추억을 선물하고 있다.",
+      "impact": "방탄소년단의 월드투어 콘서트 진행 상황을 다룬 연예 기사로, 보유 종목인 이월드와는 직접적인 사업 연관성이 없다.",
+      "caution": "본문에 이월드에 대한 언급이 전혀 없으며 기사 내용이 종목과 무관하므로 중립으로 처리한다."
+    },
     "마이크론은버티는데sk하이닉스만싸졌다im외국인이탈솔리다임상장설영향조선비즈": {
       "title": "마이크론은 버티는데 SK하이닉스만 싸졌다…iM證 “외국인 이탈·솔리다임 상장설 영향” - 조선비즈",
       "holding": "SK하이닉스",
