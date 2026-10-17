@@ -1,17 +1,377 @@
 {
-  "generated_at": "2026-10-17T07:58:28+09:00",
+  "generated_at": "2026-10-18T07:30:49+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 12764,
-    "output_tokens": 7146
+    "input_tokens": 14919,
+    "output_tokens": 8567
   },
   "skipped": {
-    "본문없음": 13,
+    "본문없음": 3,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스올3q영업익80조돌파할까추가주주환원도주목": {
+      "title": "SK하이닉스, 올 3Q 영업익 80조 돌파할까…\"추가 주주환원도 주목\"",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스가 3분기 실적 발표를 앞둔 가운데 증권가 컨센서스는 매출 98조2257억원, 영업이익 76조9640억원으로 전망된다. HBM4 공급 본격화와 D램·낸드 가격 상승으로 일부 증권가는 영업이익 80조원 돌파를 예상하며, 30조원 규모의 추가 주주환원 계획도 주목받고 있다.",
+      "impact": "사상 최대 실적 기대감과 HBM 공급 확대 및 추가 주주환원 정책은 주가에 직접적인 호재로 작용한다.",
+      "caution": "원·달러 환율 하락 등으로 일부 추정치가 다소 조절된 점은 감안해야 한다."
+    },
+    "막오른삼성전자내년임단협논의dsdx노조간전운고조": {
+      "title": "막오른 삼성전자 내년 임단협 논의…DS·DX 노조간 전운 고조",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자 초기업노조가 오는 29일 2027년 임단협 요구안 수립을 위한 회의를 준비 중인 가운데, DX 부문 중심 노조들과 교섭대표노조 선정 및 공동교섭 구성을 두고 갈등이 고조되고 있다. 초기업노조는 과반 노조로서 단독 교섭을 예상하나 타 노조들은 거부 의사를 밝히며 마찰을 빚고 있다.",
+      "impact": "노조 간의 갈등과 교섭 방식을 둘러싼 잡음은 내부 불확실성을 높여 단기적으로 주가에 부담으로 작용할 수 있다.",
+      "caution": "임단협 논의 초기 단계로 실제 파업이나 생산 차질로 이어질지는 지켜봐야 한다."
+    },
+    "hd현대중공업6258억원vlgc4척건조계약": {
+      "title": "HD현대중공업 6258억원 VLGC 4척 건조 계약",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 지난 14일 중동 소재 선사와 6258억원 규모의 초대형 가스운반선(VLGC) 4척 건조 계약을 체결했다. 계약 금액은 2025년 연결 매출액의 3.56%에 해당하며, 계약 기간은 2030년 6월 30일까지다.",
+      "impact": "대규모 수주 계약 체결은 향후 안정적인 매출 확보와 실적 성장에 기여하므로 보유 종목에 긍정적이다.",
+      "caution": "공사 진척에 따라 대금을 받는 조건이므로 향후 공정 진행 상황을 모니터링해야 한다."
+    },
+    "dellstockentersbearmarketasanalystsremainhighlybullishdespiteaijitters": {
+      "title": "Dell Stock Enters Bear Market as Analysts Remain Highly Bullish Despite AI Jitters",
+      "holding": "델",
+      "stance": "악재",
+      "summary": "델 테크놀로지스(DELL)는 9월 고점 대비 24.15% 하락하며 451달러로 장을 마치고 베어마켓에 진입했다. AI 버블 우려와 금리 상승 등으로 인해 주요 AI 관련주들이 조정을 받는 가운데 투자자들의 불안감이 커지고 있다.",
+      "impact": "AI 버블 경계감과 주가 급락은 투자 심리를 악화시키며 단기 하방 압력을 높인다.",
+      "caution": "연초 대비로는 여전히 상승한 상태이므로 전반적인 AI 섹터의 흐름을 함께 살펴야 한다."
+    },
+    "bernsteinsetsusd18000targetforconstellationbrandsstock": {
+      "title": "Bernstein sets USD 180.00 target for Constellation Brands stock",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "호재",
+      "summary": "번스타인(Bernstein)의 애널리스트 나딘 사르왓은 2026년 10월 15일 컨스텔레이션 브랜즈에 대해 매수(Buy) 의견을 유지하고 목표주가 180.00달러를 제시했다. 회사의 8월 31일 마감된 2분기 매출은 26억 3천만 달러, 순이익은 5억 6,580만 달러로 전년 동기 대비 증가했다.",
+      "impact": "양호한 실적 성장세와 증권가의 높은 목표주가 유지는 투자 심리에 긍정적 영향을 준다.",
+      "caution": "현재 주가는 52주 고점과 저점 사이에 위치해 있으며 시장 상황에 따라 변동성이 있을 수 있다."
+    },
+    "jefferiescutsfirstsolarstocktargettousd19900": {
+      "title": "Jefferies cuts First Solar stock target to USD 199.00",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "제프리스(Jefferies)는 2026년 10월 16일 퍼스트솔라의 목표주가를 기존 228.00달러에서 199.00달러로 하향 조정하고 보유(Hold) 의견을 유지했다. 나스닥 기준 퍼스트솔라는 전장 대비 3.45% 하락한 172.64달러에 거래를 마쳤다.",
+      "impact": " 주요 증권사의 목표주가 하향은 단기적으로 투자 심리를 위축시키고 주가에 하방 압력을 가한다.",
+      "caution": "목표주가 하향에도 불구하고 현재가 대비로는 여전히 상승 여력이 남아 있다."
+    },
+    "gbgridheatpumpsevsthisweekstopenergystories": {
+      "title": "GB Grid, Heat Pumps & EVs: This Week's Top Energy Stories",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "영국 정부는 영국 전력망 연결 속도를 높이기 위해 그레이트 브리티시 에너지(Great British Energy) 산하에 'GB 그리드(Great British Grid)'라는 공공 기관을 신설한다고 발표했다. 풍력 및 배터리 개발자들이 전력망 연결을 수년 동안 기다려온 문제를 해결하기 위한 조치다.",
+      "impact": "본 기사는 영국의 전력망 제도 개편에 관한 일반적인 에너지 정책 뉴스로, 컨스텔레이션 에너지에 직접적인 실적 영향이나 개별 사건은 언급되지 않았다.",
+      "caution": "보유 종목인 컨스텔레이션 에너지가 직접 다뤄지지 않았으므로 중립으로 분류한다."
+    },
+    "vistranysevstupgradedtostrongbuyatcanadianimperialbankofcommerce": {
+      "title": "Vistra (NYSE:VST) Upgraded to Strong-Buy at Canadian Imperial Bank of Commerce",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "캐나디안 임페리얼 상업은행(CIBC)이 비스트라(Vistra)의 투자의견을 '스트롱 바이'로 상향했음에도, 최근 분기 실적은 조정 주당순이익(EPS) 0.76달러와 매출 4.02파견달러로 예상치를 밑돌았다. 이로 인해 주가는 1.4% 하락한 152.06달러를 기록했다.",
+      "impact": "투자의견 상향 호재가 존재하나, 시장 예상치를 하회한 실적 발표와 주가 하락은 단기적인 약세 요인으로 작용한다.",
+      "caution": "기관 투자자들의 높은 지분율과 CEO의 자사주 매입 등이 방어 요인으로 작용할 수 있다."
+    },
+    "michaelburrysaysonetimelessinvestingquestionhelpedhimspotthedotcombubbleandappliestoaitoday": {
+      "title": "Michael Burry Says One ‘Timeless’ Investing Question Helped Him Spot The Dot-Com Bubble – And Applies To AI Today",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "마이클 버리가 IBM과 실리콘밸리에서 PC 부품을 다루던 과거와 닷컴 버블을 겪으며 얻은 투자 교훈을 회고하는 내용이다. 인공지능(AI) 시대에도 유사한 통찰이 적용된다는 점을 다루고 있으나, 보유 종목인 이오스 에너지와는 직접적인 관련이 없다.",
+      "impact": "보유 종목에 대한 직접적인 사업적·재무적 영향이 없는 일반적인 투자 역사 및 시장 인사이트 기사이다.",
+      "caution": "보유 종목인 이오스 에너지가 본문에 전혀 언급되지 않았다."
+    },
+    "almontyindustriesstockfell300percenttoeur873onoctober16": {
+      "title": "Almonty Industries stock fell 3.00 percent to EUR 8.73 on October 16",
+      "holding": "알먼티",
+      "stance": "약한 악재",
+      "summary": "알먼티 인더스트리스 주가가 2026년 10월 16일 기준 3.00% 하락하여 8.73유로를 기록했다. 오펜하이머의 이언 자피노 애널리스트가 목표주가를 25달러에서 19달러로 하향 조정했으며, 2분기 매출은 4,299만 달러, 영업이익은 1,108만 달러를 기록했다.",
+      "impact": "애널리스트의 목표주가 하향 조정과 주가 하락세가 겹쳐 단기적인 투자 심리에 부정적인 영향을 준다.",
+      "caution": ""
+    },
+    "googlesanswertometasmuseaideepmindchiefsaysgemini4launchiscomingmuchearlier": {
+      "title": "Google's Answer To Meta’s Muse AI? DeepMind Chief Says Gemini 4 Launch Is Coming 'Much Earlier'",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "구글 딥마인드 책임자 코라이 카부쿠오글루는 제미나이 4가 초기 사후 훈련 단계에 진입했으며 연말보다 '훨씬 일찍' 출시될 예정이라고 밝혔다. 최근 메타의 뮤즈 AI가 주목받으며 알파벳 주가가 하락했으나, 제미나이 4 조기 출시 기대감으로 시간외 거래에서 주가가 소폭 반등했다.",
+      "impact": "핵심 AI 모델의 조기 출시 가능성은 경쟁사와의 기술 격차 우려를 완화하고 주가 회복을 이끄는 호재로 작용한다.",
+      "caution": ""
+    },
+    "neumanncapitalmanagementllcacquires19506sharesofciscosystemsinccsco": {
+      "title": "Neumann Capital Management LLC Acquires 19,506 Shares of Cisco Systems, Inc. $CSCO",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "뉴만 캐피탈 매니지먼트는 시스코 시스템즈 주식 19,506주를 약 210만 달러어치 인수했다. 시스코는 최근 전년 동기 대비 17.6% 증가한 172억 5,000만 달러의 매출과 1.22달러의 주당순이익(EPS)을 기록하며 강한 실적을 보였다.",
+      "impact": "기관 투자자의 지분 인수와 탄탄한 실적 발표는 주가에 긍정적인 신호를 제공한다.",
+      "caution": ""
+    },
+    "vertivsfundingtesttwotargetcutsoneboardroomsaleandatoughermarketyardstick": {
+      "title": "Vertiv's Funding Test: Two Target Cuts, One Boardroom Sale and a Tougher Market Yardstick",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스 주가가 전일 4.3% 하락했으나 이는 개별 기업의 악재가 아닌 AI 데이터센터 구축 자금 조달 비용 상승에 따른 섹터 전반의 재평가 때문이다. 컴포트 시스템즈와 쿼콴타 서비스 등 유사한 공급업체들도 함께 압박을 받았다.",
+      "impact": "금리 및 자금 조달 비용 상승 우려는 AI 인프라 수혜주 전반의 밸류에이션에 부담을 준다.",
+      "caution": "회사의 본질적인 수주 잔고나 핵심 사업이 나빠진 것은 아니며 섹터 전반의 동반 하락이다."
+    },
+    "trumpdiscloses21000securitiestradesduringfirstyearinoffice": {
+      "title": "Trump discloses 21,000 securities trades during first year in office",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "도널드 트럼프 대통령의 취임 첫해 동안 투자 자문가들이 약 1,600개 기업이 포함된 21,000건 이상의 유가증권 거래를 실행했다고 보도했다. 트럼프의 투자 계정 규모는 최소 8억 5,800만 달러로 증가했다.",
+      "impact": "대통령의 방대한 자산 거래 내역을 다룬 정치·경제 뉴스이며, 보유 종목인 록히드마틴에 대한 구체적인 수주나 계약 변화를 다루지 않았다.",
+      "caution": "보유 종목이 직접 언급되지 않았으며 일반적인 정치·행정부 관련 뉴스이다."
+    },
+    "microsoftmsftsecures1100mwindianapowerdeal": {
+      "title": "Microsoft (MSFT) Secures 1,100 MW Indiana Power Deal",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트는 2048년까지 이어지는 인디애나주 데이터센터 허브 전력 공급을 위해 니소스와 1,100MW 규모의 전력 계약을 체결했다. 이번 장기 계약은 급증하는 AI 및 클라우드 자본 지출 계획을 뒷받침한다.",
+      "impact": "안정적인 대규모 전력 확보는 애저(Azure) 등 핵심 인프라 워크로드의 운영 비용을 예측 가능하게 만들고 AI 사업 확장을 가속화한다.",
+      "caution": ""
+    },
+    "whatisnikenkesignalingwithitsnewindiaglobalcampus": {
+      "title": "What Is Nike (NKE) Signaling With Its New India Global Campus?",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "나이키는 인도 벵갈루루에 기업 역할과 제조를 집중시키는 글로벌 캠퍼스를 구축하고 있다. 시가총액 약 552억 달러 규모의 나이키가 인도 시장에서 의사결정과 생산을 중앙집중화하여 운영 비용을 낮추고 제품 주기를 단축하려 한다.",
+      "impact": "글로벌 거점 다변화와 효율성 제고는 비용 절감 및 실적 개선에 긍정적인 영향을 미칠 수 있다.",
+      "caution": "실제 비용 절감 효과가 가시화되기까지는 시간이 걸릴 수 있다."
+    },
+    "novonordisknvostockmaybeundervaluedasbuybackscontinue": {
+      "title": "Novo Nordisk (NVO) Stock May Be Undervalued As Buybacks Continue",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크(NVO)는 자사주 매입 프로그램을 진행 중이며 P/E 비율이 9.9배로 제약 업종 평균인 15.7배나 피어 그룹 평균인 58.5배에 비해 현저히 낮아 저평가 가능성이 제기된다.",
+      "impact": "주가가 실적 대비 저평가되어 있다는 분석은 밸류에이션 매력을 부각시켜 투자 심리에 긍정적인 영향을 줄 수 있다.",
+      "caution": "주가 하락의 원인이나 다른 펀더멘털적 리스크가 완전히 해소된 것은 아니다."
+    },
+    "ninecompaniesobjecttomajorcryptoexchangesstockplanwhichshareswereblocked": {
+      "title": "Nine Companies Object to Major Crypto Exchange’s Stock Plan: Which Shares Were Blocked?",
+      "holding": "어플라이드 옵토일렉트로닉스",
+      "stance": "중립",
+      "summary": "OKX와 뉴욕증권거래소 모회사 ICE의 합작사인 OKXICE의 주식 토큰화 플랫폼에서 9개 기업의 이의 제기로 인해 AppLovin 등 일부 종목의 상장이 제외되었다.",
+      "impact": "보유 종목인 어플라이드 옵토일렉트로닉스는 본문에 직접 언급되지 않고 AppLovin 등이 대상이므로 직접적인 영향은 없다.",
+      "caution": "기사 내 보유 종목인 어플라이드 옵토일렉트로닉스에 대한 직접적인 내용이 없다."
+    },
+    "oraclecorporationorclsharesnewlyacquiredbystlouisfinancialplannersassetmanagementllc": {
+      "title": "Oracle Corporation $ORCL Shares Newly Acquired by St. Louis Financial Planners Asset Management LLC",
+      "holding": "오라클",
+      "stance": "약한 호재",
+      "summary": "세인트루이스 파이낸셜 플래너스 에셋 매니지먼트는 오라클(ORCL) 주식 23,992주(약 337만 달러)를 새로 매수했다. 오라클은 최근 분기 실적에서 매출이 전년 동기 대비 29.6% 증가하고 0.50달러의 배당을 선언했으나 주가는 4.6% 하락한 128.31달러를 기록했다.",
+      "impact": "기관 투자가의 신규 지분 취득과 호실적은 장기적 펀더멘털에 긍정적이나, 주가 하락과 잉여현금흐름 우려가 혼재되어 있다.",
+      "caution": "부정적인 잉여현금흐름과 부채 증가에 대한 우려가 존재한다."
+    },
+    "broadcomincavgosharesnewlyacquiredbyuptownfinancialadvisorsllc": {
+      "title": "Broadcom Inc. $AVGO Shares Newly Acquired by Uptown Financial Advisors LLC",
+      "holding": "브로드컴",
+      "stance": "약한 호재",
+      "summary": "업타운 파이낸셜 어드바이저스는 3분기에 브로드컴(AVGO) 주식 1,947주(약 684,000달러)를 신규 매수했다. 브로드컴은 매출이 전년 대비 85.5% 증가하고 주당 0.65달러의 분기 배당을 선언했으나 주가는 4.5% 하락한 328.75달러를 기록했다.",
+      "impact": "기관의 신규 진입과 높은 매출 성장은 긍정적이지만, 높은 자금 조달 비용과 AI 투자 관련 우려로 주가는 하락했다.",
+      "caution": "자금 조달 비용 상승과 AI 투자 둔화 우려가 반대 요인으로 작용할 수 있다."
+    },
+    "coreweavefounderssell33bninstockassharesplunge25": {
+      "title": "CoreWeave founders sell $3.3 bn in stock as shares plunge 25%",
+      "holding": "코어위브",
+      "stance": "악재",
+      "summary": "코어위브(CRWV)의 공동 창립자들은 2025년 3월 IPO 이후 총 33억 달러어치의 주식을 매각했으며, 2026년에만 24억 달러를 매각했다. 코어위브 주가는 AI 인프라 부채와 자금 조달 비용 우려로 10월 16일 61.39달러로 마감하며 10월 9일 대비 25.21% 급락했다.",
+      "impact": "창립자들의 대규모 주식 매각과 AI 인프라 부채 우려는 주가에 강한 하방 압력을 가한다.",
+      "caution": "회사는 매각이 사전 계획된 공시 사항이라고 밝혔다."
+    },
+    "advancedmicrodevicesincamdstockfranchisegpltdreducesstake": {
+      "title": "Advanced Micro Devices, Inc. $AMD Stock: Franchise GP Ltd Reduces Stake",
+      "holding": "AMD",
+      "stance": "약한 악재",
+      "summary": "프랜차이즈 GP는 3분기에 AMD(AMD) 지분을 27.6% 축소하여 10,330주를 매각했고, CEO 리사 수를 포함한 내부자들은 지난 90일 동안 약 1억 5,500만 달러어치의 주식을 매도했다. AMD 주가는 고평가 우려와 AI 지출 지속 가능성 염려 속에 애널리스트들의 매수 의견에도 불구하고 매도 압력을 받고 있다.",
+      "impact": "기관과 내부자의 지분 축소 및 주식 매도는 단기적으로 투자 심리에 부정적 영향을 줄 수 있다.",
+      "caution": "CEO의 매도는 사전 계획된 Rule 10b5-1 계획에 따른 것이다."
+    },
+    "intelcorporationintcstockpensionwealthmanagementadvisorsincraisesposition": {
+      "title": "Intel Corporation $INTC Stock: Pension & Wealth Management Advisors Inc. Raises Position",
+      "holding": "인텔",
+      "stance": "약한 호재",
+      "summary": "펜션 앤 웰스 매니지먼트 어드바이저스는 3분기 인텔(INTC) 지분을 545.2% 늘려 10,943주를 보유하게 되었고, CEO 립부 탄은 약 1,000만 달러어치(105,263주)를 직접 매수했다. 인텔의 최신 분기 매출은 전년 대비 25.2% 증가한 161억 3,000만 달러를 기록하며 예상을 상회했으나 주가는 89.85달러에 거래되었다.",
+      "impact": "기관의 대규모 지분 확대와 CEO의 자사주 매입, 호실적은 주가에 긍정적인 신호이다.",
+      "caution": "애널리스트 컨센서스가 '보류' 상태이며 주가는 이동평균선 아래에 머물러 있다."
+    },
+    "micronlookscheaponearningshowmuchcanprofitsfallbeforethatchanges": {
+      "title": "Micron Looks Cheap on Earnings. How Much Can Profits Fall Before That Changes?",
+      "holding": "마이크론",
+      "stance": "약한 호재",
+      "summary": "마이크론 테크놀로지(MU)는 2026 회계연도 매출 1,331억 9,000만 달러, 순이익 849억 7,000만 달러를 기록하며 강력한 실적을 보였다. 10월 15일 종가 기준 주가는 931.24달러로, 주가수익비율(P/E)은 12.5배 수준이다.",
+      "impact": "낮은 밸류에이션과 견조한 이익은 주가에 호재이나 메모리 사이클의 이익 지속성에 대한 의문이 존재한다.",
+      "caution": "메모리 사이클의 특성상 향후 수익성이 급변할 수 있다는 한계가 있다."
+    },
+    "chipscalelaserbeamslightnearlystraightupfromlithiumniobatemicrodisk": {
+      "title": "Chip-scale laser beams light nearly straight up from lithium niobate microdisk",
+      "holding": "코히런트",
+      "stance": "중립",
+      "summary": "중국 연구팀이 광학 학술지 'Opto-Electronic Technology'에 발표한 연구에서 리튬 니오베이트 마이크로디스크 공진기를 이용해 817나노미터 파장대의 수직 방출형 광원을 시연했다. 이 기술은 기존 반도체 재료의 한계를 극복하고 광 집적 회로에 새로운 방식을 제공할 수 있다.",
+      "impact": "기사에서 언급된 '코히런트'는 학술적 개념인 일관광(Coherent light)을 의미하며, 특정 기업인 코히런트(Coherent Corp.)에 대한 내용이 아니다.",
+      "caution": "보유 종목인 코히런트와 직접적인 관련이 없는 학술 연구 기사이다."
+    },
+    "bloomenergycorporationbestockforecasts": {
+      "title": "Bloom Energy Corporation (BE) Stock Forecasts",
+      "holding": "블룸 에너지",
+      "stance": "중립",
+      "summary": "야후 파이낸스는 주가 인용, 최신 뉴스, 포트폴리오 관리 리소스, 국제 시장 데이터 및 모기지 금리를 제공하여 사용자의 재정 관리를 돕는다.",
+      "impact": "블룸 에너지 종목에 대한 구체적인 분석이나 실적 발표 내용이 포함되어 있지 않으며 단순 플랫폼 안내문이다.",
+      "caution": "본문에 광고 및 사이트 안내문만 있고 기사 내용이 없다."
+    },
+    "atoddlerbroughthomeacaterpillarfromthefarmersmarketandturneditintoabelovedgardenpetuntilhisauntrefusedtosleepunderthesameroof": {
+      "title": "A Toddler Brought Home a Caterpillar From the Farmers Market and Turned It Into a Beloved Garden Pet, Until His Aunt Refused to Sleep Under the Same Roof",
+      "holding": "캐터필러",
+      "stance": "중립",
+      "summary": "2026년 10월 17일에 보도된 기사로, 한 유아가 농장에서 애벌레를 집으로 데려와 애완동물로 키우게 되면서 가족 간에 소소한 갈등이 벌어진 일상을 다루고 있다.",
+      "impact": "장비 제조사인 캐터필러(Caterpillar)와는 무관하고 실제 곤충 애벌레에 대한 일화이다.",
+      "caution": "보유 종목 이름과 동음이의어인 곤충을 다룬 일상 이야기로 주가에 영향이 없다."
+    },
+    "morganstanleycutsionqstocktargetfromusd4900tousd4300": {
+      "title": "Morgan Stanley cuts IonQ stock target from USD 49.00 to USD 43.00",
+      "holding": "아이온큐",
+      "stance": "약한 악재",
+      "summary": "모건 스탠리는 2026년 10월 15일 아이온큐의 목표주가를 49.00달러에서 43.00달러로 낮추었으며, 동일비중(Equalweight) 등급을 유지했다. 아이온큐의 2026년 2분기 매출은 8,005만 달러로 전년 동기 대비 286.7% 증가했고 주당 순손실은 0.33달러를 기록했다.",
+      "impact": "매출 성장은 긍정적이나 투자은행이 목표주가를 하향 조정한 점은 단기 주가 상승 모멘텀을 약화시키는 요인이다.",
+      "caution": "목표주가 하향에도 불구하고 새로운 목표가는 직전 종가 대비 여전히 높은 수준이다."
+    },
+    "ondasholdingscertifiedmissileprotectionanda270millionorderbookcollidewithatechwide": {
+      "title": "Ondas Holdings: Certified Missile Protection and a $270 Million Order Book Collide With a Tech-Wide",
+      "holding": "온다스 홀딩스",
+      "stance": "중립",
+      "summary": "온다스 홀딩스는 봄바디어 글로벌 7500 비즈니스 제트기에 공중미사일방어시스템(DIRCM)의 장착 및 EASA 인증 완료라는 운영상 성과를 거두었다. 그러나 10월 17일 금요일 미국 기술주 전반의 매도세 여파로 주가는 5.0% 하락하여 5.38유로를 기록했다.",
+      "impact": "방산 부문의 긍정적인 인증 소식에도 불구하고 거시경제적 기술주 매도세로 인해 주가는 오히려 하락했다.",
+      "caution": "개별 기업의 호재가 광범위한 시장 하락세에 가려져 주가에 반영되지 못하고 있다."
+    },
+    "crowdstrikecrwdpaloaltopanwcanbepartofanaikillswitchbelievesjimcramer": {
+      "title": "CrowdStrike (CRWD) & Palo Alto (PANW) Can Be Part Of An AI “Kill Switch” Believes Jim Cramer",
+      "holding": "크라우드스트라이크",
+      "stance": "약한 호재",
+      "summary": "CNBC의 진행자 짐 크레이머는 AI 시스템의 확장 속에서 크라우드스트라이크와 팔로알토 네트웍스가 'AI 킬 스위치' 역할을 할 수 있는 핵심 종목이라고 평가했다. 다만 최근 시장 전반의 조정으로 인해 크라우드스트라이크 주가는 7.02% 하락했다.",
+      "impact": "AI 시대의 보안 및 통제 핵심 기업으로 지속적인 호평을 받는 것은 장기적인 펀더멘털에 긍정적이다.",
+      "caution": "단기적으로는 시장 전반의 하락 압력으로 인해 주가가 하락세를 보였다."
+    },
+    "astsrklbspcxhavealltumbledsofarin2026isretailbuyingthespacestockdiporbracingformorepain": {
+      "title": "ASTS, RKLB, SPCX Have All Tumbled So Far In 2026 — Is Retail Buying The Space Stock Dip Or Bracing For More Pain?",
+      "holding": "AST 스페이스모바일",
+      "stance": "중립",
+      "summary": "스톡티빗 설문조사 결과 참여자의 43%는 우주 항공 주식이 바닥을 쳤다고 보았고 나머지 43%는 추가 하락을 예상했다. AST 스페이스모바일은 최근 9억 8,400만 달러를 조달했으며 화요일 장에서 주가가 10% 상승했으나 2026년 들어서는 여전히 13% 하락한 상태다.",
+      "impact": "대규모 자금 조달과 소폭의 주가 반등이 있었으나 투자자들 사이에서 밸류에이션과 추가 자금 필요성에 대한 의견이 엇갈리고 있다.",
+      "caution": "시장 참여자들의 전망이 반반으로 나뉘어 방향성이 불확실하다."
+    },
+    "rocketlabsneutrondelayleaveswallstreetbullishbutraisesthestakesfor2027": {
+      "title": "Rocket Lab's Neutron Delay Leaves Wall Street Bullish But Raises the Stakes for 2027",
+      "holding": "로켓랩",
+      "stance": "약한 악재",
+      "summary": "로켓랩은 1단계 로켓 탱크에서 제조 결함을 발견하여 뉴트론의 초도 발사를 2027년으로 연기한다고 2026년 10월 14일에 발표했다. 이 소식으로 주가는 거의 7% 하락하며 60달러 선 아래로 떨어졌으나 월스트리트 애널리스트들은 여전히 긍정적인 입장을 유지하고 있다.",
+      "impact": "핵심 로켓의 출시 지연은 단기적인 실적 기대감과 모멘텀에 타격을 주어 주가 하락으로 이어졌다.",
+      "caution": "발사 지연에도 불구하고 기존 사업 부문은 계속 성장 중이며 월가는 여전히 낙관적이다."
+    },
+    "lamresearchvsappliedmaterialswhichbuybacksarebettercoveredbycash": {
+      "title": "Lam Research vs. Applied Materials: Which Buybacks Are Better Covered by Cash?",
+      "holding": "램리서치",
+      "stance": "중립",
+      "summary": "램리서치는 6월 28일 마감된 분기에 14억 5,700만 달러의 영업현금흐름을 기록했으며 설비투자 등을 제외한 잉여 현금과 주주환원 규모를 어플라이드 머티어리얼즈와 비교했다. 구체적인 주주환원 비율에서 어플라이드 머티어리얼즈가 더 여유로운 모습을 보였다는 내용이다.",
+      "impact": "경쟁사인 어플라이드 머티어리얼즈와의 현금 창출력 및 주주환원 여력 비교로, 램리서치 자체의 펀더멘털에 직접적인 큰 변화를 주기보다는 업종 내 상대적 위치를 보여준다.",
+      "caution": "본문이 두 회사의 현금흐름과 주주환원을 비교하는 내용의 일부만 발췌되어 있어 구체적인 연간 종합 평가에는 한계가 있다."
+    },
+    "nebiusstockasoldoutberlinworkshoparotterdamletterofintentandthefinancingquestionn": {
+      "title": "Nebius Stock: A Sold-Out Berlin Workshop, a Rotterdam Letter of Intent, and the Financing Question N",
+      "holding": "네비우스 그룹",
+      "stance": "약한 악재",
+      "summary": "네비우스 주가는 금리 상승 기대감에 따른 AI 인프라 및 네오클라우드 섹터 전반의 자금 조달 여건 악화로 인해 전일 12% 하락했다. 로이터는 레버리지를 활용한 AI 기업들이 차입 비용 상승 우려로 타격을 입었다고 보도했다.",
+      "impact": "금리 상승과 섹터 전반의 자금 조달 비용 증가 우려가 부각되면서 네비우스의 주가 하락과 투자 심리 위축으로 이어졌다.",
+      "caution": "회사의 개별적인 악재가 아니라 매크로 환경 및 섹터 전반의 심리 위축에 기인한 하락이다."
+    },
+    "riotplatformsirenandmaradropfurtherasbitcoinminerswrestlewiththeaiheadwinds": {
+      "title": "Riot Platforms, IREN, and MARA Drop Further as Bitcoin Miners Wrestle With the AI Headwinds",
+      "holding": "아이렌",
+      "stance": "약한 악재",
+      "summary": "AI로 사업 영역을 확장한 비트코인 채굴 기업 아이렌이 숏 세러들의 공매도 증가와 AI 역풍 속에 27달러까지 하락하며 사상 최고가 대비 65% 폭락했다. 아이렌은 엔비디아로부터 20억 달러의 투자를 받았음에도 불구하고 섹터 전반의 부진을 피하지 못했다.",
+      "impact": "공매도 압력 증가와 시장의 AI 역풍 우려가 겹치면서 아이렌 주가에 하방 압력으로 작용했다.",
+      "caution": "아이렌 외에 리오트 플랫폼, 마라 홀딩스 등 동종 업계 전반의 하락 흐름과 함께 언급되었다."
+    },
+    "babyonboardpassengergivesbirthondeltaairlinesflightfromatlantatoportland": {
+      "title": "Baby on board! Passenger gives birth on Delta Air Lines flight from Atlanta to Portland",
+      "holding": "델타항공",
+      "stance": "중립",
+      "summary": "애틀랜타에서 포틀랜드로 향하던 델타항공 DL478편에서 착륙을 30분 앞두고 승객이 아이를 출산했다. 델타항공은 비행 중 도움을 준 승무원과 의료진에게 감사를 표명했다.",
+      "impact": "기내 출산이라는 이색적인 해피엔딩 사건이나, 회사의 재무나 영업 실적에 직접적인 영향을 주는 요인은 아니다.",
+      "caution": "단순한 기내 미담 기사로 보유 종목의 주가나 기업 가치에 미치는 영향은 없다."
+    },
+    "eatonetnfinancereshufflemeetsaipowernarrativewithfairvalueinfocus": {
+      "title": "Eaton (ETN) Finance Reshuffle Meets AI Power Narrative With Fair Value In Focus",
+      "holding": "이튼",
+      "stance": "중립",
+      "summary": "이튼은 재무 리더십을 개편하여 아담 와데키를 전기 부문의 시니어 재무 역할로 이동시키고 안드레아 트라바킨을 주요 회계 책임자로 임명했다. 최근 주가는 조정을 받았으나 연초 이후 및 3년간 장기 상승 모멘텀은 유지되고 있다.",
+      "impact": "재무 임원 교체는 내부 조직 개편 차원으로 단기 주가 변동성에는 영향을 줄 수 있으나 중장기 사업 방향에는 중립적이다.",
+      "caution": "단순한 임원 인사 및 최근 주가 되돌림에 대한 언급일 뿐 실적이나 펀더멘털의 급격한 변화를 의미하지는 않는다."
+    },
+    "oklonyseoklostockforecastanalystssee170upsidedespitedilutionrisks": {
+      "title": "Oklo (NYSE: OKLO) stock forecast: Analysts see 170% upside despite dilution risks",
+      "holding": "오클로",
+      "stance": "중립",
+      "summary": "오클로는 10월 16일 세션에서 6.8% 하락한 27.97달러로 마감하며 연초 이후 약 61% 하락세를 기록했다. 10억 달러 규모의 유상증자로 인한 희석 우려와 자금 조달 능력에 대한 시장의 재평가가 이루어지고 있으나, 애널리스트들의 평균 목표주가는 높은 상승 여력을 제시하고 있다.",
+      "impact": "유상증자에 따른 지분 희석 우려와 고평가 논란이 주가 하락 압력으로 작용하고 있다.",
+      "caution": "애널리스트의 목표주가와 실제 주가 사이에 큰 괴리가 존재하며 원자력 섹터 전반의 밸류에이션 재평가 과정에 있다."
+    },
+    "argussetsausd19600targetformastecstock": {
+      "title": "Argus sets a USD 196.00 target for MasTec stock",
+      "holding": "마스텍",
+      "stance": "호재",
+      "summary": "아거스는 2026년 10월 14일 보고서에서 마스텍의 목표주가를 196.00달러로 설정했다. 마스텍은 오는 10월 30일 오전 9시에 실적 컨퍼런스 콜을 개최할 예정이다.",
+      "impact": "증권가의 긍정적인 목표주가 제시는 투자 심리에 우호적이며 다가오는 실적 발표에 대한 기대감을 높인다.",
+      "caution": "목표주가가 현재 주가 대비 소폭 높은 수준이며 향후 실적 발표 결과에 따라 주가가 변동될 수 있다."
+    },
+    "emcorsetsoctober29resultsemcorgroupstocktrades2419percentbelowitshigh": {
+      "title": "EMCOR sets October 29 results: EMCOR Group stock trades 24.19 percent below its high",
+      "holding": "엠코 그룹",
+      "stance": "호재",
+      "summary": "엠코 그룹은 2026년 10월 29일 개장 전에 3분기 실적을 발표할 예정이라고 밝혔다. 앞서 발표된 2분기 매출은 전년 동기 대비 19.70% 증가한 51억 5,000만 달러를 기록하며 시장 예상치를 상회한 바 있다.",
+      "impact": "견조한 전분기 실적 호조의 기억과 다가오는 실적 발표 기대감이 주가 하단 지지 및 투자 심리에 긍정적 영향을 준다.",
+      "caution": "현재 주가는 52주 최고가 대비 낮은 수준에서 거래되고 있으며 다가오는 실적 발표 내용에 따라 변동성이 클 수 있다."
+    },
+    "directattachedstoragemarketto2035edgecomputingandhpcdemanddrivegrowthnewsandstatistics": {
+      "title": "Direct-Attached Storage Market To 2035: Edge Computing and HPC Demand Drive Growth - News and Statistics",
+      "holding": "웨스턴 디지털",
+      "stance": "중립",
+      "summary": "Direct-Attached Storage 시장 전망 기사로, 델, HPE, 넷앱, IBM, 퓨어스토리지 등의 기업 본사와 주요 포트폴리오를 다루고 있다. 본문에서 웨스턴 디지털은 직접적으로 언급되지 않았다.",
+      "impact": "보유 종목인 웨스턴 디지털에 대한 직접적인 언급이나 실적 관련 내용이 없어 주가에 미치는 영향이 제한적이다.",
+      "caution": "보유 종목인 웨스턴 디지털이 본문에 전혀 등장하지 않으므로 중립으로 처리했다."
+    },
+    "distributionclasssurgearrestersmarketto2035gridupgradesandrenewablesfuelgrowthnewsandstatistics": {
+      "title": "Distribution-Class Surge Arresters Market To 2035: Grid Upgrades and Renewables Fuel Growth - News and Statistics",
+      "holding": "엔벤트 일렉트릭",
+      "stance": "중립",
+      "summary": "배전급 서지 보호기 시장 성장에 대한 기사로 지멘스 에너지, ABB, 이튼, 슈나이더 에렉트릭 등의 기업 정보와 본사 위치가 소개되었다. 본문에 엔벤트 일렉트릭에 대한 내용은 포함되어 있지 않다.",
+      "impact": "보유 종목인 엔벤트 일렉트릭과 직접적인 연관성이 없어 당장의 기업 가치나 주가에 미치는 직접적인 영향은 없다.",
+      "caution": "보유 종목이 기사 본문에 언급되지 않았으므로 중립으로 분류했다."
+    },
+    "역대급사건터졌다국민연금쇼크": {
+      "title": "“역대급 사건 터졌다”...국민연금 ‘쇼크’",
+      "holding": "SK스퀘어",
+      "stance": "약한 악재",
+      "summary": "국내 증시 폭락으로 국민연금의 주식 평가액이 100일 만에 182조원 증발하며 역대 최대 손실을 기록했다. 이 과정에서 SK스퀘어 또한 10조8698억원의 평가액 감소를 겪었다.",
+      "impact": "국민연금의 대규모 주식 평가액 감소 속에서 SK스퀘어 역시 10조원이 넘는 평가액 손실을 기록하여 투자 심리에 부정적인 영향을 줄 수 있다.",
+      "caution": "거시경제적 폭락장에 따른 전반적인 지분 가치 하락을 다룬 것으로, 개별 기업의 펀더멘털 자체의 훼손을 의미하지는 않는다."
+    },
+    "제니스카지노잭팟기능유무와적용조건": {
+      "title": "제니스 카지노 잭팟 기능 유무와 적용 조건",
+      "holding": "SK케미칼",
+      "stance": "중립",
+      "summary": "본문은 라크로스 팀 경기 결과와 선수들의 기록 달성 가능성을 다루고 있으며, 제목에 언급된 카지노 잭팟 관련 내용은 본문 내용과 무관한 스팸성 키워드로 추정된다.",
+      "impact": "보유 종목인 SK케미칼과 전혀 관련 없는 스포츠 경기 및 광고성 텍스트이므로 주가나 기업에 미치는 영향이 없다.",
+      "caution": "본문이 광고성 문구와 스포츠 경기 안내로 채워져 있어 기사 내용이 없으므로 중립으로 처리했다."
+    },
+    "국민연금3분기에보유주식182조원손실7분기만에마이너스": {
+      "title": "국민연금, 3분기에 보유주식 182조원 손실…7분기만에 '마이너스'",
+      "holding": "현대해상",
+      "stance": "약한 호재",
+      "summary": "국내 증시 폭락으로 국민연금이 3분기 대규모 손실을 기록한 가운데, 국민연금은 GS건설과 현대해상 등의 지분을 늘린 것으로 나타났다. SK스퀘어와 삼성전기 등은 지분 평가액이 감소했다.",
+      "impact": "국민연금이 현대해상의 지분을 늘렸다는 사실은 기관 투자자의 수급 측면이나 신뢰도 관점에서 긍정적으로 작용할 수 있다.",
+      "caution": "증시 전반의 폭락 속에서 지분을 늘린 것이 단순 포트폴리오 조정인지 적극적 매수인지에 따라 해석이 달라질 수 있다."
+    },
     "외국인16조던질때삼전하이닉스7조쓸어담은개미들": {
       "title": "외국인 16조 던질 때…삼전·하이닉스 7조 쓸어담은 개미들",
       "holding": "SK스퀘어",
