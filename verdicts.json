@@ -1,17 +1,329 @@
 {
-  "generated_at": "2026-10-18T07:30:49+09:00",
+  "generated_at": "2026-10-19T07:33:03+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 14919,
-    "output_tokens": 8567
+    "input_tokens": 13174,
+    "output_tokens": 7377
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성하이닉스거절했는데전기료선납재추진하는": {
+      "title": "삼성·하이닉스 거절했는데… ‘전기료 선납’ 재추진하는 與",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "더불어민주당이 삼성전자와 SK하이닉스 등의 거절로 무산됐던 전기료 선납제 관련 입법을 국정감사 이후 재추진할 방침이다. 지난 7월 한전은 용인과 호남 반도체 클러스터 송·변전망 건설비 마련을 위해 SK하이닉스에 5조원 등의 선납을 제안했으나 기업들은 현금 부담 등을 이유로 거절한 바 있다. 한편 한전의 상반기 기준 부채는 210조7000억원에 달한다.",
+      "impact": "여당의 전기료 선납제 입법 재추진은 막대한 현금을 보유해야 하는 SK하이닉스에게 재무적 부담이나 규제 리스크로 작용할 수 있다.",
+      "caution": "아직 입법 재추진 단계이며 실제 제도화 여부와 세부 조건은 불투명하다."
+    },
+    "삼성전자는커피현대차는순찰사옥에출근한로봇들": {
+      "title": "삼성전자는 커피, 현대차는 순찰…사옥에 출근한 로봇들",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자가 수원 본사 로비에 커피 로봇을 도입하는 등 임직원 공간에서 로봇의 실증 사업을 진행하고 있다. 삼성전자는 올해 7월 로봇 전략과 기술 개발, 사업화를 담당하는 RX 조직을 신설했으며, 경북 구미에 생산시설을 조성하고 내년 1월 CES 2027에서 휴머노이드 시제품 공개를 추진 중이다.",
+      "impact": "사내 실증을 통한 데이터 확보와 조직 정비는 로봇 사업화 역량을 강화하여 장기적인 신사업 성장 동력으로 작용할 수 있다.",
+      "caution": "단기적인 실적에 미치는 영향은 제한적이다."
+    },
+    "한화오션이어hd현대고공농성국면동투로이어지나": {
+      "title": "한화오션 이어 HD현대重 '고공농성 국면'..동투로 이어지나",
+      "holding": "HD현대중공업",
+      "stance": "악재",
+      "summary": "HD현대중공업 노동조합의 김동하 지부장이 18일 울산 본사 크레인에 올라 고공농성에 돌입했다. 노조는 영업이익 30% 공유와 기본급 대폭 인상을 요구하며 19일부터 23일까지 전 조합원 부분파업을 벌이기로 했다.",
+      "impact": "경영진과의 갈등 고조 및 파업 돌입은 생산 차질과 비용 증가로 이어져 HD현대중공업의 단기 실적에 악영향을 줄 수 있다.",
+      "caution": "노사 협상 진행 상황에 따라 파업 지속 여부와 타협 가능성이 변동될 수 있다."
+    },
+    "susandellthenandnowseedellceoswifestransformationinbeforeandafterphotos": {
+      "title": "Susan Dell Then and Now: See Dell CEO's Wife's Transformation in Before and After Photos",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지스의 창업자 마이클 델의 아내 수전 델의 최근 백악관 방문 이후 온라인에서 외모와 관련된 게시물이 확산됐다. 마이클 델은 아내를 향한 온라인 비판에 대해 공개적으로 방어에 나섰다.",
+      "impact": "기업의 실적이나 핵심 사업과 무관한 최고경영자(CEO) 개인의 가족 관련 가십으로 보유 종목에 미치는 영향은 없다.",
+      "caution": "기사 내용이 기업 뉴스라기보다는 가십성에 가깝다."
+    },
+    "constellationenergystocktradesateur24053inweekendtrading": {
+      "title": "Constellation Energy stock trades at EUR 240.53 in weekend trading",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지는 10월 18일 주말 거래에서 240.53 유로에 거래됐다. 앞서 회사는 구글과 PJM 연계망에 890메가와트의 신규 원자력 용량을 공급하는 20년짜리 전력구매계약(PPA)을 체결한 바 있다.",
+      "impact": "구글과의 장기 계약 호재가 이미 반영된 상태에서 단순 주말 주가 수준을 전달하는 내용이다.",
+      "caution": "주말 거래 가격 정보 외에 새로운 핵심 이벤트는 없다."
+    },
+    "safeairandwaterzimmerlandfillneighborsstillreportchronicillnesses": {
+      "title": "'Safe' air and water? Zimmer landfill neighbors still report chronic illnesses",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "오하이오주 워싱턴 타운십의 석탄재 매립지 인근 주민들이 악취와 건강 이상을 호소하고 있다. 클레어몬트 카운티는 대기 및 수질 검사를 위해 독립 기업을 고용할 예정이다.",
+      "impact": "비스트라 에너지가 직접적으로 언급되지 않았으며, 특정 매립지 관련 민원 및 조사 보도로 보유 종목에 대한 직접적인 영향은 파악되지 않는다.",
+      "caution": "기사 본문에 보유 종목 회사명이 명시되어 있지 않다."
+    },
+    "almontyamineametalandacalendarthathastohold": {
+      "title": "Almonty: A Mine, a Metal, and a Calendar That Has to Hold",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 주가는 최근 일주일간 17% 하락하고 금요일에도 2.7% 내린 상태로 투자자의 날(Investor Day)을 맞이했다. 10월 19일 예정된 웹캐스트 이벤트에서는 텅스텐 시장 상황과 개별 광산의 운영 현황이 다뤄질 예정이다.",
+      "impact": "최근 주가 하락세 속에서 다가오는 투자자의 날 발표 내용에 따라 시장의 평가가 갈릴 수 있으나 현재로서는 방향성이 중립적이다.",
+      "caution": "실제 행사 발표 내용과 시장 반응을 지켜봐야 한다."
+    },
+    "usstocksclosemixed": {
+      "title": "US stocks close mixed",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "미국 주요 증시는 혼조세로 마감한 가운데 다우지수는 상승했으나 나스닥 100은 0.71% 하락했다. 시에나와 루멘텀 등 일부 기술·네트워크 관련 주식들이 큰 폭으로 하락했다.",
+      "impact": "시장 전반의 흐름을 다룬 기사이며 특정 보유 종목인 크레도 테크놀로지에 대한 구체적인 실적이나 개별 뉴스가 없다.",
+      "caution": "종목이 본문에 직접 언급되지 않았거나 시장 일반 동향에 해당한다."
+    },
+    "abdulmatinnewdmdofjanatabank": {
+      "title": "Abdul Matin new DMD of Janata Bank",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "자나타 은행의 모하메드 압둘 마틴이 부행장으로 승진했다. 그는 1993년부터 은행에서 근무했으며 정보기술 분야의 시스코 네트워크 어소시에이트(CCNA) 자격증을 보유하고 있다.",
+      "impact": "보유 종목인 시스코 시스템즈가 직접 언급된 것이 아니라 임원의 개인 자격증 이력에 스쳐 지나가듯 언급된 것에 불과하여 주가나 사업에 미치는 영향은 없다.",
+      "caution": "시스코의 비즈니스나 실적과는 무관한 인물 소개 기사이다."
+    },
+    "vertivsanalyststrimmedtheirtargetsbutkepttheratingtherealverdictlandsoctober28": {
+      "title": "Vertiv's Analysts Trimmed Their Targets but Kept the Rating — the Real Verdict Lands October 28",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스의 주가는 AI 관련주 약세 속에 금요일에 4.3% 하락했다. RBC 캐피털과 미즈호 등 일부 애널리스트가 목표주가를 각각 323달러와 280달러로 하향 조정했으나 매수 의견은 유지했다.",
+      "impact": "애널리스트들의 목표주가 하향 조정과 단기 주가 하락은 투자 심리에 단기적인 부담으로 작용한다.",
+      "caution": "목표가 하향은 실적 기대치 조정에 기인한 것으로 회사의 본질적 가치 훼손을 의미하지는 않는다."
+    },
+    "lockheedmartindeclaresdividendaslockheedmartinstocktradesateur49080": {
+      "title": "Lockheed Martin declares dividend as Lockheed Martin stock trades at EUR 490.80",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴 이사회는 2026년 4분기 주당 3.60달러의 배당금을 승인했으며, 지급일은 2026년 12월 31일이다. 또한 회사는 PAC-3 Edge 시커 기술을 위한 스트리고 제품 센터에 2억 5천만 달러를 투자했다고 밝혔다.",
+      "impact": "주주 환원을 위한 배당금 지급과 핵심 방산 기술에 대한 대규모 투자는 주가에 긍정적인 신호로 작용한다.",
+      "caution": ""
+    },
+    "cocacolayields23andnikeyields44hereswhyonly1ofthesehighyielddividendstocksisabuythisoctober": {
+      "title": "Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High-Yield Dividend Stocks Is a Buy This October.",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "S&P 500 기업의 80% 이상이 배당을 지급하며, 인컴형 투자는 하락장에서도 현금 흐름을 제공하는 인기 있는 전략이다. 기사의 본문이 코카콜라와 나이키의 배당 비교로 이어지기 전 서론에서 끊어져 구체적인 나이키 분석은 제공되지 않는다.",
+      "impact": "나이키 주식의 배당 수익률이 4.4%라는 점이 언급되었으나 상세한 투자 판단 내용은 본문에 포함되지 않아 직접적인 주가 영향은 제한적이다.",
+      "caution": "기사가 중간에 끊어져 있어 나이키에 대한 구체적인 매수·매도 근거를 확인할 수 없다."
+    },
+    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
+      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "의료계 구직 계약의 겸업 금지 조항에 대한 논의와 함께 노보노디스크가 웨고비 구독 모델을 출시했다는 소식이 아침 의학 뉴스 업데이트의 제목으로 언급되었다. 본문에서는 해당 내용에 대한 상세한 설명이 제공되지 않았다.",
+      "impact": "노보노디스크의 신규 서비스 출시가 언급되었으나 상세 내용이 빠져 있어 주가에 즉각적인 영향을 주지 않는다.",
+      "caution": "본문은 의사들의 겸업 금지 조항에 대해서만 다루고 있고 노보노디스크 관련 본문 내용은 누락되어 있다."
+    },
+    "marvelltechnologystocktradesinweekendtradingateur20210": {
+      "title": "Marvell Technology stock trades in weekend trading at EUR 202.10",
+      "holding": "마벨 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "마벨 테크놀로지는 2026년 10월 13일 마이크로소프트 및 오라클과 협력하여 클라우드 및 하이퍼스케일 데이터 센터 인프라를 위한 NIST FIPS 140-3 Level 3 통합 하드웨어 보안 모듈 표준화를 추진한다고 발표했다. 주말 거래에서 마벨 테크놀로지 주식은 202.10유로에 거래되었다.",
+      "impact": "마이크로소프트 및 오라클 등 빅테크와의 핵심 보안 표준 협력 발표는 클라우드 및 데이터 센터 시장에서의 기술력과 입지를 강화하여 긍정적이다.",
+      "caution": "주말 장외 거래 가격은 공식 거래소 가격과 차이가 있을 수 있으며 실제 시장 반응은 정규 장에서 확인해야 한다."
+    },
+    "nineusissuersblocktheirsharesfromtradingonokxicetokenplatform": {
+      "title": "Nine U.S. Issuers Block Their Shares From Trading on OKXICE Token Platform",
+      "holding": "어플라이드 옵토일렉트로닉스",
+      "stance": "중립",
+      "summary": "미국 증권거래소의 블록체인 기반 주식 거래 임시 프레임워크에 따라 어플라이드 옵토일렉트로닉스(AAOI)를 포함한 9개의 미국 기업이 OKXICE 플랫폼에서의 토큰화된 주식 거래를 공식적으로 차단했다. 이번 조치는 발행사 동의 조항을 활용한 최초의 광범위한 사례이다.",
+      "impact": "회사가 원치 않는 토큰화 플랫폼에서의 무단 거래를 방지하고 주식 유통을 통제한다는 측면에서 기업의 자산 보호 조치이나, 실적이나 본업의 펀더멘털에는 직접적인 변화를 주지 않는다.",
+      "caution": "블록체인 토큰화 거래 플랫폼에서의 제외일 뿐 실제 나스닥 등 정규 시장 거래에는 영향이 없다."
+    },
+    "hpestocktradesinweekendtradingateur4856": {
+      "title": "HPE stock trades in weekend trading at EUR 48.56",
+      "holding": "휴렛팩커드 엔터프라이즈",
+      "stance": "중립",
+      "summary": "휴렛팩커드 엔터프라이즈(HPE) 주식은 2026년 10월 18일 랑 & 슈바르츠 주말 거래에서 48.56유로에 거래되었다. 또한 회사는 10월 12일에 미래 AI 데이터 센터와 AI 탄력성에 관한 블로그 게시물을 발행했다.",
+      "impact": "주말 장외 거래 가격 정보와 AI 전략 관련 블로그 발행 소식이나, 새로운 실적 발표나 계약 공시가 아니어서 주가에 미치는 영향은 중립적이다.",
+      "caution": "장외 거래 가격은 참고용이며 주중 정규 시장의 실질적인 수급과는 다를 수 있다."
+    },
+    "canuipathpathtradeatadiscountfollowingitsoraclemarketplacemove": {
+      "title": "Can UiPath (PATH) Trade At A Discount Following Its Oracle Marketplace Move?",
+      "holding": "오라클",
+      "stance": "호재",
+      "summary": "유아이패스는 테스트 클라우드 제품을 오라클 마켓플레이스에 등록하여 핵심 비즈니스 소프트웨어와 연결된 기업 시스템 전반에서 자동화된 테스트에 의존하는 오라클 고객들에게 직접적인 접근성을 확보했다. 오라클 마켓플레이스 입점 소식에 힘입어 최근 90일 동안 주가는 5.7% 상승하며 낮은 수준에서 안정되는 모습을 보이고 있다.",
+      "impact": "오라클 마켓플레이스 진입을 통해 오라클의 방대한 고객 기반을 활용할 수 있게 되어, 오라클 생태계 내에서 유아이패스의 확장성과 잠재 매출에 긍정적인 영향을 미친다.",
+      "caution": "장기적인 주가 수익률은 여전히 하락세를 보이고 있어 단기적인 마켓플레이스 등록 효과가 실질적인 매출 성장으로 이어지는지 지속적인 확인이 필요하다."
+    },
+    "afterbuying2kworthofbroadcomlastweekidecideditw": {
+      "title": "After buying $2K worth of Broadcom last week, I decided it w",
+      "holding": "브로드컴",
+      "stance": "약한 호재",
+      "summary": "투자자가 브로드컴 주식을 매수한 후 작성한 투자 논거에 따르면, 경영진은 FY 2027년 총 1,150억 달러 및 FY 2028년 말 기준 AI 반도체 매출 230억 달러를 예상하고 있다. 이를 바탕으로 FY 2028년 주당순이익(EPS) 30달러 달성과 20배의 멀티플을 가정할 때 주가가 600달러를 상회할 것으로 전망된다.",
+      "impact": "경영진의 공격적인 AI 반도체 매출 가이던스와 높은 EPS 목표치는 향후 브로드컴의 기업 가치 상승에 대한 기대감을 높인다.",
+      "caution": "작성자 개인의 투자 논거와 전망에 기반한 내용이며 실제 실적이 목표치에 도달할지는 불확실하다."
+    },
+    "coreweaveinccrwvstockforecasts": {
+      "title": "CoreWeave, Inc. (CRWV) Stock Forecasts",
+      "holding": "코어위브",
+      "stance": "중립",
+      "summary": "야후 파이낸스에서 무료 주식 시세, 최신 뉴스, 포트폴리오 관리 리소스 등을 제공한다는 안내문이다.",
+      "impact": "보유 종목인 코어위브에 대한 구체적인 사업이나 실적 정보가 포함되어 있지 않아 주가에 직접적인 영향을 주지 않는다.",
+      "caution": "기사 내용이 플랫폼 안내문일 뿐 코어위브와 관련된 실질적인 정보가 없다."
+    },
+    "asxsettodiptechstocksweighonwallstreet": {
+      "title": "ASX set to dip, tech stocks weigh on Wall Street",
+      "holding": "AMD",
+      "stance": "중립",
+      "summary": "월스트리트에서 기술주 중심의 광범위한 매도세로 인해 S&P 500은 1.1%, 기술주 비중이 높은 나스닥 종합지수는 2.1% 하락하며 6월 이후 가장 부진한 한 주를 마감했다.",
+      "impact": "기술주 전반의 하락세가 AMD 주가에도 하방 압력으로 작용할 수 있으나, 본문에서 AMD가 직접적으로 언급되지는 않았다.",
+      "caution": "시장 전반의 기술주 매도세를 다룬 기사로 AMD 개별 기업에 대한 직접적인 언급은 없다."
+    },
+    "intelcorei54670kgetsanewcinebenchr115record13yearsafterlaunch": {
+      "title": "Intel Core i5-4670K Gets a New Cinebench R11.5 Record, 13 Years After Launch",
+      "holding": "인텔",
+      "stance": "중립",
+      "summary": "오버클러커 루미가 액체 질소를 이용해 2013년형 인텔 코어 i5-4670K를 6,301 MHz로 구동하여 HWBot의 Cinebench R11.5 랭킹에서 약 12년 만에 신기록인 10.8 cb를 달성했다.",
+      "impact": "인텔의 과거 구형 프로세서가 오버클럭 기록을 경신했다는 소식이나, 현재 인텔의 주력 실적이나 최신 제품 판매에는 유의미한 영향을 주지 않는다.",
+      "caution": "과거 출시된 구형 제품의 오버클럭 이벤트에 관한 내용으로 현재 인텔의 재무적 가치나 펀더멘털과는 무관하다."
+    },
+    "sandisksaysithasmetasexclusivevrglassesstoragedealbutnamesnocapacityorprice": {
+      "title": "Sandisk says it has Meta's exclusive VR Glasses storage deal, but names no capacity or price",
+      "holding": "샌디스크",
+      "stance": "중립",
+      "summary": "샌디스크는 2027년 봄 출시될 메타 VR 글래스의 플래시 저장장치 독점 공급업체가 될 것이라고 밝혔으나 구체적인 모델명, 용량, 가격은 언급하지 않았다.",
+      "impact": "독점 공급 계약 체결은 장기적으로 긍정적일 수 있으나 구체적인 수량이나 가격 정보가 없어 단기적인 실적 추정이 어렵다.",
+      "caution": "구체적인 계약 규모나 가격 정보가 빠져 있어 실질적인 수혜 규모를 판단하기에 한계가 있다."
+    },
+    "microns210runstumblesasbuybackpatenttruceandapresidentialpleacollidewithaidoubts": {
+      "title": "Micron's 210% Run Stumbles as Buyback, Patent Truce and a Presidential Plea Collide With AI Doubts",
+      "holding": "마이크론",
+      "stance": "약한 악재",
+      "summary": "마이크론 테크놀로지의 주가는 금요일 5.9% 하락한 781.80유로를 기록하며 52주 최고가 대비 29% 하락했으며, 이는 AI 지출 지속 가능성에 대한 의문과 기술주 전반의 매도세에 기인한다. 다만 악시오스(Axios)에 따르면 마이크론은 3분기 S&P 500 전체 순이익 성장의 거의 40%를 기여할 것으로 예상되는 반도체 기업 중 하나이다.",
+      "impact": "AI 인프라 투자 속도에 대한 시장의 의구심과 기술주 매도세가 마이크론 주가에 직접적인 하방 압력을 가하고 있다.",
+      "caution": "마이크론 자체의 실적 전망은 여전히 견조하다는 분석도 함께 존재한다."
+    },
+    "coherentschedulesresultsfornovember4whatitmeansforcoherentstock": {
+      "title": "Coherent schedules results for November 4: what it means for Coherent stock",
+      "holding": "코히런트",
+      "stance": "중립",
+      "summary": "코히런트는 2026년 10월 14일, 2026년 9월 30일로 마감된 회계연도 1분기 실적을 2026년 11월 4일에 발표할 것이라고 공지했다.",
+      "impact": "예정된 실적 발표 일정을 알리는 공지일 뿐, 실적 내용이나 사업 성과가 아직 공개되지 않아 주가 방향성에 직접적인 영향은 제한적이다.",
+      "caution": "단순 실적 발표 일정 안내 기사이며 구체적인 실적 수치는 포함되어 있지 않다."
+    },
+    "caterpillarholdsdividendsteadyasleadershiphandoverandcautiousanalystcallsframeoctober29": {
+      "title": "Caterpillar Holds Dividend Steady as Leadership Handover and Cautious Analyst Calls Frame October 29",
+      "holding": "캐터필러",
+      "stance": "중립",
+      "summary": "캐터필러는 주당 1.63달러의 분기 배당금을 유지한다고 수요일에 확인했으며 지급일은 11월 19일이다. 또한 회사는 2026년 3분기 실적을 10월 29일 오전 5시 30분 CDT에 발표하고 컨퍼런스 콜을 개최할 예정이다.",
+      "impact": "배당금 동결은 기존 발표된 수준의 유지일 뿐이며, 실적이나 수익성 개선을 보여주는 내용이 없어 주가에 직접적인 방향성 영향을 주지 않는다.",
+      "caution": "단순 배당 유지 및 실적 발표 일정 공지에 불과하여 향후 실적 발표 내용에 따라 주가 방향이 결정될 것이다."
+    },
+    "ionqs2billionraiselandsbutthepershareledgerstilldoesntbalance": {
+      "title": "IonQ's $2 Billion Raise Lands, but the Per-Share Ledger Still Doesn't Balance",
+      "holding": "아이온큐",
+      "stance": "약한 악재",
+      "summary": "아이온큐는 20억 달러 규모의 주식 및 워런트 발행을 금요일에 마감했으며 이 소식에 주가는 9.3% 하락했다. 이번 거래는 보통주 20,500,000주, 사전 펀딩 워런트 29,500,000주, 그리고 7년 만기의 100,000,000주 규모의 시리즈 C 워런트로 구성되었다.",
+      "impact": "대규모 자금 조달로 인해 기존 주주들의 지분 가치가 희석될 우려가 커지면서 주가 하락으로 이어졌다.",
+      "caution": "확보한 자금이 향후 기업 가치 창출로 이어질지는 아직 증명되지 않았다."
+    },
+    "hereswhata5000investmentincrowdstrikewillbeworthby2028": {
+      "title": "Here's What a $5,000 Investment in CrowdStrike Will Be Worth by 2028",
+      "holding": "크라우드스트라이크",
+      "stance": "약한 호재",
+      "summary": "크라우드스트라이크는 2026년에 주가가 거의 두 배로 오르며 뛰어난 성과를 기록하고 있다. 고객의 51%가 6개 이상의 제품을 사용하는 등 강력한 사이버 보안 솔루션 수요가 지속되고 있다.",
+      "impact": "강력한 제품 채택률과 모멘텀은 회사의 지속적인 성장을 뒷받침하여 투자 심리에 긍정적 영향을 미친다.",
+      "caution": "본문은 특정 미래 가치에 대한 일반적인 전망과 과거 주가 상승을 다룰 뿐 새로운 실적 수치를 제공하지는 않는다."
+    },
+    "didastsmissitsrocketlabmomentanalystwarnsdealwindowmaybeclosingfloatsfireflyasatarget": {
+      "title": "Did ASTS Miss Its Rocket Lab Moment? Analyst Warns Deal Window May Be Closing, Floats Firefly As A Target",
+      "holding": "로켓랩",
+      "stance": "중립",
+      "summary": "분석가 팀 파라는 AST 스페이스모바일이 로켓랩의 인수 전략을 따를 시기를 놓쳤을 수 있다고 경고했다. 로켓랩은 6월에 8억 달러 규모의 이리듐 인수에 합의했으며 로켓랩 주가는 19% 하락했다.",
+      "impact": "로켓랩의 M&A 전략과 인수합병 행보가 언급되었으나 로켓랩 종목 자체에 대한 새로운 실적이나 긍정적 재료는 포함되지 않았다.",
+      "caution": "기사의 초점은 주로 AST 스페이스모바일의 기회 상실 가능성에 맞춰져 있다."
+    },
+    "teradynelaunchesedgeartificialintelligencetesterwhatitmeansforteradynestock": {
+      "title": "Teradyne launches edge artificial intelligence tester: what it means for Teradyne stock",
+      "holding": "테라다인",
+      "stance": "호재",
+      "summary": "테라다인은 2026년 10월 12일 엣지 인공지능 애플리케이션을 위한 UltraFLEXplus S 시리즈를 출시했다고 발표했다. 이번에 공개된 S24 시스템은 고품종 가변 물량 반도체 제조 공정을 지원한다.",
+      "impact": "AI 반도체 테스트 시장의 수요에 맞춘 신제품 출시로 기술 경쟁력이 강화되며 향후 매출 확대에 기여할 수 있다.",
+      "caution": "신제품 출시가 단기 실적에 미치는 영향은 향후 수주 규모를 지켜봐야 알 수 있다."
+    },
+    "stmicroelectronicsstocktradesateur4039inweekendtrading": {
+      "title": "STMicroelectronics stock trades at EUR 40.39 in weekend trading",
+      "holding": "ST마이크로일렉트로닉스",
+      "stance": "중립",
+      "summary": "ST마이크로일렉트로닉스는 9월 28일부터 10월 2일까지 310,000주의 보통주를 평균지가 EUR 47.1205에 자사주 매입했다고 발표했다. 또한 2026년 3분기 실적을 10월 29일에 발표할 예정이며 주말 거래에서 주가는 EUR 40.39를 기록했다.",
+      "impact": "자사주 매입은 주주 환원에 긍정적이나 규모가 크지 않고 다가오는 실적 발표를 앞둔 중립적 일정 단계에 있다.",
+      "caution": "주가 변동은 주말 거래 가격이며 실적 발표 전까지 관망세가 유지될 수 있다."
+    },
+    "nebiusacquiresinferizenebiusstocktradesateur15007": {
+      "title": "Nebius acquires Inferize. Nebius stock trades at EUR 150.07",
+      "holding": "네비우스 그룹",
+      "stance": "호재",
+      "summary": "네비우스는 2026년 10월 1일 인피라이즈(Inferize) 인수를 발표했으며 해당 기술과 팀이 네비우스 토큰 팩토리에 합류했다. 인수된 기술은 대형 인공지능 모델의 출시 및 확장 시간을 단축하도록 설계되었다.",
+      "impact": "AI 인프라 및 추론 플랫폼 경쟁력이 강화되어 네비우스의 사업 성장성에 긍정적인 영향을 미친다.",
+      "caution": "구체적인 인수 금액이나 재무적 영향은 공개되지 않았다."
+    },
+    "irennewofficialsponsorofrealmadrid": {
+      "title": "IREN, new official sponsor of Real Madrid",
+      "holding": "아이렌",
+      "stance": "약한 호재",
+      "summary": "2026년 10월 18일 발표에 따르면 IREN이 레알 마드리드의 새로운 공식 스폰서가 되었다. 양 조직은 지역사회 공헌, 혁신, 기술적 진보를 위한 제휴를 맺었다.",
+      "impact": "세계적인 명문 구단인 레알 마드리드의 공식 스폰서로 참여하면서 브랜드 인지도와 글로벌 마케팅 효과가 높아질 수 있다.",
+      "caution": "구체적인 스폰서십 규모나 재정적 기여도는 본문에 언급되지 않았다."
+    },
+    "keysightintroducespcie70solutionaskeysighttechnologiesstocktradesateur29470": {
+      "title": "Keysight introduces PCIe 7.0 solution as Keysight Technologies stock trades at EUR 294.70",
+      "holding": "키사이트 테크놀로지스",
+      "stance": "약한 호재",
+      "summary": "키사이트 테크놀로지스는 2026년 10월 12일 PCIe 7.0 프로토콜 테스트 솔루션을 출시했다고 밝혔다. 2026년 10월 18일 기준 주가는 Lang & Schwarz에서 294.70 유로에 거래되었다.",
+      "impact": "차세대 고속 데이터 전송 규격인 PCIe 7.0 검증 솔루션을 선제적으로 출시함으로써 고속 인터커넥트 테스트 시장에서의 기술 경쟁력을 입증했다.",
+      "caution": "신제품 출시가 단기적인 실적이나 주가 상승으로 이어지는 규모는 불확실하다."
+    },
+    "flightcutsdeltaairlinessettopausepremiumtransconroutewhileamericanstaysdaily": {
+      "title": "Flight Cuts: Delta Air Lines Set To Pause Premium Transcon Route While American Stays Daily",
+      "holding": "델타항공",
+      "stance": "약한 악재",
+      "summary": "델타항공은 2026년 11월 29일을 끝으로 뉴욕 JFK와 캘리포니아 오렌지카운티(SNA)를 잇는 노선 운항을 중단하고 2027년 봄까지 휴지기에 들어간다. 이로 인해 경쟁사인 아메리칸항공이 해당 노선을 독점하게 된다.",
+      "impact": "수익성 높은 프리미엄 미대륙 횡단 노선 중 하나를 일시 중단하면서 경쟁사에 시장 점유율을 내어주고 관련 매출이 단기적으로 감소할 수 있다.",
+      "caution": "수요 부진이나 효율성 제고를 위한 전략적 중단일 수 있으며, 2027년 봄에 재개될 예정이라 장기적인 영향은 제한적일 수 있다."
+    },
+    "eatonstocktradesateur34710inweekendtrading": {
+      "title": "Eaton stock trades at EUR 347.10 in weekend trading",
+      "holding": "이튼",
+      "stance": "중립",
+      "summary": "2026년 10월 18일 오후 5시 13분 기준 Lang & Schwarz 주말 거래에서 이튼은 347.10 유로에 거래되었다.",
+      "impact": "단순 주말 주가 시세 정보로 기업의 펀더멘털이나 실적에 직접적인 변화를 주지 않는다.",
+      "caution": "단순 시세 안내 기사이며 특별한 기업 관련 뉴스나 실적 발표가 포함되어 있지 않다."
+    },
+    "westerndigitalstocktrades145percentbelowxetraclose": {
+      "title": "Western Digital stock trades 1.45 percent below Xetra close",
+      "holding": "웨스턴 디지털",
+      "stance": "중립",
+      "summary": "2026년 10월 18일 기준 웨스턴 디지털의 주말 거래가는 291.13 유로로, 10월 16일 Xetra 종가인 295.40 유로보다 1.45% 하락했다. 회사는 2027 회계연도 1분기 실적을 시장 마감 후 발표할 예정이라고 지난 10월 8일에 밝혔다.",
+      "impact": "주말 거래 가격의 소폭 변동과 다가오는 실적 발표 일정을 안내하는 수준으로 방향성을 명확히 판단하기 어렵다.",
+      "caution": "실적 발표 전 주가 변동성이 반영된 것으로, 실제 실적 결과에 따라 주가 방향이 결정될 것이다."
+    },
+    "topforgentpowersolutionsfpscompetitors2026": {
+      "title": "Top Forgent Power Solutions (FPS) Competitors 2026",
+      "holding": "엔벤트 일렉트릭",
+      "stance": "중립",
+      "summary": "포전트 파워 솔루션(FPS)의 경쟁사 분석 기사로, 엔벤트 일렉트릭(NVT)이 로크웰 오토메이션, 허벨 등과 함께 주요 비교 기업 중 하나로 언급되었다.",
+      "impact": "보유 종목인 엔벤트 일렉트릭이 다른 경쟁사들과 함께 비교 대상으로 언급되었을 뿐, 직접적인 회사 자체의 새로운 호재나 악재는 없다.",
+      "caution": "경쟁사 비교 플랫폼의 인덱스 페이지 내용으로 엔벤트 일렉트릭에 대한 개별 실적이나 뉴스 정보는 담겨 있지 않다."
+    },
+    "삼전닉스빠질때조선주는뛰어올랐다": {
+      "title": "삼전닉스 빠질때 조선주는 뛰어올랐다",
+      "holding": "SK스퀘어",
+      "stance": "약한 악재",
+      "summary": "10월 셋째 주 코스피 지수가 급락한 가운데 삼성전자와 SK하이닉스가 각각 17.75%, 24.33% 하락했다. SK하이닉스 지분을 보유한 SK스퀘어 또한 25.33% 동반 하락했다.",
+      "impact": "자회사인 SK하이닉스의 주가가 큰 폭으로 하락함에 따라 SK스퀘어의 기업 가치 평가에도 부정적인 영향을 미쳐 주가가 급락했다.",
+      "caution": "지분법 가치 하락은 자회사 주가 변동에 연동된 결과이며, 증시 전반의 하락세와 차익실현 매물 출하가 복합적으로 작용했다."
+    },
+    "현대해상어린이보험입지탄탄": {
+      "title": "현대해상, 어린이보험 ‘입지 탄탄’",
+      "holding": "현대해상",
+      "stance": "호재",
+      "summary": "현대해상은 ADHD, 언어발달지연, 성조숙증 등 소아·청소년 성장·발달 관련 질환의 보험 인수기준을 완화하고 서류 제출 절차를 간소화했다. 이를 통해 기존에 가입이 어려웠던 고객까지 대상을 넓혀 어린이보험 시장에서 입지를 강화할 계획이다.",
+      "impact": "어린이보험 시장에서 가입 문턱을 낮추어 진료 이력이 있는 신규 고객을 선점하고 시장 점유율과 판매 실적을 확대할 수 있는 동력이 된다.",
+      "caution": "인수 기준 완화에 따른 손해율 상승 가능성이 있으나, 신규 고객 유입 효과가 우선적으로 반영된다."
+    },
     "sk하이닉스올3q영업익80조돌파할까추가주주환원도주목": {
       "title": "SK하이닉스, 올 3Q 영업익 80조 돌파할까…\"추가 주주환원도 주목\"",
       "holding": "SK하이닉스",
@@ -2507,14 +2819,6 @@
       "summary": "나이키는 1분기 부진한 실적과 함께 회계연도 2027년 매출이 한 자릿수 후반 감소할 것이라는 경고를 발표했다. 이에 따라 나이키 주가는 최근 90일간 19.31% 하락하는 등 장기적인 수요 둔화 우려가 커지고 있다.",
       "impact": "향후 매출 감소 전망과 모멘텀 약화는 주가 하방 압력을 높이고 투자 심리를 크게 악화시킨다.",
       "caution": "주가가 밸류에이션상 저평가 구간일 수 있다는 시각도 존재하나 단기 전망은 부정적이다."
-    },
-    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
-      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
-      "holding": "노보노디스크 ADR",
-      "stance": "중립",
-      "summary": "기사 제목에 노보노디스크의 웨고비 구독 모델 런칭이 언급되었으나, 본문 내용은 의사들의 인공지능(AI) 계약 및 법적 리스크에 관한 인터뷰만 다루고 있다.",
-      "impact": "보유 종목인 노보노디스크의 핵심 사업에 직접적인 실적 영향이나 새로운 변화를 확인할 수 있는 구체적인 내용이 본문에 없다.",
-      "caution": "제목에 노보노디스크가 언급되었으나 본문에는 관련 상세 정보가 전혀 포함되지 않아 중립으로 처리했다."
     },
     "삼성전자하이닉스주춤하자날았다지금은소부장담을때": {
       "title": "'삼성전자·하이닉스' 주춤하자 날았다...\"지금은 소부장 담을 때\"",
