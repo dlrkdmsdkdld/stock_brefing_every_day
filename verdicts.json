@@ -1,17 +1,169 @@
 {
-  "generated_at": "2026-10-19T07:33:03+09:00",
+  "generated_at": "2026-10-20T08:51:22+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 13174,
-    "output_tokens": 7377
+    "input_tokens": 6729,
+    "output_tokens": 3923
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 11,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "kb국민은행sk하이닉스무보와2500억원규모반도체협력사금융지원": {
+      "title": "KB국민은행, SK하이닉스·무보와 2500억원 규모 반도체 협력사 금융지원",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "KB국민은행은 지난 19일 SK하이닉스 및 한국무역보험공사와 업무협약을 맺고 총 2500억원 규모의 우대보증서를 발급해 SK하이닉스의 협력사를 지원하기로 했다. SK하이닉스는 주요 협력사들을 추천해 보증 혜택을 받도록 하며, 협력사들은 3년간 보증료 전액을 지원받아 자금 부담을 덜게 된다.",
+      "impact": "SK하이닉스의 핵심 공급망과 협력사들의 경영 안정을 강화하여 장기적인 반도체 생산 및 수출 생태계에 긍정적인 영향을 준다.",
+      "caution": "직접적인 실적 개선보다는 공급망 및 협력사 지원 성격이 강해 주가에 미치는 단기 영향은 제한적일 수 있다."
+    },
+    "kb증권삼성전자내년이익증가확정적물량80장기공급": {
+      "title": "KB증권 \"삼성전자 내년 이익 증가 확정적…물량 80% 장기공급\"",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "KB증권은 20일 보고서를 통해 삼성전자가 내년 메모리 생산 물량의 약 80%에 대해 장기공급계약을 체결했으며, HBM4 연간 생산 물량은 100% 계약이 완료되었다고 밝혔다. 이에 힘입어 삼성전자의 내년 영업이익이 555조원에 달하는 등 이익 성장이 확정적이라고 평가했다.",
+      "impact": "대규모 장기공급 계약과 HBM4 중심의 고부가가치 제품 판매 비중 확대가 삼성전자의 실적 개선을 직접적으로 견인한다.",
+      "caution": "증권사의 추정치와 목표주가에 기반한 내용이며 거시경제 불확실성이나 투자심리에 따라 변동될 여지가 있다."
+    },
+    "브랜드인사이트hd현대불굴의도전정신으로세계를넘어미래로": {
+      "title": "[브랜드 인사이트] HD현대, 불굴의 도전정신으로 세계를 넘어 미래로",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "HD현대는 울산 미포만에서 출발하여 조선, 에너지, 건설기계 등을 아우르는 글로벌 기업으로 성장한 역사와 도전 정신을 조명했다. 과거 금융위기와 조선업 불황 등의 시련을 극복하고 사업 포트폴리오를 다변화해 온 과정을 다루고 있다.",
+      "impact": "기업의 역사와 브랜드 가치를 다룬 홍보성 기사로, HD현대중공업의 단기 주가나 실적에 직접적인 영향을 주지 않는다.",
+      "caution": "특정 실적 수주나 재무적 이벤트가 포함되지 않은 일반적인 브랜드 인사이트 기사이다."
+    },
+    "delltechnologiesincdellsharesnewlyacquiredbybdfgestion": {
+      "title": "Dell Technologies Inc. $DELL Shares Newly Acquired by BDF Gestion",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "BDF Gestion은 3분기 동안 4601주의 델 테크놀로지스 주식을 약 248만 달러어치 신규 매입했다. 델은 최근 주당순이익(EPS) 7.04달러, 매출 4697억 달러를 기록해 예상치를 웃돌았으며, 분석가들은 모더레이트 바이크(Moderate Buy) 등급과 평균 목표가 569.96달러를 유지하고 있다.",
+      "impact": "기관 투자자의 지분 인수와 양호한 실적 발표, 인공지능 및 실적 기대감이 복합적으로 작용하여 델의 주가 상승을 지지한다.",
+      "caution": "최근 3개월 동안 내부자 매도가 약 9억 9,030만 달러 규모로 발생한 점은 주의할 필요가 있다."
+    },
+    "vistranysevstsharesdown15timetosell": {
+      "title": "Vistra (NYSE:VST) Shares Down 1.5% - Time to Sell?",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "비스트라 에너지(Vistra)의 주가는 1.5% 하락한 약 149.71달러를 기록했으며 거래량은 평균에 미치지 못했다. 최근 분기 실적에서 주당순이익(EPS) 0.76달러와 매출 4.02억 달러를 기록해 시장 예상치인 EPS 1.61달러와 매출 5.46억 달러를 하회했다.",
+      "impact": "분기 실적이 예상치를 밑돌면서 단기적으로 투자 심리가 위축되고 주가 하락 압력으로 작용했다.",
+      "caution": "분기 실적 부진에도 불구하고 애널리스트들의 평균 목표가가 현재가보다 높은 216.74달러로 유지되고 있으며 분기 배당금은 인상되었다."
+    },
+    "almontytohostinvestordayvialivewebcastonmondayoctober192026": {
+      "title": "Almonty to Host Investor Day via Live Webcast on Monday, October 19, 2026",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 인더스트리즈(Almonty Industries)는 2026년 10월 19일 오전 9시(동부 시간 기준)에 글로벌 텅스텐 시장 현황과 광산별 운영 현황을 주제로 2026 투자자의 날(Investor Day) 행사를 라이브 웹캐스트로 개최한다고 발표했다.",
+      "impact": "경영진이 시장 동향과 운영 계획을 공유하는 소통 행사로, 발표 내용에 따라 향후 주가 방향성이 결정될 수 있으나 공지 자체만으로는 중립적이다.",
+      "caution": "행사 개최 안내 공지이며 구체적인 실적 호재나 악재 수치가 본문에 포함되지 않았다."
+    },
+    "vertivstargetcutscomewithacaveatnobodydowngradedthestock": {
+      "title": "Vertiv's Target Cuts Come With a Caveat: Nobody Downgraded the Stock",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "데이터센터 장비 제조사인 버티브(Vertiv)의 주가는 금요일 4.3% 하락했고, 모건스탠리, 미즈호, RBC 캐피털 등 세 곳의 투자은행이 목표주가를 각각 하향 조정했다. 다만 세 기관 모두 기존의 'Outperform(시장수익률 상회)' 등급은 유지했다.",
+      "impact": "실적 시즌을 앞둔 섹터 전반의 모델 조정에 따른 목표가 하향으로 단기 주가에는 부담이지만, 매수 의견 유지는 펀더멘털에 대한 신뢰를 보여준다.",
+      "caution": "목표가 하향 조정이 연이어 발생한 만큼 단기적인 주가 변동성 확대에 유의해야 한다."
+    },
+    "microsoftstocksrisewithbernsteins662targetsettinganaiearningstest": {
+      "title": "Microsoft Stocks Rise With Bernstein's $662 Target Setting an AI Earnings Test",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트의 주가는 Bernstein이 목표주가를 기존 660달러에서 662달러로 상향 조정하고 'Outperform' 등급을 유지한 가운데 약 1.16% 상승한 535.18달러를 기록했다. 투자자들은 회사가 거대한 계약 잔고를 얼마나 수익성 있는 성장으로 전환할 수 있을지 주목하고 있다.",
+      "impact": "주요 투자기관의 목표가 상향 조정과 인공지능(AI) 사업 기대감이 마이크로소프트의 주가 상승 모멘텀을 제공한다.",
+      "caution": "GuruFocus 등에서 제기된 경고 신호나 향후 실적 발표에서 계약 잔고의 수익화 입증 여부를 지켜봐야 한다."
+    },
+    "nikeincnkesharesnewlyacquiredbyarkfeldwealthstrategiesllc": {
+      "title": "NIKE, Inc. $NKE Shares Newly Acquired by Arkfeld Wealth Strategies L.L.C.",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "Arkfeld Wealth Strategies L.L.C.가 나이키 주식 111,668주(약 384만 달러)를 새로 매수했으나, 나이키의 주가는 12개월 최고가인 70.44달러에 한참 못 미치는 37달러 부근에서 거래되고 있다. 애널리스트 평균 투자의견은 'Reduce'이며 평균 목표주가는 41.07달러이고, 최근 분기 주당순이익(EPS)은 예상치 0.43달러를 상회한 0.48달러를 기록했으나 매출은 전년 동기 대비 4.3% 감소한 112억 1,000만 달러를 기록했다.",
+      "impact": "기관의 신규 매수 유입은 긍정적이나, 매출 감소와 낮은 목표주가 및 'Reduce' 투자의견 등 애널리스트들의 신중한 태도가 주가 상승을 제한하는 요인으로 작용한다.",
+      "caution": "분기 EPS가 예상치를 상회한 점은 긍정적이나 전반적인 매출 감소와 보수적인 월가 시각이 공존한다."
+    },
+    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
+      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보노디스크가 Wegovy 구독 모델을 출시했다는 언급이 제목에 있으나, 본문에는 의사 고용 계약 및 경업금지 조항과 관련된 내용만 수록되어 있다.",
+      "impact": "본문에 노보노디스크의 구체적인 사업 성과나 재무적 영향에 대한 내용이 없고 의사 고용 관련 안내문만 존재하여 보유 종목의 주가에 직접적인 영향을 주지 않는다.",
+      "caution": "제목에 노보노디스크와 웨고비가 언급되었으나 본문은 구인 및 계약 관련 일반 의학 칼럼이므로 기사 내용으로서의 정보 가치가 없다."
+    },
+    "stockmarkettodayoct19coreweavereboundsongoldmansachsbuyupgradeand139pricetarget": {
+      "title": "Stock Market Today, Oct. 19: CoreWeave Rebounds on Goldman Sachs Buy Upgrade and $139 Price Target",
+      "holding": "코어위브",
+      "stance": "호재",
+      "summary": "AI 클라우드 인프라 제공업체인 코어위브 주가는 골드만삭스의 매수(Buy) 등급 상향 및 목표주가 139달러 제시에 힘입어 반등했다. 거래량은 9,910만 주로 3개월 평균 거래량인 3,330만 주를 크게 웃돌았으며, 2025년 상장 이후 53% 성장했다.",
+      "impact": "골드만삭스의 매수 투자의견 상향과 목표가 상향 조정은 투자 심리를 개선하고 매수세를 유입시켜 주가 상승의 동력으로 작용한다.",
+      "caution": "단기적인 거래량 폭증과 주가 반등이 있었으나 10월 말 예정된 실적 발표 결과에 따라 변동성이 커질 수 있다."
+    },
+    "opticsstocksrallyaheadofearningsappliedoptoelectronicsjumps5lumentumadds4coherentrises2": {
+      "title": "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2%",
+      "holding": "코히런트",
+      "stance": "약한 호재",
+      "summary": "11월 초 실적 발표를 앞두고 광학 부품주들이 일제히 강세를 보인 가운데, 코히런트(COHR) 주가는 2% 상승하여 236.93달러를 기록했다. AI로 인한 광학 부품 수요가 지속되는 가운데 한 CEO가 수년간 고객 수요를 맞추기 어렵다고 언급하면서 시장의 기대감이 커졌다.",
+      "impact": "AI 기반 광학 수요 증가와 업계 전반의 실적 기대감이 코히런트에 매수세를 유입시켜 주가 상승을 견인한다.",
+      "caution": "실적 발표 전 기대감으로 인한 선반영일 수 있으며, 실제 실적이나 가이던스가 기대에 못 미칠 경우 변동성이 커질 수 있다."
+    },
+    "whatarecrowdstrikeinvestorsbettingon": {
+      "title": "What Are CrowdStrike Investors Betting On?",
+      "holding": "크라우드스트라이크",
+      "stance": "중립",
+      "summary": "크라우드스트라이크(CRWD)는 2026년 7월까지의 12개월 동안 조정 순이익 기준 주가수익비율(PER)이 약 231배로 높은 밸류에이션에 거래되고 있다. 다만 2027회계연도와 2028회계연도 예상 실적 기준으로는 2028년 순이익이 2027년 대비 29.6%, 매출은 22.8% 증가할 것으로 전망된다.",
+      "impact": "높은 멀티플에도 불구하고 향후 고성장하는 이익 전망이 현재의 높은 가격을 정당화하는지 투자자들이 저울질하는 단계로, 주가에 미치는 직접적 방향성은 중립적이다.",
+      "caution": "스톡옵션 비용 등을 조정한 순이익 기준 밸류에이션이므로 실제 GAAP 기준 이익과의 괴리를 염두에 둘 필요가 있다."
+    },
+    "couldrocketlabnasdaqrklbovercomeitsneutrondelay": {
+      "title": "Could Rocket Lab (NASDAQ:RKLB) Overcome Its Neutron Delay?",
+      "holding": "로켓랩",
+      "stance": "중립",
+      "summary": "로켓랩(RKLB)은 2026년 10월 19일 기준 51.36달러로 1.02% 상승하며 거래된 가운데, 뉴트론(Neutron) 로켓 발사 지연 문제가 주요 관심사로 꼽혔다. 우주 시스템 및 일렉트론(Electron) 사업 부문이 사업 활동을 뒷받침하며 분기 실적에서 성장을 보여주었다.",
+      "impact": "뉴트론 발사 지연은 불확실성을 높이지만, 우주 시스템과 일렉트론의 성장이 이를 상쇄하면서 주가에 혼조세를 유발한다.",
+      "caution": "발사 지연 일정이 추가로 연기될 경우 부정적인 영향으로 작용할 수 있다."
+    },
+    "nebiusgroupnasdaqnbisstockjumps29afterinsiderbuyingactivity": {
+      "title": "Nebius Group (NASDAQ:NBIS) Stock Jumps 2.9% After Insider Buying Activity",
+      "holding": "네비우스 그룹",
+      "stance": "약한 호재",
+      "summary": "네비우스 그룹(NBIS) 주가는 이사 아르네 그리메(Arne Grimme)가 사전 계획된 규칙 10b5-1에 따라 약 25,159달러어치 주식 148주를 내부자 매수한 후 2.9% 상승했다. 애널리스트들은 'Moderate Buy' 의견과 평균 목표주가 245.69달러를 유지하고 있으며, 분기 매출은 전년 동기 대비 454% 급증한 5억 8,230만 달러를 기록했다.",
+      "impact": "내부자 매수와 폭발적인 매출 성장은 투자자 신뢰를 높여 단기 주가 상승에 긍정적인 영향을 미친다.",
+      "caution": "높은 매출 성장세에도 불구하고 지속되는 적자와 자금 수요, 실행 리스크에 대한 우려는 여전히 존재한다."
+    },
+    "deltaairlinesq4guidanceslightlyraisesrevenuebarforpeersubssays": {
+      "title": "Delta Air Lines' Q4 Guidance Slightly Raises Revenue Bar for Peers, UBS Says",
+      "holding": "델타항공",
+      "stance": "중립",
+      "summary": "델타항공(DAL)의 4분기 강한 가이던스가 다른 항공사들의 매출 기대치(바)를 소폭 높였다고 UBS가 밝혔다.",
+      "impact": "델타항공의 호실적 전망이 동종 업계 전반의 매출 기준선을 높이는 효과가 있으나, 본문 내용이 제한적이어서 개별 보유 종목에 미치는 구체적 파급 효과를 단정하기 어렵다.",
+      "caution": "유료 구독 프리미엄 기사로 요약된 내용 외에 세부 수치가 공개되지 않았다."
+    },
+    "okloplansisotopefacilityunderuslaunchpadinitiative": {
+      "title": "Oklo plans isotope facility under US Launch Pad initiative",
+      "holding": "오클로",
+      "stance": "약한 호재",
+      "summary": "오클로는 미국 에너지부 산하 아이다호 국립연구소의 Nuclear Energy Launch Pad 이니셔티브에 참여하여 Groves-2 Forge 시설 건립 계획을 추진 중이다. 이 시설은 Groves 동위원소 시험로의 실증 경험을 바탕으로 핵심 동위원소를 생산, 가공, 정제하는 능력을 갖추게 된다.",
+      "impact": "정부 주도 프로그램 참여와 핵연료 주기 관련 시설 개발 진척은 장기적인 사업 성장에 긍정적인 요인이다.",
+      "caution": "초기 계획 단계이며 구체적인 상업화 일정이나 재무적 성과는 아직 불확실하다."
+    },
+    "sunrunnasdaqrunstockpricetargetcutbyjpmorganchaseco": {
+      "title": "Sunrun (NASDAQ:RUN) Stock Price Target Cut by JPMorgan Chase & Co.",
+      "holding": "썬런",
+      "stance": "중립",
+      "summary": "JP모건체이스는 썬런의 목표주가를 기존 14달러에서 12달러로 하향 조정했으나 '비중확대(overweight)' 등급은 유지했다. 썬런의 최근 분기 실적은 조정 주당순이익(EPS) 0.42달러, 매출 8억 6,999만 달러로 시장 예상을 상회했다.",
+      "impact": "목표주가 하향은 단기적으로 투자 심리에 부정적일 수 있으나, 호실적과 비중확대 유지 의견이 상쇄 효과를 낸다.",
+      "caution": "목표주가 인하와 혼조세를 보이는 애널리스트 평판이 공존하므로 향후 주가 변동성에 유의해야 한다."
+    },
+    "amphenolcorporationaphstockpricenewsquoteandhistory": {
+      "title": "Amphenol Corporation (APH) stock price, news, quote and history",
+      "holding": "엔벤트 일렉트릭",
+      "stance": "중립",
+      "summary": "본문은 암페놀(Amphenol Corporation)의 주가, 시세, 뉴스 및 거래 정보를 제공하는 사이트 안내문으로 구성되어 있다.",
+      "impact": "보유 종목인 엔벤트 일렉트릭과 직접적인 관련이 없으며 단순한 타사 주가 정보 안내 페이지이다.",
+      "caution": "기사 내용이 없고 타사 주가 조회용 안내문이므로 투자 판단에 반영하기 어렵다."
+    },
     "삼성하이닉스거절했는데전기료선납재추진하는": {
       "title": "삼성·하이닉스 거절했는데… ‘전기료 선납’ 재추진하는 與",
       "holding": "SK하이닉스",
@@ -107,14 +259,6 @@
       "summary": "S&P 500 기업의 80% 이상이 배당을 지급하며, 인컴형 투자는 하락장에서도 현금 흐름을 제공하는 인기 있는 전략이다. 기사의 본문이 코카콜라와 나이키의 배당 비교로 이어지기 전 서론에서 끊어져 구체적인 나이키 분석은 제공되지 않는다.",
       "impact": "나이키 주식의 배당 수익률이 4.4%라는 점이 언급되었으나 상세한 투자 판단 내용은 본문에 포함되지 않아 직접적인 주가 영향은 제한적이다.",
       "caution": "기사가 중간에 끊어져 있어 나이키에 대한 구체적인 매수·매도 근거를 확인할 수 없다."
-    },
-    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
-      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
-      "holding": "노보노디스크 ADR",
-      "stance": "중립",
-      "summary": "의료계 구직 계약의 겸업 금지 조항에 대한 논의와 함께 노보노디스크가 웨고비 구독 모델을 출시했다는 소식이 아침 의학 뉴스 업데이트의 제목으로 언급되었다. 본문에서는 해당 내용에 대한 상세한 설명이 제공되지 않았다.",
-      "impact": "노보노디스크의 신규 서비스 출시가 언급되었으나 상세 내용이 빠져 있어 주가에 즉각적인 영향을 주지 않는다.",
-      "caution": "본문은 의사들의 겸업 금지 조항에 대해서만 다루고 있고 노보노디스크 관련 본문 내용은 누락되어 있다."
     },
     "marvelltechnologystocktradesinweekendtradingateur20210": {
       "title": "Marvell Technology stock trades in weekend trading at EUR 202.10",
