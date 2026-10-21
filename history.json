@@ -1,30 +1,6 @@
 {
   "picks": [
     {
-      "date": "2026-09-20",
-      "kind": "mine",
-      "ticker": "NFLX",
-      "name": "넷플릭스",
-      "headline": "급락 속 목표가 상향 주목",
-      "price_at_pick": 71.79,
-      "currency": "USD",
-      "price_now": 69.85,
-      "price_date": "2026-10-19",
-      "return_pct": -2.7
-    },
-    {
-      "date": "2026-09-20",
-      "kind": "new",
-      "ticker": "XENE",
-      "name": "Xenon Pharmaceuticals Inc.",
-      "headline": "거래량 폭증한 급락주 점검",
-      "price_at_pick": 39.75,
-      "currency": "USD",
-      "price_now": 35.08,
-      "price_date": "2026-10-19",
-      "return_pct": -11.75
-    },
-    {
       "date": "2026-09-21",
       "kind": "mine",
       "ticker": "O",
@@ -70,7 +46,8 @@
       "currency": "USD",
       "price_now": 30.95,
       "price_date": "2026-10-05",
-      "return_pct": 0.49
+      "return_pct": 0.49,
+      "error": "ValueError: 시세 없음"
     },
     {
       "date": "2026-09-23",
@@ -176,9 +153,9 @@
       "headline": "역대 최대 현금배당 예고에 쏠린 눈",
       "price_at_pick": 286500.0,
       "currency": "KRW",
-      "price_now": 218000.0,
-      "price_date": "2026-10-19",
-      "return_pct": -23.91
+      "price_now": 211500.0,
+      "price_date": "2026-10-20",
+      "return_pct": -26.18
     },
     {
       "date": "2026-09-28",
@@ -200,9 +177,9 @@
       "headline": "철도 수주 증가와 과매도 구간의 만남",
       "price_at_pick": 112400.0,
       "currency": "KRW",
-      "price_now": 100700.0,
-      "price_date": "2026-10-19",
-      "return_pct": -10.41
+      "price_now": 86900.0,
+      "price_date": "2026-10-20",
+      "return_pct": -22.69
     },
     {
       "date": "2026-09-30",
@@ -368,9 +345,9 @@
       "headline": "대규모 FPU 건조와 과매도 구간 진입",
       "price_at_pick": 384500.0,
       "currency": "KRW",
-      "price_now": 345500.0,
-      "price_date": "2026-10-19",
-      "return_pct": -10.14
+      "price_now": 318000.0,
+      "price_date": "2026-10-20",
+      "return_pct": -17.3
     },
     {
       "date": "2026-10-10",
@@ -392,9 +369,9 @@
       "headline": "K2PL 전차 조립 앞당긴 현대로템",
       "price_at_pick": 104800.0,
       "currency": "KRW",
-      "price_now": 100700.0,
-      "price_date": "2026-10-19",
-      "return_pct": -3.91
+      "price_now": 86900.0,
+      "price_date": "2026-10-20",
+      "return_pct": -17.08
     },
     {
       "date": "2026-10-11",
@@ -529,5 +506,5 @@
       "return_pct": 0.0
     }
   ],
-  "updated_at": "2026-10-20T08:52:07+09:00"
+  "updated_at": "2026-10-21T09:01:09+09:00"
 }
