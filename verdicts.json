@@ -1,17 +1,185 @@
 {
-  "generated_at": "2026-10-22T08:30:04+09:00",
+  "generated_at": "2026-10-23T09:03:59+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7129,
-    "output_tokens": 3472
+    "input_tokens": 8165,
+    "output_tokens": 4109
   },
   "skipped": {
-    "본문없음": 5,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스중복상장논란에솔리다임ipo철회": {
+      "title": "SK하이닉스 '중복상장' 논란에 솔리다임 IPO 철회",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "SK하이닉스가 중복상장 논란과 금융당국의 지적을 고려해 손자회사 솔리다임의 미국 증시 상장 검토를 중단했다. 솔리다임은 AI 데이터센터용 메모리를 생산하는 계열사로, 당초 공장 투자금 마련을 위해 상장을 검토했으나 기존 주주 이익 침해 우려가 제기되었다.",
+      "impact": "외부 투자 유치를 통한 자금 확보 경로가 막히면서 신규 생산시설 투자 및 주주 환원 여력에 일부 차질이 생길 수 있다.",
+      "caution": "상장 철회는 주주가치 훼손 우려를 해소한다는 측면에서는 장기적으로 긍정적일 수도 있다."
+    },
+    "삼성전자올해만13조맡겼다삼성증권에쌓이는계열사퇴직연금": {
+      "title": "삼성전자 올해만 1.3조 맡겼다...삼성증권에 쌓이는 계열사 퇴직연금",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "올해 1월부터 9월까지 3분기 동안 삼성전자가 삼성증권에 납입한 퇴직연금 DC 납입액이 1조 3062억원을 기록하며 전년 동기 대비 약 2배로 증가했다. 삼성화재 등 다른 계열사의 적립금도 크게 늘어나며 삼성증권의 전체 계열사 DC 적립금은 2조 2378억원으로 급증했다.",
+      "impact": "계열사들의 퇴직연금 적립금이 대거 유입되면서 계열 증권사인 삼성증권의 자산 관리 규모와 수수료 수익 등 실적 개선에 직접적으로 기여한다.",
+      "caution": ""
+    },
+    "hd현대중미포위원장병원이송됐다단식농성14일만": {
+      "title": "HD현대중 미포위원장, 병원이송됐다…단식농성 14일만",
+      "holding": "HD현대중공업",
+      "stance": "약한 악재",
+      "summary": "HD현대중공업 노조 미포위원회 김태암 위원장이 임단협 교섭 난항으로 14일간 단식 농성을 벌이다 지난 22일 건강 이상으로 울산대학교병원으로 이송됐다. 현재 노조는 잠정합의안 부결 이후 19일부터 전체 조합원을 대상으로 하루 7시간씩 부분파업을 벌이고 있다.",
+      "impact": "파업과 노사 갈등 심화로 인해 생산 차질이 발생하고 비용이 증가할 우려가 있다.",
+      "caution": "김 위원장의 건강에 큰 이상은 없으며 향후 협상 타결 여부에 따라 영향이 달라질 수 있다."
+    },
+    "whatisliftingdelltechnologiesnysedellasaiserverordersclimb": {
+      "title": "What is lifting Dell Technologies (NYSE:DELL) as AI-server orders climb?",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "AI 최적화 서버에 대한 수요가 급증하면서 델 테크놀로지스의 수주 잔고가 크게 불어났다. 인프라 사업 비중도 AI 서버 주문 증가에 힘입어 긍정적인 방향으로 이동하고 있다.",
+      "impact": "AI 서버 주문 증가가 매출과 수익성 확대 직접적인 동력으로 작용한다.",
+      "caution": "기사 본문이 요약형 하이라이트 위주로 구체적인 매출액 수치는 제시되지 않았다."
+    },
+    "constellationbrandsliftedbeershipments37byrefillingdistributorinventories": {
+      "title": "Constellation Brands lifted beer shipments 3.7% by refilling distributor inventories",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "약한 악재",
+      "summary": "모델로, 코로나 등을 제조하는 컨스텔레이션 브랜즈는 지난 2월 종료된 회계연도에 재고 수준을 너무 낮게 가져간 것을 만회하기 위해 최근 6개월간 유통망에 맥주를 추가로 공급했다. 이로 인해 8월 31일 마감된 6개월간 맥주 출하량은 3.7% 증가한 2억 3,720만 상자를 기록했으나, 실제 소매점 판매량(디플리션)은 0.5% 감소해 매장 내 소비자 수요는 여전히 부진함을 보였다.",
+      "impact": "출하량 증가가 실질적인 최종 소비자 수요 증가가 아니라 유통 재고 리필에 기존의 과소 조정을 만회하기 위한 것이어서 지속 가능성에 한계가 있다.",
+      "caution": "단기적인 출하량 증가 수치만 보면 호재로 보일 수 있으나 실제 소매 수요는 감소세다."
+    },
+    "firstsolarpoweredtrashcansinstalledatdisneyspringsmoreaddedtodisneysanimalkingdom": {
+      "title": "First Solar-Powered Trash Cans Installed at Disney Springs, More Added to Disney's Animal Kingdom",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "디즈니 스프링스와 디즈니 애니멀 킹덤에 태양광 패널을 탑재한 압축식 쓰레기통이 새롭게 설치되었다. 해당 쓰레기통은 상단의 태양광 패널을 이용해 내장된 쓰레기 압축기를 구동한다.",
+      "impact": "퍼스트솔라 종목과 직접적인 연관성이 기사에 언급되지 않았다.",
+      "caution": "기사에 퍼스트솔라 기업명이나 제품 공급에 대한 구체적인 내용이 없으며 단순 디즈니 테마파크 시설 안내 기사다."
+    },
+    "constellationenergynasdaqcegsurgesasnuclearpowerfuelsaidemand": {
+      "title": "Constellation Energy (NASDAQ:CEG) Surges As Nuclear Power Fuels AI Demand",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지는 AI 수요 확대로 인해 원자력 발전 전력을 데이터 센터로 송전하는 계약들이 시장의 큰 주목을 받았다. 이로 인해 주가가 급등세를 기록했다.",
+      "impact": "데이터 센터의 전력 수요 폭증에 맞추어 원자력 발전 자산을 활용한 계약이 체결되면서 장기적인 실적 성장 기대감이 높아진다.",
+      "caution": ""
+    },
+    "vistranysevstsurgesaspowerdemandliftsnuclearfleettoday": {
+      "title": "Vistra (NYSE:VST) Surges As Power Demand Lifts Nuclear Fleet Today",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "급증하는 전력 수요 속에서 비스트라 에너지의 대규모 발전 자산, 특히 원자력 발전소 보유 자산에 시장의 신선한 초점이 맞춰졌다. 원자력 발전은 안정적인 기저 전력원으로 부각되며 주가 상승을 견인했다.",
+      "impact": "전력 수요 증가 환경에서 회사가 보유한 대규모 발전 설비와 원자력 포트폴리오가 가치를 인정받으며 수익성 개선 기대가 커진다.",
+      "caution": ""
+    },
+    "diamondbackenergyfangdeclinesmorethanmarketsomeinformationforinvestors": {
+      "title": "Diamondback Energy (FANG) Declines More Than Market: Some Information for Investors",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "Diamondback Energy(FANG) 주가는 2026년 10월 22일 기준 전 거래일 대비 1.89% 하락한 197.14달러를 기록하며 시장 수익률을 하회했다. 과거 한 달간 이 에너지 탐사 및 생산 기업의 주가는 8.23% 상승하여 원유·에너지 섹터 상승률인 8.71%에는 미치지 못했다. 회사는 11월에 다가오는 실적 발표를 앞두고 있다.",
+      "impact": "기사의 주된 내용은 다이아몬드백 에너지의 주가 변동과 실적 발표 일정이며, 보유 종목인 이오스 에너지는 본문에 전혀 언급되지 않는다.",
+      "caution": "보유 종목인 이오스 에너지와 직접적인 연관성이 없는 타사 주가 동향 기사이다."
+    },
+    "almontyindustriesstockstifelcutstargetfromusd25tousd21": {
+      "title": "Almonty Industries stock: Stifel cuts target from USD 25 to USD 21",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "Stifel 애널리스트 브록 캐논은 2026년 10월 20일 알먼티 인더스트리의 목표주가를 25.00달러에서 21.00달러로 하향 조정했으나 매수(Buy) 등급은 유지했다. 또한 2026년 10월 21일자 업데이트에 따르면 상동 텅스텐 정광을 실은 첫 선박이 2026년 10월 24일로 예약되었으며, 페이즈 1 생산량의 90% 이상이 21년 장기 오프테이크 계약으로 확정되었다.",
+      "impact": "목표주가 하향은 다소 부정적이나, 매수 등급 유지와 함께 핵심 프로젝트인 상동 광산의 첫 선적 및 대규모 장기 오프테이크 계약 확정은 펀더멘털에 긍정적이다.",
+      "caution": "목표주가가 하향 조정된 점은 단기적인 투자 심리에 부담이 될 수 있다."
+    },
+    "moneymasterspodcast3expertsweighinonthebestaistocksbiggestworries": {
+      "title": "MoneyMasters Podcast: 3 Experts Weigh in on the Best AI Stocks & Biggest Worries",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "MoneyShow의 MoneyMasters Podcast에서 전문가들은 AI 주식 랠리의 지속 가능성, 밸류에이션, 부채, 데이터센터 리스크를 논의했다. 방송에서는 CoreWeave, Oracle, Nvidia 등의 기업과 함께 AI 컴퓨팅 수요, 인프라 및 에너지 필요성, 금리 상승의 시장 영향 등을 다루었다.",
+      "impact": "AI 인프라와 데이터센터 전력 수요 등 거시적인 산업 동향을 다루고 있으나, 보유 종목인 크레도 테크놀로지가 직접적으로 분석되거나 실적이 언급되지 않았다.",
+      "caution": "본문에서 크레도 테크놀로지는 언급되지 않았으며 일반적인 AI 및 기술주 전반에 대한 토론이다."
+    },
+    "whatwilldefineaiwinnersformerciscoceojohnchambers": {
+      "title": "What Will Define AI Winners: Former Cisco CEO John Chambers",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "해당 기사는 기업들의 거버넌스, 보상, 환경, 인적 자본 관리 등의 지표를 벤치마킹하는 데이터 시각화 서비스 및 글로벌 경제의 비즈니스 사이클 정보를 안내하고 있다. 또한 시니어 임원들을 위한 커뮤니티와 연구 자원 제공 프로그램을 소개하고 있다.",
+      "impact": "본문은 기업 리서치 및 이벤트 서비스에 대한 안내와 광고성 내용으로 구성되어 있어 보유 종목인 시스코 시스템즈의 주가나 실적에 직접적인 영향을 주지 않는다.",
+      "caution": "기사 내용이 전적으로 기업 서비스 및 사이트 안내문에 해당하며 실질적인 뉴스 정보가 없다."
+    },
+    "gevernovaslumps11asmetasspendingoutlookstokesaifinancingworriesvertivholdingsdrops7eatonslides6": {
+      "title": "GE Vernova Slumps 11% as Meta's Spending Outlook Stokes AI Financing Worries; Vertiv Holdings Drops 7%, Eaton Slides 6%",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "메타플랫폼스의 대규모 AI 지출 전망으로 인해 자금 조달 우려가 커지면서 전력 장비 공급업체들이 타격을 입었다. GE 베르노바 주가가 11% 급락한 데 이어, 버티브 홀딩스도 7%, 이튼은 6% 하락했다.",
+      "impact": "메타의 AI 지출을 둘러싼 재원 우려가 전력 장비 및 인프라 관련주 전반에 대한 투자 심리를 악화시켜 버티브 홀딩스의 주가 하락으로 이어졌다.",
+      "caution": "개별 기업의 펀더멘털 이슈가 아닌 빅테크 지출에 따른 섹터 전반의 일시적 심리 위축일 수 있다."
+    },
+    "lockheedmartinraisesfullyearoutlookfollowingthirdquarterbeatsharesjump": {
+      "title": "Lockheed Martin Raises Full-Year Outlook Following Third-Quarter Beat; Shares Jump",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴(LMT)은 회계기준 3분기 실적이 시장 예상을 상회한 데 힘입어 연간 실적 전망(가이드라인)을 상향 조정했다. 이 소식에 힘입어 록히드마틴 주가는 6.96% 급등했다.",
+      "impact": "어닝 서프라이즈와 연간 가이드라인 상향은 기업의 이익 성장 가시성을 높여주어 보유 종목의 주가 상승을 직접적으로 견인한다.",
+      "caution": "프리미엄 기사로 제한되어 있어 세부 실적 수치의 구체적인 내역은 일부 확인이 어렵다."
+    },
+    "microsoftbeateveryearningsnumberandinvestorssoldthestockanyway": {
+      "title": "Microsoft beat every earnings number and investors sold the stock anyway",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트는 2025년 10월 29일 발표한 회계기준 1분기 매출이 777억 달러(전년 대비 18% 증가), 주당순이익(EPS)이 4.13달러(23% 증가)를 기록하며 예상치를 상회했다고 밝혔다. 그러나 사상 최대 규모인 349억 달러의 분기 자본 지출(CapEx)을 기록하고 추가 지출을 예고하면서 시간외 거래에서 주가가 거의 4% 하락했다.",
+      "impact": "클라우드와 AI 사업의 높은 성장세와 실적 호조에도 불구하고, AI 투자를 위한 막대한 자본 지출 부담이 투자자들의 단기 차익실현과 주가 하락을 유발했다.",
+      "caution": "장기적인 AI 패권 경쟁을 위한 투자라는 점에서 성장 동력이 될 수 있으나 단기적으로는 비용 부담으로 작용한다."
+    },
+    "nikenysenkesharesup2shouldyoubuy": {
+      "title": "NIKE (NYSE:NKE) Shares Up 2% - Should You Buy?",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "나이키(NKE) 주가는 회계기준 1분기 주당순이익(EPS)이 0.48달러를 기록해 예상치 0.43달러를 상회하면서 약 2% 상승한 38.26달러를 기록했다. 다만 전체 매출은 전년 동기 대비 4.3% 감소한 11.21억 달러에 그쳤다.",
+      "impact": "수익성이 예상보다 양호하게 나와 주가 반등을 이끌었으나, 매출 감소와 구조조정 비용 및 중국 시장 경쟁 심화 등의 리스크가 상존해 있다.",
+      "caution": "매출 감소세가 이어지고 있어 실적 턴어라운드의 지속성에 대한 의견이 분분하다."
+    },
+    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
+      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "화이자(Pfizer)의 라임병 백신이 70%의 효능을 보였고 텍사스 남성이 6,150만 달러 규모의  Medicare 텔레마케팅 사기 혐의로 12.5년 형을 선고받았으며 노보노디스크(Novo Nordisk)가 위고비(Wegovy) 구독 모델을 출시했다는 내용이다. 본문에는 의사들의 인공지능 기록(ambient documentation) 사용에 따른 책임과 법적 리스크에 대한 내용이 포함되어 있다.",
+      "impact": "기사 제목에 노보노디스크의 위고비 구독 모델 출시가 언급되었으나, 본문은 AI 의무기록 작성 기술과 관련된 내용만 다루고 있어 보유 종목에 직접적인 실적이나 사업적 영향을 파악하기 어렵다.",
+      "caution": "보유 종목인 노보노디스크가 제목에 단순 언급되었을 뿐 본문 내용은 AI 의료 기록에 관한 것이므로 중립으로 처리했다."
+    },
+    "롯데케미칼3q성적표역래깅여파전망사업재편진척주목": {
+      "title": "롯데케미칼, 3Q 성적표 '역래깅' 여파 전망…사업 재편 진척 '주목'",
+      "holding": "S-Oil",
+      "stance": "약한 악재",
+      "summary": "롯데케미칼이 올해 3분기에 1,800억원 안팎의 영업손실을 기록하며 2분기 대비 적자 전환할 것으로 전망된다. 중동 전쟁에 따른 래깅 효과가 사라지고 하반기부터 역래깅 효과가 본격화하면서 수익성이 악화될 것이라는 분석이다.",
+      "impact": "S-Oil과 같은 정유·석유화학 업종은 원재료 가격 변동과 래깅 및 역래깅 효과에 민감하게 반응하므로, 동종 업계의 심각한 실적 부진 전망은 투자 심리에 부정적인 영향을 미칠 수 있다.",
+      "caution": "기사의 주된 대상은 롯데케미칼이라는 개별 기업이므로 S-Oil의 직접적인 실적을 대변하지는 않는다."
+    },
+    "다올한화생명3분기400억적자전망목표가14하향조선비즈": {
+      "title": "다올證 “한화생명, 3분기 400억 적자 전망…목표가 14% 하향” - 조선비즈",
+      "holding": "한화생명",
+      "stance": "악재",
+      "summary": "다올투자증권은 한화생명이 투자손익 악화로 올해 3분기 영업손실 416억원, 당기순손실 399억원을 기록하며 적자 전환할 것으로 전망했다. 이에 따라 목표주가를 기존 7,000원에서 6,000원으로 14% 하향 조정했다.",
+      "impact": "3분기 대규모 적자 전환 예상과 주력 종신보험 상품 판매 중단에 따른 신계약 불확실성 증가는 한화생명의 기업 가치와 주가에 직접적인 악재로 작용한다.",
+      "caution": ""
+    },
+    "시황미국증시ai투자수익성우려에기술주급락다우강보합": {
+      "title": "[시황] 미국증시, AI 투자수익성 우려에 기술주 급락·다우 강보합",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "미국 증시에서 인공지능(AI) 투자 수익성에 대한 우려로 기술주가 급락하고 다우지수는 강보합세를 기록했다는 시황 기사이다.",
+      "impact": "보유 종목인 POSCO홀딩스가 직접 언급되지 않았고 글로벌 거시 경제 및 증시 시황만 다루고 있어 보유 종목에 미치는 영향이 불분명하다.",
+      "caution": "보유 종목에 대한 직접적인 언급이 없어 중립으로 처리했다."
+    },
+    "1023금오늘의투자전략": {
+      "title": "10/23(금), 오늘의 투자전략",
+      "holding": "LG화학",
+      "stance": "약한 악재",
+      "summary": "코스피와 코스닥이 각각 -3.52%, -3.62% 하락한 가운데 반도체와 2차전지, 정유·화학 업종을 중심으로 매도세가 확대되었다. LG화학은 주가가 6.85% 하락하며 약세를 보였다.",
+      "impact": "시장 전반의 변동성 확대와 위험회피성 매물 출회로 인해 LG화학의 주가가 큰 폭으로 하락하여 단기적으로 투자 심리에 부정적이다.",
+      "caution": "시장 전체의 수급 및 차익실현 성격의 하락일 수 있으며 회사의 펀더멘털 자체의 변화를 의미하는 것은 아니다."
+    },
     "sk하이닉스솔리다임상장앞두고3지분매각외국인이탈에주": {
       "title": "SK하이닉스, 솔리다임 상장 앞두고 '3% 지분 매각'…외국인 이탈에 주...",
       "holding": "SK하이닉스",
@@ -395,14 +563,6 @@
       "summary": "Arkfeld Wealth Strategies L.L.C.가 나이키 주식 111,668주(약 384만 달러)를 새로 매수했으나, 나이키의 주가는 12개월 최고가인 70.44달러에 한참 못 미치는 37달러 부근에서 거래되고 있다. 애널리스트 평균 투자의견은 'Reduce'이며 평균 목표주가는 41.07달러이고, 최근 분기 주당순이익(EPS)은 예상치 0.43달러를 상회한 0.48달러를 기록했으나 매출은 전년 동기 대비 4.3% 감소한 112억 1,000만 달러를 기록했다.",
       "impact": "기관의 신규 매수 유입은 긍정적이나, 매출 감소와 낮은 목표주가 및 'Reduce' 투자의견 등 애널리스트들의 신중한 태도가 주가 상승을 제한하는 요인으로 작용한다.",
       "caution": "분기 EPS가 예상치를 상회한 점은 긍정적이나 전반적인 매출 감소와 보수적인 월가 시각이 공존한다."
-    },
-    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
-      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
-      "holding": "노보노디스크 ADR",
-      "stance": "중립",
-      "summary": "노보노디스크가 Wegovy 구독 모델을 출시했다는 언급이 제목에 있으나, 본문에는 의사 고용 계약 및 경업금지 조항과 관련된 내용만 수록되어 있다.",
-      "impact": "본문에 노보노디스크의 구체적인 사업 성과나 재무적 영향에 대한 내용이 없고 의사 고용 관련 안내문만 존재하여 보유 종목의 주가에 직접적인 영향을 주지 않는다.",
-      "caution": "제목에 노보노디스크와 웨고비가 언급되었으나 본문은 구인 및 계약 관련 일반 의학 칼럼이므로 기사 내용으로서의 정보 가치가 없다."
     },
     "stockmarkettodayoct19coreweavereboundsongoldmansachsbuyupgradeand139pricetarget": {
       "title": "Stock Market Today, Oct. 19: CoreWeave Rebounds on Goldman Sachs Buy Upgrade and $139 Price Target",
