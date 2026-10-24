@@ -1,17 +1,209 @@
 {
-  "generated_at": "2026-10-24T08:17:46+09:00",
+  "generated_at": "2026-10-25T07:38:53+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8649,
-    "output_tokens": 3882
+    "input_tokens": 9915,
+    "output_tokens": 4738
   },
   "skipped": {
-    "본문없음": 8,
+    "본문없음": 5,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "고점대비56급락sk하이닉스이번주실적발표반등계기되나": {
+      "title": "고점 대비 56% 급락 SK하이닉스…이번주 실적발표 반등 계기되나",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK하이닉스의 주가가 고점 대비 56% 급락하고 시총 비중이 20%를 밑돌았으나, 솔리다임의 미국 증시 상장 검토 중단 소식에 지난 23일 4.42% 반등한 127만7천원으로 마감했다. AI 투자 수익성 우려와 중복 상장 논란이 주가 하방 압력으로 작용해왔다.",
+      "impact": "핵심 사업 부문의 별도 상장 추진 철회로 주주가치 훼손 우려가 일부 해소되면서 투자 심리가 회복되는 경로로 SK하이닉스 주가에 긍정적이다.",
+      "caution": "매크로 환경 비우호 및 반도체 수요 성장세 둔화 우려는 여전하다."
+    },
+    "취임4주년이재용최대실적삼성전자발판기술투자ma구상": {
+      "title": "취임 4주년 이재용, 최대실적 삼성전자 발판 기술투자·M&A 구상",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자가 글로벌 빅테크 최초로 분기 100조원대 영업이익을 달성하며 최대 실적을 기록 중인 가운데, 이재용 회장이 27일 취임 4주년을 맞는다. 이 회장은 기술 투자와 M&A 구상에 집중할 예정이다.",
+      "impact": "사상 최대 실적을 바탕으로 한 기술 투자와 대형 인수합병 기대감이 삼성전자의 중장기 성장 동력을 강화하는 경로로 작용한다.",
+      "caution": "성과급 논란에 따른 노사 갈등 심화 등의 내부 과제가 존재한다."
+    },
+    "hd현대조선소구축자산인수투트랙정기선해외거점확장가속": {
+      "title": "HD현대, '조선소 구축·자산 인수' 투트랙…\"정기선號, 해외 거점 확장 가속\"",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대가 미국과 인도에서 신규 조선소를 구축하고 베트남과 필리핀 등에서는 자산을 인수하거나 임차하는 투트랙 전략으로 해외 거점 확장을 가속화하고 있다. 지난 22일 미국 키윗과 조선 합작 법인 설립 계약을 체결했다.",
+      "impact": "현지 맞춤형 생산 체제 구축과 재무 부담 최소화를 동시에 추진함으로써 글로벌 수주 경쟁력과 생산 효율성이 높아져 HD현대중공업의 실적에 긍정적이다.",
+      "caution": "해외 자산 통합 및 신규 조선소 초기 투자 비용이 실적에 미치는 영향을 모니터링해야 한다."
+    },
+    "broadcomvsdelltechnologieswhichstockisaipoweringtobeabetterbuyin2026": {
+      "title": "Broadcom vs. Dell Technologies: Which Stock Is AI Powering to Be a Better Buy in 2026?",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "브로드컴과 델 테크놀로지스의 2026년 실적 및 투자 매력을 비교하는 기사로, 델 테크놀로지스의 시가총액은 290B달러, 주가수익비율은 26.50을 기록했다.",
+      "impact": "종목이 직접 언급되었으나 타 기업과의 일반적인 재무 지표 비교 분석에 국한되어 주가에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "종목 분석 기사일 뿐 새로운 기업 이벤트나 실적 발표는 없다."
+    },
+    "treasurywineestatescuts170jobsafterausearningsslump": {
+      "title": "Treasury Wine Estates cuts 170 jobs after a U.S. earnings slump",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "호주 와인 기업인 트레저리 와인 에스테이트가 미국 시장 실적 부진으로 전 세계 직원 중 약 6%인 170명을 해고하고 구조조정을 단행했다.",
+      "impact": "보유 종목인 컨스텔레이션 브랜즈와는 무관한 타 회사(Treasury Wine Estates)의 구조조정 뉴스이다.",
+      "caution": "본문 내용은 다른 와인 기업에 대한 것이며 컨스텔레이션 브랜즈는 직접 언급되지 않았다."
+    },
+    "isconstellationenergynasdaqcegsetforanuclearpowershift": {
+      "title": "Is Constellation Energy (NASDAQ:CEG) Set for a Nuclear Power Shift?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "원자력 발전 기업인 컨스텔레이션 에너지(CEG)가 시장 주도권 변화 속에서 주목받고 있으며, 나스닥에서 0.69% 하락한 253.45달러를 기록했다.",
+      "impact": "원전 관련 시장 분위기를 전하고 있으나 구체적인 실적이나 새로운 계약 발표가 없어 보유 종목에 즉각적인 방향성을 주지 않는다.",
+      "caution": "시황 언급 수준의 기사이며 다른 종목들에 대한 가십성 뉴스 제목들이 함께 포함되어 있다."
+    },
+    "vistrastockfellnearly10inadayaftermetasearningshereswhyitsforecastalreadydiscountsthedatacenterhype": {
+      "title": "Vistra Stock Fell Nearly 10% in a Day After Meta’s Earnings. Here’s Why Its Forecast Already Discounts the Data Center Hype",
+      "holding": "콴타 서비시스",
+      "stance": "약한 악재",
+      "summary": "2026년 10월 22일 메타의 3분기 실적 발표 이후 AI 관련주들이 데이터센터 확장 비용 우려로 급락했으며, 콴타 서비시스(PWR) 주가도 오후 거래에서 8% 이상 하락했다. 메타는 비스타와 20년 계약을 맺었으나 메타의 자본 지출 전망 상향이 시장 전반의 투자 우려를 자극했다.",
+      "impact": "메타의 AI 데이터센터 투자 비용 부담 우려가 관련 인프라 및 전력 공급 관련 종목인 콴타 서비시스에 대한 매도세를 유발했다.",
+      "caution": "메타의 실제 계약과 콴타 서비시스의 펀더멘털 대비 시장 심리에 의한 단기 변동성일 수 있다."
+    },
+    "citigroupcutsfluenceenergystocktargetfromusd2000tousd1100": {
+      "title": "Citigroup cuts Fluence Energy stock target from USD 20.00 to USD 11.00",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "씨티그룹이 플루언스 에너지의 목표주가를 20달러에서 11달러로 하향 조정했으며, 플루언스는 3분기 매출 649.8백만 달러를 기록했다.",
+      "impact": "보유 종목인 이오스 에너지와는 다른 에너지저장장치(ESS) 기업인 플루언스 에너지에 대한 리포트이다.",
+      "caution": "보유 종목이 아닌 경쟁사 혹은 동종 업계 타 기업의 소식이다."
+    },
+    "credostockfellnearly10inadayasmaxlineartargeteditscablemarkethereswhatcredosceocalleditsbiggestmoat": {
+      "title": "Credo Stock Fell Nearly 10% in a Day as MaxLinear Targeted Its Cable Market. Here’s What Credo’s CEO Called Its Biggest Moat",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "크레도 테크놀로지는 맥실리언(MaxLinear)이 핵심 케이블 시장 진출을 발표한 후 10월 23일에 9.51% 하락한 147.29달러를 기록하며 2일간 19.2% 급락했다. CEO 빌 브레넌(Bill Brennan)은 10월 19일에 10b5-1 계획에 따라 16,666주의 주식을 매각했다.",
+      "impact": "경쟁사인 맥실리언이 크레도 주력 시장에 진입하겠다는 계획을 밝히면서 시장 점유율 방어에 대한 우려가 커져 주가에 하방 압력으로 작용했다.",
+      "caution": "맥실리언의 진입 선언에 따른 심리적 타격이 크지만, 실제 시장 점유율에 미치는 영향은 향후 실적을 더 지켜봐야 한다."
+    },
+    "cisconasdaqcscobouncesbackcanitbreakthroughresistance": {
+      "title": "Cisco (NASDAQ:CSCO) Bounces Back: Can It Break Through Resistance?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈(CSCO) 주가는 이전 날의 급락 이후 반등세를 보였으며, 최근 나스닥 종합지수 내에서 106.50달러를 기록했다. 본문 기사 내용은 다른 기업들의 뉴스 안내로 채워져 있으며 시스코에 대한 심층 분석이나 새로운 펀더멘털 변화는 포함되어 있지 않다.",
+      "impact": "단순한 주가 반등 소식 외에 기업 실적이나 사업 방향에 직접적인 영향을 주는 새로운 팩트가 없어 보유 종목 가치에 미치는 영향은 중립적이다.",
+      "caution": "본문 대부분이 다른 기업(Devon Energy, Philip Morris 등)의 기사 제목 목록으로 구성되어 있어 시스코와 관련된 구체적 정보가 매우 부족하다."
+    },
+    "vertivvrtstocklooksbelowfairvalueafterahugerun": {
+      "title": "Vertiv (VRT) Stock Looks Below Fair Value After A Huge Run",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스는 엔비디아 및 다소 시스템즈와의 새로운 AI 팩토리 파트너십과 AI 데이터센터 프로젝트와 연계된 대규모 수주 잔고를 확보하고 있다. 지난 5년간 약 660%의 높은 주가 상승률을 기록하며 강력한 멀티 이어 성장을 이어왔다.",
+      "impact": "엔비디아 등과의 AI 인프라 파트너십과 견고한 수주 잔고는 향후 현금 흐름 창출 능력을 높여주어 긍정적인 투자 모멘텀을 제공한다.",
+      "caution": "주가가 지난 수년간 매우 크게 상승했기 때문에 향후 현금 흐름이 주가 상승세를 따라가지 못할 경우 밸류에이션 부담이 커질 수 있다."
+    },
+    "lockheedmartinceotargets80ofsixthgenerationfightercapabilityinupgradedf35": {
+      "title": "Lockheed Martin CEO targets 80% of sixth-generation fighter capability in upgraded F-35",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "록히드마틴의 CEO 테이클렛은 10월 22일 3분기 실적 발표에서 업그레이드된 F-35에 6세대 전투기 핵심 기술의 80%를 반영하겠다는 목표를 밝혔다. 스컹크 워크스(Skunk Works)를 통해 6세대 독자 개발 비용의 50% 수준으로 이를 달성하겠다는 구상이다.",
+      "impact": "기존 주력 기종인 F-35의 성능을 대폭 강화하여 비용 효율적인 방산 솔루션을 제공함으로써 장기적인 계약 경쟁력과 수익성 개선에 기여할 수 있다.",
+      "caution": "CEO가 구체적으로 어떤 기술이 적용될지, 언제 서비스에 들어갈지, 비용 목표가 어떻게 산출되었는지 구체적으로 명시하지 않아 실현 가능성은 지켜봐야 한다."
+    },
+    "nikeslipsasgreaterchinafalls26andconversedrops28inq1": {
+      "title": "Nike Slips as Greater China Falls 26% and Converse Drops 28% in Q1",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키의 회계연도 1분기 매출은 4% 감소한 11.21억 달러를 기록했으며, 중화권 매출은 26%, 컨버스 매출은 28 급감했다. 무디스는 턴어라운드가 예상보다 지연된다는 이유로 나이키의 전망치를 부정적으로 조정했다.",
+      "impact": "핵심 시장인 중화권에서의 매출 부진과 신용평가사들의 부정적 전망은 실적 회복에 대한 시장의 신뢰를 낮추어 주가에 부담을 준다.",
+      "caution": "11월 16~17일에 예정된 인베스터 데이(Investor Day)에서 반등 전략이 제시될 경우 주가 흐름이 달라질 수 있다."
+    },
+    "novonordisksfactoryofthefuturemeetsacourtroomreprieveneithermovestheearningsneedl": {
+      "title": "Novo Nordisk's Factory of the Future Meets a Courtroom Reprieve — Neither Moves the Earnings Needl",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보 노디스크는 브라질 몬테스 클라루스 인슐린 공장 설계를 위해 디지털 트윈(가상 모델)을 도입해 설치 전 밸브 압력 결함을 사전에 발견했다. 또한 텍사스 연방법원은 경쟁사의 반독점 소송을 기각했으며, 두 사건 모두 긍정적이지만 어닝에 큰 변화를 주지는 않는다.",
+      "impact": "디지털 공정 도입으로 비용을 절감하고 소송 리스크를 방어한 것은 긍정적이나, 글로벌 실적 규모에 비해 단기적인 영향은 제한적이다.",
+      "caution": "디지털 트윈을 통한 수십만 리터의 물 절약과 법원 기각 등은 소소한 호재일 뿐 회사의 핵심 실적을 극적으로 끌어올리기에는 규모가 작다."
+    },
+    "powersupplydealsmightchangethecaseforinvestingingevernovastockgev": {
+      "title": "Power Supply Deals Might Change The Case For Investing In GE Vernova Stock (GEV)",
+      "holding": "GE 버노바",
+      "stance": "호재",
+      "summary": "벤처 글로벌(Venture Global)은 GE 버노바 및 베이커 휴즈와 최대 16개의 720MW 가스 화력 발전소 및 그리드 장비 공급을 위한 다년 간 프레임 계약을 체결했다. 이는 공공 그리드에 의존하지 않고 LNG 시설과 AI 데이터센터에 전력을 공급하기 위한 것이다.",
+      "impact": "급증하는 AI 데이터센터 및 에너지 수요에 맞춰 대규모 가스 터빈과 그리드 하드웨어를 공급하게 되므로 GE 버노바의 핵심 사업 성장 동력이 강화된다.",
+      "caution": "프레임 계약 체결에 따른 구체적인 최종 납품 시기와 마진율은 개별 프로젝트 진행 상황에 따라 달라질 수 있다."
+    },
+    "bloomenergyjustreporteditsbiggestorderisstillwaitingonapipeline": {
+      "title": "Bloom Energy Just Reported—Its Biggest Order Is Still Waiting on a Pipeline",
+      "holding": "블룸 에너지",
+      "stance": "호재",
+      "summary": "블룸 에너지는 오라클의 주피터 프로젝트 관련 불가항력 통지가 전체 25GW 수주 잔고의 약 10%에 불과해 영향이 미미하다고 밝혔다. 3분기 매출은 전년 동기 대비 138.9% 증가한 12억 4천만 달러를 기록하며 3분기 연속 가이던스를 상향 조정했다.",
+      "impact": "대형 프로젝트 관련 노이즈에도 불구하고 세 자릿수 매출 성장과 가이던스 상향 조주를 달성해 펀더멘털의 강함과 성장성을 입증했다.",
+      "caution": "주식 희석 및 광범위한 시장 조정이 최근 주가 성과에 부담을 주고 있다는 점은 유의해야 한다."
+    },
+    "geaerospacegeholdingsincreasedbyinspireinvestingllc": {
+      "title": "GE Aerospace $GE Holdings Increased by Inspire Investing LLC",
+      "holding": "GE 에어로스페이스",
+      "stance": "호재",
+      "summary": "인스파이어 인베스팅이 2026년 3분기 GE 에어로스페이스 지분을 373,353% 늘려 56,018주를 보유하게 되었다. GE 에어로스페이스는 3분기 조정 주당순이익(EPS)이 2.25달러로 컨센서스 2.01달러를 상회하고 매출은 전년 동기 대비 24.7% 증가한 13.29억 달러를 기록하며 연간 가이던스를 상향했다.",
+      "impact": "기관 투자자의 대규모 지분 확대와 예상을 뛰어넘는 3분기 실적 호조 및 가이던스 상향이 주가에 긍정적으로 작용한다.",
+      "caution": "고가 연료 비용과 GE9X 전환 비용 등 향후 리스크 요인도 함께 언급되어 있다."
+    },
+    "metaplatformsincmetastockwillisinvestmentcounselboostsposition": {
+      "title": "Meta Platforms, Inc. $META Stock: Willis Investment Counsel Boosts Position",
+      "holding": "메타 플랫폼스",
+      "stance": "호재",
+      "summary": "윌리스 인베스트먼트 카운슬은 2026년 3분기 메타 플랫폼스 주식을 5.8% 늘려 20,497주를 보유하게 되었다. 메타는 3분기 매출이 전년 동기 대비 26.1% 증가한 646억 달러, 주당순이익 7.40달러를 기록해 시장 예상을 상회했다.",
+      "impact": "기관 투자자의 지분 확대와 시장 예상을 뛰어넘는 강력한 3분기 실적이 메타 플랫폼스의 주가에 긍정적인 영향을 미친다.",
+      "caution": "2026년 자본 지출이 145억(기사 본문 기준 표현) 달러에 이를 수 있다는 점이 잉여현금흐름에 압박을 줄 수 있다는 우려가 존재한다."
+    },
+    "eatonvancemunicipalincome2028termtrustestimatesnyseetx": {
+      "title": "Eaton Vance Municipal Income 2028 Term Trust Estimates – NYSE:ETX",
+      "holding": "이튼",
+      "stance": "중립",
+      "summary": "이튼(Eaton) 관련 자산인 Eaton Vance Municipal Income 2028 Term Trust의 재무 데이터 및 애널리스트 추정치 정보를 제공하는 금융 플랫폼 안내 페이지이다.",
+      "impact": "단순 주가 예측 및 재무 데이터 조회 안내문으로, 보유 종목 이튼에 직접적인 실적이나 사업적 영향을 주는 내용은 없다.",
+      "caution": "본문은 기사가 아니라 금융 플랫폼의 데이터 안내문이다."
+    },
+    "whyisalcoanyseaabackinthemarketspotlight": {
+      "title": "Why Is Alcoa (NYSE:AA) Back In the Market Spotlight?",
+      "holding": "알코아",
+      "stance": "중립",
+      "summary": "알코아(AA)가 시장의 주목을 받고 있으며 다른 종목들의 최근 동향과 함께 간략히 언급되었다. 통합 알루미늄 생산자로서 시장 주도권 변화 속에 주목받고 있다.",
+      "impact": "구체적인 실적 수치나 계약 소식 없이 시장의 관심 증가만 언급되어 있어 직접적인 주가 영향 방향성을 가늠하기 어렵다.",
+      "caution": "본문에 구체적인 알코아의 실적이나 이벤트에 대한 내용이 부족하다."
+    },
+    "마켓인사이트솔리다임상장중단에반전한코스피금주향방은": {
+      "title": "[마켓인사이트] 솔리다임 상장중단에 반전한 코스피…금주 향방은",
+      "holding": "S-Oil",
+      "stance": "중립",
+      "summary": "금 가격이 변동성 확대와 지정학적 불안 속에서 연중 저점 수준으로 밀려났으며, 미국 금리 상승과 국제유가 강세가 인플레이션 우려를 키우고 있다. 본문은 금 ETF 및 거시경제 상황을 다루고 있다.",
+      "impact": "S-Oil이 직접 언급되지 않고 국제유가 강세에 따른 인플레이션 요인만 간접적으로 언급되어 종목 자체에 대한 직접적 영향은 제한적이다.",
+      "caution": "보유 종목 S-Oil에 대한 직접적인 기업 뉴스가 아니며 거시 경제 환경만 언급됨."
+    },
+    "취향을기준으로읽는렉스먹튀콘텐츠목록": {
+      "title": "취향을 기준으로 읽는 렉스 먹튀 콘텐츠 목록",
+      "holding": "포스코인터내셔널",
+      "stance": "중립",
+      "summary": "학교 교복 및 쉼표/시각적 상징물인 세브론과 학교 맞춤 제작 의류에 대한 역사와 특징을 설명하는 내용이다.",
+      "impact": "보유 종목인 포스코인터내셔널과 전혀 무관한 내용이다.",
+      "caution": "기사 내용이 광고 또는 스팸성 텍스트이며 포스코인터내셔널과 관련이 없다."
+    },
+    "2027산업반도체만웃는다불확실성증폭에업종기상도극과극": {
+      "title": "[2027 산업] 반도체만 웃는다…불확실성 증폭에 업종기상도 '극과 극'",
+      "holding": "LG화학",
+      "stance": "약한 악재",
+      "summary": "2027년 산업별 기상도에서 석유화학 업종은 구조조정이 지속될 것으로 전망되었다. 반면 반도체는 AI 수요로 호황이 예상되는 등 업종별 희비가 엇갈리고 있다.",
+      "impact": "LG화학이 속한 석유화학 업종이 구조조정과 불확실성 지속으로 부진할 것으로 전망되어 투자 심리에 부정적인 영향을 줄 수 있다.",
+      "caution": "LG화학 기업명이 직접 명시되지 않고 석유화학 업종 전반의 전망으로 다루어졌다."
+    },
+    "백사이트31가3상성공sk바사21가나오기전경쟁": {
+      "title": "백사이트 ‘31가’ 3상 성공…SK바사 ‘21가’ 나오기 전 경쟁↑",
+      "holding": "SK케미칼",
+      "stance": "약한 악재",
+      "summary": "미국 백신 개발사 백사이트가 31가 폐렴구균 백신 'VAX-31' 성인 임상 3상에 성공하면서 폐렴구균 백신 시장의 경쟁이 심화되고 있다. SK바이오사이언스는 현재 사노피와 21가 백신 'GBP410'을 공동 개발 중이며, 향후 양사 모두 적응증을 확대하면서 경쟁이 전 연령대로 넓어질 전망이다.",
+      "impact": "경쟁사의 고가·다(多)가수 백신 임상 성공으로 인해 향후 SK바이오사이언스의 백신 시장 점유율 확대와 수익성에 부담으로 작용할 수 있다.",
+      "caution": "백사이트는 성인, SK바이오사이언스는 소아 및 영유아를 주요 대상으로 개발 중이어서 당장의 직접적인 타격은 제한적일 수 있다."
+    },
     "솔리다임상장접은sk하이닉스30조주주환원코스피반등카드될까": {
       "title": "솔리다임 상장 접은 SK하이닉스…‘30조 주주환원’, 코스피 반등 카드 될까",
       "holding": "SK하이닉스",
