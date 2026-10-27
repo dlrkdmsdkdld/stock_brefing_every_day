@@ -1,17 +1,145 @@
 {
-  "generated_at": "2026-10-27T09:00:31+09:00",
+  "generated_at": "2026-10-28T08:54:40+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 9220,
-    "output_tokens": 4393
+    "input_tokens": 6564,
+    "output_tokens": 2780
   },
   "skipped": {
-    "본문없음": 6,
+    "본문없음": 9,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스3분기도사상최대실적행진보통주분기배당2만원": {
+      "title": "SK하이닉스, 3분기도 ‘사상 최대 실적 행진’…보통주 분기배당 ‘2만원’",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스는 3분기 연결 기준 매출 104조 6155억원, 영업이익 83조 3338억원을 기록하며 역대 최대 실적을 경신했다. 또한 보통주 1주당 2만원의 분기배당과 20조원 규모의 자사주 매입 및 소각 계획을 발표했다.",
+      "impact": "AI 메모리 수요 확대에 힘입어 사상 최대 실적을 달성하고 대규모 주주환원을 발표하여 기업 가치 상승과 투자 심리에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "내일삼성전자3분기세부실적메모리만110조영업익추정": {
+      "title": "내일 삼성전자 3분기 세부실적…메모리만 110조 영업익 추정",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자가 오는 29일 3분기 세부 실적을 공개할 예정인 가운데, 반도체 사업을 담당하는 DS 부문이 메모리 110조원 규모를 포함해 전사 영업이익을 견인했을 것으로 추정된다. 삼성전자는 3분기 매출 195조원, 영업이익 107조 4천억원을 기록하며 4개 분기 연속 역대 최고 실적을 경신했다.",
+      "impact": "반도체 초호황과 메모리 부문의 강력한 실적이 확인되면서 실적 기대감과 주가에 긍정적으로 작용한다.",
+      "caution": ""
+    },
+    "hd현대노사5개월만에임단협타결": {
+      "title": "HD현대重 노사 5개월 만에 임단협 타결",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업 노사가 5개월 만에 2차 잠정합의안에 합의하며 임단협이 가결되었다. 조합원 1인당 평균 4136만원 지급과 기본급 12만원 인상 등의 내용이 포함되었다.",
+      "impact": "조선업 호황 속에서 노사 리스크가 해소되고 생산 안정성이 확보되어 기업 운영에 긍정적이다.",
+      "caution": ""
+    },
+    "firstsolarjumpsaslowertreasuryyieldsandearningsanticipationappeartosupportsolarnames": {
+      "title": "First Solar jumps as lower Treasury yields and earnings anticipation appear to support solar names",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "퍼스트솔라의 주가가 5.2% 상승했으며, 이는 10월 29일 예정된 3분기 실적 발표에 대한 기대감과 미국 국채 금리 하락의 영향을 받았다. 최근 월가의 긍정적인 평가와 레이팅 상향도 주가를 지지하고 있다.",
+      "impact": "금리 하락으로 인한 태양광 섹터의 투자 환경 개선과 실적 기대감이 주가 반등을 이끌었다.",
+      "caution": ""
+    },
+    "constellationenergycorporationcegbeatsstockmarketupswingwhatinvestorsneedtoknow": {
+      "title": "Constellation Energy Corporation (CEG) Beats Stock Market Upswing: What Investors Need to Know",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 호재",
+      "summary": "컨스텔레이션 에너지는 최근 거래일에서 2.57% 상승하며 258.98달러를 기록해 S&P 500의 상승폭을 웃돌았다. 투자자들은 다가오는 실적 발표에 주목하고 있다.",
+      "impact": "전반적인 시장 상승세 속에서 지수 대비 초과 수익을 기록하며 투자 심리가 양호함을 보여준다.",
+      "caution": ""
+    },
+    "vistrasquarterlyearningspreviewwhatyouneedtoknow": {
+      "title": "Vistra's Quarterly Earnings Preview: What You Need to Know",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "비스트라 에너지는 11월 6일 시장 개장 전 3분기 실적 발표를 앞두고 있으며, 애널리스트들은 조정 주당순이익(EPS)이 2.87달러로 전년 동기 대비 급증할 것으로 예상하고 있다. 주가는 최근 거래에서 3.48% 상승했다.",
+      "impact": "실적 개선 기대감이 선반영되면서 주가 상승을 지지하는 요인으로 작용하고 있다.",
+      "caution": ""
+    },
+    "eosenergyenterprisesnasdaqeosestockpriceup83hereswhathappened": {
+      "title": "Eos Energy Enterprises (NASDAQ:EOSE) Stock Price Up 8.3% - Here's What Happened",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "이오스 에너지 엔터프라이즈의 주가는 거래량이 평균을 밑도는 가운데 8.3% 상승한 약 1.76달러를 기록했다. 최근 3분기 실적에서 주당순이익(EPS)은 예상치를 밑도는 손실을 기록했으나 매출은 예상치를 소폭 상회했다.",
+      "impact": "실적 부진과 엇갈린 애널리스트 평가 속에서 주가가 반등했으나 뚜렷한 방향성을 단정하기 어렵다.",
+      "caution": "거래량이 평균보다 크게 낮아 유의미한 추세 전환으로 보기 어렵다."
+    },
+    "almontyindustriesstockgains520percenttoeur870versusxetraclose": {
+      "title": "Almonty Industries stock gains 5.20 percent to EUR 8.70 versus Xetra close",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "알먼티 인더스트리의 주가가 5.20% 상승하여 8.70유로를 기록했다. B.리얼티 파이낸셜이 목표주가를 25달러에서 20달러로 하향 조정했으나 매수 의견을 유지했으며, DA데이비슨은 2026년 4분기 상동 시설의 매출 및 EBITDA 기여를 예상했다.",
+      "impact": "목표가 하향에도 불구하고 매수 의견 유지와 다가오는 상동 프로젝트의 매출 기여 전망이 투자 심리에 긍정적 영향을 주었다.",
+      "caution": ""
+    },
+    "ciscoisup47ibmisdown13whichdividendstockisbetterforretirement": {
+      "title": "Cisco Is Up 47%, IBM Is Down 13%. Which Dividend Stock Is Better for Retirement?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈는 연초 대비 46.77% 상승한 111.03달러를 기록한 반면, IBM은 13.13% 하락한 252.18달러를 기록했다. 두 전통 기술주의 주가 흐름이 엇갈리면서 은퇴자를 위한 배당주로서의 매력도와 수익률 격차가 달라지고 있다.",
+      "impact": "기사는 두 종목의 주가 변동과 배당 매력을 비교하는 내용으로, 시스코 자체의 직접적인 신사업 발표나 실적 호재/악재보다는 종합적인 비교 분석에 해당한다.",
+      "caution": "특정 기업의 단독 실적이나 계약 소식이 아닌 비교 칼럼이므로 보유 종목에 즉각적인 주가 영향은 제한적이다."
+    },
+    "vertivcompletesutilityinnovationgroupacquisitionforupto26billion": {
+      "title": "Vertiv Completes UtilityInnovation Group Acquisition For Up To $2.6 Billion",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스는 유틸리티인노베이션그룹(UIG) 인수를 완료했으며, 초기 현금 14억 5000만 달러에 최대 11억 5000만 달러의 조건부 대가가 추가되어 총액은 최대 26억 달러에 달한다. 이번 인수는 UIG의 예상 2027년 EBITDA의 약 13배 수준이며, 첫 온기부터 조정 주당순이익(EPS)에 긍정적(accretive) 기여를 할 것으로 기대된다.",
+      "impact": "데이터 센터용 마이크로그리드와 전력 솔루션 역량을 강화하여 장기적인 실적 성장에 직접적으로 기여한다.",
+      "caution": ""
+    },
+    "microsoftoptionspricea53stockmoveaheadofearnings": {
+      "title": "Microsoft Options Price a 5.3% Stock Move Ahead of Earnings",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트는 2027 회계연도 1분기 실적 발표를 앞두고 있으며, 옵션 시장에서는 약 5.3%의 주가 변동성을 가격에 선반영하고 있다. 실적 발표는 10월 28일 장 마감 후에 예정되어 있다.",
+      "impact": "실적 발표를 앞두고 시장의 기대와 변동성이 커진 상태로, 실제 실적 결과에 따라 주가 방향성이 결정될 경로를 제공한다.",
+      "caution": "옵션 가격을 통한 변동성 측정 기사일 뿐 실제 실적 내용은 아직 공개되지 않았다."
+    },
+    "novonordiskscourtroomlossandcagrisemadatabothdefertothe4novemberearningstest": {
+      "title": "Novo Nordisk's Courtroom Loss and CagriSema Data Both Defer to the 4 November Earnings Test",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "미국 법원이 일라이 릴리의 비교 광고에 대한 노보노디스크의 가처분 신청을 기각했으며, 10월 20일에는 새로운 카그리세마(CagriSema) 분석 결과가 공개됐다. 핵심 쟁점인 실제 사업 성과와 소송 결과는 11월 4일 실적 발표에서 판가름 날 예정이다.",
+      "impact": "법원의 가처분 신청 기각으로 경쟁사의 마케팅 공세가 지속되면서 단기적으로 심리에 부정적 영향을 줄 수 있다.",
+      "caution": "법원의 결정은 경제적 영향 판단에 근거한 것이며 최종 판결이나 광고의 적법성에 대한 확정적 판결은 아니다."
+    },
+    "anyataylorjoysnew103minutenetflixactionadventureisastreaminghitafterbrutalrtscore": {
+      "title": "Anya Taylor-Joy's New 103-Minute Netflix Action Adventure Is a Streaming Hit After Brutal RT Score",
+      "holding": "넷플릭스",
+      "stance": "중립",
+      "summary": "안야 테일러 조이가 주연한 넷플릭스 액션 어드벤처 영화 '새크리파이스'가 비평가들의 혹평에도 불구하고 스트리밍 상위권에 오르며 흥행하고 있다. 이 영화는 10월 16일 공개된 이후 미국 스트리밍 차트 상위권을 기록 중이다.",
+      "impact": "플랫폼 내 콘텐츠 흥행은 넷플릭스의 시청자 참여도에 긍정적이미지만, 기업 전체 실적에 미치는 영향은 단일 콘텐츠만으로는 제한적이다.",
+      "caution": "비평가 평점과 대중적 시청 순위가 엇갈리는 작품이다."
+    },
+    "이찬진금감원장은행지주이사회ceo승계절차공정성강화해야": {
+      "title": "이찬진 금감원장 \"은행지주 이사회, CEO 승계절차 공정성 강화해야\"",
+      "holding": "KB금융",
+      "stance": "중립",
+      "summary": "이찬진 금융감독원장은 연말 금융지주 CEO 인사를 앞두고 이사회의 투명한 승계 절차와 견제 역할 강화를 주문했다. 또한 금융투자업권의 해킹 사고를 언급하며 IT 보안 투자와 자율 방어체계 구축을 강조했다.",
+      "impact": "금융지주 전반의 지배구조 및 내부통제 강화 요구로, KB금융을 포함한 은행지주들의 CEO 승계 절차와 리스크 관리 체계에 간접적인 압박으로 작용한다.",
+      "caution": "특정 기업을 직접 겨냥한 제재나 개별 실적 이슈가 아니라 금융권 전반에 대한 감독당국의 일반적인 당부 사항이다."
+    },
+    "반짝흑자석유화학업계전쟁청구서긴장": {
+      "title": "반짝 흑자 석유화학업계 ‘전쟁 청구서’ 긴장",
+      "holding": "S-Oil",
+      "stance": "악재",
+      "summary": "국내 석유화학업계는 전쟁 기간 도입한 비싼 원유 투입으로 생산 비용이 급증하고 제품 가격 하락이 맞물리면서 3분기 실적이 적자 전환하거나 급감할 것으로 예상된다. 에쓰오일의 석유화학부문 역시 이익 대폭 감소가 전망된다.",
+      "impact": "원재료 도입 시점과 판매 시점의 시차로 인한 역래깅 효과가 발생하여 수익성이 크게 악화되는 경로로 작용한다.",
+      "caution": "증권가 전망치와 업계 전반의 추정에 기반한 것으로, 실제 실적 발표 내용은 차이가 있을 수 있다."
+    },
+    "포스코그룹장인화회장겹겹악재속체질개선성과이계인천시열심민석울상": {
+      "title": "포스코그룹 장인화 회장, 겹겹 악재 속 체질개선 성과...이계인·천시열 '好好', 심민석 '울상'",
+      "holding": "포스코인터내셔널",
+      "stance": "호재",
+      "summary": "포스코그룹 장인화 회장의 체질 개선 성과 속에서 포스코인터내셔널의 이계인 대표는 실적과 주가 측면에서 긍정적인 평가를 받고 있다. 포스코인터내셔널은 올해 매출과 영업이익이 증가할 전망이며 주가도 안정세를 유지하고 있다.",
+      "impact": "비핵심 자산 정리 및 리튬·에너지 등 신사업 중심의 사업 재편 속에서 포스코인터내셔널의 견조한 실적과 주가 방어력이 확인되어 기업 가치에 긍정적이다.",
+      "caution": "그룹 전체의 CEO 평가 기사의 일부로 포함된 내용이다."
+    },
     "sk하이닉스3분기에도깜짝실적낼까내일발표": {
       "title": "SK하이닉스 3분기에도 ’깜짝 실적’ 낼까…내일 발표",
       "holding": "SK하이닉스",
@@ -6307,14 +6435,6 @@
       "summary": "기사에서는 AI 인프라 기업 Super Micro Computer(SMCI)가 NVIDIA의 GB300 NVL72, HGX B300, B200 NVL4 등 기반 시스템을 출하하고 AMD와 Helios·MI450 Total Solution 등을 출시했다고 설명한다. SMCI의 2026회계연도 매출은 전년 대비 78% 증가한 391억달러였고, 4분기에 600억달러 이상의 신규 주문을 받아 2027회계연도 진입 시점에 사상 최대 수준의 수주잔고를 확보했다.",
       "impact": "SMCI의 AI 서버 수요와 수주잔고 증가는 AI 인프라 업황을 보여주는 자료이지만, 델의 매출·수주·경쟁력에 직접 영향을 주는 내용은 아니다.",
       "caution": "기사의 주제와 실적은 보유 종목인 델이 아니라 Super Micro Computer에 관한 것이다. 델의 사업이나 주가에 대한 구체적인 언급이 없어 직접적인 투자 판단 근거로 보기 어렵다."
-    },
-    "constellationenergycorporationcegbeatsstockmarketupswingwhatinvestorsneedtoknow": {
-      "title": "Constellation Energy Corporation (CEG) Beats Stock Market Upswing: What Investors Need to Know",
-      "holding": "컨스텔레이션 에너지",
-      "stance": "약한 호재",
-      "summary": "Constellation Energy(CEG)는 최근 거래일에 262.11달러로 마감하며 전 거래일보다 2.91% 상승했고, S&P500의 1.49% 상승률을 웃돌았다. 다만 최근 한 달간 주가는 6.66% 하락해 에너지 섹터의 0.51% 상승과 S&P500의 0.1% 상승을 밑돌았으며, 시장은 향후 실적에서 주당순이익 3.96달러와 전년 대비 30.26% 증가를 예상하고 있다.",
-      "impact": "시장 대비 강한 하루 주가 흐름과 예상 EPS 증가는 CEG에 대한 단기 투자심리와 실적 기대를 지지한다. 전력·에너지 업종 내 상대적 관심이 높아지면 비스트라와 같은 전력 발전 기업에도 업종 투자심리 개선 효과가 일부 나타날 수 있다.",
-      "caution": "기사는 보유 종목인 비스트라의 실적이나 사업을 직접 다루지 않고 CEG의 주가와 시장 전망을 설명한다. CEG의 상승이 비스트라의 실적 개선으로 이어진다는 보장은 없으며, CEG 역시 최근 한 달간 시장 대비 부진했다."
     },
     "vistraisdown36fromitsalltimehighistheaipowertradestillworthowning": {
       "title": "Vistra Is Down 36% From Its All-Time High. Is the AI Power Trade Still Worth Owning?",
