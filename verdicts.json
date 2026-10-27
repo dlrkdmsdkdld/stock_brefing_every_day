@@ -1,17 +1,201 @@
 {
-  "generated_at": "2026-10-26T07:42:41+09:00",
+  "generated_at": "2026-10-27T09:00:31+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 9505,
-    "output_tokens": 4626
+    "input_tokens": 9220,
+    "output_tokens": 4393
   },
   "skipped": {
-    "본문없음": 5,
+    "본문없음": 6,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스3분기에도깜짝실적낼까내일발표": {
+      "title": "SK하이닉스 3분기에도 ’깜짝 실적’ 낼까…내일 발표",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK하이닉스는 28일 3분기 실적 발표를 앞두고 있으며, 추가 주주환원 방안을 내놓을지 주목받고 있다. 최근 솔리다임 상장 중단 이후 처음 검토되는 이번 주주환원책은 중복상장 논란으로 불거진 주주가치 훼손 우려를 해소하는 데 도움을 줄 것으로 보인다.",
+      "impact": "실적 발표와 함께 추가적인 주주환원 방안이 구체화될 경우, 최근 인공지능 투자 수익성 우려 등으로 부담을 받았던 주가에 긍정적인 반등 계기로 작용할 수 있다.",
+      "caution": "실적 발표 전의 기대감 반영 단계이며 실제 발표 내용에 따라 주가 향방이 달라질 수 있다."
+    },
+    "삼성전자중국서삼성월렛머니위챗페이qr결제튼다": {
+      "title": "삼성전자, 중국서 '삼성월렛 머니' 위챗페이 QR 결제 튼다",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자는 텐센트, 우리은행과 업무협약을 맺고 중국 전역의 위챗페이 가맹점에서 '삼성월렛 머니'로 수수료 없이 결제할 수 있는 서비스를 추진한다. 내년 1분기에는 QR 결제 수단을 신용카드로 확대하고 NFC 기반 비접촉 결제 서비스도 해외에서 시작할 계획이다.",
+      "impact": "해외 간편결제 서비스 지역과 기능이 확대됨에 따라 삼성월렛 생태계가 확장되고 글로벌 사용자 경험 및 편의성이 증대되는 긍정적 요인으로 작용한다.",
+      "caution": "단기적인 실적 직접 기여도는 제한적일 수 있다."
+    },
+    "ibkhd한국조선해양풍부한수주잔고와자회사배당확대목표가41만원조선비즈": {
+      "title": "IBK證 “HD한국조선해양, 풍부한 수주 잔고와 자회사 배당 확대… 목표가 41만원” - 조선비즈",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "IBK투자증권은 HD한국조선해양에 대해 투자의견 매수와 목표주가 41만원을 제시하며 풍부한 수주 잔고와 자회사 배당 확대를 전망했다. 분석 과정에서 HD한국조선해양의 지배구조와 자회사인 HD현대중공업 및 HD현대삼호의 배당 구조를 비교·평가했다.",
+      "impact": "기사의 주된 분석 대상은 지주사인 HD한국조선해양이며, 보유 종목인 HD현대중공업은 배당 매력도 비교 측면에서 간접적으로 언급되어 직접적인 주가 영향은 중립적이다.",
+      "caution": "본문의 핵심 분석 대상이 HD한국조선해양이라는 점에서 HD현대중공업 단독 호재로 해석하기에는 한계가 있다."
+    },
+    "3dividendstockswithyieldsover3towatch": {
+      "title": "3 Dividend Stocks With Yields Over 3% To Watch",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "이 기사는 연 3% 이상의 배당수익률을 제공하는 배당주 3선을 다루고 있으나, 본문 일부에서 Fulton Financial의 커뮤니티 뱅킹 모델만 언급되고 컨스텔레이션 브랜즈에 대한 구체적인 내용은 누락되어 있다.",
+      "impact": "보유 종목인 컨스텔레이션 브랜즈가 제목에서 언급되었으나 본문 내용에서 실질적으로 다뤄지지 않아 종목에 미치는 영향은 없다.",
+      "caution": "기사 본문이 보유 종목과 직접적인 관련이 없으므로 중립으로 처리함."
+    },
+    "canconstellationenergynasdaqcegturnitscalpinedealintogrowth": {
+      "title": "Can Constellation Energy (NASDAQ:CEG) Turn Its Calpine Deal Into Growth?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지가 대규모 Calpine 인수를 어떻게 성장으로 연결할 것인지 다루는 기사이나, 본문 내용 대부분이 다른 종목들의 최근 뉴스 리스트와 광고성 문구로 채워져 있다.",
+      "impact": "보유 종목명이 제목에 언급되었으나 본문에 구체적인 실적이나 사건 전개 내용이 없어 주가에 주는 영향은 중립적이다.",
+      "caution": "본문에 구체적인 분석 내용이 없고 타 종목 관련 링크만 나열되어 있다."
+    },
+    "vistranysevstsharesclimb12shouldyoubuy": {
+      "title": "Vistra (NYSE:VST) Shares Climb 1.2% - Should You Buy?",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "비스트라 에너지의 주가는 1.2% 상승했으나 최근 발표된 분기 실적은 매출액 40억 2천만 달러와 주당순이익(EPS) 0.76달러를 기록해 시장 예상치를 밑돌았다. 회사는 주당 0.23달러로 분기 배당금을 인상했고 CEO가 주식을 매입한 반면 임원은 주식을 매도했다.",
+      "impact": "시장 예상치를 하회한 부진한 실적 발표는 단기적으로 투자 심리에 부정적인 영향을 줄 수 있으나, 배당금 인상과 CEO의 주식 매입이 하방을 지지하는 요인이 된다.",
+      "caution": "실적 부진에도 주가는 소폭 상승세를 보여 시장 반응이 혼재되어 있다."
+    },
+    "undervaluedindustrialstockswithstrongyearoveryearrevenuegrowth": {
+      "title": "Undervalued industrial stocks with strong year-over-year revenue growth",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "이 기사는 전년 동기 대비 강한 매출 성장을 보인 저평가된 산업재 주식들을 소개하며 이오스 에너지(EOSE) 티커를 언급했다. 인프라 지출 및 에너지 전환 투자 환경 속에서 퀀트 가치 평가 등급에 따른 11개 기업 중 하나로 포함됐다.",
+      "impact": "이오스 에너지가 에너지 저장 분야의 저평가 종목 스크리닝 목록에 포함되었으나, 구체적인 개별 기업의 호재성 실적 발표나 계약 소식이 아니어서 영향은 제한적이다.",
+      "caution": "단순 종목 스크리닝 언급에 불과하여 개별 기업의 펀더멘털 변화로 바로 연결하기 어렵다."
+    },
+    "whycredotechnologycrdostockisuptoday": {
+      "title": "Why Credo Technology (CRDO) Stock Is Up Today",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지는 별도의 실적 발표나 공시 없이도 주가가 5.8% 상승했다. 이는 AI 데이터센터 연결성 관련 제품에 대한 지속적인 낙관론과 최근 선보인 224G 기반 1.6T 광 송수신기 및 마이크로 에미터 광학 표준화 노력에 대한 기대감이 반영된 결과다.",
+      "impact": "AI 인프라 시장에서 고속 데이터 전송 및 연결성 제품의 경쟁력이 부각되면서 투자 심리가 개선되고 주가 상승으로 이어진다.",
+      "caution": "특정일의 주가 상승은 섹터 순환매 성격도 포함되어 있어 변동성에 유의해야 한다."
+    },
+    "willalphabetstocksurgeafteroct28": {
+      "title": "Will Alphabet Stock Surge After Oct. 28?",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳은 2026년 10월 28일 장 마감 후 3분기 실적을 발표할 예정이며, 월가 애널리스트들은 매출 1,278억 달러와 주당순이익(EPS) 3달러를 예상하고 있다. 지난 분기 실적 호조에도 불구하고 주가는 다음 날 7% 하락했으며, 역사적으로 실적 발표 직후의 주가 방향은 예측하기 어렵다.",
+      "impact": "실적 발표를 앞두고 있어 변동성이 클 수 있으나, 과거 실적 발표 직후의 주가 방향성이 엇갈렸기 때문에 실적 자체만으로 주가 상승을 확신하기 어렵다.",
+      "caution": "실적 발표 전전의 기대감과 변동성 언급일 뿐 실제 실적 결과는 아직 나오지 않았다."
+    },
+    "ciscotorewardpartnerswhoinfluencedealswithoutmakingthesale": {
+      "title": "Cisco to reward partners who influence deals without making the sale",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "시스코는 캐나다 밴쿠버에서 열린 시스코 파트너 서밋 2026에서 '시스코 360 파트너 프로그램'의 개편을 발표했다. 이번 개편에는 거래에 직접 참여하지 않고 구매 결정에 영향을 미치는 어드바이저와 개발자에게 보상을 제공하는 생태계 거래 등록 등이 포함되어 있다.",
+      "impact": "파트너십 보상 확대와 AI 기반 서비스 강화를 통해 채널 수익성과 파트너 참여도가 높아지면 시스코의 장기적인 영업 및 매출 성장에 긍정적인 영향을 미칠 수 있다.",
+      "caution": "파트너 프로그램 개편이 단기적인 실적에 미치는 영향은 제한적일 수 있다."
+    },
+    "microsoftsbiggestacquisitions7dealsandtheirprices": {
+      "title": "Microsoft's biggest acquisitions: 7 deals and their prices",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트의 액티비전 블리자드, 링크드인, 깃허브 등 역대 주요 인수합병 7건의 가격과 종료일, 사업적 의미를 정리한 가이드 기사이다. 윈도우와 오피스 외로 사업 범위를 확장한 배경을 설명한다.",
+      "impact": "과거의 주요 인수합병 이력을 요약한 정보성 기사로, 마이크로소프트의 현재 주가나 단기 실적에 직접적인 영향을 주지 않는다.",
+      "caution": "새로운 기업 이벤트가 없는 과거 정리성 내용이다."
+    },
+    "youcandobetterthannikebuythishighyielddividendstockinstead": {
+      "title": "You Can Do Better Than Nike. Buy This High-Yield Dividend Stock Instead.",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "나이키는 8월 31일 마감된 회계연도 1분기 매출이 환율 조정을 거쳐 5% 감소했으며, 올해 10월 22일까지 주가가 약 40% 하락했다. 반면 프록터앤갬블(P&G)은 배당을 늘리며 주가 상승을 기록하고 있어 나이키 대신 고배당주 투자를 추천하고 있다.",
+      "impact": "나이키의 실적 부진과 주가 하락세가 언급되었으나, 이 기사는 나이키 매도 및 타사 주가 매수를 권장하는 내용이므로 보유 종목 관점에서는 참고용 정보에 가깝다.",
+      "caution": "타사 종목 홍보가 포함된 비교 칼럼 기사이다."
+    },
+    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
+      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보 노디스크가 웨고비 구독 모델을 출시했다는 사실이 의료 뉴스 요약 본문에 한 줄로 언급되었으며, 화이자의  Lyme병 백신 효과 및 사기 사건 등 다양한 의료 소식이 함께 다뤄졌다.",
+      "impact": "노보 노디스크의 신규 구독 모델 출시 소식이 전해졌으나 본문에서 다룬 비중이 매우 적고 다른 의료계 뉴스와 함께 나열되어 있어 주가에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "보유 종목 관련 상세 분석이 아닌 주간 의료 뉴스 모음 중 일부로 언급되었다."
+    },
+    "earningsbeatmightchangethecaseforinvestingingestock": {
+      "title": "Earnings Beat Might Change The Case For Investing In GE Stock",
+      "holding": "GE 에어로스페이스",
+      "stance": "중립",
+      "summary": "GE 에어로스페이스는 최근 분기 매출 141억 1,800만 달러와 순이익 22억 8,800만 달러를 기록했으며, 지속 영업 기준 주당순이익이 증가했다. 상업용 항공 수요와 상점 방문 활동이 핵심 변수이며, 항공기 운항 둔화나 부품 수요 감소가 주요 운영 리스크로 꼽힌다.",
+      "impact": "탄탄한 실적과 서비스 백로그를 유지하고 있으나 높은 부채와 항공 수요 둔화 리스크가 공존하여 향후 실적 방향성을 지켜봐야 한다.",
+      "caution": "실적 수치와 리스크 요인이 병기되어 있어 방향성이 중립적이다."
+    },
+    "cointoreportq3earningstimetobuyholdorsellthestock": {
+      "title": "COIN to Report Q3 Earnings: Time to Buy, Hold or Sell the Stock?",
+      "holding": "코인베이스",
+      "stance": "중립",
+      "summary": "코인베이스는 2026년 10월 29일 장 마감 후 3분기 실적을 발표할 예정이며, 잭스 컨센서스 기준 3분기 매출은 12억 달러로 전년 동기 대비 37.4% 감소할 것으로 예상된다. 주당순이익은 15센트 적자가 예상되며, 최근 7일간 실적 추정치가 하향 조정되었다.",
+      "impact": "실적 발표를 앞두고 시장 예상 매출과 이익이 전년 대비 감소할 것으로 전망되어 투자 심리에 부담으로 작용할 수 있다.",
+      "caution": "실적 발표 전의 전망치 기준이므로 실제 발표 결과에 따라 주가 반응이 달라질 수 있다."
+    },
+    "netflixstockshouldyoubuythepostearningsdip": {
+      "title": "Netflix Stock: Should You Buy the Post-Earnings Dip?",
+      "holding": "넷플릭스",
+      "stance": "약한 악재",
+      "summary": "스트리밍 기업 넷플릭스는 지난주 부진한 분기 실적을 발표한 이후 주가가 연초 대비 약 30% 하락하며 2년 만의 최저 수준 근처에서 거래되고 있다. 실적 내용이 시장의 기대치에 미치지 못해 실적 발표 후 주가 하락세가 이어지고 있다.",
+      "impact": "최근 발표된 실적이 부진하여 실적 발표 직후 주가가 추가 하락세를 보이고 있어 단기적인 주가 하방 압력이 커진 상태다.",
+      "caution": "밸류에이션 매력으로 인한 저가 매수세 유입 가능성이 남아 있다."
+    },
+    "ai거품론속93조공급kb금융수익성시험대": {
+      "title": "AI 거품론 속 93조 공급…KB금융, 수익성 시험대",
+      "holding": "KB금융",
+      "stance": "중립",
+      "summary": "KB금융은 2030년까지 AI 데이터센터와 반도체 인프라 등 생산적금융에 총 93조원을 공급할 계획이다. 기업대출과 펀드 출자 등을 통해 첨단산업을 지원하지만, 대출 부실화와 투자금 회수에 대한 우려도 공존한다.",
+      "impact": "대규모 자금 공급이 장기적으로 이자 및 수수료 수익 증대로 이어질 수 있으나, 투자 자산의 가치 하락이나 부실 발생 시 리스크가 커질 수 있어 단기적인 영향은 중립적이다.",
+      "caution": "투자 규모 확대가 반드시 확실한 수익으로 직결되는 것은 아니며 대출 부실화 가능성이 함께 제기된다."
+    },
+    "삼성중공업오르카ai와ai접안솔루션버뷰상용출시": {
+      "title": "삼성중공업, 오르카 AI와 AI 접안 솔루션 ‘버뷰’ 상용 출시",
+      "holding": "삼성중공업",
+      "stance": "호재",
+      "summary": "삼성중공업은 해양 AI 기업 오르카 AI와 협력하여 자율운항 접안 솔루션 '버뷰'를 글로벌 시장에 상용 출시했다. 이 솔루션은 삼성중공업의 '에스비전'과 오르카 AI의 '씨팟'을 통합하여 대형 선박의 접안 안전성을 높인다.",
+      "impact": "자율운항 기술의 상용화로 신규 건조 선박 및 기존 선박 개조 시장에서의 기술 경쟁력이 강화되며, 향후 관련 매출 확대에 긍정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "poscounionthreatensindefinitestrikefromnovember2aswagetalkscollapse": {
+      "title": "POSCO Union Threatens Indefinite Strike From November 2 as Wage Talks Collapse",
+      "holding": "포스코인터내셔널",
+      "stance": "중립",
+      "summary": "포스코 노조는 임금 교섭 결렬로 인해 오는 11월 2일부터 무기한 총파업에 돌입할 예정이다. 양측은 지난 6월 16일부터 28차례 협상을 진행했으나 기본급 인상 폭 등에 대한 이견을 좁히지 못했다.",
+      "impact": "보유 종목인 포스코인터내셔널과 직접적인 관련이 있는 모회사 또는 계열사의 파업 가능성이 언급되었으나, 본 기사의 핵심 대상은 포스코 철강 부문으로 직접적인 공급 차질 여부는 추가 확인이 필요하다.",
+      "caution": "기사의 주요 대상은 포스코(POSCO) 본사 및 철강 노조이며, 포스코인터내셔널에 미치는 영향은 간접적이다."
+    },
+    "애프터마켓리뷰루닛미서밋과항암신약개발협력에급등": {
+      "title": "[애프터마켓 리뷰] 루닛, 미 서밋과 항암 신약 개발 협력에 급등",
+      "holding": "에코프로",
+      "stance": "중립",
+      "summary": "루닛이 미국 서밋 테라퓨틱스와 항암제 개발 AI 협력을 발표하며 급등했고 나무가는 로봇용 카메라 부품 공급 기대감으로 상승했다. 반면 코스피와 코스닥 지수는 외국인 매도세로 인해 하락 마감했다.",
+      "impact": "보유 종목인 에코프로가 직접 다뤄지지 않고 타 기업들의 주가 동향과 증시 전반의 분위기만 언급되었으므로 직접적인 주가 영향은 제한적이다.",
+      "caution": "에코프로에 대한 직접적인 실적이나 사업 내용 언급이 없다."
+    },
+    "북한연계해킹조직php취약점공격준비정황재계긴급점검": {
+      "title": "북한 연계 해킹조직, PHP 취약점 공격 준비 정황…재계 긴급 점검",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "웹 프로그래밍 언어 PHP의 보안 취약점을 악용한 공격 정황이 포착된 가운데, 국내 주요 그룹들은 긴급 점검을 실시했다. 포스코그룹은 긴급대응반을 꾸려 PHP 기반 시스템을 점검 및 패치했다고 밝혔다.",
+      "impact": "포스코그룹 차원에서 보안 점검을 신속히 완료하여 실제 피해는 확인되지 않았으나, 사이버 위협에 대한 경계감이 커진 상태로 주가에 미치는 영향은 중립적이다.",
+      "caution": "실제 침해 사례는 확인되지 않았으며 그룹 전체의 보안 조치 차원에서 다뤄졌다."
+    },
+    "한투증권lg화학시총엔솔지분가치고려시과도하게낮아": {
+      "title": "한투증권 \"LG화학 시총, 엔솔 지분가치 고려 시 과도하게 낮아\"",
+      "holding": "LG화학",
+      "stance": "호재",
+      "summary": "한국투자증권은 LG화학이 보유한 LG에너지솔루션 지분 가치와 ESS 부문 성장성을 감안할 때 현재 시가총액이 과도하게 낮다고 분석했다. 3분기 석유화학 부문은 부진하나 첨단소재 부문이 실적 개선을 이끌 것으로 전망했다.",
+      "impact": "자회사 가치 대비 본사의 저평가 분석과 투자의견 '매수', 목표주가 유지 소식은 투자 심리에 긍정적으로 작용하여 주가 상승 동력이 될 수 있다.",
+      "caution": "석유화학 사업부의 수요 부진과 원재료 가격 상승으로 단기 실적 악화 요인은 여전히 존재한다."
+    },
+    "종근당고용량토피라메이트서방정장착성인유지요법시장겨냥": {
+      "title": "종근당, 고용량 토피라메이트 서방정 장착 … 성인 유지요법 시장 겨냥",
+      "holding": "SK케미칼",
+      "stance": "중립",
+      "summary": "종근당이 토피라메이트 서방정 100mg 품목허가를 획득하며 성인 유지요법 시장 진입을 확대했다. 해당 성분의 오리지널 의약품은 SK케미칼이 국내에 독점 공급 중인 큐덱시서방캡슐이다.",
+      "impact": "경쟁 제네릭의 용량 확대는 오리지널 의약품의 시장 점유율에 일부 영향을 줄 수 있으나, SK케미칼의 독점 공급 계약 구조 자체에 즉각적인 타격을 준다고 단정하기는 어렵다.",
+      "caution": "종근당의 제네릭 허가 소식은 경쟁 심화 요인이나 SK케미칼 본문의 실적 타격 여부는 추가 모니터링이 필요하다."
+    },
     "단독sk하이닉스키옥시아지분차익16조원특별배당추진": {
       "title": "[단독]SK하이닉스, 日 키옥시아 지분 차익 16조원 특별배당 추진",
       "holding": "SK하이닉스",
@@ -115,14 +299,6 @@
       "summary": "나이키는 케빈 듀랜트의 시그니처 신발인 KD 19 '어트 펄(Aunt Pearl)' 에디션을 11월 13일에 170달러로 출시할 예정이라고 밝혔다. 해당 제품은 분홍색 대리석 느낌의 디자인을 특징으로 하며 암 인식 및 기부 캠페인과 연계되어 있다.",
       "impact": "한정판 스니커즈 출시로 팬들의 관심을 끌 수 있으나 전사 실적에 미치는 영향은 제한적이다.",
       "caution": "단순 제품 출시 안내 기사로 보유 종목의 재무적 영향은 거의 없다."
-    },
-    "pfizerslymediseasevaccineshows70efficacytexasmansentencedto125yearsin615mmedicaretelemarketingfraudschemenovonordisklauncheswegovysubscriptionmodelmorningmedicalupdate": {
-      "title": "Pfizer’s Lyme disease vaccine shows 70% efficacy; Texas man sentenced to 12.5 years in $61.5M Medicare telemarketing fraud scheme; Novo Nordisk launches Wegovy subscription model – Morning Medical Update",
-      "holding": "노보노디스크 ADR",
-      "stance": "중립",
-      "summary": "화이자의 라임병 백신 효능 발표, 텍사스 주의료 사기 사건, 그리고 노보 노디스크의 위고비(Wegovy) 구독 모델 출시 소식이 의료 뉴스 모음 형태로 보도되었다.",
-      "impact": "노보 노디스크의 위고비 구독 모델 출시는 소비자 접근성을 높일 수 있으나 단문 언급에 그친다.",
-      "caution": "여러 의료 뉴스를 모아놓은 주간 요약 기사로 노보 노디스크에 대한 심층적인 분석은 포함되어 있지 않다."
     },
     "gevernovaannouncesctedivoirepowerordergevernovastockcostseur72820": {
       "title": "GE Vernova announces Côte d’Ivoire power order. GE Vernova stock costs EUR 728.20",
