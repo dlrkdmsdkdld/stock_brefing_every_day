@@ -1,17 +1,153 @@
 {
-  "generated_at": "2026-10-30T09:03:36+09:00",
+  "generated_at": "2026-10-31T08:58:07+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 5472,
-    "output_tokens": 2713
+    "input_tokens": 6735,
+    "output_tokens": 3193
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 8,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "역대급축제엇갈린표정sk하이닉스웃고삼성전자고개숙이다": {
+      "title": "'역대급 축제' 엇갈린 표정…SK하이닉스 웃고 삼성전자 고개 숙이다",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자는 올해 3분기 호실적을 달성했음에도 특별 배당이나 자사주 소각 등 구체적인 주주환원 정책을 발표하지 않아 투자자들의 실망 매물이 쏟아졌다. 이로 인해 주가는 전일 대비 4.75% 하락했다.",
+      "impact": "기대했던 주주환원책 부재로 인해 개인과 외국인의 투매가 발생하며 단기 주가 하방 압력으로 작용했다.",
+      "caution": ""
+    },
+    "자취감추는직장금고풀뿌리금융역할론재점화": {
+      "title": "자취 감추는 직장금고…풀뿌리 금융 역할론 '재점화'",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "새마을금고와 신협 등 상호금융권의 직장금고 수가 지난 10년간 꾸준히 감소하여 현대건설과 HMM 등 대기업 직장금고도 예외가 아니었다. 반면 남아있는 직장금고의 총자산은 증가세를 보였다.",
+      "impact": "HD현대중공업이 직접적으로 언급되지 않았으며, 상호금융권 전반의 직장금고 감소 추세를 다룬 내용으로 보유 종목의 직접적인 실적이나 주가에 미치는 영향은 없다.",
+      "caution": "본문에서 현대중공업은 언급되지 않았으며 건설 및 해운사인 현대건설과 HMM만 예시로 언급되었다."
+    },
+    "judgeordersconstellationbrandsandcoorsdistributingcompanytoarbitration": {
+      "title": "Judge Orders Constellation Brands and Coors Distributing Company to Arbitration",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "법원이 콘스텔레이션 브랜즈와 쿠어스 디스트리뷰팅 컴퍼니 간의 사건을 중재(Arbitration)에 회부하도록 명령했다. 관련 법률 소송 및 유통 프랜차이즈와 관련된 법적 분쟁 내용이다.",
+      "impact": "사건의 법적 중재 회부라는 사실 외에 구체적인 재무적 영향이나 주가 방향성에 대한 정보가 부족하다.",
+      "caution": "기사 본문에 상세한 소송 가액이나 실적에 미치는 영향이 명시되지 않았다."
+    },
+    "usdojissuesclosingstatementforvistracogentrixelectricitymerger": {
+      "title": "US DOJ issues closing statement for Vistra-Cogentrix electricity merger",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "미국 법무부 반독점국은 비스트라와 코젠트릭스의 합병 조사 과정에서 양측이 메인주의 발전소를 매각하기로 합의함에 따라 조사를 종결했다. 이번 합의로 결합 법인의 전기 가격 인상 우려가 해소되었다.",
+      "impact": "규제 리스크로 꼽히던 반독점 조사가 공식적으로 종결되면서 합병 추진의 걸림돌이 제거되었다.",
+      "caution": "미국 법무부가 발전소 매각 이행 과정을 계속 모니터링할 예정이다."
+    },
+    "fromchinatopittsburgheosbetsonamericanmanufacturing": {
+      "title": "From China to Pittsburgh, Eos bets on American manufacturing",
+      "holding": "이오스 에너지",
+      "stance": "호재",
+      "summary": "아연 배터리 제조사인 이오스 에너지는 2019년 20여 명의 직원에서 현재 피츠버그 지역에서 800명이 넘는 고용을 창출하며 두 번째 공장을 가동 중이다. 회사는 미국 내 제조업 확장을 가속화하고 있다.",
+      "impact": "생산 공장 확장과 고용 증가를 통해 미국 내 시장에서의 제조 역량과 성장 잠재력을 입증하고 있다.",
+      "caution": "구체적인 매출이나 재무 실적 수치는 기사에 언급되지 않았다."
+    },
+    "aiistrategicmarketanalysisaiica": {
+      "title": "(AII) Strategic Market Analysis (AII:CA)",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 인더스트리즈(AII:CA)에 대한 인공지능(AI) 기반 단·중·장기 트레이딩 신호가 모두 강세로 분석되었다. 매수 목표가는 20.21, 손절가는 20.11로 제시되었다.",
+      "impact": "기술적 분석과 AI 기반 신호에 따른 트레이딩 관점의 리포트이며 펀더멘털의 직접적인 변화를 나타내지 않는다.",
+      "caution": "AI가 생성한 신호에 기반한 분석이므로 실제 투자 시 주의가 필요하다."
+    },
+    "zacksindustryoutlookhighlightsciscosystemsdigiinternationalandlantronix": {
+      "title": "Zacks Industry Outlook Highlights Cisco Systems, Digi International and Lantronix",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "브라우저 보안 확인 절차로 인해 시스코 시스템즈를 다룬 Zacks Industry Outlook 기사의 본문 내용을 정상적으로 확인할 수 없다.",
+      "impact": "기사 본문이 로딩되지 않아 시스코 시스템즈에 대한 구체적인 호재나 악재 요인을 파악할 수 없다.",
+      "caution": "봇 차단 화면으로 인해 실제 기사 내용이 제공되지 않았으므로 중립으로 처리함."
+    },
+    "vertivstock2026outlookraisedafterq3salessurge": {
+      "title": "Vertiv stock: 2026 outlook raised after Q3 sales surge",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스는 2026년 10월 28일 발표한 3분기 실적에서 순매출 43억 1300만 달러를 기록해 전년 동기 대비 61.2% 급증했으며 연간 전망치를 상향 조정했다. 유기적 매출 성장은 55%, 인수합병은 약 6% 기여했으며 유기적 주문은 전년 동기 대비 100% 이상 증가했다.",
+      "impact": "매출과 주문의 급격한 증가 및 연간 가이던스 상향은 기업의 본업 성장성이 가속화되고 있음을 보여주므로 주가에 강력한 호재로 작용한다.",
+      "caution": ""
+    },
+    "lockheedmartinlands10yeardealtobuildatleast850f35jetswhattoknow": {
+      "title": "Lockheed Martin Lands 10-Year Deal To Build at Least 850 F-35 Jets. What To Know",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 최소 850대의 F-35 제트기를 제조하는 10년짜리 장기 계약을 미 국방부와 체결했다. 이번 계약은 2026년의 여러 계약 및 호조를 보인 분기 실적에 이어 성사되었다.",
+      "impact": "대규모 장기 공급 계약 체결로 향후 10년간 안정적인 매출원과 현금 흐름을 확보하게 되어 기업 가치 상승에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "microsoftsold25billioninbondsadayafteritsazurebeathereswherethestockcouldgoby2031": {
+      "title": "Microsoft Sold $25 Billion in Bonds a Day After Its Azure Beat. Here’s Where the Stock Could Go by 2031",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트는 2026년 10월 29일 2028년부터 2066년까지 만기가 도래하는 250억 달러 규모의 선순위 무담보 채권을 발행했다. 이는 2017년 이후 첫 미국 투자등급 회사채 발행으로, 데이터센터 금융 리스 이자 등을 포함한 이자 비용 증가 우려가 제기되었다.",
+      "impact": "대규모 채권 발행으로 인한 이자 비용 증가와 향후 재무 부담 우려가 부각되면서 단기적으로 주가에 하방 압력을 줄 수 있다.",
+      "caution": "Azure 매출이 48% 성장하는 등 본업의 펀더멘털은 여전히 탄탄하다는 점을 함께 고려해야 한다."
+    },
+    "vanguardreportsapassivestakeinnikenkewithsolevotingpowerover268489shares": {
+      "title": "Vanguard reports a passive stake in NIKE (NKE), with sole voting power over 268,489 shares.",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "뱅가드 포트폴리오 매니지먼트는 2026년 9월 30일 기준 나이키 보통주 62,426,365주, 즉 5.19%의 지분을 보유하고 있다고 SEC에 보고했다. 뱅가드는 이 중 62,426,365주에 대한 단독 처분권과 268,489주에 대한 단독 의결권을 보유하고 있다.",
+      "impact": "대형 자산운용사의 단순 지분 공시로 기업의 영업 실적이나 펀더멘털에 직접적인 변화를 주지 않으므로 주가 영향은 중립적이다.",
+      "caution": "단순 지분 변동 공시이며 경영권이나 실적에 직접적인 호재나 악재로 작용하지 않는다."
+    },
+    "lillysretatrutidedeliversdoubletheweightlossofozempicraisingcompetitivestakesfornovonordisknysenvo": {
+      "title": "Lilly's Retatrutide Delivers Double The Weight Loss Of Ozempic, Raising Competitive Stakes For Novo Nordisk (NYSE: NVO)",
+      "holding": "노보노디스크 ADR",
+      "stance": "악재",
+      "summary": "일라이 릴리의 임상 3상 시험에서 레타트루티드가 오젬픽 대비 2배 이상의 체중 감량 효과(9mg 투여 시 19.5%, 12mg 투여 시 20.9%)를 기록했다. 씨티은행은 이 결과가 노보노디스크에 대한 경쟁 압력을 의미 있게 심화시킨다고 분석했다.",
+      "impact": "경쟁사의 차세대 비만 치료제가 뛰어난 효능을 입증함에 따라 시장 점유율 방어 및 마케팅 측면에서 노보노디스크의 오젬픽과 위고비에 강력한 위협으로 작용한다.",
+      "caution": ""
+    },
+    "appliedoptoelectronicsplunges15coherenttumbles13ashyperscalerspendingfearshitaiopticsstockslumentumandmarvellsink10": {
+      "title": "Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%",
+      "holding": "마벨 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "알파벳의 대규모 현금 지출 여파로 AI 데이터센터 광학 부품 공급업체들의 주가가 급락했으며, 마벨 테크놀로지 역시 10% 하락했다. 시장에서는 하이퍼스케일러의 AI 지출 규모와 지속 가능성에 대한 우려가 공급망 전반으로 확산되고 있다.",
+      "impact": "빅테크 기업의 AI 관련 지출 축소 우려가 동종 업계 전반의 투자 심리를 악화시켜 마벨 테크놀로지의 주가에도 단기적인 하방 압력으로 작용한다.",
+      "caution": "마벨 테크놀로지의 개별 수주 잔고나 실적 악화가 직접 확인된 것은 아니며 시장 전반의 심리 위축에 기인한다."
+    },
+    "stockmarkettodayoct30amazonmissesrevenueandearningsexpectations": {
+      "title": "Stock Market Today, Oct. 30: Amazon Misses Revenue and Earnings Expectations",
+      "holding": "아마존",
+      "stance": "악재",
+      "summary": "아마존은 2026년 10월 30일 프리마켓에서 발표된 실적이 매출과 순이익 예상치를 밑돌면서 주가가 1.41% 하락한 240.35달러로 마감했다. 거래량은 3개월 일평균 대비 약 153% 급증했으며 애널리스트들의 목표가 하향 조정이 이어졌다.",
+      "impact": "실적 부진과 함께 향후 가이던스 및 AWS 성장성에 대한 우려가 겹치면서 투자 심리가 위축되고 단기 주가 하락을 유발했다.",
+      "caution": ""
+    },
+    "isintelstockabuyafteritspostearningsplunge": {
+      "title": "Is Intel Stock a Buy After Its Post-Earnings Plunge?",
+      "holding": "인텔",
+      "stance": "약한 호재",
+      "summary": "인텔은 2026년 3분기 매출이 전년 동기 대비 21% 증가한 165억 달러를 기록했고 조정 주당순이익(EPS)은 0.52달러로 경영진 가이던스였던 0.38달러를 크게 상회했다. 다만 시간외 거래에서 주가는 전일 종가 92.07달러에서 약 71달러까지 급락하는 등 변동성을 보였다.",
+      "impact": "매출과 순이익 등 실제 사업 실적 자체는 가이던스를 뛰어넘는 호실적을 기록해 본업의 회복세를 보여주었다.",
+      "caution": "시간외 거래에서 주가가 급락한 원인이나 시장의 추가적인 우려 요인에 대해 본문만으로는 충분히 설명되지 않는다."
+    },
+    "whycircleinternetgroupcrclstockisdowntoday": {
+      "title": "Why Circle Internet Group (CRCL) Stock Is Down Today",
+      "holding": "서클 인터넷 그룹",
+      "stance": "악재",
+      "summary": "서클 인터넷 그룹(CRCL) 주가가 바이낸스 보안 사고 여파로 8.4% 하락했다. 사고 대응 과정에서 8억 달러 이상의 USDC가 동결되었으며, CCTP V1 지원 중단과 내부자 매도 공시 등도 악영향을 미쳤다.",
+      "impact": "USDC 동결 조치와 CCTP V1 지원 중단 등 운영상 불확실성이 부각되면서 투자 심리가 악화되어 단기 주가 하락으로 이어졌다.",
+      "caution": "기사에 언급된 주가 하락률과 동결 자금 규모 등은 특정 분석에 기반한 것으로 향후 시장 상황에 따라 변동될 수 있다."
+    },
+    "coinq3earningsbeatonpredictionmarketslowercosts": {
+      "title": "COIN Q3 Earnings Beat on Prediction Markets, Lower Costs",
+      "holding": "코인베이스",
+      "stance": "호재",
+      "summary": "코인베이스(COIN)는 2026년 3분기 조정 주당순이익이 28센트를 기록하여 적자 예상을 깨고 어닝 서프라이즈를 달성했다. 전체 매출은 12억 1,600만 달러로 전년 대비 35% 감소했으나 예상치를 소폭 상회했으며, 예측 시장 성장과 비용 절감이 실적을 방어했다.",
+      "impact": "암호화폐 거래 부진 속에서도 예측 시장의 성장과 비용 절감을 통해 시장 예상치를 웃도는 실적을 거두어 수익성 개선 기대감을 높였다.",
+      "caution": "조정 순이익이 전년 동기 대비 81.5% 감소한 점 등 전반적인 매출 감소세가 지속되고 있음에 유의할 필요가 있다."
+    },
     "하이닉스20조자사주매입증권가코스피하방지지역할상승": {
       "title": "하이닉스 20조 자사주 매입… 증권가 “코스피 하방 지지 역할, 상승 ...",
       "holding": "SK하이닉스",
