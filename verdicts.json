@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T09:07:59+09:00",
+  "generated_at": "2026-10-30T09:03:36+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 5190,
-    "output_tokens": 2836
+    "input_tokens": 5472,
+    "output_tokens": 2713
   },
   "skipped": {
     "본문없음": 3,
@@ -12,6 +12,134 @@
     "호출실패": []
   },
   "verdicts": {
+    "하이닉스20조자사주매입증권가코스피하방지지역할상승": {
+      "title": "하이닉스 20조 자사주 매입… 증권가 “코스피 하방 지지 역할, 상승 ...",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK하이닉스가 20조원 규모의 자사주 매입에 착수하면서 기타법인 순매수가 3383억원으로 급증했다. 증권가에서는 이번 자사주 매입이 코스피 하방 지지 역할을 할 수 있다고 분석했다.",
+      "impact": "대규모 자사주 매입 및 소각 계획은 SK하이닉스의 주가 하단을 지지하고 수급을 개선하는 긍정적인 요인으로 작용한다.",
+      "caution": "증권가에서는 자사주 매입이 지수 하락 방어는 가능해도 주가를 강하게 끌어올리는 데는 한계가 있다고 분석했다."
+    },
+    "ibk삼성전자부족한주주환원으로주가상승제한적일것목표가하향": {
+      "title": "IBK證 \"삼성전자, 부족한 주주환원으로 주가 상승 제한적일 것…목표가 하향\"",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "IBK투자증권은 삼성전자의 주주환원 정책이 시장 기대에 미치지 못한다며 목표주가를 46만원에서 35만원으로 하향 조정했다. 다만 4분기 메모리 영업이익이 140조원에 이를 것으로 전망되며 HBM 경쟁력 개선 가능성도 언급됐다.",
+      "impact": "주주환원 실망감으로 단기 주가 상승 여력이 제한될 수 있으나, 메모리 공급 부족 장기화와 HBM 실적 개선 기대감은 하방을 방어하는 요인이다.",
+      "caution": "연내 추가적인 주주환원 정책 발표가 없을 것으로 예상되어 단기 모멘텀이 약화될 수 있다."
+    },
+    "hd현대중공업hmm컨테이너선2척건조수주": {
+      "title": "HD현대중공업, HMM 컨테이너선 2척 건조 수주",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 HMM과 4799억원 규모의 컨테이너선 2척 건조 계약을 체결했다. 계약 기간은 2029년 12월 31일까지이며, 이는 2025년 매출액의 2.73%에 해당한다.",
+      "impact": "대규모 선박 수주 확정으로 안정적인 매출 확보와 일감 확보에 기여하여 HD현대중공업의 실적 성장에 긍정적이다.",
+      "caution": ""
+    },
+    "factcheckfakevideoofsusandelldancingwasaigenerated": {
+      "title": "Fact Check: FAKE Video of Susan Dell Dancing Was AI-Generated",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지스 CEO 마이클 델의 아내인 수전 델의 춤추는 영상이 AI로 생성된 가짜 영상이라는 팩트체크 기사다.",
+      "impact": "델 테크놀로지스의 본업이나 실적, 주가에 직접적인 영향을 주지 않는 가십성 팩트체크 기사다.",
+      "caution": "보유 종목인 델과 직접적인 사업적 연관성이 없다."
+    },
+    "canconstellationbrandsnysestzmaintainitsgrowthdespiteheadwinds": {
+      "title": "Can Constellation Brands (NYSE:STZ) Maintain Its Growth Despite Headwinds?",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "콘스텔레이션 브랜즈(STZ)의 최근 실적과 성장성에 관한 기사이나 본문에 구체적인 내용이 생략되어 있다.",
+      "impact": "종목이 언급되었으나 상세한 실적이나 주가에 영향을 줄 만한 새로운 정보가 본문에 포함되지 않았다.",
+      "caution": "본문에 구체적인 실적 수치나 사건이 없어 중립으로 처리했다."
+    },
+    "firstsolarnasdaqfslrreleasesquarterlyearningsresultsbeatsestimatesby063eps": {
+      "title": "First Solar (NASDAQ:FSLR) Releases Quarterly Earnings Results, Beats Estimates By $0.63 EPS",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "퍼스트솔라는 3분기 EPS가 5.30달러로 컨센서스(4.67달러)를 웃돌았으나, 순매출 1억 2300만 달러는 예상치(1억 2900만 달러)를 밑돌았다. 사우스캐롤라이나 공장 1단계 가동과 135억 달러 규모의 44GW 수주 잔고가 실적을 뒷받침했다.",
+      "impact": "어닝 서프라이즈를 기록한 EPS와 견조한 수주 잔고는 주가에 긍정적이나 매출 미달과 정책 불확실성이 일부 부담이다.",
+      "caution": "관세 및 관련 법안에 대한 고객들의 대기 수요로 인해 신규 예약이 주춤해진 리스크가 있다."
+    },
+    "eosenergyenterprisesinceoseseasonalreturnschartyahoofinance": {
+      "title": "Eos Energy Enterprises, Inc. (EOSE) Seasonal Returns Chart - Yahoo Finance",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "이오스 에너지 엔터프라이즈의 월별 평균 및 중앙값 수익률을 제공하는 시즌성 수익률 차트에 대한 안내문이다.",
+      "impact": "기업의 실적이나 구체적인 뉴스 없이 통계적 차트 정보를 안내하는 내용으로 주가에 즉각적인 영향을 주지 않는다.",
+      "caution": "뉴스 기사가 아닌 웹사이트 안내문 성격의 글이다."
+    },
+    "almontysfirsttungstencargointhreedecadesleavesthegradequestionunanswered": {
+      "title": "Almonty's First Tungsten Cargo in Three Decades Leaves the Grade Question Unanswered",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티가 상동 광산에서 30년 만에 처음으로 텅스텐 화물을 고객사로 출하했으나 목표 생산량 달성 여부와 순도 기준 충족 여부는 아직 불확실하다. 이 가운데 B.Riley Securities는 목표주가를 25달러에서 20달러로 하향 조정했다.",
+      "impact": "첫 출하라는 역사적 이정표를 달성했으나 증권가의 목표가 하향과 생산 능력에 대한 시장의 의구심이 상존하여 방향성이 엇갈린다.",
+      "caution": "출하 이후의 구체적인 생산량과 품질 충족 여부가 아직 검증되지 않아 신중한 접근이 필요하다."
+    },
+    "credotechnologygroupholdingltdcrdoseasonalreturnschart": {
+      "title": "Credo Technology Group Holding Ltd (CRDO) Seasonal returns chart",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지(CRDO)의 계절별 수익률 차트를 통해 투자 전략을 위한 월별 평균 및 중앙값 수익률을 제공한다는 내용이다.",
+      "impact": "구체적인 실적 발표나 계약 소식이 아닌 단순 통계적 차트 안내이므로 주가에 직접적인 방향성 영향을 주지 않는다.",
+      "caution": "종목 분석을 위한 참고용 통계 정보일 뿐 새로운 실적이나 펀더멘털 변화는 포함되어 있지 않다."
+    },
+    "valueofgoogleparentalphabetplungesby500bnasaifearsrattlewallstreet": {
+      "title": "Value of Google parent Alphabet plunges by $500bn as AI fears rattle Wall Street",
+      "holding": "알파벳 A",
+      "stance": "악재",
+      "summary": "알파벳은 AI 검색 요약이 광고 수익에 영향을 미치면서 500억 달러 가치가 폭락하고 주가가 6개월 내 최저치를 기록했다. 전체 매출은 25% 증가한 1276억 달러를 기록했고 구글 클라우드 매출도 103% 성장한 거의 31억 달러에 달했으나 투자자들은 AI 지출 증가가 핵심 사업 성장에 미치는 부담에 실망했다.",
+      "impact": "AI 관련 비용 급증과 광고 수익 우려로 인해 알파벳의 주가가 크게 하락하며 투자 심리에 직접적인 악영향을 주었다.",
+      "caution": "구글 클라우드 등 핵심 사업의 절대적인 매출 성장세는 여전히 유지되고 있다."
+    },
+    "ciscosjeetupatelaiordershit93billionaftera1billionbetnobodytookseriously": {
+      "title": "Cisco's Jeetu Patel: AI Orders Hit $9.3 Billion After a $1 Billion Bet Nobody Took Seriously",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코의 제투 파텔 최고제품책임자에 따르면, 회사의 AI 인프라 주문액이 초기 목표를 넘어 하이퍼스케일러들로부터 93억 달러를 기록했다. 이는 네트워킹 기업이 AI 공급망에 성공적으로 진입했음을 보여주는 사례다.",
+      "impact": "AI 기반 워크로드 매출이 93억 달러로 급증하면서 시스코의 AI 시장 내 입지와 실적 성장에 대한 기여도가 커지고 있음을 입증한다.",
+      "caution": "과거 실적 및 목표치 달성 과정에 대한 인터뷰 내용으로, 향후 지속적인 마진 확보 여부는 지켜봐야 한다."
+    },
+    "lockheedmartinwins437mnavycontracttoupgradef35lightningiisystems": {
+      "title": "Lockheed Martin Wins $43.7M Navy Contract to Upgrade F-35 Lightning II Systems",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "미국 해군은 록히드마틴과 F-35 라이트닝 II 시스템 업그레이드를 포함한 4,370만 달러 규모의 계약을 체결했다.",
+      "impact": "방산 계약 수주를 통해 안정적인 매출 기반을 확보했으나 록히드마틴의 전체 규모에 비해서는 금액이 크지 않다.",
+      "caution": "본문 내용 중 대부분은 다른 헬스케어 계약에 대한 설명이며 록히드마틴 관련 내용은 간략히 언급만 되었다."
+    },
+    "amazonslides3asalphabets12plungeraisesstakesforawsreportmetarises3microsoftpullsback": {
+      "title": "Amazon Slides 3% as Alphabet's 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "알파벳의 12% 급락 여파로 아마존의 AWS 실적에 대한 경계감이 커지며 아마존 주가가 3% 하락했고, 마이크로소프트도 2% 하락하며 조정을 받았다.",
+      "impact": "동종 기술주의 AI 관련 우려와 주가 급락 전염 효과로 인해 마이크로소프트의 주가에 단기적인 하방 압력으로 작용한다.",
+      "caution": "마이크로소프트 자체의 개별 악재라기보다는 알파벳 실적 충격에 따른 섹터 전반의 투자 심리 위축 영향이다."
+    },
+    "nikesindiaplaybooka3795runningshoeaflipkartdebutandabarclaysupgrade": {
+      "title": "Nike's India Playbook: A ?3,795 Running Shoe, a Flipkart Debut, and a Barclays Upgrade",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "나이키는 인도 시장을 겨냥해 현지에서 개발한 러닝화 '베감 런'을 3,795루피에 플립카트 등을 통해 출시하며 현지화 전략을 펼치고 있고 바클레이즈도 주가 반등 가능성을 언급했다.",
+      "impact": "부진한 실적 속에서 신흥 시장인 인도 맞춤형 제품 출시와 투자 의견 상향은 향후 매출 다변화에 긍정적인 신호이다.",
+      "caution": "신제품의 실제 판매 실적이 본격적인 실적 개선으로 이어질지는 좀 더 지켜봐야 한다."
+    },
+    "elilillyjumps8asstrongquarterliftsrevenueoutlooknovonordiskticksupvikingtherapeuticseases": {
+      "title": "Eli Lilly Jumps 8% as Strong Quarter Lifts Revenue Outlook; Novo Nordisk Ticks Up, Viking Therapeutics Eases",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "일라이릴리가 강력한 3분기 실적과 상향된 매출 전망으로 주가가 8% 급등한 가운데, 경쟁사인 노보노디스크는 1% 소폭 상승하는 데 그쳤다.",
+      "impact": "비만 치료제 시장 경쟁 구도에서 일라이릴리가 크게 앞서 나가는 모습을 보여주어 노보노디스크 입장에서는 상대적인 경쟁 압력이 커질 수 있다.",
+      "caution": "노보노디스크 자체의 악재라기보다는 경쟁사의 어닝 서프라이즈에 따른 상대적 주가 움직임이다."
+    },
+    "하반기가더좋을까코스맥스3분기영업익껑충": {
+      "title": "하반기가 더 좋을까…코스맥스 3분기 영업익 껑충",
+      "holding": "코스맥스",
+      "stance": "호재",
+      "summary": "코스맥스의 3분기 연결 기준 매출액은 8,202억원, 영업이익은 773억원으로 전년 동기 대비 각각 40.06%, 81.18% 증가할 것으로 전망됐다. 국내 법인의 인디 브랜드 수출 호조와 미국 법인의 흑자 기조 유지가 실적 성장을 이끌고 있다.",
+      "impact": "국내외 법인의 동반 성장과 사상 최대 수준의 영업이익 전망은 코스맥스의 펀더멘털 개선과 주가에 강력한 호재로 작용한다.",
+      "caution": "증권사 컨센서스 기반의 전망치이므로 실제 발표되는 실적과의 차이를 확인할 필요가 있다."
+    },
     "sk하이닉스분기매출100조에주주에100조푼다주당2만원배당": {
       "title": "SK하이닉스, 분기 매출 100조에 주주에 100조 푼다…주당 2만 원 배당",
       "holding": "SK하이닉스",

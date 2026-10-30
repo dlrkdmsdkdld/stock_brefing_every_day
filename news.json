@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-29T09:06:56+09:00",
-  "today_kst": "2026-10-29",
+  "fetched_at": "2026-10-30T09:02:23+09:00",
+  "today_kst": "2026-10-30",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
     "국내": [
@@ -13,11 +13,11 @@
     ]
   },
   "counts": {
-    "종목": 18,
-    "기사": 18,
+    "종목": 19,
+    "기사": 19,
     "교차확인": 2,
-    "본문확보": 15,
-    "하단이탈": 0
+    "본문확보": 16,
+    "하단이탈": 1
   },
   "errors": [],
   "news": {
@@ -25,24 +25,29 @@
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 82,
+      "today_count": 76,
       "stories": [
         {
-          "title": "SK하이닉스, 분기 매출 100조에 주주에 100조 푼다…주당 2만 원 배당",
-          "published_kst": "2026-10-29T08:53+09:00",
+          "title": "하이닉스 20조 자사주 매입… 증권가 “코스피 하방 지지 역할, 상승 ...",
+          "published_kst": "2026-10-30T06:01+09:00",
           "relevance": "direct",
           "sources": {
             "네이버 금융": {
-              "publisher": "MBN",
-              "url": "https://n.news.naver.com/mnews/article/057/0001975681",
-              "published_kst": "2026-10-29T08:53+09:00"
+              "publisher": "조선비즈",
+              "url": "https://n.news.naver.com/mnews/article/366/0001201400",
+              "published_kst": "2026-10-30T06:01+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "Chosunbiz",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd250aEozU1pmSFRiaXU5VGtOX0ZmN2pLcnFja2UtLXRTWDBpc011eUMteFRKanlRenZ4UzVRU3RzejAwTGRaZUVxUkpYTWpNT01zM2N6cUtvQnd5cWk5cVVfZGdsU1VzR1QxSU4zeEtGWXpOYzVoblJ6aVNuZjNjaGsyUFRQeEZi0gGcAUFVX3lxTE0wTFF5RXBxTXQtRGR0ZWtkWmc1c0FkU01saDB4ejQxd0s1YXJxQXJXYnF2aFNrQVl0eFQzVEJyYnFOaFRWa2E2SVZBUGVQX3NvV1JQellKS0tMS1FDTFBYOTNEY2dlUVRmUjQyQ3c0cUQteXFTZEE5RFIteEQ1UDdDcURneDF0S3ZXS2pQd1ZOcFZPeUJKMnB5Sms1Qg?oc=5",
+              "published_kst": "2026-10-30T06:04+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
+          "source_count": 2,
+          "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 11.0,
-          "body": "【 앵커멘트 】\n SK하이닉스가 또다시 역대 최대 실적을 기록했습니다.\n 동시에 실적에 걸맞게 주주들을 위해 100조 원을 풀기로 했는데요.\n 특히 배당금으로 한 주당 2만 원씩 지급합니다. 지금 주식을 사도 배당을 받을 수 있다고 합니다.\n 보도에 최돈희 기자입니다. \n\n【 기자 】\n SK하이닉스가 또다시 역대급 실적을 기록했습니다.\n\n 분기 매출이 처음으로 100조 원을 돌파했고, 영업이익은 83조 원을 기록했습니다.\n\n 1천 원을 팔아 8백 원 가까이 남긴 건데 글로벌 경쟁 기업보다 높은 수준입니다.\n\n 매출과 영업이익 모두 6개 분기 연속 사상 최대 실적입니다. \n\n▶ 인터뷰 : 김우현 / SK하이닉스 CFO\n- \"AI 메모리 수요 성장에 따른 타이트한 수급 상황이 지속되며 메모리 가격 상승세가 이어졌습니다.\"\n\n 역대급 실적과 더불어 주주 환원 규모도 큰 관심을 끌었습니다.\n\n 지난 8월 발표한 자사주 매입을 포함해 올해 주주 환원 규모를 100조 원 수준으로 확대하기로 했습니다. \n\n 특히, 현금배당이 눈에 띕니다. \n\n 일본 반도체 기업 키옥시아 투자 수익도 주주들과 나누기로 하면서 3분기 배당금은 주당 2만 원으로 늘었습니다.\n\n 기존 분기 배당금의 50배가 넘는 액수입니다.\n\n 배당 기준일은 다음 달 30일로 지금 주식을 사도 배당을 받을 수 있습니다.\n\n▶ 인터뷰(☎) : 김대종 / 세종대 경영학부 교수\n- \"최고가 대비 50% 하락한 상황이기 때문에 주주들을 달래기 위해서 지속적으로 자사주 매입과 배당을 해야 된다….\"\n\n 시장에선 '번 만큼 확실히 돌려준다'는 경영진의 의지를 보여 준거란 평가가 나옵니다.\n\n▶ 인터뷰 : 곽노정 / SK하이닉스 CEO\n- \"사업의 성장과 투자 성과가 쌓일수록 주주와 나누는 결실도 함께 커져야 한다고 생각합니다.\"\n\n 또, 외국인과",
+          "importance": 11.5,
+          "body": "SK하이닉스 2차 매입 첫날 기타법인 3383억 순매수 \n기타법인 매수 7배 증가에도 코스피 1.2% 하락\n증권가 “자사주는 하방 지지… 외인 매도 완화·빅테크 실적 관건”\n\n /일러스트=챗GPT 달리3 \n SK하이닉스가 2차 자사주 매입에 착수하면서 한동안 사라졌던 기업 매수세가 코스피 시장에 다시 유입됐다. 외국인도 3거래일 연속 순매수를 이어갔지만, 삼성전자가 주주 환원 실망감에 4% 넘게 떨어지면서 29일 코스피 지수는 1%대 하락 마감했다.\n\n증권가에서는 자사주 매입이 지수 하락을 막는 역할은 할 수 있어도, 끌어올릴 수 있는 영향력은 크지 않다고 분석했다.\n\n이날 SK하이닉스의 자사주 매입 물량이 포함된 것으로 추정되는 기타 법인은 3383억원을 순매수했다. SK하이닉스 1차 자사주 매입이 끝난 22~28일 기타 법인의 하루 평균 순매수가 약 500억원에 그쳤던 것과 비교하면 7배 가까이 늘어난 규모다.\n\n기타 법인 하루 평균 순매수는 9월 28~30일 약 1조6450억원, 이달 1~21일 약 7450억원으로 줄어든 뒤 최근 500억원 수준까지 떨어졌다.\n\nSK하이닉스는 전날 올해 주주 환원 규모를 약 100조원으로 제시하며 자사주 취득·소각에 60조원 이상을 투입하겠다고 밝혔다. 이 가운데 이날부터 내년 1월 28일까지 약 20조원 규모의 자사주를 매입하겠다고 했다. 약 10조원은 소각 등 주주 가치 제고에 사용하고 나머지 약 10조원은 임직원 보상에 쓸 계획이다. 배당 기준일은 11월 30일이다.\n\n반면 삼성전자는 이날 올해 3분기 확정 실적 콘퍼런스콜에서 시장이 기대한 추가 자사주 매입·소각 계획을 공개하지 않았다. 삼성전자는 새 주주 환원 정책 발표가 미뤄지면서 실망 매물이 출현했고, 전 거래일 대비 4.13% 내린 23만2000원에 장을 마감했다. SK하이닉스는 2",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -51,29 +56,29 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 84,
+      "today_count": 68,
       "stories": [
         {
-          "title": "삼성전자, 3분기 확정 실적 발표…30조 배당·자사주 매입 '주주환원' 주목",
-          "published_kst": "2026-10-29T07:19+09:00",
+          "title": "IBK證 \"삼성전자, 부족한 주주환원으로 주가 상승 제한적일 것…목표가 하향\"",
+          "published_kst": "2026-10-30T08:33+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "싱글리스트",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tQW0wemV1RVVabmVHeHFqWjAzZDBsbkd6bmV0dUt6c1ZqdEEzQ0ZEV2dQdUliOGVqbmtjRWRYRWlRaTNsYWxqSlI4cXBycUxhMk5sbzgxS2RpZ19vbWhwTE9MMC1ldw?oc=5",
-              "published_kst": "2026-10-29T07:19+09:00"
+              "publisher": "Chosunbiz",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWpWallyWnpfX3NIajVtbHd5c2NVQU9VRmNNTjI2VUxiSC1FQmxheXhFanF4Uy1BM2lRNEVKT2tHYWxlNDRONHhqdmNjTktCVldlYjNkN0lrQWhqWEpxYTVCa0JNNV9yczQyRFR5X3BYWUZJNDZoMWNsX2lwVnY0MmlaT1BxeUtP?oc=5",
+              "published_kst": "2026-10-30T08:33+09:00"
             },
             "네이버 금융": {
-              "publisher": "세계일보",
-              "url": "https://n.news.naver.com/mnews/article/022/0004170698",
-              "published_kst": "2026-10-29T07:49+09:00"
+              "publisher": "조선비즈",
+              "url": "https://n.news.naver.com/mnews/article/366/0001201414",
+              "published_kst": "2026-10-30T08:34+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 15.5,
-          "body": "글로벌 빅테크 최초 분기 영익 100조…4개분기 연속 최대 실적 \n\n삼성전자가 올해 3분기 확정실적을 발표하는 가운데 반도체(DS) 부문의 실적과 고대역폭메모리(HBM) 공급 전략, 주주환원 규모에 관심이 쏠린다. 인공지능(AI) 인프라 투자 확대에 따른 메모리 반도체 호황으로 분기 영업이익이 사상 처음 100조원을 넘어선 가운데, 실적 개선에 따른 추가 주주환원책이 나올지도 주목된다.\n\n 서울 서초구 삼성전자 사옥. 뉴시스 29일 업계에 따르면 삼성전자는 이날 오전 3분기 확정실적을 발표하고 콘퍼런스콜을 진행한다.\n\n 삼성전자는 지난 8일 잠정실적 발표에서 3분기 매출 195조원, 영업이익 107조4000억원을 기록했다고 밝혔다. 전년 동기 대비 각각 126.6%, 782.5% 증가한 규모다. 분기 영업이익이 100조원을 넘어선 것은 이번이 처음이다.\n\n 이번 실적 개선은 AI 인프라 투자 확대에 따른 메모리 반도체 호황이 이끈 것으로 분석된다. HBM 수요가 늘어난 데다 범용 D램 가격까지 상승하면서 메모리 사업의 수익성이 개선됐을 것으로 관측된다. 반면 파운드리와 시스템LSI 등 비메모리 사업은 적자를 이어갔을 것으로 예상된다.\n\n 실제 사업부별 실적과 함께 중장기 메모리 공급 전략도 주요 관심사다. 삼성전자는 지난 2분기 콘퍼런스콜에서 전체 메모리 생산능력의 60~70%를 장기공급계약(LTA)으로 운영하는 방안을 추진한다고 밝혔다.\n\n 전날 실적을 발표한 SK하이닉스는 2027~2028년 전체 생산능력의 50% 이상을 장기공급계약으로 확보했다고 공개했다. 4분기에는 HBM4가 주력 제품으로 자리 잡을 것으로 전망했다.\n\n 삼성전자도 이번 콘퍼런스콜에서 HBM4 공급 확대와 고객사 확보 현황, 내년 생산능력 확충 계획 등을 구체적으로 제시할지 주목된다. AI 시장 성장에 대응해 ",
+          "importance": 11.5,
+          "body": "IBK투자증권이 삼성전자의 주주환원 정책이 시장 기대에 미치지 못한다며 주가 상승 여력이 제한적일 것으로 전망했다. 그러면서 투자의견 ‘매수(BUY)’를 유지하고 목표주가를 기존 46만원에서 35만원으로 하향 조정했다. 전 거래일 삼성전자 종가는 23만2000원이다.\n\n 서울 서초구 삼성전자 서초사옥../뉴스1 \n 김운호 IBK투자증권 연구원은 “현재 수익성과 시장 상황을 고려하면 적정 주가는 46만원으로 판단한다”면서도 “주주환원 정책이 시장 기대에 미치지 못하고 경쟁사와 비교해도 투자 선호도가 낮아질 수 있다는 점을 고려하면 주가 상승은 제한적일 것”이라고 분석했다.\n\n전날 삼성전자는 3분기 배당 30조원을 확정했다. 동시에 잔여배당 재원 55조~75조원이라고 구체화하고, 현금배당과 자사주 매입을 병행하겠다고 밝혔다.\n\n김 연구원은 “3분기 주주환원 정책은 지난 8월의 내용과 다르지 않다”며 “주주환원 정책을 결정하기 위한 이사회 개최는 27년 1월에 열릴 것으로 예고하였기에 연내 추가적인 주주환원 발표는 없을 것”이라고 분석했다.\n\n다만 메모리 반도체 공급 부족은 장기화할 것으로 내다봤다. 김 연구원은 “2028년까지 공급 부족을 예상했던 메모리 업체들이 최근에는 이구동성으로 2030년까지 공급 부족이 이어질 것이라고 언급하고 있다”며 “4분기 메모리 영업이익만 140조원에 이를 것”이라고 전망했다.\n\n고대역폭메모리(HBM) 시장에서 삼성전자의 경쟁력도 개선될 것으로 평가했다. 김 연구원은 “그동안 삼성전자 HBM은 점유율과 수익성, 가동률 등 모든 항목에서 경쟁사보다 열위에 있었다”면서도 “HBM4가 모든 항목에서 입지를 개선하는 변수가 될 것”이라고 말했다.\n\n삼성전자의 HBM 물량은 2026년 3분기 경쟁사와 비슷한 수준에 도달하고, 연간 기준으로도 유사한 규모를 기록할 것",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -82,102 +87,125 @@
       "ticker": "329180",
       "market": "국내",
       "candidates": 90,
-      "today_count": 25,
+      "today_count": 8,
       "stories": [
         {
-          "title": "대신證 \"HD현대重, 중국 증설에 목표가 32.5% 하향…중장기 성장 유효...",
-          "published_kst": "2026-10-29T08:36+09:00",
+          "title": "HD현대중공업, HMM 컨테이너선 2척 건조 수주",
+          "published_kst": "2026-10-30T05:14+09:00",
           "relevance": "direct",
           "sources": {
-            "네이버 금융": {
-              "publisher": "뉴스1",
-              "url": "https://n.news.naver.com/mnews/article/421/0009256836",
-              "published_kst": "2026-10-29T08:36+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "뉴스1",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3MUJ2aF85UURaeTVTdDZ2ajV6ODFtOWpXcHVxX1UwOC1paWJISTBVVEpsa242U1dETW4wZjZkaDYtOUV2RnY3MXUzc3VHUHZTZzZGQXNUMVpZbUE?oc=5",
-              "published_kst": "2026-10-29T08:36+09:00"
+              "publisher": "제주교통복지신문",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VVGloNVlIR3ZZOGYxUnh0RGNvYWVnWTNuLU96MHB4WmVIWS1RNWtjSUlOeC16a3l4ZEJTVEJMcFBFa3NzTGhwdGxjZXo1ejBOb0FtWG1iem91TnlYUG5rdA?oc=5",
+              "published_kst": "2026-10-30T05:14+09:00"
             }
           },
-          "source_count": 2,
-          "verification": "cross_confirmed",
-          "explainable": true,
-          "importance": 13.5,
-          "body": "HD현대중공업이 건조해 인도한 초대형 LNG 운반선(HD현대 제공) /뉴스1 \n\n(서울=뉴스1) 한유주 기자 = 대신증권은 29일 HD현대중공업(329180)의 목표주가를 기존 대비 32.5% 하향한 54만 원으로 조정했다. 글로벌 경기 불확실성과 중국 조선소 증설에 따른 공급 과잉 리스크를 근거로 댔다. 다만 중장기 성장성을 고려해 투자의견은 '매수'를 유지했다.\n\n이지니 대신증권 연구원은 \"목표주가 하향은 글로벌 경기 불확실성과 중국 조선소 생산능력 확장으로 인한 공급과잉 리스크로 전반적인 산업 멀티플이 하락한 것을 반영했다\"며 \"다만 가스선 수주 모멘텀과 발전용 엔진의 수주 및 생산 확대 등에 따른 중장기 성장 모멘텀은 유효하다\"고 말했다.\n\n이 연구원은 \"중국 공급 확대에 따른 선가와 수주 경쟁은 부담이지만 LNG선 발주 재개와 노후선 교체 수요는 긍정적\"이라며 \"고부가치선 위주의 수주 전략 방향은 유지될 전망\"이라고 봤다.\n\n\"방산 부문에선 키윗과의 미국 합작 조선소를 통해 지원함 건조를 시작으로 전투함까지 확장 준비하고 있다\"며 \"엔진 부문 역시 국가전력망 및 데이터센터향 발전 수요가 늘면서 하이퍼스케일러 직접 협의로 성장성이 커지고 있다\"고 말했다.",
-          "body_source": "네이버 뉴스 본문"
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body": "HD현대중공업이 HMM과 컨테이너선 2척 건조 계약을 맺었다. 계약 금액은 4799억원이다.\n\n 금융감독원 전자공시시스템에 제출된 단일판매·공급계약 공시에 따르면 계약기간은 지난 20일부터 2029년 12월 31일까지다. 계약액은 HD현대중공업의 2025년 연결재무제표 기준 매출액 17조5806억원의 2.73%다.\n\n 공시에는 계약금·선급금이 있는 것으로 기재됐다. 대금은 공사 진행에 따라 받는 조건이다.\n\n 김현석 기자 의 전체기사 보기 \n\n Copyright @2015 제주교통복지신문 Corp. All rights reserved.",
+          "body_source": "원문 본문 · www.jejutwn.com",
+          "article_url": "https://www.jejutwn.com/news/article.html?no=464695"
         }
       ]
     },
     "델": {
       "ticker": "DELL",
       "market": "해외",
-      "candidates": 24,
-      "today_count": 11,
+      "candidates": 23,
+      "today_count": 9,
       "stories": [
         {
-          "title": "Dell Technologies Strengthens Cybersecurity and Resilience Across AI Environments, Identity and Infrastructure",
-          "published_kst": "2026-10-29T07:41+09:00",
+          "title": "Fact Check: FAKE Video of Susan Dell Dancing Was AI-Generated",
+          "published_kst": "2026-10-30T07:11+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "iTWire",
-              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMmlNNFlOYVByYmRkanVCNDJzcUI4M1dFOERGZE5JZHBTWjVBMWZUOHk0UzRRT3VPSFpqQkpSbURjZ29USE91ZTR5ZEQ5cHNXYVgza2NNRnZzRFVsRmVjM3NFU3lQUlRjdnY2aVg0ZGF1dU9jUE9pM1h2LWJWcFVwWWtZTXJGdkxnMnpDbG80ZG1zQ2NiNmMzblZka2g1M1ZEOV9lUWQ1cmdETEgwbXdQLU1PbmpRQ0NEU1J2TFVkMm91SVkxWTBISlY2YlZsdjFtRFlibjRpcGdrSlpTRHdqTWtVbkdyaVBWTWc?oc=5",
-              "published_kst": "2026-10-29T07:41+09:00"
+              "publisher": "Lead Stories",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3RzdVRFanZXcEFhTS1JUTBfQjkxZUt0OWNfbXBrOWdoQWhscGIzWk1iQWJhNmpING1zb1VFS3lzZlI4X09hdHc1bHVQZ0dpZHh4Qkl2VHN5a0h3elZkT3I3RnJBVVJyNE03VHlnTTdhaG41SHY1UkV3c185NGh1RG0xVkFpLVFvWjN4VUFsTW85VG9QbzcyeF9aS2s0SFl1REZadjNyczdDSDE2?oc=5",
+              "published_kst": "2026-10-30T07:11+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body": "New services and capabilities address emerging attack surfaces that most resilience strategies weren't built to handle\n\n New AI services and PowerProtect capabilities help protect AI environments, maintain operational continuity and recover faster when incidents occur\n Identity resilience capabilities and managed threat detection help protect and recover critical access platforms from compromise\n Deeper PowerProtect and PowerScale integration and quantum-ready capabilities and services strengthen infrastructure resilience\n\n Sydney, Australia — October 27, 2026 — Dell Technologies (NYSE: DELL) expands its cybersecurity and resilience portfolio across the AI environments, identity systems and infrastructure that attackers increasingly target and organisations cannot run without. The announcement includes new AI services and PowerProtect capabilities, identity resilience and managed threat ",
-          "body_source": "원문 본문 · itwire.com",
-          "article_url": "https://itwire.com/business-it-news/security/dell-technologies-strengthens-cybersecurity-and-resilience-across-ai-environments-identity-and-infrastructure"
+          "body": "Made With AI \n\n Does a real video show philanthropist Susan Dell wearing a red dress and dancing at an outdoor patio gathering? No, that's not true: The video is AI-generated and was posted with AI disclaimers on Instagram on Oct. 16, 2026. Content detection tools also flagged the video: Hive Moderation rated it 87.5% likely AI-generated, and Sightengine's reading reached as high as 99% likely.\n\n The claim appeared in a post (archived here ) by the @allchronology account on X on Oct. 28, 2026. It read:\n\n OMG, this isn't AI. something broke her!!! \n This is what a screenshot of the video in the post looked like at the time of writing : \n\n (Image source: post by @allchronology on X.) \n\n Susan Dell is the wife of Dell Technologies CEO Michael Dell. The video on X has two visible social media handle watermarks, one clear, one blurry. The more legible handle pointed to the Instagram account @",
+          "body_source": "원문 본문 · leadstories.com",
+          "article_url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-of-susan-dell-dancing-was-ai-generated.html"
         }
       ]
     },
     "컨스텔레이션 브랜즈": {
       "ticker": "STZ",
       "market": "해외",
-      "candidates": 7,
+      "candidates": 10,
       "today_count": 4,
       "stories": [
         {
-          "title": "3 Reasons STZ is risky and 1 stock to buy instead",
-          "published_kst": "2026-10-29T06:50+09:00",
+          "title": "Can Constellation Brands (NYSE:STZ) Maintain Its Growth Despite Headwinds?",
+          "published_kst": "2026-10-30T04:38+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM3JDLXR1c0EwUTN5VzRkUURLajVrUk5HcUZPakh0SmloaUhZYTRzS09WLTQtM1Q4SjY5MDJBSFRpWW5yeHJCVFFtTlBVeVdhT1o5ck1OSEtUVXhkbURzMEtNZEUxdnQyOE55NjVuOWZhdno1YkhWNkJSbHJpaVRXaG9CemhMOXdrTU9Ud1M0aw?oc=5",
-              "published_kst": "2026-10-29T06:50+09:00"
+              "publisher": "Kalkine Media",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUmJiWXdKT0tVUno2aHRZTXRQb1hUWjR3WkF0YnNFVkZJZ2hmQTNwRHdvN1VFNk9IVUdxQlRVMFVaYXZIUk5udGg2dkVvZ1pIZThyeHE3eGt1MmRpWGlHRHdsOGJsajFuUndTZTJ4NURNY19nd3FaTG04SlVNNTNDNGlhWkxmYm9oNHBfaVdyUlREcmNZcmtXRC1ZNGthR2N1U0l2QWNQTEZjNlNEUzhWREVOc0Y?oc=5",
+              "published_kst": "2026-10-30T04:38+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body": "3 Reasons STZ is risky and 1 stock to buy instead \n\n Kayode Omotosho \n Wed, October 28, 2026 at 5:50 PM EDT 3 min read \n\n STZ \n -0.64% \n\n ^GSPC \n +0.28% \n\n Over the last six months, Constellation Brands's shares have sunk to $130.93, producing a disappointing 15.7% loss - a stark contrast to the S&P 500's 7.5% gain. This may have investors wondering how to approach the situation. \n Is there a buying opportunity in Constellation Brands, or does it present a risk to your portfolio? Dive into our full research report to see our analyst team's opinion, it's free . \n\n Why is Constellation Brands not exciting? Despite the more favorable entry price, we don't have much confidence in Constellation Brands. Here are three reasons you should be careful with STZ, plus one stock we'd rather own. \n 1. Core business falling behind as organic sales decline When analyzing revenue growth, we care most abo",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-stz-risky-1-215034177.html"
+          "body": "Can Constellation Brands (NYSE:STZ) Maintain Its Growth Despite Headwinds? \n\n NYSE Composite\n\n Russell 1000\n\n STZ\n\n ( \n\n USD \n 130.35 \n\n ↑ \n\n +0.42%\n\n ) \n\n 4 min read | October 29, 2026 12:38 PM PDT | By\n Anmol Khazanchi \n\n Google News: \n\n Recent News\n\n What Could Rivian (NASDAQ:RIVN) Reveal in Its Latest Results? \n\n October 30, 2026 10:33 AM AEDT | By Anmol Khazanchi -->\n\n Can Ford Motor (NYSE:F) Overcome Its Latest Challenges? \n\n October 30, 2026 10:28 AM AEDT | By Anmol Khazanchi -->\n\n Can Tesla (NASDAQ:TSLA) Turn Mixed Results Into Stronger Momentum? \n\n October 30, 2026 10:23 AM AEDT | By Anmol Khazanchi -->\n\n Could Broadcom (NASDAQ:AVGO) Challenge Nvidia’s AI Dominance? \n\n October 30, 2026 10:21 AM AEDT | By Anmol Khazanchi -->\n\n Make Kalkine Media \n\n My Trusted Source\n\n Highlights \n\n Constellation Brands beat quarterly expectations earlier this month and kept its comparable earning",
+          "body_source": "원문 본문 · kalkinemedia.com",
+          "article_url": "https://kalkinemedia.com/us/stocks/consumer/can-constellation-brands-nysestz-maintain-its-growth-despite-headwinds"
         }
       ]
     },
     "퍼스트솔라": {
       "ticker": "FSLR",
       "market": "해외",
-      "candidates": 27,
-      "today_count": 11,
+      "candidates": 30,
+      "today_count": 22,
       "stories": [
         {
-          "title": "First Solar (FSLR) Set to Report Q3 Earnings Amid Modest Underva",
-          "published_kst": "2026-10-29T07:45+09:00",
+          "title": "First Solar (NASDAQ:FSLR) Releases Quarterly Earnings Results, Beats Estimates By $0.63 EPS",
+          "published_kst": "2026-10-30T08:49+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVzRyVExiRUhueVMyNFk2d0xQbWx4QlVuXzFIWlVpaHRBemh4TWFTa0lybmhqRU9GZG94TWFUOFVMejctWGdzdEVvVV9NYUR3NzhIc3FhZXhFcmJMTHEyT3N6Tk02SnUzb0l0WW5EaWx2VnVqVE5nZUpoVkJRZVBPUjFiYmhRbF9mX21OeVlzcGtTLTRXUVlDQ0w3bWNlQ1IzRHlRQ29kXzR4RGZK?oc=5",
-              "published_kst": "2026-10-29T07:45+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQkJsZEJETjIwVVJjbUl3ckd4aE1oNVNoYmJpMWkzTnh4T1k5OUw0VUpMUnhqbjdtdlphVlVPNFBUcE1oTjFIVDhwRmZqTFJjTGpjN0ttajFQdmpzYVQ0eWItS0JiN1UxZjdmTk9icnMyYzl0RDZuZ1cyNmQ5R0JpczhvSWhTYXVtN0FybEs0NllsMGRWRTRmcUp2YVlTdXFKSGxRb1FhRE5XanRUU1k1VHRkS3g1RXdLVjdOdEh2bEJ4Z3NRcmJyX0c2RTBIZmhLa0lpdGZrNlhwdkI5Q3hBZ0doOA?oc=5",
+              "published_kst": "2026-10-30T08:49+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 8.0,
+          "body": "First Solar (NASDAQ:FSLR) Releases Quarterly Earnings Results, Beats Estimates By $0.63 EPS \r\n\n Written by MarketBeat\n October 29, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n First Solar beat earnings expectations: Third-quarter EPS was $5.30, topping the $4.67 consensus, while net sales of $1.23 billion fell short of the $1.29 billion forecast. Gross margin expanded to about 58%, supported by a higher mix of U.S.-produced modules. \n Backlog and domestic manufacturing support growth: The company ended the quarter with a 44 GW backlog valued at roughly $13.5 billion and inaugurated the first phase of its South Carolina facility, which is expected to reach 3.4 GW of annual capacity after expansion. \n Policy and demand uncertainty remain risks: Bookings moderated as customers await clarity on tariffs, Section 232 im",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/earnings-first-solar-nasdaq-fslr-releases-quarterly-earnings-results-beats-estimates-by-063-eps-2026-10-29/"
+        }
+      ]
+    },
+    "컨스텔레이션 에너지": {
+      "ticker": "CEG",
+      "market": "해외",
+      "candidates": 30,
+      "today_count": 10,
+      "stories": [
+        {
+          "title": "MASSIVE POWER DEAL: Google Enters Massive 3.6-GW Power Deal with Constellation Energy",
+          "published_kst": "2026-10-30T03:26+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "EnergyNow.com",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXRoQ2ZLWk1oemNaN2ozYkdBdTAyV2VjbGNEOGZxMDEyVTBCQndvTmxWQU5ESkdKcVBGSTVmcHhBOWwxbzRGZFpmekF0YzVhNnVDcnhIcHFQUjNhcWVMZWlmNXQydUlsQU5kMnFjejVnODJnaHhBLU83MThTbzByTVFJdXFkR1dTTzdhcExFVURkUm5BYV84dWlFUWI?oc=5",
+              "published_kst": "2026-10-30T03:26+09:00"
             }
           },
           "source_count": 1,
@@ -188,84 +216,55 @@
         }
       ]
     },
-    "컨스텔레이션 에너지": {
-      "ticker": "CEG",
-      "market": "해외",
-      "candidates": 26,
-      "today_count": 8,
-      "stories": [
-        {
-          "title": "Why Is Constellation Energy (NASDAQ:CEG) Attracting Big Tech Giants?",
-          "published_kst": "2026-10-29T04:47+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Kalkine Media",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLW1zSTdjMG5IZTN0djd3cXQ4NlJ2UllTYXJoa0VRT1VydUd3MHk1VjNUMUgxc2FpNWNSbzlsU2ZqWVZXZUc2U2c0TWNmZ1FKVWNyVVRhbHFtV3lERER1MkdpV3pCa1NXdkt4R3hfTkhjSmFDZG1ZeHFmeXRELTZubkNBcFNBZnoxbkppMUNqXy1BaTZIM0ZhSmlaOXNyam01ZHViZHVCVWRaRTQ?oc=5",
-              "published_kst": "2026-10-29T04:47+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body": "Why Is Constellation Energy (NASDAQ:CEG) Attracting Big Tech Giants? \n\n Nasdaq Composite\n\n CEG\n\n ( \n\n USD \n 258.08 \n\n ↓ \n\n -0.35%\n\n ) \n\n 4 min read | October 28, 2026 12:47 PM PDT | By\n Anmol Khazanchi \n\n Google News: \n\n Recent News\n\n Is Kraft Heinz (NASDAQ:KHC) Preparing For A New Growth Chapter? \n\n October 29, 2026 08:22 AM AEDT | By Anmol Khazanchi -->\n\n What Is Driving The Latest Momentum At Citigroup (NYSE:C) Today? \n\n October 29, 2026 08:21 AM AEDT | By Anmol Khazanchi -->\n\n What Is Behind The Turnaround At CVS Health (NYSE:CVS)? \n\n October 29, 2026 08:21 AM AEDT | By Anmol Khazanchi -->\n\n Why Did Dow (NYSE:DOW) Attract Attention After Its Quarterly Update? \n\n October 29, 2026 08:21 AM AEDT | By Anmol Khazanchi -->\n\n Make Kalkine Media \n\n My Trusted Source\n\n Highlights \n\n Long-term supply arrangements with major technology firms underscore how prized always-available nuclear power ",
-          "body_source": "원문 본문 · kalkinemedia.com",
-          "article_url": "https://kalkinemedia.com/us/stocks/utility/why-is-constellation-energy-nasdaqceg-attracting-big-tech-giants"
-        }
-      ]
-    },
     "비스트라 에너지": {
       "ticker": "VST",
       "market": "해외",
-      "candidates": 13,
-      "today_count": 7,
+      "candidates": 14,
+      "today_count": 4,
       "stories": [
         {
-          "title": "Vistra (NYSE:VST) Stock Price Down 2.8% Following Analyst Downgrade",
-          "published_kst": "2026-10-29T06:42+09:00",
+          "title": "Vistra Declares Quarterly Cash Dividend, Payable December 31, 2026",
+          "published_kst": "2026-10-30T07:21+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNTFrUFdzV2Zaa3lPOWZpZHlXbkhKQ0FCUy1ZMklaV3ZnekJKM21ydzVMdUhvdHBVNkQ5QVpTUjRNVGFGVTBKZzJKMWxfSG9KUV9heGVzcmtqOXlXbE5NbHdWSFVidndZbEZkQXVwamh1MlZUSHg4SngydXkxWTJDR3JERDVjaXhRcjBEa09aWE5fVFcwRXZXaHh6QzFrWjUtQlh0dkstdURQbEVkRVJNRlV4YkJuZEdIVEVvb1NPOFY?oc=5",
-              "published_kst": "2026-10-29T06:42+09:00"
+              "publisher": "www.marketscreener.com",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0hlT1l6YmJiUFNBZU91YVFZRXAyZ3NYaHhhZmpUd0kyN1RyeFdiS2hCUXg4VmhWT0ktSUVsV19nODU3TldTYUc4SmlGOTJsa21SVmNpYlBiZlBlckRwNzZRNUJIWUR1dnBpMkxDb1hIWE5Bcjhpb0tUZUprLXg1LTBBR0Fyei0zYlNWWk50LXJreDVfUmd3WDZGNGdUN01ia1FWeUVac1kwazBCOVlxalJEbnJ4UGhM?oc=5",
+              "published_kst": "2026-10-30T07:21+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Vistra (NYSE:VST) Stock Price Down 2.8% Following Analyst Downgrade \r\n\n Written by MarketBeat\n October 28, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n Vistra shares fell 2.8% to about $142.61 after Scotiabank cut its price target from $207 to $189, while maintaining a sector outperform rating. \n Despite the downgrade, analyst sentiment remains broadly positive: Vistra has a consensus “Moderate Buy” rating and an average price target of $202.43 . \n The company recently missed quarterly expectations, reporting $0.76 in EPS versus $1.61 expected and revenue of $4.02 billion versus $5.46 billion forecast. Institutional investors own approximately 90.88% of the stock. \n Five stocks to consider instead of Vistra . \n\n Vistra Corp. ( NYSE:VST - Get Free Report ) traded down 2.8% on Wednesday after Scotiabank lowered thei",
-          "body_source": "원문 본문 · www.marketbeat.com",
-          "article_url": "https://www.marketbeat.com/instant-alerts/price-vistra-nyse-vst-stock-price-down-28-following-analyst-downgrade-2026-10-28/"
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
     "이오스 에너지": {
       "ticker": "EOSE",
       "market": "해외",
-      "candidates": 9,
+      "candidates": 10,
       "today_count": 6,
       "stories": [
         {
-          "title": "EOSE Stock Jumps As Revenue Soars And U.S. Capacity Ramps",
-          "published_kst": "2026-10-29T05:55+09:00",
+          "title": "Eos Energy Enterprises, Inc. (EOSE) Seasonal Returns Chart - Yahoo Finance",
+          "published_kst": "2026-10-30T07:08+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "StocksToTrade",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkhJQzdEenlpWm9mZWF5SmZqRThyNk5CQkkxZ1VRMkJDYWJ3blA3Mi1mT2YxRllJRDNsYkMyaXdadVdpbWlKZW92ZDBtSXZyNWRMRm03a1Jla2hFWkVoQnpEVlRwV2xTRDFKeXZSWnQ0M1pKc1FaTTR2azBBLW1OZ25STFVNZw?oc=5",
-              "published_kst": "2026-10-29T05:55+09:00"
+              "publisher": "Yahoo! Finance Canada",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZeU44WERDVUQwNlh0VFJqTkhiM2swMlJEaHktYVhMNEN2eHZJdGV5MWpTVkphTHhRVVQ4bTczY0tYWXM3dG5Ea2pkdXJYbVNLc2h0YXdQUDJWTmlOa25YbklB?oc=5",
+              "published_kst": "2026-10-30T07:08+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 8.0,
-          "body": "Eos Energy Enterprises Inc. stocks have been trading up by 6.3 percent after optimism over expanded battery storage contracts.\n\n Key Takeaways \n\n Q3 2026 revenue is projected at $82M–$83M, slightly ahead of Street expectations, with shipments up about 23% quarter over quarter and a roughly 17-point gross margin gain. \n Pre-announced Q3 revenue of $82M–$83M marks 169%–172% year-over-year growth and about 20% sequential growth, with EOSE posting its eighth straight quarter of margin improvement, though still at -55% to -53%. \n Full-year 2026 revenue guidance of $300M–$350M was reaffirmed, with Eos Energy steering traders to the lower half of that range, roughly in line with consensus. \n Backlog stands near $765M (3.2 GWh), backed by about $344M of cash supported by deposits, IRA credits, and DOE loan draws, giving EOSE runway to execute. \n Production is being consolidated into the Thorn Hi",
-          "body_source": "원문 본문 · stockstotrade.com",
-          "article_url": "https://stockstotrade.com/news/eos-energy-enterprises-inc-eose-news-2026_10_28/"
+          "importance": 4.0,
+          "body": "Eos Energy Enterprises, Inc. (EOSE) seasonal returns chart provides the mean and median returns by month to inform your investment strategy.",
+          "body_source": "메타 설명(본문 추출 실패) · ca.finance.yahoo.com",
+          "article_url": "https://ca.finance.yahoo.com/quote/EOSE/seasonality/"
         }
       ]
     },
@@ -273,51 +272,53 @@
       "ticker": "ALM",
       "market": "해외",
       "candidates": 8,
-      "today_count": 3,
+      "today_count": 1,
       "stories": [
         {
-          "title": "Almonty's Korean Listing Talk Meets a Split Tungsten Tape and Two Trimmer Price Targets",
-          "published_kst": "2026-10-29T02:31+09:00",
+          "title": "Almonty's First Tungsten Cargo in Three Decades Leaves the Grade Question Unanswered",
+          "published_kst": "2026-10-30T02:31+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
               "publisher": "ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPN2VPUzhkVFhCRkQyYTVzNWRSRjZhbkU1SHQ4Vmp4dWNtNWhwVEhLekNUM1ZLN2x0OTFKNHJ0V3pYbTBNT0otNDNZMUtLQkNibGhtZ2FjZ1ZwUVdEazQ4NHFaQjVhcEgzSTktTkMtVVVBY0c2LTh6VExlSlhGdXJiQ1czY1FjeEY4ME1uTDZEaEZzU3VtSWJpUll4M2ItTU5HV0tQR1JnU29BWVAzLUNzdWdvN1FwVTVpcEpCR0x0N2NHaUF6c05hMHpiWlNITzk2MGlxTDFZQV8wVmpGN2FPY1ktb1Y4YmYxMENYS2dXYlY?oc=5",
-              "published_kst": "2026-10-29T02:31+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "Almonty is weighing a second stock market presence in South Korea, according to media reports on Monday, with Korean Depositary Receipts seen as one possible route. The existing foreign listing would stay in place under the described structure, making any such move an addition rather than a replacement. Nothing has been decided, and the deliberations are not a confirmed transaction.\nThat distinction matters for anyone tracking the stock. A potential extra listing says nothing about operational progress, and the restart at Sangdong says nothing about whether Almonty actually pursues Korean market access. Both threads concern the same company, but they carry very different weight for investors.\nThe commodity backdrop is anything but uniform. Chinese prices for ammonium paratungstate fell sharply, according to media reports from Sunday, while Western tungsten prices held broadly steady. A s",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/almonty-s-korean-listing-talk-meets-a-split-tungsten-tape-and-two-trimmer-price-targets/70426105"
-        }
-      ]
-    },
-    "크레도 테크놀로지": {
-      "ticker": "CRDO",
-      "market": "해외",
-      "candidates": 23,
-      "today_count": 4,
-      "stories": [
-        {
-          "title": "A Look at Credo Technology Group Holding Ltd (CRDO) After 3.7% Gain -- GF Value $281.42 vs Price $173.69",
-          "published_kst": "2026-10-29T06:55+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbEc2MGdWRFl4WC1JMGp6eEcwWlpzR202MjJueWRZRzlHMlBtMkJsUTV6eFFmZEhLX2N4QV9Bdk1NOVExbzVvYi1MaU5od2dab0hOLUNTUUZEcVZXRk5Qa2pQRVFldnJFc0JlTVdOR3haOUFvbTJwZ1ZWU3ZmZDR2OHVsNE9ReThrMG5QaFMwVmJNWHdPMVFDaEoyWFRoamZPXzRQMHBjSGFXdmlSMV9FTy1qNi1yRzR2dWVock4zSXNVNTVJZ2JuZVBPTTY?oc=5",
-              "published_kst": "2026-10-29T06:55+09:00"
+              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUjNKV2hYMmt1WXk1ejJZT19mMWlab0hxRkpRaVRuVUZxamQ1MFRPVnREb2RMb3Y5TXoyUmEtU0JsR29FLVl0amlkNmZoa2pqZGYtQ1BGcm84QXRzbjZIWXdEcHVQX1V5YlpQY0VuYW00QlRFTDJPYTI2TjNIbW13Wl8yOWdVd05xVG1Lb2NFaDdXWGg3ZkdrcjFhd3BicUs2dmJ2UTloaldLYkZpRmlwdm9hTW9RUURVb0xLbDhVeUZQWV9maWhzQjloZDE1Q0c1YnZNWG5PT0VrYjRaVGVFSTB2cWQxVElTTC1oag?oc=5",
+              "published_kst": "2026-10-30T02:31+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "body": "A single container rolling out of Sangdong does not settle the two variables that matter most to Almonty's equity story: whether the mine hits its intended output rate and whether its concentrate clears the target specification. Those are separate tests, and the market has been pricing them separately.\nCEO Lewis Black said on Saturday, according to media reports, that the first tungsten container had departed Sangdong and was en route to a customer — the mine's first shipment in more than 30 years. It is a genuine operational milestone, and it should be neither belittled nor stretched into a verdict on the shipments that follow.\nThe analyst community has already drawn its own line between the achieved and the assumed. On Tuesday, Nick Giles of B. Riley Securities cut his price target to $20 from $25 while keeping his Buy rating. A day earlier, on 20 October, Stifel's Brock Cannon had low",
+          "body_source": "원문 본문 · www.ad-hoc-news.de",
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/almonty-s-first-tungsten-cargo-in-three-decades-leaves-the-grade-question-unanswered/70429789"
+        }
+      ]
+    },
+    "크레도 테크놀로지": {
+      "ticker": "CRDO",
+      "market": "해외",
+      "candidates": 10,
+      "today_count": 4,
+      "stories": [
+        {
+          "title": "Credo Technology Group Holding Ltd (CRDO) Seasonal returns chart",
+          "published_kst": "2026-10-30T07:06+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Yahoo Finance UK",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IQjNhNXhWTW5senRYYkZ1aThQb0ZGdXJjWHBvZnFhdU1GQXluZFI5ekxwblBBNl9Xc3d2WlU2UXhfS2RlVEI5Rm1qM0ZUNGQtcTFnTlFUYXAzRHRpTU9TRFdR?oc=5",
+              "published_kst": "2026-10-30T07:06+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
+          "body": "Credo Technology Group Holding Ltd (CRDO) seasonal returns chart provides the mean and median returns by month to inform your investment strategy.",
+          "body_source": "메타 설명(본문 추출 실패) · uk.finance.yahoo.com",
+          "article_url": "https://uk.finance.yahoo.com/quote/CRDO/seasonality/"
         }
       ]
     },
@@ -325,24 +326,26 @@
       "ticker": "GOOGL",
       "market": "해외",
       "candidates": 30,
-      "today_count": 26,
+      "today_count": 23,
       "stories": [
         {
-          "title": "Alphabet tumbles as earnings miss overshadows Google Cloud surge (GOOG:NASDAQ)",
-          "published_kst": "2026-10-29T05:31+09:00",
+          "title": "Value of Google parent Alphabet plunges by $500bn as AI fears rattle Wall Street",
+          "published_kst": "2026-10-30T07:17+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Seeking Alpha",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUmZvbnJZQ3plNHl1UXdBVWJjWTdkbXVKa0tjczNlNG16elFTTDdIUlhqZWREY0RCdkI3Nkw5Yk5UUUZ3eDNkcW1LX1k3b3hTb3M4Mi1USGdlVEI4U1RROENaOFEwOVZ3WWVzUWMxc1NwSm83RFg3OVNVVlNjcHNQemdXOVdJVXJseXdUYmNGR1UtREs1QUhtaEhUam9GeUVqbmtGNA?oc=5",
-              "published_kst": "2026-10-29T05:31+09:00"
+              "publisher": "BBC",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HNW9FUzgyTXVpc0pmUHo2T3F2bWh1T0pxaFhGZzFueWhsNjdWVXdNYzJwcXBPeUdVSUdGYVZDdUZwUDl3bzBESUdkb24zdmJHNV9iR2toaWUyYlk?oc=5",
+              "published_kst": "2026-10-30T07:17+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 10.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "importance": 6.0,
+          "body": "Google parent Alphabet lost just over $500bn (£374bn) in value on Thursday after it rattled Wall Street with its last update of the year on its business operations.\nGoogle spooked investors so badly that its stock hit a six-month low, after it revealed its artificial intelligence (AI) summaries on search were affecting ad revenue.\nMicrosoft and Amazon also updated investors this week, and joined Google in plans to keep spending astronomical sums of cash in an ongoing AI race.\nBut investors appeared dismayed at the impacts these plans are having on the ability of each to keep growing their core lines of business.\nAt first glance, the quarterly results of Alphabet, the parent company of Google, were not at all bad.\nTotal revenue grew 25% compared to last year, hitting $127.6bn. It was buoyed by the ongoing success of Google Cloud, where revenue grew by 103% to almost $31bn.\nHowever, profit",
+          "body_source": "원문 본문 · www.bbc.com",
+          "article_url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o"
         }
       ]
     },
@@ -350,26 +353,26 @@
       "ticker": "CSCO",
       "market": "해외",
       "candidates": 30,
-      "today_count": 19,
+      "today_count": 12,
       "stories": [
         {
-          "title": "Cisco Launches Project Quarry to Detect AI Agent Threats",
-          "published_kst": "2026-10-29T04:53+09:00",
+          "title": "Cisco's Jeetu Patel: AI Orders Hit $9.3 Billion After a $1 Billion Bet Nobody Took Seriously",
+          "published_kst": "2026-10-30T05:08+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Mexico Business News",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbHlPXzFNbWRBeTN1SHRyY3JEZ1NNQXdWYjA2X2NHLXRJWXFEVE9OR2lRX2RkTU1EcVY5V1hHckJlVEcxTUdicFNhcUU3RTNnYzdRalhNTjJHd0lmd0JZbWQzYWJQQlVFSnhCOE1HR3FvSnRyZWJuZkVFOGJpYXpWMlk5bzRhTmwtQWMyMGk1eFpDVmRfZkRWN3U0QmRKdnplWlE?oc=5",
-              "published_kst": "2026-10-29T04:53+09:00"
+              "publisher": "BigGo Finance",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pVC1waVN6eExLRUVmdkR0Rkh2UFlOb1JXU3hmT1lLUllxaHJuN01McHNEUTN0RnM0YVJkQi1UNTJMRWU2MHdFaVloUkFvY0xVajVISU9aZ2NpUEk?oc=5",
+              "published_kst": "2026-10-30T05:08+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Cisco has released Project Quarry, an open-source detection tool designed to identify potentially dangerous AI agent behavior by analyzing sequences of actions rather than isolated commands. The platform combines machine learning, large language model analysis, and rule-based checks to help security teams detect threats, investigate activity and respond to suspicious behavior.\nCisco has released Project Quarry, an open-source security tool designed to detect potentially dangerous AI agent behavior by analyzing the sequence of actions an agent performs. The technology addresses a limitation in conventional security controls: individual operations may appear legitimate even when their combined effect exposes credentials, bypasses restrictions, or transfers sensitive data to unauthorized destinations.\nThe tool introduces a detection language that allows security teams to define patterns of ",
-          "body_source": "원문 본문 · mexicobusiness.news",
-          "article_url": "https://mexicobusiness.news/cybersecurity/news/cisco-launches-project-quarry-detect-ai-agent-threats"
+          "body": "Three years ago, when Cisco told the world it intended to be a player in artificial intelligence, \"no one was taking us seriously,\" according to Jeetu Patel, the company's president and chief product officer. So Cisco did something unusual for a networking company: it published a number. It committed to $1 billion in AI infrastructure orders from the giant cloud operators in its first year.\n\n It booked $2.3 billion instead. The following year, fiscal 2026, it set a target of $5 billion. It finished with $9.3 billion in AI-based workload revenue from hyperscalers — up from nothing two years earlier.\n\n Patel laid out that arc in an interview on A Bit Personal with Jodi Shelton , and the numbers matter beyond Cisco's own earnings. They are a case study in how an incumbent gets into the AI supply chain without pretending to be an AI company — and in why the silicon underneath the hype may be",
+          "body_source": "원문 본문 · finance.biggo.com",
+          "article_url": "https://finance.biggo.com/news/1456391017486ffa"
         }
       ]
     },
@@ -377,26 +380,24 @@
       "ticker": "VRT",
       "market": "해외",
       "candidates": 30,
-      "today_count": 16,
+      "today_count": 14,
       "stories": [
         {
-          "title": "Nvidia Partner Vertiv Soars After Blowout Earnings, Strong Guidance",
-          "published_kst": "2026-10-29T06:13+09:00",
+          "title": "Vertiv raises 2026 sales forecast to $14.65B, makes back-to-back acquisitions",
+          "published_kst": "2026-10-30T03:00+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Investor's Business Daily",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNDZPY1d5Sks1YmYybHAyUTBMdFRrMkFTaThYc1huMm5uOVExWXhwbWgzY1J3b2YxQ1p0TUdvRUlVTTZZNXBvRm02UUdqSGltYlFtMUNGUkZiNzMwMV80ZjZlazVMODJZcUFqVEpYaTVfY19XbHpqcGU0SThVek9DY2NnbGZLOEoxcjR5Vg?oc=5",
-              "published_kst": "2026-10-29T06:13+09:00"
+              "publisher": "The Business Journals",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTdpZzQxU1l4c0xTTVVFVTU0UFduemlSemRnU01YQjZFUFhFb3hrYzdjLWpWem5HUkpHVDZpeWNVR01RMEhmQjUyYm8xeERpSEdhbzg1bVVGM2dNSTRzZWpEREdyR1lrQ0tZblNQN2hka2ZBTVRJZGE2R1JQYVBXeGUta1plV1h4UFFWMUVxMnlpMDZNUHhESjduRXpSbzZSMGRpSjhHdw?oc=5",
+              "published_kst": "2026-10-30T03:00+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 10.0,
-          "body": "News \n Nvidia Partner Vertiv Soars After Blowout Earnings, Strong Guidance \n\n Licensing \n\n PAOLO CONFINO \n Updated 04:13 PM ET 10/28/2026 \n\n AI play Vertiv shrugged off concerns about the industry. The data center infrastructure play and Nvidia partner surged on Wednesday after handily beating earnings. Vertiv Holdings (VRT) stock was up 16.6% on Wednesday, trading around $243 a share, according to MarketSurge. Vertiv Earnings Vertiv reported adjusted earnings of $2.21 a share in Q3, up 78% from the same period last year.…\n\n Copyright ©2026 Investor's Business Daily, LLC. All rights reserved. 87990cbe856818d5eddac44c7b1cdeb8",
-          "body_source": "원문 본문 · www.investors.com",
-          "article_url": "https://www.investors.com/news/nvidia-partner-vertiv-earnings-ai-stocks-data-center/"
+          "importance": 8.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
@@ -404,26 +405,26 @@
       "ticker": "LMT",
       "market": "해외",
       "candidates": 30,
-      "today_count": 14,
+      "today_count": 18,
       "stories": [
         {
-          "title": "Lockheed Martin Stock Soars as F-35 Deal and Missile Demand Drive Growth",
-          "published_kst": "2026-10-29T01:30+09:00",
+          "title": "Lockheed Martin Wins $43.7M Navy Contract to Upgrade F-35 Lightning II Systems",
+          "published_kst": "2026-10-30T04:42+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
               "publisher": "Security Clearance Jobs",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU3U5NGExNjZhaDZOc29QVGhzZktJMU1XZ3ZFQWczTHpnRnVzbmFTRmtRZVl2OHdrdFlYdkVpUk5FcEh2MWY5ZDdpVDBNYV9zZmYyYzAxd0VfbkMySGVnYzFvRmZUNnlLRmVPQzVvWU8tRjE3eGdBOEVPeEZkZm00WlVaczBYS3B1SWQ5MnhWUDZ2YzhlZy1VcUw3eHhHSkwzb3l0Y2tERTRpOFFFVnhRVlpueXFpUQ?oc=5",
-              "published_kst": "2026-10-29T01:30+09:00"
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGpweUpQX3hUdGFuMjZSNnRfY3BaUjVFU3JXeW1hZFhqSUJjb0JGRG1DZk9VbnlleS1UckQ5djB5eXBnZEFBNlpYRVFiaFRHU2tEamRidzJFMkZVcWlvbDMtTl9mTWNfUkpCSkEtSWF2dWtyMEZja0toZFdGc3VHT3RmaEM1S25UeDc2YXA2WmRyRlZRVjJtRTNKekNEMXAzdmFQZUZUR2V3V0JaUl9xcXZQbnVhWW5oOGNqeA?oc=5",
+              "published_kst": "2026-10-30T04:42+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 8.0,
-          "body": "Lockheed Martin ’s (LMT) fighter-jet and missile businesses are clicking on all cylinders, and the defense giant recently reported outstanding third-quarter results. With the Street getting excited about Lockheed stock and the company developing promising new products, the name looks poised to climb a great deal over the next year and in the longer term.\n\n LMT’s Fighter-Jet and Missile Businesses Are Really Taking Off \n On October 23, the Department of War agreed to purchase 850 of LMT’s F-35 Lightning II stealth fighter planes within the next ten years. As a result of the deal, Lockheed will receive “at least $78 billion” from Washington .\n\n Speaking on LMT’s Q3 earnings call on October 22, CEO Jim Taiclet said that, including demand from foreign countries , the firm will produce 156 F-35s for sale annually over the next decade.\n\n In the third quarter, Aeronautics segment revenue surged",
+          "body": "Subscribe to the Daily Intelligence for your daily dose of career intel, defense contracts and security clearance news. \n\n Contracts Valued at $7.5 Million and Above \n DEFENSE HEALTH AGENCY \n The Johns Hopkins Medical Services Corp., Baltimore, Maryland, was awarded a $575,069,699 modification (P00025) to exercise the third option period of a $2,128,056,635 fixed-price commercial contract (HT9402-23-C-0006) to provide comprehensive health care services through the Uniformed Services Family Health Plan, a managed care plan serving approximately 53,025 eligible uniformed services beneficiaries within designated geographic areas. Services include healthcare provider network management, medical management, enrollment, customer services, and related administrative requirements. The base period of performance was Oct. 1, 2023, through Sept. 30, 2024, with nine one-year option periods. Option P",
           "body_source": "원문 본문 · news.clearancejobs.com",
-          "article_url": "https://news.clearancejobs.com/2026/10/28/lockheed-martin-stock-soars-as-f-35-deal-and-missile-demand-drive-growth/"
+          "article_url": "https://news.clearancejobs.com/2026/10/29/lockheed-martin-wins-43-7m-navy-contract-to-upgrade-f-35-lightning-ii-systems/"
         }
       ]
     },
@@ -431,26 +432,26 @@
       "ticker": "MSFT",
       "market": "해외",
       "candidates": 30,
-      "today_count": 28,
+      "today_count": 17,
       "stories": [
         {
-          "title": "MSFT Stock Gains 3% After-Hours As AI Demand Powers Q1 Cloud Revenue, Q2 Guidance Beat With Positive Cash Flows",
-          "published_kst": "2026-10-29T08:13+09:00",
+          "title": "Amazon Slides 3% as Alphabet's 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back",
+          "published_kst": "2026-10-30T02:22+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcEVRNHhTV2V6akdTcFVfZWVQd0VYbnFLMXRfdm9xTlJ2b3lFcFl6WUJzZHZDVXBjRC1LWUVoSldSaGt1N2NwVERLdjFsNGdfQ3M1NDJTcGdSODRFelRfQkdvSXNha1NTenFRMnp5WmFubWp3dmZDWTg1bmszSE5nRlhwem1fRHE5blRsemdaZWhLWk0?oc=5",
-              "published_kst": "2026-10-29T08:13+09:00"
+              "publisher": "24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdS1QbjVrbF91b21oMWpMb2h3MHJZZ2ZmcVNGd3k5MzhBdW51NTVLVTNHQ20yYVZMX0VFWGstUkhzVnREZnFDaFVFVGkwR19oOWFaRjVIUXNIX1BwY2hVT09SRjJ6cFI5MUYzNFI5aE9zYmRMRVZOUHo4cGFzQng0eTRaZzBkdG9adzZrMEdSSFBVY0Jwd2ZDX3U1bXBOUWdBQ0lmWk5RMFdwVTdmaVVaN1d3dmN1Zmk2My1BcW1pME1jdUVrcTRCd2Z0WEpuWV95b3BCdlBaV0ZnSjZIQWc?oc=5",
+              "published_kst": "2026-10-30T02:22+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 8.0,
-          "body": "MSFT Stock Gains 3% After-Hours As AI Demand Powers Q1 Cloud Revenue, Q2 Guidance Beat With Positive Cash Flows \n\n Shashank Nayar \n Wed, October 28, 2026 at 7:13 PM EDT 3 min read \n\n MSFT \n -0.06% \n\n Azure cloud infrastructure revenues surged 48% year-over-year, propelling total Microsoft Cloud sales up 30% to $63.9 billion. \n First-quarter overall revenue expanded 19% to $92.3 billion, while adjusted diluted earnings per share reached $4.89, outperforming analyst forecasts. \n Capital investments climbed 30% to $45.2 billion during the quarter, but cash flows remained positive. \n\n Microsoft Corp. (MSFT) share price inched 3% higher after-hours on Wednesday after the software maker's first-quarter results surpassed Wall Street expectations, propelled by surging demand for its artificial intelligence tools and cloud computing platform. \n For the three months ended Sept. 30, the technology ",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-gains-3-hours-231341910.html"
+          "importance": 10.0,
+          "body": "Investing \n\n Amazon Slides 3% as Alphabet’s 12% Plunge Raises Stakes for AWS Report; Meta Rises 3%, Microsoft Pulls Back \n\n Alphabet's brutal selloff just raised the bar for Amazon's AWS report, and the question now is whether AWS margins and growth can hold up where a rival stumbled.\n\n By David Moadel \n\n Published October 29, 2026, 12:22pm ET · 3 min read \n\n Market Movers desk. Editor: David Moadel .\n\n 𝕏 \n f \n\n ⧉ \n\n Caution is building around Amazon ( NASDAQ:AMZN | AMZN Price Prediction ) ahead of its upcoming third-quarter report, as a steep selloff in a fellow tech giant raises the bar for Amazon Web Services (AWS). Amazon stock is at $246.30 in midday trading, down 3%.\n\n Among the other AI giants, Meta Platforms ( NASDAQ:META ) stock is at $629.16, up 3%. Microsoft ( NASDAQ:MSFT ) stock is at $522.92, down 2%.\n\n Alphabet’s Selloff Raises the Bar for Amazon \n Alphabet ( NASDAQ:GOOGL )",
+          "body_source": "원문 본문 · 247wallst.com",
+          "article_url": "https://247wallst.com/investing/2026/10/29/amazon-slides-3-as-alphabets-12-plunge-raises-stakes-for-aws-report-meta-rises-3-microsoft-pulls-back/"
         }
       ]
     },
@@ -458,56 +459,86 @@
       "ticker": "NKE",
       "market": "해외",
       "candidates": 30,
-      "today_count": 17,
+      "today_count": 11,
       "stories": [
         {
-          "title": "NIKE (NYSE:NKE) Stock Price Down 1.1% - Should You Sell?",
-          "published_kst": "2026-10-29T06:47+09:00",
+          "title": "Nike's India Playbook: A ?3,795 Running Shoe, a Flipkart Debut, and a Barclays Upgrade",
+          "published_kst": "2026-10-30T00:02+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZURfUzJiT1VuZG5tQ1ZTblN0azRnY3E1b0NUVWh5eVdYa3NUeG0wTGxPUXQzcktuRVJwN2ozM1dmbHJDQm5SbE83S1BlS0F5ajg0dHRfdk1hZUI5ZklXSTVQcmtXbXBOTTVSb29rM1B1ZXVpWGR2Nnllanl1UW9kQkNTRXp4bG5mZXlDYlVreU5ESnRNazVoVlhqZnRQZ0dmbzFHbzJWd1otNEtVWFE?oc=5",
-              "published_kst": "2026-10-29T06:47+09:00"
+              "publisher": "ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS1RYSXR1eG9DcnhxaEIxRXgyRGlkWTg4X3hIOGJMcks0VDZCbjZ1MXZvUVZPTTdXWFlBejI4QTVBbDFfVDFlbG1TSVlVUHkzZk5acmxDbDdnbFVjMEVKOXNVMXBsclBfVXpOU0tTSFIzdmJFdjRrOVdmUENqaWRxRGlrVXlBb1FVZE1GdnRXTDg5aURzbjNzRFhhTlFjU1ZkZXBXUFJ1ZTRCWEdpNGhScWdSWGtNMHNCZ3otVzZuRmxfRnJDdmU3MDR0ckxCUzlOTE1SUlU2VU5VZlpPeUtfd0xXWHJKbF9YOXc?oc=5",
+              "published_kst": "2026-10-30T00:02+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 4.0,
-          "body": "NIKE (NYSE:NKE) Stock Price Down 1.1% - Should You Sell? \r\n\n Written by MarketBeat\n October 28, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n NIKE shares fell 1.1% to about $37.15 , with trading volume below average; the stock remains well below its 200-day moving average of $46.68. \n Management’s Pace Transformation targets approximately $2.5 billion in cumulative savings through fiscal 2031, while an upcoming Investor Day could outline its product, geographic and operational turnaround strategy. \n Risks remain significant: revenue declined 4.3% year over year, analysts cite weaker momentum versus adidas, and MarketBeat reports an average “Reduce” rating with a $40.93 consensus price target. The 4.4% dividend yield also faces scrutiny because the payout reportedly exceeds current cash generation. \n MarketBeat prev",
-          "body_source": "원문 본문 · www.marketbeat.com",
-          "article_url": "https://www.marketbeat.com/instant-alerts/price-nike-nyse-nke-stock-price-down-11-should-you-sell-2026-10-28/"
+          "importance": 6.0,
+          "body": "Nike is betting that a running shoe designed in India, for Indian runners, can help open a market it has barely tapped — and Barclays thinks the stock is close to finding its footing. The two developments landed within days of each other, offering a rare pair of data points on a company still working through a deep slump.\nThe Vegam Run, unveiled this week, is Nike's first running shoe developed specifically for India. It will carry a price tag of ?3,795 and go on sale November 1 through Flipkart and selected stores. Roughly five months in the making, the model was created alongside Indian runners — a detail that signals how seriously Nike is treating local preferences rather than simply shipping global designs into the market.\nThe shoe itself is only part of the plan. Nike intends to widen availability with Indian partners from spring 2027, with international markets slated to follow the",
+          "body_source": "원문 본문 · www.ad-hoc-news.de",
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nike-s-india-playbook-a-3-795-running-shoe-a-flipkart-debut-and-a-barclays-upgrade/70428707"
         }
       ]
     },
     "노보노디스크 ADR": {
       "ticker": "NVO",
       "market": "해외",
-      "candidates": 30,
-      "today_count": 8,
+      "candidates": 29,
+      "today_count": 10,
       "stories": [
         {
-          "title": "Novo Nordisk's November Test: JPMorgan's Neutral Stance Meets Lilly's Retatrutide Challenge",
-          "published_kst": "2026-10-29T06:01+09:00",
+          "title": "Eli Lilly Jumps 8% as Strong Quarter Lifts Revenue Outlook; Novo Nordisk Ticks Up, Viking Therapeutics Eases",
+          "published_kst": "2026-10-30T00:03+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZ1hCNEdOU3A1dXR6MWNkeEFvVmNGbjNILWVtZzBsdGdfbzViaV9qQ0ZCQXhaUmh0RFVWUUhmcDNQX1laS1R5T3I4OEtXNTNwbEFLbWxTYjdSVEltSDN1WFIzZ1lKMm9TUUF0YnNjdklhblc5SGM5aEl2M0Q1VFh4TEItcXFSZm5wRWJBNVg1TDQ3ZjI3Q0o1eDVIZjg1bEVrTFZmaXpHNF8zemNxWDFOZGlpbzFxaEduWExNYkJFaDBBelNaT3pzbTFOaFhwbTZwUVJkUEF6X3oySzRLVzZEaDhCMnVZWUQzR1hJWFNlZ3dBaU5S?oc=5",
-              "published_kst": "2026-10-29T06:01+09:00"
+              "publisher": "24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVTV5eld0TFhObkVqYS1tZzJtSHRzaDZUbWwwUlJVMnQ3RjBqNnJZNERGYXBVdmZqVTFfR2YzOHNoZV9OVXBtbENZZjFmU0ZBU3g4OTVoaHgwblItTTh4TXNCSEtEdWp2dFNRN21EVnZaaEt5UHRiN1VKdURwclZYTG9WZk1oV0lOVUY4dXhySE82Y01WQlFlM09sU3lxVkh3NTZ0UU9FSHhnZngtRHhhZGNTblpVbXFoUUZPSFlBSUs3N1pYaktrOXdCV1hSQjAtbmsySXZFZGxkVkphVEJYX0Fzbw?oc=5",
+              "published_kst": "2026-10-30T00:03+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 8.0,
+          "body": "Investing \n\n Eli Lilly Jumps 8% as Strong Quarter Lifts Revenue Outlook; Novo Nordisk Ticks Up, Viking Therapeutics Eases \n\n Eli Lilly just posted a quarter that left its GLP-1 rivals in the dust, but margin pressure and a $900 million pile of one-time benefits raise questions about how much of that strength is real and how long it can…\n\n By David Moadel \n\n Published October 29, 2026, 10:03am ET · 3 min read \n\n Market Movers desk. Editor: David Moadel .\n\n 𝕏 \n f \n\n ⧉ \n\n Eli Lilly ( NYSE:LLY | LLY Price Prediction ) just extended its lead in obesity drugs, and its newer cancer, immunology and neuroscience products are starting to matter, while the rest of the glucagon-like peptide-1 (GLP-1) group is barely moving. Eli Lilly stock is trading at $1,393, up 8%.\n\n Taking a look at the peers, Novo Nordisk ( NYSE:NVO ) stock is at $38.73, up 1%. Viking Therapeutics ( NASDAQ:VKTX ) stock is at $2",
+          "body_source": "원문 본문 · 247wallst.com",
+          "article_url": "https://247wallst.com/investing/2026/10/29/eli-lilly-jumps-8-as-strong-quarter-lifts-revenue-outlook-novo-nordisk-ticks-up-viking-therapeutics-eases/"
+        }
+      ]
+    }
+  },
+  "alerts": {
+    "코스맥스": {
+      "ticker": "192820",
+      "market": "국내",
+      "candidates": 74,
+      "today_count": 2,
+      "stories": [
+        {
+          "title": "하반기가 더 좋을까…코스맥스 3분기 영업익 껑충",
+          "published_kst": "2026-10-30T08:12+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "연합인포맥스",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9odURJTWFUeXYtSFFwanNsTUdDV3BhdWIxdkZwTzkydVdmbHhmOUJUTDJUWVlWT25paV9qdXpSNHFTUm9kbDFjVWpTMl9lVGhLbXhCaHVwOV9WZHFqMjNBdTNRQWpXamRhc0ZDWkVxM24?oc=5",
+              "published_kst": "2026-10-30T08:12+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body": "Novo Nordisk investors face a split-screen problem. The near-term question is whether the Danish drugmaker can beat expectations when it reports third-quarter and nine-month 2026 results before market open on 4 November 2026. The longer-term question is how much damage Eli Lilly's experimental retatrutide does to Novo's competitive standing. Those two clocks are ticking at different speeds, and the market has yet to decide which one matters more.\nJPMorgan analyst Richard Vosser expects adjusted revenue and adjusted operating profit above consensus at the upcoming print. Yet the house stays at \"Neutral\" with a price target of 275 DKK. That combination carries the real message: an earnings beat and a constructive valuation are not the same thing. If analyst estimates already anticipate a better trajectory, confirmation of that trajectory creates limited new grounds for a more favourable vi",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/novo-nordisk-s-november-test-jpmorgan-s-neutral-stance-meets-lilly-s-retatrutide-challenge/70426340"
+          "body": "코스맥스 3분기 실적 전망 [출처: 연합인포맥스, AI 생성 이미지] \n\n (서울=연합인포맥스) 변명섭 기자 = 코스맥스[192820]가 국내외 법인의 동반 성장에 힘입어 3분기 영업이익이 80% 넘게 늘어날 것으로 전망됐다.\n\n 국내 법인이 상고하저 계절성을 벗어나고 미국 법인이 흑자 기조를 이어갈 것이라는 점이 부각됐다.\n\n 30일 연합인포맥스 컨센서스 종합(화면번호 8031)에 따르면 최근 1개월 내 보고서를 낸 국내 주요 증권사 17곳의 전망치는 코스맥스가 지난 3분기 매출액 8천202억원, 영업이익 773억원을 각각 나타낼 것으로 분석했다.\n\n 이는 전년 동기 대비 각각 40.06%, 81.18% 증가한 수준이다.\n\n 추정치 범위는 매출액 7천824억원에서 8천440억원, 영업이익 666억원에서 840억원으로 형성됐다.\n\n 가장 주목되는 점은 국내 법인 3분기 매출이 2분기를 웃돌 것이라는 관측이다.\n\n 하나증권은 국내 본사 매출이 전년 동기 대비 45% 늘고 국내 영업이익은 78% 증가해 분기 기준 처음으로 600억원을 넘어설 것으로 예상했다.\n\n 인디 브랜드 수출이 호조를 보이는 가운데 글로벌 대형 브랜드와 해외 인디 브랜드의 기여도가 높아지고 있다는 설명이다.\n\n 박종대 하나증권 연구원은 \"3분기 실적에서는 상고하저 계절성을 깨트리며 K뷰티 글로벌 모멘텀 확대와 글로벌 ODM 1위 업체로서 수혜가 본격화되고 있음을 입증할 것\"이라고 평가했다.\n\n 해외 법인도 성장 폭을 키울 것으로 점쳐졌다.\n\n 미국 법인은 지난 2분기 창사 이래 첫 영업 흑자를 기록한 데 이어 3분기 매출이 70% 이상 늘 것으로 추정됐다.\n\n DB증권은 미국 법인의 3분기 영업이익을 25억원으로 제시하며 흑자 전환을 내다봤다.\n\n 중국 상해 법인은 대형 고객사를 중심으로 30%, 광저우 법인은 오프라",
+          "body_source": "원문 본문 · news.einfomax.co.kr",
+          "article_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442079"
         }
-      ]
+      ],
+      "alert": "볼린저 하단 이탈",
+      "alert_detail": "%B -0.008 · RSI 35.8 · 전일 대비 -5.02%"
     }
-  },
-  "alerts": {}
+  }
 }

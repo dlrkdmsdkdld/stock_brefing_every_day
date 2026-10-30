@@ -1,163 +1,157 @@
 {
-  "generated_at": "2026-10-29T09:08:34+09:00",
+  "generated_at": "2026-10-30T09:04:17+09:00",
   "model": "예비/gemini-flash-lite-latest",
   "disclaimer": "투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다.",
   "usage": {
-    "input_tokens": 1589,
-    "output_tokens": 693
+    "input_tokens": 1449,
+    "output_tokens": 644
   },
   "candidates": {
     "mine": [
       {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "points": 11.2,
-        "detail": [
-          "등락 +8.89%",
-          "오늘 기사 84건"
-        ]
-      },
-      {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "points": 9.3,
-        "detail": [
-          "등락 +9.75%",
-          "오늘 기사 82건"
-        ]
-      },
-      {
         "ticker": "329180",
         "name": "HD현대중공업",
-        "points": 7.1,
+        "points": 9.9,
         "detail": [
-          "등락 -3.07%",
-          "오늘 기사 25건",
-          "RSI 20",
-          "52주 저점 대비 +0.2%"
+          "등락 -4.57%",
+          "오늘 기사 8건",
+          "RSI 19",
+          "52주 저점 대비 +0.7%"
+        ]
+      },
+      {
+        "ticker": "267260",
+        "name": "HD현대일렉트릭",
+        "points": 9.0,
+        "detail": [
+          "등락 -5.68%",
+          "RSI 28",
+          "52주 저점 대비 +1.9%"
         ]
       },
       {
         "ticker": "071970",
         "name": "HD현대마린엔진",
-        "points": 7.0,
+        "points": 9.0,
         "detail": [
-          "등락 +13.41%"
+          "등락 -10.22%",
+          "52주 저점 대비 +4.6%"
         ]
       },
       {
-        "ticker": "009540",
-        "name": "HD한국조선해양",
-        "points": 6.7,
+        "ticker": "010140",
+        "name": "삼성중공업",
+        "points": 8.5,
         "detail": [
-          "RSI 27",
-          "52주 저점 대비 +1.9%"
+          "등락 -5.01%",
+          "RSI 30",
+          "52주 저점 대비 +1.1%"
+        ]
+      },
+      {
+        "ticker": "064350",
+        "name": "현대로템",
+        "points": 8.1,
+        "detail": [
+          "등락 -4.48%",
+          "RSI 29",
+          "52주 저점 대비 +2.5%"
         ]
       }
     ],
     "new": [
       {
-        "ticker": "AXGN",
-        "name": "AxoGen, Inc.",
+        "ticker": "GKOS",
+        "name": "Glaukos Corporation",
         "points": 15.0,
         "detail": [
-          "거래량 7.2배",
-          "등락 +31.47%"
+          "거래량 5.1배",
+          "등락 +33.65%"
         ]
       },
       {
-        "ticker": "GMAB",
-        "name": "Genmab A/S",
+        "ticker": "ADT",
+        "name": "ADT Inc.",
         "points": 15.0,
         "detail": [
-          "거래량 5.7배",
-          "등락 +28.25%"
+          "거래량 22.3배",
+          "등락 +33.20%"
         ]
       },
       {
-        "ticker": "ICLR",
-        "name": "ICON plc",
+        "ticker": "BHC",
+        "name": "Bausch Health Companies Inc.",
         "points": 15.0,
         "detail": [
-          "거래량 4.4배",
-          "등락 +17.04%"
+          "거래량 12.9배",
+          "등락 +28.76%"
         ]
       },
       {
-        "ticker": "BLCO",
-        "name": "Bausch + Lomb Corporation",
+        "ticker": "PRCH",
+        "name": "Porch Group, Inc.",
         "points": 15.0,
         "detail": [
-          "거래량 8.4배",
-          "등락 +15.78%"
+          "거래량 4.0배",
+          "등락 +28.16%"
         ]
       },
       {
-        "ticker": "BEAM",
-        "name": "Beam Therapeutics Inc.",
+        "ticker": "CROX",
+        "name": "Crocs, Inc.",
         "points": 15.0,
         "detail": [
-          "거래량 3.1배",
-          "등락 +15.58%"
+          "거래량 4.6배",
+          "등락 +25.54%"
         ]
       }
     ]
   },
   "screen_errors": [],
-  "mine": {
-    "ticker": "005930",
-    "name": "삼성전자",
-    "group": "mine",
-    "price": 245000.0,
-    "change_pct": 8.89,
-    "market_cap": 1416261000000000,
-    "headline": "사상 첫 분기 영업이익 100조 원 돌파",
-    "reason": "삼성전자는 올해 3분기 매출 195조 원, 영업이익 107조 4000억 원을 기록하며 분기 영업이익 100조 원을 처음 넘어섰습니다. AI 인프라 투자 확대에 따른 메모리 반도체 호황이 실적을 이끌었으며, 주가도 +8.89% 상승했습니다.",
-    "risk": "기사가 84건 집중되며 호재가 이미 주가에 일부 반영되었을 수 있어 단기 변동성에 유의해야 합니다."
-  },
+  "mine": null,
   "new": {
-    "ticker": "BLCO",
-    "name": "Bausch + Lomb Corporation",
+    "ticker": "ADT",
+    "name": "ADT Inc.",
     "group": "new",
     "price": NaN,
-    "change_pct": 15.78,
-    "market_cap": 7286171136,
-    "headline": "거래량 급증과 함께 강한 상승세 기록",
-    "reason": "BLCO는 오늘 +15.78% 상승했으며 거래량이 평소의 8.4배에 달해 시장의 큰 관심을 받았습니다. 시가총액 7.3B 달러 규모로 볼린저 밴드 내에서 움직이고 있습니다.",
-    "risk": "새 종목 특성상 수집된 뉴스 요약이 없어 지표와 가격 변동성만으로 판단해야 하므로 근거가 다소 얕습니다."
+    "change_pct": 33.2,
+    "market_cap": 7210619392,
+    "headline": "거래량이 폭증하며 급등한 ADT",
+    "reason": "ADT는 오늘 +33.20% 급등하며 거래량이 평소의 22.3배 수준으로 대폭 증가했다. day_gainers와 most_actives 화면에 동시에 이름을 올렸다.",
+    "risk": "새 종목은 뉴스 요약이 없어 지표만으로 판단해야 하므로 상승의 구체적인 근거가 다소 얕다."
   },
   "others": [
     {
-      "ticker": "000660",
-      "note": "분기 영업이익 83조 원으로 호실적을 냈으나 삼성전자와 함께 오늘 살펴볼 종목으로 삼전이 선택되었습니다."
+      "ticker": "HD현대일렉트릭",
+      "note": "RSI 28.4와 -5.68% 하락률을 기록했으나 특별한 뉴스는 없다."
     },
     {
-      "ticker": "329180",
-      "note": "목표주가 하향 조정과 함께 -3.07% 하락하며 RSI 20.5를 기록 중입니다."
+      "ticker": "HD현대마린엔진",
+      "note": "등락률 -10.22%로 낙폭이 크지만 관련 뉴스가 없다."
     },
     {
-      "ticker": "071970",
-      "note": "뉴스가 없는 상태에서 등락률 +13.41%를 보였습니다."
+      "ticker": "삼성중공업",
+      "note": "RSI 29.8 및 -5.01% 하락을 기록했으나 뉴스가 부재하다."
     },
     {
-      "ticker": "009540",
-      "note": "RSI 27.2로 52주 저점에 근접해 있습니다."
+      "ticker": "현대로템",
+      "note": "RSI 28.6으로 과매도권이나 특별한 호재 뉴스는 없다."
     },
     {
-      "ticker": "AXGN",
-      "note": "거래량 7.2배와 함께 +31.47% 급등했습니다."
+      "ticker": "GKOS",
+      "note": "거래량이 5.1배 늘며 +33.65% 상승했다."
     },
     {
-      "ticker": "GMAB",
-      "note": "시총 35.2B 규모로 거래량이 5.7배 증가했습니다."
+      "ticker": "BHC",
+      "note": "거래량이 12.9배 증가하며 +28.76% 올랐다."
     },
     {
-      "ticker": "ICLR",
-      "note": "거래량이 4.4배 늘며 +17.04% 상승했습니다."
+      "ticker": "PRCH",
+      "note": "거래량 4.0배 수반하며 +28.16% 상승했다."
     },
     {
-      "ticker": "BEAM",
-      "note": "거래량 3.1배와 함께 +15.58% 올랐습니다."
+      "ticker": "CROX",
+      "note": "거래량 4.6배 증가와 함께 +25.54% 급등했다."
     }
   ]
 }
