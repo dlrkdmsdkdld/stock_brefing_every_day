@@ -1,17 +1,177 @@
 {
-  "generated_at": "2026-10-31T08:58:07+09:00",
+  "generated_at": "2026-11-01T08:32:12+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6735,
-    "output_tokens": 3193
+    "input_tokens": 6911,
+    "output_tokens": 3858
   },
   "skipped": {
-    "본문없음": 8,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "상장사자사주신고액102조원삼성sk하이닉스가판키웠다": {
+      "title": "상장사 자사주 신고액 102조원…삼성·SK하이닉스가 판 키웠다",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "올해 상장사 자사주 취득 및 처분 신고액이 101조9217억원을 기록하며 전년 동기 대비 467.33% 증가했다. 이 중 삼성전자와 SK하이닉스의 합산 자사주 취득 신고액이 약 82조원으로 전체의 80.45%를 차지했다. 특히 SK하이닉스는 8월과 10월에 걸쳐 총 60조원 규모의 자사주 매입 계획을 공시하고 진행 중이다.",
+      "impact": "대규모 자사주 매입과 주주환원 정책은 유통 주식 수를 줄이고 주가에 긍정적인 수급 요인으로 작용하여 보유 종목의 가치 상승을 견인한다.",
+      "caution": "매입 신고액이 실제 소각 등으로 이어지는지 여부와 시장 전반의 수급 상황을 지속적으로 지켜봐야 한다."
+    },
+    "삼성전자창사첫2개창립기념사최대실적속원삼성물음표": {
+      "title": "삼성전자 창사 첫 2개 창립기념사…최대실적 속 '원삼성' 물음표",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "삼성전자는 올해 3분기 연결 기준 영업이익 107조4405억원을 기록하며 역대 최대 실적 행진을 이어갔으나, 반도체 부문(106.5조원)과 완제품 부문(8천억원 적자) 간 격차가 극심해졌다. 실적 및 보상 격차로 인해 창사 이래 처음으로 별도의 창립기념사를 발표하는 등 내부 노노갈등이 격화되고 있다.",
+      "impact": "반도체의 막대한 실적에도 불구하고 완제품 부문의 적자와 내부 갈등 심화는 전사적 시너지 창출과 조직 안정성에 부담으로 작용할 수 있다.",
+      "caution": "반도체 부문의 압도적인 실적이 전체 실적을 방어하고 있으나 내부 갈등이 경영 리스크로 확대될 소지가 있다."
+    },
+    "코스피한달새16뚝수주실망조선방산반도체보다더빠": {
+      "title": "코스피 한 달새 16% '뚝'…'수주 실망' 조선·방산, 반도체보다 더 빠...",
+      "holding": "HD현대중공업",
+      "stance": "악재",
+      "summary": "10월 한 달간 코스피가 16.19% 급락한 가운데, HD현대중공업은 36.79% 하락하며 삼성전자(-16.20%)나 SK하이닉스(-20.16%)보다 큰 낙폭을 기록했다. 조선주는 향후 호황의 지속성과 컨테이너선 발주 지속 여부에 대한 시장의 의구심이 주가 하락으로 이어졌다.",
+      "impact": "수주 잔고에도 불구하고 향후 업황 지속성에 대한 실망감으로 인해 주가가 큰 폭으로 조정을 받으며 투자 심리가 크게 위축되었다.",
+      "caution": "단기 낙폭이 과도했으나 향후 수주 모멘텀이나 실적 발표에 따라 변동성이 클 수 있다."
+    },
+    "howdellmovementsinformriskallocationmodels": {
+      "title": "How (DELL) Movements Inform Risk Allocation Models",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지스(DELL) 주가는 단·중기 심리가 취약하여 장기적 긍정 전망에 도전이 되고 있으며, 명확한 가격 포지셔닝 신호가 없는 상태에서 하방 리스크가 제기되었다. 인공지능 모델들은 서로 다른 위험 프로필과 보유 기간에 맞춘 포지션 트레이딩 및 모멘텀 돌파 전략을 제시했다.",
+      "impact": "기술적 분석과 트레이딩 전략에 따른 단기 변동성은 존재하나, 종목 자체의 펀더멘털에 대한 구체적인 호재나 악재는 본문에 제시되지 않았다.",
+      "caution": "기사가 주로 기술적 신호와 트레이딩 전략을 다루고 있어 기업의 실적이나 사업 내용 변화를 파악하기에는 정보가 제한적이다."
+    },
+    "tilraywillshrinkitsusbrewerynetworktosixfacilities": {
+      "title": "Tilray will shrink its U.S. brewery network to six facilities",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "틸레이 브랜즈(Tilray Brands)가 미국 내 양조장 네트워크를 6개 시설로 축소한다고 10월 30일 밝혔다. 해당 웹사이트는 쿠키 사용 및 개인정보 동의 정책에 대한 안내를 상세히 게재했다.",
+      "impact": "본문 내용은 보유 종목인 컨스텔레이션 브랜즈와 직접적인 관련이 없으며 타사인 틸레이의 구조조정과 사이트 안내문만 포함되어 있다.",
+      "caution": "보유 종목과 무관한 타사 관련 뉴스이며 기사 본문에 실질적인 투자 정보가 없다."
+    },
+    "solarstocksworthwatchingoctober31st": {
+      "title": "Solar Stocks Worth Watching - October 31st",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "마켓빗(MarketBeat)은 퍼스트솔라(First Solar)를 포함해 솔라리스 에너지 인프라스트럭처, 엔페라 에너지 등 최근 거래대금이 높은 7개의 태양광 관련 종목을 주목할 종목으로 선정했다. 태양광 주식들은 재생에너지 노출을 제공하지만 정부 정책, 금리, 기술 변화, 원자재 비용 등에 민감하다.",
+      "impact": "퍼스트솔라가 주요 태양광 종목으로 언급되었으나 구체적인 실적 발표나 개별 계약 소식 없이 산업 전반의 일반적인 동향만 다루고 있다.",
+      "caution": "개별 기업에 대한 구체적인 호재나 악재보다는 업종 전반의 특징을 나열한 수준이다."
+    },
+    "constellationenergycegcouldbe25undervaluedafteramazongoogledealsanddoeloan": {
+      "title": "Constellation Energy (CEG) Could Be 25% Undervalued After Amazon Google Deals And DOE Loan",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지(CEG)는 아마존 및 구글과의 장기 전력 계약과 50억 달러 규모의 미국 연방정부(DOE) 대출 조건부 승인에 힘입어 청정에너지 대화의 중심에 섰다. 최근 주가 반등에도 불구하고 애널리스트 목표가나 내재 가치 대비 저평가되어 있다는 분석이 제기됐다.",
+      "impact": "빅테크 기업들과의 장기 계약과 정부의 대규모 자금 지원은 안정적인 현금 흐름 창출과 데이터 센터 전력 수요 급증에 따른 수혜로 이어져 기업 가치에 강력한 호재로 작용한다.",
+      "caution": "단기적인 주가 하락세가 있었으나 장기적인 모멘텀과 펀더멘털 개선 기대를 뒷받침하는 근거들이 다수 존재한다."
+    },
+    "signatureglobalsubsidiariesbackoverrs790croreinloanfacilitieswithcorporateguarantees": {
+      "title": "Signatureglobal Subsidiaries Back Over Rs 790 Crore in Loan Facilities With Corporate Guarantees",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "시그니처글로벌(Signatureglobal)의 자회사들이 모회사 대출을 담보하기 위해 비스트라 ITCL(Vistra ITCL)에 기업 보증을 제공했다고 공시했다. 상장된 모회사에 대한 직접적인 영향은 없으며 우발부채로 분류된다.",
+      "impact": "보유 종목인 비스트라 에너지(Vistra Corp)와는 무관한 인도 자산관리·수탁 회사인 'Vistra ITCL(India) Limited'에 대한 내용이다.",
+      "caution": "보유 종목의 동명이인 혹은 유사 명칭의 인도 현지 법인 관련 공시로, 보유 종목의 주가나 사업에 영향을 주지 않는다."
+    },
+    "wallstreetisgettingmoreinterestedincredoheresmypriceprediction": {
+      "title": "Wall Street Is Getting More Interested in Credo. Here’s My Price Prediction",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지는 최근 주가가 한 달간 약 20% 하락했으나 세 자리 수 매출 성장을 기록했다. 월스트리트는 이 종목에 대해 매수 의견을 유지하며 목표주가 218.63달러를 제시해 30.58%의 상승 여력이 있다고 평가했다.",
+      "impact": "목표주가가 현재가 167.43달러 대비 높은 수준으로 제시되어 시장의 긍정적인 평가가 투자 심리 회복과 주가 상승 동력으로 작용할 수 있다.",
+      "caution": ""
+    },
+    "the5mostinterestinganalystquestionsfromalphabetsq3earningscall": {
+      "title": "The 5 most interesting analyst questions from Alphabet’s Q3 earnings call",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "알파벳의 3분기 실적은 매출이 월스트리트 예상치에 부합했으나 비GAAP 주당순이익(EPS)이 크게 미달하며 시장에 부정적인 반응을 불러일으켰다. 경영진은 AI 관련 제품 사용량 급증과 클라우드 및 검색 부문의 성장을 강조했으나, 기술 인프라와 AI 투자 비용 증가로 수익성이 압박을 받았다.",
+      "impact": "매출 성장에도 불구하고 EPS 부진과 비용 증가로 인한 수익성 압박이 단기적인 주가 하방 압력으로 작용할 수 있다.",
+      "caution": ""
+    },
+    "ciscocutsworkforceforthirdtimein2yearspursuesai": {
+      "title": "Cisco cuts workforce for third time in 2 years, pursues AI",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "시스코 시스템즈는 회계연도 4분기 실적 발표에서 AI, 사이버보안, 클라우드 등 고성장 시장으로 인력을 재배치하기 위해 전체 인력의 7%에 달하는 6,000명 이상의 감원을 단행한다고 밝혔다. 이번 구조조정은 비용 절감 목적이 아니라 거래 성사 능력을 강화하기 위한 조직 개편의 일환이다.",
+      "impact": "핵심 고성장 영역인 AI와 클라우드 사업 역량을 강화하기 위한 전략적 재편이라는 점에서 장기적인 경쟁력에 긍정적인 영향을 준다.",
+      "caution": "단기적으로 구조조정 비용으로 세전 약 10억 달러가 소요될 수 있다."
+    },
+    "lockheedmartinaustralialeadspartnershiptobuildhighspeedhypersoniclaunchcapability": {
+      "title": "Lockheed Martin Australia leads partnership to build high-speed, hypersonic launch capability",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "록히드 마틴 오스트레일리아는 퀸즈랜드 정부의 638만 달러 규모 계약을 바탕으로 현지 중소기업 및 대학들과 파트너십을 맺고 고속 및 극초음속 비행 기술 연구를 위한 이동식 발사 플랫폼 구축을 주도한다. 이번 프로젝트는 초기 단계 연구와 시험 평가를 가속화하기 위한 목적을 가진다.",
+      "impact": "방산 및 항공우주 분야의 핵심 기술인 극초음속 비행 연구 능력을 확대함으로써 장기적인 기술 경쟁력과 정부 계약 수주 가능성을 높인다.",
+      "caution": "초기 연구 단계의 프로젝트로 단기적인 실적 기여도는 제한적일 수 있다."
+    },
+    "cmbinternationalsecuritiesremainsabuyonmicrosoftmsft": {
+      "title": "CMB International Securities Remains a Buy on Microsoft (MSFT)",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "CMB 인터내셔널 시큐리티즈의 분석가는 마이크로소프트에 대해 매수 등급을 유지하며 목표주가 641.80달러를 제시했다. 마이크로소프트의 9월 30일 마감 분기 실적은 매출 922억 8,000만 달러, 순이익 366억 3,000만 달러를 기록해 전년 동기 대비 크게 증가했다.",
+      "impact": "견조한 실적 성장이 확인되었고 주요 증권사의 매수 의견과 높은 목표주가가 제시되어 투자 심리에 긍정적이다.",
+      "caution": "일부 기관에서 투자의견을 하향 조정한 사례도 존재한다."
+    },
+    "novonordisksclinicalledgerretatrutidesheadtoheadwinapediatricinsulinapprovalandthe": {
+      "title": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "일라이릴리가 발표한 제2형 당뇨병 임상 3상(TRANSCEND-T2D-2) 결과, 자사의 레타트루타이드가 노보노디스크의 오젬픽과 직접 비교한 헤드투헤드 임상에서 체중 감량과 혈당 조절 지표 모두에서 우수한 성과를 거두었다. 80주 차에 레타트루타이드는 20.9%의 체중 감량을 기록해 오젬픽의 9.4%를 상회했다.",
+      "impact": "경쟁사의 신약 후보물질이 자사 주력 제품인 오젬픽과의 직접 비교에서 우월성을 입증함에 따라 향후 시장 점유율 경쟁에서 압박을 받을 수 있다.",
+      "caution": "해당 데이터는 일라이릴리의 탑라인 임상 3상 결과이며 최종 규제 기관의 승인 여부는 남아 있다."
+    },
+    "poetstockfacespartnershipfailurequestionsaftermarvellsetback": {
+      "title": "POET Stock Faces Partnership Failure Questions After Marvell Setback",
+      "holding": "마벨 테크놀로지",
+      "stance": "중립",
+      "summary": "기사의 주요 내용은 마벨 테크놀로지가 아니라 마벨과의 파트너십 실패를 겪은 POET 테크놀로지의 리스크와 실행 위험 프로필에 관한 것이다.",
+      "impact": "마벨 테크놀로지의 이름이 언급되었으나 본문의 초점은 상대 기업인 POET의 사업 구조적 한계에 맞춰져 있어 마벨 주가에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "기사의 주된 대상 회사가 보유 종목이 아니라 타사인 POET 테크놀로지이다."
+    },
+    "amazonamznstockslipsasq3earningsreflectprofitreset": {
+      "title": "Amazon (AMZN) Stock Slips As Q3 Earnings Reflect Profit Reset",
+      "holding": "아마존",
+      "stance": "약한 악재",
+      "summary": "아마존은 2026년 3분기 매출 2,019억 달러와 순이익 207억 달러를 기록했으나, 주당순이익이 이전 분기 대비 크게 하락하면서 이익 리셋에 대한 우려로 주가가 1.4% 하락했다. 다만 경영진은 기록적인 영업이익률을 달성했다고 밝혔다.",
+      "impact": "매출 성장세에도 불구하고 이익 지표의 일시적 둔화와 이로 인한 시장의 실망감이 단기적인 주가 하방 압력으로 작용하고 있다.",
+      "caution": ""
+    },
+    "intelwinsmultipleupgradesonsaafterearningsledselloff": {
+      "title": "Intel wins multiple upgrades on SA after earnings-led selloff",
+      "holding": "인텔",
+      "stance": "약한 호재",
+      "summary": "인텔은 2026년 3분기 실적 발표 이후 부진한 4분기 전망으로 금요일 주가가 28% 이상 급락했으나, 일부 분석가들은 이를 매수 기회로 보고 주가 등급을 상향 조정했다. 마이크 자카르디는 기술적 분석을 바탕으로 매도에서 매수로 의견을 상향했으며, 보단 쿠체리아비는 약 21%의 매출 성장과 주당 0.82달러(기사 본문 내용 기준) 조정을 언급하며 3분기 실적이 나쁘지 않았다고 평가했다.",
+      "impact": "주가 급락으로 단기 충격이 컸으나 다수의 분석가가 저가 매수 기회로 평가하며 등급을 상향한 것은 투자 심리 회복에 긍정적인 영향을 줄 수 있다.",
+      "caution": "4분기 전망이 여전히 약할 것으로 예상되므로 추가적인 변동성에 주의할 필요가 있다."
+    },
+    "invescosolaretftanstockpricenewsquotehistory": {
+      "title": "Invesco Solar ETF (TAN) Stock Price, News, Quote & History",
+      "holding": "엔페이즈 에너지",
+      "stance": "중립",
+      "summary": "인베스코 솔라 ETF(TAN)의 주가, 뉴스, 기록 및 기타 투자 정보를 제공하는 금융 플랫폼 안내 페이지이다.",
+      "impact": "보유 종목인 엔페이즈 에너지와 관련된 개별 기업의 실적이나 뉴스 없이 단순히 ETF 관련 정보 사이트 안내에 불과하여 주가에 직접적인 영향을 주지 않는다.",
+      "caution": "본문이 광고 및 사이트 안내문만 있고 구체적인 기사 내용이 없다."
+    },
+    "circleinternetgroupinccoinbasetokenizedstockpricecrclpricelivechartsandmarketcap": {
+      "title": "Circle Internet Group Inc. (Coinbase Tokenized Stock) Price, CRCL Price, Live Charts, and Marketcap",
+      "holding": "서클 인터넷 그룹",
+      "stance": "중립",
+      "summary": "코인베이스 플랫폼을 통해 거래되는 서클 인터넷 그룹(Circle Internet Group Inc.)의 토큰화된 주식과 관련된 가격, 차트 및 플랫폼 소개 정보를 제공한다.",
+      "impact": "서클 인터넷 그룹의 토큰화된 주식 상품 구조와 코인베이스 서비스에 대한 일반적인 설명일 뿐 새로운 기업 실적이나 재무적 사건을 다루지 않는다.",
+      "caution": "본문이 단순한 플랫폼 및 상품 안내에 해당하여 투자 판단에 직접적인 호재나 악재로 작용하지 않는다."
+    },
+    "applovindeadlineappinvestorswithlossesinexcessof100khaveopportunitytoleadapplovincorporationsecuritiesfraudlawsuit": {
+      "title": "AppLovin Deadline: APP Investors with Losses in Excess of $100K Have Opportunity to Lead AppLovin Corporation Securities Fraud Lawsuit",
+      "holding": "앱러빈",
+      "stance": "약한 악재",
+      "summary": "로젠 로펌은 2026년 2월 12일부터 2026년 8월 5일 사이에 앱러빈(AppLovin) 증권을 매입하고 10만 달러 이상의 손실을 본 투자자들을 대상으로 증권사기 집단소송의 대표 원고 신청 마감일이 2026년 11월 16일이라고 공지했다.",
+      "impact": "집단소송 제기 및 대표 원고 모집 소식은 단기적으로 투자 심리를 위축시키고 기업 평판에 부정적인 영향을 줄 수 있다.",
+      "caution": "아직 소송의 최종 결과나 법적 책임이 확정된 것은 아니며, 초기 단계의 투자자 소송 공고이다."
+    },
     "역대급축제엇갈린표정sk하이닉스웃고삼성전자고개숙이다": {
       "title": "'역대급 축제' 엇갈린 표정…SK하이닉스 웃고 삼성전자 고개 숙이다",
       "holding": "삼성전자",
