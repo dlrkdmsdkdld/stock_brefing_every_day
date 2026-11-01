@@ -1,17 +1,129 @@
 {
-  "generated_at": "2026-11-01T08:32:12+09:00",
+  "generated_at": "2026-11-02T08:45:06+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6911,
-    "output_tokens": 3858
+    "input_tokens": 5567,
+    "output_tokens": 2915
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 5,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "기술주쇼크삼성전자sk하닉프리마켓서4동반급락": {
+      "title": "美기술주 쇼크…삼성전자·SK하닉, 프리마켓서 4% 동반 급락",
+      "holding": "삼성전자",
+      "stance": "악재",
+      "summary": "미국 인텔의 부진한 4분기 실적 전망과 뉴욕 증시 반도체주 급락 영향으로 2일 프리마켓에서 삼성전자가 3.33% 하락했다. 인텔은 AI 데이터센터 투자로 인한 메모리 가격 상승과 PC 수요 위축 등을 이유로 매출 전망치를 시장 예상치인 약 170억달러보다 낮은 150억~160억달러로 제시했다.",
+      "impact": "글로벌 반도체 업황에 대한 우려가 커지면서 삼성전자의 주가에 하방 압력으로 작용했다.",
+      "caution": ""
+    },
+    "부산조선기자재공동납품체계완성hd현대삼성한화오션까지연결": {
+      "title": "부산 조선기자재 공동납품체계 완성…HD현대·삼성·한화오션까지 연결",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "부산시와 조선업계는 11월 1일부터 한화오션 납품 화물에 대한 공동납품 서비스를 개시하며, HD현대중공업과 삼성중공업 등을 포함한 국내 주요 조선소의 통합 물류체계를 완성했다. 이를 통해 조선기자재업체들은 운송비를 평균 15% 절감하고 연간 약 90억원의 물류비를 아낄 수 있을 것으로 기대된다.",
+      "impact": "물류비 절감과 납품 효율성 향상을 통해 HD현대중공업 협력업체들의 경쟁력이 강화되고 공급망 안정성에 긍정적 영향을 준다.",
+      "caution": ""
+    },
+    "dellexpandscybersecurityportfoliowithnewaiidentityandquantumresiliencecapabilities": {
+      "title": "Dell expands cybersecurity portfolio with new AI, identity and quantum-resilience capabilities",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "본문에는 쿠키 및 개인정보 보호정책 관련 웹사이트 안내문만 있고 델(Dell)의 사이버안보 포트폴리오 확장과 관련된 구체적인 기사 본문 내용이 존재하지 않는다.",
+      "impact": "기사 내용이 없어 델의 주가나 사업에 미치는 실질적인 영향을 판단할 수 없다.",
+      "caution": "본문에 기사 본문이 없고 쿠키 안내문만 포함되어 있어 중립으로 처리함."
+    },
+    "consumerstaplesetfxlpgains1094inoctobersets9038record": {
+      "title": "Consumer Staples ETF XLP Gains 10.94% in October, Sets $90.38 Record",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "호재",
+      "summary": "2026년 10월 스테이트 스트리트의 경기소비재 ETF(XLP)가 10.94% 상승하며 90.38달러로 사상 최고치를 기록했다. 기술주가 매도세를 보이는 동안 예측 가능한 수요와 안정적 현금흐름을 가진 방어적 기업들이 주목받았으며, 컨스텔레이션 브랜즈(Constellation Brands)가 이달의 주요 상승 종목 중 하나로 꼽혔다.",
+      "impact": "투자자들이 방어적 성향의 종목으로 이동하면서 컨스텔레이션 브랜즈의 주가에 긍정적인 수급 유입 요인으로 작용했다.",
+      "caution": ""
+    },
+    "stocktwitswallstreetwrapteslabroadcommercadolibregetbullishcallsasalphabetenphasefacedowngrades": {
+      "title": "Stocktwits Wall Street Wrap — Tesla, Broadcom, MercadoLibre Get Bullish Calls As Alphabet, Enphase Face Downgrades",
+      "holding": "엔페이즈 에너지",
+      "stance": "약한 악재",
+      "summary": "월스트리트 애널리스트들이 테슬라, 브로드컴, 메르카도리브레를 상향 조정한 반면, 알파벳, 엔페이즈 에너지, 월풀은 성장 둔화, 마진 압박, 경쟁 심화를 이유로 하향 조정했다.",
+      "impact": "엔페이즈 에너지가 애널리스트로부터 등급 하향 조정을 받으며 단기적인 투자 심리에 부정적인 영향을 줄 수 있다.",
+      "caution": "구체적인 실적 수치 없이 애널리스트의 의견 변화만 언급되어 있다."
+    },
+    "roundupofcomopensmore6ghzbandfccbanschinesetestlabsnewsfromciscohpeindiashigherpower6ghzwifi": {
+      "title": "Roundup: Ofcom opens more 6 GHz band, FCC bans Chinese test labs, news from Cisco & HPE, & India's higher power 6 GHz Wi-Fi",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "영국 통신규제기관 오프콤(Ofcom)이 6 GHz 대역의 주파수를 추가 승인하고 시스코(Cisco) 등의 소식이 언급되었으나, 본문 내용이 시스코 시스템즈의 직접적인 실적이나 사업 성과보다는 규제 완화 및 업계 동향 중심으로 다뤄졌다.",
+      "impact": "네트워크 및 Wi-Fi 환경 개선에 기여할 수 있으나 시스코 주가에 미치는 직접적인 영향은 제한적이다.",
+      "caution": "시스코가 언급되었으나 기사의 주된 내용은 영국의 6 GHz 주파수 스펙트럼 승인 정책이다."
+    },
+    "whatisbehindthemoveinnventstock": {
+      "title": "What Is Behind The Move In nVent Stock?",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "2026년 10월 30일 nVent Electric(NVT) 주가가 3.8% 하락한 가운데, 동종 기업인 이튼(Eaton)과 버티브(Vertiv)도 같은 세션에서 급락했다고 언급되었다. nVent는 2026년 3분기 매출 15억 1000만 달러와 조정 주당순이익 1.52달러를 기록해 예상치를 상회했다.",
+      "impact": "버티브 홀딩스가 동종 기업의 주가 변동 맥락에서 언급되었을 뿐 버티브 자체의 실적이나 개별 이벤트가 상세히 다뤄지지 않았다.",
+      "caution": "보유 종목인 버티브 홀딩스는 동종업계 주가 하락 기사에서 언급만 되었으므로 중립으로 처리함."
+    },
+    "nikestockfacesproducttestwithlegobasketballlaunch": {
+      "title": "Nike stock faces product test with LEGO basketball launch",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "나이키와 레고 그룹이 11월 2일 월요일에 새로운 농구 컬렉션을 출시하며, 이는 nike.com 및 아시아, 태평양, 라틴 아메리카, 유럽, 중동, 아프리카의 선별된 매장에서 판매된다. 이번 제품군은 에어 포스 1 로우 LV8과 S.T. 다이너마이트 스니커즈 2종과 의류 4종으로 구성되며, 어린이와 젊은 플레이어들을 겨냥한다. 이는 스포츠웨어 회사가 운영 모델 개편을 진행하는 동안 투자자들이 주목할 만한 단기 제품 이벤트가 된다.",
+      "impact": "새로운 협업 제품 출시로 단기적인 마케팅 및 매출 촉진 효과를 기대할 수 있으나, 구체적인 판매 가이던스는 아직 제공되지 않았다.",
+      "caution": "기사에 구체적인 매출 목표나 실적 기여도 수치가 포함되어 있지 않다."
+    },
+    "novonordiskswegovypillhits217050weeklyscriptsas26abstractsloomforwashington": {
+      "title": "Novo Nordisk's Wegovy Pill Hits 217,050 Weekly Scripts as 26 Abstracts Loom for Washington",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보 노디스크의 경구용 웨고비 주간 처방 건수가 4.2% 증가한 217,050건을 기록하며 태블릿 출시 이후 최고치를 경신했다. 금요일 주가는 2.7% 상승했으나, 처방 건수 증가와 주가 상승 간의 직접적인 인과관계는 확실하지 않다.",
+      "impact": "처방 건수 증가 기록은 제품에 대한 강력한 수요 신호를 보여주며 운영상의 긍정적 지표로 작용한다.",
+      "caution": "처방 건수는 수요를 추적하는 지표일 뿐 직접적인 매출이나 이익 공시로 볼 수 없다."
+    },
+    "marvellslumentumtalkswhenthescarcitythatmakesadealattractivealsomakesitexpensive": {
+      "title": "Marvell's Lumentum Talks: When the Scarcity That Makes a Deal Attractive Also Makes It Expensive",
+      "holding": "마벨 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "마벨 테크놀로지의 주가는 금요일 6.4% 하락했으며, 루멘텀 홀딩스 인수설과 AI 지출 수익성에 대한 의구심 등 기술주 전반의 퇴조가 겹쳤다. 블룸버그는 양사가 전액 주식 교환 구조의 인수를 위한 고급 협상을 진행 중이라고 보도했으나 공식 확인된 바는 없다.",
+      "impact": "인수가 성사될 경우 주식 발행을 통한 지분 희석 우려가 존재하며, AI 관련 밸류에이션 부담과 맞물려 주가에 하방 압력으로 작용한다.",
+      "caution": "인수 협상 보도는 확정된 계약이 아니며 아직 공식 확인되지 않았다."
+    },
+    "52yearintelshocktriggerskospiplunge": {
+      "title": "52-Year Intel Shock Triggers KOSPI Plunge",
+      "holding": "인텔",
+      "stance": "중립",
+      "summary": "인텔의 52년 만의 충격적인 주가 하락이 코스피의 16% 폭락 등 글로벌 테크 시장 격동 속에서 반도체 과도 의존성을 부각시켰다는 내용이다.",
+      "impact": "인텔 관련 악재와 글로벌 반도체 시장의 변동성을 보여주나, 구체적인 개별 기업의 펀더멘털 변화에 대한 상세한 수치는 본문에 없다.",
+      "caution": "본문이 매우 짧고 헤드라인 위주의 요약 형태로 구체적인 실적이나 사업 내용이 부족하다."
+    },
+    "whyhoodpriceactioniscriticalfortacticaltrading": {
+      "title": "Why (HOOD) Price Action Is Critical for Tactical Trading",
+      "holding": "로빈후드",
+      "stance": "중립",
+      "summary": "로빈후드(HOOD)의 주가 움직임과 관련하여 약한 단·중기 센티멘트가 중립적인 장기 전망을 압박할 수 있다는 내용과 함께 AI 모델 기반의 트레이딩 전략 시그널이 제시되었다.",
+      "impact": "현재 뚜렷한 실적 발표나 기업 이슈보다는 기술적 분석과 단기 트레이딩 전략 관점의 내용이다.",
+      "caution": "기업의 본질적 가치 변화보다는 기술적 지표와 매매 전략 중심의 내용이다."
+    },
+    "financialsectorriseinoctoberaishiftliftscboecryptorouthitscoin": {
+      "title": "Financial sector rise in October: AI shift lifts CBOE, crypto rout hits COIN",
+      "holding": "코인베이스",
+      "stance": "약한 악재",
+      "summary": "10월 금융 섹터가 5.23% 상승한 가운데, Cboe Global Markets는 21.05% 상승하며 가장 좋은 성적을 낸 반면 코인베이스(COIN)는 24.17% 하락하며 최악의 성적을 기록했다.",
+      "impact": "암호화폐 시장의 부진(crypto rout)으로 인해 코인베이스의 주가가 큰 폭으로 하락하며 섹터 내 부진한 흐름을 보였다.",
+      "caution": "금융 섹터 전반의 10월 성과 요약 기사이며 코인베이스 개별 기업의 세부 재무 상태 변화를 다루지는 않는다."
+    },
+    "applovinstockisstruggling3thingstowatchinq3earningsthatcouldgetappbackontrack": {
+      "title": "AppLovin Stock Is Struggling: 3 Things to Watch in Q3 Earnings That Could Get APP Back on Track",
+      "holding": "앱러빈",
+      "stance": "중립",
+      "summary": "앱러빈(APP)은 작년 97% 급등 이후 올해 58% 하락하며 투자자들의 의문을 받고 있으며, 2분기 컨센서스 예상치를 하회한 바 있다. 다가오는 3분기 실적 발표에서 주목해야 할 3가지 요인이 주가 회복의 관건이다.",
+      "impact": "과거 실적 부진과 변동성 확대로 인해 투자 심리가 위축되어 있으나, 다가오는 3분기 실적 발표 전까지는 방향성을 예단하기 어렵다.",
+      "caution": "현재의 주가 부진 원인과 향후 관전 포인트를 다루고 있으나 아직 3분기 실적 결과는 발표되지 않았다."
+    },
     "상장사자사주신고액102조원삼성sk하이닉스가판키웠다": {
       "title": "상장사 자사주 신고액 102조원…삼성·SK하이닉스가 판 키웠다",
       "holding": "SK하이닉스",
