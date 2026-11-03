@@ -1,17 +1,177 @@
 {
-  "generated_at": "2026-11-02T08:45:06+09:00",
+  "generated_at": "2026-11-03T11:29:18+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 5567,
-    "output_tokens": 2915
+    "input_tokens": 7450,
+    "output_tokens": 4106
   },
   "skipped": {
-    "본문없음": 5,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "코스피3급락5650선삼성전자sk하이닉스동반약세": {
+      "title": "코스피 3% 급락 5650선… 삼성전자·SK하이닉스 동반 약세",
+      "holding": "SK하이닉스",
+      "stance": "악재",
+      "summary": "미국 기술주와 반도체주 약세의 영향으로 코스피가 3.52% 급락한 5652.92를 기록했다. 대형 반도체주인 삼성전자가 4.80% 하락하고 SK하이닉스는 5.64% 하락한 13만8900원을 기록하는 등 지수 전반이 큰 폭의 조정을 받았다.",
+      "impact": "지수 하락과 외국인·기관의 순매도세 속에서 보유 종목인 SK하이닉스의 주가가 5% 이상 하락하며 직접적인 타격을 입었다.",
+      "caution": ""
+    },
+    "가격상승둔화아쉬운주주환원삼성전자목표주가낮추는증권가": {
+      "title": "가격 상승 둔화·아쉬운 주주환원…삼성전자 목표주가 낮추는 증권가",
+      "holding": "삼성전자",
+      "stance": "약한 악재",
+      "summary": "한국투자증권은 삼성전자의 내년 메모리반도체 가격 상승세 둔화를 이유로 목표주가를 기존 57만원에서 44만원으로 하향 조정했다. 다만 4분기 매출 216조4000억원, 영업이익 123조3000억원으로 전 분기 대비 증가하며 연간 최대 실적 달성 가능성은 유지됐다.",
+      "impact": "증권가의 잇따른 목표주가 하향 조정은 단기적으로 투자 심리에 부정적인 영향을 줄 수 있으나, 견조한 실적 전망이 하단을 지지할 수 있다.",
+      "caution": ""
+    },
+    "미부중공업hd현대중공업과장기협력강화상장통해성장기반확대": {
+      "title": "미부중공업, HD현대중공업과 장기 협력 강화…상장 통해 성장 기반 확대",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "미부중공업은 3일 열린 행사에서 핵심 고객사인 HD현대중공업으로부터 2030년 이후까지 안정적인 물량을 공급받기로 했다고 밝혔다. 양사는 PC선, 컨테이너선, LNG·LPG 운반선 등 고부가가치 선박 블록 제작을 중심으로 장기 협력을 강화하고 있다.",
+      "impact": "핵심 협력사인 미부중공업의 장기 물량 확보와 안정적인 생산 네트워크 구축은 HD현대중공업의 선박 건조 안정성과 공급망 강화에 긍정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "supermicrodrops5aheadofearningsasaiserverselloffextendsdellfalls4hpeslides3": {
+      "title": "Super Micro Drops 5% Ahead of Earnings as AI Server Selloff Extends; Dell Falls 4%, HPE Slides 3%",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "인공지능(AI) 서버 관련주들이 실적 발표를 앞두고 매도세가 이어지며 급락세를 보였다. 슈퍼마이크로가 5% 하락한 가운데 델(Dell) 역시 오후 거래에서 4% 하락했다.",
+      "impact": "AI 서버 섹터 전반의 투자 심리 악화와 마진 압박 우려로 인해 델의 주가도 동반 하락 압력을 받았다.",
+      "caution": "델 자체의 실적 발표나 개별 호재에 따라 주가 향방이 달라질 수 있다."
+    },
+    "learnwhythebullcaseforfirstsolarstockcouldchangefollowinglower2026guidance": {
+      "title": "Learn Why The Bull Case For First Solar Stock Could Change Following Lower 2026 Guidance",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라는 미국 중심의 수주 잔고와 국내 제조 확장을 바탕으로 내실을 다지고 있으나, 2026년 매출 및 출하량 가이던스가 낮아지며 단기 모멘텀이 둔화됐다. 최근 분기 매출은 12억3094만 달러, 순이익은 5억7106만 달러를 기록했다.",
+      "impact": "낮아진 가이던스와 해외 라인 가동률 저조 및 물류비용 부담이 운영 리스크로 작용하여 주가 상승을 제한할 수 있다.",
+      "caution": ""
+    },
+    "isconstellationenergynasdaqcegbuildingmomentumamidsectorchanges": {
+      "title": "Is Constellation Energy (NASDAQ:CEG) Building Momentum Amid Sector Changes?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지는 최근 주요 계약 체결 등으로 시장의 주목을 받았으나, 본문 기사 내용에는 타 기업의 소식과 다른 종목들의 주가 동향만 언급되어 있고 컨스텔레이션 에너지에 대한 구체적인 본문 기사 내용이 없다.",
+      "impact": "보유 종목에 대한 직접적인 실적이나 신규 계약 등 구체적인 사건이 본문에 기술되어 있지 않아 주가에 미치는 영향이 제한적이다.",
+      "caution": "본문에 컨스텔레이션 에너지에 대한 상세한 본문 내용이 없고 타 종목 위주로 언급되어 있음."
+    },
+    "whatisdrivingvistranysevstafteritsguidanceupgrade": {
+      "title": "What Is Driving Vistra (NYSE:VST) After Its Guidance Upgrade?",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "비스트라 에너지는 전력 수요 증가를 배경으로 핵심 이익 가이던스를 상향 조정한 바 있다. 다만 본문 기사 내용 자체에는 구체적인 수치나 세부 계약 내용이 충분히 담기지 않고 타 종목 뉴스 제목들이 함께 나열되어 있다.",
+      "impact": "가이던스 상향이라는 핵심 호재 요소가 있으나, 본문 내용이 간략하여 추가적인 실적 연계성을 확인해야 한다.",
+      "caution": "본문에 상세한 실적 수치나 구체적 사건이 부족하고 타사 뉴스가 함께 포함되어 있음."
+    },
+    "vitesseenergysnysevtsq32026beatsonrevenue": {
+      "title": "Vitesse Energy’s (NYSE:VTS) Q3 2026: beats on revenue",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "석유 및 가스 생산 기업인 비테스 에너지는 2026년 3분기 매출이 8295만 달러를 기록해 시장 예상치인 7833만 달러를 23% 증가율과 함께 상회했다. 반면 GAAP 주당순손실(EPS)은 0.86달러로 분석가 예상치인 0.01달러를 크게 밑돌았다.",
+      "impact": "매출 상회는 긍정적이나 EPS의 큰 폭 미스와 조정 EBITDA 예상치 하회 등이 혼재되어 주가에 미치는 방향성이 엇갈린다.",
+      "caution": "보유 종목인 이오스 에너지가 아니라 전혀 다른 종목인 비테스 에너지(VTS)에 관한 기사임."
+    },
+    "almontyssangdongmilestoneandthecmestungstenfuturesplanaretwodifferentstories": {
+      "title": "Almonty's Sangdong Milestone and the CME's Tungsten Futures Plan Are Two Different Stories",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티는 10월 25일 CEO 루이스 블랙이 한국 상동 광산에서 30년 만에 첫 텅스텐 컨테이너가 출하되었다고 밝혔고, CME 그룹은 10월 19일 2027년 1분기 초 거래 시작을 목표로 하는 텅스텐 선물 계획을 발표했다. 그러나 이러한 원자재 시장의 진전이나 선물 도입 계획이 즉각적으로 알먼티의 주당 가치나 구체적인 경제적 이익으로 직결되지는 않는다.",
+      "impact": "텅스텐 원자재 시장의 발전과 상동 광산의 출하는 장기적으로 긍정적 요소이나, 본문에서 직접적인 재무적 이익이나 주가 상승을 확증할 수 없다고 지적하여 단기 주가 영향은 중립적이다.",
+      "caution": "선물 계약이나 첫 출하가 회사의 실질적인 수익으로 이어지는 시점과 규모가 아직 불확실하다."
+    },
+    "credovssandiskwhichstockisthebetterbuyfor2027": {
+      "title": "Credo vs. Sandisk: Which Stock Is the Better Buy for 2027?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지는 AI 데이터센터의 고속 케이블과 칩을 공급하며, 샌디스크는 데이터 저장 컴포넌트를 제공하는 기업으로 2027년을 앞두고 유망한 투자처로 비교되고 있다. 크레도의 주가는 7.26% 하락하여 140.02달러를 기록했으며, 시가총액은 28억 달러 규모다.",
+      "impact": "크레도의 AI 데이터센터 내 입지와 실적 잠재력이 언급되었으나, 경쟁사인 샌디스크와의 비교 및 주가 변동성이 함께 다뤄져 보유 종목 관점에서 즉각적인 호재나 악재로 판단하기 어렵다.",
+      "caution": "특정 기업의 단독 실적 발표가 아니라 두 종목 간의 비교 분석 기사이다."
+    },
+    "vertivnysevrtstockpricedown36afteranalystdowngrade": {
+      "title": "Vertiv (NYSE:VRT) Stock Price Down 3.6% After Analyst Downgrade",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "버티브 홀딩스의 주가는 GLJ Research가 투자의견을 'Sell'로 유지하고 목표주가를 188달러에서 187달러로 하향 조정한 여파로 3.6% 하락한 약 224달러를 기록했다. 다만 3분기 매출은 전년 동기 대비 61.2% 증가한 43.1억 달러, 주당순이익(EPS)은 2.21달러로 예상치를 상회했으나 이사의 사전 계획된 주식 매도도 발생했다.",
+      "impact": "실적 자체는 예상을 상회했으나 분석가의 목표가 하향 및 투자의견 매도 유지로 인해 단기적인 주가 하락 압력으로 작용했다.",
+      "caution": "전체 애널리스트 컨센서스는 'Moderate Buy'와 평균 목표주가 337.78달러로 여전히 긍정적 시각이 우세하다."
+    },
+    "shouldlongtermdefensecontractsrequireactionfromlockheedmartinstockinvestors": {
+      "title": "Should Long Term Defense Contracts Require Action From Lockheed Martin Stock Investors?",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 10년짜리 F-35 프레임워크와 6억 9,400만 달러 규모의 극초음속 무기 계약 등 대규모 다년 방산 계약을 체결했으며, 역대 최고 수준의 수주 잔고를 바탕으로 2026년 매출 및 이익 가이던스를 상향 조정했다. 또한 미국 내 시설의 군수품 및 극초음속 생산 능력을 확대하기 위해 수십억 달러를 투자하고 있다.",
+      "impact": "확정된 대규모 수주 잔고와 상향된 가이던스는 향후 안정적인 현금 흐름과 실적 성장을 직접적으로 견인하므로 보유 종목에 강력한 호재이다.",
+      "caution": "대규모 고정 투자와 자본 지출이 수반되므로 향후 비용 집행 추이를 모니터링할 필요가 있다."
+    },
+    "msftstockgetsathumbsupfrombarclaysfirmexpectsquartertostartshowingmoredifferentiationinsoftware": {
+      "title": "MSFT Stock Gets A Thumbs Up From Barclays – Firm Expects Quarter To Start Showing ‘More Differentiation’ In Software",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "마이크로소프트는 바클레이즈가 투자의견 'Overweight'를 유지하며 목표주가를 512달러에서 600달러로 상향 조정한 가운데, 2027년부터 Azure Maia 300 칩 배포를 본격화할 계획이다. 또한 도이체방크의 브래드 젤닉 애널리스트도 'Buy' 등급을 유지하며 목표주가를 600달러로 올렸다.",
+      "impact": "주요 투자은행들의 잇따른 목표주가 상향과 AI 전용 칩(Maia) 상용화 일정 구체화는 클라우드 및 AI 부문의 성장 기대를 높여 주가에 긍정적이다.",
+      "caution": "소프트웨어 부문의 차별화와 칩 생산 일정은 향후 실행 과정을 지속적으로 확인해야 한다."
+    },
+    "nikenysenkestockjumps11shouldyoubuy": {
+      "title": "NIKE (NYSE:NKE) Stock Jumps 1.1% - Should You Buy?",
+      "holding": "나이키 B",
+      "stance": "약한 호재",
+      "summary": "나이키 주가는 1.1% 상승한 약 39.11달러를 기록했으나 여전히 200일 이동평균선인 46.27달러를 밑돌고 있다. 최근 분기 주당순이익(EPS)은 0.48달러로 예상치 0.43달러를 상회했으나, 매출은 112.1억 달러로 전년 동기 대비 4.3% 감소하며 예상치에 못 미쳤다.",
+      "impact": "수익성(EPS)이 예상보다 양호했고 주가가 소폭 상승했으나, 매출 감소와 신중한 애널리스트 컨센서스로 인해 상승 폭이 제한적이다.",
+      "caution": "배당 성향이 78.85%로 높은 편이며 최근 내부자 매도가 존재한다."
+    },
+    "novonordisksbuybackledgermeetslillyscourtroomreprieveaheadof4november": {
+      "title": "Novo Nordisk's Buyback Ledger Meets Lilly's Courtroom Reprieve Ahead of 4 November",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보 노디스크는 가을 동안 자사주 매입 프로그램을 진행하여 총 150억 크로네 한도 중 111억 8,734만 크로네 규모의 자사주를 취득했으며, 11월 4일에 9개월 실적 발표를 앞두고 있다. 한편 미국 법원에서는 일라이 릴리 관련 소송에서 노보 노디스크의 요청을 기각하는 등 법적 측면에서는 명확한 호재가 없었다.",
+      "impact": "자사주 매입은 주주환원 정책 측면에서 긍정적이나, 본질적인 사업 실적은 11월 4일 발표될 실적 보고서에 달려 있어 현재로는 방향성을 예단하기 어렵다.",
+      "caution": "자사주 매입 규모가 크지만 영업 이익의 건전성을 직접 증명하는 것은 아니며 미국 내 소송 결과는 불확실성으로 작용한다."
+    },
+    "whyintelstockisdownafterweakq4guidance": {
+      "title": "Why Intel Stock Is Down After Weak Q4 Guidance",
+      "holding": "인텔",
+      "stance": "악재",
+      "summary": "인텔은 2026년 3분기 매출 165억 1,300만 달러와 순이익 33억 2,000만 달러를 기록했으나, 4분기 매출 가이던스를 150억~160억 달러, 희석 주당순이익(EPS)을 0.10달러로 부진하게 제시했다. 경영진은 PC 수요 부진, 메모리 부족, 이스라엘 시설 가동 중단 등의 생산 차질을 부진한 전망의 원인으로 꼽았다.",
+      "impact": "4분기 가이던스가 시장 예상에 미치지 못하고 공급망 및 생산 차질 문제가 부각되면서 단기 실적 둔화 우려로 주가에 악재로 작용했다.",
+      "caution": "제온 서버 및 AI 칩에 대한 수요는 여전히 견조하다고 언급되어 장기적인 AI 전환 시나리오는 유지되고 있다."
+    },
+    "morganstanleymaintainscircleinternetgroupatunderweightlowerspricetargetto34from37": {
+      "title": "Morgan Stanley maintains Circle Internet Group at Underweight, lowers price target to $34 from $37",
+      "holding": "서클 인터넷 그룹",
+      "stance": "악재",
+      "summary": "모건스탠리는 서클 인터넷 그룹에 대해 Underweight 의견을 유지하고 목표주가를 37달러에서 34달러로 하향 조정했다. 이는 10월 30일 종가인 72.54달러 대비 53.1%의 하락 여력이 있음을 시사한다.",
+      "impact": "투자은행의 목표주가 하향과 낮은 투자의견 유지 소식은 투자 심리를 위축시키며 주가에 하방 압력으로 작용한다.",
+      "caution": ""
+    },
+    "coinbaseglobalssofterrevenueoutlookcryptouncertaintychallengerecoverymorganstanleysays": {
+      "title": "Coinbase Global's 'Softer' Revenue Outlook, Crypto Uncertainty Challenge Recovery, Morgan Stanley Says",
+      "holding": "코인베이스",
+      "stance": "약한 악재",
+      "summary": "모건스탠리는 코인베이스의 향후 매출 전망이 부드럽고 암호화폐 시장의 불확실성이 회복을 가로막고 있다고 평가했다. 해당 기사는 상세 유료 서비스 가입을 유도하는 요약 형태의 본문을 담고 있다.",
+      "impact": "부정적인 실적 전망과 암호화폐 시장 불확실성 언급은 투자 심리를 악화시켜 코인베이스 주가에 부정적인 영향을 준다.",
+      "caution": "기사 본문 전체가 아닌 일부 내용과 유료 구독 안내만 포함되어 있어 구체적인 수치 확인에는 한계가 있다."
+    },
+    "palantirraisesfullyearrevenueoutlookasuscommercialsalestopusgovernmentrevenueforthefirsttime": {
+      "title": "Palantir raises full-year revenue outlook as US commercial sales top US government revenue for the first time",
+      "holding": "팔란티어",
+      "stance": "호재",
+      "summary": "팔란티어는 3분기 매출 23억 1,300만 달러를 기록해 월스트리트 예상치인 21억 7,000만 달러를 상회했으며, 미국 상업 매출이 정부 매출을 처음으로 앞질렀다. 이에 힘입어 연간 매출 전망치를 85억 3,000만~85억 3,400만 달러로 상향 조정했다.",
+      "impact": "어닝 서프라이즈와 연간 가이드라인 상향, 그리고 상업 부문의 고성장은 기업의 펀더멘털 강화로 직결되어 주가에 강한 호재로 작용한다.",
+      "caution": "시간외 거래에서 주가가 변동성을 보였다는 언급이 있어 단기적인 차익 실현 매물이 출회될 가능성이 있다."
+    },
+    "himshershealthincnysehimsshareholderalertinvestorswithlossesmayseektoleadtheclassactioninhimshershealthincsecuritieslawsuitcontactportnoylawfirm": {
+      "title": "Hims & Hers Health, Inc. (NYSE:HIMS) SHAREHOLDER ALERT: Investors With Losses May Seek to Lead the Class Action in Hims & Hers Health, Inc. Securities Lawsuit - Contact Portnoy Law Firm",
+      "holding": "힘스앤허스 헬스",
+      "stance": "악재",
+      "summary": "포트노이 로펌은 2025년 8월 4일부터 2026년 7월 29일 사이에 힘스앤허스 헬스 주식을 취득한 투자자들을 대변하여 증권 집단소송이 제기되었다고 밝혔다. 손해를 입은 투자자들은 2026년 11월 2일까지 대표 원고 선임을 신청할 수 있다.",
+      "impact": "기업을 상대로 한 증권 집단소송 제기는 법적 리스크와 기업 이미지 훼손을 유발하여 투자 심리에 치명적인 악재로 작용한다.",
+      "caution": "소송 제기는 법원의 최종 판결이 아니므로 실제 재무적 손실 규모는 향후 진행 상황을 지켜봐야 한다."
+    },
     "기술주쇼크삼성전자sk하닉프리마켓서4동반급락": {
       "title": "美기술주 쇼크…삼성전자·SK하닉, 프리마켓서 4% 동반 급락",
       "holding": "삼성전자",
