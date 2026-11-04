@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-11-03T11:29:18+09:00",
+  "generated_at": "2026-11-04T09:47:19+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7450,
-    "output_tokens": 4106
+    "input_tokens": 6463,
+    "output_tokens": 3763
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 5,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "급락하루만에뛰는삼성전자sk하이닉스증권가내년영업익1000조돌파주가동향": {
+      "title": "급락 하루 만에 뛰는 삼성전자·SK하이닉스…증권가 “내년 영업익 1000조 돌파” [주가동향]",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자와 SK하이닉스가 전날 급락을 딛고 상승세를 보인 가운데, KB증권은 4일 두 회사의 내년 합산 영업이익이 1110조5000억원을 돌파할 것으로 전망했다. 특히 삼성전자의 2027년 영업이익은 640조2000억원, 올해 4분기 영업이익은 128조원으로 예상되며 메모리 출하 증가와 HBM 세대교체가 호실적의 근거로 제시되었다.",
+      "impact": "증권가의 대규모 실적 상향 조정과 메모리 업황 개선 및 HBM 수요 확대 전망이 삼성전자의 주가 상승에 직접적인 호재로 작용한다.",
+      "caution": ""
+    },
+    "현대중공업주가상승중": {
+      "title": "현대중공업 주가 상승 중",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "현대중공업 주가는 4일 오전 9시 12분 기준 1.74% 상승하여 294,500원의 고가를 기록하고 있다. 시가는 290,500원이며 저가는 284,000원이다.",
+      "impact": "장 초반 주가 상승세를 보이며 거래되고 있어 단기적으로 긍정적인 투자 심리를 반영한다.",
+      "caution": ""
+    },
+    "southafricanbreweriessaysrisingfoodandfuelcostsarecuttingbeerpurchasesamongpoorerconsumers": {
+      "title": "South African Breweries says rising food and fuel costs are cutting beer purchases among poorer consumers",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "남아프리카공화국의 최대 맥주사인 사우스 아프리칸 브루어리즈(SAB)는 11월 2일 상승하는 식품 및 연료 비용으로 인해 저소득층 소비자들이 맥주 구매를 줄이고 있다고 밝혔다. 모기업인 AB인베브는 남아공에서 3분기 최고 판매량을 기록했으나 저소득층의 소비 압박으로 인해 전체 산업 성장률에는 미치지 못했다.",
+      "impact": "보유 종목인 컨스텔레이션 브랜즈가 직접 언급되지 않고 타사 및 타 지역 시장 상황을 다룬 기사이므로 직접적인 영향은 없다.",
+      "caution": "타사(AB인베브 자회사)의 남아공 시장 상황을 다룬 기사로 보유 종목과 직접적인 관련이 없다."
+    },
+    "firstsolarnasdaqfslrrevisesannualguidanceasbacklogswells": {
+      "title": "First Solar (NASDAQ:FSLR) Revises Annual Guidance As Backlog Swells",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라(First Solar, NASDAQ:FSLR)는 수주 잔고가 증가함에 따라 연간 가이던스를 수정했다는 제목의 기사가 게재되었다. 그러나 본문에는 구체적인 수치나 상세 내용이 포함되지 않고 타사 관련 뉴스 링크들만 나열되어 있다.",
+      "impact": "기사 본문에 구체적인 실적이나 가이던스 수정 내용이 없어 주가에 미치는 영향이 불분명하다.",
+      "caution": "본문에 실질적인 기사 내용이 부족하고 타사 안내문만 포함되어 있어 중립으로 처리함."
+    },
+    "privateequityfirmsstrugglewithnewliquidityroutesvistra": {
+      "title": "Private Equity Firms Struggle With New Liquidity Routes - Vistra",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "싱가포르에 본사를 둔 필수 비즈니스 서비스 제공업체 비스트라(Vistra)는 운영 제약과 지정학이 사모펀드 엑시트의 주요 장벽이라는 조사 보고서를 발표했다. 사모펀드 운용에서 평가 및 보고 복잡성이 주요 과제로 꼽혔다.",
+      "impact": "본문에 언급된 비스트라는 보유 종목인 에너지 기업 비스트라 에너지(Vistra)가 아니라 동명의 싱가포르 기업 서비스 회사이다.",
+      "caution": "보유 종목인 비스트라 에너지와 이름만 같은 다른 기업(Vistra Fund Solutions)에 대한 기사임."
+    },
+    "globalindustrialgicsurpassesq3earningsandrevenueestimates": {
+      "title": "Global Industrial (GIC) Surpasses Q3 Earnings and Revenue Estimates",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "글로벌 인더스트리얼(GIC)은 3분기 주당 순이익이 0.6달러, 매출 3억 8950만 달러를 기록해 시장 예상치를 상회했다. 이와 함께 관련 종목인 EOSE(이오스 에너지)의 주가도 7.95% 상승했다.",
+      "impact": "이오스 에너지(EOSE) 주가가 동반 상승 흐름을 보이고 있으나, 실적 발표의 주체는 타사인 글로벌 인더스트리얼이다.",
+      "caution": "주가 상승 동조화 현상이 나타났으나 실적 발표의 직접 당사자는 아님."
+    },
+    "almontyindustriesstocklatequoteamidtungstenexpansionplans": {
+      "title": "Almonty Industries stock: late quote amid tungsten expansion plans",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리즈(Almonty Industries) 주식은 2026년 11월 3일 프랑크푸르트 거래소(랑&슈바르츠)에서 7.85유로에 거래되었다. 회사는 한국 상동광산에서의 30년 만의 첫 상업용 텅스텐 선적과 함께 한국, 유럽, 르완다에서의 프로젝트 확장 전략을 강조했다.",
+      "impact": "상동광산의 상업용 텅스텐 선적 개시와 생산 확대 전략은 긍정적인 현금 흐름 창출 기대로 이어져 주가에 호재로 작용한다.",
+      "caution": ""
+    },
+    "amdrises5onbullishpreearningscallaschipstocksreboundwelikethestockintoprint": {
+      "title": "AMD Rises 5% on Bullish Pre-Earnings Call as Chip Stocks Rebound: “We Like the Stock Into Print”",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 호재",
+      "summary": "AMD 실적 발표를 앞두고 링스 에퀴티 전략스(Lynx Equity Strategies)가 긍정적 전망을 제시하면서 AMD 주가가 5% 상승했다. 이 여파로 나비타스 세미컨덕터, 아스테라 랩스뿐만 아니라 크레도 테크놀로지(CRDO)도 7% 반등했다.",
+      "impact": "반도체 섹터 전반의 투자 심리 개선과 인공지능 서버 수요 증가 기대감이 크레도 테크놀로지의 주가 상승에 긍정적인 영향을 미쳤다.",
+      "caution": "크레도 테크놀로지 자체의 개별 실적 발표나 직접적인 수주 공시는 아니며 섹터 동반 상승에 기인한다."
+    },
+    "alphabetstocktanksafterearningsshouldinvestorsbuythedip": {
+      "title": "Alphabet Stock Tanks After Earnings: Should Investors Buy the Dip?",
+      "holding": "알파벳 A",
+      "stance": "악재",
+      "summary": "알파벳(Alphabet)은 지난주 실적 발표 후 주가가 급락하여 52주 신저가 근처에서 거래되고 있다. 9월 분기 매출은 전년 동기 대비 25% 증가한 1276억 달러를 기록했으나, 시장 예상치인 1282억 달러를 밑돌았고 주당순이익(EPS)도 기대에 미치지 못했으며 자본적 지출(capex) 가이던스도 상향 조정되었다.",
+      "impact": "매출과 이익이 모두 시장 기대치를 하회하고 자본적 지출 부담이 커지면서 투자 심리가 악화되어 주가 하락으로 이어졌다.",
+      "caution": "장기적인 인공지능 투자 사이클 관점에서 저가 매수 기회로 보는 시각도 존재한다."
+    },
+    "whyisciscosystemsnasdaqcscogainingattentionasaiorderssurge": {
+      "title": "Why Is Cisco Systems (NASDAQ:CSCO) Gaining Attention As AI Orders Surge?",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈(CSCO)가 인공지능(AI) 주문 급증으로 주목받고 있다는 헤드라인이 보도되었다. 그러나 본문에는 관련 상세 내용이 기재되지 않고 타 기업 관련 뉴스 제목만 나열되어 있다.",
+      "impact": "보유 종목인 시스코 시스템즈가 인공지능 주문 증가로 주목받고 있다는 언급이 있으나 본문에 구체적인 수치나 실질적 영향 경로가 누락되어 있다.",
+      "caution": "본문에 구체적인 기사 내용이 포함되어 있지 않고 단순 제목 및 타사 뉴스 링크 안내만 존재한다."
+    },
+    "vertivsoars6eatonup7asbernsteincallselectiondaydatacenterfearsoverblown": {
+      "title": "Vertiv Soars 6%, Eaton Up 7% as Bernstein Calls Election-Day Data Center Fears Overblown",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "번스타인(Bernstein)이 미국 데이터센터 건설에 대한 정치적 리스크가 시장의 우려보다 과장되었다고 진단하면서 버티브(Vertiv) 주가가 6% 급등했다. 버티브는 3분기 매출이 61% 증가한 43억 1000만 달러를 기록하고 유기적 수주가 호조를 보였다.",
+      "impact": "정치적 불확실성 완화 진단과 함께 3분기 대규모 매출 성장 및 수주 증가세가 확인되면서 버티브의 기업 가치 상승에 직접적인 호재로 작용한다.",
+      "caution": "정치적 리스크가 완전히 해소된 것은 아니며 향후 규제 환경 변화를 모니터링해야 한다."
+    },
+    "microsoftandoraclecantcoolaidatacenterswithoutthisgrowthstockhereswhyitcouldsoar": {
+      "title": "Microsoft and Oracle Can't Cool AI Data Centers Without This Growth Stock. Here's Why It Could Soar.",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트(MSFT)와 오라클(ORCL)이 대규모 계약 잔고를 바탕으로 인공지능 데이터 센터 구축을 가속화하고 있다고 보도했다. 마이크로소프트는 2027 회계연도 1분기에 6770억 달러의 상업용 남은 이행 의무(RPO)를 기록했다.",
+      "impact": "마이크로소프트의 대규모 데이터센터 백로그와 인프라 투자는 장기적으로 클라우드 및 AI 부문 성장의 근거가 된다.",
+      "caution": "본 기사는 마이크로소프트의 인프라 투자 배경을 다룬 도입부이며 실제 수혜주 분석은 이어지는 본문에서 다뤄진다."
+    },
+    "nikenysenkestockfalls17whatsnext": {
+      "title": "NIKE (NYSE:NKE) Stock Falls 1.7% - What's Next?",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키(NKE) 주가는 화요일 1.7% 하락한 38.47달러를 기록했으며 거래량은 평균치를 밑돌았다. 최근 분기 EPS는 0.48달러로 예상치를 상회했으나, 매출은 112억 1000만 달러로 예상치를 밑돌며 전년 동기 대비 4.3% 감소했다.",
+      "impact": "매출 감소 및 턴어라운드가 진행 중이라는 부정적 코멘트가 겹치며 단기적인 주가 하락 압력으로 작용했다.",
+      "caution": "주당 1.64달러의 배당금(수익률 약 4.3%)과 주당순이익의 예상치 상회는 일부 방어 요인이 될 수 있다."
+    },
+    "novonordisks4novemberreferendumninecountriesonerevenuelineandatrimmedtarget": {
+      "title": "Novo Nordisk's 4 November Referendum: Nine Countries, One Revenue Line and a Trimmed Target",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "노보 노디스크는 9개국에서 경구용 웨고비(Wegovy) 출시를 앞두고 있으며 2026년 11월 4일 3분기 실적 발표를 앞두고 있다. SB1 마켓은 매수 의견을 유지했으나 10월 26일 목표주가를 370덴마크크로네(DKK)에서 335 DKK로 하향 조정했다.",
+      "impact": "주요 투자사의 목표주가 하향 조정은 단기적으로 성장성에 대한 경계감을 높여 주가에 부담을 줄 수 있다.",
+      "caution": "목표주가 하향이 실제 영업 실적 악화를 의미하는 것은 아니며 경구용 웨고비의 실적 기여도는 다가오는 3분기 실적 발표에서 판가름 난다."
+    },
+    "marvelltoacquirelumentumin115billionaiconnectivitydeal": {
+      "title": "Marvell to Acquire Lumentum in $115 Billion AI Connectivity Deal",
+      "holding": "마벨 테크놀로지",
+      "stance": "호재",
+      "summary": "마벨 테크놀로지(Marvell Technology)는 루멘텀(Lumentum)을 115조(115 billion) 달러 규모의 올스탁(all-stock) 거래로 인수하기로 최종 합의했다고 발표했다. 거래 완료 후 기존 마벨 주주가 합병 회사의 약 67%를 소유하게 된다.",
+      "impact": "이번 대규모 인수는 마벨 테크놀로지의 AI 인프라 및 연결성 포트폴리오를 확장하여 장기적인 시장 지배력을 강화하는 강력한 호재이다.",
+      "caution": "대규모 인수합병에 따른 통합 비용이나 주식 희석 효과 등은 향후 재무제표를 통해 검증이 필요하다."
+    },
+    "palantirbeatsq3earningsestimatesstockfallsoverworriesofslowingrevenuegrowth": {
+      "title": "Palantir beats Q3 earnings estimates, stock falls over worries of slowing revenue growth",
+      "holding": "팔란티어",
+      "stance": "약한 악재",
+      "summary": "팔란티어는 3분기 매출 23억 1300만 달러로 월가 예상을 웃돌고 연간 가이던스를 상향했으나, 미국 상업 부문 매출이 정부 매출을 처음으로 넘어섰다. 그러나 분기별 매출 성장세 둔화 우려가 제기되면서 주가는 화요일 거래에서 3.55% 하락했다.",
+      "impact": "호실적과 가이던스 상향에도 불구하고 순차적 성장률 둔화 우려로 단기 주가 하락이 발생하여 보유자에게 부정적 영향을 미쳤다.",
+      "caution": "실적 자체는 예상치를 상회했으므로 장기적 펀더멘털은 견조할 수 있으며 주가 하락은 단기 차익실현이나 성장 둔화 우려에 기인할 수 있다."
+    },
+    "applewarnsrogueaiagentscouldconcealandmanipulatecausingunintendedconsequencesforitsbusiness": {
+      "title": "Apple warns rogue AI agents could ‘conceal’ and ‘manipulate,’ causing unintended consequences for its business",
+      "holding": "애플",
+      "stance": "약한 악재",
+      "summary": "애플은 연례 10-K 보고서를 통해 무단으로 시스템에 접근해 행동을 숨기거나 정보를 조작하는 불량 AI 에이전트가 자사 사업에 의도치 않은 결과를 초래하고 위협이 될 수 있다고 경고했다. 이는 최근 일련의 AI 안전 사고 이후 기술 기업들이 직면한 잠재적 리스크를 강조한 것이다.",
+      "impact": "AI 기술의 자율성과 보안 리스크에 대한 회사의 공식적인 우려 표명은 규제 강화나 잠재적 사고에 대한 시장의 경계감을 높일 수 있다.",
+      "caution": "실제 발생한 피해가 아니라 연례 보고서의 통상적인 리스크 요인(Risk Factors) 언급에 가깝다."
+    },
+    "whatbearssawbeforehimshershealthfell": {
+      "title": "What Bears Saw Before Hims & Hers Health Fell",
+      "holding": "힘스앤허스 헬스",
+      "stance": "악재",
+      "summary": "힘스앤허스 헬스는 체중 감량 약물, 펩타이드, 글로벌 원격 의료 확장 등에도 불구하고 지난 1년간 배당을 포함해 43.1%의 손실을 기록했다. 높은 주가수익비율(P/E)을 정당화했던 수직 계열화, AI, 국제 거래 등의 가정들이 마진, 규제, 자본 수요 측면에서 취약했음이 드러났다.",
+      "impact": "실제 주가가 1년간 크게 하락하며 투자자들에게 큰 손실을 안겨주었고, 높은 밸류에이션을 지탱하던 가정들이 흔들리고 있음을 보여준다.",
+      "caution": "기사는 과거 1년간의 성과를 회고하는 내용이며 향후 실적 개선이나 신사업 성장에 따라 반등할 여지도 존재한다."
+    },
     "코스피3급락5650선삼성전자sk하이닉스동반약세": {
       "title": "코스피 3% 급락 5650선… 삼성전자·SK하이닉스 동반 약세",
       "holding": "SK하이닉스",
