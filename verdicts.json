@@ -1,17 +1,137 @@
 {
-  "generated_at": "2026-11-04T09:47:19+09:00",
+  "generated_at": "2026-11-05T09:59:46+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6463,
-    "output_tokens": 3763
+    "input_tokens": 5669,
+    "output_tokens": 3292
   },
   "skipped": {
-    "본문없음": 5,
+    "본문없음": 8,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "데이터센터규제우려sk하이닉스6급락핫종목": {
+      "title": "'美 데이터센터 규제' 우려…SK하이닉스 6% 급락[핫종목]",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "미국 중간선거 이후 민주당이 상·하원을 탈환하고 데이터센터 규제 강화를 공약하면서 신규 투자 지연 우려가 부각됐다. 이로 인해 5일 오전 SK하이닉스는 전 거래일 대비 6.23% 하락한 130만 9천 원에 거래되는 등 국내외 반도체주가 동반 약세를 보였다. 다만 AI 인프라 투자 전반의 위축으로 이어질 가능성은 낮다는 시각도 존재한다.",
+      "impact": "데이터센터 신규 투자 및 발주가 지연될 경우 메모리 반도체 공급업체인 SK하이닉스의 단기 실적과 주가에 부정적인 수급 압박으로 작용한다.",
+      "caution": "대통령 거부권이나 미국 AI 경쟁력 등을 고려할 때 규제가 전면적인 투자 위축으로 이어지기는 어렵다는 분석도 함께 제기된다."
+    },
+    "kt삼성전자ai로고속철도통신끊김29줄였다": {
+      "title": "KT·삼성전자, AI로 고속철도 통신 끊김 29% 줄였다",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "KT와 삼성전자가 AI를 활용해 고속철도 구간에서 발생하는 무선통신 끊김 비율을 약 29% 줄이는 무선망 최적화 기술을 공동 개발했다. 시속 250㎞ 이상으로 달리는 경부선 평택 및 화성 구간 실증에서 기지국 전환 시점을 앞당겨 통신 품질을 개선하는 데 성공했다. 양사는 향후 AI-RAN(인공지능 무선접속망) 분야에서 협력을 이어갈 계획이다.",
+      "impact": "통신 장비 및 솔루션 분야에서 삼성전자의 AI 기술 경쟁력과 실제 통신사 적용 레퍼런스가 부각되어 기업 이미지와 관련 사업 성장에 긍정적 영향을 준다.",
+      "caution": ""
+    },
+    "속보동성화인텍hd현대중공업과1923억원규모공급계약지난해매출액의259": {
+      "title": "[속보] 동성화인텍, HD현대중공업과 1923억원 규모 공급계약…지난해 매출액의 25.9%",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "동성화인텍은 HD현대중공업과 1923억 1805만 원 규모의 LNG운반선 초저온 보냉자재 공급계약을 체결했다고 5일 공시했다. 이는 최근 매출액 대비 25.9%에 해당하는 규모로, 계약기간은 2026년 11월 5일부터 2029년 3월 31일까지다.",
+      "impact": "보냉자재를 발주받는 주체가 HD현대중공업이며, 대규모 수주 계약은 HD현대중공업의 원활한 선박 건조 일정과 조선 부문 수주 잔고 및 실적 안정성을 뒷받침한다.",
+      "caution": "선박 건조 진행 상황에 따라 납기 일정 등이 변경될 여지가 있다."
+    },
+    "dellnavigates21monthlystockretreatandcomponentconstraintsaheadofearningsfinancejkn": {
+      "title": "Dell Navigates 21% Monthly Stock Retreat and Component Constraints Ahead of Earnings : Finance : JKN",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "델 테크놀로지스 주가는 2026년 초반까지 한 달간 인공지능 및 기업용 하드웨어 주식 전반의 조정 압력으로 21.02% 하락했다. 11월 2일에는 두 달 내 최저 수준으로 떨어졌으나 11월 3일에는 3.98% 반등하여 408.40달러로 마감했다.",
+      "impact": "단기적인 주가 하락과 하드웨어 부품 제약 이슈는 투자 심리를 위축시키나 연초 이후 여전히 높은 상승률을 유지하고 있어 영향은 제한적일 수 있다.",
+      "caution": "단기 변동성이 크고 섹터 전반의 조정 국면이 이어지고 있다."
+    },
+    "constellationbrandsstockgetsbankupgradeafterelectionoutlookeasesbeerdemandrisk": {
+      "title": "Constellation Brands Stock Gets Bank Upgrade After Election Outlook Eases Beer Demand Risk",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "호재",
+      "summary": "컨스텔레이션 브랜즈는 2027 회계연도 2분기 실적에서 맥주 부문 순매출이 5%, 영업이익이 1% 변화를 기록하며 예상치를 상회했다. 민주당의 의회 통제 가능성과 이민 관련 압박 완화 전망에 힘입어 뱅크오브아메리카(BofA)가 투자의견을 상향 조정했다.",
+      "impact": "핵심 소비자인 히스패닉 인구 관련 이민 리스크가 완화되면서 맥주 수요에 대한 정치적·소비자 측면의 불확실성이 해소되어 주가에 긍정적으로 작용한다.",
+      "caution": "정치적 환경 변화에 따른 규제나 소비 심리 변동성은 계속 모니터링해야 한다."
+    },
+    "credocrdorevenuemorethandoubledwhatisitsellingbeyondcoppercables": {
+      "title": "Credo (CRDO) Revenue More Than Doubled. What Is It Selling Beyond Copper Cables?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지스(CRDO)의 매출이 2배 이상 증가한 배경과 구리 케이블 외에 판매하는 품목을 다룬 기사다. 본문에서는 주가가 10.87% 하락한 상태에서 밈 주식 순위 및 헤지펀드의 투자 성향 등을 언급하고 있다.",
+      "impact": "보유 종목인 크레도 테크놀로지에 대한 실적 성장 언급이 있으나 구체적인 수치나 사업적 진척 내용이 본문에 상세히 담기지 않아 직접적인 주가 영향은 중립적이다.",
+      "caution": "기사 본문 내용이 투자 일반론과 타 종목 언급 위주여서 크레도 테크놀로지 자체의 세부 실적 분석에는 한계가 있다."
+    },
+    "alphabetamazonandmicrosoftallsurgedtodayyoucanthankthebigbluewave": {
+      "title": "Alphabet, Amazon, and Microsoft All Surged Today. You Can Thank the Big Blue Wave.",
+      "holding": "마이크로소프트",
+      "stance": "호재",
+      "summary": "2026년 선거 이후 민주당이 상하원을 모두 장악한 가운데, 아마존, 마이크로소프트, 알파벳 등 빅3 클라우드 제공업체가 상승세를 이끌며 주요 시장 지수가 일제히 상승했다. 그중 마이크로소프트(MSFT)는 6.68% 급등했다.",
+      "impact": "거시경제 및 정치적 불확실성 해소와 시장 전반의 투자 심리 개선으로 마이크로소프트 주가에 직접적인 상승 호재로 작용했다.",
+      "caution": "규제 환경 변화에 대한 기대감이 선반영된 것일 수 있으며 향후 정책 방향에 따라 변동성이 생길 수 있다."
+    },
+    "spectrumbusinesslaunchesanewsecurenetworkingoffering": {
+      "title": "SPECTRUM BUSINESS LAUNCHES A NEW SECURE NETWORKING OFFERING",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "스펙트럼 비즈니스는 AI 시대 보안 위협에 대응하기 위해 최신 시스코 8000시리즈 스큐어 라우터 기술을 적용한 관리형 보안 네트워킹 솔루션을 북미 최초로 출시했다. 기업들은 시스코의 털로스 위협 인텔리전스 통합 등이 포함된 해당 솔루션을 통해 네트워크 확장성과 보안을 강화할 수 있게 됐다.",
+      "impact": "시스코 시스템즈의 최신 네트워킹 및 라우터 기술이 대형 통신사업자의 신규 서비스에 채택됨으로써 제품 수요 증가와 브랜드 신뢰도 상승으로 이어진다.",
+      "caution": "파트너사인 스펙트럼 비즈니스의 신규 상품 출시를 통한 간접 수혜이므로 시스코의 전사 실적에 미치는 영향은 제한적일 수 있다."
+    },
+    "pomerantzprobesvertivoverq2missjoinshagensbermaninvestigation": {
+      "title": "Pomerantz probes Vertiv over Q2 miss, joins Hagens Berman investigation",
+      "holding": "버티브 홀딩스",
+      "stance": "악재",
+      "summary": "법무법인 Pomerantz LLP는 Hagens Berman과 함께 2분기 순매출이 예상치인 32억 7천만 달러에 못 미쳐 7월 29일 주가가 17.26% 하락한 버티브 홀딩스에 대해 증권 사기 혐의 조사를 시작했다. 조사관들은 공급망 위험에도 불구하고 경영진이 가이던스를 상향 조정한 2026년 1분기 진술을 검토하고 있다.",
+      "impact": "증권 사기 혐의 조사와 집단소송 가능성은 투자 심리에 직접적인 악영향을 주어 주가 하락 압력으로 작용한다.",
+      "caution": "아직 조사가 시작된 단계로 최종적인 법적 책임이나 사기 혐의가 확정된 것은 아니다."
+    },
+    "novonordiskstockjumpedafterearningsbutitsceowontgive2027guidancehereswhatinvestorsshouldknow": {
+      "title": "Novo Nordisk Stock Jumped After Earnings — But Its CEO Won't Give 2027 Guidance. Here's What Investors Should Know",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보 노디스크의 3분기 매출은 고정 환율 기준 4% 증가한 약 119억 달러를 기록해 월스트리트 예상치인 11억 달러를 상회했으며 비만 치료제 매출은 22% 급증했다. 회사는 연간 전체 매출 성장률 전망치를 기존 최대 6% 감소에서 2% 감소~2% 증가 사이로 상향 조정했으나, 2027년 가이던스는 제공하지 않았다.",
+      "impact": "실적 호조와 연간 가이던스 상향은 본업의 강력한 성장세를 증명하므로 보유 종목에 긍정적이다. 다만 2027년 가이던스 거부로 인해 불확실성이 일부 남았다.",
+      "caution": "2027년도 가이던스를 제시하지 않아 향후 성장성에 대한 애널리스트들의 의문이 남아 있다."
+    },
+    "marvellsdealtoacquirelumentumcouldbeagamechangerforthestock": {
+      "title": "Marvell's Deal to Acquire Lumentum Could Be a Game Changer for the Stock",
+      "holding": "마벨 테크놀로지",
+      "stance": "호재",
+      "summary": "마벨 테크놀로지는 광상호 연결 분야의 리더십과 루멘텀의 레이저 분야 강점을 결합하는 루멘텀 인수 계약을 발표했다. 이번 인수는 통합 광학 시대에 AI 연결성을 정의하고 주도하기 위한 세대에 한 번 있을 기회로 평가받고 있다.",
+      "impact": "AI 연결성 및 광 네트워크 분야에서 엔드투엔드 설계 역량을 확보하고 시장 출시 속도를 가속화함으로써 장기적인 기업 가치를 크게 높일 수 있다.",
+      "caution": "대규모 인수 합병에 따른 통합 비용이나 시너지 창출 과정에서의 리스크가 존재할 수 있다."
+    },
+    "inteldrops5nvidiaretreats2afteramdearningsbeatandstrong2027outlookasintelfalls3amdstockgoesnowhere": {
+      "title": "Intel Drops 5%, NVIDIA Retreats 2% After AMD Earnings Beat and Strong 2027 Outlook as Intel Falls 3%; AMD Stock Goes Nowhere",
+      "holding": "인텔",
+      "stance": "중립",
+      "summary": "AMD가 데이터 센터 매출이 거의 두 배로 증가하는 기록적인 분기 실적과 강력한 2027년 전망을 발표했으나 AMD 주가는 거의 변동이 없었다. 반면 경쟁사인 인텔은 3%~5% 하락하고 엔비디아는 2% 하락하는 등 라이벌 기업들의 주가가 대신 타격을 입었다.",
+      "impact": "기사의 주된 내용은 AMD의 호실적이며 인텔은 경쟁사의 성장으로 인해 상대적인 압박을 받는 내용으로 간접적으로 언급되었다.",
+      "caution": "인텔이 직접적인 당사자가 아니라 경쟁사 실적 발표에 따른 반사이익이나 시장 반응의 일환으로 언급되었다."
+    },
+    "airborneinnovation110326apeironsignalrepeaterdroneseraunasaeffort": {
+      "title": "Airborne-Innovation 11.03.26: Apeiron, Signal Repeater Drones, ERAU-NASA Effort",
+      "holding": "브리저 에어로스페이스",
+      "stance": "중립",
+      "summary": "버진 갤럭틱이 주요 델타 우주선의 이름을 아페이론(Apeiron)으로 선정했고 우크라이나가 러시아의 전선 손실에 대응하기 위해 비행 중계 타워 역할을 하는 드론을 개발했다. 보유 종목인 브리저 에어로스페이스와 직접적인 관련이 없는 우주 및 방산 관련 타사 뉴스가 다뤄졌다.",
+      "impact": "보유 종목인 브리저 에어로스페이스에 대한 직접적인 언급이나 실적, 사업에 미치는 영향이 없다.",
+      "caution": "기사 내용이 다른 기업(버진 갤럭틱)과 우크라이나 전쟁 드론 기술에 관한 것으로 보유 종목과 무관하다."
+    },
+    "uadamageraisesinvestmentfromondascapitalandpravoventures": {
+      "title": "UADamage raises investment from Ondas Capital and Pravo Ventures",
+      "holding": "온다스 홀딩스",
+      "stance": "호재",
+      "summary": "우크라이나 기술 기업 UADamage는 인공지능 기반 폭발물 위협 탐지 기술의 개발 가속화 및 국제적 배포를 위해 온다스 카피탈(Ondas Capital)과 프라보 벤처스로부터 투자를 유치했다고 밝혔다. 투자 금액은 공개되지 않았다.",
+      "impact": "온다스 홀딩스의 자회사 또는 관련 투자 부문인 온다스 카피탈이 참여한 투자 유치 소식으로, 관련 기술의 상용화 및 글로벌 확장 기대감을 높인다.",
+      "caution": "투자금 규모가 구체적으로 공개되지 않아 단기적인 재무적 기여도를 정확히 산정하기는 어렵다."
+    },
+    "barclaysmaintainspalantirtechnologiesatoverweightraisespricetargetto273from265": {
+      "title": "Barclays maintains Palantir Technologies at Overweight, raises price target to $273 from $265",
+      "holding": "팔란티어",
+      "stance": "호재",
+      "summary": "바클레이즈(Barclays)는 팔란티어 테크놀로지에 대한 투자의견 '비중 확대(Overweight)'를 유지하고 목표 주가를 기존 265달러에서 273달러로 3% 상향 조정했다. 이는 11월 3일 종가인 175.40달러 대비 55.6%의 상승 여력을 시사한다.",
+      "impact": "월가 주요 투자은행의 목표 주가 상향 조정은 매수 심리를 자극하고 향후 주가 상승에 대한 기대감을 높인다.",
+      "caution": "애널리스트의 목표 주가는 전망치일 뿐이며 실제 주가 흐름은 시장 상황에 따라 달라질 수 있다."
+    },
     "급락하루만에뛰는삼성전자sk하이닉스증권가내년영업익1000조돌파주가동향": {
       "title": "급락 하루 만에 뛰는 삼성전자·SK하이닉스…증권가 “내년 영업익 1000조 돌파” [주가동향]",
       "holding": "삼성전자",
