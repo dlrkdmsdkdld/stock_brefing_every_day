@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-05T09:58:43+09:00",
-  "today_kst": "2026-11-05",
+  "fetched_at": "2026-11-06T10:01:23+09:00",
+  "today_kst": "2026-11-06",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
     "국내": [
@@ -13,11 +13,11 @@
     ]
   },
   "counts": {
-    "종목": 24,
-    "기사": 24,
-    "교차확인": 2,
-    "본문확보": 16,
-    "하단이탈": 6
+    "종목": 19,
+    "기사": 19,
+    "교차확인": 4,
+    "본문확보": 15,
+    "하단이탈": 1
   },
   "errors": [
     "델/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
@@ -34,43 +34,38 @@
     "록히드마틴/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
     "마이크로소프트/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
     "나이키 B/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "노보노디스크 ADR/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "마벨 테크놀로지/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "인텔/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "브리저 에어로스페이스/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "온다스 홀딩스/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "팔란티어/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "옥시덴탈 페트롤리엄/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***"
+    "노보노디스크 ADR/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***"
   ],
   "news": {
     "SK하이닉스": {
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 73,
+      "today_count": 80,
       "stories": [
         {
-          "title": "'美 데이터센터 규제' 우려…SK하이닉스 6% 급락[핫종목]",
-          "published_kst": "2026-11-05T09:24+09:00",
+          "title": "[속보] 반도체주 추락…삼성전자 9%·SK하이닉스 11%대 급락",
+          "published_kst": "2026-11-06T09:09+09:00",
           "relevance": "direct",
           "sources": {
-            "네이버 금융": {
-              "publisher": "뉴스1",
-              "url": "https://n.news.naver.com/mnews/article/421/0009271530",
-              "published_kst": "2026-11-05T09:24+09:00"
-            },
             "구글 뉴스 RSS": {
-              "publisher": "뉴스1",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81YXp3eENKeHlBVTNyTUVvb19rMjl2Y3puS1lwUzUxTGF2aThvckVwNFMtdWlXT0hDd0phWjFzc1JlSXNkVGNuY3dRclJuUnhzR2g3NVJHQ0N4Q096RDkw?oc=5",
-              "published_kst": "2026-11-05T09:24+09:00"
+              "publisher": "연합뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CMktITjI2TkR0dERIc0ZfNHdxTWdWX0NCYm9EVkpoUURGcGQ1T3BfMTZPdjEzcHpiTkVEaTFpOWpfdlNZNVFhM3loR2o4RFFldTV6SXByLUk1R3PSAWBBVV95cUxOY0E0bHl4THdCMXF0WjREck5JRFpCRzE5ZWhqekJEVjVueFpMc1F2ZEZabFVUd0tNdjVtSDc0dnNrODNkWENyRTN0WUh0TkJQWEI1bXc4ODZtTE5QVExWQng?oc=5",
+              "published_kst": "2026-11-06T09:09+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "한국경제",
+              "url": "https://n.news.naver.com/mnews/article/015/0005351036",
+              "published_kst": "2026-11-06T09:11+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 13.5,
-          "body": "4일 오후 서울 중구 하나은행 본점 딜링룸 전광판에 코스피 등 종가가 표시되고 있다. 2026.11.4 ⓒ 뉴스1 오대일 기자 \n\n(서울=뉴스1) 박주평 기자 = 삼성전자와 SK하이닉스가 미국 데이터센터 규제 강화 우려에 장 초반 동반 하락하고 있다. 민주당이 상·하원을 탈환한 미국 중간선거 이후 신규 데이터센터 투자 지연 가능성이 부각되면서 간밤 미국 반도체주가 급락한 영향으로 풀이된다.\n\n5일 오전 9시 17분 SK하이닉스(000660)는 전 거래일 대비 8만 7000원(6.23%) 내린 130만 9000원에 거래되고 있다. 삼성전자(005930)는 8500원(3.90%) 하락한 20만 9500원을 기록 중이다.\n\n4일(현지시간) 뉴욕 증시에서 마이크론은 7.00%, 엔비디아는 3.2% 하락했다. 필라델피아 반도체지수도 3.13% 내렸다.\n\n데이터센터 건설 규제를 공약한 민주당 후보들의 주지사 당선으로 신규 설비투자가 지연될 수 있다는 우려가 반도체 투자심리를 압박했다. 투자 속도 조절이 빅테크에는 지출 부담 완화 요인이지만, 메모리와 반도체 장비 등 공급업체에는 신규 발주 지연으로 이어질 수 있다는 분석이다.\n\n한지영 키움증권 연구원은 이날 보고서에서 전력망 확충 비용의 기업 부담 확대와 일부 지역의 인허가 제한 등이 신규 프로젝트의 투자비 증가와 속도 조절로 이어질 수 있다고 설명했다.\n\n다만 규제 강화가 인공지능(AI) 투자 전반의 위축으로 이어질 가능성은 낮게 평가했다. 전국적인 규제에는 대통령 거부권과 민주당 내부의 이해관계, 미국의 AI 경쟁력 등을 고려할 때 제약이 있다는 판단이다.\n\n한 연구원은 이미 진행 중인 데이터센터 투자 일정에는 큰 차질이 없을 것으로 예상하며, 기존 공급계약과 AI 인프라 기업의 이익 전망에 미치는 영향은 제한적일 수 있다고 봤다.\n\n이어 최",
-          "body_source": "네이버 뉴스 본문"
+          "importance": 11.5,
+          "body": "김유아 기자\n\n 구독 \n 구독중 \n\n 이전 \n 다음 \n\n 이미지 확대 \n\n 제보는 카카오톡 okjebo \n\n <저작권자(c) 연합뉴스, \n 무단 전재-재배포, AI 학습 및 활용 금지> \n\n 2026/11/06 09:09 송고 \n 2026년11월06일 09시09분 송고 \n\n #삼성전자 \n\n #SK하이닉스 \n\n 댓글 \n\n 좋아요 \n\n 슬퍼요 \n\n 화나요 \n\n 후속요청 \n\n 북마크 \n\n 공유 \n\n 공유하기 \n\n 카카오톡 \n\n 페이스북 \n\n X \n\n 페이스북 메신저 \n\n 네이버 밴드 \n\n URL 복사 \n\n 닫기 \n\n URL이 복사되었습니다. \n\n 댓글 \n\n 글자크기 \n\n 본문 글자 크기 조정 \n\n 폰트 1단계 13px \n\n 폰트 2단계 16px \n\n 폰트 3단계 18px \n\n 폰트 4단계 20px \n\n 폰트 5단계 22px \n\n 닫기 \n\n 프린트 \n\n 제보",
+          "body_source": "원문 본문 · www.yna.co.kr",
+          "article_url": "https://www.yna.co.kr/view/AKR20261106038700008"
         }
       ]
     },
@@ -78,29 +73,29 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 77,
+      "today_count": 75,
       "stories": [
         {
-          "title": "KT·삼성전자, AI로 고속철도 통신 끊김 29% 줄였다",
-          "published_kst": "2026-11-05T09:23+09:00",
+          "title": "삼성전자 CVC, 美 '에이전틱 커머스' 기업 펌리 투자",
+          "published_kst": "2026-11-06T09:53+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "MTN 머니투데이방송",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUkVWbUR0anQzLUdZZkY4NEtyRFk3eWZvOVQ3ekplamRPQUlfWG00Q3NvWWxoenY1Znp2cTZDY0R3M3JLcEwtVjBGRklCdHlnYktLWmJIRk1yc1lER09F?oc=5",
-              "published_kst": "2026-11-05T09:23+09:00"
+              "publisher": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90SEcteTllTVNqVWNULTBacFg4a2U0QnQ1REUzTjVOck5oLVVtZi1NbTVSVlVuZllaRXBZLUhMb0ZaWUFxeTVWUDZSRXVfUmRmZDdVNHdaU0ZEZw?oc=5",
+              "published_kst": "2026-11-06T09:53+09:00"
             },
             "네이버 금융": {
-              "publisher": "디지털데일리",
-              "url": "https://n.news.naver.com/mnews/article/138/0002247379",
-              "published_kst": "2026-11-05T09:56+09:00"
+              "publisher": "한국경제",
+              "url": "https://n.news.naver.com/mnews/article/015/0005351055",
+              "published_kst": "2026-11-06T09:54+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 9.5,
-          "body": "[사진=KT] \n\n[디지털데일리 정혜승기자] KT가 삼성전자와 함께 고속철도에서 발생하는 통신 품질 저하를 줄이는 무선망 최적화 기술을 개발했다. 인공지능(AI)으로 통신 품질 데이터를 분석해 기지국 전환 시점을 앞당기는 방식으로 실증에서 끊김 비율을 약 29% 낮췄다.\n\nKT는 5일 관련 기술을 개발했다고 밝혔다. 시속 250㎞ 이상으로 달리는 고속철도에서는 기지국 신호가 빠르게 바뀌면서 연결되는 기지국도 자주 전환된다. 이 전환이 제때 이뤄지지 않으면 잠깐 동안 데이터 전송이 지연되거나 통화 품질이 떨어질 수 있다.\n\nKT와 삼성전자는 고속철도 구간에서 모은 신호 세기와 연결 장애 이력 등 품질 데이터를 AI로 분석했다. 기존에는 현장 측정을 토대로 품질이 떨어지는 특정 기지국을 조치했다면 이번에는 AI와 대규모 데이터를 활용해 품질이 반복적으로 저하되는 구간과 연결 패턴을 찾아냈다.\n\n분석 결과 고속 이동 중 현재 기지국에서 다음 기지국으로 연결이 늦어지는 것이 객실 내 끊김의 주요 원인으로 파악됐다. 양사는 문제가 반복되는 구간을 선별하고 기지국 간 연결이 더 일찍 이뤄지도록 전환 시점을 조정하는 기술을 실증했다.\n\n실증은 고속철도 경부선 평택시 고덕면과 화성시 매송면 구간에서 진행됐다. 양사가 기술 적용 전후의 품질 데이터를 비교한 결과 이동 중 끊김이 나타나는 비율이 약 29% 줄었다. 기존 끊김 횟수를 100회로 가정하면 약 71회로 줄어드는 효과다.\n\nKT는 향후 이 기술을 고속철도에 실제 적용하는 방안을 검토할 계획이다. 삼성전자와는 AI 무선접속망(AI-RAN) 분야에서 협력을 이어가며 통신망 품질을 높이는 기술을 함께 개발하고 검증하기로 했다.",
+          "importance": 11.5,
+          "body": "/사진-연합뉴스 \n\n삼성전자의 기업형 벤처캐피탈(CVC)인 삼성넥스트가 미국 에이전틱 커머스 기업인 펌리에 투자했다.\n\n펌리는 5일(현지시간) 삼성넥스트가 자사의 시리즈 A 라운드 투자자로 참여했다고 밝혔다. 스퀘어포인트 캐피털이 주도한 이번 라운드에는 JP모건 페이먼츠와 마스터카드도 참여했다.\n\n펌리는 이번 라운드에서 1500만달러(약 203억원)의 자금을 유치했다. 삼성넥스트의 투자금액은 공개되지 않았다.\n\n펌리는 AI의 상품 추천을 실제 쇼핑몰로 연결해주는 에이전틱 커머스 플랫폼을 운영하는 스타트업. 예컨대 사용자가 메타의 ‘뮤즈’ 등 AI 에이전트와 대화하가 대화창 안에서 상품 구매 및 결제를 할 수 있도록 지원하는 식이다.\n\n삼성은 삼성넥스트를 통해 글로벌 스타트업에 투자하고 있다. 현재 투자사는 350곳 이상이다. 주요 투자 분야는 인공지능(AI)과 로보틱스, 헬스케어 등이다. 글로벌 휴머노이드 업체인 피규어AI, 1X테크놀로지스 등에도 투자했다.",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -108,106 +103,110 @@
     "HD현대중공업": {
       "ticker": "329180",
       "market": "국내",
-      "candidates": 90,
-      "today_count": 10,
+      "candidates": 83,
+      "today_count": 7,
       "stories": [
         {
-          "title": "[속보] 동성화인텍, HD현대중공업과 1923억원 규모 공급계약…지난해 매출액의 25.9%",
-          "published_kst": "2026-11-05T09:43+09:00",
-          "relevance": "direct",
+          "title": "\"美 민주당 승리에 LNG선 수주 우려\"…韓 조선주 영향은",
+          "published_kst": "2026-11-06T07:54+09:00",
+          "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UVjhIc0hQRVR2TFlIYl9MWHdFYi1fcThYLXVVMWZuR01TeFlpQ0JtbU1Gdkp3bjc3dWNmRVN1VUE3V2kxZXlheTdtdmhBMHBCb0NrMksydWl0WUV0ZWswclZFMy1rOGlD?oc=5",
-              "published_kst": "2026-11-05T09:43+09:00"
+              "publisher": "이데일리",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHB1NmR3X0FUOWtNRjFpUmhuMXRNTW5IdmZxbTh2aG5JZ2l4ZDUwemJ0OGxONWYzMHFQVWxDVnc2ZmNMUkVHbGF5dm5BN3hqeDJmUlg3ZE9udkhHUE5ETFB3b3VhQ25ydXJ4TFFJck5RZmVreFhxNU5ybGJ2NTFINQ?oc=5",
+              "published_kst": "2026-11-06T07:54+09:00"
+            },
+            "네이버 금융": {
+              "publisher": "이데일리",
+              "url": "https://n.news.naver.com/mnews/article/018/0006404699",
+              "published_kst": "2026-11-06T07:56+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 10.0,
-          "body": "[CBC뉴스] 동성화인텍이 HD현대중공업과 1923억1805만원 규모의 LNG운반선 초저온 보냉자재 공급계약을 체결했다고 5일 공시했다.\n\n 이번 계약금액은 1923억1805만2200원으로, 동성화인텍의 2025년 연결재무제표 기준 최근 매출액 7421억8600만원의 25.9%에 해당한다. 조건부 계약이 아닌 확정 계약이다.\n\n 계약 상대방은 HD현대중공업 주식회사로, 선박과 해양구조물, 플랜트 및 엔진 등의 제조·판매를 주요 사업으로 영위하고 있다. 동성화인텍은 최근 3년간 HD현대중공업과 동종 계약을 이행한 이력이 있다고 밝혔다.\n\n 계약기간은 2026년 11월 5일부터 2029년 3월 31일까지다. 판매·공급지역은 계약 상대방이 지정하는 장소이며, 공급 방식은 외주생산이 아닌 자체생산이다.\n\n 주요 계약조건에 따르면 계약금 또는 선급금이 있으며, 대금은 구매확인서 납품 후 지급된다.\n\n 이번 계약금액은 계약 체결일인 11월 5일 기준 서울외국환중개 매매기준율인 달러당 1340.70원을 적용해 원화로 환산한 금액이다.\n\n 동성화인텍은 계약에 따른 납기가 계약 상대방의 요청에 의해 진행되며, 선박 건조 일정의 진행 상황에 따라 변경될 수 있다고 설명했다.\n\n ★ 네티즌 어워즈 투표하러 가기 ▶ \n\n ★ 전 세계 팬덤의 결집, cbcglobe.com ▶ \n\n ★ 돈돈돈, 남몰래 혼자 보는 – 돈 되는 뉴스 ▶ \n\n ▮ CBC뉴스ㅣCBCNEWS 권오성 기자\n\n 저작권자 © CBC뉴스 | CBCNEWS 무단전재 및 재배포 금지\n\n 권오성 기자 \r\n 다른기사 보기",
-          "body_source": "원문 본문 · www.cbci.co.kr",
-          "article_url": "https://www.cbci.co.kr/news/articleView.html?idxno=623448"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 7.5,
+          "body": "한국투자증권 보고서 [이데일리 김경은 기자] 미국 중간선거에서 민주당이 승리하면서 국내 조선업계의 액화천연가스(LNG) 운반선 수주 환경이 악화할 수 있다는 분석이 나왔다. 미국 LNG 수출 터미널의 인허가 절차가 강화되면 신규 프로젝트와 선박 발주가 지연될 수 있다는 이유에서다. 반면 데이터센터의 자체 발전 수요 확대는 국내 조선사에 새로운 성장 기회가 될 것으로 전망됐다.\n\n HD현대중공업 야드 전경. (사진=HD현대중공업) 강경태 한국투자증권 연구원은 6일 보고서에서 미국 중간선거 결과가 국내 조선업계에 미칠 영향을 △LNG 운반선 발주 지연 △미국 함정 수주 기회 변화 △데이터센터 자체 발전 수요 확대 등 세 가지로 분석했다.\n\n가장 큰 우려는 LNG 운반선 수주 환경의 악화다. 올해 9월 말 기준 2032년 가동을 목표로 전 세계에서 추진 중인 LNG 프로젝트는 연간 4억7800만t 규모다. 이 가운데 미국 프로젝트가 2억5500만t으로 전체의 53.2%를 차지한다. 국내 조선사들의 LNG 운반선 수주 파이프라인에서 가장 큰 비중을 차지하는 지역이다.\n\n강 연구원은 “미국 걸프만 지역에서 추진 중인 LNG 수출 터미널 프로젝트에 대해 환경영향평가나 인허가 절차를 강화할 경우 프로젝트 착공과 사업화 시점이 지연될 수 있다”고 분석했다.\n\n이에 따라 2029년 이후 인도 예정인 LNG 운반선의 영업 환경이 악화할 가능성이 제기된다. 조선사들이 적정 수주잔고를 확보하기 위해 신조선 가격을 낮춰야 하는 상황에 직면할 수 있다는 것이다. 강 연구원은 이 같은 선가 약세 우려가 중간선거 이후 국내 조선주 주가 조정을 불러온 주요 원인이라고 진단했다.\n\n미국 함정 수주에 미칠 영향은 중립적으로 평가했다. 민주당의 영향력 확대로 미국 함정의 해외 발주를 허용하는 법 개정 가능성은 낮아졌지만",
+          "body_source": "네이버 뉴스 본문"
         }
       ]
     },
     "델": {
       "ticker": "DELL",
       "market": "해외",
-      "candidates": 27,
+      "candidates": 29,
       "today_count": 14,
       "stories": [
         {
-          "title": "Dell Navigates 21% Monthly Stock Retreat and Component Constraints Ahead of Earnings : Finance : JKN",
-          "published_kst": "2026-11-05T01:03+09:00",
+          "title": "Dell Technologies Options Spot-On: On November 5th, 173.49K Contracts Were Traded, With 717.59K Open Interest",
+          "published_kst": "2026-11-06T07:22+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "재경일보",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11bGsxX2dtRmhLTjRicE1seWZLTTlJZFpxSS1nQXpQYU41S2JkdjRTdFRxbm1GQlFKSzQyUmhQLWdSb2J5MGc1bERqeDI1amg1Z0ptMllPd19jVXVQSTNweFdB?oc=5",
-              "published_kst": "2026-11-05T01:03+09:00"
+              "publisher": "Moomoo",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd2YyRXY1eDlNVTRsdmhHM0VLc0pQWXVpTFUyblNfdVdCaXI0d3A5Y29FQk9ROXA2SzdJVmJIaFNMVVZPUDNwNjFLaVg0U1Ywd19pT2MyU2lzUWszWE9JODRpdXFjR3hZRTllZzhhUWxXa0t5d0xQOFdDWkdZcmY4V05jWmMzZUswNmU2Q3JZUVNoanBobHVyRWE0U1JBcVIwTjR3?oc=5",
+              "published_kst": "2026-11-06T07:22+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Dell Technologies shares dropped 21.02% over the month leading into early November 2026, pressured by a sector-wide retreat across artificial intelligence and enterprise hardware stocks that included a single-session drop of 10.8%. Alternative market tracking from October 2 to November 2 recorded an even steeper decline of 30.1%.\n The retreat reached a two-month low on Monday, November 2, when the stock tumbled 7.4%. Shares subsequently rebounded 3.98% to close at $408.40 on November 3, while separate pricing records indicated trading levels around $424.16 during the volatile period.\n Despite the recent pullback, Dell shares remained up 240.66% year-to-date, contrasting with the SPDR S&P 500 ETF Trust, which fell 0.91% over the past month.\n The broader hardware sector experienced similar pressure. Peer server makers Hewlett Packard Enterprise and Super Micro Computer fell 13.77% and 19.7",
-          "body_source": "원문 본문 · news.jkn.co.kr",
-          "article_url": "https://news.jkn.co.kr/editions/english/post/1070699"
+          "body_error": "본문 추출 실패 · 구글복원: ValueError"
         }
       ]
     },
     "컨스텔레이션 브랜즈": {
       "ticker": "STZ",
       "market": "해외",
-      "candidates": 14,
-      "today_count": 6,
+      "candidates": 13,
+      "today_count": 4,
       "stories": [
         {
-          "title": "Constellation Brands Stock Gets Bank Upgrade After Election Outlook Eases Beer Demand Risk",
-          "published_kst": "2026-11-05T07:34+09:00",
+          "title": "Why Did Constellation Brands (NYSE:STZ) Maintain Its Annual Guidance?",
+          "published_kst": "2026-11-06T02:47+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Simply Wall St",
-              "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMGNraDFYc3FQbGlrNGowQlNVbkRoTHQzS0JmY1Z5ZDhKUkRoRXNFUmJCbFZZdHFBSVllNlhEYlRMbGpDWHpVOUtlTEFTNm43OFoyX2FoLUdaTmY4clZWdkIyYlkyMXdCdkV5V1JhZFlZSExYNUJ0TXNKeEdMZHpMQk9kanNiRGYxUG9pZWtIbnNOdGVUaGIwbWhMbm90QTNxNGhhT3Z6a2dhQlQxaFFvYnFicFlaMlI3RnY5WnNYR2w1MWp6YXAwQUFBQlVseG5BaE9BNzJaUV9lUWV3TVpJV3lYNUQzMUnSAecBQVVfeXFMTTBja2gxWHNxUGxpazRqMEJTVW5EaEx0M0tCZmNWeWQ4SlJEaEVzRVJiQmxWWXRxQUlZZTZYRGJUTGxqQ1h6VTlLZUxBUzZuNzhaMl9haC1HWk5mOHJWVnZCMmJZMjF3QnZFeVdSYWRZWUhMWDVCdE1zSnhHTGR6TEJPZGpzYkRmMVBvaWVrSG5zTnRlVGhiMG1oTG5vdEEzcTRoYU92emtnYUJUMWhRb2JxYnBZWjJSN0Z2OVpzWEdsNTFqemFwMEFBQUJVbHhuQWhPQTcyWlFfZVFld01aSVd5WDVEMzFJ?oc=5",
-              "published_kst": "2026-11-05T07:34+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body": "Constellation Brands Stock Gets Bank Upgrade After Election Outlook Eases Beer Demand Risk \n November 4, 2026, 22:34 UTC \n Bailey Pemberton \n Constellation Brands reported stronger than expected Q2 FY2027 results, with its beer division posting a 5% change in net sales and a 1% change in operating income. Bank of America adjusted its rating following these fundamentals and the evolving political backdrop. The link between expected Democratic control of Congress and reduced immigration related pressures highlights how Constellation Brands’ core Hispanic oriented beer demand is now being framed as both a political and consumer exposure. We will look at how Constellation Brands’ investment narrative could shift as immigration related beer volume risks appear less acute to analysts. Scan how analysts are repositioning Constellation Brands in their playbooks, then stack it up against 33 high ",
-          "body_source": "원문 본문 · simplywall.st",
-          "article_url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-stz/constellation-brands/news/constellation-brands-stock-gets-bank-upgrade-after-election/amp"
-        }
-      ]
-    },
-    "퍼스트솔라": {
-      "ticker": "FSLR",
-      "market": "해외",
-      "candidates": 29,
-      "today_count": 11,
-      "stories": [
-        {
-          "title": "Clean Energy Surge Boosts First Solar (FSLR) Amid Democratic Con",
-          "published_kst": "2026-11-05T02:12+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONmxiOE5vSkctMWtjaHZXMzRKU0xjLTRBZHctVmZTaU9EbzNveFJnS2VWZXlYT1kydDMzNmJsS1BWVDkyVkpKZWU0a0VZYWZwekVoZlFIUTBCNmdzdkxMX0tIZS1HSjd0WEFXampSa05udkg1VjEzTUU0aFh4U3daYnRYcVd6VWtyVzZhNDQxdjF0YkMtWXE1c0o3Nk5DUWJpV211OHk1Tm4xN0dsVUxoSHdZdHZvUQ?oc=5",
-              "published_kst": "2026-11-05T02:12+09:00"
+              "publisher": "Kalkine Media",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYjlCU25KWnBTUzNGeXlyVHd5eVNNSVpCLVdqZ2VKNGY5OWQ1aWlVYVltUDZOZjVIT3hXNWtRY0oyWnRicnlxeWxzcHJUSjczLVhPbDk2M09UNUhEM2JqR2VVbkJPMWJSOXB2ZnJlWDhMRlZ6U1RnVVhqSjYzS0h4dWdHN25aSXNPTVZOWjNmeXlLUlNoMGJOYXc2bDgzTDFxcEdEQjE1a1ludVNHNHc?oc=5",
+              "published_kst": "2026-11-06T02:47+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "body": "Why Did Constellation Brands (NYSE:STZ) Maintain Its Annual Guidance? \n\n S&P 500\n\n STZ\n\n ( \n\n USD \n 144.56 \n\n ↓ \n\n -0.64%\n\n ) \n\n 7 min read | November 05, 2026 09:47 AM PST | By\n Anmol Khazanchi \n\n Google News: \n\n Recent News\n\n Revelation Biosciences Announces $3.3M Net Loss for Q3 2026 Amid Risin... \n\n November 06, 2026 11:39 AM AEDT | By Aakashdeep -->\n\n Visa Inc. Submits Fiscal Year 2026 10-K Report Detailing Share Structu... \n\n November 06, 2026 11:39 AM AEDT | By Vinay Lochav -->\n\n Rainmaker Worldwide Inc. Submits Fiscal Year 2025 10-K Highlighting Wa... \n\n November 06, 2026 11:39 AM AEDT | By Vinay Lochav -->\n\n CXApp Inc. Announces Q3 2026 Net Loss of $3.15 Million Amid Revenue Gr... \n\n November 06, 2026 11:39 AM AEDT | By Aakashdeep -->\n\n Make Kalkine Media \n\n My Trusted Source\n\n Highlights \n\n Constellation Brands reaffirmed its comparable outlook after soft beer depletions and ad",
+          "body_source": "원문 본문 · kalkinemedia.com",
+          "article_url": "https://kalkinemedia.com/us/stocks/consumer/why-did-constellation-brands-nysestz-maintain-its-annual-guidance"
+        }
+      ]
+    },
+    "퍼스트솔라": {
+      "ticker": "FSLR",
+      "market": "해외",
+      "candidates": 30,
+      "today_count": 9,
+      "stories": [
+        {
+          "title": "Can First Solar (NASDAQ:FSLR) Turn The Corner After A Tough Quarter?",
+          "published_kst": "2026-11-06T05:32+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Kalkine Media",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeGZPSVdVQXRCU3hfbmNxTFRLNC1qRnFpdlJpaXR6OWFib1B6dzBPWDRsWnNheHV4cFZHN2pHQ0FtUVBOSmVDSXctcDlBZHhxNlVLTGxXaHR6UDFRY1VNdkFQZUd4NVlRMERTUTlGek4zUkVVQS1WVDJlUDBKVmFGcmRNamJ6MjRWaEt6M3ZBMlczX1F5Sjl2YVAxUWd0TVpsSExlMUlSdFJlUQ?oc=5",
+              "published_kst": "2026-11-06T05:32+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
+          "body": "Can First Solar (NASDAQ:FSLR) Turn The Corner After A Tough Quarter? \n\n S&P 500\n\n FSLR\n\n ( \n\n USD \n 195.76 \n\n ↑ \n\n +0.64%\n\n ) \n\n 7 min read | November 05, 2026 12:32 PM PST | By\n Anmol Khazanchi \n\n Google News: \n\n Recent News\n\n Revelation Biosciences Announces $3.3M Net Loss for Q3 2026 Amid Risin... \n\n November 06, 2026 11:39 AM AEDT | By Aakashdeep -->\n\n Visa Inc. Submits Fiscal Year 2026 10-K Report Detailing Share Structu... \n\n November 06, 2026 11:39 AM AEDT | By Vinay Lochav -->\n\n Rainmaker Worldwide Inc. Submits Fiscal Year 2025 10-K Highlighting Wa... \n\n November 06, 2026 11:39 AM AEDT | By Vinay Lochav -->\n\n CXApp Inc. Announces Q3 2026 Net Loss of $3.15 Million Amid Revenue Gr... \n\n November 06, 2026 11:39 AM AEDT | By Aakashdeep -->\n\n Make Kalkine Media \n\n My Trusted Source\n\n Highlights \n\n First Solar lowered its full-year outlook after softer module volumes, authorised a shar",
+          "body_source": "원문 본문 · kalkinemedia.com",
+          "article_url": "https://kalkinemedia.com/us/stocks/energy/can-first-solar-nasdaqfslr-turn-the-corner-after-a-tough-quarter"
         }
       ]
     },
@@ -215,42 +214,44 @@
       "ticker": "CEG",
       "market": "해외",
       "candidates": 18,
-      "today_count": 11,
+      "today_count": 7,
       "stories": [
         {
-          "title": "Constellation Energy boosts future revenue with long-term AI-driven power deals with Google.",
-          "published_kst": "2026-11-05T02:36+09:00",
+          "title": "Should You Buy, Hold or Sell Constellation Energy Before Q3 Earnings?",
+          "published_kst": "2026-11-06T02:18+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Pluang",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVmE4T1JwYzI4eElaUlVQYkxOT1htQmpxOHFoVWc2WnlFTGFkVU5nelN2UlRYSzNRbzgxZlFwZEdLMmdzRVN2VlJBVnI1MzM4UWw4OUNmLUQydmNDSU9RMzBzdktBWnRKb3EwbktVWlYxSm84SzN3cjhIenpvcmZfZlFQYVRSTlJNc3BxVk5wdU4xcnRFMEE?oc=5",
-              "published_kst": "2026-11-05T02:36+09:00"
+              "publisher": "TradingView",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaS0tU2FlRnRINXlMM2kweHowYnBXWXoxVTFhczQweGhub25SX3ZlS0FUNkNSZk9IMkJmYWR1dFItaWFGbERadWNVRU80blo0UGJWemxMeWFkYUdiWTJSMzRuT1FPTXlVQTdXSjNMYWh0dUpxZmFwc2tVVEh1UkNCYTFrakRkbEY4SDBDWFYyenlORmtNcUlDVlE2SFY1bEprQTNrWmNFNmdycDdVcFdZVHIzMjRMTzFtNkYxUXRrLXM?oc=5",
+              "published_kst": "2026-11-06T02:18+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 8.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "importance": 6.0,
+          "body": "Should You Buy, Hold or Sell Constellation Energy Before Q3 Earnings? 4 min read \n\n CEG \n Constellation Energy Corporation CEG is expected to report its third-quarter 2026 results on Nov. 9. \n The Zacks Consensus Estimate for revenues is pinned at $8.72 billion, indicating an increase of 32.66% from the year-ago reported figure. \n The consensus mark for earnings is pegged at $3.90 per share, indicating year-over-year growth of 28.29%. \n CEG’s Earnings Surprise History \n Constellation Energy’s earnings beat the Zacks Consensus Estimate in three of the trailing four quarters, missed one, delivering an average surprise of 4.19%. \n What Our Quantitative Model Predicts \n Our proven model doesn’t predict a likely earnings beat for Constellation Energy this time around. The combination of a positive Earnings ESP and a Zacks Rank #1 (Strong Buy), 2 (Buy) or 3 (Hold) increases the odds of an earn",
+          "body_source": "원문 본문 · www.tradingview.com",
+          "article_url": "https://www.tradingview.com/news/zacks:6130c1aa3094b:0-should-you-buy-hold-or-sell-constellation-energy-before-q3-earnings/"
         }
       ]
     },
     "비스트라 에너지": {
       "ticker": "VST",
       "market": "해외",
-      "candidates": 28,
-      "today_count": 20,
+      "candidates": 30,
+      "today_count": 14,
       "stories": [
         {
-          "title": "Vistra plunges 13.5% as Texas election rattles AI power trade, KeyBanc downgrades",
-          "published_kst": "2026-11-05T02:33+09:00",
+          "title": "Vistra shifts to stable earnings with long-term contracts, expects 21.8% EBITDA growth by 2026, rated Buy.",
+          "published_kst": "2026-11-06T01:44+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Investing.com",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTW14ODVDRWZZc0pzWXFBcGZqWVc4YTJWMmY3OEcxd3ZUMUpTcHJOTVU5ZTBkcXhtdzdSTVY5YUhGNkNyTnJvMm1oV1Q5ZmxrRTk4LXBiVUFveFRwdUt2dEdtYXc1d0NtZEVFY196QjkyYWZQbDN2OGtlRG1JVW5qUkpzd2YyOEt6WkJWbzg3RVFhdTczQ2RkZ2tDY0NzbGR1Q3diamdrZEJqUFpoQTNINmEzQ1pmWHVfVmtISElXQ3VsY3NNeU9xUWxLaTVhUExy?oc=5",
-              "published_kst": "2026-11-05T02:33+09:00"
+              "publisher": "Pluang",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUpHNGRpU0FENUV0SVRObUhRRXYxTWE0bjBhaFFHZ3I1dXppR1UxRFlUWE5GNG9UNHZ1QmpVa3JtTTZlQjZzR1RudkROTHpFN1ZnbmVhdFJ5Q1hoTjBtSGMwWHpoOU0wRzZ0U1BxQkc4QnF5c0ZVWmlObkFVZWNDTF9KcmxrRnJPa0lneFZQdGh5amo0N09oTg?oc=5",
+              "published_kst": "2026-11-06T01:44+09:00"
             }
           },
           "source_count": 1,
@@ -264,25 +265,27 @@
     "이오스 에너지": {
       "ticker": "EOSE",
       "market": "해외",
-      "candidates": 15,
-      "today_count": 12,
+      "candidates": 30,
+      "today_count": 8,
       "stories": [
         {
-          "title": "What Does Eos Energy Enterprises (NASDAQ:EOSE) Revenue Surge of 351% Tell Investors About Plug Power (NASDAQ:PLUG), QuantumScape (NYSE:QS) and Solid Power (NASDAQ:SLDP)?",
-          "published_kst": "2026-11-05T02:32+09:00",
+          "title": "Eos Energy Enterprises (EOSE) Beats On Earnings As Its Undervalued Narrative Faces A Reality Check",
+          "published_kst": "2026-11-06T00:25+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "kalkine.ca",
-              "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPR3FwQWxvTTBHb1ZCeXB5NV9MN19lYlJWSGtjengta1E4b0x5SjhXQXE5SjZfcEV0LWtRdWYySWJ2Qy1nRm0xN2dFN1MtU0s5OWkyaWRWS1M0QmR0TWk1RUMxM2RNUU1ZdG5HeDJSRU9TVXdfYmgtellPQjJ2RFJOamhzWjdpa1FkUGdNYVNCOC1nN2hJeFF2SzZBYjBHTFAyS19uc05Bb19ndG1mUF9rZXF6Wm5JSWlHWmZhSmJVX21GOVVjRkZTN3RuYnhER050Y2FacVg4S1pLaHNQWWNKdllfeHdVUHRhNTZUZk4wVVowQ21YcXZrZUJNLWVYU0VGU0thblNLMjRBSHhwX0FYSGxYOA?oc=5",
-              "published_kst": "2026-11-05T02:32+09:00"
+              "publisher": "Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ1VqeGtxcVhmMDRfbTVSazJoeHJOSlRrTGZpRXhaZFBlLXR5VmlCTFdaU0R3R0VjSkxHS1M0bFc1Z04tckVLcjVGSXhXR2xIejBUWFBfUGN1OVZLekVydkJUV0VvQ1hoUlNLMUJodnJ4Z2M5R2huSVlzbFJTMC1xWDc2RV82Q3dYWWJyeTVMazhWeTBVYWxDZktvNVd0WEk?oc=5",
+              "published_kst": "2026-11-06T00:25+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 8.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "body": "Eos Energy Enterprises (EOSE) Beats On Earnings As Its Undervalued Narrative Faces A Reality Check \n\n Sasha Jovanovic \n Thu, November 5, 2026 at 9:25 AM CST 5 min read \n\n EOSE \n\n Eos Energy Enterprises (EOSE) drew fresh attention after reporting a quarterly loss of $0.17 per share on revenue of $82.73 million, both ahead of Zacks consensus expectations and sharply above last year's levels. \n The earnings surprise landed against a tough share price backdrop for Eos Energy Enterprises, with the 1-year total shareholder return down 86.00% even after a 12.63% 1-day share price gain and 8.08% 7-day share price return. Momentum has weakened over longer stretches, with the 30-day share price return down 34.36% and the 90-day share price return down 48.43%. Despite a 57.93% 3-year total shareholder return, the current year-to-date share price decline of 83.50% suggests recent trading has been dr",
+          "body_source": "원문 본문 · finance.yahoo.com",
+          "article_url": "https://finance.yahoo.com/markets/stocks/articles/eos-energy-enterprises-eose-beats-152523187.html"
         }
       ]
     },
@@ -290,51 +293,53 @@
       "ticker": "ALM",
       "market": "해외",
       "candidates": 8,
-      "today_count": 3,
+      "today_count": 2,
       "stories": [
         {
-          "title": "Almonty rated Buy on tungsten and molybdenum su...",
-          "published_kst": "2026-11-05T08:17+09:00",
-          "relevance": "direct",
+          "title": "ALM - Sangdong Ramp Up And New Offtake Contracts Will Support Long Term Tungsten Supply",
+          "published_kst": "2026-11-06T04:46+09:00",
+          "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Pluang",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQUxkTXc1bGRFR1VBWDBIVEluUDZkWUN5RnhrUFQyV19xbnhWaGYtN181WjhsZVBfekxmNDdYc3hFaHdrTkVfX3lUM0JBZmZxTm9MdFB1VU5Td1lMd0Q1d0JBc04wb003X2JoaU9fMFNwZklDWkQwUmxXaV9zQVhwNkRhQkpvSnBIeUZBRjJfbEVRTk5LWFdLV0VCdHZzYzhhbl9R?oc=5",
-              "published_kst": "2026-11-05T08:17+09:00"
+              "publisher": "Simply Wall St",
+              "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOQUZoX21qSDFydjEyc3ZleUt1bDJqNmpZU0RTR0lvTldJaFdOUlRSWnZacFUwekVDaENDYWlnVjRxOW9pZS1YS1pwNUVmSjYzSS04ejJqNlJlb3pCZ01KQjN3T1h4S2dvdlBQZFBvYnFhajUyLXRxc2YybjZxVEF3V3FtZ2dLblR6eWd3QmFXX2RURFhiN1oxcEtzYUhvQUNxTmd0cjFTUFgtZG12Q0dkd1I4Y08yWDl0V0hiOFdLQ29wRkpxY21fVzZKd1g2R2k3WVdjYlc4c054RXFHbTIyTDR2dTRJQmYtTUI0RkJVVXFlSV90UVlIOXd2a0l0UlRzTGN2d0JHMA?oc=5",
+              "published_kst": "2026-11-06T04:46+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 4.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "importance": 2.0,
+          "body": "Key Takeaways \n\n Analysts expect Almonty Industries to bring Sangdong to design output while layering in Los Santos tailings and Rwanda feed as new tungsten supply channels, supported by long-term offtake contracts and substantial cash on hand. \n The main requirement is consistent ramp execution at Sangdong, including Phase 2 and the planned oxide plant. At the same time, projects in Spain, Rwanda and Montana need to remain on budget and within permitting and ESG constraints. \n The current valuation implies the market is heavily discounting Almonty Industries' cash balance, long-term contracts and role in non-Chinese tungsten supply, even after strong Q2 revenue of C$43 million, a very large convertible raise of US$800 million and a P/E of about 60.9x. \n\n What Almonty Industries Does \n Almonty Industries engages in mining, processing and shipping tungsten concentrates, and in exploring f",
+          "body_source": "원문 본문 · simplywall.st",
+          "article_url": "https://simplywall.st/community/narratives/us/materials/nasdaq-alm/almonty-industries/w4my07p7-sangdong-ramp-up-and-new-offtake-contracts-will-support-long-term-tungsten-supply"
         }
       ]
     },
     "크레도 테크놀로지": {
       "ticker": "CRDO",
       "market": "해외",
-      "candidates": 14,
-      "today_count": 9,
+      "candidates": 9,
+      "today_count": 4,
       "stories": [
         {
-          "title": "Credo (CRDO) Revenue More Than Doubled. What Is It Selling Beyond Copper Cables?",
-          "published_kst": "2026-11-05T02:03+09:00",
+          "title": "Credo Technology Shares Fall Nearly 18% in Thursday Selloff",
+          "published_kst": "2026-11-06T07:28+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkd4eU85dlhHYzdmS1BRMEIwQ1dqWTBYS1NWUHR6VldFeThBaGQ4NjVNbk9wY2VISHN5WHNSamllRV9ETEZTa29VOGVrVjVlTHlIUmR0TFZ1MVZJZ0RGQWJUUl9Yc19SOFJFc0FuNnpva0pSVzRjUTdDcnpaT0E3eTBDSFpENDU0eTlGRXRJMUl0VVZEYl9PVF8wVlQ?oc=5",
-              "published_kst": "2026-11-05T02:03+09:00"
+              "publisher": "www.tokenpost.com",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtcUM3VVFybzRnbTh1TXRvV3RQY2V5NVd0c014NnV5YUxRdW1iUHVBcVJpeGVmXzlzaG5qemkzUWwzdXRuS0RzN1N3emFkOF91bnRyblBWamVTZw?oc=5",
+              "published_kst": "2026-11-06T07:28+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 6.0,
-          "body": "Credo (CRDO) Revenue More Than Doubled. What Is It Selling Beyond Copper Cables? \n\n Farooq \n Wed, November 4, 2026 at 11:03 AM CST 3 min read \n\n CRDO \n -10.87% \n\n We just published the list of the 10 Best Meme Stocks to Invest In and Credo (NASDAQ:CRDO) ranked 8th on this list. \n Nobody has to double their money every year to build real wealth. An investor who puts $10,000 into a stock that returns 15% annually and holds it for 40 years ends up with about $2.7 million. That takes patience, not a lucky guess. \n\n Reaching for stocks that promise to multiply overnight makes that outcome less likely, not more, because a single collapse can wipe out years of compounding. That tension is the subject of our look at whether Sandisk can keep climbing after a 1,322% gain in a year . \n Hedge funds work from the opposite instinct. On average, they don't load up on lottery-ticket stocks. They back co",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/markets/stocks/articles/credo-crdo-revenue-more-doubled-170308374.html"
+          "importance": 4.0,
+          "body": "1 min read \n Add as a preferred source on Google Credo Technology Shares Fall Nearly 18% in Thursday Selloff The stock closed at $112.33 after losing $24.17 as the Nasdaq 100 fell 6.4% in a broad technology retreat.\n By Enna Lee Published Nov 5, 2026, 5:28 PM EST \n\n Save Share \n\n Credo Technology Group Holding Ltd. shares fell nearly 18% Thursday, closing at $112.33 after a $24.17 loss during the session as technology stocks sold off broadly across U.S. markets.\n Credo develops high-speed copper and optical interconnect products for artificial intelligence and data-center infrastructure.\n The Nasdaq 100 fell 6.4% Thursday, losing $2.3 trillion in market value. The broader Thursday selloff also hit crypto-related stocks.\n\n Enna Lee Reporter Enna Lee reports on investing and digital-asset markets for TokenPost. Send corrections or tips to info@tokenpost.com.\n\n Join the discussion Back to t",
+          "body_source": "원문 본문 · www.tokenpost.com",
+          "article_url": "https://www.tokenpost.com/news/investing/49601"
         }
       ]
     },
@@ -342,26 +347,24 @@
       "ticker": "GOOGL",
       "market": "해외",
       "candidates": 30,
-      "today_count": 17,
+      "today_count": 10,
       "stories": [
         {
-          "title": "Alphabet, Amazon, and Microsoft All Surged Today. You Can Thank the Big Blue Wave.",
-          "published_kst": "2026-11-05T05:25+09:00",
+          "title": "This Could be a Major Problem for Alphabet Investors",
+          "published_kst": "2026-11-06T08:03+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3FPNjF0Qnk2dkx5Z1hfblotbmJudmtpaWF5Zk1vR2xmMHBQLUVMbUVNTC1nQUJfRDVacldTUDllT3lpOHRVSnJCSTB0eEZlV1AycktIdFFNMmF4UVJxa0Z6VExPcFBXUFhKZzNBeUZCMHd4UGhQcjZscVl5blJodFZqSDE4WU82Q3FXTmo2YTdWM0tta01ZREFSbmxBUzdDVVpqaXNLXzM1YmlUaWlLV2RNQXRaVW1GVkJtWjlB?oc=5",
-              "published_kst": "2026-11-05T05:25+09:00"
+              "publisher": "Barchart.com",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOVhJMGtUbkVHN2w1dGFVUFE2VlBMYUFBaWtHNlNqU1FucHBvcmdBX0N1aThYeEtlQVg3VlFfOW9rVUhYVzF6TkMwajZuX2pzc1BHVEdMQ1pvUHpGV1RTLTFMNG9CM1JkRjBNbUtNazh0azlXWkd2WkRHT08xWHJILWliX3ZZekVnYU9lR05lMllUX0F3UjJ3TjBTTmM?oc=5",
+              "published_kst": "2026-11-06T08:03+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 6.0,
-          "body": "With the 2026 election in the books, early signs Wednesday point to a positive day for investors, with the three major market indexes pushing higher. The price-weighted Dow Jones Industrial Average is up 3% (as of this writing), the broad-based S&P 500 has gained 1.7%, and the tech-heavy Nasdaq Composite is up 1.7%.\n\n Helping lead the major indexes higher are the \"Big Three\" cloud providers , Amazon ( AMZN +6.12% ) , Microsoft ( MSFT +6.68% ) , and Alphabet ( GOOGL +3.18% ) ( GOOG +3.25% ) , gaining 7.1%, 7%, and 4.1%, respectively, as I write this.\n\n Given the expected shift in the regulatory environment, it might seem counterintuitive that these tech titans would gain ground, but dig a little deeper, and it's easy to see why shareholders are optimistic.\n\n Image source: Getty Images.\n\n Democrats win control of Congress \n Democrats have won control of both the House and Senate, and some ",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/11/04/alphabet-amazon-and-microsoft-all-surged-today-you-can-thank-the-big-blue-wave/"
+          "importance": 4.0,
+          "body_error": "본문 추출 실패 · 구글복원: ValueError"
         }
       ]
     },
@@ -369,53 +372,53 @@
       "ticker": "CSCO",
       "market": "해외",
       "candidates": 30,
-      "today_count": 12,
+      "today_count": 16,
       "stories": [
         {
-          "title": "SPECTRUM BUSINESS LAUNCHES A NEW SECURE NETWORKING OFFERING",
-          "published_kst": "2026-11-05T01:00+09:00",
+          "title": "Cisco Falls 7% on Morgan Stanley Downgrade; Ciena Plunges 15%, Arista Networks Tumbles 10%",
+          "published_kst": "2026-11-06T04:03+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "TradingView",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNW90eUljTFRzSEJ0V1VaVmxHSWktVlFJSkl6UDVhSjRqUlJXczY0aDFYS0V5cWtZN29TVFZTMUlrUE4tY1o4V2JHSTRrbHVXbTRSSlctUlo0R1RndHhOeUxMdFdLSXZCajJDNTZxT1hhVl9sb1c1Z0VvR1FjU0tyXzRyQnZ0YnF0QkFIODM0SjV3d0tZTjJyckdVb1AzVG9FTjB5TUhaUEo0YnE4M0RTN2dPMmhsMmxzYU5hVQ?oc=5",
-              "published_kst": "2026-11-05T01:00+09:00"
+              "publisher": "24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkRiZEVMc2tZVEdlRUtnTTlGTTRiSDcwdmVGSVFkREI3eXdabUlXdTNGek1yeFY3eDBCNHpza2RISlprSlZKa2gzWEJjNmpTZ01IZmI2NmxNdDJyeS1mRVZBbGR1bnhFZ3dtbGQzWngwOU0yZjNCRy1XY3lBUHU1RHpkTUx0Nll5SG9sUTFXUzlxX3hYX1ZPMlV0ZWhfS3E3bWJlTkdyQ2QzUDBmajZsVUlQdW4wSDVYRlRvWmM3RUtRUksxZlVHXw?oc=5",
+              "published_kst": "2026-11-06T04:03+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 6.0,
-          "body": "SPECTRUM BUSINESS LAUNCHES A NEW SECURE NETWORKING OFFERING 3 min read \n\n CHTR \n Key Takeaways: \n Enterprises can turn to Spectrum Business for its new fully-managed Secure Networking solution to protect themselves from emerging AI-enabled security threats. Spectrum Business' offering is among the first of its kind in North America, featuring the latest Cisco 8000-Series Secure Router technology, world-class support enriched with Agentic Ops and a rich digital experience. STAMFORD, Conn., Nov. 4, 2026 /PRNewswire/ -- Today, Spectrum Business announced the launch of a new Managed Cisco Secure Networking offering. With Cisco's new 8000 Series Secure Routers and Talos Threat Intelligence Integrations, our Secure Networking solution gives enterprises the ability to scale network capacity, add advanced routing flexibility and strengthen security as network demands intensify in the AI age. \n S",
-          "body_source": "원문 본문 · www.tradingview.com",
-          "article_url": "https://www.tradingview.com/news/prnewswire:ed8a066628a0a:0-spectrum-business-launches-a-new-secure-networking-offering/"
+          "importance": 10.0,
+          "body": "Investing \n\n Cisco Falls 7% on Morgan Stanley Downgrade; Ciena Plunges 15%, Arista Networks Tumbles 10% \n\n Morgan Stanley just cooled on a stock that has beaten the market by a wide margin, and AI-heavy rivals are falling even harder. What does Cisco's own business mix reveal about why it bends while its peers break?\n\n By David Moadel \n\n Published November 5, 2026, 2:03pm ET · 4 min read \n\n Market Movers desk. Editor: David Moadel .\n\n 𝕏 \n f \n\n ⧉ \n\n This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them.\n\n A Wall Street downgrade and a broad retreat from AI infrastructure stocks are hitting the networking group at the same time. Cisco Systems ( NASDAQ:CSCO | CSCO Price Prediction ) stock recently traded at $96.13, down 7%. Morgan Stanley downgraded Cisco to Equal-weight from Overweight on November 5, ar",
+          "body_source": "원문 본문 · 247wallst.com",
+          "article_url": "https://247wallst.com/investing/2026/11/05/cisco-falls-7-on-morgan-stanley-downgrade-ciena-plunges-15-arista-networks-tumbles-10/"
         }
       ]
     },
     "버티브 홀딩스": {
       "ticker": "VRT",
       "market": "해외",
-      "candidates": 29,
+      "candidates": 27,
       "today_count": 12,
       "stories": [
         {
-          "title": "Pomerantz probes Vertiv over Q2 miss, joins Hagens Berman investigation",
-          "published_kst": "2026-11-05T04:21+09:00",
+          "title": "Vertiv's Order Book Is the Only Answer That Matters Now",
+          "published_kst": "2026-11-06T09:30+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "scanx.trade",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbkVOT2tQZ3hvdVhlVjhVV3pCcnZoclNOMzhVdVVUVG5oZm1aSnFUTC1OWFVqUzZqLU5YajdxOGpjUTlXZXVhanpLZ0dTYUdUbkpHLV9sWFhsRHRGVUh6NmVqVkFmcDdTVFRIeC1tUmZKLURRSDdMMFdyYUxNTGFEUDc3bU9DRDdENnB6dGVCMUlrQ2NuTkE3QmdKMTBjc2tyYkJmakMyT3BxamJ6WnpDRW9IbjljOTVja0R6ZA?oc=5",
-              "published_kst": "2026-11-05T04:21+09:00"
+              "publisher": "ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWhXTEFBeXo0cW1JblQtb25PTU4teENsT2JydUJLVmlSWW1aVU1IQzEzSXl6TmZIQThxa3ZCUl9iSXRBYk5jazRSNVN6TjlWVjd5UmlQYXpFT1ctUFI5dkJGNDJBa1lVS2VUS1JidFgtbWotcjlLLVBsUzl3dW5ZRkpKMWJKLWNYUTg5blJwYzdlemczb3JxSHJiRkZyS0U0elhHTzFkT1Q4YlRTMDRnX1F0N01SNE1IZERWbE1xaldiZGxGMGc?oc=5",
+              "published_kst": "2026-11-06T09:30+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 8.0,
-          "body": "ScanX News Pomerantz probes Vertiv over Q2 miss, joins Hagens Berman investigation \n Pomerantz probes Vertiv over Q2 miss, joins Hagens Berman investigation 2 min read | Published on 21 Aug 2026, 09:27 PM | Updated on 01 Sept 2026, 07:31 PM \n Reviewed by Anirudha B ScanX News Team \n\n Add as a preferred source on Google \n\n Key Highlights \n Pomerantz LLP joins Hagens Berman in investigating Vertiv Holdings Co (NYSE: VRT) for potential securities fraud. \n The probe follows a Q2 net sales miss of $3.27 billion against estimates of $3.38–$3.39 billion. \n Vertiv shares fell 17.26% to close at $223.04 on July 29, 2026, after disclosing execution challenges. \n Investigators are reviewing Q1 2026 statements where management raised guidance despite supply chain risks. \n\n powered by \n\n *this image is generated using AI for illustrative purposes only.\n\n Securities law firm Pomerantz LLP has launched",
-          "body_source": "원문 본문 · scanx.trade",
-          "article_url": "https://scanx.trade/stock-market-news/companies/hagens-berman-probes-vertiv-holdings-q2-revenue-miss-stock-drop/48873467"
+          "importance": 6.0,
+          "body": "Vertiv shares fell 14% today, caught in a broader selloff across AI and data-center names after Reuters reported that sweeping Democratic gains in the U.S. midterm elections have stirred fears of tighter scrutiny and possible delays to data-center construction. The drop is a repricing of political risk, not a verdict on the company's recent results — and the distinction is the whole investment case in miniature.\nWhat separates the two readings is the gap between a shifted expectation and a business that has already deteriorated. Reuters describes worries about a slower build-out of AI data centers. No concrete hit to Vertiv's orders follows from that. Nor does the share-price slide, on its own, prove anything about demand — just as uncritical faith in the latest quarterly figures would ignore the risk entirely.\nVertiv's third-quarter 2026 report, released October 29, supplies the hard re",
+          "body_source": "원문 본문 · www.ad-hoc-news.de",
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/vertiv-s-order-book-is-the-only-answer-that-matters-now/70466917"
         }
       ]
     },
@@ -423,24 +426,26 @@
       "ticker": "LMT",
       "market": "해외",
       "candidates": 30,
-      "today_count": 21,
+      "today_count": 12,
       "stories": [
         {
-          "title": "Lockheed Martin (LMT) Secures $122.45M Contract to Support Tride",
-          "published_kst": "2026-11-05T09:00+09:00",
+          "title": "Data Spotlight: Boeing Overtakes Lockheed Martin",
+          "published_kst": "2026-11-06T08:36+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbng4RWZJWkpFNFo5SFlaY1RhZFVJelg2ajM4d2R1eEtnOW9qZzIwVjhjQndRbHhiV3BWeDc4RGdDMUVPT0Q1OGJEb29qTGRDZ2g1SWtnMy10b3ZDR3ZWLW5aUjh5R2dhbDNoTGdKaDZNR28wSmJYekdGd1FKWGNIZVpwZ0o0TGJvMnZQOENoNHV2NjRhSTlpekM4WVhpODAzaFNrX25hTFhzSGRUTm9aejR4MW4zdU9lZWNMVEltRi1KMFE?oc=5",
-              "published_kst": "2026-11-05T09:00+09:00"
+              "publisher": "Aviation Week",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeGxLZlVwc2syMnpOaDcxTmhFTlE1QWFDUmJzekkyUUk0cmdadFNla1lTSGNoemUwTWxQem5iSDFlVnZ5WjdQaDZWcTA1SGp6REF4TU9wcUxLVVpkanZFdTNHMXVYeTRyTGxhNllMREpibWV5ZjllZEtTbWQ5cFZ2WTQ2NXcxejA1eUZCU0FHSzlET01pbVZsVXZnZWxFRXU1TWc?oc=5",
+              "published_kst": "2026-11-06T08:36+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "importance": 4.0,
+          "body": "Data Spotlight: Boeing Overtakes Lockheed Martin \n\n Share \n\n Graham Warwick \n November 06, 2026 \n\n Graham Warwick \n\n Graham leads Aviation Week's coverage of technology, focusing on engineering and technology across the aerospace industry, with a special focus on identifying technologies of strategic importance to aviation, aerospace and defense.\n\n Data Spotlight: Boeing Overtakes Lockheed Martin is part of our Aviation Week & Space Technology - Inside MRO and AWIN subscriptions.\n\n Subscribe now to read this content, plus receive full coverage of what's next in technology from the experts trusted by the commercial aircraft MRO community.\n\n Already a subscriber to AWST or an AWIN customer? Log in with your existing email and password. \n\n Subscribe Log in",
+          "body_source": "원문 본문 · aviationweek.com",
+          "article_url": "https://aviationweek.com/defense/aircraft-propulsion/data-spotlight-boeing-overtakes-lockheed-martin"
         }
       ]
     },
@@ -448,51 +453,51 @@
       "ticker": "MSFT",
       "market": "해외",
       "candidates": 30,
-      "today_count": 21,
+      "today_count": 11,
       "stories": [
         {
-          "title": "Alphabet, Amazon, and Microsoft All Surged Today. You Can Thank the Big Blue Wave.",
-          "published_kst": "2026-11-05T05:25+09:00",
+          "title": "IREN stock plunges 18% as Microsoft raises concerns over data center delays",
+          "published_kst": "2026-11-06T04:13+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3FPNjF0Qnk2dkx5Z1hfblotbmJudmtpaWF5Zk1vR2xmMHBQLUVMbUVNTC1nQUJfRDVacldTUDllT3lpOHRVSnJCSTB0eEZlV1AycktIdFFNMmF4UVJxa0Z6VExPcFBXUFhKZzNBeUZCMHd4UGhQcjZscVl5blJodFZqSDE4WU82Q3FXTmo2YTdWM0tta01ZREFSbmxBUzdDVVpqaXNLXzM1YmlUaWlLV2RNQXRaVW1GVkJtWjlB?oc=5",
-              "published_kst": "2026-11-05T05:25+09:00"
+              "publisher": "Investing.com",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeHNsRTk4ZXk1YUo5U2dKZ3dQd0U3eV9EY1BVUXVaOW5IbHludFZTVldSTjU5WndHLUk2dDloYjNEOWJPS2EtOGtlLW8tX3F0bEt2V1RwNHRzUExQUmxwaUlSSzlqSGhHeC1qQ0pkV0IwdDdBbE01NlZrS2ZtOFA1NjVJaTJPX2V3SFZiY1dWRWRQUlVtbXhra0k5Q3U0THM2Ti1vdkpfckNvT1ZDbDg4Rl9vR2RjNkVIR3ZyWUYtMnVMVy1xcTVZOGdRSQ?oc=5",
+              "published_kst": "2026-11-06T04:13+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 6.0,
-          "body": "With the 2026 election in the books, early signs Wednesday point to a positive day for investors, with the three major market indexes pushing higher. The price-weighted Dow Jones Industrial Average is up 3% (as of this writing), the broad-based S&P 500 has gained 1.7%, and the tech-heavy Nasdaq Composite is up 1.7%.\n\n Helping lead the major indexes higher are the \"Big Three\" cloud providers , Amazon ( AMZN +6.12% ) , Microsoft ( MSFT +6.68% ) , and Alphabet ( GOOGL +3.18% ) ( GOOG +3.25% ) , gaining 7.1%, 7%, and 4.1%, respectively, as I write this.\n\n Given the expected shift in the regulatory environment, it might seem counterintuitive that these tech titans would gain ground, but dig a little deeper, and it's easy to see why shareholders are optimistic.\n\n Image source: Getty Images.\n\n Democrats win control of Congress \n Democrats have won control of both the House and Senate, and some ",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/11/04/alphabet-amazon-and-microsoft-all-surged-today-you-can-thank-the-big-blue-wave/"
+          "importance": 8.0,
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
     "나이키 B": {
       "ticker": "NKE",
       "market": "해외",
-      "candidates": 18,
-      "today_count": 8,
+      "candidates": 20,
+      "today_count": 7,
       "stories": [
         {
-          "title": "Nike’s Dividend Yield Is Still Attractive, But I Can’t Say the Same About NKE Stock",
-          "published_kst": "2026-11-05T09:30+09:00",
+          "title": "NIKE (NYSE:NKE) Stock Falls 2.2% Following Analyst Downgrade",
+          "published_kst": "2026-11-06T07:03+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Barchart.com",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVDY3RUh6cV91VmwwS0tSSFpTQnNkV3RqZ2dYRmdPTUx0M29fV1NZZVNoV0E2djJ2Q2E4eUM4dGdqY0lFT2dsNU5sdFpoVUk4V3pTd0pyQUhYeXotaGZvNWdtelBucEQ1d2VXOGtYS1FzLTRBU25qM2Y3eFQxWEdmM2FpbzZ5Sy1LcG5WMHBhVHdUVEppcjljRkQzQkt5dU9ERzVMSmJ1bHRCcUJmandFV1VtUWs5QVUtS3BoQmhBVlZfZw?oc=5",
-              "published_kst": "2026-11-05T09:30+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVFFwSTlDa1JvSXJuTUN5RDRiaUQ2Ny1xaUxhNUVocng2M1FNdUhrbTk5WnRqSlA3cjV0R2R5LUhHS3M3bE80RkZxb3AxWElTMGw2ME1nVXFpbkhWaDFDNTFtRjB3S09tNnpza0hraWFnazBXUXE0bl84RVA0eG5EUmJBTlpmVTNWTDNXemlCcEJ2cW5QTmtSWGlJcTFRSGdSN2VmZWdIdXdULWZYTFpjNkFsRkZKeDA?oc=5",
+              "published_kst": "2026-11-06T07:03+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: ValueError"
+          "body": "NIKE (NYSE:NKE) Stock Falls 2.2% Following Analyst Downgrade \r\n\n Written by MarketBeat\n November 5, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n NIKE shares fell 2.2% after Truist Financial downgraded the stock from Hold to Sell and set a $29 price target; shares last traded at $39.59 on above-average volume. \n Analyst views remain mixed: MarketBeat reports a consensus rating of “Reduce” and an average price target of $40.93, with 12 Sell and 20 Hold ratings among 40 analysts. \n NIKE beat quarterly earnings expectations, but revenue declined 4.3% year over year; weakness in China and the company’s forecast for lower sales add uncertainty to its recovery. \n MarketBeat previews top five stocks to own in December . \n\n NIKE, Inc. ( NYSE:NKE - Get Free Report )'s stock price traded down 2.2% during trading on Thursday ",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/price-nike-nyse-nke-stock-falls-22-following-analyst-downgrade-2026-11-05/"
         }
       ]
     },
@@ -500,202 +505,63 @@
       "ticker": "NVO",
       "market": "해외",
       "candidates": 30,
-      "today_count": 13,
+      "today_count": 8,
       "stories": [
         {
-          "title": "Novo Nordisk Stock Jumped After Earnings — But Its CEO Won't Give 2027 Guidance. Here's What Investors Should Know",
-          "published_kst": "2026-11-05T06:01+09:00",
+          "title": "Novo Nordisk Bounces Back: Wegovy Pill Sales Surge as 2026 Outlook Gets Major Boost",
+          "published_kst": "2026-11-06T00:51+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVUprUHhHU2JYREdwRjdJZE9ZN05KN2s2QUkyWUcxV25FbTZtOEl0RXVFUDA2YlQ4SjZPMW5BMEVJck5VYmZzTFl5WkdiUHNRb2VPdzI4dTdmSmxuS0VGdlY0UWh4VXZ2OHhjRGlzcjk4ZXU2X1VqWXlGYTZWbVdpckdjX3E1RUdpV0hCNGdSOVpHMU1tN3VELTlfLS1yT0RUVXhyREhmWUpScHI1ZTZEQmtRYklIZFZKOGY2RUtBOUc0LUVPSC01b0dtM3MzTWJXWlk4dFNLZ29yTlJRTzJXcU43clBGSzVGV0E?oc=5",
-              "published_kst": "2026-11-05T06:01+09:00"
+              "publisher": "Medical Dialogues",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNU1dsdXktMXVEMXVvTzNPYU9faWx3bEdhLWZTbklOdWhXT3dFR0pyXzREdmxIT2Izb2t5aTFiazF5dHB2TG40b04tcDNhMG0zaDRRc2ZVUEc2bFFCbC1qbDUtdm1FRndaWDRqWE9HenhBaFROTVRpVXlQUkh5ZXZKT2lSTjkwUVYzWngwQzVCZ0lDWHZHRGpId0ZEWEkyTU5hdk1taUVXelJwYzhub0JJeUh6VS0xOFJEMEpRRUNWMmFtRVBGeEFpaG04XzBkX3poZzc0adIB2gFBVV95cUxNalVkbC03Q056YWM2aWYxVm1aTkM0YW9kQ29iUjZSaGF3WmFiNnpMTWQ3X3I2OVgzdjJ4NUhNb2pEdU9jSWlURUU5S3FvdzdFRXhJUkYzMmRGZ0hoY29tcnBoVDJ4aDI4SzMzOFpldjBjZWJoT0V0b3VsZFBwd0V5TEdmVU1VM0dTd0tGTGczN3NCYUlFRHZ3d0RFWWhDRDhHWlVzUVRVa2xyMEkyRFdtcDNXUExJOUp2ZTRNTnllM2otaGgtaHFBU091Z1hKU0xFSE9XVTRoRXdIUQ?oc=5",
+              "published_kst": "2026-11-06T00:51+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 8.0,
-          "body": "Novo Nordisk ( NVO +4.95% ) gave investors a lot of what they wanted on Wednesday. Third-quarter sales rose 4% at constant exchange rates to about $11.9 billion, ahead of Wall Street estimates closer to $11 billion. Sales of obesity drugs jumped 22%. And the company raised its full-year outlook again, now calling for sales growth of anywhere from a 2% decline to a 2% gain. In August, it was expecting a decline of up to 6%.\n The stock rose about 5% to more than $42 on Wednesday, but the question investors keep asking, according to one analyst, is about next year, and that's the one Novo wouldn't answer.\n\n Image source: Novo Nordisk.\n\n 'Do Your Own Math' When an analyst at BNP Paribas asked whether Novo could return to sales growth in 2027, Doustdar was direct. \"We're not going to guide,\" he said, \"but let me go out of my way and provide even more building blocks for next year so maybe you",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/11/04/novo-nordisk-stock-jumped-after-earnings-but-its-ceo-won-t-give-2027-guidance-here-s-what-investors-should-know/"
+          "body": "Novo Nordisk Bounces Back: Wegovy Pill Sales Surge as 2026 Outlook Gets Major Boost \n\n Written By : sheeba farhat Published On 2026-11-05T21:21:30+05:30 | Updated On 5 Nov 2026 9:21 PM IST \n\n Copenhagen : Obesity drugmaker Novo Nordisk raised its 2026 outlook for the third time this year on Wednesday as quarterly sales of its Wegovy pill beat forecasts, bolstering the Danish firm's efforts to recover ground lost to US rival Eli Lilly.\n Novo, which is clawing back into the obesity drug ‌race after sliding sales and shares in recent years, raised its full-year adjusted sales and operating profit forecast to between 2% growth and a 2% decline at constant exchange rates, up from flat to a 6% fall.\n\n It said the improvement in its third-quarter performance was driven by higher volumes, in particular in obesity drugs, in both the US and international markets. The outlook assumes sales growth i",
+          "body_source": "원문 본문 · medicaldialogues.in",
+          "article_url": "https://medicaldialogues.in/news/industry/pharma/novo-nordisk-bounces-back-wegovy-pill-sales-surge-as-2026-outlook-gets-major-boost-182791"
         }
       ]
     }
   },
   "alerts": {
-    "마벨 테크놀로지": {
-      "ticker": "MRVL",
-      "market": "해외",
-      "candidates": 30,
-      "today_count": 16,
+    "LS ELECTRIC": {
+      "ticker": "010120",
+      "market": "국내",
+      "candidates": 90,
+      "today_count": 3,
       "stories": [
         {
-          "title": "Marvell's Deal to Acquire Lumentum Could Be a Game Changer for the Stock",
-          "published_kst": "2026-11-05T02:15+09:00",
+          "title": "LS ELECTRIC 14%대 급락…전력기기주 프리마켓서 '뚝' [종목NOW]",
+          "published_kst": "2026-11-06T08:34+09:00",
           "relevance": "direct",
           "sources": {
+            "네이버 금융": {
+              "publisher": "파이낸셜뉴스",
+              "url": "https://n.news.naver.com/mnews/article/014/0005600345",
+              "published_kst": "2026-11-06T08:34+09:00"
+            },
             "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTXo1cHFZRThFR2g4bk5qWjF0V1VYWGFwTnBYRER0ZU5QNFdDYVBEdUVGdzNxUkN0MTVIS1hhSUdmd3JyWHJsLUgxNi1tb0o2aWIzX1dJenlVY042TjdKYkNpNWN3bDQ0LXMtLVQ2SXFWZFpBN1ZuZ29IWnBwVGhENlFyaFVHQkp5Q2FnU1NlMjlYalB5eXY4?oc=5",
-              "published_kst": "2026-11-05T02:15+09:00"
+              "publisher": "파이낸셜뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKajhrRmFQRGlOMllEeERYV2k3Ynk3VmRhdXRkajRwR0RRSTlvZUdiVFFfcVQxSS10Q1IzbzNTam9jbEdPaTZiZWxJYlptSUREZXlkcUhWa2hVUQ?oc=5",
+              "published_kst": "2026-11-06T08:34+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body": "Marvell Technology ( MRVL -7.08% ) has been a big winner this year, with the stock up more than 130% in 2026, as of the end of October. However, an announced deal to acquire Lumentum ( LITE -7.85% ) could be a game changer for what has already been a good story.\n\n This deal is all about optical networking, as it will combine Marvell's leadership in optical interconnects with Lumentum's strength in lasers. Marvell called the deal a \"once-in-a-generation opportunity to define and lead AI connectivity in the era of integrated optics,\" as it will provide the company with end-to-end design capabilities that will allow it to accelerate its time to market and solve the increasing complexity of scale-up and scale-out networks. \n\n Let's see what this could all mean for investors.\n\n MRVL - Marvell Technology $159.80 -$12.17 (-7.08%) \n NASDAQ · As of 4:00 PM ET 11/04/26\n\n Premium Feature Moneyball ",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/investing/2026/11/04/marvells-deal-to-acquire-lumentum-could-be-a-game/"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 11.5,
+          "body": "효성중공업 12%·HD현대일렉트릭 11%대 하락\n간밤 美 전력 인프라주 동반 약세 여파 \n\n LS일렉트릭 부산 초고압 변압기 사업장 전경. LS일렉트릭 제공. \n[파이낸셜뉴스] 국내 주요 전력기기주가 넥스트레이드(NXT) 프리마켓에서 두 자릿수대 급락세를 보이고 있다. \n\n6일 오전 8시 28분 현재 LS ELECTRIC은 전 거래일 종가보다 1만8700원(14.41%) 내린 11만1100원에 거래되고 있다. 장중 10만7000원까지 밀렸다가 낙폭을 일부 만회했다. \n\n효성중공업은 21만7000원(12.12%) 하락한 157만4000원을 기록하고 있다. 장중 저가는 144만원이다. HD현대일렉트릭도 4만6000원(11.46%) 내린 35만5500원에 거래 중이다. 장중 한때 34만2500원까지 하락했다. \n\n간밤 뉴욕증시에서 전력 인프라 관련주가 동반 급락한 영향으로 풀이된다. GE버노바는 7%대, 미국 발전업체 비스트라는 6%대 하락했다. 인공지능(AI) 데이터센터 투자 확대에 대한 기대가 주가에 상당 부분 반영됐다는 인식 속에 전력 비용 부담과 관련 규제 가능성이 투자심리를 압박했다. \n\n국내 전력기기주는 전날 정규장에서도 큰 폭으로 하락한 데 이어 프리마켓에서 낙폭을 확대하고 있다. 최근 단기간 주가가 가파르게 오른 상황에서 미국 관련주의 약세가 차익 실현을 자극한 것으로 분석된다.",
+          "body_source": "네이버 뉴스 본문"
         }
       ],
       "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.046 · RSI 26.8 · 전일 대비 -7.08%"
-    },
-    "인텔": {
-      "ticker": "INTC",
-      "market": "해외",
-      "candidates": 30,
-      "today_count": 24,
-      "stories": [
-        {
-          "title": "Intel Drops 5%, NVIDIA Retreats 2% After AMD Earnings Beat and Strong 2027 Outlook as Intel Falls 3%; AMD Stock Goes Nowhere",
-          "published_kst": "2026-11-05T01:02+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "24/7 Wall St.",
-              "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVnlhSjhhcGtkM1VvZ1BqMEVhR0d0QWNlaXNfYXNBS3ItR3dIX0k5SS1mQjlqUFBTM0tqa1F6SExNWndUeC1VSzZDNmtwYjVzb0piU3c4MFdlQ0MwdUZBVHVRbTZaT0QwX3llODFMc1A0M1pyLXNJRkJ5MkZRXzJCWUJYUG1RSm9ySVZfb2lhRGtzQVV5ZHBHWk1MQlJRcHZkaGJjNnNEZWpWUDZsbkxJSVZpUWw3Z3FrUEF0cG9hclZwdE1YTHYtNlFndW5pNWRiajlJUTVIcXNNeU93NWJPSWZFSTdUblp4cXVfRUpZM2FIZXV3T3c?oc=5",
-              "published_kst": "2026-11-05T01:02+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body": "Investing \n\n Intel Drops 5%, NVIDIA Retreats 2% After AMD Earnings Beat and Strong 2027 Outlook as Intel Falls 3%; AMD Stock Goes Nowhere \n\n AMD just delivered a blowout quarter with data center sales nearly doubling, yet its stock refuses to move while rivals Intel and NVIDIA take the punishment instead. Here is why a record report is producing one of the strangest reactions…\n\n By David Moadel \n\n Published November 4, 2026, 11:02am ET · 3 min read \n\n Market Movers desk. Editor: David Moadel .\n\n 𝕏 \n f \n\n ⧉ \n\n This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them.\n\n A record quarter at Advanced Micro Devices ( NASDAQ:AMD | AMD Price Prediction ) isn’t enough to push AMD shares in either direction today. AMD stock is basically unchanged at $483.34 in morning trading. Meanwhile, shares of rival Intel ( N",
-          "body_source": "원문 본문 · 247wallst.com",
-          "article_url": "https://247wallst.com/investing/2026/11/04/intel-drops-5-nvidia-retreats-2-after-amd-earnings-beat-and-strong-2027-outlook-as-intel-falls-3-amd-stock-goes-nowhere/"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.011 · RSI 22.8 · 전일 대비 -3.77%"
-    },
-    "브리저 에어로스페이스": {
-      "ticker": "BAER",
-      "market": "해외",
-      "candidates": 2,
-      "today_count": 1,
-      "stories": [
-        {
-          "title": "Airborne-Innovation 11.03.26: Apeiron, Signal Repeater Drones, ERAU-NASA Effort",
-          "published_kst": "2026-11-05T04:58+09:00",
-          "relevance": "tagged",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Aero-News Network",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRldLdzZweEVMUXRvVnRxRVRNRkJ2VU1EVWVWZEtNOXlpdnlHVmNWOVd6dDZBSHZHY0hrZkpxY1ljUTJBdmMzRWY0eWoyOEQ4Z2t0U3dxZFpwb01NWGgzbkRuUlFyNGx3MUZsb1c2cHhfT0JLbWlxY2FWa3BSVEVaaFhObWRDSW1uV1RjQ2YyLUYwd2VnZGQ4?oc=5",
-              "published_kst": "2026-11-05T04:58+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 0.0,
-          "body": "Virgin Galactic has announced the name of its lead Delta spaceship: Apeiron.\nThe name was chosen by a public vote that drew thousands of responses from around the world — including 83 countries and six continents — giving the global space community a direct role in shaping the identity of the company’s lead Spaceship. It is drawn from the ancient Greek concept of “the boundless.” Ukraine has created drones that act as flying relay towers, allowing its drones conducting missions to fly farther while making them harder for Russia to jam. In a war where drones gather intel and account for more than 95% of Russia's front-line losses, Ukraine wants its operators to keep control of their drones over longer distances with stronger signals that are harder for Russia to break. One solution is the signal repeater drone, a flying signal booster that operates between a pilot and a mission drone, rel",
-          "body_source": "원문 본문 · www.aero-news.net",
-          "article_url": "https://www.aero-news.net/index.cfm?do=main.textpost&id=E25AC3A3-DF34-4804-87D5-EAE155A6769A"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.070 · RSI 17.3 · 전일 대비 -9.11%"
-    },
-    "온다스 홀딩스": {
-      "ticker": "ONDS",
-      "market": "해외",
-      "candidates": 13,
-      "today_count": 6,
-      "stories": [
-        {
-          "title": "UADamage raises investment from Ondas Capital and Pravo Ventures",
-          "published_kst": "2026-11-05T05:42+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Mezha.net",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUbWJGRVk2S041R0JocVplSk93SndibXY4c05hZlVIa2gzSkhJS1NWRlJvV0FZajlrelliTEk1TmdhMVBhQl9GU3FNck1ZZEZPQ3djRnFBbmJKdUVxeDdHNmlNZzBVMHlFT1E?oc=5",
-              "published_kst": "2026-11-05T05:42+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "UADamage raises investment from Ondas Capital and Pravo Ventures \n\n Wednesday, 4 November 2026, 22:36 \n\n The company is preparing to develop the technology and deploy it for demining operators outside Ukraine. The size of the investment round has not been disclosed. \n\n Ukrainian technology company UADamage has announced that it has raised investment from Ondas Capital and Pravo Ventures. The funding is expected to accelerate the development of its artificial intelligence-based technology for detecting explosive threats and create opportunities for international deployment of these solutions by defense and humanitarian demining operators.\n\n This is reported by Інтерфакс-Україна .\n\n UADamage founder and CEO Vitalii Lopushansky told Interfax-Ukraine: “At this time, we are not disclosing the size of the round.”\n\n Mezha in YouTube Subscribe \n\n Add Mezha as a preferred source on Google",
-          "body_source": "원문 본문 · mezha.net",
-          "article_url": "https://mezha.net/eng/news/mezha-7277615e504a564f1036c7c6/"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.111 · RSI 30.4 · 전일 대비 -8.98%"
-    },
-    "팔란티어": {
-      "ticker": "PLTR",
-      "market": "해외",
-      "candidates": 30,
-      "today_count": 18,
-      "stories": [
-        {
-          "title": "Barclays maintains Palantir Technologies at Overweight, raises price target to $273 from $265",
-          "published_kst": "2026-11-05T03:41+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "TradingView",
-              "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVThMVVNHbnhaeU9yQ3hjVkZrQk1fYWwxSmFVNWpaYU10V0t4RXZsRGxfMExJWUItUnlNNTV0Umg4dzVuUXZ5U2M0U0hWZkZKMmdXakJLT19UNllVcEtXZnlCQ3FNbnVrTmdwRktUQzVwM3BsbEUtaTVJV1pLT3NuVkRQS1I0TnV2bTVCYXVocWJpMmFFbVphVWdNX0s2N1phWHJTUzhGSm1sNVI1LXNqd2hZcG9mZXg0dGxPYU9ja2JyMy1wcC1xWmtETWlDLTd6REJMenprMVJjaEFRUmtCU1dPRkR1VWc?oc=5",
-              "published_kst": "2026-11-05T03:41+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body": "Barclays maintains Palantir Technologies at Overweight, raises price target to $273 from $265 Less than 1 min read \n\n PLTR \n Barclays maintained Palantir Technologies at Overweight and raised its price target to $273 from $265, a 3.0% increase. \n The price target implies an upside of 55.6% from the Nov 3 close of $175.40. \n Recent analyst actions on Palantir Technologies \n Date Firm Action Rating Price target Nov 3 Citigroup Maintains Buy $265 Nov 3 Truist Securities Reiterates Buy $250 Nov 3 DA Davidson Maintains Buy $250 Nov 3 RBC Capital Maintains Underperform $130 Nov 3 Rosenblatt Maintains Buy $260 \n Across the five most recent analyst notes published on Palantir Technologies over the past 30 days, price targets range from $130 to $265. \n Explore more price target data and ratings for Palantir Technologies on the Forecasts tab , and track all previous and future analyst recommendati",
-          "body_source": "원문 본문 · www.tradingview.com",
-          "article_url": "https://www.tradingview.com/news/tradingview:8c1dfaa7328b5:0-barclays-maintains-palantir-technologies-at-overweight-raises-price-target-to-273-from-265/"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.055 · RSI 33.5 · 전일 대비 -2.11%"
-    },
-    "옥시덴탈 페트롤리엄": {
-      "ticker": "OXY",
-      "market": "해외",
-      "candidates": 10,
-      "today_count": 7,
-      "stories": [
-        {
-          "title": "Occidental Petroleum Options Spot-On: On November 4th, 128.67K Contracts Were Traded, With 759.57K Open Interest",
-          "published_kst": "2026-11-05T07:13+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Moomoo",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb3FDTl9mQTAzVXBWVm0tU2xSNzRFM2s3aXFBY2k3OG51ZHFNT0ZSZHBUTHRnazNTNlVhR0VOZDZQUkxUcW5LZ3ZqX1NueWplUE9UTUh5cEVGNUl6enRTamlSSnhSX0dXRmNMdm45Yk94UlM3ODdRVGQ2TTVjMlZkdXktNThoTHhUTmdBQjRHVU0zcjZRU08yRlV3dGhDSHlOMUFORFhONA?oc=5",
-              "published_kst": "2026-11-05T07:13+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: ValueError"
-        }
-      ],
-      "alert": "볼린저 하단 이탈",
-      "alert_detail": "%B -0.202 · RSI 35.9 · 전일 대비 -5.13%"
+      "alert_detail": "%B -0.054 · RSI 33.1 · 전일 대비 -15.36%"
     }
   }
 }
