@@ -1,17 +1,185 @@
 {
-  "generated_at": "2026-11-06T10:02:40+09:00",
+  "generated_at": "2026-11-07T09:12:50+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 5389,
-    "output_tokens": 2506
+    "input_tokens": 8335,
+    "output_tokens": 4225
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 12,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "국방비증액기조유럽넘어중남미동남아확산k방산신규수주": {
+      "title": "국방비 증액 기조, 유럽 넘어 중남미·동남아 확산…K-방산 신규 수주...",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "칠레와 페루 등 중남미 및 동남아 국가들이 지정학적 긴장 속에 내년도 국방비 예산을 대폭 확대하는 기조를 보이고 있다. 이는 글로벌 방산 시장의 신규 수주 기대감을 높이고 있으나, 본문 기사는 HD현대중공업을 직접적으로 언급하지 않고 국내 방산 전반의 분위기를 다루고 있다.",
+      "impact": "글로벌 국방비 증가는 조선 및 방산 관련 기업들의 수주 환경에 간접적인 긍정적 요인이 될 수 있으나, HD현대중공업에 대한 구체적인 수주 성과나 영향 경로는 기사에 명시되지 않았다.",
+      "caution": "보유 종목인 HD현대중공업이 직접 언급되지 않았고 방산 산업 전반의 동향만 다루고 있으므로 중립으로 분류했다."
+    },
+    "dellsinks16inaweekonintelspcwarningitscfoalreadysawminusdoubledigit": {
+      "title": "Dell Sinks 16% in a Week on Intel’s PC Warning. Its CFO Already Saw “Minus Double Digit”",
+      "holding": "델",
+      "stance": "악재",
+      "summary": "델(Dell) 주가가 인텔의 PC 수요 경고 여파로 일주일간 약 16% 하락하여 467달러에서 393달러로 떨어졌다. 인텔은 메모리 가격 상승과 공급망 제약으로 인해 2026년과 2027년에 PC 출하량이 각각 약 12%, 10% 감소할 것이라고 경고했다.",
+      "impact": "인텔의 PC 수요 부진 경고와 메모리 가격 상승은 PC 사업 비중이 있는 델의 실적 및 주가에 직접적인 하방 압력으로 작용한다.",
+      "caution": ""
+    },
+    "conferenciaderesultadosdel3tde2026defirstsolarfslrmargendel58recomprade500m": {
+      "title": "Conferencia de resultados del 3T de 2026 de First Solar (FSLR): margen del 58%, recompra de $500M",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라는 2026년 3분기 순 매출이 전년 동기 대비 23% 감소한 12억 달러를 기록했으나, 총이익률은 58%로 상승하고 순이익은 25% 증가한 5억 7100만 달러를 기록했다. 인도와 미국 내 수요 감소로 인해 2026년 연간 매출 및 EBITDA 전망치는 하향 조정되었으며, 5억 달러 규모의 자사주 매입이 승인되었다.",
+      "impact": "수익성 개선과 자사주 매입은 긍정적이나 연간 가이던스 하향 및 수요 부진이 혼재되어 있어 주가에 미치는 영향은 상쇄된다.",
+      "caution": ""
+    },
+    "constellationenergyearningsaheadwhatpastreactionssayaboutthestock": {
+      "title": "Constellation Energy Earnings Ahead: What Past Reactions Say About The Stock",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지는 2026년 11월 9일에 실적 발표를 앞두고 있으며, 시가총액은 약 863억 달러 규모이다. 지난 12개월 동안 313억 달러의 매출과 45억 달러의 영업이익, 35억 달러의 순이익을 기록했다.",
+      "impact": "실적 발표를 앞둔 시점의 일반적인 정보 제공 기사로, 향후 발표될 실적과 가이던스가 예상치를 어떻게 상회하거나 하회하는지에 따라 주가 방향성이 결정된다.",
+      "caution": "실적 발표 전의 프리뷰 기사이므로 현재 시점에서는 뚜렷한 호재나 악재로 판단하기 어렵다."
+    },
+    "vistrastocksjump769afterearningssurgeandfresh15billionbuyback": {
+      "title": "Vistra Stocks Jump 7.69% After Earnings Surge and Fresh $1.5 Billion Buyback",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "비스트라 에너지는 3분기 조정 EBITDA가 23억 8000만 달러로 전년 동기 15억 8000만 달러에서 급증했고 순이익은 11억 4000만 달러를 기록했다. 호실적 발표와 함께 15억 달러 규모의 자사주 매입 추가 및 2027년 가이던스를 제시하면서 주가가 7.69% 급등했다.",
+      "impact": "실적 서프라이즈와 대규모 자사주 매입은 주주 가치 제고로 이어져 보유 종목의 주가 상승을 직접적으로 견인한다.",
+      "caution": ""
+    },
+    "eosenergyrevenuejumps171ascompanyholds2026outlook": {
+      "title": "Eos Energy Revenue Jumps 171% as Company Holds 2026 Outlook",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "이오스 에너지는 2026년 3분기 매출이 8270만 달러로 전년 동기 대비 171% 증가했으며, 주주 귀속 순이익은 125만 달러를 기록했다. 생산 통합 작업으로 인해 4분기 역량이 제한될 것으로 예상되어 연간 매출 전망치는 기존 범위의 하단으로 유지했다.",
+      "impact": "매출의 급격한 성장과 흑자 전환은 긍정적이나, 4분기 생산 제약으로 인해 연간 가이던스 하단 예상이라는 단서가 붙어 호재의 강도가 일부 상쇄된다.",
+      "caution": ""
+    },
+    "almontyindustriesnasdaqcmalmstocklooksreasonableevenafteraverylargerun": {
+      "title": "Almonty Industries (NasdaqCM:ALM) Stock Looks Reasonable Even After A Very Large Run",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 인더스트리는 지난 3년간 1268.5%라는 매우 큰 주가 상승을 기록한 가운데, 현재의 밸류에이션이 견고한 이익 기반을 뒷받침할 수 있는지에 대한 분석이 제기되었다. 텅스텐 중심의 사업 운영을 통한 지속적인 이익과 현금 흐름 창출 능력이 향후 투자 심리에 영향을 미칠 것으로 전망된다.",
+      "impact": "단순히 과거 주가 상승 폭과 현재 밸류에이션의 적정성을 다룬 분석 기사로, 기업의 직접적인 실적 발표나 새로운 수주 뉴스가 아니어서 주가에 미치는 영향은 중립적이다.",
+      "caution": "새로운 재무 실적이나 사건 발생 없이 기존 주가 변동에 대한 평가만 다루고 있다."
+    },
+    "alphabetacquires548mstakeinqualcomm": {
+      "title": "Alphabet acquires $548M stake in Qualcomm",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳의 모회사 알파벳은 미국 SEC에 제출한 서류를 통해 3분기 동안 퀄컴 주식 약 300만 주, 총 5억 4800만 달러 규모를 매입했다고 밝혔다. 퀄컴은 인공지능 인프라 부문 진출을 위해 데이터 센터 사업을 강화하고 있다.",
+      "impact": "알파벳이 퀄컴의 지분을 취득한 내용으로, 퀄컴의 사업 확장에는 긍정적일 수 있으나 알파벳 자체의 핵심 재무 실적이나 사업 변화와는 거리가 멀어 알파벳 주가에 미치는 영향은 제한적이다.",
+      "caution": "보유 종목인 알파벳이 투자자로서 타사(퀄컴) 지분을 매입한 건이므로 알파벳 주가 자체에 대한 직접적인 호재나 악재로 보기 어렵다."
+    },
+    "morganstanleycutsciscotoequalweightaheadofnov12earnings": {
+      "title": "Morgan Stanley Cuts Cisco to Equal-Weight Ahead of Nov. 12 Earnings",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 악재",
+      "summary": "모건 스탠리는 11월 12일 실적 발표를 앞두고 네트워킹 기업인 시스코에 대한 우려를 표명하며 투자의견을 기존 오버웨이트에서 이퀄웨이트로 하향 조정했다. 이 소식의 영향으로 11월 5일 프리마켓 거래에서 시스코 주가는 2.9% 하락했다.",
+      "impact": "투자의견 하향 조정과 실적 발표를 앞둔 우려가 투자 심리에 부정적으로 작용하여 단기적인 주가 하락 압력으로 이어진다.",
+      "caution": ""
+    },
+    "pomerantzprobesvertivoverq2missjoinshagensbermaninvestigation": {
+      "title": "Pomerantz probes Vertiv over Q2 miss, joins Hagens Berman investigation",
+      "holding": "버티브 홀딩스",
+      "stance": "악재",
+      "summary": "로펌 포메란츠 LLP는 헤이그 베르만과 함께 버티브 홀딩스에 대한 증권 사기 가능성 조사를 시작했다. 이는 2분기 순매출이 32억 7000만 달러로 예상치인 33억 8000만~33억 9000만 달러에 미치지 못한 것과 경영진의 공급망 리스크 관리 문제에서 비롯되었다.",
+      "impact": "실적 부진과 증권 사기 관련 법적 조사는 기업 신뢰도에 치명적인 타격을 주어 주가에 강한 하방 압력으로 작용한다.",
+      "caution": ""
+    },
+    "islockheedmartinstockarealbargain": {
+      "title": "Is Lockheed Martin Stock A Real Bargain?",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "록히드마틴의 주식은 S&P 500 중간값 대비 할인된 20.4배의 주가수익비율(P/E)에 거래되고 있으며, 최근 4분기 동안 매출이 7.9% 증가했다. 다만 이러한 할인 가격이 매력적인 기회일지 아니면 마진 감소에 따른 적정가일지는 기록적인 주문 잔고가 빠른 매출로 이어지는지에 달려 있다.",
+      "impact": "매출 성장세와 S&P 500 대비 밸류에이션 매력이 부각되어 장기 투자 관점에서 긍정적인 관심을 받을 수 있다.",
+      "caution": "마진 유지 여부와 주문 잔고의 실제 매출 실현을 지켜봐야 한다."
+    },
+    "nikenysenkesharesdown24followinganalystdowngrade": {
+      "title": "NIKE (NYSE:NKE) Shares Down 2.4% Following Analyst Downgrade",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키는 로열뱅크오브캐나다가 목표주가를 40달러에서 39달러로 내리고 '섹터 퍼폼' 등급을 유지한 후 주가가 2.4% 하락했다. 분기 주당순이익(EPS)은 0.48달러로 예상치(0.43달러)를 상회했으나, 매출은 112억 1000만 달러로 전년 동기 대비 4.3% 감소했다.",
+      "impact": "매출 감소 및 애널리스트들의 목표주가 하향 조정이 단기 주가 하락과 투자 심리 위축을 유발한다.",
+      "caution": ""
+    },
+    "novonordiskliftsguidanceaswegovypilloutpacesinjectionsandanalystscantagreeonwhat": {
+      "title": "Novo Nordisk Lifts Guidance as Wegovy Pill Outpaces Injections — and Analysts Can't Agree on What",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보노디스크는 GLP-1 제품의 기대치 상승에 힘입어 2026년 전체 가이던스를 기존 -6%~0%에서 -2%~+2%로 상향 조정했다. 2026년 3분기 순매출은 791억 9500만 DKK로 4% 증가했고, 조정 영업이익은 317억 2000만 DKK로 고정 환율 기준 27% 증가했다.",
+      "impact": "실적 개선과 가이던스 상향 조정은 회사의 핵심 사업 성장성을 증명하며 주가에 강력한 호재로 작용한다.",
+      "caution": "애널리스트들 사이에서 향후 전망에 대한 의견이 엇갈리고 있다."
+    },
+    "speedupimagegenerationwithflux3imagekleinonnvidiablackwellgpusnvidiatechnicalblog": {
+      "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs | NVIDIA Technical Blog",
+      "holding": "엔비디아",
+      "stance": "호재",
+      "summary": "블랙 포레스트 라브(BFL)의 이미지 편집 및 생성 모델인 FLUX 3 이미지 클라인이 엔비디아 GB200 NVL72에서 학습되고 엔비디아 GPU에 최적화되었다. 엔비디아 B200 GPU 단일 테스트에서 텐서RT LLM 비주얼젠을 활용한 최적화 성능이 입증되었다.",
+      "impact": "엔비디아의 고성능 GPU(Blackwell 및 B200 등)와 AI 모델 간의 생태계 확장 및 기술 적용은 하드웨어 수요 증가로 이어져 기업에 긍정적이다.",
+      "caution": ""
+    },
+    "circleinternetgroupcrclcuts5ofitsworkforce": {
+      "title": "Circle Internet Group (CRCL) Cuts 5% Of Its Workforce",
+      "holding": "서클 인터넷 그룹",
+      "stance": "약한 악재",
+      "summary": "서클 인터넷 그룹은 운영 구조 조정의 일환으로 전체 인력의 5%를 감축한다고 발표했다. 또한 ARC 토큰의 대규모 사모 판매와 싱가포르 기반 타자페이(Tazapay) 인수 계약을 함께 진행했다.",
+      "impact": "구조조정 및 대규모 인력 감축은 단기적으로 비용 절감 효과가 있더라도 조직 내 불안 요소와 구조적 변화에 대한 우려를 낳을 수 있다.",
+      "caution": "토큰 판매와 인수 합병이 장기적으로 미치는 복합적인 영향을 함께 고려해야 한다."
+    },
+    "blackstoneholdersnolongerexceedanownershipthresholdatbridgeraerospacebaeroneholds249mshares": {
+      "title": "Blackstone holders no longer exceed an ownership threshold at Bridger Aerospace (BAER); one holds 2.49M shares.",
+      "holding": "브리저 에어로스페이스",
+      "stance": "중립",
+      "summary": "블랙스톤 관련 보고자들은 2026년 9월 30일 기준으로 브리저 에어로스페이스의 보통주를 5% 초과하여 실질적으로 보유하고 있지 않다고 SEC에 수정 소유 보고서(SCHEDULE 13G/A)를 제출했다.",
+      "impact": "주요 주주의 지분 변동 공시는 단순 지분율 변화에 해당하며 회사의 본업이나 실적에 직접적인 변화를 주지 않는다.",
+      "caution": "단순 지분 변동 공시로 향후 수급에 미치는 영향 외에 기업 펀더멘털과 직접적인 연관성은 낮다."
+    },
+    "westerndigitalstockdropsasmarginoutlookmeetstradingpressure": {
+      "title": "Western Digital stock drops as margin outlook meets trading pressure",
+      "holding": "웨스턴 디지털",
+      "stance": "중립",
+      "summary": "2026년 11월 6일 기준 웨스턴 디지털의 주가는 전일 대비 9.92% 하락했으나, 2027 회계연도 2분기 비GAAP 총이익률 목표는 60~61%로 전분기(58.1%) 대비 개선될 것으로 전망됐다. 또한 테라바이트당 평균 판매가격이 전년 동기 대비 28% 상승하며 운영 기반은 견조한 상태를 보였다.",
+      "impact": "단기적인 주가 하락과 거래 압박이 나타났으나, 펀더멘털 지표인 총이익률 전망과 판매가격 상승세는 긍정적이어서 주가에 미치는 영향이 혼재되어 있다.",
+      "caution": "주가 급락과 마진 전망 개선이라는 상반된 신호가 공존하여 단방향의 주가 방향성을 예단하기 어렵다."
+    },
+    "hd현대일렉효성중ls일렉빅스포서혁신조명차세대기술총출동": {
+      "title": "HD현대일렉·효성중·LS일렉, 빅스포서 혁신 조명…차세대 기술 총출동",
+      "holding": "효성중공업",
+      "stance": "호재",
+      "summary": "효성중공업은 'BIXPO 2026'에서 서해안 HVDC 구축 사업과 연계한 전압형 HVDC 기술을 공개했다. 지난 9월 한국전력의 대용량 전압형 HVDC 국산화 및 실증사업에 선정된 데 이어, 2GW급 HVDC 시스템 설계 핵심 알고리즘 개발을 완료하고 525kV급 컨버터 밸브 개발을 추진 중이다.",
+      "impact": "국내 최대 전력 전시회에서 차세대 전력망 기술력을 입증하고 국산화 실증사업 성과를 강조함에 따라 향후 전력기기 수주 및 시장 지위 강화에 긍정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "데이터센터투자에제동걸리나ai공급망도촉각": {
+      "title": "美 데이터센터 투자에 제동 걸리나…韓 AI 공급망도 촉각",
+      "holding": "LS ELECTRIC",
+      "stance": "약한 악재",
+      "summary": "미국 중간선거에서 민주당이 상·하원을 다수당으로 확보하면서 AI 데이터센터 건설 규제 강화 우려가 부상했다. 이로 인해 2028년 미국 데이터센터 예상 증설 용량의 약 30%가 건설 중단 위험에 노출될 수 있다는 분석이 제기되며 관련 전력기기주가 약세를 보였다.",
+      "impact": "미국 빅테크의 데이터센터 증설이 지연될 경우 LS ELECTRIC의 변압기 및 배전반 등 전력기기 수주와 납품 일정에 부정적인 영향을 미칠 수 있다.",
+      "caution": "규제 강화 가능성에 따른 투자 심리 위축일 뿐, 실제 건설 일정 지연 여부와 구체적인 수주 영향은 향후 추이를 지켜봐야 한다."
+    },
+    "원자로실물제작나선두산에너빌리티뉴스케일은대형계약전숨고르기": {
+      "title": "원자로 실물 제작 나선 두산에너빌리티…뉴스케일은 대형 계약 전 숨고르기",
+      "holding": "두산에너빌리티",
+      "stance": "약한 호재",
+      "summary": "뉴스케일 파워의 2026년 3분기 매출은 루마니아 설계 완료 기저효과 등으로 28만 달러를 기록했으나 증권가 예상치에 부합했다. 이 가운데 두산에너빌리티는 뉴스케일의 차기 프로젝트인 테네시강유역개발청(TVA) 등과의 본계약에 대비해 핵심 원자로 모듈 선행 제작에 950억 원을 투입하며 실물 제작을 본격화했다.",
+      "impact": "파트너사인 뉴스케일의 일시적인 외형 감소에도 불구하고 두산에너빌리티가 핵심 원자로 모듈 제작에 착수함에 따라 향후 현지 본계약 성사에 연동된 후속 매출 가시성이 높아진다.",
+      "caution": "현지 프로젝트의 최종 본계약 체결 및 전력구매협상이 지연될 경우 후속 공급 일정에 차질이 생길 수 있다."
+    },
+    "블루웨이브에파랗게질린ai주신재생에너지는날았다김근희의증": {
+      "title": "블루웨이브에 파랗게 질린 AI주…신재생에너지는 날았다[김근희의 증...",
+      "holding": "이수페타시스",
+      "stance": "약한 악재",
+      "summary": "11월 첫째 주 미국 중간선거에서 민주당이 승리하는 '블루 웨이브' 여파로 AI 데이터센터 건설 지연 우려가 커지면서 관련 AI주가 일제히 급락했다. 기판주와 반도체 소부장주가 하락률 상위에 오른 가운데 이수페타시스도 주가가 26.25% 하락했다.",
+      "impact": "미국 정치 지형 변화에 따른 AI 인프라 투자 심리 악화로 인해 이수페타시스의 주가가 큰 폭으로 하락하는 등 단기 조정을 받았다.",
+      "caution": "실제 데이터센터 투자 축소로 이어질지 여부는 향후 정책 집행 과정을 확인해야 한다."
+    },
     "속보반도체주추락삼성전자9sk하이닉스11대급락": {
       "title": "[속보] 반도체주 추락…삼성전자 9%·SK하이닉스 11%대 급락",
       "holding": "SK하이닉스",
@@ -195,14 +363,6 @@
       "summary": "스펙트럼 비즈니스는 AI 시대 보안 위협에 대응하기 위해 최신 시스코 8000시리즈 스큐어 라우터 기술을 적용한 관리형 보안 네트워킹 솔루션을 북미 최초로 출시했다. 기업들은 시스코의 털로스 위협 인텔리전스 통합 등이 포함된 해당 솔루션을 통해 네트워크 확장성과 보안을 강화할 수 있게 됐다.",
       "impact": "시스코 시스템즈의 최신 네트워킹 및 라우터 기술이 대형 통신사업자의 신규 서비스에 채택됨으로써 제품 수요 증가와 브랜드 신뢰도 상승으로 이어진다.",
       "caution": "파트너사인 스펙트럼 비즈니스의 신규 상품 출시를 통한 간접 수혜이므로 시스코의 전사 실적에 미치는 영향은 제한적일 수 있다."
-    },
-    "pomerantzprobesvertivoverq2missjoinshagensbermaninvestigation": {
-      "title": "Pomerantz probes Vertiv over Q2 miss, joins Hagens Berman investigation",
-      "holding": "버티브 홀딩스",
-      "stance": "악재",
-      "summary": "법무법인 Pomerantz LLP는 Hagens Berman과 함께 2분기 순매출이 예상치인 32억 7천만 달러에 못 미쳐 7월 29일 주가가 17.26% 하락한 버티브 홀딩스에 대해 증권 사기 혐의 조사를 시작했다. 조사관들은 공급망 위험에도 불구하고 경영진이 가이던스를 상향 조정한 2026년 1분기 진술을 검토하고 있다.",
-      "impact": "증권 사기 혐의 조사와 집단소송 가능성은 투자 심리에 직접적인 악영향을 주어 주가 하락 압력으로 작용한다.",
-      "caution": "아직 조사가 시작된 단계로 최종적인 법적 책임이나 사기 혐의가 확정된 것은 아니다."
     },
     "novonordiskstockjumpedafterearningsbutitsceowontgive2027guidancehereswhatinvestorsshouldknow": {
       "title": "Novo Nordisk Stock Jumped After Earnings — But Its CEO Won't Give 2027 Guidance. Here's What Investors Should Know",
