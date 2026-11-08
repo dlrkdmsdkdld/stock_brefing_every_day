@@ -1,17 +1,185 @@
 {
-  "generated_at": "2026-11-08T08:45:17+09:00",
+  "generated_at": "2026-11-09T08:52:04+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 9923,
-    "output_tokens": 5264
+    "input_tokens": 8338,
+    "output_tokens": 3862
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 8,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "워트sk하이닉스설비투자확대로실적개선올영업익70억기대": {
+      "title": "워트, SK하이닉스 설비투자 확대로 실적 개선 \"올 영업익 70억 기대\"",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "독립리서치 스몰인사이트리서치는 워트에 대해 삼성전자와 SK하이닉스의 설비투자 확대를 바탕으로 실적이 개선되고 있다고 분석했다. 워트의 3분기 누적 연결 매출액은 206억 8000만원, 영업이익은 56억 3000만원으로 각각 123.1%, 359.5% 급증했으며, SK하이닉스 청주 M15X 등으로의 장비 납품 확대가 실적을 끌어올렸다.",
+      "impact": "SK하이닉스의 청주 M15X 등 반도체 설비투자 확대가 협력사인 워트의 온습도 제어장비(THC) 납품 증가와 실적 호조로 직결되어 긍정적이다.",
+      "caution": ""
+    },
+    "삼성전자천장형디지털엑스레이신제품출시공간활용성높여": {
+      "title": "삼성전자, 천장형 디지털 엑스레이 신제품 출시…공간 활용성 높여",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자 의료기기사업부는 병원 공간과 검사 환경에 맞춰 구성을 달리할 수 있는 천장형 디지털 엑스레이 신제품 ‘GC85A Fit’을 9일 출시했다. 이 제품은 모듈형 설계와 인공지능(AI) 기반 촬영 지원 기능, 저선량 촬영 기술인 ‘S-Vue’ 등을 탑재하여 의료진의 조작 편의성과 환자의 안전성을 높였다.",
+      "impact": "신제품 의료기기 출시와 AI 기능 적용은 삼성전자의 의료기기 사업 경쟁력 강화 및 포트폴리오 다변화에 기여할 수 있다.",
+      "caution": ""
+    },
+    "29조원대한국형핵잠수함수주전본격화hd현대중공업한화오션각축": {
+      "title": "29조원대 한국형 핵잠수함 수주전 본격화⋯HD현대중공업· 한화오션 각축",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "방위사업청은 6일 제179회 방위사업추진위원회를 열고 약 28조 9000억원 규모의 8,000톤급 핵추진 잠수함 3척 건조를 위한 '장보고 N 사업추진기본전략'을 심의·의결했다. 이에 따라 국내 최대 방산업체인 HD현대중공업과 한화오션이 2030년대 중반 진수를 목표로 하는 대형 수주전을 본격적으로 치르게 되었다.",
+      "impact": "대규모 국가 방산 프로젝트의 경쟁 입찰이 본격화되면서 향후 수주 시 HD현대중공업의 방산 부문 실적 성장에 대한 기대감이 커질 수 있다.",
+      "caution": "아직 사업 착수 및 입찰 절차를 앞둔 초기 단계이며, 최종 수주 여부는 불확실하다."
+    },
+    "delltechnologiesincpricedellcpricelivechartsandmarketcapcoinbaseargentina": {
+      "title": "Dell Technologies Inc. Price, DELLC Price, Live Charts, and Marketcap - Coinbase Argentina",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "코인베이스 플랫폼을 통해 델 테크놀로지스(Dell Technologies Inc.) 주식을 구매할 수 있다는 안내와 거래 방법 설명 기사이다.",
+      "impact": "단순히 가상자산 거래소에서 주식을 거래할 수 있다는 안내문일 뿐, 델 본사의 실적이나 사업에 직접적인 영향을 주지 않는다.",
+      "caution": "기사 내용이 실질적인 기업 분석이나 실적 발표가 아닌 거래소 가이드에 불과하다."
+    },
+    "islivanovalivnfullyvaluedfollowingstrongq3resultsandraised2026outlook": {
+      "title": "Is LivaNova (LIVN) Fully Valued Following Strong Q3 Results And Raised 2026 Outlook?",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "의료기기 기업 리바노바(LivaNova)가 3분기 호실적과 함께 2026년 매출 성장 전망을 상향 조정했다는 내용이다.",
+      "impact": "보유 종목인 퍼스트솔라와 무관한 다른 의료기기 회사에 대한 기사이다.",
+      "caution": "보유 종목인 퍼스트솔라가 아니라 다른 회사(LivaNova)를 다룬 기사이다."
+    },
+    "isconstellationenergycegabargainafteritsdoeloanandbigtechdeals": {
+      "title": "Is Constellation Energy (CEG) A Bargain After Its DOE Loan And Big Tech Deals?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지가 구글과 아마존과의 장기 계약을 바탕으로 에너지부(DOE)로부터 원전 출력 증강을 지원하는 50억 달러 규모의 조건부 대출 약정을 확보했다.",
+      "impact": "컨스텔레이션 에너지에 대한 내용으로, 보유 종목인 퍼스트솔라와는 직접적인 관련이 없다.",
+      "caution": "보유 종목이 아니라 타사인 컨스텔레이션 에너지를 다룬 기사이다."
+    },
+    "notbloomenergynotvistrathisaipowerstockjustposteda96jumpinorders": {
+      "title": "Not Bloom Energy. Not Vistra. This AI Power Stock Just Posted a 96% Jump in Orders.",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "AI 데이터센터 전력 부족 문제와 관련해 비스트라 에너지가 메타 및 아마존과 협력하여 전력을 공급하는 유틸리티 업체로 언급되었다.",
+      "impact": "비스트라 에너지를 다룬 기사에서 보유 종목인 퍼스트솔라는 직접 언급되지 않거나 중심 내용이 아니다.",
+      "caution": "보유 종목인 퍼스트솔라가 직접 분석된 기사가 아니며 타사 위주로 서술되어 있다."
+    },
+    "almontyjoinsmontanasfast41signingwhilekoreanlistingtalkstaysexploratory": {
+      "title": "Almonty Joins Montana's FAST-41 Signing While Korean Listing Talk Stays Exploratory",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "텅스텐 생산업체 알몬티가 몬태나주의 패스트-41(FAST-41) 연방 인허가 패스트트랙 체계 가입 서명식에 참여했으나, 한국 상장 논의는 여전히 탐색적 단계에 머물러 있다고 전했다.",
+      "impact": "알몬티의 미국 규제 환경 변화 및 아시아 자본시장 관련 소식으로, 보유 종목인 퍼스트솔라와는 무관하다.",
+      "caution": "보유 종목과 직접적인 연관이 없는 알몬티에 대한 기사이다."
+    },
+    "musksspacexstaketops870billionasalphabetaddssharesandagoogleexecutiveexitstheboard": {
+      "title": "Musk's SpaceX Stake Tops $870 Billion as Alphabet Adds Shares and a Google Executive Exits the Board",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "알파벳이 스페이스엑스의 주식을 추가로 매입했으며, 일론 머스크는 공격적인 매출 전망을 제시했다. 스페이스엑스 주가는 알파벳의 지분 확대 공시와 머스크의 발언 등에 힘입어 8.62% 상승한 134.27달러를 기록했다.",
+      "impact": "보유 종목인 알파벳이 스페이스엑스 지분을 늘리고 스페이스엑스 주가가 상승세를 보인 것은 투자 포트폴리오의 가치 상승에 긍정적인 영향을 미친다.",
+      "caution": "스페이스엑스의 주가는 여전히 지난 6월 IPO 가격인 135달러를 밑돌고 있다."
+    },
+    "vertivsdoublingorderbookmeetsa26billionbetandawashingtonquestionmark": {
+      "title": "Vertiv's Doubling Order Book Meets a $2.6 Billion Bet — and a Washington Question Mark",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스의 2026년 3분기 매출은 전년 동기 대비 61% 증가한 4.313억 달러를 기록했고, 오가닉 주문 증가율은 100%를 상회했다. 경영진은 연간 매출 가이던스 중간값을 146.50억 달러, 조정 주당순이익을 7.15달러로 상향 조정했다.",
+      "impact": "폭발적인 매출 성장과 두 배로 증가한 수주 잔고, 그리고 가이던스 상향 조정은 버티브 홀딩스의 실적 성장 기대감을 높여 주가에 호재로 작용한다.",
+      "caution": "대규모 인수합병 통합 과정과 향후 워싱턴의 데이터센터 관련 규제 리스크가 존재한다."
+    },
+    "clalinsurancestock2484millionmicrosoftstakeinfocus": {
+      "title": "Clal Insurance stock: $248.4 million Microsoft stake in focus",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "클랄 인슈어런스는 2026년 2분기 동안 665,910주의 마이크로소프트 주식을 매입하여 약 2억 4,840만 달러 규모의 지분을 확보했다. 이 투자는 전체 투자 포트폴리오의 약 1.1%를 차지하며 19번째로 큰 홀딩이다.",
+      "impact": "기관 투자자의 단순 지분 취득 소식으로 마이크로소프트의 기업 가치를 뒷받침하지만 핵심 사업에 즉각적인 실적 변화를 주지는 않는다.",
+      "caution": "클랄 인슈어런스의 일반적인 포트폴리오 조정의 일부이며 마이크로소프트 자체의 실적 발표나 사업 이슈는 아니다."
+    },
+    "redwhiteandbluenikewindbreakerredstockphotospicturesroyaltyfreeimagesistock": {
+      "title": "Red White And Blue Nike Windbreaker - Red Stock Photos Pictures Royalty Free Images iStock",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "본문 내용은 이탈리아 농구팀의 경기 결과와 유소년 미니농구 인증서에 관한 내용으로 구성되어 있다.",
+      "impact": "보유 종목인 나이키와는 관련이 없는 내용이며 키워드 매칭으로 인해 수집된 광고성 또는 무관한 텍스트이다.",
+      "caution": "기사 본문에 나이키 관련 내용이 전혀 포함되어 있지 않다."
+    },
+    "novonordiskinsidersalecoincideswithcfoappointmentandupgradedguidance": {
+      "title": "Novo Nordisk Insider Sale Coincides With CFO Appointment and Upgraded Guidance",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보노디스크의 연구개발 책임자인 마르틴 홀스트 랑예가 B주 12,000주를 매각한 한편, 루이지 라 코르테가 신임 재무책임자(CFO)로 임명됐다. 회사는 2026년 조정 매출과 영업이익 전망치를 기존 '플랫폼~6% 감소'에서 '2% 증가~2% 감소' 범위로 상향 조정했다.",
+      "impact": "성장 회복을 시사하는 가이던스 상향 조정은 실적 개선 기대감을 높여 노보노디스크 주가에 호재로 작용한다.",
+      "caution": "연구개발 책임자의 주식 매도 물량이 존재한다."
+    },
+    "broadcombusinessmodel": {
+      "title": "Broadcom Business Model",
+      "holding": "브로드컴",
+      "stance": "중립",
+      "summary": "브로드컴은 반도체와 인프라 소프트웨어(주로 VMware)를 통해 수익을 창출하며 2025 회계연도 총 매출은 638억 8,700만 달러를 기록했다. 2026년에는 AI 맞춤형 가속기와 네트워킹 수요로 인해 반도체 부문 매출이 127% 급증했다.",
+      "impact": "AI 부문의 강력한 반도체 성장세를 보여주지만 기업의 전반적인 비즈니스 모델을 설명하는 일반적인 개요 기사이다.",
+      "caution": "새로운 실적 공시라기보다 기존 사업 구조와 2025/2026년 수치를 요약한 설명문이다."
+    },
+    "berkshireearningsdropasmarketseeksrepairsandiskandmicroncrumblewhileapplenasdaqaaplamazonnasdaqamznandmicrosoftnasdaqmsftholdfirm": {
+      "title": "Berkshire Earnings Drop As Market Seeks Repair, Sandisk And Micron Crumble While Apple (NASDAQ: AAPL), Amazon (NASDAQ: AMZN) And Microsoft (NASDAQ: MSFT) Hold Firm",
+      "holding": "마이크론",
+      "stance": "악재",
+      "summary": "버크셔 해서웨이의 실적 감소와 증시 침체 속에서 마이크론과 샌디스크 등 반도체 및 스토리지 관련 주식들이 큰 타격을 입었다. 애널리스트들은 이들 종목이 단순 조정을 넘어 수요 사이클 우려로 인해 심각한 타격을 입었다고 평가했다.",
+      "impact": "마이크론을 향한 시장의 수요 사이클 우려와 주가 급락은 보유 주식의 단기적인 투자 심리를 악화시키고 하락 요인으로 작용한다.",
+      "caution": "개별 기업의 실적 발표 직전 기사가 아니라 거시 경제 및 섹터 전반의 분위기를 다룬 기사이다."
+    },
+    "matthewrabinowitzicanthinkofnoonebettertoleadnateraintoitsnextchapter": {
+      "title": "Matthew Rabinowitz: I Can Think of No One Better to Lead Natera into Its Next Chapter",
+      "holding": "나테라",
+      "stance": "중립",
+      "summary": "나테라와 관련된 구체적인 사업 성과나 재무 정보가 없는 웹사이트 기본 템플릿 및 일정 안내 텍스트만 포함된 기사이다.",
+      "impact": "본문에 나테라의 실적이나 주가에 영향을 줄 만한 구체적인 내용이 없어 주가에 미치는 직접적인 영향은 없다.",
+      "caution": "기사 본문이 실제 뉴스 기사가 아니라 웹사이트 소스코드 및 일정 안내문으로 구성되어 있다."
+    },
+    "asampleofover5000drivesrevealsoneproblemwithnewhdds": {
+      "title": "A Sample Of Over 5,000 Drives Reveals One Problem With New HDDs",
+      "holding": "웨스턴 디지털",
+      "stance": "중립",
+      "summary": "백블레이즈의 5,000개 이상 하드디스크 드라이브(HDD) 표본 조사 결과, 약 1.5%의 HDD가 고장 나며 그중 절반가량이 첫 해에 고장 나고 30%는 사전 경고 없이 발생한다는 내용이다.",
+      "impact": "보유 종목인 웨스턴 디지털과 직접적으로 연관된 개별 기업의 실적 발표나 수주 뉴스가 아니므로 직접적인 주가 영향은 제한적이다.",
+      "caution": "특정 기업이 아닌 업계 전반의 일반적인 하드웨어 신뢰도 통계를 다룬 내용이다."
+    },
+    "조선노조도n성과급요구줄파업근로손실일15배로늘어": {
+      "title": "車-조선 노조도 N% 성과급 요구 줄파업… “근로손실일 1.5배로 늘어”",
+      "holding": "효성중공업",
+      "stance": "약한 악재",
+      "summary": "국내 중후장대 산업 전반에서 노조의 성과급 요구와 쟁의행위가 강경해지며 근로손실일이 지난해의 1.5배로 늘어났다.",
+      "impact": "제조업 및 중공업 전반의 파업 확산은 생산 차질 및 비용 증가로 이어져 효성중공업의 원가 부담을 높일 수 있다.",
+      "caution": "효성중공업 개별 사업장의 구체적인 파업 돌입 여부는 본문에 명시되지 않았다."
+    },
+    "시설은남고청년은떠나고1첨단의굴레": {
+      "title": "시설은 남고 청년은 떠나고 ‘+1’ 첨단의 굴레",
+      "holding": "제주반도체",
+      "stance": "중립",
+      "summary": "제주특별자치도 출범 20주년을 맞아 그동안의 IT·BT·ET 등 4+1 첨단산업 육성 정책의 명과 암을 분석하는 연재 기사이다.",
+      "impact": "제주 지역의 정책과 역사적 변천 과정을 다룬 칼럼으로 제주반도체의 개별 실적이나 주가에 미치는 직접적인 영향은 없다.",
+      "caution": "보유 종목인 제주반도체와 직접적인 연관성이 없는 지역 정책 기사이다."
+    },
+    "리포트브리핑lselectric한국aidc의길은ls일렉트릭으로통한다목표가220000원하나증권": {
+      "title": "[리포트 브리핑]LS ELECTRIC, '한국 AI DC의 길은 LS일렉트릭으로 통한다' 목표가 220,000원 - 하나증권",
+      "holding": "LS ELECTRIC",
+      "stance": "호재",
+      "summary": "하나증권은 LS ELECTRIC에 대해 투자의견 'BUY'를 유지하고 목표주가 22만 원을 제시하며, 국내 배전 시장 점유율 60% 이상을 바탕으로 국내 AI 데이터센터(DC) 시장 개화의 수혜가 기대된다고 분석했다.",
+      "impact": "목표가가 직전 27만 원에서 18.5% 하향조정되었으나, 여전히 전일 종가 대비 88.8%의 상승 여력이 있으며 북미 및 국내 AI 데이터센터 관련 수주 확대와 수익성 개선 전망이 긍정적으로 작용한다.",
+      "caution": "직전 목표가 대비 하향 조정된 수치이며, 증권사 리포트의 전망이 실제 실프로 이어지는지는 추후 확인이 필요하다."
+    },
+    "대형주도못피한급락장상장사844곳연중최저가이런국장저런주식": {
+      "title": "대형주도 못 피한 급락장…상장사 844곳 ‘연중 최저가’ [이런국장 저런주식]",
+      "holding": "두산에너빌리티",
+      "stance": "약한 악재",
+      "summary": "지난주 국내 증시 급락 여파로 상장사 3곳 중 1곳인 844개 종목이 연중 최저가를 기록했으며, 두산에너빌리티를 포함한 주요 대형주들이 장중 및 종가 기준 연중 최저가로 밀렸다.",
+      "impact": "시장 전반의 투자 심리 위축과 지수 급락으로 인해 두산에너빌리티의 주가도 단기적으로 하방 압력을 받았다.",
+      "caution": "기업 자체의 펀더멘털 악화보다는 거시경제 및 증시 전반의 급락에 따른 동반 하락 성격이 강하다."
+    },
     "asmleuv공급모자란다삼성전자sk하이닉스장비확보경쟁": {
       "title": "“ASML EUV 공급 모자란다”… 삼성전자·SK하이닉스 장비 확보 경쟁",
       "holding": "SK하이닉스",
