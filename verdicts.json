@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-11-09T08:52:04+09:00",
+  "generated_at": "2026-11-10T11:51:42+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8338,
-    "output_tokens": 3862
+    "input_tokens": 8192,
+    "output_tokens": 3490
   },
   "skipped": {
-    "본문없음": 8,
+    "본문없음": 11,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스메모리가격하락해도2029년영업이익290조원": {
+      "title": "“SK하이닉스, 메모리 가격 하락해도 2029년 영업이익 290조 원”",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "DS투자증권은 11월 10일 보고서에서 서버용 D램과 HBM 수요 증가에 힘입어 SK하이닉스가 2029년까지 높은 이익을 유지할 것으로 전망하며 목표주가 264만 원을 유지했다. 4분기 매출액은 128조3000억 원, 영업이익은 102조1000억 원으로 전분기 대비 23% 증가할 것으로 추정됐다.",
+      "impact": "서버용 메모리 판매량 증가와 고부가 HBM 비중 확대로 인해 SK하이닉스의 매출 및 영업이익이 크게 성장할 것으로 예상되므로 보유 종목에 긍정적이다.",
+      "caution": ""
+    },
+    "삼성전자스타트업1천곳육성투자유치협력확대지원": {
+      "title": "삼성전자, 스타트업 1천곳 육성…투자유치·협력 확대 지원",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "삼성전자는 11월 10일 서울R&D캠퍼스에서 '2026 C랩 스타트업 데모데이'를 열고 지금까지 사내벤처와 스타트업 1천 개를 발굴 및 육성했다고 밝혔다. 피아스페이스와 나노포지에이아이 등 8기 스타트업과의 기술 검증 및 사업 협력 사례도 공유됐다.",
+      "impact": "스타트업 육성 및 상생 협력 활동이나, 단기적인 실적이나 주가에 직접적인 변동을 일으키기보다는 기업 이미지와 생태계 조성에 기여하는 내용이다.",
+      "caution": "직접적인 재무적 수치나 주가에 미치는 영향이 제한적이어서 중립으로 평가함."
+    },
+    "hd현대중공업나흘새선박6척수주목표달성률931": {
+      "title": "HD현대중공업, 나흘 새 선박 6척 수주…목표 달성률 93.1%",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업은 11월 9일 아프리카 소재 선사와 6629억 원 규모의 LNG 운반선 2척 건조 계약을 공시했으며, 앞서 6일에도 6301억 원 규모의 암모니아 운반선 4척을 수주했다. 나흘간 총 6척, 1조2930억 원을 수주하며 HD한국조선해양의 연간 수주 목표 달성률은 93.1%를 기록했다.",
+      "impact": "잇따른 대규모 선박 수주로 인해 회사의 매출 기반이 탄탄해지고 연간 수주 목표 달성에 가까워짐에 따라 HD현대중공업의 실적 성장 기대감이 높아진다.",
+      "caution": ""
+    },
+    "delltechnologiesstockgainsaheadofnovember24earnings": {
+      "title": "Dell Technologies stock gains ahead of November 24 earnings",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "델 테크놀로지스(Dell Technologies) 주가는 2026년 11월 9일 랑앤슈바르츠에서 310.08유로에 거래되며 직전 보고서 대비 6.91% 상승했다. 회사는 오는 11월 24일에 회계연도 2027년 3분기 실적을 발표할 예정이다.",
+      "impact": "실적 발표를 앞두고 주가가 상승세를 보이고 있으며, 향후 AI 인프라 및 엔터프라이즈 기술 수요를 확인할 수 있는 계기가 될 수 있어 긍정적이다.",
+      "caution": "아직 실제 실적이 발표되지 않았고 단순 주가 상승 및 일정 안내에 불과하다."
+    },
+    "firstsolarnasdaqfslrstockfalls48onanalystdowngrade": {
+      "title": "First Solar (NASDAQ:FSLR) Stock Falls 4.8% on Analyst Downgrade",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "퍼스트솔라(First Solar) 주가는 파이퍼 샌들러가 목표주가를 251달러에서 222달러로 하향 조정한 후 4.8% 하락했다. 최근 분기에서 주당순이익(EPS)은 5.30달러로 예상치를 웃돌았으나, 매출은 12억3000만 달러로 전년 동기 대비 22.8% 감소하며 예상치를 밑돌았다.",
+      "impact": "투자은행의 목표주가 하향 조정과 매출액의 전년 동기 대비 감소세가 투자 심리에 부정적으로 작용하여 주가 하락을 유발했다.",
+      "caution": "컨센서스 등급은 여전히 'Moderate Buy'를 유지하고 있으며 평균 목표주가는 256.38달러로 남아 있다."
+    },
+    "constellationenergyraises2026earningsoutlookunveils43billionnuclearexpansionplan": {
+      "title": "Constellation Energy Raises 2026 Earnings Outlook, Unveils $4.3 Billion Nuclear Expansion Plan",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "콘스텔레이션 에너지는 3분기 강력한 실적을 바탕으로 2026년 연간 조정 영업이익 전망치를 주당 12.50~12.80달러로 상향 조정했다. 또한 데이터 센터 등의 전력 수요에 대응하기 위해 43억 달러 규모의 원자력 발전 용량 확대 투자 계획을 발표했다.",
+      "impact": "이익 가이던스 상향과 대규모 원자력 발전 투자 계획은 향후 현금 창출력과 성장성에 대한 강한 자신감을 보여주므로 보유 종목에 호재로 작용한다.",
+      "caution": ""
+    },
+    "binancenoticesdistinguishcredoperpetualcontractfromtokenizedsecurity": {
+      "title": "Binance Notices Distinguish Credo Perpetual Contract From Tokenized Security",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "바이낸스는 크레도 테크놀로지(Credo)의 나스닥 상장 보통주를 추종하는 CRDOUSDT 무기 계약 상품과 직접적인 소유권을 부여하지 않는 토큰화 증권 CRDOB/USDT 상품 간의 차이를 공지했다.",
+      "impact": "암호화폐 거래소의 상품 공지 사항으로, 크레도 테크놀로지의 본업이나 실제 기업 가치 및 나스닥 주가에 직접적인 영향을 주지 않는다.",
+      "caution": "보유 종목인 기업의 본업과 무관한 가상자산 파생상품 거래소 공지이므로 중립으로 처리함."
+    },
+    "qualcommstocksjump582afteralphabetdiscloses548millionstake": {
+      "title": "Qualcomm Stocks Jump 5.82% After Alphabet Discloses $548 Million Stake",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳(Alphabet)이 퀄컴 주식 548만 달러(약 298만 주) 규모의 지분을 보유하고 있다고 공시한 후 퀄컴 주가가 5.82% 상승했다. 기사에서 언급된 알파벳의 지분 공시는 퀄컴에 대한 내용이며, 알파벳 자체의 직접적인 사업 성과 변화는 아니다.",
+      "impact": "알파벳이 다른 기업(퀄컴)의 지분을 보유하고 있다는 사실이 공개된 것으로, 알파벳의 본업 실적이나 재무 상태에 직접적인 변동을 일으키지는 않는다.",
+      "caution": "본문의 주된 내용과 주가 상승은 피투자사인 퀄컴에 관한 것이며, 보유 종목인 알파벳(Alphabet A)에 미치는 직접적 영향은 제한적이므로 중립으로 둠."
+    },
+    "lionsagreetotermswithnewyorkjetstoacquiresandreciscoviatrade": {
+      "title": "Lions agree to terms with New York Jets to acquire S Andre Cisco via trade",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "디트로이트 라이온스가 뉴욕 제츠로부터 2028년 6라운드 드래프트 지명권을 주고 세이프티 안드레 시스코를 영입했다. 시스코는 이번 시즌 제츠에서 9경기에 출전해 17개의 태클과 1개의 색을 기록했다.",
+      "impact": "보유 종목인 시스코 시스템즈와 동명이인의 미 프로풋볼(NFL) 선수의 트레이드 소식으로 기업 펀더멘털과 무관하다.",
+      "caution": "기업 뉴스 시스코 시스템즈가 아니라 NFL 선수 안드레 시스코에 대한 기사이다."
+    },
+    "gevernovasoars7asconstellationraisesguidanceeasingdatacentermoratoriumfears": {
+      "title": "GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "콘스텔레이션 에너지가 3분기 실적 호조와 함께 2026년 가이던스를 상향 조정한 후 GE 베르노바가 7%, 블룸에너지가 14%, 버티브 홀딩스가 10% 급등했다. 콘스텔레이션은 2026년 조정 영업이익을 주당 12.50~12.80달러로 상향했으며, 아마존 및 구글과의 계약을 포함해 올해 약 8,500메가와트의 장기 계약을 체결했다.",
+      "impact": "데이터센터 전력 공급 및 인프라 수요에 대한 우려가 완화되면서 관련 수혜주인 버티브 홀딩스의 주가 상승을 이끌었다.",
+      "caution": ""
+    },
+    "novonordisknvostockpricepredictionrallytestsresistanceafternovoraisesoutlookandbinanceflowsleanlong": {
+      "title": "Novo Nordisk (NVO) Stock Price Prediction: Rally tests resistance after Novo raises outlook and Binance flows lean long",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크는 위고비 알약 판매량이 예상치를 웃돌면서 2026년 전망을 세 번째로 상향 조정했다. 이로 인해 주가가 저항선을 테스트하는 상승 흐름을 보이고 있다.",
+      "impact": "실적 개선의 핵심 동력인 가이던스 상향과 주요 제품 판매 호조가 직접적으로 기업 가치 상승을 견인한다.",
+      "caution": "시장에서는 여전히 단기적 일회성 요인과 실제 영업 모멘텀을 구분하려는 시각이 존재한다."
+    },
+    "nvidiastockclosesloweraftercompanyopensprobeintoceojensenhuang": {
+      "title": "Nvidia stock closes lower after company opens probe into CEO Jensen Huang",
+      "holding": "엔비디아",
+      "stance": "악재",
+      "summary": "엔비디아는 최고경영자(CEO) 젠슨 황이 중국의 정보 수집 대상이 되었다는 의혹과 관련해 이사회 주도의 독립적 조사를 시작했다고 밝혔다. 이 여파로 젠슨 황은 앤스로픽 CEO 포럼 등 여러 행사에 불참하기로 했으며, 엔비디아 주가는 4% 이상 하락 마감했다.",
+      "impact": "최고경영자를 둘러싼 리스크와 조사 진행은 투자 심리에 직접적인 타격을 주며 주가 하락을 유발했다.",
+      "caution": ""
+    },
+    "nateraq3earningscallhighlights6btargetraised2026outlook": {
+      "title": "Natera Q3 Earnings Call Highlights $6B Target & Raised 2026 Outlook",
+      "holding": "나테라",
+      "stance": "호재",
+      "summary": "나테라는 3분기 실적 발표 콘퍼런스콜에서 2029년까지 연 매출 6스케일(6억 달러가 아닌 60억 달러) 목표를 제시하고 2026년 매출 전망을 상향 조정했다. 신임 CEO 솔로몬 모시케비치는 분자 잔류 질병(MRD) 검사, 국제 확장, 제약 파트너십이 성장을 이끌 것이라고 강조했다.",
+      "impact": "매출 가이던스 상향과 중장기 성장 목표 구체화는 회사의 실적 신뢰도를 높여 긍정적이다.",
+      "caution": "임상 시험과 신기술 도입에 따른 지속적인 비용 지출은 감안해야 한다."
+    },
+    "hd현대일렉트릭배전기기매출비중2129티어1수준올릴것": {
+      "title": "HD현대일렉트릭, 배전기기 매출비중 21→29%...\"티어1 수준 올릴 것\"",
+      "holding": "HD현대일렉트릭",
+      "stance": "호재",
+      "summary": "DS투자증권은 HD현대일렉트릭에 대해 배전기기 매출 비중이 2026년 21%에서 2028년 29%로 확대될 것이라며 목표주가 47만 2,000원과 투자의견 '매수'를 유지했다. 회사는 초고압 변압기 공급 협상력을 바탕으로 하이퍼스케일러를 배전기기 고객으로 확보하는 전략을 추진 중이다.",
+      "impact": "배전기기 비중 확대는 다운사이클 방어력을 강화하고 글로벌 경쟁력을 높여 중장기 밸류에이션에 긍정적이다.",
+      "caution": ""
+    },
+    "특징주전력기기주동반반등데이터센터규제우려속효성중공업11대급등": {
+      "title": "[특징주] 전력기기주 동반 반등…美 데이터센터 규제 우려 속 효성중공업 11%대 급등",
+      "holding": "효성중공업",
+      "stance": "약한 호재",
+      "summary": "미국 데이터센터 규제 우려가 진정되고 전력기기 업체의 수주 취소 가능성이 낮다는 분석이 나오면서 효성중공업이 11%대 급등하는 등 전력기기주가 동반 반등했다. 다만 주정부 인허가 제도로 인해 신규 사업 착공이 밀릴 경우 내년 상반기 미국향 수주가 일부 둔화될 수 있다는 시각도 있다.",
+      "impact": "규제 우려 완화에 따른 반발 매수세 유입으로 단기 주가 반등을 이끌었다.",
+      "caution": "향후 미국 주정부의 인허가 절차 지연에 따라 단기 수주 흐름이 둔화할 여지가 있다."
+    },
+    "코스피5300선눈앞삼성전자sk하이닉스급등에증시불기둥": {
+      "title": "코스피 5300선 눈앞…삼성전자·SK하이닉스 급등에 증시 불기둥",
+      "holding": "제주반도체",
+      "stance": "중립",
+      "summary": "10일 코스피가 반도체 대형주 중심의 매수세에 힘입어 5300선에 근접하며 급등세를 보였다. 삼성전자, SK하이닉스 등 주요 종목과 함께 여러 코스닥/코스피 종목이 강세를 나타냈다.",
+      "impact": "시장 전반의 지수 상승 흐름이나, 보유 종목인 제주반도체가 본문 속 급등 종목 리스트에 직접 포함되지 않아 개별 종목에 대한 구체적 영향은 제한적이다.",
+      "caution": "본문 내 다수 종목이 언급되었으나 제주반도체는 직접적인 실적이나 개별 뉴스 없이 증시 전반의 상승 보도 속에 이름만 일부 언급되었거나 누락되어 있어 중립으로 평가한다."
+    },
+    "공장자동화투자확대기대lselectric고영등주목을": {
+      "title": "공장 자동화 투자 확대 기대… LS ELECTRIC·고영 등 주목을",
+      "holding": "LS ELECTRIC",
+      "stance": "호재",
+      "summary": "10일 스마트팩토리 테마가 제조업 디지털 전환 가속화 기대감에 강세를 보인 가운데, LS ELECTRIC은 공장 자동화와 전력 제어 시스템 경쟁력으로 수혜주로 주목받고 있다. 제조업체들의 자동화 설비 투자와 전력 인프라 고도화 수요가 맞물려 매수세가 유입되고 있다.",
+      "impact": "스마트공장 구축 확대와 전력 인프라 고도화 수요가 동종 기업들의 주가 상승 및 투자심리 개선으로 이어져 LS ELECTRIC의 본업 실적과 주가에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "코리아써키트10대급등반도체기판주동반상승": {
+      "title": "코리아써키트 10%대 급등…반도체 기판주 동반 상승",
+      "holding": "이수페타시스",
+      "stance": "호재",
+      "summary": "10일 장초반 코리아써키트가 10.92% 급등한 것을 비롯해 반도체 기판주들이 동반 상승했다. 이수페타시스 또한 9.64% 상승세를 기록했으며, 이는 전밤 미국 증시에서 AMD와 브로드컴 등 기술주가 급등하며 저가 매수세가 유입된 영향이다.",
+      "impact": "미국 기술주 강세와 섹터 전반의 투자심리 개선으로 인해 이수페타시스 등 반도체 기판주들에 대한 매수세가 유입되어 단기 주가 상승에 긍정적이다.",
+      "caution": ""
+    },
     "워트sk하이닉스설비투자확대로실적개선올영업익70억기대": {
       "title": "워트, SK하이닉스 설비투자 확대로 실적 개선 \"올 영업익 70억 기대\"",
       "holding": "SK하이닉스",
