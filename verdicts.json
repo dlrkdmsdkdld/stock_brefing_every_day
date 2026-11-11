@@ -1,17 +1,177 @@
 {
-  "generated_at": "2026-11-10T11:51:42+09:00",
+  "generated_at": "2026-11-11T09:46:54+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8192,
-    "output_tokens": 3490
+    "input_tokens": 7078,
+    "output_tokens": 3843
   },
   "skipped": {
-    "본문없음": 11,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "하이닉스영업이익률80알고보면아찔한상황": {
+      "title": "하이닉스 영업이익률 80%? 알고 보면 아찔한 상황",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "SK하이닉스는 올해 3분기 매출액 104조 6155억 원, 영업이익 83조 3338억 원으로 영업이익률 80%를 기록하며 6개 분기 연속 최대 실적을 경신했다. 그러나 기사는 이 비정상적으로 높은 80%의 영업이익률이 축복이 아니라 오히려 위기의 경고등일 수 있다고 지적한다.",
+      "impact": "초과 이익률이 과잉 투자 및 향후 불황 사이클의 전조로 해석될 수 있어 장기적 불확실성을 높이는 요인으로 작용한다.",
+      "caution": "단기 실적 자체는 사상 최대이나, 기사 본문이 장기적인 산업 구조와 위기 가능성에 초점을 맞추고 있다."
+    },
+    "kiwoom삼성전자sk하이닉스채권혼합50etf11월분배율160": {
+      "title": "'KIWOOM 삼성전자&SK하이닉스채권혼합50' ETF, 11월 분배율 1.60%",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "키움투자자산운용은 'KIWOOM 삼성전자&SK하이닉스채권혼합50' ETF가 11월 주당 160원의 분배금을 지급한다고 11일 밝혔다. 이 상품은 삼성전자와 SK하이닉스에 각 25%씩 투자하며 7개월 연속 월중 분배금을 지급하고 있다.",
+      "impact": "보유 종목인 삼성전자가 포함된 ETF의 분배금 지급 및 수급 관련 소식이나, 개별 기업의 펀더멘털이나 실적에 직접적인 변화를 주지는 않는다.",
+      "caution": "간접적인 투자 상품 관련 뉴스이므로 기업 실적 자체에 미치는 영향은 제한적이다."
+    },
+    "테나마리스hd현대에lng운반선2척발주": {
+      "title": "\"테나마리스, HD현대重에 LNG운반선 2척 발주\"",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "그리스 선사 테나마리스가 HD현대중공업에 17만 4000㎥급 LNG운반선 2척을 발주했다. 이번 계약 규모는 총 4억 9400만 달러로, 인도 예정 시기는 2029년이다.",
+      "impact": "선박 수주 척수와 계약 금액이 구체적으로 공개되어 향후 매출 및 일감 확보에 직접적인 긍정적 기여를 한다.",
+      "caution": "발주처가 공식 공시에서 직접 확인된 것은 아니며 선박 중개업계 및 선사 정보를 인용한 내용이다."
+    },
+    "dellfallsasdowngradepressureandweakpcdemandconcernsweighonsentiment": {
+      "title": "Dell Falls as Downgrade Pressure and Weak PC Demand Concerns Weigh on Sentiment",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "델 테크놀로지스(DELL) 주가가 애널리스트들의 목표가 하향 조정 압박과 약한 PC 시장 수요 우려로 4.5% 하락했다. 투자자들은 AI 서버 모멘텀이 전통 PC 사업의 수요 부진과 마진 압박을 얼마나 상쇄할 수 있을지 재평가하고 있다.",
+      "impact": "PC 시장의 수요 둔화와 메모리 관련 비용 압박 우려가 투자 심리에 부정적인 영향을 미친다.",
+      "caution": "특정 기업의 공식 발표가 아니라 애널리스트들의 코멘트와 시장 우려에 기반한 분석이다."
+    },
+    "constellationbrandsincstzseasonalreturnschart": {
+      "title": "Constellation Brands, Inc. (STZ) Seasonal Returns Chart",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈(STZ)의 월별 평균 및 중앙값 수익률을 보여주는 계절성 수익률 차트에 대한 안내 기사이다.",
+      "impact": "구체적인 실적 발표나 사업적 사건 없이 단순 통계 및 차트 제공에 관한 내용이므로 주가에 미치는 직접적인 영향은 없다.",
+      "caution": "광고 성격의 단순 통계 안내문이므로 기사 본문의 실질적 내용이 없다."
+    },
+    "ubsmaintainsfirstsolaratbuylowerspricetargetto295from330": {
+      "title": "UBS maintains First Solar at Buy, lowers price target to $295 from $330",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "UBS는 퍼스트솔라(FSLR)에 대해 '매수(Buy)' 투자의견을 유지하면서도 목표주가를 기존 330달러에서 295달러로 10.6% 하향 조정했다. 그럼에도 해당 목표가는 직전 종가 대비 54.0%의 상승 여력을 시사한다.",
+      "impact": "목표가 하향은 단기적으로 부담이나, 여전히 매수 의견과 높은 상승 여력이 유지되어 투자 심리에 복합적으로 작용한다.",
+      "caution": "목표가가 낮아졌다는 점에서 일부 차익실현이나 기대치 조정의 빌트인이 존재한다."
+    },
+    "constellationenergynasdaqcegq32026earningsjump": {
+      "title": "Constellation Energy (NASDAQ:CEG) Q3 2026: Earnings Jump",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지(CEG)의 2026년 3분기 실적에서 이익이 전년 동기 대비 급증했다. 원자력 발전 부문 등이 실적 성장을 견인했다.",
+      "impact": "이익 급증은 기업의 펀더멘털 개선을 직접적으로 증명하므로 주가에 긍정적으로 작용한다.",
+      "caution": "상세한 수치 중 일부 본문 내용이 누락되어 있으며 타사 관련 뉴스가 일부 혼재되어 있다."
+    },
+    "vstq3earningsbeatonstrongpowerpricingrevenuesriseyy": {
+      "title": "VST Q3 Earnings Beat on Strong Power Pricing, Revenues Rise Y/Y",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "비스트라 에너지(VST)는 2026년 3분기 주당순이익(EPS)이 3.23달러를 기록해 시장 예상치인 2.94달러를 9.86% 상회했다. 총 매출은 63억 5000만 달러로 전년 동기 대비 27.7% 증가했다.",
+      "impact": "예상치를 웃도는 순이익과 전년 대비 대폭 증가한 매출은 전력 가격 상승과 발전 자산의 견조한 실적 덕분으로 기업 가치를 높인다.",
+      "caution": "총 매출은 Zacks 컨센서스 예상치인 68억 5000만 달러를 소폭 하회했다."
+    },
+    "plugpowerincplugstockpricenewsquoteandhistory": {
+      "title": "Plug Power Inc. (PLUG) stock price, news, quote and history",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "플러그 파워(Plug Power Inc.)의 사업 모델, 수소 제품 및 솔루션 라인업에 대한 일반적인 소개를 담고 있다. 유럽, 호주, 북미 등 글로벌 시장에서 GenDrive, GenFuel, GenCare 등 다양한 수소 및 연료전지 시스템을 제공하고 있음을 설명한다.",
+      "impact": "보유 종목인 이오스 에너지와는 직접적인 관련이 없는 타 수소 관련 기업의 사업 개요를 다룬 기사이다.",
+      "caution": "이오스 에너지가 아닌 플러그 파워에 대한 설명만 있으며, 주가나 실적에 영향을 미칠 만한 새로운 사건이나 수치는 포함되어 있지 않다."
+    },
+    "almontyindustriesnasdaqalmstockpricedown81shouldyousell": {
+      "title": "Almonty Industries (NASDAQ:ALM) Stock Price Down 8.1% - Should You Sell?",
+      "holding": "알먼티",
+      "stance": "약한 악재",
+      "summary": "텅스텐 광산 기업 알먼티(Almonty Industries)의 주가가 화요일 장중 8.1% 하락하여 8.06달러를 기록했다고 보도했다. 거래량은 평균 일일 거래량보다 86% 낮은 847,343주였으며, 애널리스트들은 여전히 Moderate Buy 컨센서스와 평균 목표가 23.04달러를 유지하고 있다.",
+      "impact": "보유 종목의 단기 주가 하락은 투자 심리에 부정적이나, 애널리스트들의 매수 의견과 목표가가 높게 유지되고 있어 하락 폭은 제한적이다.",
+      "caution": "단순 주가 변동 및 거래량 감소에 대한 보도이며 펀더멘털의 급격한 변화를 증명하는 추가 정보는 부족하다."
+    },
+    "wallstreetanalystsarebullishontoptechnologypicks": {
+      "title": "Wall Street Analysts Are Bullish on Top Technology Picks",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "뱅크오브아메리카의 애널리스트 비벡 아리아가 AMD에 대해 매수 의견을 유지한 리포트를 발행했다. 이 과정에서 아리아가 담당하는 기술주 섹터의 일환으로 크레도 테크놀로지(Credo Technology Group Holding Ltd)가 언급되었다.",
+      "impact": "크레도 테크놀로지가 애널리스트의 커버리지 종목으로 이름만 언급되었을 뿐, 구체적인 실적이나 투자의견 변경에 대한 내용은 없다.",
+      "caution": "기사의 주된 내용은 AMD에 대한 분석이며 크레도 테크놀로지에 직접적인 주가 영향은 주지 않는다."
+    },
+    "googlgoogdeadlinegooglgooginvestorshaveopportunitytoleadalphabetincsecuritiesfraudlawsuit": {
+      "title": "GOOGL, GOOG Deadline: GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "로젠 로펌이 2026년 5월 19일부터 7월 16일 사이에 알파벳(Alphabet Inc.) 주식을 매수한 투자자들을 대상으로 증권 사기 집단 소송의 대표 원고 신청 마감일이 2026년 12월 1일이라고 안내했다. 해당 기간 내 매수자는 수수료 없이 소송에 참여해 보상을 받을 수 있다고 설명한다.",
+      "impact": "법적 소송 제기 및 대표 원고 모집 공고는 회사 이미지에 부정적이나, 초기 단계의 주주 소송으로 즉각적인 재무적 타격은 미지수이다.",
+      "caution": "원고측 로펌의 일방적인 소송 안내 광고 성격이 강하며, 혐의의 실체나 재판 결과는 아직 확정되지 않았다."
+    },
+    "detroitlionstradestermsofandreciscodealwithjetsaltered": {
+      "title": "Detroit Lions trades: Terms of Andre Cisco deal with Jets altered",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "NFL 팀 디트로이트 라이온스가 뉴욕 제츠로부터 세이프티 선수인 안드레 시스코(Andre Cisco)를 영입하는 트레이드 조건을 일부 변경했다고 보도했다. 라이온스는 기존 2028년 6라운드 지명권 대신 2029년 6라운드 지명권을 제츠에 양도하기로 했다.",
+      "impact": "보유 종목인 시스코 시스템즈(Cisco Systems)와는 전혀 무관한 NFL 미 프로풋볼 선수 개인의 이적 소식이다.",
+      "caution": "기업 '시스코 시스템즈'가 아닌 동명이인의 미 프로풋볼 선수 안드레 시스코에 관한 기사이다."
+    },
+    "vertivholdingscovrtsecuresinfineonsupplydealisthevaluationgapstillcompelling": {
+      "title": "Vertiv Holdings Co (VRT) Secures Infineon Supply Deal, Is The Valuation Gap Still Compelling?",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "버티브 홀딩스(Vertiv Holdings Co)가 인피니언 테크놀로지스와 새로운 반도체 공급 계약을 체결했다고 보도했다. 이는 견조한 분기 실적 발표와 상향된 매출 가이던스 발표 직후에 나온 계약이다.",
+      "impact": "핵심 부품 공급망 확보를 통해 AI 인프라 및 전력 관리 부문의 사업 확장이 기대되며, 최근의 실적 호조 흐름을 뒷받침한다.",
+      "caution": "최근 주가가 단기적으로 높은 변동성을 보이고 있어 거시경제적 요인이나 시장 전체의 변동에 유의해야 한다."
+    },
+    "baesystemsacceleratesguidancesensordeliveriesforlockheedmartinslongrangeantishipmissile": {
+      "title": "BAE Systems accelerates guidance sensor deliveries for Lockheed Martin’s Long-Range Anti-Ship Missile",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "BAE 시스템즈가 록히드마틴(Lockheed Martin)의 장거리 대함미사일(LRASM)에 탑재되는 유도 센서의 납품 일정을 단축하고 생산 능력을 확대하기 위해 전자전 시설에 투자했다고 밝혔다. 센서 소프트웨어가 업그레이드되었으며 디지털 검증 테스트도 완료되었다.",
+      "impact": "주력 미사일 프로그램의 핵심 부품 조달이 원활해지고 생산이 가속화됨에 따라 록히드마틴의 방산 계약 이행 능력과 매출 실현에 긍정적인 영향을 준다.",
+      "caution": "부품 공급사의 생산 가속화 발표일 뿐 록히드마틴 자체의 신규 수주 계약 성사나 재무제표 상의 직접적 매출 반영 시점은 다를 수 있다."
+    },
+    "bankofamericacutsnikeearningsforecastasrecoverypushedbackto2028": {
+      "title": "Bank of America cuts Nike earnings forecast as recovery pushed back to 2028",
+      "holding": "나이키 B",
+      "stance": "악재",
+      "summary": "뱅크오브아메리카는 나이키(Nike Inc.)의 실적 회복 시점이 당초 예상보다 미뤄져 2028 회계연도 3분기에나 가능할 것이라며 실적 전망을 하향 조정했다. 조던 브랜드의 부진이 장기화되면서 2028 회계연도 주당순이익(EPS) 추정치를 1.31달러로 11% 낮췄다.",
+      "impact": "핵심 브랜드의 판매 부진과 회복 지연으로 인해 향후 실적 성장성에 타격이 불가피하며 투자 심리가 악화될 수 있다.",
+      "caution": "애널리스트의 추정치 변경에 기반한 전망이며 향후 실제 판매 데이터나 리테일러들과의 재고 조정 결과에 따라 변동될 여지가 있다."
+    },
+    "himshersdrops18asq3lossandprofitoutlookcutdisappointnovonordiskslides2elilillyholdssteady": {
+      "title": "Hims & Hers Drops 18% as Q3 Loss and Profit Outlook Cut Disappoint; Novo Nordisk Slides 2%, Eli Lilly Holds Steady",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "노보노디스크 ADR 주가는 2026년 11월 10일 기준 2% 하락했다. 동종 업계인 Hims & Hers가 3분기 실망스러운 실적과 이익 전망치 하향으로 18% 급락한 영향을 일부 받았다.",
+      "impact": "경쟁사 및 관련 헬스케어 섹터의 악재와 주가 하락이 심리적 연동을 일으켜 보유 종목인 노보노디스크 주가에도 소폭의 하방 압력을 주었다.",
+      "caution": "노보노디스크 자체의 개별 기업 악재라기보다는 섹터 전반의 분위기 하락에 연동된 결과다."
+    },
+    "nvidiacorporationnvdastockpricenewsquotehistory": {
+      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
+      "holding": "엔비디아",
+      "stance": "중립",
+      "summary": "엔비디아(NVDA)는 데이터 센터 규모의 AI 인프라, 컴퓨팅 및 네트워킹, 그래픽 세그먼트를 운영하는 미국 기업이다. 지포스 GPU와 엔터프라이즈 워크스테이션용 RTX GPU 등을 제조 및 판매한다.",
+      "impact": "본문은 기업의 기본적인 사업 영역과 제품군을 설명하는 개요 수준의 내용으로, 주가에 직접적인 방향성을 제시하는 새로운 사건이나 수치가 없다.",
+      "caution": "단순 기업 개요 소개 기사이며 실적이나 구체적 뉴스 내용이 포함되어 있지 않다."
+    },
+    "naterastockraises2026outlookastestvolumesaccelerate": {
+      "title": "Natera stock raises 2026 outlook as test volumes accelerate",
+      "holding": "나테라",
+      "stance": "호재",
+      "summary": "나테라는 2026년 11월 5일 발표를 통해 3분기 매출이 전년 동기 대비 34.1% 증가한 7억 9,400만 달러를 기록했다고 밝혔다. 이에 힘입어 연간 매출 전망치를 상향 조정했다.",
+      "impact": "테스트 처리량 증가와 온콜로지 테스트의 고성장으로 매출이 늘어나고 가이던스가 상향되어 보유 종목의 펀더멘털 개선과 실적 성장에 직접적인 긍정적 영향을 준다.",
+      "caution": "직원 확충 및 임상시험 투자 증가로 인해 비용 압박이 커지면서 분기 순손실이 5,990만 달러 발생한 점은 비용 관리 측면에서 모니터링이 필요하다."
+    },
+    "himshershealthinchimsq32026earningscallhighlightsrevenuesurges49to": {
+      "title": "Hims & Hers Health Inc (HIMS) (Q3 2026) Earnings Call Highlights: Revenue Surges 49% to ...",
+      "holding": "힘스앤허스 헬스",
+      "stance": "약한 악재",
+      "summary": "힘스앤허스 헬스는 2026년 3분기 매출이 전년 동기 대비 49% 증가한 8억 9,000만 달러를 기록했으나, 구독자 수가 전분기 대비 10만 명 감소했다. 또한 총 마진이 전분기 대비 약 7%포인트 하락했다.",
+      "impact": "매출 성장은 가파르나 구독자 순감소와 마진 악화로 인해 수익성 및 성장 지속성에 대한 우려를 낳아 주가에 부담으로 작용한다.",
+      "caution": "지연된 멤버십 수익 1,800만 달러가 4분기에 인식될 예정이므로 향후 실적 회복 가능성을 함께 살펴봐야 한다."
+    },
     "sk하이닉스메모리가격하락해도2029년영업이익290조원": {
       "title": "“SK하이닉스, 메모리 가격 하락해도 2029년 영업이익 290조 원”",
       "holding": "SK하이닉스",
@@ -9723,14 +9883,6 @@
       "summary": "알먼티 주가는 9월 8일 장중 10.3% 급등했다가 이후 6.1% 하락해 EUR 13.40에 마감하는 등 뚜렷한 촉매 없이 높은 변동성을 보였다. Jefferies는 알먼티에 대해 매수 의견과 목표가 26.25달러로 커버리지를 시작했고, 상동 프로젝트 진전과 8월 승인된 최대 3억달러 규모 자사주 매입 계획도 기존 호재로 언급됐다.",
       "impact": "Jefferies의 매수 의견과 목표가는 알먼티에 대한 기관 투자자 관심과 시장 평가를 높일 수 있으며, 상동 프로젝트와 자사주 매입은 주가의 잠재적 지지 요인이다. 다만 주가 움직임이 텅스텐 공급 기대와 수급·심리에 크게 좌우되고 있어 지속적인 기업가치 개선으로 단정하기는 어렵다.",
       "caution": "주가가 10.3% 상승 후 6.1% 하락하는 등 변동성이 크고, 기사도 9월 8일 상승에 명확한 기업 발표가 없었다고 설명한다."
-    },
-    "wallstreetanalystsarebullishontoptechnologypicks": {
-      "title": "Wall Street Analysts Are Bullish on Top Technology Picks",
-      "holding": "크레도 테크놀로지",
-      "stance": "중립",
-      "summary": "이 기사는 월가 애널리스트들이 마벨과 리서치 솔루션스에 대해 긍정적인 의견을 냈다는 내용을 다룬다. 뱅크오브아메리카의 Vivek Arya는 마벨에 매수 의견을 유지했고, 마벨의 시장 컨센서스 목표가는 298.38달러, 추가 상승 여력은 27.2%로 제시됐으며 크레도 테크놀로지는 애널리스트의 커버리지 종목 중 하나로만 언급됐다.",
-      "impact": "크레도 테크놀로지가 기술주 및 AI 관련 애널리스트의 관심 종목군에 포함된 점은 간접적인 투자심리 개선 요인이 될 수 있다. 그러나 해당 기사에서 크레도에 대한 투자의견, 목표가, 실적 전망은 제시되지 않아 보유 종목에 대한 직접적인 영향은 확인하기 어렵다.",
-      "caution": "기사의 주제와 구체적인 긍정 의견은 마벨과 리서치 솔루션스에 관한 것이며, 크레도 테크놀로지는 언급만 됐다."
     },
     "googleshistoric396mwcleanenergydealjustchangedthegamefor1aipowerplay": {
       "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
