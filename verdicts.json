@@ -1,17 +1,145 @@
 {
-  "generated_at": "2026-11-11T09:46:54+09:00",
+  "generated_at": "2026-11-12T10:59:53+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 7078,
-    "output_tokens": 3843
+    "input_tokens": 5468,
+    "output_tokens": 3054
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 3,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자21만원sk하이닉스동반상승jyp1693급등": {
+      "title": "삼성전자 21만원·SK하이닉스 동반 상승… JYP 16.93% 급등",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "12일 오전 네이버 증권 검색 상위권에서 SK하이닉스가 0.39% 오른 128만 2000원을 기록했다. 삼성전자와 함께 동반 상승하며 시장의 관심을 받았다.",
+      "impact": "주가와 거래 관심도가 상승하며 투자 심리에 긍정적인 영향을 미쳤다.",
+      "caution": "단순 검색 순위 및 장중 일부 상승에 대한 보도이며 실적 개선을 직접 증명하는 내용은 아니다."
+    },
+    "kcchd현대중공업대한민국색채대상그린상수상": {
+      "title": "KCC·HD현대중공업, 대한민국색채대상 그린상 수상",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "KCC는 HD현대중공업과 공동으로 추진한 사업장 환경 색채 디자인 개선 프로젝트가 '제24회 대한민국색채대상'에서 그린상을 수상했다고 12일 밝혔다. 안전성을 높이고 작업환경을 개선한 점이 호평을 받았다.",
+      "impact": "작업 환경 개선 및 기업 이미지 제고에 기여하나, 직접적인 재무적 성과나 실적에 미치는 영향은 제한적이다.",
+      "caution": "디자인 및 안전 관련 수상으로 직접적인 매출이나 주가 상승 모멘텀으로 직결되기는 어렵다."
+    },
+    "delljumps11asaiserverstocksreboundfromaroughmonthsupermicrosurges8hewlettpackardenterpriseadvances6": {
+      "title": "Dell Jumps 11% as AI Server Stocks Rebound From a Rough Month; Super Micro Surges 8%, Hewlett Packard Enterprise Advances 6%",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "11일 델 테크놀로지스(DELL) 주가는 AI 서버주들의 반등세에 힘입어 초기 거래에서 11% 급등하며 370.25달러를 기록했다. 11월 3일 중간선거 이후 이어진 AI 하드웨어 매도세에서 벗어나 반등을 주도했다.",
+      "impact": "AI 서버 수요 회복과 함께 주가가 급등하며 투자자들의 단기 수익률과 심리에 직접적인 호재로 작용했다.",
+      "caution": "최근 한 달간의 급락 이후 나타난 반등 국면이므로 지속성에 대한 모니터링이 필요하다."
+    },
+    "nashvilledistillerynelsonsgreenbrierfoundersbuybackfullownershipofcompanyfromconstellationbrands": {
+      "title": "Nashville Distillery Nelson’s Green Brier Founders Buy Back Full Ownership of Company From Constellation Brands",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "내슈빌 증류소 넬슨스 그린 브리어(Nelson’s Green Brier)의 창업자 형제가 컨스텔레이션 브랜즈로부터 회사의 지분 전량을 다시 매입했다. 이번 거래로 브랜드와 재고, 시설 임대권이 원소유자 가족에게 돌아갔다.",
+      "impact": "컨스텔레이션 브랜즈의 포트폴리오 변화 요인이지만 기업 전체 실적이나 주가에 미치는 영향은 미미하다.",
+      "caution": "보유 종목인 컨스텔레이션 브랜즈가 소규모 자회사 지분을 매각한 건으로 핵심 사업에 큰 타격은 없다."
+    },
+    "whatfirstsolarbearssawbeforethefall": {
+      "title": "What First Solar Bears Saw Before The Fall",
+      "holding": "퍼스트솔라",
+      "stance": "악재",
+      "summary": "퍼스트솔라는 연초 이후 배당금을 포함해 34.0%의 주가 하락률을 기록했다. 국내 확장과 관세 보호, 신기술 기대감에도 불구하고 2028년 실적 가정과 관련된 특정 기대들이 취약점을 드러냈다.",
+      "impact": "주가 하락과 함께 투자자들의 실망 매물이 이어지며 주가에 하방 압력을 가했다.",
+      "caution": "과거 연초 이후의 누적 수익률을 다룬 칼럼성 기사로 향후 실적 발표에 따라 변동될 여지가 있다."
+    },
+    "constellationenergysdividendissmallaipowerdemandcouldchangethat": {
+      "title": "Constellation Energy’s Dividend Is Small. AI Power Demand Could Change That",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 호재",
+      "summary": "컨스텔레이션 에너지는 2026년에 올해 두 번째로 실적 가이던스를 상향 조정했다. 1월 7일 캘파인(Calpine) 거래를 마무리하며 약 55GW의 용량을 확보해 미국 내 최대 원자력 발전 포트폴리오를 보유하고 있다.",
+      "impact": "실적 가이던스 상향과 대규모 원자력 발전 용량 확보는 AI 전력 수요 급증과 맞물려 장기적인 펀더멘털을 강화한다.",
+      "caution": "현재 배당 수익률이 0.63~0.67% 수준으로 낮아 배당 투자자 관점에서는 즉각적인 현금 유입 효과가 크지 않다."
+    },
+    "hereswhatkeymetricstellusaboutvistravstq3earnings": {
+      "title": "Here's What Key Metrics Tell Us About Vistra (VST) Q3 Earnings",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "비스트라 에너지(VST)는 2026년 9월 마감 분기 매출 63억 5000만 달러로 전년 동기 대비 27.7% 증가했다고 발표했다. 주당순이익(EPS)은 3.23달러를 기록해 월가 컨센서스를 상회했다.",
+      "impact": "EPS가 예상치를 상회하고 매출이 크게 성장하며 회사의 견조한 재무 건전성을 입증했다.",
+      "caution": "매출액(63억 5000만 달러)이 잭스 컨센서스(71억 1000만 달러)를 하회하여 일부 지표에서는 아쉬움을 남겼다."
+    },
+    "eosenergyenterprisesnasdaqeosesharesclimb118whatsnext": {
+      "title": "Eos Energy Enterprises (NASDAQ:EOSE) Shares Climb 11.8% - What's Next?",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "이오스 에너지 엔터프라이즈(EOSE) 주가는 수요일 거래에서 11.8% 상승하여 1.945달러를 기록했다. 분기 주당순이익(EPS)은 -0.17달러로 예상치인 -0.24달러를 상회했고 매출도 8273만 달러로 예상치를 웃돌았다.",
+      "impact": "실적이 예상보다 양호하게 발표되면서 투자 심리가 개선되고 주가 상승을 견인했다.",
+      "caution": "주가 상승에도 불구하고 거래량이 일일 평균 대비 88% 감소한 상태여서 시장 참여도가 낮을 수 있다."
+    },
+    "almontysinvestmentcaserestsontwoverydifferentledgers": {
+      "title": "Almonty's Investment Case Rests on Two Very Different Ledgers",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티는 한국 계곡 현장의 가동 문제와 캐나다 법원에서 독일 로슈토프(Deutsche Rohstoff)가 제기한 약 6,700만 달러 규모의 소송이라는 두 가지 과제를 안고 있다. 경영진은 타이트한 서구 텅스텐 시장의 기회를 강조하고 있으나, 법적 리스크와 운영적 불확실성이 공존하고 있다.",
+      "impact": "생산 설비 개선과 텅스텐 시장의 호재가 존재하지만, 대규모 법적 소송 리스크가 주가에 하방 압력으로 작용할 수 있어 방향성이 엇갈린다.",
+      "caution": "기사 본문이 완전한 결론을 내리지 않고 두 가지 측면을 저울질하는 구조이므로 단기적 주가 영향은 중립적이다."
+    },
+    "howmuchcouldyouloseincredostock": {
+      "title": "How Much Could You Lose In Credo Stock?",
+      "holding": "크레도 테크놀로지",
+      "stance": "약한 악재",
+      "summary": "크레도 테크놀로지(CRDO)는 11월 10일 기준 6월 22일 고점 대비 57.1% 하락했으며, 최근 한 달간 35.4% 하락하여 S&P 500의 3.6% 하락 대비 큰 낙폭을 보였다. 9월 1일 이후 새로운 실적 발표가 없는 상태에서 과거 시장 충격 시(2023년 은행 위기 등) 지수보다 더 깊게 하락했던 전력이 있다.",
+      "impact": "보유 주가가 시장 평균보다 훨씬 큰 하락세를 보이고 있고 최근 한 달간 급락해 투자 심리가 위축되어 있다.",
+      "caution": "과거 데이터에 기반한 분석이며 다가오는 실적이나 기업 자체의 펀더멘털 변화에 따라 반등 여지가 있다."
+    },
+    "alphabetdoubledcloudrevenueandraised62bsellingitsownstock": {
+      "title": "Alphabet Doubled Cloud Revenue and Raised $62B Selling Its Own Stock",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳(Alphabet)은 Q3 2026에 자본적 지출(capex) 51.4억 달러를 기록하고 잉여현금흐름이 마이너스 91억 달러로 떨어졌으며, 클라우드 매출은 두 배로 증가했다. 1251억 달러의 장기 부채와 561억 달러의 클라우드 백로그가 공존하는 가운데 AI 인프라 투자 비용이 급증하고 있다.",
+      "impact": "클라우드 부문의 고성장에도 불구하고 막대한 자본 지출과 현금흐름 악화, 대규모 부채가 부담으로 작용할 수 있다.",
+      "caution": "본문 내용이 데이터 센터 섹터 뉴스레터 안내문과 일부 지표만 언급되어 있어 구체적인 실적 전체를 평가하기엔 한계가 있다."
+    },
+    "ciscoearningspreviewepsmarginsandguidanceinfocus": {
+      "title": "Cisco earnings preview: EPS, margins, and guidance in focus",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코 시스템즈(CSCO)는 2026년 11월 12일 장 마감 후 회계기준 Q1 2027 실적을 발표할 예정이다. 컨센서스는 매출 181억 1000만 달러에 주당순이익(EPS) 1.32달러로, 전년 동기 대비 약 21.7%의 매출 성장과 32%의 EPS 성장이 예상된다.",
+      "impact": "시장 컨센서스대로 높은 매출 및 EPS 성장이 발표될 경우 주가에 긍정적인 영향을 미칠 수 있다.",
+      "caution": "실적 발표 전 예상치에 기반한 프리뷰 기사이므로 실제 발표 결과가 기대치에 미치지 못할 경우 변동성이 커질 수 있다."
+    },
+    "vertivsdatacentergrowthfuelsrevenuecanitbeataphandsmci": {
+      "title": "Vertiv's Data Center Growth Fuels Revenue: Can It Beat APH and SMCI?",
+      "holding": "버티브 홀딩스",
+      "stance": "중립",
+      "summary": "버티브 홀딩스의 데이터 센터 성장에 관한 기사이나 본문 내용이 봇 차단 및 쿠키 활성화 안내문으로 채워져 있다.",
+      "impact": "기사 본문에 실제 기업 분석이나 수치가 제공되지 않아 보유 종목에 미치는 영향이 없다.",
+      "caution": "기사가 아닌 웹사이트 접근 차단 안내문만 존재하므로 중립으로 처리한다."
+    },
+    "ukministryofdefencerecommendslockheedmartinoverairbusfor24bskynetcontract": {
+      "title": "UK Ministry of Defence Recommends Lockheed Martin Over Airbus for £2.4B Skynet Contract",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "11월 5일 영국 국방부(MoD)는 24억 파운드(약 32억 달러) 규모의 차세대 스카이넷(Skynet) 군사 통신 위성 프로그램 계약 대상자로 에어버스를 제치고 록히드마틴을 추천했다. 최종 결정은 2주 내로 영국 총리 앤디 번햄의 검토를 거쳐 확정될 예정이다.",
+      "impact": "대규모 방산 계약 수주 가능성이 높아짐에 따라 록히드마틴의 장기 매출 성장에 긍정적인 기여를 한다.",
+      "caution": "아직 영국 총리의 최종 승인이 남았으며, 국내 정치 및 고용 문제로 인한 논란이 변수가 될 수 있다."
+    },
+    "a72yearoldwith500000inpepsiconikeandbristolmyerssquibbcollects1729amonthindividendshowsafeiseachcheck": {
+      "title": "A 72-Year-Old With $500,000 in PepsiCo, Nike and Bristol Myers Squibb Collects $1,729 a Month in Dividends. How Safe Is Each Check?",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "가상 포트폴리오 분석에 따르면 나이키(Nike)는 지난 12개월 동안 잉여현금흐름의 115%를 배당금으로 지불하고 있어 배당이 다소 불안정한 상태다. 또한 나이키는 회계연도 2027년에 매출이 한 자릿수 후반으로 하락할 것으로 예상하고 있다.",
+      "impact": "매출 감소 전망과 함께 잉여현금흐름을 초과하는 배당 지급률은 향후 배당 삭감 위험을 높여 투자 매력을 떨어뜨린다.",
+      "caution": "가상 포트폴리오를 가정한 분석 기사이며 나이키의 구체적인 구조조정이나 턴어라운드 계획은 본문에 상세히 다뤄지지 않았다."
+    },
+    "novonordisknvostockmaytradebelowfairvaluefollowingraisedoutlook": {
+      "title": "Novo Nordisk (NVO) Stock May Trade Below Fair Value Following Raised Outlook",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크(NVO)는 비만 및 당뇨병 치료제(웨고비, 카그리세마 등)에 대한 지속적인 수요 기대감 속에 실적 전망이 상향 조정되었다. 최근 몇 년간 주가가 56.4% 하락하여 40.70달러 부근에서 거래되고 있으나 이익 성장이 현재 밸류에이션을 정당화하는지가 주목받고 있다.",
+      "impact": "신약 파이프라인의 수요 호조와 전망 상향은 장기적인 이익 성장세로 이어져 주가 회복을 견인할 수 있다.",
+      "caution": "과거 주가 하락 폭이 컸으며 시장이 기대하는 이익 성장률을 실제로 충족하는지 지속적인 모니터링이 필요하다."
+    },
     "하이닉스영업이익률80알고보면아찔한상황": {
       "title": "하이닉스 영업이익률 80%? 알고 보면 아찔한 상황",
       "holding": "SK하이닉스",
