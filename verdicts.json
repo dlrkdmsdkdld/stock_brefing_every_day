@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T10:59:53+09:00",
+  "generated_at": "2026-11-13T10:15:51+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 5468,
-    "output_tokens": 3054
+    "input_tokens": 6315,
+    "output_tokens": 3052
   },
   "skipped": {
     "본문없음": 3,
@@ -12,6 +12,134 @@
     "호출실패": []
   },
   "verdicts": {
+    "특징주젠슨황사임여파미미삼성전자sk하이닉스강세": {
+      "title": "[특징주] 젠슨 황 사임 여파 '미미'⋯삼성전자·SK하이닉스 '강세'",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "13일 한국거래소에서 SK하이닉스는 전 거래일 대비 4.86% 오른 131만5000원에 거래되며 강세를 보였다. 엔비디아의 젠슨 황 CEO 사임 소식에도 불구하고, AI 밸류체인 전반의 투자심리가 확대되면서 반사 이익 기대감이 작용한 것으로 풀이된다.",
+      "impact": "경쟁 업체들의 주가 상승이 AI 수요 분산 가능성을 보여주며, 시장에서는 이를 AI 성장성 훼손으로 보지 않아 SK하이닉스의 주가에 긍정적인 영향을 미쳤다.",
+      "caution": "단기적인 미국 기술주 랠리와 경쟁사 수혜 기대감에 따른 변동성에 유의할 필요가 있다."
+    },
+    "베일벗은삼성전자우승턱딱12일간만혜택쏟아져": {
+      "title": "베일벗은 삼성전자 우승턱..딱 12일간만 혜택 쏟아져",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자는 삼성 라이온즈의 한국시리즈 9번째 우승을 기념해 13일부터 24일까지 12일간 '삼성전자 대축제' 프로모션을 진행한다. 가전 구독 시 최대 12개월 상당의 혜택(기존 6개월+포인트 추가 지급)을 제공하고 매일 9명에게 경품을 증정하며, 코리아 그랜드 페스티벌 할인 행사도 병행한다.",
+      "impact": "다양한 가전 및 모바일 제품군의 판매 촉진과 구독 서비스 확대를 통해 매출 증가 및 고객 확보에 긍정적인 영향을 준다.",
+      "caution": "프로모션에 따른 마케팅 비용 증가가 단기 수익성에 미치는 영향은 지켜봐야 한다."
+    },
+    "미군이찾은hd현대중공업mro경험건조경쟁력으로잇나": {
+      "title": "미군이 찾은 HD현대중공업…MRO 경험, 美 건조 경쟁력으로 잇나",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "미 국방부 고위 관계자들이 지난 4일 HD현대중공업 울산 조선소를 방문해 함정 건조 역량과 군수지원 체계를 평가했다. HD현대중공업은 미 해군 군수지원함 MRO 사업을 수행하며 경험을 쌓고 있으나, 이번 방문이 구체적인 사업 진전 단계는 아니라고 밝혔다.",
+      "impact": "미군 함정 MRO 실적과 미국 현지 조선소 건립 추진은 장기적인 성장 동력이 될 수 있으나, 정비 과정에서 추가 작업 및 공정 관리 변수가 존재하여 단기 실적 영향은 제한적이다.",
+      "caution": "울산에서의 정비 대응력이 미국 현지 생산체계에서도 동일하게 발휘될지는 미지수이며 구체적인 계약으로 이어질지 추가 확인이 필요하다."
+    },
+    "dellnysedellbuildsanaibacklogcanserverslead": {
+      "title": "Dell (NYSE:DELL) Builds An AI Backlog: Can Servers Lead?",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "델(Dell, NYSE:DELL)은 대규모 AI 서버 백로그(수주 잔고)를 바탕으로 성장을 이어가고 있으며, 주당 실적이 예상치를 크게 상회했다. 매출 역시 전년 동기 대비 성장세를 기록했다.",
+      "impact": "탄탄한 AI 서버 수주 잔고와 호실적은 델의 핵심 사업 성장을 직접적으로 견인하여 주가에 호재로 작용한다.",
+      "caution": "본문은 다른 기업들에 대한 구글 뉴스 링크와 요약 하이라이트 위주로 구성되어 있어 세부 재무 수치의 지속 가능성은 추가 검토가 필요하다."
+    },
+    "insidersellingconstellationbrandsnysestzevpsells750sharesofstock": {
+      "title": "Insider Selling: Constellation Brands (NYSE:STZ) EVP Sells 750 Shares of Stock",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈(NYSE:STZ)의 수석부사장(EVP)인 사무엘 글래처가 75회 주식을 매도하여 지분의 16.55%를 축소했다. 한편 회사는 분기 주당순이익(EPS) 3.74달러, 매출 2.63억 달러로 예상치를 상회하는 실적을 기록했다.",
+      "impact": "내부자의 주식 매도는 단기적으로 투자심리에 부담을 줄 수 있으나, 시장 예상을 웃도는 양호한 실적과 가이드라인 제시가 이를 상쇄하여 전반적인 영향은 중립적이다.",
+      "caution": "애널리스트 컨센서스가 'Hold'를 유지하고 있어 뚜렷한 방향성을 예단하기 어렵다."
+    },
+    "constellationenergysoars13inaweekonaguidanceraiseaplatformheretoforeunseen": {
+      "title": "Constellation Energy Soars 13% in a Week on a Guidance Raise: “A Platform Heretofore Unseen”",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지(CEG)는 3분기 호실적 발표와 올해 두 번째 가이드라인 상향에 힘입어 최근 일주일간 13% 급등했다. CEO에 따르면 2032년까지 청정 전력 생산량의 거의 절반이 수십 년간 계약될 예정이며, 이는 2028년까지의 애널리스트 추정치를 뒷받침한다.",
+      "impact": "장기 공급 계약과 실적 기대감 상향은 전력 수요 증가 속에서 회사의 안정적인 현금 창출과 성장성을 강화하여 주가에 강력한 호재로 작용한다.",
+      "caution": "AI 전력주 전반을 둘러싼 외부 시장 환경 변화(예: 중간선거 관련 이슈 등)에 따른 변동성을 유의해야 한다."
+    },
+    "vistravststockpricepredictionearningsbeatliftsthesetupbuttexasriskandsellingpressurecapmomentum": {
+      "title": "Vistra (VST) Stock Price Prediction: Earnings beat lifts the setup, but Texas risk and selling pressure cap momentum",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "비스트라(VST)는 3분기 조정 상각전영업이익(EBITDA) 23억 7800만 달러를 기록해 시장 컨센서스를 상회했으며, 2026년 가이드라인 상향 및 2027년 실적 개선 전망을 제시했다. 또한 2028년까지 15억 달러 규모의 자사주 매입을 추가 승인했다.",
+      "impact": "견고한 실적과 주주환원 정책(자사주 매입)은 주가에 펀더멘털 상승 압력으로 작용한다.",
+      "caution": "텍사스 지역 관련 리스크와 매도 압력이 상방 모멘텀을 제한할 수 있다는 지적이 존재한다."
+    },
+    "whyiseosenergynasdaqeosegainingattentioningridstorage": {
+      "title": "Why Is Eos Energy (NASDAQ:EOSE) Gaining Attention In Grid Storage?",
+      "holding": "이오스 에너지",
+      "stance": "호재",
+      "summary": "이오스 에너지(NASDAQ:EOSE)는 최근 실적 발표에서 매출과 이익 모두 예상치를 상회하며 시장의 주목을 받고 있다. 아연 배터리를 활용한 장주기 에너지 저장 장치(Long-duration storage) 기술이 그리드 및 산업용으로 부각되고 있다.",
+      "impact": "예상을 상회한 실적과 친환경 그리드 저장 시장에서의 기술력 부각은 회사의 사업 확장에 긍정적인 모멘텀을 제공한다.",
+      "caution": "글로벌 에너지 저장장치(ESS) 시장의 경쟁 심화 및 주가 변동성에 주의할 필요가 있다."
+    },
+    "almontyindustriesincalmmissesq3earningsandrevenueestimates": {
+      "title": "Almonty Industries Inc. (ALM) Misses Q3 Earnings and Revenue Estimates",
+      "holding": "알먼티",
+      "stance": "약한 악재",
+      "summary": "알먼티 인더스트리즈(ALM)의 3분기 주당 순이익이 0.03달러로 잭스 컨센서스 예상치인 0.07달러를 밑돌았다. 동기간 매출액은 2,994만 달러를 기록했으며, 지난 4분기 동안 연속으로 컨센서스 EPS를 달성하지 못했다.",
+      "impact": "실적 부진과 컨센서스 하회로 인해 단기적인 투자 심리가 위축될 수 있다.",
+      "caution": ""
+    },
+    "alphabetdraws5billioninordersasaifrenzybuilds": {
+      "title": "Alphabet Draws $5 Billion in Orders as AI Frenzy Builds",
+      "holding": "알파벳 A",
+      "stance": "호재",
+      "summary": "알파벳은 홍콩 및 싱가포르 달러 채권 발행에서 약 50억 달러어치의 초기 주문을 끌어모으며 강력한 기관 수요를 증명했다. 3 tranches의 홍콩달러 채권은 24억 홍콩달러(약 31억 달러) 이상의 주문을 받았다.",
+      "impact": "AI 인프라 투자 확대에 필요한 자금을 원활하게 조달할 수 있음을 보여주어 긍정적인 재무적 모멘텀으로 작용한다.",
+      "caution": ""
+    },
+    "ciscosystemsq12027earningscallciscoraisesfy2027revenueoutlookto75basaiinfrastructurerevenuesettodoubleto9bq1revenuejumps24torecord185b": {
+      "title": "[Cisco Systems Q1 2027 Earnings Call] Cisco Raises FY2027 Revenue Outlook to $75B as AI Infrastructure Revenue Set to Double to $9B; Q1 Revenue Jumps 24% to Record $18.5B",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코 시스템즈는 2027 회계연도 1분기 매출액이 전년 동기 대비 24% 증가한 185억 달러를 기록하며 사상 최대치를 경신했고, 비 GAAP 주당순이익(EPS)은 40% 증가한 1.40달러를 기록했다. 이에 힘입어 회사는 2027 회계연도 전체 매출 전망을 75억 달러로 상향하고, AI 인프라 매출이 9억 달러로 두 배 성장할 것으로 전망했다.",
+      "impact": "기록적인 매출 성장과 AI 인프라 부문의 고성장 확인, 그리고 연간 가이드라인 상향 조정은 주가에 강력한 호재로 작용한다.",
+      "caution": ""
+    },
+    "vertivdismissesaibubblelandsprojectsandseeslatinamericaongrowthtrack": {
+      "title": "Vertiv dismisses AI bubble, lands projects and sees Latin America on growth track",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스는 3분기 순매출이 전년 동기 대비 61% 증가한 약 43억 달러를 기록했으며, 2026년 연간 매출 가이던스를 146억 5천만 달러로 상향 조정했다. 또한 동사는 9월에 마이크로그리드 전문 기업인 유틸리티이노베이션 그룹을 14억 5천만 달러에 인수했다.",
+      "impact": "급증한 매출과 상향된 가이던스, 그리고 데이터 센터 인프라 수요 지속에 대한 자신감은 보유 종목 실적과 성장성에 직접적인 호재이다.",
+      "caution": ""
+    },
+    "lockheedmartintogrowhunterworkforceunder132billioncontract": {
+      "title": "Lockheed Martin to grow Hunter workforce under $1.32 billion contract",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴 오스트레일리아는 호주 정부와 13억 2천만 달러 규모의 방위 산업 계약을 체결하여 Hunter 인력을 60명에서 최대 100명까지 늘릴 예정이다. 이번 계약은 호주의 통합 공중 전투 관리 시스템(AIR6500 프로젝트)의 다음 단계를 수행하기 위한 것이다.",
+      "impact": "대규모 방산 계약 체결을 통해 안정적인 매출원 확보와 장기적인 인력 및 생산 능력 확장이 가능해진다.",
+      "caution": ""
+    },
+    "cerebrassurges17afterbeatingonquarterlyrevenueandannouncingmicrosoftdeal": {
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "세레브라스 시스템즈는 예상치를 웃도는 2억 3,090만 달러의 핵심 매출을 기록하고 마이크로소프트와의 신규 계약 체결을 발표하며 시간외 거래에서 주가가 17% 급등했다. 마이크로소프트와의 제휴는 하드웨어 부문에서 새로운 기회를 창출하고 있다.",
+      "impact": "마이크로소프트와의 제휴 및 관련 하드웨어 부문 실적 호조는 마이크로소프트의 AI 생태계 확장 측면에서 간접적인 호재로 작용할 수 있다.",
+      "caution": "기사의 주된 대상은 세레브라스이며, 마이크로소프트는 파트너십 대상 중 하나로만 언급되었다."
+    },
+    "novonordisknvostockpricepredictionbmoshighertargetmeetsamixedtechnicaltape": {
+      "title": "Novo Nordisk (NVO) Stock Price Prediction: BMO’s higher target meets a mixed technical tape",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크(NVO) 주가는 41.30달러에 거래되고 있으며, BMO 캐피털 마켓은 목표주가를 40달러에서 44달러로 상향 조정하고 Market Perform 투자의견을 유지했다. 이는 강력한 웨고비 필름(Wegovy pill) 성과와 예상치를 17% 상회하는 미국 내 매출에 기인한다.",
+      "impact": "주요 증권사의 목표주가 상향과 웨고비의 강력한 판매 실적 확인은 주가 상승에 긍정적인 영향을 준다.",
+      "caution": "목표주가는 상향되었으나 투자의견 자체는 Market Perform으로 유지되었다."
+    },
+    "자동차보험2026년11월브랜드평판kb손해보험db손해보험현대해상": {
+      "title": "자동차보험 2026년 11월 브랜드평판...KB손해보험, DB손해보험, 현대해상 順",
+      "holding": "현대해상",
+      "stance": "중립",
+      "summary": "2026년 11월 자동차보험 브랜드평판 빅데이터 분석 결과 KB손해보험이 1위, DB손해보험이 2위, 현대해상이 3위를 기록했다. 2024년 전체 자동차보험 시장 규모는 20조 6,641억 원으로 집계되었다.",
+      "impact": "현대해상이 자동차보험 브랜드평판 3위를 기록했으나, 단순한 순위 발표 기사이며 실적이나 주가에 직접적인 변동을 일으키는 재무적 이벤트는 없다.",
+      "caution": "단순 브랜드 평판 순위 조사 결과이며 구체적인 실적 수치가 아니므로 중립으로 처리함."
+    },
     "삼성전자21만원sk하이닉스동반상승jyp1693급등": {
       "title": "삼성전자 21만원·SK하이닉스 동반 상승… JYP 16.93% 급등",
       "holding": "SK하이닉스",

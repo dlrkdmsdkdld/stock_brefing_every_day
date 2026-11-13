@@ -1,181 +1,162 @@
 {
-  "generated_at": "2026-11-11T09:47:33+09:00",
+  "generated_at": "2026-11-13T10:16:31+09:00",
   "model": "예비/gemini-flash-lite-latest",
   "disclaimer": "투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다.",
   "usage": {
-    "input_tokens": 1738,
-    "output_tokens": 691
+    "input_tokens": 1575,
+    "output_tokens": 734
   },
   "candidates": {
     "mine": [
       {
-        "ticker": "HIMS",
-        "name": "힘스앤허스 헬스",
-        "points": 26.7,
+        "ticker": "001450",
+        "name": "현대해상",
+        "points": 12.4,
         "detail": [
-          "거래량 3.9배",
-          "등락 -16.61%",
-          "오늘 기사 21건",
+          "등락 -5.28%",
+          "오늘 기사 6건",
           "볼린저 하단 이탈",
-          "RSI 30"
-        ]
-      },
-      {
-        "ticker": "NVDA",
-        "name": "엔비디아",
-        "points": 23.7,
-        "detail": [
-          "거래량 2.5배",
-          "등락 -5.47%",
-          "오늘 기사 28건",
-          "볼린저 하단 이탈",
-          "RSI 24",
-          "52주 저점 대비 +2.8%"
-        ]
-      },
-      {
-        "ticker": "RKLB",
-        "name": "로켓랩",
-        "points": 10.9,
-        "detail": [
-          "거래량 1.6배",
-          "등락 +6.54%",
-          "볼린저 상단 이탈"
+          "RSI 26"
         ]
       },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "points": 10.2,
+        "points": 6.0,
         "detail": [
-          "등락 +7.44%",
+          "등락 -3.87%",
           "오늘 기사 80건"
         ]
       },
       {
-        "ticker": "APP",
-        "name": "앱러빈",
-        "points": 9.5,
+        "ticker": "005930",
+        "name": "삼성전자",
+        "points": 5.5,
         "detail": [
-          "등락 -3.53%",
-          "볼린저 상단 이탈",
-          "RSI 73"
+          "오늘 기사 85건"
+        ]
+      },
+      {
+        "ticker": "010950",
+        "name": "S-Oil",
+        "points": 5.3,
+        "detail": [
+          "등락 -3.23%",
+          "RSI 25"
+        ]
+      },
+      {
+        "ticker": "035420",
+        "name": "네이버",
+        "points": 5.2,
+        "detail": [
+          "등락 -7.47%"
         ]
       }
     ],
     "new": [
       {
-        "ticker": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "points": 21.2,
+        "ticker": "PLBL",
+        "name": "Polibeli Group Ltd",
+        "points": 15.0,
         "detail": [
-          "거래량 2.5배",
-          "등락 -9.06%",
-          "볼린저 하단 이탈",
-          "RSI 18",
-          "52주 저점 대비 +1.6%"
+          "거래량 9.8배",
+          "등락 +28.79%"
         ]
       },
       {
-        "ticker": "CRSP",
-        "name": "CRISPR Therapeutics AG",
-        "points": 20.8,
+        "ticker": "BZ",
+        "name": "KANZHUN LIMITED - American Depo",
+        "points": 15.0,
         "detail": [
-          "거래량 3.1배",
-          "등락 -9.77%",
-          "볼린저 하단 이탈",
-          "52주 저점 대비 +2.3%"
+          "거래량 4.5배",
+          "등락 -25.30%"
         ]
       },
       {
-        "ticker": "NOVT",
-        "name": "Novanta Inc.",
-        "points": 19.0,
+        "ticker": "CLBT",
+        "name": "Cellebrite DI Ltd.",
+        "points": 15.0,
+        "detail": [
+          "거래량 3.2배",
+          "등락 -14.25%"
+        ]
+      },
+      {
+        "ticker": "MANE",
+        "name": "Veradermics, Incorporated",
+        "points": 15.0,
         "detail": [
           "거래량 4.0배",
-          "등락 -15.26%",
-          "볼린저 하단 이탈"
+          "등락 -13.59%"
         ]
       },
       {
-        "ticker": "TTD",
-        "name": "The Trade Desk, Inc.",
-        "points": 16.9,
+        "ticker": "DGII",
+        "name": "Digi International Inc.",
+        "points": 15.0,
         "detail": [
-          "거래량 2.9배",
-          "등락 +3.28%",
-          "볼린저 상단 이탈",
-          "RSI 71"
-        ]
-      },
-      {
-        "ticker": "EMBJ",
-        "name": "Embraer S.A.",
-        "points": 16.1,
-        "detail": [
-          "거래량 2.3배",
-          "등락 +7.05%",
-          "볼린저 상단 이탈",
-          "52주 고점 대비 +2.2%"
+          "거래량 3.1배",
+          "등락 -12.72%"
         ]
       }
     ]
   },
   "screen_errors": [],
   "mine": {
-    "ticker": "NVDA",
-    "name": "엔비디아",
+    "ticker": "001450",
+    "name": "현대해상",
     "group": "mine",
-    "price": 168.89,
-    "change_pct": -5.47,
-    "market_cap": 4078186815262,
-    "headline": "극단적 과매도와 52주 저점 근접",
-    "reason": "NVDA는 5.47% 하락하며 종가 168.89 USD를 기록했고 볼린저 밴드 하단을 이탈했다. RSI는 23.9로 극심한 과매도 구간에 진입했으며 52주 저점 대비 단 2.8% 위에 위치해 있다.",
-    "risk": "거래량이 2.5배로 늘었으나 28건의 뉴스가 중립적인 내용에 머물러 있어 추세 반전의 명확한 촉매가 부족할 수 있다."
+    "price": 36750.0,
+    "change_pct": -5.28,
+    "market_cap": 3179800000000,
+    "headline": "현대해상, 볼린저 하단 이탈과 과매도 국면 진입",
+    "reason": "현대해상은 종가 36,750 KRW로 5.28% 하락하며 볼린저 밴드 하단을 이탈했고 RSI는 25.5로 과매도 구간에 진입했다. 뉴스에 따르면 2026년 11월 자동차보험 브랜드평판에서 3위를 기록하며 시장 내 입지를 유지하고 있다.",
+    "risk": "자동차보험 시장 규모 등 기본적인 지표는 나와 있으나 단기 하락 추세가 강해 추가 조정을 염두에 두어야 한다."
   },
   "new": {
-    "ticker": "IONS",
-    "name": "Ionis Pharmaceuticals, Inc.",
+    "ticker": "PLBL",
+    "name": "Polibeli Group Ltd",
     "group": "new",
-    "price": 28.19,
-    "change_pct": -9.06,
-    "market_cap": 4684736000,
-    "headline": "RSI 17대 진입한 극단적 침체",
-    "reason": "IONS는 9.06% 급락하며 28.19 USD로 마감했고 거래량이 2.5배 증가했다. RSI가 17.5로 매우 낮으며 볼린저 하단 이탈과 함께 52주 위치 1%를 기록했다.",
-    "risk": "새 종목이라 뉴스가 수집되지 않아 지표 외의 질적 악재나 펀더멘털 이슈를 파악하기 어렵다."
+    "price": NaN,
+    "change_pct": 28.79,
+    "market_cap": 2663636736,
+    "headline": "PLBL, 거래량 급증과 함께 강한 상승세 기록",
+    "reason": "PLBL은 전일 대비 28.79% 급등하며 시가총액 2.7B 달러를 기록했고 거래량은 평소의 9.8배에 달한다. day_gainers 화면에 포착되며 시장의 강한 단기 수급 집중을 보여주고 있다.",
+    "risk": "새 종목이라 뉴스 요약과 세부 지표가 없어 단기 급등 이후 변동성이 클 수 있으므로 주의해야 한다."
   },
   "others": [
     {
-      "ticker": "HIMS",
-      "note": "구독자 감소와 마진 하락 여파로 16.61% 급락하며 볼린저 하단을 이탈했다."
-    },
-    {
-      "ticker": "RKLB",
-      "note": "6.54% 상승하며 볼린저 상단을 이탈했으나 특별한 뉴스는 없다."
-    },
-    {
       "ticker": "000660",
-      "note": "최대 실적에도 80%의 비정상적 영업이익률이 위기 신호로 지적되었다."
+      "note": "AI 밸류체인 투자심리 확대로 13일 반등 흐름을 보였으나 오늘은 3.87% 하락했다."
     },
     {
-      "ticker": "APP",
-      "note": "RSI 73.2로 과매수 구간에서 3.53% 하락 조정받았다."
+      "ticker": "005930",
+      "note": "한국시리즈 우승 기념 '삼성전자 대축제' 프로모션을 진행 중이며 주가는 0.72% 소폭 하락했다."
     },
     {
-      "ticker": "CRSP",
-      "note": "9.77% 급락하며 볼린저 하단과 52주 저점 부근에 위치했다."
+      "ticker": "010950",
+      "note": "등락률 -3.23% 및 RSI 24.7로 과매도 상태이나 관련 뉴스가 없다."
     },
     {
-      "ticker": "NOVT",
-      "note": "거래량이 4배 폭증하며 15.26% 크게 하락했다."
+      "ticker": "035420",
+      "note": "등락률 -7.47%를 기록했으며 52주 위치 11%로 낮은 수준이다."
     },
     {
-      "ticker": "TTD",
-      "note": "RSI 70.7과 볼린저 상단을 이탈하며 강세를 보였다."
+      "ticker": "BZ",
+      "note": "거래량이 4.5배 증가했으나 25.30% 급락하며 하락률 상위에 올랐다."
     },
     {
-      "ticker": "EMBJ",
-      "note": "7.05% 상승하며 52주 고점 수준을 돌파했다."
+      "ticker": "CLBT",
+      "note": "거래량 3.2배 증가와 함께 14.25% 하락했다."
+    },
+    {
+      "ticker": "MANE",
+      "note": "거래량 4.0배 증가 속에 13.59% 하락세를 기록했다."
+    },
+    {
+      "ticker": "DGII",
+      "note": "거래량 3.1배 증가와 함께 12.72% 하락했다."
     }
   ]
 }
