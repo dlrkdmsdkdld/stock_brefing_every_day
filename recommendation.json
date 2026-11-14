@@ -1,162 +1,175 @@
 {
-  "generated_at": "2026-11-13T10:16:31+09:00",
+  "generated_at": "2026-11-14T09:59:31+09:00",
   "model": "예비/gemini-flash-lite-latest",
   "disclaimer": "투자 자문이 아니며, 오늘 살펴볼 이유를 정리한 것입니다.",
   "usage": {
-    "input_tokens": 1575,
-    "output_tokens": 734
+    "input_tokens": 1606,
+    "output_tokens": 740
   },
   "candidates": {
     "mine": [
       {
+        "ticker": "CBRS",
+        "name": "세레브라스 시스템즈",
+        "points": 15.0,
+        "detail": [
+          "거래량 3.2배",
+          "등락 +11.22%"
+        ]
+      },
+      {
         "ticker": "001450",
         "name": "현대해상",
-        "points": 12.4,
+        "points": 13.2,
         "detail": [
-          "등락 -5.28%",
-          "오늘 기사 6건",
+          "거래량 1.9배",
+          "오늘 기사 1건",
           "볼린저 하단 이탈",
-          "RSI 26"
+          "RSI 24"
         ]
       },
       {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "points": 6.0,
+        "ticker": "DELL",
+        "name": "델",
+        "points": 10.4,
         "detail": [
-          "등락 -3.87%",
-          "오늘 기사 80건"
+          "거래량 1.1배",
+          "등락 -7.18%",
+          "오늘 기사 16건"
         ]
       },
       {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "points": 5.5,
+        "ticker": "KO",
+        "name": "코카콜라",
+        "points": 10.3,
         "detail": [
-          "오늘 기사 85건"
+          "볼린저 상단 이탈",
+          "RSI 74",
+          "52주 고점 대비 +0.9%"
         ]
       },
       {
-        "ticker": "010950",
-        "name": "S-Oil",
-        "points": 5.3,
+        "ticker": "CRML",
+        "name": "크리티컬 메탈스",
+        "points": 10.0,
         "detail": [
-          "등락 -3.23%",
-          "RSI 25"
-        ]
-      },
-      {
-        "ticker": "035420",
-        "name": "네이버",
-        "points": 5.2,
-        "detail": [
-          "등락 -7.47%"
+          "거래량 1.6배",
+          "등락 -8.10%",
+          "52주 저점 대비 -4.6%"
         ]
       }
     ],
     "new": [
       {
-        "ticker": "PLBL",
-        "name": "Polibeli Group Ltd",
-        "points": 15.0,
+        "ticker": "LFTO",
+        "name": "Liftoff Mobile, Inc.",
+        "points": 22.0,
         "detail": [
-          "거래량 9.8배",
-          "등락 +28.79%"
+          "거래량 10.9배",
+          "등락 +30.63%",
+          "볼린저 상단 이탈",
+          "RSI 79"
         ]
       },
       {
-        "ticker": "BZ",
-        "name": "KANZHUN LIMITED - American Depo",
-        "points": 15.0,
+        "ticker": "STN",
+        "name": "Stantec Inc",
+        "points": 21.1,
         "detail": [
-          "거래량 4.5배",
-          "등락 -25.30%"
+          "거래량 2.8배",
+          "등락 +14.06%",
+          "볼린저 상단 이탈",
+          "RSI 76"
         ]
       },
       {
-        "ticker": "CLBT",
-        "name": "Cellebrite DI Ltd.",
-        "points": 15.0,
+        "ticker": "WWW",
+        "name": "Wolverine World Wide, Inc.",
+        "points": 20.8,
         "detail": [
-          "거래량 3.2배",
-          "등락 -14.25%"
+          "거래량 2.4배",
+          "등락 +8.83%",
+          "볼린저 상단 이탈",
+          "RSI 72",
+          "52주 고점 대비 +4.4%"
         ]
       },
       {
-        "ticker": "MANE",
-        "name": "Veradermics, Incorporated",
-        "points": 15.0,
+        "ticker": "HTFL",
+        "name": "Heartflow, Inc.",
+        "points": 14.6,
         "detail": [
-          "거래량 4.0배",
-          "등락 -13.59%"
+          "거래량 1.9배",
+          "등락 -19.13%",
+          "볼린저 하단 이탈"
         ]
       },
       {
-        "ticker": "DGII",
-        "name": "Digi International Inc.",
-        "points": 15.0,
+        "ticker": "MOD",
+        "name": "Modine Manufacturing Company",
+        "points": 13.7,
         "detail": [
-          "거래량 3.1배",
-          "등락 -12.72%"
+          "거래량 2.7배",
+          "등락 +27.86%"
         ]
       }
     ]
   },
   "screen_errors": [],
   "mine": {
-    "ticker": "001450",
-    "name": "현대해상",
+    "ticker": "DELL",
+    "name": "델",
     "group": "mine",
-    "price": 36750.0,
-    "change_pct": -5.28,
-    "market_cap": 3179800000000,
-    "headline": "현대해상, 볼린저 하단 이탈과 과매도 국면 진입",
-    "reason": "현대해상은 종가 36,750 KRW로 5.28% 하락하며 볼린저 밴드 하단을 이탈했고 RSI는 25.5로 과매도 구간에 진입했다. 뉴스에 따르면 2026년 11월 자동차보험 브랜드평판에서 3위를 기록하며 시장 내 입지를 유지하고 있다.",
-    "risk": "자동차보험 시장 규모 등 기본적인 지표는 나와 있으나 단기 하락 추세가 강해 추가 조정을 염두에 두어야 한다."
+    "price": 344.53,
+    "change_pct": -7.18,
+    "market_cap": 219056565981,
+    "headline": "AI 하드웨어 매도세 속 주가 하락",
+    "reason": "델 주가는 AI 하드웨어 매도세 속에서 7.18% 하락하며 344.53 USD로 마감했고 관련 기사가 16건 보도되었다. 연초 이후 여전히 174% 상승한 상태이나 최근 하단 변동성이 확대된 모습을 보이고 있다.",
+    "risk": "RSI 36.0으로 과매도 국면에 진입하고 있으나 AI 수익성 우려와 관련 레버리지 ETF의 급락 등 변동성 요인이 지속될 수 있어 조심해야 한다."
   },
   "new": {
-    "ticker": "PLBL",
-    "name": "Polibeli Group Ltd",
+    "ticker": "MOD",
+    "name": "Modine Manufacturing Company",
     "group": "new",
-    "price": NaN,
-    "change_pct": 28.79,
-    "market_cap": 2663636736,
-    "headline": "PLBL, 거래량 급증과 함께 강한 상승세 기록",
-    "reason": "PLBL은 전일 대비 28.79% 급등하며 시가총액 2.7B 달러를 기록했고 거래량은 평소의 9.8배에 달한다. day_gainers 화면에 포착되며 시장의 강한 단기 수급 집중을 보여주고 있다.",
-    "risk": "새 종목이라 뉴스 요약과 세부 지표가 없어 단기 급등 이후 변동성이 클 수 있으므로 주의해야 한다."
+    "price": 135.66,
+    "change_pct": 27.86,
+    "market_cap": 7216694272,
+    "headline": "거래량 급증과 함께 강한 상승세",
+    "reason": "MOD는 2.7배의 거래량을 기록하며 27.86% 급등하여 135.66 USD로 마감했다. RSI 51.4와 볼린저 밴드 내에 위치하며 52주 위치는 20%로 비교적 안정적인 영역에 있다.",
+    "risk": "새 종목이라 뉴스가 수집되지 않아 상승을 이끈 구체적인 배경을 알 수 없으며, 단기 급등에 따른 되돌림 위험을 주의해야 한다."
   },
   "others": [
     {
-      "ticker": "000660",
-      "note": "AI 밸류체인 투자심리 확대로 13일 반등 흐름을 보였으나 오늘은 3.87% 하락했다."
+      "ticker": "CBRS",
+      "note": "거래량 3.2배와 11.22% 상승을 기록했으나 뉴스 정보가 없어 신중한 관찰이 필요하다."
     },
     {
-      "ticker": "005930",
-      "note": "한국시리즈 우승 기념 '삼성전자 대축제' 프로모션을 진행 중이며 주가는 0.72% 소폭 하락했다."
+      "ticker": "001450",
+      "note": "볼린저 하단 이탈과 RSI 24.5로 과매도 상태이나 코스피 반도체 중심 장세 속에서 모멘텀이 제한적이다."
     },
     {
-      "ticker": "010950",
-      "note": "등락률 -3.23% 및 RSI 24.7로 과매도 상태이나 관련 뉴스가 없다."
+      "ticker": "KO",
+      "note": "볼린저 상단 이탈과 RSI 73.5로 단기 과열 구간에 진입해 있다."
     },
     {
-      "ticker": "035420",
-      "note": "등락률 -7.47%를 기록했으며 52주 위치 11%로 낮은 수준이다."
+      "ticker": "CRML",
+      "note": "8.10% 하락하며 52주 저점 부근에 위치해 있으나 추가 모멘텀 확인이 필요하다."
     },
     {
-      "ticker": "BZ",
-      "note": "거래량이 4.5배 증가했으나 25.30% 급락하며 하락률 상위에 올랐다."
+      "ticker": "LFTO",
+      "note": "거래량 10.9배와 30.63% 급등으로 RSI 79.0 과열 상태를 보이고 있다."
     },
     {
-      "ticker": "CLBT",
-      "note": "거래량 3.2배 증가와 함께 14.25% 하락했다."
+      "ticker": "STN",
+      "note": "14.06% 상승하며 RSI 75.7과 볼린저 상단 이탈을 기록했다."
     },
     {
-      "ticker": "MANE",
-      "note": "거래량 4.0배 증가 속에 13.59% 하락세를 기록했다."
+      "ticker": "WWW",
+      "note": "8.83% 상승하며 52주 고점을 경신했으나 RSI 71.5로 과열권이다."
     },
     {
-      "ticker": "DGII",
-      "note": "거래량 3.1배 증가와 함께 12.72% 하락했다."
+      "ticker": "HTFL",
+      "note": "19.13% 급락하며 볼린저 하단을 이탈했다."
     }
   ]
 }

@@ -1,17 +1,145 @@
 {
-  "generated_at": "2026-11-13T10:15:51+09:00",
+  "generated_at": "2026-11-14T09:58:58+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6315,
-    "output_tokens": 3052
+    "input_tokens": 6205,
+    "output_tokens": 3278
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "msci11월정기리뷰sk하이닉스adr반영에비중쑥": {
+      "title": "MSCI 11월 정기 리뷰… SK하이닉스, ADR 반영에 비중 '쑥'",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "MSCI 11월 정기 리뷰에서 SK하이닉스의 신흥국 지수 내 비중이 소폭 증가했다. 다만 증권가에서는 주가를 크게 끌어올릴 만한 유의미한 수준은 아니라고 분석했다.",
+      "impact": "지수 내 비중 확대에 따른 패시브 자금의 추가 수급 유입이 기대되지만, 그 영향은 제한적일 수 있다.",
+      "caution": "미국 나스닥 ADR 상장 관련 내용 등이 본문 뒷부분에서 잘려 있어 전체 맥락 파악에 한계가 있다."
+    },
+    "이재용삼성전자지분1992돌파변수는자사주소각": {
+      "title": "이재용, 삼성전자 지분 1.99%…'2% 돌파' 변수는 자사주 소각",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "이재용 삼성전자 회장이 홍라희 명예관장으로부터의 증여를 마무리하며 보통주 지분율이 1.80%에서 1.99%로 상승했다. 증여세 규모 확정을 앞두고 있으며 향후 자사주 소각 등이 지분율 2% 돌파의 변수로 꼽힌다.",
+      "impact": "최대주주의 지분율 변동 및 상속세 이슈는 지배구조와 관련된 사안이나, 단기적인 영업 실적이나 주가 흐름에 미치는 직접적인 영향은 중립적이다.",
+      "caution": "증여세 산정 및 최종 세액 확정 과정이 남아 있다."
+    },
+    "dlll2xdelletfplunges16asdelltumbles8inaihardwareselloffhewlettpackardenterprisefalls4": {
+      "title": "DLLL 2X Dell ETF Plunges 16% as Dell Tumbles 8% in AI Hardware Selloff; Hewlett Packard Enterprise Falls 4%",
+      "holding": "델",
+      "stance": "약한 악재",
+      "summary": "AI 하드웨어 매도세 속에서 델(Dell) 주가가 8% 하락했고 관련 2배 레버리지 ETF(DLLL)는 16폭 폭락했다. 연초 이후 여전히 174% 상승한 상태이지만 최근 하단 변동성이 확대됐다.",
+      "impact": "보유 종목인 델의 주가 급락은 서버 및 AI 하드웨어 섹터 전반의 투자 심리를 위축시키며 단기적인 주가 하방 압력으로 작용한다.",
+      "caution": "단기적인 차익실현 및 섹터 순환매 성격의 하락일 수 있으며 연초 대비 장기 상승세는 여전히 유지되고 있다."
+    },
+    "howncaabeerdealatconstellationbrandsstzhaschangeditsinvestmentstory": {
+      "title": "How NCAA Beer Deal At Constellation Brands (STZ) Has Changed Its Investment Story",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "약한 호재",
+      "summary": "컨스텔레이션 브랜즈의 맥주 브랜드 모델로(Modelo)가 NCAA의 첫 공식 맥주 파트너로 선정되었다. 90개 이상의 대학 챔피언십 독점 권리를 확보하고 3월 광란(March Madness) 시즌에 대규모 광고를 진행할 예정이다.",
+      "impact": "대학 스포츠 팬들을 대상으로 한 타겟 마케팅과 브랜드 강화는 맥주 판매량 유지 및 브랜드 로열티 제고에 긍정적인 영향을 미친다.",
+      "caution": "마케팅 비용 지출 대비 실제 매출 및 볼륨 증가 효과는 추후 실적을 통해 확인해야 한다."
+    },
+    "howinvestorsarereactingtovistravstearningsand2027outlook": {
+      "title": "How Investors Are Reacting To Vistra (VST) Earnings And 2027 Outlook",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "비스트라 에너지는 2026년 3분기 매출 63억 4700만 달러, 순이익 11억 4000만 달러를 기록했다. 또한 경영진은 향후 멀티빌리언 달러 규모의 수익이 예상되는 2026~2027년 순이익 가이던스를 발표했다.",
+      "impact": "탄탄한 3분기 실적과 구체적인 중기 다개년 이익 가이던스는 투자자들에게 명확한 수익 가시성을 제공하여 주가에 긍정적으로 작용한다.",
+      "caution": "9개월 누적 기준 2억 6900만 달러의 장기자산 손상 차손이 포함되어 있음을 유의해야 한다."
+    },
+    "eosenergyenterprisesnasdaqeosedirectorbuys4650000instock": {
+      "title": "Eos Energy Enterprises (NASDAQ:EOSE) Director Buys $46,500.00 in Stock",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "이오스 에너지의 알렉산더 디미트리프 이사가 4만 6500달러를 들여 EOSE 주식 2만 5000주를 주당 1.86달러에 매입했다. 한편 최근 발표된 분기 실적에서 주당순손실은 -0.17달러, 매출은 8273만 달러로 예상치를 상회했다.",
+      "impact": "내부자의 자사주 매입은 회사의 미래 가치에 대한 경영진의 자신감을 보여주어 투자 심리에 소폭 긍정적이다.",
+      "caution": "애널리스트들의 평균 투자의견은 '보류(Hold)'를 유지하고 있으며 목표주가가 하향 조정된바 있다."
+    },
+    "almontyindustriesstockq3revenuejumpsassangdongstartsoutput": {
+      "title": "Almonty Industries stock: Q3 revenue jumps as Sangdong starts output",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리는 한국 상동 텅스텐 광산의 상업 생산 개시 힘입어 3분기 매출이 전년 동기 대비 382% 급증한 4190만 캐나다달러를 기록했다. 9월에 첫 텅스텐 정광을 생산했으며 부산항을 통해 첫 수출 선적을 진행했다.",
+      "impact": "상동 광산의 본격적인 상업 생산과 매출 발생은 회사의 실적 성장을 직접적으로 견인하며 사업 안정성을 높인다.",
+      "caution": "1단계 생산량의 90% 이상이 장기 오프테이크 계약으로 묶여 있어 글로벌 텅스텐 가격 변동성에 따른 영향이 제한적일 수 있다."
+    },
+    "3aiinfrastructurechipstocksinvestorsmayeyeafternvidialeadershipshock": {
+      "title": "3 AI Infrastructure Chip Stocks Investors May Eye After Nvidia Leadership Shock",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "엔비디아의 리더십 변화 사태로 인해 AI 인프라 칩 및 데이터센터 관련주들이 주목받고 있다. 본문은 엔비디아 리스크가 적으면서 수혜를 볼 수 있는 AI 인프라 관련 3개 종목을 다루는 기사 도입부다.",
+      "impact": "크레도 테크놀로지가 직접적으로 언급되거나 분석되지는 않았으나, AI 인프라 섹터 전반의 수급 변화 가능성을 시사한다.",
+      "caution": "본문이 다른 회사(엔비디아) 및 일반적인 AI 인프라 섹터 동향을 다루고 있어 크레도 테크놀로지에 대한 직접적인 실적이나 주가 영향은 불확실하다."
+    },
+    "alphabetgooglfacesuberdealtalkspacechiptestand166billionfine": {
+      "title": "Alphabet (GOOGL) Faces Uber Deal Talk, Space Chip Test And €1.66 Billion Fine",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "알파벳(GOOGL)은 우버와의 자율주행 협력을 검토 중이며 우주 공간에서 AI 가속기 칩을 시험하는 프로젝트 선캐처를 공개했다. 그러나 유럽연합(EU)으로부터 16억 6천만 유로 규모의 광고 관련 벌금을 마주하고 있으며, 테슬라의 로보택시가 텍사스에서 웨이모보다 앞서 운행 중이다.",
+      "impact": "우주 칩 테스트나 우버 협력 가능성은 미래 성장 동력이지만, 16억 6천만 유로의 대규모 EU 벌금 부과와 경쟁사의 로보택시 선점은 단기적인 재무적 부담과 시장 점유율 우려를 높인다.",
+      "caution": ""
+    },
+    "ciscoprintsstronggrowthraisesguidance": {
+      "title": "Cisco Prints Strong Growth, Raises Guidance",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈는 회계연도 2027년 1분기 매출이 185억 달러로 전년 동기 대비 24% 증가하고 비GAAP 주당순이익(EPS)이 1.40달러를 기록하며 예상치를 상회했다. AI 인프라 판매와 캠퍼스 네트워킹 교체 수요가 성장을 견인했으나, 주가는 주요 파트너사인 엔비디아의 급격한 변화 속에서 하락세를 보였다.",
+      "impact": "시스코 자체의 실적과 가이던스는 매우 강력하여 실적 측면에서는 명백한 호재이나, 주요 파트너사인 엔비디아 관련 시장 우려의 영향을 함께 받아 주가에는 혼조세를 보였다.",
+      "caution": "시스코 자체 사업 지표는 매우 우수하지만 파트너사 리스크로 인해 주가 반응이 제한될 수 있음을 감안해야 한다."
+    },
+    "bloomenergysoars13vertivup14inaweekasdatacenterfearsease": {
+      "title": "Bloom Energy Soars 13%, Vertiv Up 14% in a Week as Data-Center Fears Ease",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "블룸에너지와 버티브(VRT), 오라클 등의 주가가 지난 한 주 동안 각각 13%, 14% 상승했다. 이는 코어위브(CoreWeave)와 콘스텔레이션 에너지가 2026년 가이던스를 상향 조정한 덕분에 데이터센터 확충 우려가 완화되었기 때문이다.",
+      "impact": "데이터센터 인프라 및 전력 수요가 여전히 견조하다는 점이 확인되면서 버티브의 장비 공급 및 실적 성장 기대감이 커져 주가 상승으로 이어졌다.",
+      "caution": "버티브 주가는 긍정적이나 마이너스 자유현금흐름 등의 리스크 요소는 계속 모니터링해야 한다."
+    },
+    "lockheedmartinvsgeneraldynamicswhichdividendstockpaysyoumorein10years": {
+      "title": "Lockheed Martin vs. General Dynamics: Which Dividend Stock Pays You More in 10 Years?",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "록히드마틴(LMT)은 10월 9일 분기 배당금을 주당 3.60달러로 인상했으며 24년 연속 배당금 인상을 기록했다. 반면 10년짜리 F-35 프레임워크 계약은 여전히 미 의회의 승인과 자금 지원이 필요하며 록히드가 최소 70억 달러의 자체 자금을 투입해야 하는 상황이다.",
+      "impact": "안정적인 배당 인상은 주주환원 측면에서 긍정적이디만, F-35 사업과 관련해 대규모 자체 자금 투입 부담과 의회 승인 불확실성이 상존하여 주가에 중립적으로 작용한다.",
+      "caution": "배당 매력은 높으나 방산 계약 관련 정치적·재무적 변동성에 유의해야 한다."
+    },
+    "cerebrasstocksurgesonmicrosoftdealwhatitmeansfornvidia": {
+      "title": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트(MSFT)는 엔비디아 대안을 찾는 AI 기업들 가운데 세레브라스(CBRS)와 거래를 체결했다. 앤스로픽의 IPO 신청서 등과 함께 빅테크 기업들이 엔비디아 의존도를 낮추기 위해 다각화를 시도하는 흐름이 나타나고 있다.",
+      "impact": "마이크로소프트가 엔비디아 의존도를 줄이고 AI 공급망을 다변화하는 움직임은 장기적 비용 절감과 기술 다각화 측면에서 의미가 있으나, 기사의 초점은 엔비디아와 세레브라스의 관계에 맞춰져 있다.",
+      "caution": "보유 종목인 마이크로소프트가 언급되기는 하나 본 기사의 핵심 주제는 세레브라스와 엔비디아 간의 구도 분석에 가깝다."
+    },
+    "nikenkeaccountingchiefdanielwmckenzieholdsoptionscovering18560and11800shares": {
+      "title": "NIKE (NKE) accounting chief Daniel W. McKenzie holds options covering 18,560 and 11,800 shares.",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "나이키의 최고회계책임자(CAO) 대니얼 W. 맥켄지(Daniel W. McKenzie)가 미국 증권거래위원회(SEC) 전자공시(EDGAR)를 통해 클래스 B 보통주 1,065주 직접 보유와 행사 가격이 각각 $114.8400 및 $164.5600인 18,560주, 11,800주 규모의 주식옵션 포지션을 신고했다.",
+      "impact": "임원의 주식 및 옵션 보유 내역 공시는 통상적인 내부자 지분 변동 신고에 해당하며, 회사의 실적이나 펀더멘털에 직접적인 호재나 악재로 작용하지 않는다.",
+      "caution": "단순 규정 준수에 따른 지분 공시이므로 실질적인 투자 판단에 미치는 영향은 제한적이다."
+    },
+    "novonordiskwinseunodforhaemophiliadrugfrehemgoaswegovypillfuelsathirdoutlookupgrade": {
+      "title": "Novo Nordisk Wins EU Nod for Haemophilia Drug FREHEMGO as Wegovy Pill Fuels a Third Outlook Upgrade",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크는 성인 및 소아 혈우병 A 치료제 프레헴고(FREHEMGO, 성분명 데네시미그)에 대해 유럽연합(EU)의 승인을 획득했으며 내년부터 유럽 국가에서 출시될 예정이다. 이와 함께 위고비 알약의 성공에 힘입어 세 번째 실적 전망 상향을 확인하고 자사주 매입 확대를 발표했다.",
+      "impact": "신약의 유럽 승인과 더불어 위고비 기반의 실적 전망 상향 및 자사주 매입은 기업의 매출 성장 모멘텀과 주주환원 강화를 동시에 시사하여 주가에 긍정적이다.",
+      "caution": ""
+    },
+    "바겐세일지금이기회반도체소부장51불기둥계속될까김근": {
+      "title": "\"바겐세일, 지금이 기회\" 반도체 소부장 51% 불기둥...계속 될까?[김근...",
+      "holding": "현대해상",
+      "stance": "중립",
+      "summary": "11월 둘째 주 코스피는 저가 매수세에 힘입어 전주 대비 4.56% 오른 5290.53에 마감했으며, 삼성전자(9.17%)와 SK하이닉스(7.42%) 등 반도체 대장주와 소부장 종목들이 상승했다. 다만 엔비디아 CEO 관련 이슈와 AI 수익성 우려 등 변동성 요인은 여전히 남아있다.",
+      "impact": "본 기사의 주요 내용은 코스피 시장 전반의 반도체주 반등 흐름이며, 현대해상은 직접적으로 언급되지 않고 코스피 상승률 상위 종목 및 시장 동향을 다루고 있다.",
+      "caution": "보유 종목인 현대해상에 대한 직접적인 언급이나 실적 소식이 없는 시장 시황 기사이다."
+    },
     "특징주젠슨황사임여파미미삼성전자sk하이닉스강세": {
       "title": "[특징주] 젠슨 황 사임 여파 '미미'⋯삼성전자·SK하이닉스 '강세'",
       "holding": "SK하이닉스",
