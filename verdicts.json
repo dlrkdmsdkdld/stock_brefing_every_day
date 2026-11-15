@@ -1,17 +1,129 @@
 {
-  "generated_at": "2026-11-14T09:58:58+09:00",
+  "generated_at": "2026-11-15T09:02:06+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6205,
-    "output_tokens": 3278
+    "input_tokens": 4888,
+    "output_tokens": 2987
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼전닉스는그래도오를거야이러더니빚투7조원몰렸다주가급락에개미들초긴장": {
+      "title": "“삼전닉스는 그래도 오를 거야” 이러더니 빚투 ‘7조원’ 몰렸다…주가 급락에 개미들 ‘초긴장’",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "12일 기준 SK하이닉스의 신용융자 잔고가 3조3311억원으로 집계되며, 삼성전자와 SK하이닉스 두 종목의 빚투 자금이 전체 코스피·코스닥 신용융자 잔고의 27.2%를 차지했다. 연초 이후 AI 반도체 기대감으로 주가가 오른 뒤 단일종목 레버리지 ETF 청산 및 수익성 우려 등과 맞물려 지수 전체의 변동성이 커지고 있다.",
+      "impact": "보유 종목에 대한 빚투(신용융자) 규모가 커진 상황에서 주가 급락 시 반대매매 위험이 가중되어 단기 변동성을 확대시키는 경로로 작용한다.",
+      "caution": "신용융자 잔고의 절대 규모와 비중이 높다는 점은 경고 요인이지만, 이것이 곧바로 실적 악화나 펀더멘털 훼손을 뜻하는 것은 아니다."
+    },
+    "삼성전자ces2027혁신상수상삼성전자뉴스룸": {
+      "title": "삼성전자, CES 2027 혁신상 수상 – 삼성전자 뉴스룸",
+      "holding": "삼성전자",
+      "stance": "호재",
+      "summary": "삼성전자는 내년 1월 미국 라스베이거스에서 열리는 'CES 2027'을 앞두고 최고 혁신상 4개를 포함해 총 19개의 CES 혁신상을 수상했다. 모바일 부문의 '갤럭시 Z 폴드8' 및 '울트라', 생활가전의 '비스포크 AI 콤보', 반도체 부문의 'LPDDR5X SOCAMM2', 'DDR5 RDIMM', 'UFS 5.0' 등이 선정됐다.",
+      "impact": "글로벌 무대에서 모바일, 가전, 반도체 등 핵심 제품군의 기술 경쟁력과 혁신성을 입증받음으로써 브랜드 가치 상승 및 향후 판매 호조로 이어질 수 있다.",
+      "caution": "혁신상 수상 자체가 단기적인 재무적 성과나 주가 상승을 직접 담보하지는 않는다."
+    },
+    "delltechnologiesinctokenizedstockcoinbasepricetodaydellctousdlivepricemarketcapandchart": {
+      "title": "Dell Technologies Inc. Tokenized Stock (Coinbase) price today, DELLc to USD live price, marketcap and chart",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "코인베이스의 델 테크놀로지스 토큰화 주식(DELLc)에 대한 실시간 가격, 시가총액, 과거 데이터 및 메타데이터를 제공하는 암호화폐 데이터 소스 안내 페이지다.",
+      "impact": "보유 종목인 델의 실제 기업 실적이나 사업 내용과 직접적인 관련이 없고, 암호화폐 거래소 플랫폼의 가격 조회 API를 설명하는 내용이다.",
+      "caution": "기사 본문에 실제 기업 뉴스가 전혀 포함되지 않은 광고 및 API 안내문이다."
+    },
+    "marlboroughsannakellandclaimsnationalhorticulturetitle": {
+      "title": "Marlborough's Anna Kelland claims national horticulture title",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈의 포도재배 기술자인 안나 켈랜드가 뉴질랜드 오클랜드에서 열린 2026 올해의 젊은 원예가 대회에서 우승을 차지했다. 그녀는 지속 가능성 및 산업 지식 부문 등에서 상을 받으며 2만 5천 달러 이상의 상금과 장학금을 획득했다.",
+      "impact": "보유 종목 소속 직원의 개인적인 대회 우승 소식으로, 회사의 전사적 실적이나 주가에 직접적인 중대 영향을 미치기 어렵다.",
+      "caution": "회사의 개별 직원 수상이라는 미풍양식에 가까운 내용으로 기업 가치에 미치는 영향은 제한적이다."
+    },
+    "howfirstsolarfslrexpandedmarginsdespitea23revenuedecline": {
+      "title": "How First Solar (FSLR) Expanded Margins Despite a 23% Revenue Decline",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라는 애널리스트들이 꼽은 매수 상위 청정에너지 주식 중 8위에 올랐으며 민주당 의회 하에서 연방 녹색 보조금과 세액 공제 보호 기대감이 커지고 있다. 기사 제목에서는 23% 매출 감소에도 불구하고 마진이 확대된 배경을 다룬다고 언급했으나 본문은 정책 환경과 투자자 관심 회복에 초점을 맞추고 있다.",
+      "impact": "청정에너지 정책 기대감과 보조금 수혜 가능성이 높아지면서 퍼스트솔라를 비롯한 태양광 관련주에 대한 투자 심리가 개선되는 경로로 작용한다.",
+      "caution": "실제 마진 확대의 구체적인 재무 제표 수치보다는 전반적인 정책 기대감 위주로 서술되어 있다."
+    },
+    "berkshireholdvistrabuyandfivesasharestoaccumulatericardoweekto13november": {
+      "title": "Berkshire Hold, Vistra Buy, and five SA shares to accumulate – Ricardo week to 13 November",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "워런 버핏의 후임자가 버크셔 해서웨이에 베팅하고 있으며, 리네트와 프로수스가 자사주를 할인 매입하고 있다는 내용과 함께 비스트라 에너지 매수 의견 등이 언급된 주간 주식 추천 요약 기사다.",
+      "impact": "비스트라 에너지가 매수 추천 종목으로 언급되어 투자 심리에 긍정적일 수 있으나 상세한 분석 없이 짧게 언급만 되었다.",
+      "caution": "종목에 대한 심층 분석이 포함되지 않은 단순 언급에 불과하다."
+    },
+    "almontyshipsitsfirsttungstencontainerandstifeltrimsthepricetargetanyway": {
+      "title": "Almonty Ships Its First Tungsten Container — and Stifel Trims the Price Target Anyway",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리는 부산에서 상동 광산의 첫 번째 텅스텐 정광 수출 컨테이너를 선적하며 상업적 공급 단계로 진입하는 이정표를 세웠고, 3분기 실적 발표와 함께 공개된 이 소식에 주가는 다음 세션에서 8.5% 상승했다. 유럽 APT 가격이 MTU당 2,800달러를 기록하는 등 텅스텐 시장 환경도 생산자에게 유리하게 흘러가고 있다.",
+      "impact": "단순 생산 단계를 넘어 실제 고객사로의 반복적인 상업적 출하가 시작되었음을 증명하여 실적 가시성을 높이고 주가 상승을 이끌었다.",
+      "caution": "출하가 시작되었으나 향후 지속적인 반복 매출로 이어지는지는 계속 지켜봐야 한다."
+    },
+    "credotechnologygroupvsmarvelltechnologywhichtechnologystockisabetterbuyfor2027": {
+      "title": "Credo Technology Group vs. Marvell Technology: Which Technology Stock Is a Better Buy for 2027?",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "인공지능 데이터 수요 증가에 발맞추어 고속 네트워크용 에너지 효율적 연결성을 전문으로 하는 크레도 테크놀로지와 다각화된 반도체 인프라 기업 마블 테크놀로지를 비교하여 2027년 유망한 주식을 가늠하는 분석 기사다. 크레도는 블루칩 하이퍼스케일러와 장비 제조사에 고속 구리 및 광학 상호 연결 솔루션을 제공하는 데 집중하고 있다.",
+      "impact": "AI 네트워크 인프라 시장에서 크레도의 고성장 고속 연결 솔루션 강점이 부각되면서 투자자들의 관심과 비교 대상으로서의 매력도가 높아진다.",
+      "caution": "경쟁사인 마블 테크놀로지와 함께 다뤄진 비교 기사로, 크레도 단독의 확정된 실적 발표나 계약 뉴스는 아니다."
+    },
+    "hedgefundveteranwarnsnvidiascircularfinancingcouldrepeatciscoscollapseasinsiderscashout19billioninayear": {
+      "title": "Hedge Fund Veteran Warns: Nvidia's Circular Financing Could Repeat Cisco's Collapse as Insiders Cash Out $1.9 Billion in a Year",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "헤지펀드 매니저 조지 노블은 엔비디아가 닷컴 버블 당시의 시스코처럼 고객사 자금 조달을 돕는 방식으로 하드웨어 매출을 키우고 있다고 주장했다. 엔비디아는 현재 S&P 500 지수에서 약 8%를 차지하고 있으며 내부자들은 1년 동안 19억 달러를 현금화했다고 경고했다.",
+      "impact": "본 기사는 엔비디아와 닷컴 버블 당시 시스코의 과거 사례를 비교하고 있으나, 보유 종목인 시스코 시스템즈의 직접적인 실적이나 사업 변화에 대한 내용은 포함되어 있지 않다.",
+      "caution": "시스코는 과거 닷컴 버블 붕괴 당시의 비교 대상이자 역사적 사례로만 언급되었을 뿐, 현재 시스코의 주가나 펀더멘털에 직접적인 영향을 주는 새로운 이벤트는 없다."
+    },
+    "lockheedmartinnyselmtraisesitsdividendwhatsnext": {
+      "title": "Lockheed Martin (NYSE:LMT) Raises Its Dividend: What’s Next?",
+      "holding": "록히드마틴",
+      "stance": "약한 호재",
+      "summary": "록히드마틴이 분기 배당금을 인상했으며 실적이 예상치를 상회했다고 보도됐다. 국방 및 우주 프로그램이 회사의 성장을 뒷받침하고 있다.",
+      "impact": "배당금 인상과 예상치를 웃도는 실적은 주주 친화적 정책이며 기업의 재무적 안정성을 보여주어 보유 주주에게 긍정적으로 작용한다.",
+      "caution": "구체적인 배당 인상 폭이나 실적 수치가 기사 본문에 상세히 적시되지 않은 점은 한계이다."
+    },
+    "nebiusstockpowerbottleneckatvinelandputsmicrosofts194billiondealtothetest": {
+      "title": "Nebius Stock: Power Bottleneck at Vineland Puts Microsoft's $19.4 Billion Deal to the Test",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "네비우스가 뉴저지 파트너 사이트의 전력 공급 문제로 인해 계약을 매출로 전환하는 데 차질을 빚고 있으며, 이 회사의 가장 큰 계약은 마이크로소프트와 맺은 최대 194억 달러 규모의 거래이다. 마이크로소프트 계약 물량 중 절반 이상이 해당 사이트와 연관되어 있어 전력 병목 현상이 마이크로소프트의 인프라 확보 계획에 시험대가 되고 있다.",
+      "impact": "핵심 협력사인 네비우스의 전력 공급 차질과 용량 인도 지연 우려는 마이크로소프트의 클라우드 및 AI 인프라 확장 일정에 부정적인 영향을 줄 수 있다.",
+      "caution": "마이크로소프트가 직접적인 계약 파기나 재정적 손실을 입었다는 확증은 아직 없으며, 파트너사의 일시적 공급 문제 단계이다."
+    },
+    "nikes2026downturnstockslumpathletedeparturesandanewsalesapproach": {
+      "title": "Nike’s 2026 Downturn: Stock Slump, Athlete Departures, and a New Sales Approach",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키는 2026년 들어 주가 하락, 소비자 열정 감소, 주요 운동선수들의 경쟁사 이탈 등으로 인해 심각한 침체를 겪고 있다. 2024년 6월 주가가 하루 만에 거의 20% 폭락해 28억 달러의 시장 가치가 사라진 바 있으며, 라민 야말과 킬리언 음바페 같은 유명 선수들이 아디다스나 온(On) 같은 경쟁 브랜드로 이동했다.",
+      "impact": "소비자 선호도 하락과 핵심 브랜드 홍보대사들의 이탈, 그리고 유통망 축소는 나이키의 매출 감소와 시장 지위 약화로 이어져 주가에 부담을 준다.",
+      "caution": "과거 2024년의 사건과 2026년의 전반적 침체 정황이 혼재되어 있으며, 최근 분기의 정확한 재무 실적 수치는 상세히 나와 있지 않다."
+    },
+    "novonordiskscagrisemadatalandalongsideafrehemgoapprovalaraisedoutlookandfreshfdawar": {
+      "title": "Novo Nordisk's CagriSema Data Land Alongside a FREHEMGO Approval, a Raised Outlook and Fresh FDA War",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크는 유럽에서 FREHEMGO 승인을 받았으며, REDEFINE 9 연구의 새로운 임상 3상 결과 카그리세마(CagriSema)의 투여군에서 추정 평균 체중 감량이 20.7% 및 21.0%에 달했다. 회사는 올해 연간 실적 전망을 상향 조정하고 GLP-1 프랜차이즈에 대한 새로운 안전성 라벨링 요구 사항을 발표했다.",
+      "impact": "신약 후보 물질의 우수한 체중 감량 효과 확인, 유럽 내 제품 승인 및 실적 전망 상향은 노보 노디스크의 중장기 성장 동력을 강화하여 주가에 호재로 작용한다.",
+      "caution": "이번 임상 시험이 활성 용량을 직접 비교하도록 설계되지 않았으며, 구체적인 안전성 라벨링 변경이 향후 판매에 미칠 영향은 추가 관찰이 필요하다."
+    },
+    "이달의신상품현대해상퍼펙트암플랜출시최신치료보장": {
+      "title": "[이달의 신상품] 현대해상, ‘퍼펙트 암플랜’ 출시…최신 치료 보장",
+      "holding": "현대해상",
+      "stance": "약한 호재",
+      "summary": "현대해상은 암 진단부터 수술, 항암약물·방사선치료를 폭넓게 보장하는 다이렉트 전용 상품 ‘다이렉트 퍼펙트건강보험 암플랜’을 출시했다. 특히 중입자치료, 카티(CAR-T) 항암약물허가치료, 로봇수술 등 최신 치료 보장을 강화했다.",
+      "impact": "경쟁력 있는 최신 치료 보장을 포함한 신상품 출시를 통해 다이렉트 보험 시장에서 가입자를 유치하고 새로운 수익원을 창출하는 데 기여한다.",
+      "caution": "신상품 출시가 실제 가입 건수와 단기 실적 개선으로 이어지는지는 향후 실적 발표를 통해 확인해야 한다."
+    },
     "msci11월정기리뷰sk하이닉스adr반영에비중쑥": {
       "title": "MSCI 11월 정기 리뷰… SK하이닉스, ADR 반영에 비중 '쑥'",
       "holding": "SK하이닉스",
