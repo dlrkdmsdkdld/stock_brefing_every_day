@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-15T09:01:03+09:00",
-  "today_kst": "2026-11-15",
+  "fetched_at": "2026-11-16T09:02:31+09:00",
+  "today_kst": "2026-11-16",
   "rule": "발행 시각(KST) 기준 오늘 기사만, 종목당 최대 1건. 2개 이상 출처에 나타나면 cross_confirmed.",
   "sources": {
     "국내": [
@@ -14,15 +14,15 @@
   },
   "counts": {
     "종목": 19,
-    "기사": 18,
-    "교차확인": 2,
-    "본문확보": 14,
+    "기사": 17,
+    "교차확인": 3,
+    "본문확보": 15,
     "하단이탈": 1
   },
   "errors": [
     "델/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
     "컨스텔레이션 브랜즈/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
-    "퍼스트솔라/주출처: IncompleteRead: Failed to perform, curl: (18) end of response with 665 bytes missing. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "퍼스트솔라/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
     "컨스텔레이션 에너지/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
     "비스트라 에너지/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
     "이오스 에너지/주출처: YFDataException: *** YAHOO! FINANCE IS CURRENTLY DOWN! ***",
@@ -41,29 +41,29 @@
       "ticker": "000660",
       "market": "국내",
       "candidates": 90,
-      "today_count": 32,
+      "today_count": 73,
       "stories": [
         {
-          "title": "“삼전닉스는 그래도 오를 거야” 이러더니 빚투 ‘7조원’ 몰렸다…주가 급락에 개미들 ‘초긴장’",
-          "published_kst": "2026-11-15T08:15+09:00",
-          "relevance": "tagged",
+          "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나",
+          "published_kst": "2026-11-16T05:10+09:00",
+          "relevance": "direct",
           "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "서울경제",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tVEloSFBTSmd1NUFqMnkzV1ZIQTRONXVzQ3RTb1FNTGhpdU83R2V2Wlk3NTlUaFZ0YzhWdFRQZzE4TEotaGx0T1drLUVZanVKQ3fSAVNBVV95cUxOUFpXc2pRNkY4eW9GRXNrSGF4azFGcnFVV3RuQlJoS3RvTURQRU9leklSTzRFTzBncWFZQVRaZTNWYVU0T2pvSlNGeThpWEVYaHNpaw?oc=5",
-              "published_kst": "2026-11-15T08:15+09:00"
-            },
             "네이버 금융": {
-              "publisher": "서울경제",
-              "url": "https://n.news.naver.com/mnews/article/011/0004682227",
-              "published_kst": "2026-11-15T08:16+09:00"
+              "publisher": "뉴시스",
+              "url": "https://n.news.naver.com/mnews/article/003/0014323417",
+              "published_kst": "2026-11-16T05:10+09:00"
+            },
+            "구글 뉴스 RSS": {
+              "publisher": "뉴시스",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IYzVWUkMwdl9TbG16TGZnckxXRml0STBSTWZEam5mQXpYeTk0YXB0bHEzMk5EWUFPbVB2bnIybzBDS0pkODR6ay0yNTZ0dGdWWVdSU0lFYzNGWHpYVEN3bFRTbGl5cjBBZlVNaDhIeFlsQWJiVnMyctIBeEFVX3lxTE1IYzVWUkMwdl9TbG16TGZnckxXRml0STBSTWZEam5mQXpYeTk0YXB0bHEzMk5EWUFPbVB2bnIybzBDS0pkODR6ay0yNTZ0dGdWWVdSU0lFYzNGWHpYVEN3bFRTbGl5cjBBZlVNaDhIeFlsQWJiVnMycg?oc=5",
+              "published_kst": "2026-11-16T05:10+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
-          "importance": 7.5,
-          "body": "13일 서울 중구 하나은행 딜링룸 현황판에 코스피가 표시되고 있다. 연합뉴스 국내 증시 신용융자 잔고의 약 30%가 삼성전자와 SK하이닉스 두 종목에 몰린 것으로 나타났다. 빚투(빚을 내 투자) 자금이 시가총액 상위 두 종목에 집중되면서 지수 전체의 변동성이 커졌다는 분석이 나온다.\n\n15일 금융정보업체 에프앤가이드에 따르면 지난 12일 기준 삼성전자의 신용융자 잔고는 3조6358억원, SK하이닉스는 3조3311억원으로 집계됐다. 두 종목의 잔고를 합치면 6조9669억원으로, 코스피·코스닥 전체 신용융자 잔고(25조5976억원)의 27.2%에 달한다. 코스피(19조935억원)만 놓고 보면 비중은 36.5%까지 올라간다.\n\n신용융자 잔고는 투자자가 증권사에서 돈을 빌려 주식을 매수한 뒤 아직 갚지 않은 금액이다. 증시에서 빚투 규모를 가늠하는 대표적인 지표로 활용된다.\n\n 3%대였던 비중이 27%로…삼성전자·SK하이닉스에 몰린 빚투\n\n삼성전자와 SK하이닉스에 빚투 자금이 이처럼 집중된 것은 이례적이다. 신용융자는 보통 주가 등락이 커 단기 차익을 노리기 쉬운 테마주에 집중되기 때문이다.\n\n실제로 두 종목이 국내 증시 전체 신용융자 잔고에서 차지하는 비중은 2020년 평균 3.39%, 2021년 4.39%, 2022년 4.36%, 2023년 2.71%에 그쳤다. 2024년과 지난해에도 각각 5.37%, 6.73% 수준이었다.\n\n그러나 지난해 말부터 비중이 10%대로 올라섰고, 올해 5월에는 20%대에 진입했다. 지난 8월 12일에는 33.6%까지 치솟았다. 올해 1월부터 지난 12일까지 평균은 22.35%에 달한다.\n\n올해 초 인공지능(AI) 산업 성장과 반도체 슈퍼사이클 기대감에 두 종목의 주가가 가파르게 오른 데 이어 AI 밸류체인 수익성 우려, 단일종목 레버리지 ETF 청산 등이 겹",
+          "importance": 11.5,
+          "body": "자체 칩 개발한 빅테크, AI 칩 공급망 재편 가능성\n삼성·SK하이닉스, 고객사 다변화 기회로 작용 전망 \n\n [셔먼=AP/뉴시스] 지난 6월16일(현지 시간) 미국 텍사스주 셔먼에서 젠슨 황 당시 엔비디아 최고경영자(CEO)가 코히런트 생산시설 증설 착공식이 시작되기를 기다리고 있다. 2026.06.16. [서울=뉴시스] 홍세희 기자 = 젠슨 황 전 엔비디아 최고경영자(CEO)의 퇴진으로 인공지능(AI) 칩 공급망 재편 가능성이 제기되는 가운데 삼성전자와 SK하이닉스에 미칠 영향에도 관심이다.\n\nAI 칩의 중심에는 삼성전자와 SK하이닉스가 생산하는 고대역폭메모리(HBM)가 자리잡고 있는 만큼 국내 반도체 투톱의 고객사가 다변화할 수 있다는 전망이 나온다.\n\n16일 업계에 따르면 황 전 CEO는 지난 12일(현지시간) 앨리스 황, 엔비디아 임직원과의 사생활 스캔들이 잇따라 공개되면서 33년 만에 CEO 자리에서 물러났다.\n\nAI 칩 분야의 절대 강자로 군림해 온 엔비디아가 황 전 CEO의 사퇴로 창사 이래 최대 위기에 처하면서 AI 칩 공급망 재편 가능성도 제기되고 있다.\n\n구글과 아마존웹서비스(AWS), 마이크로소프트 등 빅테크들은 AI 칩 시장에서 엔비디아 의존도를 낮추기 위해 자체 AI 칩을 개발한 바 있다.\n\n엔비디아가 황 전 CEO 사임으로 경영권 안정에 집중하는 사이 자체 칩을 개발한 빅테크들의 AI 생태계 주도권 경쟁도 본격화할 것으로 보인다.\n\n시장에서는 AI 칩 중심에는 삼성전자와 SK하이닉스가 생산하는 HBM이 자리 잡고 있기 때문에 국내 반도체 업계의 고객사가 다변화할 수 있다는 전망도 나온다.\n\n삼성전자는 엔비디아 뿐만 아니라 AMD, 브로드컴 등과 메모리 협력을 강화해 왔다.\n\n삼성전자는 지난 3월 방한한 리사 수 AMD CEO와 업무협약을 맺고 AMD의 차세대",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -72,29 +72,29 @@
       "ticker": "005930",
       "market": "국내",
       "candidates": 90,
-      "today_count": 54,
+      "today_count": 76,
       "stories": [
         {
-          "title": "삼성전자, CES 2027 혁신상 수상 – 삼성전자 뉴스룸",
-          "published_kst": "2026-11-15T08:00+09:00",
+          "title": "삼성전자, 수능 고사장 시스템에어컨 긴급 서비스 지원",
+          "published_kst": "2026-11-16T08:50+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "samsung.com",
-              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMDZ4bE52a2xfM3ZvdW5vdUMtMk1OY3hwQXJLbVJkNC0xNlRzaW1udHpGYlB5U1lycXVJWlZwT2NWY2trX0VhMGlCaC1zdWhHWGxXcU45UEpwSFVtX3JfN1ZVUnM4T2M4N0xpRGlzdW02Vm9va2kwbTFCNkdzTWctZkJlLXV4X0dqVDdfRTRJelVsaXhIYmZOMFFWbHJpNEdnRjlEQk5kZWNIQ0ptX05tWjVlZVZYVUQzUW9QYg?oc=5",
-              "published_kst": "2026-11-15T08:00+09:00"
+              "publisher": "지디넷코리아",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HSm10bEZlX1VLR0t3OW9RSXE5aTVNZEdFZk0xU1RqZUF6ajY4UTdOaWVQajczYUpGbHd2bldOcUFHdVRfWUhnb2hPRWJzdi1DdUtDSjF3?oc=5",
+              "published_kst": "2026-11-16T08:50+09:00"
             },
             "네이버 금융": {
-              "publisher": "동행미디어 시대",
-              "url": "https://n.news.naver.com/mnews/article/417/0001164326",
-              "published_kst": "2026-11-15T08:46+09:00"
+              "publisher": "지디넷코리아",
+              "url": "https://n.news.naver.com/mnews/article/092/0002445368",
+              "published_kst": "2026-11-16T08:51+09:00"
             }
           },
           "source_count": 2,
           "verification": "cross_confirmed",
           "explainable": true,
           "importance": 9.5,
-          "body": "폴드8·비스포크 등 선정\n'최고 혁신상'은 4개 받아 \n\n CES 혁신상 로고와 수상 제품 이미지. /삼성전자 삼성전자가 내년 1월 미국 라스베이거스에서 열리는 세계 최대 전자 전시회 'CES 2027'을 앞두고 최고 혁신상 4개를 포함해 총 19개의 'CES 혁신상'을 수상했다.\n\n미국소비자기술협회(CTA)는 9일(현지시간) 'CES 혁신상' 수상 제품과 기술을 발표했다. CTA는 매년 CES 개막에 앞서 가장 혁신적인 제품과 서비스를 선정해 혁신상을 수여한다.\n\n삼성전자는 영상디스플레이 13개, 생활가전 1개, 모바일 2개, 반도체 3개 등 모두 19개의 혁신상을 받았다. 이 가운데 최고 혁신상은 영상디스플레이 부문 2개와 모바일 부문 2개 등 4개 제품이 수상했다. \n\n영상디스플레이 부문에서는 최고 혁신상 2개와 2027년형 TV·사운드바·모니터 등 신제품과 서비스로 11개의 혁신상을 받았다.\n\n생활가전 부문에서는 대용량 열교환기를 탑재해 단독 건조기 수준의 성능을 구현한 일체형 세탁건조기 '비스포크 AI 콤보'가 혁신상을 받았다. \n\n모바일 부문에서는 '갤럭시 Z 폴드8'과 '갤럭시 Z 폴드8 울트라' 2개 제품이 최고 혁신상을 수상했다. \n\n반도체 부문에서는 인공지능(AI) 서버용 모듈인 'LPDDR5X SOCAMM2'와 'DDR5 RDIMM', 차세대 온디바이스 AI용 메모리 'UFS 5.0'이 혁신상을 받았다.\n\n삼성전자는 내년 CES 행사 기간 전시관에서 혁신상 수상 제품을 선보일 예정이다.",
+          "body": "수능 당일 전담 서비스팀 시험장 인근 상주…AI 원격진단·HVAC 사전 점검 삼성전자가 2027학년도 대학수학능력시험을 앞두고 수험생들이 최적의 환경에서 시험에 응할 수 있도록 고사장 시스템에어컨 긴급 서비스와 사전 점검에 나선다.\n\n삼성전자서비스는 수능 당일 시스템에어컨 긴급 상황에 신속하게 대응하기 위해 '전담 서비스팀'을 구축했다고 16일 밝혔다. 전담 서비스팀은 수능 당일 시험장 주변에 상주하며 긴급 상황 발생 시 신속한 출장 서비스 및 임시 사용 방법 안내 등을 지원할 계획이다.\n\n 삼성전자서비스 엔지니어들이 수능 시험장의 시스템에어컨을 점검하는 모습.(사진=삼성전자서비스) \n아울러 삼성전자는 AI 기술을 접목한 '가전제품 원격진단(HRM)' 서비스도 가동한다. 스마트싱스(SmartThings)에 연결된 시스템에어컨의 상태와 사용 이력을 AI로 분석하고, 상담사가 원격으로 제품 설정을 조정해 문제를 해결하거나 조치 방법을 안내한다.\n\n삼성전자로지텍 역시 수능 당일 안정적인 난방 가동을 위해 시스템에어컨 유지관리에 나섰다. HVAC 전담 엔지니어들이 실내외기 팬 작동 상태와 적정 온도 가동 여부 등에 대한 사전 점검을 진행하여 잠재적인 이상 징후를 사전에 확인하고, 고사장의 실내 환경이 안정적으로 유지되도록 지원한다.\n\n삼성전자서비스 관계자는 \"수험생들이 쾌적하고 안정적인 환경에서 시험에 집중할 수 있도록 사전 점검부터 시험 당일 긴급 대응까지 최선을 다하겠다\"고 말했다.",
           "body_source": "네이버 뉴스 본문"
         }
       ]
@@ -102,261 +102,224 @@
     "HD현대중공업": {
       "ticker": "329180",
       "market": "국내",
-      "candidates": 67,
-      "today_count": 3,
+      "candidates": 90,
+      "today_count": 7,
       "stories": [
         {
-          "title": "HD현대중공업, 안두릴과 첫 한·미 합작 무인수상함 진수…내년 美 해역 시험",
-          "published_kst": "2026-11-15T07:00+09:00",
-          "relevance": "direct",
+          "title": "K2 전차에서 잠수함까지…코츠테크놀로지, 1103억 일감에 해상 수주 더...",
+          "published_kst": "2026-11-16T09:00+09:00",
+          "relevance": "tagged",
           "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "더구루",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VUlJiMTFuX0ZRczE5R3hZelpYdUJwNVJCUU5nd0dVRjgwY3RkYmY4WEFBSzRBRW5TQTJKdDJQOEdyWEZsb2E4RTFKWXBadGxQbXg0VUxEUk1zOEx4VXkzaWhYRQ?oc=5",
-              "published_kst": "2026-11-15T07:00+09:00"
+            "네이버 금융": {
+              "publisher": "이코노미스트",
+              "url": "https://n.news.naver.com/mnews/article/243/0000105711",
+              "published_kst": "2026-11-16T09:00+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: ValueError"
+          "explainable": true,
+          "importance": 5.0,
+          "body": "[밸류업 레이다]①\n상반기 매출 37.3% 증가…탑재용 컴퓨터장치가 최대 매출 품목\n장보고-II 개량 장비 147억7000만원 수주…2032년까지 공급 \n\n 코츠테크놀로지 과천 사옥. [사진 코츠테크놀로지] \n꾸준한 실적과 성장 잠재력을 갖추고도 시장에서 제값을 인정받지 못하는 기업들이 있다. ‘밸류업 레이다’는 탄탄한 사업 기반에도 기업가치 대비 주가가 저평가된 기업을 발굴한다. 재무구조와 신사업 경쟁력, 주주환원 정책 등을 분석해 저평가의 원인과 재평가 가능성을 짚어본다. 숫자와 현장의 목소리를 통해 시장이 미처 발견하지 못한 기업의 숨은 가치를 조명한다. <편집자주>\n\n[이코노미스트 이용우 기자] K2 전차와 천궁-II에 탑재되는 컴퓨터를 공급해 온 코츠테크놀로지가 잠수함 성능개량용 장비를 수주하며 해상 부문 공급을 확대하고 있다. 올해 상반기에는 무기체계 탑재용 컴퓨터장치 판매가 늘면서 매출과 순이익이 함께 증가했다. 지난 10월에는 HD현대중공업과 147억7000만원 규모의 장비 공급계약을 맺었다. 기존 전차·유도무기 물량을 납품하는 가운데 해상 부문의 새 일감이 실적을 얼마나 끌어올릴지 주목된다.\n\n K2 초도 양산부터 납품…탑재용 컴퓨터장치가 매출 1위 \n\n코츠테크놀로지는 무기체계 안에서 데이터를 처리하고 장비를 제어하는 컴퓨터를 개발·생산한다. 주력 제품인 싱글보드컴퓨터(SBC)는 프로세서와 메모리 등 핵심 부품을 기판 한 장에 집약한 장치다. 회사는 2003년 시작된 K2 전차 개발 사업에 참여해 SBC와 군용 전시기를 독자 개발했다. 이후 초도 양산 물량에 두 제품을 납품했다. K2 전차에 적용한 제품은 SBC 12종과 군용 전시기 5종 등이다. 리서치알음은 “통합형 차량제어컴퓨터 등을 포함해 K2 전차에 19종이 탑재되며 코츠테크놀로지가 국산화한 품목은 사실상 단독",
+          "body_source": "네이버 뉴스 본문"
         }
       ]
     },
     "델": {
       "ticker": "DELL",
       "market": "해외",
-      "candidates": 18,
+      "candidates": 11,
       "today_count": 6,
       "stories": [
         {
-          "title": "Dell Technologies Inc. Tokenized Stock (Coinbase) price today, DELLc to USD live price, marketcap and chart",
-          "published_kst": "2026-11-15T08:03+09:00",
+          "title": "Form 4 Dell Technologies Inc: Silver Lake Partners IV, L.P. (Director, 10% Owner) For: 11 September",
+          "published_kst": "2026-11-16T06:46+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "CoinMarketCap",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTjBUTDlMNG9mZXYwN1dvLW1pQVdQWkRrMXhzUm14S3VTb3FETmlyZi00NktaQU1NSWhUSDR2OXB6X3lZenlkVTVBdkRXOXFELVowQ2xyaVVJcnhIb0xzcXJvVWFtUzhKWG9ad0Y2NnoyZ2l6QUI0R3BwTDloTHgxOXFLa1A3QW5xemtCYQ?oc=5",
-              "published_kst": "2026-11-15T08:03+09:00"
+              "publisher": "Investing.com South Africa",
+              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOWpvV2F0b1c5aUxWaE8yS0YyZkRpc0drMFA4amtMd2ZrUllHZ1g0cDZDeEdjMXVrV0dBa09wNlloSW5fMXBXZFIza2ppcHlNTjc4WFBkcko5SEJOOHRrdFZ4UFJsUVNiY3l1blNqa3FCeFVCd1hUUHppR0o0Z3pYb1hNREhEVUVVdlNmZWFrY3REck1hbUZjYjZGVDBnYlNuYmtZNUYtQmVRTjZvS181TDVOWElxOWNIa3gySWhmdkltMGo0RE5aelB5UjlXdGZVVmpYSlVvelJvaG5fcWM3NzRzT2U3QQ?oc=5",
+              "published_kst": "2026-11-16T06:46+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body": "The same data powering this page - prices, market cap, historical data, market pairs - served as JSON from the world's most-referenced crypto data source. Don't want an API key? Add /public-api/ to the path for keyless access : https://pro-api.coinmarketcap.com/public-api\nCurrent USD spot price for Dell Technologies Inc. Tokenized Stock (Coinbase). Optimized for low latency and minimal payload - the fastest way to get a price into your app.\nReturns the latest market quote for Dell Technologies Inc. Tokenized Stock (Coinbase). Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\nReturns all static metadata available for Dell Technologies Inc. Tokenized Stock (Coinbase). This information includes details like logo, description, official website URL, social links, and links to a cryptocurrency's technical documentation.",
-          "body_source": "원문 본문 · coinmarketcap.com",
-          "article_url": "https://coinmarketcap.com/currencies/dell-technologies-inc-tokenized-stock-coinbase/"
+          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
     },
     "컨스텔레이션 브랜즈": {
       "ticker": "STZ",
       "market": "해외",
-      "candidates": 7,
+      "candidates": 4,
       "today_count": 2,
       "stories": [
         {
-          "title": "Marlborough's Anna Kelland claims national horticulture title",
-          "published_kst": "2026-11-15T08:19+09:00",
+          "title": "Hospices de Beaune 2026 Auction: Drought Cuts Harvest in Half, 432 Barrels on Sale - News and Statistics",
+          "published_kst": "2026-11-16T01:11+09:00",
           "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "www.marlboroughnow.co.nz",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03TzhlWEZoVkRvYTNhdlc5aW83SUo2UW1hTFVXU2xYcmxtbDRWZXk0cElreXZDMW5sdHp6SFp4aEdSNVV1T09uRkNfUHVXTnBiZUw1a1NzWDNIZ3FISjhlemdveUotSUdRUUtBNTRkVQ?oc=5",
-              "published_kst": "2026-11-15T08:19+09:00"
+              "publisher": "IndexBox",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeXdLOG5fbGRvM3hndzNFb2gyQmVJSElUM2F2UklEdmxzZXJjZTNRUFR2TzlOQnphWVgwUXQtTXNRUVJncVJTTEJfcVlBRkZ4eG1XejhPRXVXNTkxY0syOE9CTlNSQ0xKOVBhQ3JrZ3FYd3hxMnREV01RNTFfaDl6UW1VQnRaMUVDcGNIYU13NXFvX19DZVlaSTZsRWxRbVlVY0ZTc2dFVk1iamx1WE9xQTd0OA?oc=5",
+              "published_kst": "2026-11-16T01:11+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
-          "importance": 0.0,
-          "body": "Stay updated with the latest local news and events.\nAnna Kelland has been crowned the 2026 Young Horticulturist of the Year after excelling in a demanding two-day national competition in Auckland.\nThe Constellation Brands viticulture technician from Marlborough earned the title after representing the wine industry against four other finalists from the grower, arborist, amenity and plant producer sectors.\nContestants tackled practical, technical, business and sustainability challenges, while also submitting an innovation project.\nAlongside the overall title, Anna won the Woolworths Innovation Project Award, the Woolworths Industry Knowledge Award and the Horticentre Charitable Trust Sustainability Award.\nHer prize package includes a professional development scholarship, a bespoke glass trophy and cash prizes totalling more than $25,000.\n“I’m so excited. Thank you to everyone involved,” An",
-          "body_source": "원문 본문 · www.marlboroughnow.co.nz",
-          "article_url": "https://www.marlboroughnow.co.nz/news/6af2858749159602db7854d3"
+          "importance": 2.0,
+          "body": "#1\n E\n\n E. & J. Gallo Winery Headquarters\n Modesto, California, USA\n\n Focus\n Full portfolio\n\n Scale\n World's largest\n\n Private family-owned\n #2\n C\n\n Castel Group Headquarters\n Blanquefort, France\n\n Focus\n Wine & beer\n\n Scale\n Major European producer\n\n Large vineyard holdings\n #3\n T\n\n The Wine Group Headquarters\n San Francisco, California, USA\n\n Focus\n Value brands\n\n Scale\n Very large volume\n\n Owns Franzia, Cupcake\n #4\n T\n\n Treasury Wine Estates Headquarters\n Melbourne, Australia\n\n Focus\n Premium & commercial\n\n Scale\n Global\n\n Owns Penfolds, 19 Crimes\n #5\n P\n\n Pernod Ricard Headquarters\n Paris, France\n\n Focus\n Spirits & wine\n\n Scale\n Global giant\n\n Owns Jacob's Creek, Campo Viejo\n #6\n V\n\n Viña Concha y Toro Headquarters\n Santiago, Chile\n\n Focus\n Wine\n\n Scale\n Latin America leader\n\n Publicly traded\n #7\n T\n\n Trinchero Family Estates Headquarters\n St. Helena, California, USA\n\n Focus\n Wine\n\n ",
+          "body_source": "원문 본문 · www.indexbox.io",
+          "article_url": "https://www.indexbox.io/blog/hospices-de-beaune-harvest-halved-by-drought-as-2026-auction-opens-with-432-barrels/"
         }
       ]
     },
     "퍼스트솔라": {
       "ticker": "FSLR",
       "market": "해외",
-      "candidates": 22,
-      "today_count": 5,
-      "stories": [
-        {
-          "title": "How First Solar (FSLR) Expanded Margins Despite a 23% Revenue Decline",
-          "published_kst": "2026-11-15T00:23+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWWFrMWxKdkR0amNsckNMN1BieW9sTGpyMFhBQ2hic0Z1eUQyOVcweTFncjBRYjIzaVprcDY2RWYyei1mSEZ0NUJQanZoaTZGNkxQQXlldW5YV0JUemRuRW5Xei16NFJrd0FlUXZsV3BlRXVvVHozQnBqWDVNbEhVYWE5OVh4dFNDOElpU0h5S0ZCSVVQ?oc=5",
-              "published_kst": "2026-11-15T00:23+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "How First Solar (FSLR) Expanded Margins Despite a 23% Revenue Decline \n\n Jeff Lewis \n Sat, November 14, 2026 at 8:23 AM MST 2 min read \n\n FSLR \n -1.50% \n\n We just published the 10 Best Renewable & Clean Energy Stocks To Buy According to Analysts , with First Solar, Inc. (NASDAQ:FSLR) taking eighth place. \n Clean energy has returned to investors' attention as a Democratic Congress raises expectations that federal green subsidies and tax credits will receive stronger protection and that project approvals could move faster. Reuters reported renewed interest in solar manufacturers, residential installers, and equipment suppliers following the election. The policy outlook matters because developers commit capital well before a power plant starts generating revenue. \n Greater confidence in the incentives available when a project is completed can make it easier to finance construction, place eq",
-          "body_source": "원문 본문 · finance.yahoo.com",
-          "article_url": "https://finance.yahoo.com/energy/articles/first-solar-fslr-expanded-margins-152316651.html"
-        }
-      ]
-    },
-    "컨스텔레이션 에너지": {
-      "ticker": "CEG",
-      "market": "해외",
-      "candidates": 8,
-      "today_count": 1,
-      "stories": [
-        {
-          "title": "Constellation Energy (CEG) Shares Surge Over 10% After Q3 Beat a",
-          "published_kst": "2026-11-15T00:02+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVldpT0dxNzBPWWxudVdiT29QcUxTNkxnT1J5TndEUHNYMVE4NjR4dnNBdXcyQks3S3pTRG5xVWlNdVRuMFY4SVlURFhSbnplOUFzejBmMjFvNUtaWXVRV0NMeW9MOGpUcUVEc0c0MW5KN1lsc1gwOVBEcjQ0SVRLYmt4YUhYVHZiRXNjX3JSU2JLLWRERko1aEYzdldTZGtZV2cta2R0UlYzdF9jbzB5SnVkTkUyMXNhMHc?oc=5",
-              "published_kst": "2026-11-15T00:02+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
-        }
-      ]
-    },
-    "비스트라 에너지": {
-      "ticker": "VST",
-      "market": "해외",
       "candidates": 6,
-      "today_count": 1,
+      "today_count": 2,
       "stories": [
         {
-          "title": "Berkshire Hold, Vistra Buy, and five SA shares to accumulate – Ricardo week to 13 November",
-          "published_kst": "2026-11-15T00:29+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "BizNews",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZEdpQ0p1N0xsTkVJdlQ4dW1GUlMwOW16N1ZtQWVRWW5WZTVLY3BTT1dRZUxHaTRSc3B4ZkhxVUYwSXdQVU1GNkNkOXZWTWFZUVZoSmk3dmpTSTUwYjlHaFZXMHA0Rk5Tb0hPT1NfSzY0QThvUWhPMlE2VUJRQ1RXU0RzRQ?oc=5",
-              "published_kst": "2026-11-15T00:29+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 4.0,
-          "body": "Buffett’s successor is betting on Berkshire. Reinet and Prosus are also buying back their own stock at deep discounts.",
-          "body_source": "메타 설명(본문 추출 실패) · www.biznews.com",
-          "article_url": "https://www.biznews.com/events/investment-webinar/ricardo-week-to-13-november"
-        }
-      ]
-    },
-    "이오스 에너지": {
-      "ticker": "EOSE",
-      "market": "해외",
-      "candidates": 2,
-      "today_count": 1,
-      "stories": [
-        {
-          "title": "Kidderminster vs Halifax: BTTS",
-          "published_kst": "2026-11-15T04:37+09:00",
+          "title": "Top Solar Stocks To Research - November 15th",
+          "published_kst": "2026-11-16T04:15+09:00",
           "relevance": "tagged",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Coinbase",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jZDd2OTBGbFBiN0hNREpXOXh6RzFCVk02UFlmTXJPTmdnN1diWll5cDZjNERvQmlaU0cyWks3NEJWb2d1SWh4c29KMVRXV0tkTkR5eG85N1ZTZ05PWkkzaDVtbzFsSVIyS2F3eHBjS2Q5RTVIcWtZOE5nbmhpdkk?oc=5",
-              "published_kst": "2026-11-15T04:37+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3pDUFVLN3Noc1o5dDJKWkJzaGhvMWFfd0pxZm5zMDdNVjhYZ2FCbWVPSUFiZXBNa2pBY0FfOFgxWDd6NUkxWi1WUl9QYkk1eV95N2VucC1ScWNKNl96XzgtdkN2MWVVdm1pcjYtZVJwNGx3dlA3RnoySjczTTFGWUY1eUdIUEZvR3FRdkZVdmg2Nk9lWnNldDF5UFM0YnpEZGxj?oc=5",
+              "published_kst": "2026-11-16T04:15+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 0.0,
-          "body_error": "본문 추출 실패 · 구글복원: HTTPError"
+          "body": "Top Solar Stocks To Research - November 15th \r\n\n Written by MarketBeat\n November 15, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n MarketBeat identified First Solar, Nextpower, Enphase Energy, T1 Energy, Solaris Energy Infrastructure, SolarEdge Technologies and Sunrun as solar-related stocks with the highest recent dollar trading volume. \n Friday trading was mixed: Nextpower and Sunrun edged higher, while First Solar, Enphase, T1 Energy, Solaris Energy Infrastructure and SolarEdge fell. \n Several stocks were trading well below their 52-week highs, including First Solar at $171.39 versus $320.95 and SolarEdge at $23.85 versus $81.25. \n Five stocks we like better than First Solar . \n\n MarketBeat Week in Review – 08/10 - 08/14 First Solar, Nextpower, Enphase Energy, T1 Energy, Solaris Energy Infrastructure, SolarEdge ",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/list-top-solar-stocks-to-research-november-15th-2026-11-15/"
         }
       ]
     },
-    "알먼티": {
-      "ticker": "ALM",
+    "컨스텔레이션 에너지": {
+      "ticker": "CEG",
       "market": "해외",
-      "candidates": 13,
-      "today_count": 4,
+      "candidates": 7,
+      "today_count": 2,
       "stories": [
         {
-          "title": "Almonty Ships Its First Tungsten Container — and Stifel Trims the Price Target Anyway",
-          "published_kst": "2026-11-15T04:50+09:00",
+          "title": "Constellation Energy (CEG) Raised 2026 Guidance Again, Is The Stock Still Undervalued?",
+          "published_kst": "2026-11-16T03:25+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSjh4MWFtZTdYRXlYT3U5MXpoVmQzb1lxcEREdlNCUW9uUTlYZ29yLVRGQ1dTNWlEWkI2VkVWZk1CMk1QZ0E2aklCbnpCREpXWU50d0JFSDV0aG1LaEUxS05XYVBGUkk0V0pfLWFsaGxGR1VwdkUtZ3A4QnY4TmM1SE9RYWRUWjV4cVctWkM1SzJNQmRWY3d2UG5OWWFZNWdYeDI5ZUQwSXBDYzZtTTdfYmE5NVFzalptb09ud3BuaEs4SlkwOGw0cWQ2S3JJbTZXOV8tMFNtVHBIRDViMEZ3bDZLTWJiNUlvTWhF?oc=5",
-              "published_kst": "2026-11-15T04:50+09:00"
+              "publisher": "Simply Wall St",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVVESFg2UlVxd09iUF9leHQ5QWJ0MHlOZXAzM0o2aUhPQmZuaWNNNHZ0VmZvWlRuMWxmeE45YkU1cnNhck5ZOGxULWpicHlUTWR4YkZoWmNYalFzNjA1VFMzS0pfLXVYZEZsaWltY3ZmQlIwT3RrSzdRaGoxSWx3Nms1LWI3a1RNckJTdzRscjcyejNfeEtuT1BLeXl1VUt0aFFLeWM1ai1lY25pa09zaDl0ek9zTEtVYnU5S3VUWE91X09kMXBUR2h4MGtDWmJDSlBxWHB30gHbAUFVX3lxTFAxUC1ETWl1aTNEX3dpMmdCdXZ6S1NnZEVIQmVzYlIxNW9WOWNLREt3QzlFR0FlOUlFZUwzUGhVVzg0c3FBUi1GamlPSFE0SzBXMUhqQmY5ODJSd3gtSDVrQ1gweXJ5bUhGUFA2WE9feHpkNXNzemZmc3hGeDJBNVgwRU5nUmtzRG9ReG4wWkRfLXBnWUJQT0hBeWZ4ZXpmU0xLOUI3YUI5UnpibXBjNmw0dVlFamxTb0g2V1NLcVQyS2NVUXlSMWN6ZElOWFNJbDZ1WW1HTnA2cVRNMA?oc=5",
+              "published_kst": "2026-11-16T03:25+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Almonty Industries has crossed a line that matters more than any single quarter: tungsten concentrate from its Sangdong mine is no longer just being produced, it is being sent to a customer. The company loaded its first export container in Busan after the quarter closed, a milestone it disclosed alongside its third-quarter results on Thursday. Investors responded by pushing the shares up 8.5% the following session.\nThe shipment gives the ramp-up a commercial edge. Until now, the story was about whether Sangdong could make concentrate at all; from here, the question shifts to whether Almonty can turn that output into repeatable deliveries. Management confirmed the mine produced its first tungsten concentrate in September.\nThe economics behind the quarter were powered by a tungsten market that has turned sharply in producers' favour. European APT averaged $2,800 per MTU in the most recentl",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/almonty-ships-its-first-tungsten-container-and-stifel-trims-the-price-target-anyway/70513410"
+          "body": "Constellation Energy (CEG) has put fresh numbers on the board. Third quarter sales came in at US$9.55b with net income of US$1.84b, and management raised 2026 guidance again.\nThat upbeat third quarter has landed against a choppy share price backdrop. Constellation Energy’s 7 day share price return of 12.1% and recent earnings beat suggest momentum is rebuilding after a year to date share price decline of 23.5%, even though the 3 year total shareholder return of about 134% is still very strong in absolute terms.\nScan other grid and nuclear beneficiaries riding similar data center demand with our hand-picked 17 nuclear energy infrastructure stocks alongside Constellation Energy’s latest guidance reset.\nConstellation Energy now appears to be a high quality clean power platform, supported by updated guidance and a sharp rebound in the share price. The key question is whether that strength is",
+          "body_source": "원문 본문 · simplywall.st",
+          "article_url": "https://simplywall.st/stocks/us/utilities/nasdaq-ceg/constellation-energy/news/constellation-energy-ceg-raised-2026-guidance-again-is-the-s"
         }
       ]
     },
-    "크레도 테크놀로지": {
-      "ticker": "CRDO",
+    "비스트라 에너지": {
+      "ticker": "VST",
       "market": "해외",
       "candidates": 4,
       "today_count": 1,
       "stories": [
         {
-          "title": "Credo Technology Group vs. Marvell Technology: Which Technology Stock Is a Better Buy for 2027?",
-          "published_kst": "2026-11-15T02:30+09:00",
+          "title": "Vistra (NYSE:VST) Stock Rating Raised to \"Hold\" at Zacks Research",
+          "published_kst": "2026-11-16T01:32+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMzItNmtVcXdVZnNkNWNzZW9mSXdIZjFiYXAyTzNJSnNaWktZa1lBVHZzeXpaeTJ6UHM0VDEySFdfdVlVNDFUeEhpOE9tX2FLV1dIcnlTQXpqUEZHZEhkandWajRweTlRWnZzczAxVVBlNFhmTFRMNUt4NVZmdFNYeEU1QXJRX3J1OHJpVmxhazl1dWhQaURIZFRmZUFSalRINnRsci0tYks3QTMxNEFjLXpTMU92bG9nTnhYTG9hOHo5NFRaSkpwV3pteHExM2FIdDZNM09iQWxPLXFDeVE?oc=5",
-              "published_kst": "2026-11-15T02:30+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeUYzZ1RnWnB2d3ZMS1pmRGNnaFU5RWVrXzJEb3JZbGxFQ3JRUGYwNlUwb3NUN0dSVlo3b0M0YnFFSFR0VTY5V0t0eGxNaFk4TXZMZWJ1UE5nZlhqRjRLaU9YTXVpMUJDRVRSMXlRNjJDUVU2Q0M2OGpNOFBkVEZ3cG4yTmU4djlVM2VnR0hUWXNEeHZud1N6SjRxUnFXeG9iXzMwQzU5bFVNaGNoalYydjJVb3I1bS1wT1ZTYmV4RWU?oc=5",
+              "published_kst": "2026-11-16T01:32+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body": "As demand for artificial intelligence continues to reshape the global data landscape, investors are weighing the explosive growth of Credo Technology Group ( CRDO -5.94% ) against the established dominance of Marvell Technology ( MRVL -4.68% ) .\n Credo specializes in energy-efficient connectivity for high-speed networks, focusing on specific bottlenecks in hyperscale data centers. Marvell offers a more diverse range of semiconductor solutions covering storage, optical, and computing needs across the entire networking ecosystem. Comparing these two reveals a choice between a high-growth specialist and a diversified infrastructure giant.\n The case for Credo Technology Group Credo focuses on designing high-speed copper and optical interconnect solutions that facilitate massive data movements within cloud networks. The company primarily serves blue chip hyperscalers and equipment manufacture",
-          "body_source": "원문 본문 · www.fool.com",
-          "article_url": "https://www.fool.com/coverage/better-buy/2026/11/14/credo-technology-group-vs-marvell-technology-which-technology-stock-is-a-better-buy-for-2027/"
+          "body": "Vistra (NYSE:VST) Stock Rating Raised to \"Hold\" at Zacks Research \r\n\n Written by MarketBeat\n November 15, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n Zacks Research upgraded Vistra from “strong sell” to “hold.” Despite the change, analysts overall maintain a “Moderate Buy” consensus rating and an average price target of $200.45. \n Vistra beat quarterly expectations, reporting earnings of $3.23 per share versus a $2.98 estimate and revenue of $6.35 billion versus $6.03 billion expected. \n The board approved a $1.5 billion share-repurchase plan , authorizing buybacks of up to 3.3% of outstanding shares. \n Interested in Vistra? Here are five stocks we like better . \n\n Vistra ( NYSE:VST - Get Free Report ) was upgraded by Zacks Research from a \"strong sell\" rating to a \"hold\" rating in a report released on Thursday, ",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/analyst-vistra-nyse-vst-stock-rating-raised-to-hold-at-zacks-research-2026-11-15/"
         }
       ]
     },
-    "알파벳 A": {
-      "ticker": "GOOGL",
+    "이오스 에너지": {
+      "ticker": "EOSE",
       "market": "해외",
-      "candidates": 21,
-      "today_count": 3,
+      "candidates": 4,
+      "today_count": 0,
+      "stories": []
+    },
+    "알먼티": {
+      "ticker": "ALM",
+      "market": "해외",
+      "candidates": 8,
+      "today_count": 4,
       "stories": [
         {
-          "title": "Alphabet's cloud revenue doubles with 103% grow...",
-          "published_kst": "2026-11-15T04:03+09:00",
+          "title": "Almonty Industries Inc. (NASDAQ:ALM) Stock Has Consensus Price Target of $22.54",
+          "published_kst": "2026-11-16T08:24+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Pluang",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdU5fRVBHUXR3cXhsWkFBRENaenVZV2xUYTVsUkRuWnAxSWpWV0JOcEtxcno2bFJ1cXRvMW45MXQ3Zzk0Vkh1dDBFd1p0emJpbkVNUmpDVmFLU28xWnQ1U3JSbnNUZDI4a3FxUi13Nl9YZ1hqdUNKenlFbzRDZU1fNUhrR3FzY010dmEwRGUzd2ZyclIzYmV3SnlZSXNkNWNPb3NV?oc=5",
-              "published_kst": "2026-11-15T04:03+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd3BtR1l6RzdZUkM1ZXJYa3dVbkgxOXF0Tkt0R25zVWl2OFB0UWk5dzNxSWMxSXJMbENoYWZpTy1TTjkyLVllOVBPcFRJVFpycHF3djhTOXZLSXBJS0I4Sm1hbExQWFhZQ1FqR0RyenVUTTczekZyMGxXZHhycFdYdWlDRUZxRjVNdUJwajUxMTAzbmtwRFdfQzZVdUpGMmlDNmZOUDI2RXNoSkpTXzF5TEtyd1RBYTYxSUxFLWcwNHhreWdxTEFYMGJjZGhucXJCNE1sag?oc=5",
+              "published_kst": "2026-11-16T08:24+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
+          "body": "Almonty Industries Inc. (NASDAQ:ALM) Stock Has Consensus Price Target of $22.54 \r\n\n Written by MarketBeat\n November 15, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n Analyst sentiment is moderately bullish: Eight firms rate Almonty Industries a consensus “Moderate Buy,” with five Buy ratings, one Strong Buy and two Hold ratings. The average 12-month price target is $22.54. \n Price targets vary: Targets cited range from Goldman Sachs’ $13 Hold target to DA Davidson’s $33 Buy target; B. Riley also cut its target from $25 to $20 while maintaining a Buy rating. \n Shares rose 7.7% to $8.22 in Friday midday trading, though reports flagged a potential C$43 million legal claim and conflicting accounts of quarterly earnings. \n Five stocks to consider instead of Almonty Industries . \n\n Almonty Industries Inc. ( NASDAQ:ALM - ",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/consensus-almonty-industries-inc-nasdaq-alm-stock-has-consensus-price-target-of-2254-2026-11-15/"
+        }
+      ]
+    },
+    "크레도 테크놀로지": {
+      "ticker": "CRDO",
+      "market": "해외",
+      "candidates": 5,
+      "today_count": 0,
+      "stories": []
+    },
+    "알파벳 A": {
+      "ticker": "GOOGL",
+      "market": "해외",
+      "candidates": 16,
+      "today_count": 3,
+      "stories": [
+        {
+          "title": "Form 4 Alphabet Inc Class A For: 15 November By Investing.com",
+          "published_kst": "2026-11-16T06:09+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Investing.com Nigeria",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTDctX3dOUVVCYnllV1A5XzdST3ZjZk1NU0xnVjJpS29IOGxYN2NKTVVTU1FfMENYVkpDN3o4U3JvWEpGZUM4YnpCSHIyWWExWlBKN1gzblp4bGxoaTlpaWJiSlRNbjRoZDJ0UjZjd0JTMnN2TWllTnZyUkJ2dlFFdlBrUWstX1NfV18zZktwLTh2b09MTnE1SFlYLWg5dWxkUWp5MjVRQQ?oc=5",
+              "published_kst": "2026-11-16T06:09+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
           "body_error": "본문 추출 실패 · 구글복원: HTTPError"
         }
       ]
@@ -364,27 +327,27 @@
     "시스코 시스템즈": {
       "ticker": "CSCO",
       "market": "해외",
-      "candidates": 30,
-      "today_count": 6,
+      "candidates": 29,
+      "today_count": 9,
       "stories": [
         {
-          "title": "Hedge Fund Veteran Warns: Nvidia's Circular Financing Could Repeat Cisco's Collapse as Insiders Cash Out $1.9 Billion in a Year",
-          "published_kst": "2026-11-15T03:31+09:00",
+          "title": "Migdal Insurance & Financial Holdings Ltd. Acquires 401,888 Shares of Cisco Systems, Inc. $CSCO",
+          "published_kst": "2026-11-16T02:38+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "BigGo Finance",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pUS1rWGV5aThFY3ZfcTFnQVAyRzVzV2JLS2NDdGVRX1V4dXctdlFiSHdqT25YTTRkUWpWdUtLVVBwUnUtaFN5T3U4SHZubXRmLVlNMjBLWGpEYmNrMWNBdG5HdTZkV1RiV01fRDE2bzQtbmhndEE?oc=5",
-              "published_kst": "2026-11-15T03:31+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOXEyQnlmX2tQbDJ2dUQ0a3A1b3ZtaVdkZnVtVDVtcmxvZ09VN19lWGhOamRrRlN0MG1fc0hxMnEzM1BkOFA4ei1UcDhYUEVEUFJOQmtOMWNDYjU1ZFd0MDFlcDFsZ0d6WjEtc2h2V0ZXNl9JSEVBMTNqLVllQ1JSX1pYcDVlSVJTbnFIMlg4UlRycGFjck80UlBNX3NXVUxma0Z3OEN4VzI0YnNuQmlEOU1vZ3ZBanl0dTIwc1Z5RW91aXNrTVd1VFozeWVHX1RJdHZYcnJlWmNvODRiWWhZdkw1VQ?oc=5",
+              "published_kst": "2026-11-16T02:38+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "George Noble, a hedge fund manager who previously worked as a portfolio manager at Fidelity, took aim at Nvidia—now the world's most valuable company—in a social media post on Thursday, arguing that the AI chip leader is boosting hardware sales by helping finance its customers, a path that mirrors Cisco's vendor-financing model at the peak of the dot-com bubble more than two decades ago. He warned that once downstream customers can no longer pay, this circular structure will backfire on Nvidia itself and create dangerous systemic fragility for the broader market.\n\n Noble's first point of comparison is index weighting. He noted that Nvidia now accounts for roughly 8% of the S&P 500 Index—exactly double Cisco's weighting at the height of the 2000 dot-com bubble. Cisco lent money to telecom startups that could not prepay for equipment; after a wave of telecom bankruptcies, Cisco's stock plu",
-          "body_source": "원문 본문 · finance.biggo.com",
-          "article_url": "https://finance.biggo.com/news/6f1c7e62-bf95-4147-b8cc-99b7a44d2e6c"
+          "body": "Migdal Insurance & Financial Holdings Ltd. Acquires 401,888 Shares of Cisco Systems, Inc. $CSCO \r\n\n Written by MarketBeat\n November 15, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n Migdal Insurance & Financial Holdings increased its Cisco stake by 988.7% in the third quarter, buying 401,888 shares to reach 442,536 shares valued at about $47.6 million. Institutional investors and hedge funds collectively own 73.33% of Cisco. \n Cisco beat quarterly expectations, reporting $18.52 billion in revenue and $1.40 adjusted EPS, and set fiscal 2027 EPS guidance of $5.47–$5.53. The company also raised its revenue outlook and AI revenue target amid strong networking demand, though product orders missed expectations. \n CSCO fell 6.2% in Friday trading to $95.64. Analysts’ average price target is $125.64 with a “Moderate Buy” c",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/filing-migdal-insurance-financial-holdings-ltd-acquires-401888-shares-of-cisco-systems-inc-csco-2026-11-15/"
         }
       ]
     },
@@ -392,114 +355,134 @@
       "ticker": "VRT",
       "market": "해외",
       "candidates": 7,
-      "today_count": 0,
-      "stories": []
-    },
-    "록히드마틴": {
-      "ticker": "LMT",
-      "market": "해외",
-      "candidates": 11,
-      "today_count": 3,
+      "today_count": 1,
       "stories": [
         {
-          "title": "Lockheed Martin (NYSE:LMT) Raises Its Dividend: What’s Next?",
-          "published_kst": "2026-11-15T00:48+09:00",
+          "title": "Vertiv Holdings Co. $VRT Stock Purchased by Migdal Insurance & Financial Holdings Ltd.",
+          "published_kst": "2026-11-16T02:38+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "Kalkine Media",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPODZSQnJtMzZaWVgwOGNXS1NvV0ZSQloyZnNGZ0JIcVFnQTlEX3NMaE5tbjdaZDNzeXN1eVBEOVZTdFhYYTJBd2MtWkpxTHA3ajFnUmhzRGVGWUlSejBUOFRKRnFtcG1XVmV1NXFzQks2TnUxSUdoZHNLMlpkOGsxZms4N29rQk9idXh3QWNfTFE3bm54cjZocHZsWnZTSjl3Nnc?oc=5",
-              "published_kst": "2026-11-15T00:48+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 8.0,
-          "body": "Lockheed Martin (NYSE:LMT) Raises Its Dividend: What’s Next? \n\n S&P 500\n\n LMT\n\n ( \n\n USD \n 604.39 \n\n ↓ \n\n -0.93%\n\n ) \n\n 5 min read | November 14, 2026 07:48 AM PST | By\n Anmol Khazanchi \n\n Google News: \n\n Recent News\n\n What Comes Next for Nomad Foods (NYSE:NOMD) After Results? \n\n November 15, 2026 07:34 AM AEDT | By Anmol Khazanchi -->\n\n Colgate-Palmolive (NYSE:CL) Rallies on Resilience: What’s Next? \n\n November 15, 2026 07:30 AM AEDT | By Anmol Khazanchi -->\n\n Enbridge (NYSE:ENB) Keeps Energy Flowing. What’s Next? \n\n November 15, 2026 07:20 AM AEDT | By Anmol Khazanchi -->\n\n Why Is Mettler-Toledo (NYSE:MTD) Gaining Attention Near Its Yearly Hig... \n\n November 15, 2026 07:17 AM AEDT | By Anmol Khazanchi -->\n\n Make Kalkine Media \n\n My Trusted Source\n\n Highlights \n\n The quarterly dividend was raised. \n Results topped estimates. \n Defense and space programs anchor growth. \n\n From advanced f",
-          "body_source": "원문 본문 · kalkinemedia.com",
-          "article_url": "https://kalkinemedia.com/us/stocks/industrial/lockheed-martin-nyselmt-raises-its-dividend-whats-next"
-        }
-      ]
-    },
-    "마이크로소프트": {
-      "ticker": "MSFT",
-      "market": "해외",
-      "candidates": 22,
-      "today_count": 3,
-      "stories": [
-        {
-          "title": "Nebius Stock: Power Bottleneck at Vineland Puts Microsoft's $19.4 Billion Deal to the Test",
-          "published_kst": "2026-11-15T05:41+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWEFtNjA0MFR2cHNlckxVN1A2YmFFSF9WLUhVbFY2VG42QXhKZVpyOFY1VmhKU3B1cm5OWjhpQ1hTLXcxZllLMm9Eem4tTlpOQThCWmV1cjFIMWtZczEtOEJKS090aDZjNVBEa0NrNWxRTkE0eEVTSlE3cVBiVU1wcnVXUXZ4dWVpbnlmWDJGSlFGaEVrZm1IcHhBVHJpcm5Nc2pPSnBFVFpjeXE2Z21VTnlwb0FrWFhnRG5mZnFiTXZuTWdPaTZzWDBCcWJFNFhwYUZ3TXZySVRvNlE4RjQ2NVViTXNuLV83bkNxaHFtT1V0dw?oc=5",
-              "published_kst": "2026-11-15T05:41+09:00"
-            }
-          },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "Nebius has spent the past quarter proving it can sell capacity. Now it has to prove it can deliver it. The distinction matters more than usual after a week in which the company posted explosive growth, watched its shares slide 9.6%, and fielded two price-target cuts — all while a power-supply problem at a partner site in New Jersey exposed how thin the line is between a signed contract and a bookable revenue stream.\nSince the start of the third quarter, Nebius has signed contracts worth more than $12 billion. That figure speaks to demand and to the company's ability to market additional capacity. Economically, though, the paper only converts into durable value once the promised services are actually available.\nThe Microsoft agreement is the largest single piece of that backlog, worth up to $19.4 billion. Under the schedule outlined on Thursday, slightly more than half of the capacity is ",
-          "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nebius-stock-power-bottleneck-at-vineland-puts-microsoft-s-19-4-billion-deal-to-the-test/70513608"
-        }
-      ]
-    },
-    "나이키 B": {
-      "ticker": "NKE",
-      "market": "해외",
-      "candidates": 9,
-      "today_count": 3,
-      "stories": [
-        {
-          "title": "Nike’s 2026 Downturn: Stock Slump, Athlete Departures, and a New Sales Approach",
-          "published_kst": "2026-11-15T02:56+09:00",
-          "relevance": "direct",
-          "sources": {
-            "구글 뉴스 RSS": {
-              "publisher": "Inkorr",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbXdjalZEQXlKLWxrZWJ2RHNvcDdDNEo0ZC1rSVlYamZyTjlUb1QwT1BZWkwtenhOY0lhSG9qWGZualV5bF9TOC1rNFEtV3VkTGFXWHpkaGQzcVp5N29uaFA2OS1MZU1aLWdKeDVkakVIVTFRRV9sZjJ3eFVhelNDQlZxa2s0TUJPVnNwdUhiQkVncDFHS0lMOWVYdmZPcl9qeTRlVGdpeVd1X1o3Ulg3cUVR0gG3AUFVX3lxTE9ILUd4M3VQZDA0aXl4OENZcFhuQ3VzN085Z2dZRVY1YXVvZjMyTmlGUWpObzk4Y0MtYW1HUmNRdDFKRDdWNU90YTlmWWtwWFRlOUZ4clI4NFltWHo2c1YwY0g5RlVJT3VGVDY1d3oxSHRsZkxjTnAtQXRSVEg5ck1IRENlMTZjSXZJeXNhTWFHdFMxeGk3TmVNSGRkT1ZlWUZxVWVTeWhQakZ6cTN2dnJYLTNiTzJtZw?oc=5",
-              "published_kst": "2026-11-15T02:56+09:00"
+              "publisher": "MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQkE2QTU2OWFjWENRV3VFcUNheFMxaW44OFZuZlhyaDY4QVZRRF9LTWRuai10YWJCOVF5TDdOQzVQTEtvNE1uNGpEQXU3ZkxVY19fYjRUNXFhdDIyMjN3SDRWQ2w4LTZmUjlyY0VXaXJUdW50N2FXcV81VjBqVnJhNWx4VVdtM2llOXZQT1BmU0FvZmthSUFiV2JMR1o3MVZHSDdhSWtZVzJDYW9YaGllS3BYOVVNdVhKRW5fd0hwSjlXZy1CajU5R0ZPc3hYX2dKa25WWkhKOFVtdw?oc=5",
+              "published_kst": "2026-11-16T02:38+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 4.0,
-          "body": "According to Radiotrek — Світ : In 2026, Nike is facing a significant downturn marked by falling stock prices, declining consumer enthusiasm, and the departure of high-profile athletes to rival brands. A key factor behind this slump has been the company’s reduced partnerships with major retail chains, which has limited the availability of Nike products. Additionally, an overabundance of outdated models and the rising popularity of emerging brands have further weakened Nike’s market position.\nBack in June 2024, Nike’s shares plummeted nearly 20% in a single trading day, wiping out approximately $28 billion in market value. Customers are increasingly turning to competitors, with prominent athletes like Lamin Yamal transferring their endorsements to Adidas, and in September 2026, Kylian Mbappé became a brand ambassador for the Swiss company On. These shifts highlight a broader transformatio",
-          "body_source": "원문 본문 · inkorr.com",
-          "article_url": "https://inkorr.com/en/nike-u-krizi-2026-roku-padinna-akcij-vidhid-sportsmeniv-ta-zmina-strategii-prodaziv-354904"
+          "body": "Vertiv Holdings Co. $VRT Stock Purchased by Migdal Insurance & Financial Holdings Ltd. \r\n\n Written by MarketBeat\n November 15, 2026\n\n Add As Preferred Source \n Share \n Share \n\n Share This Article\n Link copied to clipboard.\n\n Close \n\n Key Points \n Migdal Insurance & Financial Holdings increased its Vertiv stake by 40.2% in the third quarter, adding 128,751 shares to reach 448,817 shares valued at about $108.3 million. \n Vertiv reported quarterly earnings of $2.21 per share, beating estimates of $1.82, while revenue rose 61.2% year over year to $4.31 billion. \n The company raised its quarterly dividend by 60%, from $0.0625 to $0.10 per share. Vertiv shares fell 3.8% on Friday to $201.60. \n Five stocks to consider instead of Vertiv . \n\n Migdal Insurance & Financial Holdings Ltd. increased its stake in Vertiv Holdings Co. ( NYSE:VRT - Free Report ) by 40.2% during the third quarter, accordin",
+          "body_source": "원문 본문 · www.marketbeat.com",
+          "article_url": "https://www.marketbeat.com/instant-alerts/filing-vertiv-holdings-co-vrt-stock-purchased-by-migdal-insurance-financial-holdings-ltd-2026-11-15/"
         }
       ]
     },
-    "노보노디스크 ADR": {
-      "ticker": "NVO",
+    "록히드마틴": {
+      "ticker": "LMT",
       "market": "해외",
-      "candidates": 21,
-      "today_count": 6,
+      "candidates": 14,
+      "today_count": 10,
       "stories": [
         {
-          "title": "Novo Nordisk's CagriSema Data Land Alongside a FREHEMGO Approval, a Raised Outlook and Fresh FDA War",
-          "published_kst": "2026-11-15T04:40+09:00",
+          "title": "Boeing-Lockheed firm’s rocket fails after launch",
+          "published_kst": "2026-11-16T08:04+09:00",
           "relevance": "direct",
           "sources": {
             "구글 뉴스 RSS": {
-              "publisher": "ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOM25sTVZQd2xQS3E4UU9hVUp2c0d2S1JxenVGcTdrU0VTd3YwQ2FsSmZjNWZVNUxCN2hXT09GLUVDZkdpTmNTbFlXWG94c2l5eW9YV2Y2SHhCUUI0TlpZQVFZcTFaTGw4Z3BEZm9rVk9HdURSZ1BMbmVTSjFwS0RfVnM3N3N4SUwxMmJiZG1HbGJWR0NNajQ5OGY0T1RsMVI3cE5ia0kta2diMGpfeHdUSnZpTTJWS2N0eFBWLUpraXcyOWkwYWlWQ3lWdlU2SV9pYTU3OTllZm5panV2SmJONERqVUZTZXRWMzA3TjM0bmZSb2RvT1dHQk1MRQ?oc=5",
-              "published_kst": "2026-11-15T04:40+09:00"
+              "publisher": "Free Malaysia Today",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJ6TzJ1cGp6Vjd3VEZfMVJfaTF1a1NDWUxDa1F6RGJRZWo0V09zeEhfN1Y4UDlpX3lUNlQ4ODhNeU5UMHVENnFFVWhZaUs2MGViYmFiRkJXajlDZi12SGNocHFmaWd2YXEwZHdjcHlhY0pPN3hET2c3SjNRdlRPYkhnNVZoQUlQMkROc25ucVpCMmtnVGliXzkzSC1paVF0OWtyV2xWRUJNZ0FLTkZTOQ?oc=5",
+              "published_kst": "2026-11-16T08:04+09:00"
             }
           },
           "source_count": 1,
           "verification": "single_source",
           "explainable": false,
           "importance": 6.0,
-          "body": "Novo Nordisk closed the week with a 2.7% gain, a move media reports attributed to Thursday's European approval of FREHEMGO. Yet the more consequential news for investors sits beneath the share price: a fresh readout on CagriSema, an upgraded full-year outlook, and new safety labelling requirements for its GLP-1 franchise.\nThe company released new Phase 3 results from the REDEFINE 9 study on Friday. At the lower doses, estimated average weight loss reached 20.7% and 21.0% respectively, assuming participants stayed on treatment. The figures cover a 68-week treatment period; placebo produced an estimated average reduction of 2.0%.\nNovo cautioned that the trial was not designed to compare the active doses head-to-head, so the differing results do not amount to a study-validated comparison between the CagriSema doses tested. Additional visibility is due at ObesityWeek 2026 in Washington, runn",
+          "body": "BROWNSVILLE : A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after launch from Florida, destroying its payload of 40 satellites for Amazon’s Leo internet network in the company’s first mission failure.\n\n The rocket failed roughly 10 minutes after liftoff, and the cause was not immediately clear.\n\n It represented a major setback for the two-decade-old company’s new flagship rocket as it sought to begin a regular cadence of launches for Amazon’s burgeoning satellite internet constellation.\n\n “Based on data received by our Launch Director, we confirm that the Vulcan vehicle launched from Space Launch Complex 41 suffered an anomaly 10 minutes into the flight and failed to deliver the Amazon mission to orbit,” ULA said in a statement.\n\n “Every flight generates data, and every flight teaches us something. Since the ano",
+          "body_source": "원문 본문 · www.freemalaysiatoday.com",
+          "article_url": "https://www.freemalaysiatoday.com/category/business/2026/11/16/boeing-lockheed-firm-s-rocket-fails-after-launch"
+        }
+      ]
+    },
+    "마이크로소프트": {
+      "ticker": "MSFT",
+      "market": "해외",
+      "candidates": 20,
+      "today_count": 4,
+      "stories": [
+        {
+          "title": "Vanguard Russell 1000 Value ETF (NASDAQ: VONV) Surges 24.8% In 2026 While Holding Amazon, Apple, And Microsoft Without A Single Nvidia Share",
+          "published_kst": "2026-11-16T07:17+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "Foreign Policy Journal",
+              "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaWdzSmE1blM0cEh2Wk0tbVo4VkdVQXBVMkF5dUZDLUh1SUNJTnRQU21IT3llcEFDSzc0VENGNTB5ZlR1VTJfc0xHNUdvWkpOdkVMMlNFV21KeEgzUEt3SmhnVmRWMGppb3ExMDNQMzJDNmhaanFoS3ZNdVZmbWlTd3lLUFFBdTAzZVNrUFVnN0lZTHBjQzMyTzZ4Y2I0bENoTVc0VGV6V3ZRT3ZkX1BESWhDYlFPVE5KYmhpN3RaLTZOd1FXejBBQkhjalZFVGJPNTVMZjBiczVCejEtOUpDaTEycDRNSndXN1ZtcW9KVmVMTzZVNHF1eEVaTVYxbnMweXQ2M0lNcWc1QWdleEdicA?oc=5",
+              "published_kst": "2026-11-16T07:17+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 6.0,
+          "body": "A fund that owns three of the market’s most recognizable technology giants yet carries no Nvidia exposure has quietly beaten both the S&P 500 and the Nasdaq Composite in 2026.\n\n The Vanguard Russell 1000 Value ETF (VONV) has returned 24.8% this year, drawing attention from investors seeking growth-oriented holdings through a value-classified vehicle.\n\n What makes the fund’s composition unusual is an index construction quirk that allows the same stock to appear in both the Russell 1000 Value and Russell 1000 Growth indexes simultaneously.\n\n FTSE Russell, a subsidiary of the London Stock Exchange Group, conducts a semi-annual reconstitution that splits the Russell 1000’s market capitalization roughly in half across those two indexes.\n\n Unlike Morningstar’s methodology, which maintains strict separation between its large-cap value and growth indexes, FTSE Russell permits dual membership, en",
+          "body_source": "원문 본문 · www.foreignpolicyjournal.com",
+          "article_url": "https://www.foreignpolicyjournal.com/2026/11/15/vanguard-russell-1000-value-etf-nasdaq-vonv-surges-24-8-in-2026-while-holding-amazon-apple-and-microsoft-without-a-single-nvidia-share/"
+        }
+      ]
+    },
+    "나이키 B": {
+      "ticker": "NKE",
+      "market": "해외",
+      "candidates": 16,
+      "today_count": 9,
+      "stories": [
+        {
+          "title": "First Look: Devin Booker’s Nike Book 3",
+          "published_kst": "2026-11-16T07:21+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "House of Heat°",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80NndCbUtULUVlZFNCVDlxQnZKNDNTeFRVazJndmpSUDAyQnhaVS1BTlRlTHpkWXY1d0xKZ1pESi1iNTlyQTI3Zi1wWlVlb3BrVHJZZlFIX1A1ZWJkeXQ5bEUyaUVJUQ?oc=5",
+              "published_kst": "2026-11-16T07:21+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 4.0,
+          "body": "WE INDEPENDENTLY CHOOSE ALL PRODUCTS FEATURED ON OUR SITE. WE MAY RECEIVE A COMMISSION WHEN YOU CLICK ON LINKS TO THOSE PRODUCTS. YOU CAN LEARN MORE ABOUT OUR AFFILIATE POLICY IN OUR TERMS OF USE .\nDevin Booker has given us a first look at his next signature sneaker, debuting the Nike Book 3 on court with the Phoenix Suns.\nThe third installment in Booker's signature line arrives in a triple-black colorway, featuring a low-cut build that continues the understated design approach of its predecessors. The upper combines textured mesh with suede overlays, while a glossy black Swoosh runs along the lateral side.\nThe design also introduces a new tooling setup, with a streamlined midsole featuring several horizontal cutouts along its length. Additional details include subtle Nike branding near the heel, pull tabs at the rear, and “CHAPTER III” lettering along the back of the sole.\nWhile the pai",
+          "body_source": "원문 본문 · houseofheat.co",
+          "article_url": "https://houseofheat.co/nike/nike-book-3-release-details"
+        }
+      ]
+    },
+    "노보노디스크 ADR": {
+      "ticker": "NVO",
+      "market": "해외",
+      "candidates": 17,
+      "today_count": 8,
+      "stories": [
+        {
+          "title": "Novo Nordisk Fires on All Cylinders: Haemophilia Approval, Raised Guidance and a Buyback in Full Swi",
+          "published_kst": "2026-11-16T04:11+09:00",
+          "relevance": "direct",
+          "sources": {
+            "구글 뉴스 RSS": {
+              "publisher": "ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNEo4X0w4LXVyWXhHSm9IWDhvbDRHR0hPNjh4VWZrbGMxcHNJV2xGMW9OQWxEOC1OLWYzblQ0ZF9CbWxQa2kxcldVakhLbmVMc2N4Y0hGT0w2NUhZX0YyUmZ2QUtYSFNqdEo4OHUzMDlvVHk3VXJvOWtQMDRKd1BNb0p0YmZObGdTUUpSUm1fNWhkdUZNMEMybWZ2YWk0c0FSM2p2R1RHekt2UUkxd3N0RUt4VUcwNmE0Uk9USGRmcmhXVkVrN1FDZl96eWx3WUktNExFZ0ZGS0F5NGZUNVVfeDJyaXRFdHJqR1ZKbGN1TlZHUmk1WmdBbjlRVGVSekpSSEE?oc=5",
+              "published_kst": "2026-11-16T04:11+09:00"
+            }
+          },
+          "source_count": 1,
+          "verification": "single_source",
+          "explainable": false,
+          "importance": 8.0,
+          "body": "Novo Nordisk closed out a hectic week with its shares up 2.7% on Friday, a move Reuters attributed to the European Commission's green light for FREHEMGO in haemophilia A. The approval, granted the same day, covers routine prophylaxis to prevent or reduce bleeding episodes in adults and children with the condition, including those with inhibitors. The active ingredient is denecimig, and the Danish group plans once-monthly, biweekly or weekly dosing, with first European launches earmarked for next year.\nThe regulatory news flow did not stop there. Novo also confirmed Friday that it has filed for approval of Etavopivat with both the US Food and Drug Administration and the European Medicines Agency. The investigational oral therapy, taken once daily, is aimed at people aged twelve and over living with sickle cell disease.\nOn the other side of the Atlantic, the FDA on 9 November requested add",
           "body_source": "원문 본문 · www.ad-hoc-news.de",
-          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/novo-nordisk-s-cagrisema-data-land-alongside-a-frehemgo-approval-a-raised-outlook-and-fresh-fda/70513357"
+          "article_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/novo-nordisk-fires-on-all-cylinders-haemophilia-approval-raised-guidance-and-a-buyback-in-full-swing/70517874"
         }
       ]
     }
@@ -508,27 +491,32 @@
     "현대해상": {
       "ticker": "001450",
       "market": "국내",
-      "candidates": 70,
-      "today_count": 3,
+      "candidates": 81,
+      "today_count": 12,
       "stories": [
         {
-          "title": "[이달의 신상품] 현대해상, ‘퍼펙트 암플랜’ 출시…최신 치료 보장",
-          "published_kst": "2026-11-15T06:00+09:00",
+          "title": "KB증권, 현대해상 목표가↓…\"투자손익 변동성 확대, 실적부진\"",
+          "published_kst": "2026-11-16T08:27+09:00",
           "relevance": "direct",
           "sources": {
+            "네이버 금융": {
+              "publisher": "연합뉴스",
+              "url": "https://n.news.naver.com/mnews/article/001/0016442985",
+              "published_kst": "2026-11-16T08:27+09:00"
+            },
             "구글 뉴스 RSS": {
-              "publisher": "FETV",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4TnlyeUVlTTB2Yk0yUkoxRlM2TWdhMGRpYWR3NlVUdzlBamRvV3A3NTZESC1fSUVrRy1xWFY4ZDgyektPanFuN29kZHloeDlRQTBtejVDYm91b29YeFM3X2kyTklYVldj?oc=5",
-              "published_kst": "2026-11-15T06:00+09:00"
+              "publisher": "연합뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CWHdiNEhycG5ZMVBFQjN1Vi1QNUpQbVpzWUl0N1JOR3Y2SENidlJzcDNES3hwc2RFNE5fTnJDUTMxRTI2WVVpWTlOU3JJMTdEa283UVFiNFMxMUnSAWBBVV95cUxQemlDeTE0blFrYXVqdjZGZmF1WGRLODR4TEp5RVRfWDFhX3BjWWg3d1ZNRk9xdjloXzEwN2xnTmt4YTA2bk9ISHAtYjZvS3Iyb2F6bEd4R2hEald0bWVUaC0?oc=5",
+              "published_kst": "2026-11-16T08:27+09:00"
             }
           },
-          "source_count": 1,
-          "verification": "single_source",
-          "explainable": false,
-          "importance": 6.0,
-          "body": "이전 기사보기 \r\n 다음 기사보기 \r\n\n [이달의 신상품] 현대해상, ‘퍼펙트 암플랜’ 출시…최신 치료 보장 \n\n 글자크기 설정\n\n 가\n\n 가\n\n 기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n 스크롤 이동 상태바 \n\n [이달의 신상품] 현대해상, ‘퍼펙트 암플랜’ 출시…최신 치료 보장 \r\n\n 장기영 기자 \r\n 입력 2026.11.15 06:00 \n 댓글 0 \r\n\n 글자크기 설정\n\n 가\n\n 가\n\n 기사의 본문 내용은 이 글자크기로 변경됩니다.\n\n 이 기사를 공유합니다\n\n [FETV=장기영 기자] 현대해상은 암 진단부터 최신 치료까지 보장하는 다이렉트 전용 상품 ‘다이렉트 퍼펙트건강보험 암플랜’을 출시했다.\n\n 이 상품은 암 진단비는 물론, 수술비와 항암약물·방사선치료비를 폭넓게 보장한다.\n\n 특히 중입자치료, 카티(CAR-T) 항암약물허가치료, 로봇수술 등 최신 치료 보장을 강화했다.\n\n 가입 유형은 보장 범위와 보험료 수준에 따라 총 4종의 맞춤형 플랜 중 선택하면 된다.\n\n 상품 가입은 현대해상 홈페이지와 모바일 애플리케이션을 통해 할 수 있다.\n\n 관련기사\n\n [포토] 현대해상, 경기 성남시의료원 ‘마음도서관’ 개관 \n [팀장칼럼] 이석현의 소비자 보호 \n [소비자 분쟁] 5대 손보사, 민원 2.5만건…현대해상 나홀로 감소 \n [포토] 현대해상, ‘아이마음 탐사대’ 최종 진출팀 선정 \n [이달의 신상품] 현대해상, ‘트래블패스’ 출시…1년 무제한 보장 \n\n 장기영 기자 \r\n jky@fetv.co.kr \r\n\n 다른기사 보기 \r\n\n 키워드\n\n #현대해상 \n #다이렉트 퍼펙트건강보험 암플랜 \n\n 저작권자 © FETV 무단전재 및 재배포, AI학습 및 활용 금지 \r\n\n 개의 댓글\n\n 작성자 \r\n\n 비밀번호 \r\n\n 댓글 내용입력 \r\n\n 댓글 정렬\n\n 최신순 \r\n 추천순 \r\n 답글순 \r\n",
-          "body_source": "원문 본문 · www.fetv.co.kr",
-          "article_url": "https://www.fetv.co.kr/news/articleView.html?idxno=313579"
+          "source_count": 2,
+          "verification": "cross_confirmed",
+          "explainable": true,
+          "importance": 13.5,
+          "body": "(서울=연합뉴스) 경수현 기자 = KB증권은 16일 현대해상[001450]에 대해 올해 3분기 투자손익 변동성이 확대되면서 부진한 실적을 기록했다며 목표주가를 종전 6만3천원에서 5만3천원으로 내렸다.\n강승건 연구원은 이날 보고서에서 현대해상이 최근 공시한 3분기 별도 기준 잠정 순이익은 1천657억원으로 작년 동기보다 9.6% 감소하면서 시장 컨센서스(평균 예상치)를 22.9% 하회했다며 투자손익 적자를 주요 원인으로 지목했다.\n투자손익은 대체투자와 구조화채권 등의 대규모 평가손실이 반영되면서 278억원의 손실을 보였다.\n다만 강연구원은 3분기 보험손익은 2천632억원의 이익을 내면서 63.0% 증가했고 보험손익 측면의 실적 개선 모멘텀은 2027년에도 이어질 전망이라면서 이 회사에 대한 투자전략은 종전처럼 '매수'로 제시했다.\n제보는 카카오톡 okjebo \n\n <저작권자(c) 연합뉴스, \n 무단 전재-재배포, AI 학습 및 활용 금지> \n\n 2026/11/16 08:27 송고 \n 2026년11월16일 08시27분 송고",
+          "body_source": "원문 본문 · www.yna.co.kr",
+          "article_url": "https://www.yna.co.kr/view/AKR20261116019600008"
         }
       ],
       "alert": "볼린저 하단 이탈",

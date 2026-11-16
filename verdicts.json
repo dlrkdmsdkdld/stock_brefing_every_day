@@ -1,17 +1,137 @@
 {
-  "generated_at": "2026-11-15T09:02:06+09:00",
+  "generated_at": "2026-11-16T09:03:51+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 4888,
-    "output_tokens": 2987
+    "input_tokens": 5539,
+    "output_tokens": 2949
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 2,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "젠슨황떠난엔비디아삼성sk하이닉스hbm공급망판도바뀌나": {
+      "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나",
+      "holding": "SK하이닉스",
+      "stance": "중립",
+      "summary": "젠슨 황 전 엔비디아 CEO가 33년 만에 퇴진하면서 AI 칩 공급망 재편 가능성이 제기되었다. 빅테크들의 자체 칩 개발과 함께 삼성전자와 SK하이닉스의 HBM 고객사가 다변화될 것이라는 전망이 나오고 있다.",
+      "impact": "엔비디아의 경영 변화와 빅테크의 자체 칩 경쟁이 SK하이닉스의 HBM 공급 다변화에 영향을 줄 수 있으나, 단기적인 실적 변동 방향은 아직 불확실하다.",
+      "caution": "기사의 주된 내용은 엔비디아의 경영진 교체와 업계 전반의 공급망 재편 전망이며 SK하이닉스에 대한 직접적인 실적 수치는 언급되지 않았다."
+    },
+    "삼성전자수능고사장시스템에어컨긴급서비스지원": {
+      "title": "삼성전자, 수능 고사장 시스템에어컨 긴급 서비스 지원",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자는 2027학년도 수능 당일 고사장의 시스템에어컨 긴급 지원을 위해 전담 서비스팀을 상주시키기로 했다. 또한 AI 원격진단 서비스와 HVAC 사전 점검을 통해 안정적인 시험 환경을 조성한다.",
+      "impact": "고객 서비스 품질 향상과 브랜드 신뢰도 제고에 긍정적인 영향을 미친다.",
+      "caution": "수능 고사장 지원 활동은 기업의 사회적 책임 및 서비스 차원의 활동으로 단기 주가나 재무 실적에 미치는 직접적인 영향은 제한적이다."
+    },
+    "k2전차에서잠수함까지코츠테크놀로지1103억일감에해상수주더": {
+      "title": "K2 전차에서 잠수함까지…코츠테크놀로지, 1103억 일감에 해상 수주 더...",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "코츠테크놀로지가 HD현대중공업과 147억7000만원 규모의 장보고-II 잠수함 성능개량용 장비 공급계약을 체결했다. 올해 상반기 매출 증가와 함께 전차에 이어 해상 부문으로 수주 영역을 확대하고 있다.",
+      "impact": "HD현대중공업과의 방산 장비 계약은 협력 관계 강화와 함께 방산 부문 실적 성장의 기반이 된다.",
+      "caution": "보유 종목인 HD현대중공업 관점에서는 협력 업체의 수주 소식이지만, 대형 완성 건함 사업 전체의 수익성에 미치는 영향은 부수적일 수 있다."
+    },
+    "hospicesdebeaune2026auctiondroughtcutsharvestinhalf432barrelsonsalenewsandstatistics": {
+      "title": "Hospices de Beaune 2026 Auction: Drought Cuts Harvest in Half, 432 Barrels on Sale - News and Statistics",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "프랑스 본느 자선병원 와인 경매 소식과 함께 주요 글로벌 와인 및 주류 기업들의 본사 위치와 포트폴리오가 언급되었다. 컨스텔레이션 브랜즈에 대한 구체적인 실적이나 사건은 본문에 포함되지 않았다.",
+      "impact": "보유 종목인 컨스텔레이션 브랜즈가 직접 언급되지 않고 타사 정보 위주로 구성되어 있어 주가에 미치는 영향이 없다.",
+      "caution": "기사 내용이 타사 정보 나열 중심이며 보유 종목 관련 수치나 이벤트가 없다."
+    },
+    "topsolarstockstoresearchnovember15th": {
+      "title": "Top Solar Stocks To Research - November 15th",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "마켓베이트가 발표한 태양광 관련 주요 종목 거래량 분석에서 퍼스트솔라가 언급되었다. 금요일 거래에서 퍼스트솔라 주가는 하락세를 보였으며 52주 최고가인 320.95달러 대비 낮은 171.39달러에 거래되고 있다.",
+      "impact": "시장 내 거래량 상위 종목으로 언급되었으나 주가 하락과 52주 고점 대비 변동 폭이 혼조세를 반영하고 있다.",
+      "caution": "단순 시장 동향 및 거래량 순위 요약 기사로 새로운 펀더멘털 변화 요인은 포함되어 있지 않다."
+    },
+    "constellationenergycegraised2026guidanceagainisthestockstillundervalued": {
+      "title": "Constellation Energy (CEG) Raised 2026 Guidance Again, Is The Stock Still Undervalued?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "컨스텔레이션 에너지는 3분기 매출 95억5000만 달러와 순이익 18억4000만 달러를 기록하며 2026년 가이던스를 상향 조정했다. 데이터센터 수요를 기반으로 한 원자력 및 청정 전력 플랫폼의 강세가 이어지고 있다.",
+      "impact": "견조한 실적 발표와 가이던스 상향은 기업의 펀더멘털 개선과 주가 모멘텀 회복에 직접적인 호재로 작용한다.",
+      "caution": "연초 대비 주가 하락 이력이 존재하며 향후 데이터센터 전력 수요 지속성에 대한 시장 모니터링이 필요하다."
+    },
+    "vistranysevststockratingraisedtoholdatzacksresearch": {
+      "title": "Vistra (NYSE:VST) Stock Rating Raised to \"Hold\" at Zacks Research",
+      "holding": "비스트라 에너지",
+      "stance": "약한 호재",
+      "summary": "잭스 리서치가 비스트라의 주식 투자의견을 '강한 매도'에서 '보유'로 상향 조정했다. 회사는 3분기 주당순이익 3.23달러와 매출 63억5000만 달러로 예상치를 상회했으며 15억 달러 규모의 자사주 매입을 승인했다.",
+      "impact": "실적 호조와 자사주 매입 계획, 그리고 증권사의 투자의견 상향은 주가에 긍정적인 신호를 준다.",
+      "caution": "투자의견이 매수(Buy)가 아닌 '보유(Hold)' 단계로 상향된 것이므로 추가 상승 모멘텀은 제한적일 수 있다."
+    },
+    "almontyindustriesincnasdaqalmstockhasconsensuspricetargetof2254": {
+      "title": "Almonty Industries Inc. (NASDAQ:ALM) Stock Has Consensus Price Target of $22.54",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 인더스트리의 컨센서스 목표주가가 22.54달러로 제시되었으며 애널리스트들의 평가는 '완만한 매수' 수준이다. 금요일 거래에서 주가가 7.7% 상승했으나 4300만 캐나다달러 규모의 법적 청구 가능성이 제기되었다.",
+      "impact": "목표주가 유지 및 주가 반등은 긍정적이나 법적 리소스로 인해 불확실성이 공존한다.",
+      "caution": "실적과 관련된 conflicting accounts 및 잠재적 법적 청구 이슈가 있어 리스크를 함께 고려해야 한다."
+    },
+    "migdalinsurancefinancialholdingsltdacquires401888sharesofciscosystemsinccsco": {
+      "title": "Migdal Insurance & Financial Holdings Ltd. Acquires 401,888 Shares of Cisco Systems, Inc. $CSCO",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 악재",
+      "summary": "Migdal Insurance & Financial Holdings는 3분기에 시스코 시스템즈 주식을 401,888주 추가하여 지분을 988.7% 늘렸다. 시스코는 분기 매출 185억 2천만 달러, 조정 주당순이익(EPS) 1.40달러로 예상치를 상회했으나, 금요일 거래에서 주가는 6.2% 하락한 95.64달러를 기록했다.",
+      "impact": "기관 투자의 지분 확대와 양호한 실적 발표는 긍정적이나, 제품 주문이 기대에 미치지 못하고 주가가 6.2% 하락한 점이 단기적으로 부정적 영향을 미친다.",
+      "caution": "장기 목표주가는 125.64달러로 제시되어 있어 중장기적 반등 여지가 있다."
+    },
+    "vertivholdingscovrtstockpurchasedbymigdalinsurancefinancialholdingsltd": {
+      "title": "Vertiv Holdings Co. $VRT Stock Purchased by Migdal Insurance & Financial Holdings Ltd.",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "Migdal Insurance & Financial Holdings는 3분기에 버티브 홀딩스 주식을 128,751주 추가하여 지분을 40.2% 늘렸다. 버티브는 3분기 주당순이익(EPS) 2.21달러로 예상치 1.82달러를 상회했으며, 매출은 전년 동기 대비 61.2% 증가한 43억 1천만 달러를 기록했고 분기 배당금을 60% 인상했다.",
+      "impact": "어닝 서프라이즈와 대규모 배당금 인상은 기업의 재무 건전성과 주주 환원 정책 강화 측면에서 주가에 호재로 작용한다.",
+      "caution": "실적 호조에도 불구하고 금요일 주가는 3.8% 하락한 201.60달러를 기록했다."
+    },
+    "boeinglockheedfirmsrocketfailsafterlaunch": {
+      "title": "Boeing-Lockheed firm’s rocket fails after launch",
+      "holding": "록히드마틴",
+      "stance": "악재",
+      "summary": "보잉과 록히드마틴의 합작사인 United Launch Alliance(ULA)의 벌컨 로켓이 플로리다에서 발사된 지 약 10분 만에 이상 현상으로 실패했다. 이로 인해 아마존의 인터넷 네트워크를 위한 40기의 위성 페이로드가 파괴되었다.",
+      "impact": "방위산업 및 우주 발사체 사업의 신뢰도 저하와 향후 발사 일정 차질로 인해 록히드마틴의 실적 및 기업 가치에 부정적인 영향을 미친다.",
+      "caution": "합작사의 개별 프로젝트 실패이나 록히드마틴의 주력 우주 사업 신뢰도에 타격을 준다."
+    },
+    "vanguardrussell1000valueetfnasdaqvonvsurges248in2026whileholdingamazonappleandmicrosoftwithoutasinglenvidiashare": {
+      "title": "Vanguard Russell 1000 Value ETF (NASDAQ: VONV) Surges 24.8% In 2026 While Holding Amazon, Apple, And Microsoft Without A Single Nvidia Share",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "Vanguard Russell 1000 Value ETF(VONV)는 아마존, 애플, 마이크로소프트 등의 대형 기술주를 보유하고 있으면서도 엔비디아 주식을 전혀 보유하지 않은 채 2026년에 24.8% 상승했다. 해당 펀드는 FTSE Russell의 지수 구성 방식을 통해 대형 가치주와 성장주 지수에 동시에 편입되는 특이성을 지닌다.",
+      "impact": "마이크로소프트가 지수 내 주요 종목으로 포함되어 펀드 성과에 기여하고 있으나, 이는 개별 기업의 실적 발표나 뉴스라기보다는 ETF의 구성 및 수익률에 관한 내용이다.",
+      "caution": "마이크로소프트가 직접 언급되었으나 기사의 주된 내용은 특정 ETF의 성과와 구성 방식에 대한 것이다."
+    },
+    "firstlookdevinbookersnikebook3": {
+      "title": "First Look: Devin Booker’s Nike Book 3",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "데빈 부커가 피닉스 선즈 경기에서 나이키 북 3(Nike Book 3) 시그니처 스니커즈를 최초로 공개했다. 이 신발은 트리플 블랙 컬러웨이와 로우컷 디자인, 텍스처드 메시와 스웨이드 오버레이 조합이 특징이다.",
+      "impact": "신제품 공개는 브랜드 이미지에 장기적으로 기여할 수 있으나, 단기적인 주가 변동을 일으킬 만한 구체적인 판매 실적이나 재무적 수치는 포함되어 있지 않다.",
+      "caution": "신제품 출시 소식이나 구체적인 매출 규모나 실적에 미치는 영향은 언급되지 않았다."
+    },
+    "novonordiskfiresonallcylindershaemophiliaapprovalraisedguidanceandabuybackinfullswi": {
+      "title": "Novo Nordisk Fires on All Cylinders: Haemophilia Approval, Raised Guidance and a Buyback in Full Swi",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보 노디스크는 유럽 집행위원회로부터 혈우병 A 치료제 프레헴고(FREHEMGO)의 승인을 받았으며, 미국 FDA와 유럽 의약품청(EMA)에 겸상 적혈구 질환 치료제 에타보피파트(Etavopivat)의 승인을 신청했다고 확인했다. 이로 인해 금요일 주가는 2.7% 상승했다.",
+      "impact": "신약 승인과 규제 당국 승인 신청은 향후 매출 성장 동력을 확보했음을 보여주어 보유 종목 관점에서 명확한 호재로 작용한다.",
+      "caution": ""
+    },
+    "kb증권현대해상목표가투자손익변동성확대실적부진": {
+      "title": "KB증권, 현대해상 목표가↓…\"투자손익 변동성 확대, 실적부진\"",
+      "holding": "현대해상",
+      "stance": "약한 악재",
+      "summary": "KB증권은 현대해상[001450]의 3분기 별도 기준 잠정 순이익이 1,657억원으로 작년 동기 대비 9.6% 감소하여 시장 예상치를 22.9% 하회했다고 밝혔다. 이에 따라 목표주가를 기존 6만3천원에서 5만3천원으로 내렸으며, 대체투자와 구조화채권 등 대규모 평가손실로 인한 투자손익 적자가 원인이다.",
+      "impact": "투자손익 부진과 순이익 감소로 인해 증권사가 목표주가를 하향 조정한 것은 단기적으로 주가에 하방 압력으로 작용한다.",
+      "caution": "다만 보험손익은 2,632억원으로 63.0% 증가해 2027년까지 보험손익 개선 모멘텀은 유지될 것으로 전망되며 투자전략은 '매수'를 유지했다."
+    },
     "삼전닉스는그래도오를거야이러더니빚투7조원몰렸다주가급락에개미들초긴장": {
       "title": "“삼전닉스는 그래도 오를 거야” 이러더니 빚투 ‘7조원’ 몰렸다…주가 급락에 개미들 ‘초긴장’",
       "holding": "SK하이닉스",
