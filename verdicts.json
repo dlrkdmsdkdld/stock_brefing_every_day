@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-11-16T09:03:51+09:00",
+  "generated_at": "2026-11-17T12:02:43+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 5539,
-    "output_tokens": 2949
+    "input_tokens": 1042,
+    "output_tokens": 395
   },
   "skipped": {
-    "본문없음": 2,
+    "본문없음": 11,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자유럽전력기기회사임원영입hvac으로가전부진돌파": {
+      "title": "삼성전자, 유럽 전력기기 회사 임원 영입…HVAC으로 가전 부진 돌파 ‘...",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자는 가전과 TV 부진을 돌파하기 위해 프랑스 슈나이더 일렉트릭 출신의 김형욱 부사장을 생활가전사업부 HVAC사업팀 담당임원으로 영입했다. AI 데이터센터 확대와 맞물려 신성장동력인 냉난방공조(HVAC) 사업의 해외 확장과 인재 영입에 공격적으로 나서고 있다.",
+      "impact": "기존 가전 사업의 부진을 만회할 B2B 중심의 신사업인 HVAC 역량이 강화되면서 중장기적 수익 다변화에 긍정적인 영향을 준다.",
+      "caution": "신규 임원 영입과 조직 확대가 단기 실적 개선으로 바로 이어지기보다는 중장기 과제에 가깝다."
+    },
+    "delltechnologiesupgradesdatasolutionsandaiinfrastructureforagenticai": {
+      "title": "Dell Technologies upgrades data solutions and AI infrastructure for agentic AI",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "델 테크놀로지스는 월요일 엔비디아와의 협력을 통한 'Dell AI Factory' 포트폴리오를 강화하여 에이전틱 AI를 위한 대규모 데이터 준비 및 인프라 관리 기능을 향상시켰다고 밝혔다. 새로운 데이터 오케스트레이션과 저장소 엔진 기능 등이 추가되어 기업들이 안정적으로 AI를 운영할 수 있도록 지원한다.",
+      "impact": "AI 인프라 및 데이터 플랫폼 역량이 강화되면서 기업 고객들을 대상으로 한 AI 관련 서버 및 스토리지 제품 판매 확대에 긍정적인 영향을 준다.",
+      "caution": "구체적인 수주 규모나 매출 증대 효과는 본문에 명시되지 않았다."
+    },
     "젠슨황떠난엔비디아삼성sk하이닉스hbm공급망판도바뀌나": {
       "title": "젠슨 황 떠난 엔비디아…삼성·SK하이닉스 'HBM 공급망' 판도 바뀌나",
       "holding": "SK하이닉스",
