@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-11-17T12:02:43+09:00",
+  "generated_at": "2026-11-18T11:31:22+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 1042,
-    "output_tokens": 395
+    "input_tokens": 8076,
+    "output_tokens": 3357
   },
   "skipped": {
-    "본문없음": 11,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "엔비디아호실적에코스피5100회복sk하이닉스는6대급등": {
+      "title": "엔비디아 호실적에 코스피 5100 회복… SK하이닉스는 6%대 급등",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "엔비디아가 회계연도 3분기 매출 1158억 달러를 기록해 시장 예상치를 웃돌고 4분기에도 높은 가이던스를 제시했다. 이로 인해 투자심리가 개선되면서 18일 코스피가 반등했고, SK하이닉스도 6%대 급등세를 보였다.",
+      "impact": "엔비디아의 AI 인프라 투자 지속과 강력한 실적은 AI 메모리 반도체를 공급하는 SK하이닉스의 실적 기대감과 주가에 직접적인 호재로 작용한다.",
+      "caution": ""
+    },
+    "삼성전자와손잡은보람그룹상조40으로라이프케어전환속도낸": {
+      "title": "삼성전자와 손잡은 보람그룹, '상조 4.0'으로 라이프케어 전환 속도낸...",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "보람그룹은 삼성전자 및 삼성카드와 협력해 'B&케어팩' 등 제휴 상품을 출시했으며, 출시 후 5개월간 유사 상품 대비 약 9배 높은 가입 실적을 기록했다. 이를 통해 라이프케어 기업으로의 전환에 속도를 내고 있다.",
+      "impact": "삼성전자 제품과 결합된 상조 및 구독 서비스의 판매 확대로 이어져 삼성전자의 가전 유통 채널과 제휴 파트너십에 긍정적인 영향을 준다.",
+      "caution": "보람그룹의 전체 사업 중 삼성전자와의 제휴 비중이 제한적일 수 있어 삼성전자 실적에 미치는 직접적인 영향은 크지 않다."
+    },
+    "hd현대로보틱스가동률100돌파조선중공업용ai로봇키운다": {
+      "title": "HD현대로보틱스, 가동률 100% 돌파…조선·중공업용 AI 로봇 키운다",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대보틱스의 1~3분기 로봇 생산량은 6540대로 지난해 연간 실적을 넘어섰고, 평균 가동률은 100.9%를 기록했다. 매출액도 2493억 원으로 증가했으며 피지컬 AI 기술 개발을 위한 투자 유치도 진행 중이다.",
+      "impact": "자회사인 HD현대보틱스의 가동률과 생산량이 급증하고 조선·중공업용 AI 로봇으로 사업 영역을 확대하면서 중장기 성장 동력이 강화된다.",
+      "caution": "같은 기간 순손실 44억 원이 발생하는 등 수익성 개선과 부품 국산화는 향후 해결해야 할 과제로 남아 있다."
+    },
+    "topbankslashesdellstockpricetargetby30aheadofearnings": {
+      "title": "Top Bank Slashes Dell Stock Price Target by 30% Ahead of Earnings",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "GF증권이 델의 목표주가를 497달러에서 341달러로 30% 하향 조정했으나, 프리마켓에서 델 주가는 오히려 약 2% 상승했다. 오는 24일 실적 발표를 앞두고 AI 서버 출하량 증가로 인해 탄탄한 실적이 예상된다.",
+      "impact": "목표주가 하향에도 불구하고 AI 서버 수요 호조와 긍정적인 실적 전망 덕분에 단기적으로 투자 심리가 지지받고 있다.",
+      "caution": "장기적으로는 기업용 서버 및 PC 출하량이 감소할 것이라는 우려가 제기되고 있다."
+    },
+    "firstsolarfallsasinvestorscontinuetodigestlowered2026outlookandpressureonratesensitivesolarshares": {
+      "title": "First Solar Falls as Investors Continue to Digest Lowered 2026 Outlook and Pressure on Rate-Sensitive Solar Shares",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "퍼스트솔라는 10월 말 발표한 2026년 가이던스 하향 조정의 여파와 국채 금리 상승에 따른 금리 민감 태양광 주식들의 전반적인 약세로 주가가 4.2% 하락했다. 3분기 순매출은 1.23억 달러로 전년 동기 대비 23% 감소했다.",
+      "impact": "매출 감소 및 가이던스 하향에 대한 시장의 소화 과정이 지속되면서 단기적인 주가 하방 압력으로 작용한다.",
+      "caution": "새로운 기업 자체의 악재보다는 기존 가이던스 하향과 거시경제적 요인의 연장선상에 있다."
+    },
+    "bmocapitalmaintainsvistraatoutperformraisespricetargetto196from188": {
+      "title": "BMO Capital maintains Vistra at Outperform, raises price target to $196 from $188",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "BMO 캐피탈은 비스트라 에너지에 대해 'Outperform' 의견을 유지하고 목표주가를 188달러에서 196달러로 4.3% 상향 조정했다. 최근 5개 증권사의 목표주가는 169달러에서 198달러 사이에 형성되어 있다.",
+      "impact": "월가 주요 투자기관의 목표주가 상향은 향후 주가 상승 여력에 대한 긍정적인 시장 인식을 강화하여 매수세를 유입시킨다.",
+      "caution": ""
+    },
+    "eosenergyenterprisesnasdaqeosehitsnew12monthlowhereswhathappened": {
+      "title": "Eos Energy Enterprises (NASDAQ:EOSE) Hits New 12-Month Low - Here's What Happened",
+      "holding": "이오스 에너지",
+      "stance": "약한 악재",
+      "summary": "이오스 에너지 엔터프라이즈의 주가는 화요일 거래에서 52주 신저가인 1.57달러를 기록했다. 다만 최근 분기 주당순손실은 0.17달러로 예상치인 0.24달러보다 양호했고 매출도 예상치를 상회했다.",
+      "impact": "실적이 예상보다 양호했음에도 불구하고 주가가 신저가를 경신한 것은 전반적인 시장 신뢰 회복이 더디다는 것을 의미한다.",
+      "caution": "애널리스트들의 평균 투자의견은 'Hold'를 유지하고 있다."
+    },
+    "deutscherohstoffrecordproductionandalmontyproceedsliftearningsas2026guidancerises": {
+      "title": "Deutsche Rohstoff: Record production and Almonty proceeds lift earnings as 2026 guidance rises",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "도이치 로스토프는 알먼티 지분 매각 대금 약 1억 6000만 유로를 포함해 9개월 누적 매출 2억 2170만 유로, EBITDA 3억 2870만 유로를 기록하며 2026년 가이던스를 상향했다. 본문의 주요 내용은 도이치 로스토프의 실적에 관한 것이다.",
+      "impact": "보유 종목인 알먼티와 관련된 지분 매각 대금이 실적에 반영되었으나, 기사의 주된 분석 대상은 도이치 로스토프의 실적 및 가이던스다.",
+      "caution": "기사의 핵심 대상이 보유 종목인 알먼티가 아니라 도이치 로스토프이며 알먼티는 지분 매각 관련 내용으로만 간접 언급되었다."
+    },
+    "credoandmarvellendpatentfightoveraidatacentercables": {
+      "title": "Credo and Marvell End Patent Fight Over AI Data Center Cables",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지와 마블 테크놀로지는 AI 데이터센터용 고속 케이블(AEC) 관련 특허 분쟁을 합의로 종결했다. 마블은 미국 특허청에 제기했던 크레도 특허 관련 심판을 취하했고, 합의 이후 시간외 거래에서 크레도 주가는 약 2% 상승했다.",
+      "impact": "오랫동안 주가를 짓누르던 법적 불확실성이 해소됨에 따라 AI 데이터센터 네트워킹 부문의 사업 성장에 긍정적이다.",
+      "caution": "구체적인 재무 및 라이선스 조건은 공개되지 않았다."
+    },
+    "alphabetamazonandnvidiaallhaveastakeinanthropicherestheoneidbuyificouldonlypick1": {
+      "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here’s the One I’d Buy If I Could Only Pick 1.",
+      "holding": "알파벳 A",
+      "stance": "중립",
+      "summary": "알파벳, 아마존, 엔비디아 등이 지분을 보유한 앤스로픽이 11월 19일경 기업공개(IPO)를 추진하며 1조 달러 이상의 가치를 평가받을 것으로 예상된다. 초기 투자자인 알파벳은 주요 수혜 대상 중 하나로 꼽히고 있다.",
+      "impact": "앤스로픽의 상장은 알파벳의 투자 자산 가치 부각에 기여할 수 있으나, 기사 자체가 특정 종목 추천에 초점을 맞추고 있어 직접적인 실적 변동 요인은 제한적이다.",
+      "caution": "본문은 특정 1개 종목을 매수해야 하는지에 대한 분석형 기사로 구성되어 있다."
+    },
+    "vertivsignsthreeyearinfineonpacttosecurechips": {
+      "title": "Vertiv signs three-year Infineon pact to secure chips",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스는 인피니언과 3년간 전력 반도체 공급을 위한 전략적 계약을 체결했다. 이번 계약은 실리콘 및 실리콘 카바이드 부품을 포함하며, AI 데이터센터 수요 급증에 대응해 안정적인 공급망을 확보하는 데 기여한다.",
+      "impact": "AI 인프라 확대로 수요가 급증하는 전력 제품 생산에 필요한 핵심 부품을 안정적으로 확보함으로써 중장기 생산 능력이 강화된다.",
+      "caution": ""
+    },
+    "lockheedmartincanadainvests2minexlslauncher": {
+      "title": "Lockheed Martin Canada Invests $2M in ExLS Launcher",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "록히드마틴 캐나다는 오타와 시설의 첨단 제조 역량을 확장하기 위해 200만 달러를 투자하여 ExLS 론처 프로그램의 생산을 지원한다. 이번 투자는 캐나다의 리버급 구축함 프로그램과 연계된 경제적 파급 효과 약속을 이행하기 위한 것이다.",
+      "impact": "방산 생산 능력을 확대하고 글로벌 방위산업 공급망에서의 입지를 다지는 계기가 되나, 회사 전체 실적에 미치는 영향은 제한적이다.",
+      "caution": "투자 규모가 200만 달러로 거대 기업인 록히드마틴의 전체 실적 대비 비중이 크지 않다."
+    },
+    "microsoftcorporationmsftstockfall237despitemajoraisecurityinitiativelaunch": {
+      "title": "Microsoft Corporation (MSFT) Stock: Fall 2.37% Despite Major AI Security Initiative Launch",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트는 AI 투명성과 보안을 강화하기 위한 새로운 이니셔티브와 프레임워크를 발표했으나 주가는 2.37% 하락해 505.71달러를 기록했다. 515달러 선의 고점에서 매도 압력이 우세했다.",
+      "impact": "AI 보안 및 거버넌스 강화는 장기적으로 신뢰를 높이지만, 단기적으로는 차익실현 매물이 출회되며 주가 하락으로 이어졌다.",
+      "caution": "보안 이니셔티브 자체는 긍정적 호재 성격이나 단기 주가 반응은 하락세를 나타냈다."
+    },
+    "nikestockerasesearly7rallyassharesplungefollowingdisappointinginvestorday": {
+      "title": "Nike Stock Erases Early 7% Rally as Shares Plunge Following Disappointing Investor Day",
+      "holding": "나이키 B",
+      "stance": "중립",
+      "summary": "나이키는 투자자의 날(Investor Day)에서 2029 회계연도까지 이어지는 장기 턴어라운드 전략을 발표했으나 초기 상승분을 반납하고 급락했다. 경영진은 2031년까지 50억 달러의 추가 매출 목표를 제시했으나 회복 시점이 지연되는 것에 실망 매물이 출회됐다.",
+      "impact": "보유 종목인 나이키에 직접적인 악재이나, 본 입력 데이터셋의 보유 종목은 '나이키 B'가 아니라 다른 맥락일 수 있어 중립으로 분류한다.",
+      "caution": "본문은 나이키 주가 하락 및 턴어라운드 지연에 대한 내용이다."
+    },
+    "리포트브리핑한화생명확장은긍정적이제는성과가필요목표가5200원nh투자증권": {
+      "title": "[리포트 브리핑]한화생명, '확장은 긍정적, 이제는 성과가 필요' 목표가 5,200원 - NH투자증권",
+      "holding": "한화생명",
+      "stance": "약한 악재",
+      "summary": "NH투자증권은 한화생명에 대해 투자의견 'BUY'를 유지했으나 목표주가를 기존 6,300원에서 5,200원으로 17.5% 하향 조정했다. K-ICS비율이 171.0%에 불과하고 해약환급금 준비금 이슈로 배당 재개가 쉽지 않다고 분석했다.",
+      "impact": "목표주가 하향 조정과 자본비율 및 배당 재개에 대한 우려는 단기적인 투자 심리에 부정적인 영향을 미친다.",
+      "caution": "투자의견 자체는 'BUY'를 유지했다."
+    },
+    "뮤지컬도시부산의겨울이뜨겁다글로벌대작부터k창작물까지릴레이개막": {
+      "title": "‘뮤지컬 도시’ 부산의 겨울이 뜨겁다… 글로벌 대작부터 K창작물까지 릴레이 개막",
+      "holding": "이월드",
+      "stance": "중립",
+      "summary": "부산의 뮤지컬 전용극장 드림씨어터는 연말부터 내년 상반기까지 '광화문연가', '해밀턴', '캣츠', '겨울왕국' 등 대형 뮤지컬 라인업을 공개했다. '해밀턴'의 월드 투어 첫 도시로 부산이 선정되는 등 지역 공연 문화가 활성화될 예정이다.",
+      "impact": "보유 종목인 이월드와 직접적인 관련성이 본문에 명시되지 않았다.",
+      "caution": "본문 기사에 이월드 기업 언급이나 실적에 대한 내용이 없으므로 중립으로 처리한다."
+    },
+    "37thsreworstlg화학석유화학불황에신용등급스플릿까지악재겹쳐": {
+      "title": "[37th SRE][Worst]LG화학, 석유화학 불황에 신용등급 스플릿까지 악재 겹쳐",
+      "holding": "LG화학",
+      "stance": "약한 악재",
+      "summary": "제37회 신용평가 전문가설문(SRE)에서 LG화학은 워스트레이팅 2위에 올랐으며, 응답자 197명 중 71명이 신용등급이 부적절하다고 응답했다. 특히 채권시장 전문가들은 석유화학 업황 부진 장기화와 신용등급 스플릿 발생을 근거로 등급 하향 필요성을 제기했다.",
+      "impact": "석유화학 업황 악화와 신용등급 하향 우려는 자금 조달 비용 증가 및 투자 심리 위축으로 이어져 주가에 부정적인 영향을 미칠 수 있다.",
+      "caution": "설문 조사 결과는 시장의 심리를 반영한 정성적 지표이므로 실제 신용등급 하향 조정 여부와는 차이가 있을 수 있다."
+    },
+    "증권가현대해상에투자손실배당결손확대목표가줄하향": {
+      "title": "증권가, 현대해상에 \"투자손실·배당결손 확대\"…목표가 줄하향",
+      "holding": "현대해상",
+      "stance": "악재",
+      "summary": "현대해상은 3분기 별도 순이익이 1657억원으로 전년 동기 대비 9.6% 감소했고 시장 예상치도 밑돌았다. 투자자산 평가손실 등으로 투자손익이 278억원 적자로 돌아섰으며, 배당가능이익 결손 규모도 9000억원대 후반으로 확대되었다.",
+      "impact": "투자손실 확대와 배당 재원 부족에 따른 주주환원 불확실성 증가는 투자 매력도를 떨어뜨려 단기적으로 주가 하락 및 목표가 줄하향의 원인이 된다.",
+      "caution": "보험 본업인 신계약 보험계약마진(CSM) 방어력은 양호하다는 평가도 공존한다."
+    },
     "삼성전자유럽전력기기회사임원영입hvac으로가전부진돌파": {
       "title": "삼성전자, 유럽 전력기기 회사 임원 영입…HVAC으로 가전 부진 돌파 ‘...",
       "holding": "삼성전자",
