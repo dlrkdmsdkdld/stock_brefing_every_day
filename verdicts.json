@@ -1,17 +1,161 @@
 {
-  "generated_at": "2026-11-18T11:31:22+09:00",
+  "generated_at": "2026-11-19T10:58:21+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 8076,
-    "output_tokens": 3357
+    "input_tokens": 6928,
+    "output_tokens": 3636
   },
   "skipped": {
-    "본문없음": 4,
+    "본문없음": 1,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "단독대형로펌sk하이닉스주가급락집단소송조사착수투자자손실보상추진": {
+      "title": "[단독] 美 대형 로펌, SK하이닉스 주가 급락 '집단소송' 조사 착수…투자자 손실 보상 추진",
+      "holding": "SK하이닉스",
+      "stance": "악재",
+      "summary": "미국 로젠로펌은 SK하이닉스를 상대로 투자자 손실 보상을 위한 주주 집단소송 조사에 착수했다. 이는 미국 법원이 D램 담합 의혹과 관련된 SK하이닉스의 소송 중지 신청을 기각한 뒤 나온 조치로, 16일 미국 ADR 주가는 7.3% 하락한 122.18달러에 마감했다.",
+      "impact": "D램 담합 관련 법적 리스크가 구체적인 집단소송 조사로 구체화되면서 투자 심리가 위축되고 주가 하방 압력으로 작용한다.",
+      "caution": ""
+    },
+    "lg오늘인사단행삼성전자도발표임박연말인사본격화": {
+      "title": "LG 오늘 인사 단행, 삼성전자도 발표 임박…연말 인사 본격화",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "LG그룹이 19일 정기 인사를 단행하는 가운데, 삼성전자도 이르면 20일 사장단 인사를 발표할 예정이다. 이번 삼성전자 인사에서는 메모리와 MX 사업부장의 겸직 해제 여부와 AI 및 신사업 인재 발탁이 관전 포인트다.",
+      "impact": "보유 종목인 삼성전자의 임원 인사와 조직 개편이 임박했음을 알리는 기사이나, 구체적인 인사 결과가 아직 확정되지 않아 실질적인 주가 영향 방향은 중립적이다.",
+      "caution": "타사(LG) 소식이 함께 다뤄졌으며, 삼성전자의 구체적인 인사 내용은 발표 전이라 불확실성이 존재한다."
+    },
+    "29조장보고n경쟁예고잠수함실적한화vs원자력경험hd현대": {
+      "title": "29조 '장보고 N' 경쟁 예고…잠수함 실적 '한화' vs 원자력 경험 'HD현대'",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "방위사업청은 8000톤급 핵추진잠수함 3척을 건조하는 28조9000억원 규모의 '장보고 N' 사업을 추진하며, 2027년 상반기 체계개발 기본계획 수립 후 하반기에 사업자를 선정할 예정이다. HD현대중공업과 한화오션이 체계종합업체 자리를 두고 경쟁할 것으로 예상된다.",
+      "impact": "대규모 방산 수주 경쟁이 예고되어 장기적인 모멘텀이 될 수 있으나, 사업자 선정 시기가 2027년 하반기로 아직 멀어 단기 주가 영향은 제한적이다.",
+      "caution": "최종 사업자 선정까지 시차가 크고 경쟁 구도가 유지되고 있다."
+    },
+    "citibankslashesdellandhpepricetargetsaheadofearnings": {
+      "title": "Citi Bank Slashes Dell And HPE Price Targets Ahead Of Earnings",
+      "holding": "델",
+      "stance": "약한 호재",
+      "summary": "씨티뱅크는 실적 발표를 앞두고 델(Dell)의 목표주가를 600달러에서 550달러로 하향 조정했으나 매수(Buy) 의견을 유지하며 최고 IT 하드웨어 종목으로 꼽았다. 씨티는 기업 IT 업그레이드 사이클과 AI 인프라 수요가 여전히 탄탄하며 최근 3개월간 30% 이상 하락한 델의 주가가 매력적이라고 평가했다.",
+      "impact": "목표가 하향은 부담이지만, 여전히 업종 내 최선호주로 꼽히며 AI 및 IT 인프라 수요 확대로 인한 반등 기회를 시사한다.",
+      "caution": "AI 수요 정점 우려와 약한 PC 판매 실적에 대한 경고가 함께 언급되었다."
+    },
+    "constellationbrandsstocknelsonsgreenbriersalereshapesspiritsportfolio": {
+      "title": "Constellation Brands stock: Nelson's Green Brier sale reshapes spirits portfolio",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "컨스텔레이션 브랜즈는 넬슨스 그린 브라이어 증류소와 브랜드 재고를 벨 미드 스피리츠에 매각하는 거래를 완료했다. 이번 매각으로 회사의 스피리츠 포트폴리오는 줄어들었으며, 전체 사업의 약 93%를 차지하는 맥주 사업에 집중하고 있다.",
+      "impact": "비핵심 자산 매각을 통해 주력인 맥주 사업에 집중하는 전략의 일환이나, 이미 예고된 포트폴리오 재편으로 주가에 미치는 단기 영향은 중립적이다.",
+      "caution": "매각 가격은 공개되지 않았다."
+    },
+    "firstsolarsharesvolumeearningsandtechnicalreadings": {
+      "title": "First Solar Shares: Volume, Earnings and Technical Readings",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "퍼스트솔라는 5.84% 하락한 152.97달러로 거래를 마쳤으며, 거래량은 340만 주, 상대 거래량은 0.8배를 기록했다. 14일 기준 RSI는 30.65로 과매도 국면 근처에 위치해 단기 모멘텀이 약화된 모습을 보였다.",
+      "impact": "주가 하락과 함께 거래량 및 기술적 지표가 단기 약세를 나타내어 투자 심리에 부정적이다.",
+      "caution": "희석 주당순이익(EPS)이 전년 대비 32.71% 증가하는 등 펀더멘털 지표와 기술적 지표 간의 괴리가 존재할 수 있다."
+    },
+    "constellationenergycegstockpricepredictionanalysttargetsstayabovespotasceglosesshorttermmomentum": {
+      "title": "Constellation Energy (CEG) Stock Price Prediction: Analyst targets stay above spot as CEG loses short-term momentum",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "컨스텔레이션 에너지는 24시간 동안 3.23% 하락한 269.59달러에 거래되며 20일 이동평균선 부근에 위치했다. 애널리스트들의 목표주가는 여전히 현재 주가보다 높은 수준을 유지하고 있으나 단기 모멘텀은 둔화된 국면이다.",
+      "impact": "단기 주가 하락과 모멘텀 둔화가 나타났으나 전반적인 박스권 조정을 거치고 있어 방향성이 뚜렷하지 않다.",
+      "caution": "기술적 지표가 명확한 하락 추세라기보다는 횡보·조정 국면에 가깝다."
+    },
+    "vistravststockpricepredictionanalysttargetsfirmupasvsttestssupportafterearningsandbuybackupdate": {
+      "title": "Vistra (VST) Stock Price Prediction: Analyst targets firm up as VST tests support after earnings and buyback update",
+      "holding": "비스트라 에너지",
+      "stance": "호재",
+      "summary": "비스트라 에너지는 2026년 3분기 실적에서 GAAP 순이익 11억 4000만 달러, 조정 상각전영업이익(EBITDA) 23억 7800만 달러를 기록해 전년 동기 대비 50% 이상 증가했다고 발표했다. 경영진은 2026년 조정 EBITDA 가이던스 중간값을 71억~75억 달러로 상향 조정하고 자사주 매입 계획을 갱신했다.",
+      "impact": "실적 호조와 함께 연간 가이던스 상향 및 주주환원 정책이 맞물려 기업 가치 상승 요인으로 작용한다.",
+      "caution": "주가는 단기적으로 이동평균선 아래에서 지지선을 테스트하는 국면이 함께 언급되었다."
+    },
+    "eosenergyenterprisesnasdaqeosestockjumps77hereswhy": {
+      "title": "Eos Energy Enterprises (NASDAQ:EOSE) Stock Jumps 7.7% - Here's Why",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "이오스 에너지 주가는 2026년 11월 18일 수요일 장중 7.7% 상승해 1.605달러를 기록했다. 최근 분기 실적은 주당순손실 0.17달러, 매출 8,273만 달러로 예상치를 웃돌았다.",
+      "impact": "분기 실적 호조가 주가 반등을 이끌었으나, 거래량이 평균보다 낮고 애널리스트들의 평균 목표주가가 높음에도 투자의견은 Hold를 유지하는 등 신중한 분위기가 공존한다.",
+      "caution": "거래량이 평균 대비 88% 낮아 상승세의 지속성에 한계가 있을 수 있다."
+    },
+    "almontyindustriesincali1deseasonalreturnschartyahoofinance": {
+      "title": "Almonty Industries Inc. (ALI1.DE) Seasonal Returns Chart - Yahoo Finance",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티 인더스트리즈(ALI1.DE)의 계절별 수익률 차트는 투자 전략 수립을 돕기 위해 월별 평균 및 중앙값 수익률을 제공한다.",
+      "impact": "단순한 통계적 과거 수익률 안내 자료로, 회사의 펀더멘털이나 단기 실적에 직접적인 영향을 미치지 않는다.",
+      "caution": "기사 내용이 단순 통계 및 사이트 안내에 해당하며 구체적인 기업 호재나 악재는 없다."
+    },
+    "credotechnologystockjumpsafterreachingmajorpatentdealwithmarvell": {
+      "title": "Credo Technology Stock Jumps After Reaching Major Patent Deal With Marvell",
+      "holding": "크레도 테크놀로지",
+      "stance": "호재",
+      "summary": "크레도 테크놀로지와 마벨 테크놀로지가 능동형 전기 케이블(AEC) 기술과 관련된 특허 분쟁을 원만히 해결하고 미 특허청(USPTO)에 계류 중인 마벨의 특허 이의 제기를 철회하기로 합의했다. 이 소식에 크레도 주가가 상승했다.",
+      "impact": "불확실성이 컸던 특허 소송 및 USPTO의 법적 리스크가 해소되면서 핵심 사업인 AEC 기술의 영업 환경이 개선될 것으로 기대된다.",
+      "caution": "양사가 재정적 조건, 로열티 지급 여부, 상업적 범위에 대한 세부 내용을 공개하지 않아 구체적인 재무적 기여도는 추후 확인이 필요하다."
+    },
+    "alphabetstockreboundsfrom280supportasanthropicstakepreipoandnvidiaearningslift": {
+      "title": "Alphabet Stock Rebounds From $280 Support as Anthropic Stake Pre IPO and Nvidia Earnings Lift",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳 주가는 280달러 지지선에서 반등했으며, 이는 앤스로픽 프리IPO 지분 보유와 엔비디아의 호실적 발표가 기술주 전반의 투자 심리를 개선했기 때문이다. 다만 300달러 회복 실패와 인프라 지출 부담 등은 여전히 경계 요인이다.",
+      "impact": "엔비디아 효과와 클라우드 성장세 및 앤스로픽 지분 가치가 하단 지지를 이끌어냈으나, 단기 저항선 돌파 여부와 규제 리스크가 추가 상승을 제어하고 있다.",
+      "caution": "300달러가 저항선으로 작용할 수 있으며 인프라 비용 및 규제 압박 우려가 상존한다."
+    },
+    "ciscoq1fy2027earningsreport18517brevenue": {
+      "title": "Cisco Q1 FY2027 earnings report: $18.517B revenue",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코 시스템즈는 2026년 10월 24일 마감된 2027회계연도 1분기 매출 185억 1,700만 달러, 희석 GAAP 주당순이익(EPS) 1.14달러를 기록했다고 11월 12일 발표했다. 이는 전년 동기 대비 매출이 24% 증가한 수치다.",
+      "impact": "매출과 GAAP 순이익이 각각 24%, 59% 급증하며 시장의 예상을 뒷받침하는 강력한 실적을 증명했기 때문에 주가에 긍정적이다.",
+      "caution": ""
+    },
+    "boeinggeaerospaceleadtrumps17bplusasiadealswith12baircraftsalevertivpanasonicalsoinfocus": {
+      "title": "Boeing, GE Aerospace Lead Trump's $17B-Plus Asia Deals With $12B Aircraft Sale — Vertiv, Panasonic Also In Focus",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "도널드 트럼프 대통령의 아시아 순방 중 필리핀 항공기 12억 달러 규모 계약을 포함한 17억 달러 이상의 상업 협정이 발표된 가운데, 버티브 홀딩스(VRT)가 브루나이의 통신사 유니파이드 내셔널 네트워크로부터 데이터 센터 입찰 수주를 앞두고 있다는 소식이 전해졌다.",
+      "impact": "데이터 센터 인프라 수요와 맞물려 버티브의 수주 기대감이 높아지면서 아시아 지역 사업 확장 모멘텀이 강화된다.",
+      "caution": "아직 입찰 단계(intends to award)이므로 최종 계약 체결까지는 변동 여지가 있다."
+    },
+    "microsoftsharespullback9fromrecordhighafterelectionandoutlookoutage": {
+      "title": "Microsoft Shares Pull Back 9% From Record High After Election and Outlook Outage",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트 주가는 11월 4일 사상 최고가 기록 이후 11월 중순 미드텀 선거 직후 발생한 Outlook 장애 등 기술적 중단 사태의 여파로 약 9% 하락했다. 직전 10월 28일 실적에서는 Azure 매출이 48% 증가한 332억 달러를 기록한 바 있다.",
+      "impact": "클라우드 및 코파일럿 등 장기 성장 모멘텀이 탄탄함에도 불구하고, 연쇄적인 IT 장애와 Outlook 서비스 중단 사태가 단기 투자 심리를 악화시켰다.",
+      "caution": "장기 펀더멘털인 Azure 성장세(48%)는 여전히 유효하므로 서비스 장애 영향이 단발성에 그칠지 지켜봐야 한다."
+    },
+    "revenuedeclineoutlookmightchangethecaseforinvestinginnikestocknke": {
+      "title": "Revenue Decline Outlook Might Change The Case For Investing In Nike Stock (NKE)",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "나이키는 2026년 11월 투자자의 날에서 2027회계연도에 한 자릿수 후반의 매출 감소가 지속될 것이며, 제품·가격·유통 재정비로 인해 영업이익이 매출보다 더 빠르게 감소할 것이라고 재확인했다. 경영진은 매출 압박이 2028회계연도까지 이어질 것으로 예상하고 있다.",
+      "impact": "멀티 이어 리셋 전략으로 인해 단기 현금 창출력과 마진 회복 시기가 지연되면서 투자자들의 실망 매물이 나올 수 있다.",
+      "caution": "2029~2031년 기간의 가속화된 성장 목표가 제시되었으나, 중화권 및 조던 브랜드 등 핵심 부문의 실제 실행력을 장기간 지켜봐야 한다."
+    },
+    "novonordisknvostockpricepredictionbullsstillhaveworktodoafterashallowpullback": {
+      "title": "Novo Nordisk (NVO) Stock Price Prediction: Bulls still have work to do after a shallow pullback",
+      "holding": "노보노디스크 ADR",
+      "stance": "중립",
+      "summary": "노보노디스크(NVO) 주가는 일일 2.21% 하락한 40.28달러를 기록하며 7일 및 20일 이동평균선 아래에 위치했다. 다만 50일 단순이동평균선인 39.36달러보다는 위에 있어 전반적인 상승세 내의 단순한 조정 국면으로 평가된다.",
+      "impact": "단기적인 주가 하락과 이평선 하회는 투자 심리에 다소 부정적일 수 있으나, 본격적인 추세 하락이 아닌 기술적 조정 성격이 강해 보유 종목에 미치는 영향은 중립적이다.",
+      "caution": "본문은 기술적 지표와 단기 가격 변동만을 다루고 있어 펀더멘털의 변화를 반영하지 않는다."
+    },
+    "lg화학엔솔지분팔아도추가환원은보류재무개선우선": {
+      "title": "LG화학, 엔솔 지분 팔아도 추가 환원은 보류…재무개선 우선",
+      "holding": "LG화학",
+      "stance": "약한 악재",
+      "summary": "LG화학은 LG에너지솔루션 지분 653만5939주(약 2조5000억원 규모)를 처분해 자금을 확보하고 있으나, 3000억원 규모의 자사주 매입 외에 추가적인 주주환원 확대에는 선을 그었다. 확보된 자금은 35조원을 웃도는 차입금 등 재무구조 개선과 성장 투자에 우선 배분될 예정이다.",
+      "impact": "지분 유동화에도 불구하고 추가적인 주주환원 확대가 보류되면서, 단기적인 주주가치 제고를 기대했던 투자자 관점에서는 실망 매물 출회 가능성 등 약한 악재로 작용한다.",
+      "caution": "장기적으로는 재무구조 개선과 성장 투자가 기업 가치에 긍정적으로 작용할 여지가 있다."
+    },
     "엔비디아호실적에코스피5100회복sk하이닉스는6대급등": {
       "title": "엔비디아 호실적에 코스피 5100 회복… SK하이닉스는 6%대 급등",
       "holding": "SK하이닉스",
