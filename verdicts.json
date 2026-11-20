@@ -1,17 +1,113 @@
 {
-  "generated_at": "2026-11-19T10:58:21+09:00",
+  "generated_at": "2026-11-20T10:51:31+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6928,
-    "output_tokens": 3636
+    "input_tokens": 4547,
+    "output_tokens": 2333
   },
   "skipped": {
-    "본문없음": 1,
+    "본문없음": 6,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "속보삼성전자장초반4급락sk하이닉스도6": {
+      "title": "[속보]삼성전자 장초반 4% 급락, SK하이닉스도 6%↓",
+      "holding": "SK하이닉스",
+      "stance": "악재",
+      "summary": "20일 장 초반 삼성전자는 4.22% 내린 18만8600원, SK하이닉스는 6.00% 내린 111만2000원에 거래되는 등 급락세를 보였다. 미국 뉴욕증시 3대 주가지수가 동반 하락하고 AMD 등 AI·반도체주가 중국 관련 제재 위험에 노출되면서 국내 증시에도 부정적인 영향을 미쳤다.",
+      "impact": "뉴욕증시 하락과 AI·반도체 섹터 전반의 투자심리 위축으로 인해 SK하이닉스 주가가 6%대 급락을 기록했다.",
+      "caution": ""
+    },
+    "프로텍234억규모반도체제조장비공급계약": {
+      "title": "프로텍, 234억 규모 반도체 제조장비 공급계약",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "프로텍이 234억 규모의 반도체 제조장비 공급계약을 체결했다는 제목의 기사이나, 본문에는 광고 및 사이트 안내문만 있고 구체적인 기사 내용이 존재하지 않는다.",
+      "impact": "본문에 실질적인 기사 내용과 수치가 없어 보유 종목인 삼성전자에 미치는 직접적인 영향을 판단할 수 없다.",
+      "caution": "본문이 광고 및 사이트 안내문으로만 구성되어 있어 중립으로 처리함."
+    },
+    "해사청hd현대중공업울산조선소방문시장공략속도": {
+      "title": "美 해사청, HD현대중공업 울산조선소 방문…美 시장 공략 속도",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "미국 해사청(MARAD) 마크 D. 존슨 부청장 등 대표단이 HD현대중공업 울산조선소를 방문하여 군수용 선박 확보 및 항만 인프라 협력 방안을 논의했다. HD현대는 미국 현지 조선소와 미국 시장 공략을 속도감 있게 추진하고 있다.",
+      "impact": "미국 해사청의 울산조선소 방문과 군수지원선 사업 참여 논의는 향후 HD현대중공업의 미국 군수용 선박 시장 진출 및 글로벌 수주 확대에 긍정적으로 작용한다.",
+      "caution": ""
+    },
+    "vistranysevststockfalls14whatsnext": {
+      "title": "Vistra (NYSE:VST) Stock Falls 1.4% - What's Next?",
+      "holding": "비스트라 에너지",
+      "stance": "약한 악재",
+      "summary": "비스트라(Vistra) 주가가 1.4% 하락한 약 123.81달러를 기록했으며, 텍사스 신규 데이터 센터 일시 중지 우려와 AI 전력주 약세로 인해 지난 한 달간 약 16% 하락했다. 다만 애널리스트 컨센서스는 'Moderate Buy'이며 평균 목표가는 201.14달러로 유지되고 있다.",
+      "impact": "데이터 센터 관련 규제 우려와 AI 전력 섹터 전반의 조정 분위기가 단기적인 주가 하락 압력으로 작용했다.",
+      "caution": "분기 실적 호조 및 자사주 매입 프로그램 승인 등의 긍정적 요소도 함께 공존함."
+    },
+    "eosenergyenterprisesfalls7today": {
+      "title": "Eos Energy Enterprises Falls 7% Today",
+      "holding": "이오스 에너지",
+      "stance": "약한 악재",
+      "summary": "이오스 에너지 엔터프라이즈(Eos Energy Enterprises) 주가가 구체적인 회사 뉴스나 공시 없이 7% 하락한 1.37달러를 기록했다. 한 주주 권익 로펌이 과거 발표된 내용을 바탕으로 경영진 관련 조사를 진행 중이라고 발표했으나 구체적인 위법 행위는 확정되지 않았다.",
+      "impact": "투자자 대상 로펌의 조사 착수 소식이 투자 심리를 위축시켜 단기적인 주가 하락으로 이어졌다.",
+      "caution": "정부 조사나 공식적인 위법 판정이 아닌 사설 로펌의 단순 검토 단계임."
+    },
+    "almontysboardgetstwonewfacesasanalyststrimtargetsandsangdongfindsitsfooting": {
+      "title": "Almonty's Board Gets Two New Faces as Analysts Trim Targets and Sangdong Finds Its Footing",
+      "holding": "알먼티",
+      "stance": "약한 악재",
+      "summary": "알먼티 인더스트리즈(Almonty Industries)는 두 명의 사외이사를 선임하고 한국거래소 상장 추진 의사를 밝혔으나, 최근 주가는 2.8% 하락한 6.90유로를 기록하며 30일간 13% 하락세를 보였다. 또한 Sphene Capital 등 두 곳의 리서치 하우스가 목표 주가를 하향 조정했다.",
+      "impact": "목표 주가 하향 조정과 최근 지속된 주가 하락세가 투자자들의 단기 심리에 부정적 영향을 미친다.",
+      "caution": "한국거래소 세컨더리 리스팅은 아직 승인 전 단계임."
+    },
+    "tdcowencutscredotechnologypricetargetto175from300": {
+      "title": "TD Cowen Cuts Credo Technology Price Target to $175 From $300",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "TD 코웬(TD Cowen)은 크레도 테크놀로지(Credo Technology)에 대한 매수(Buy) 의견을 유지하면서도 목표 주가를 기존 300달러에서 175달러로 하향 조정했다. 회사는 여전히 강한 수요 배경을 언급하며 인공지능 및 클라우드용 고속 연결 솔루션을 공급하고 있다.",
+      "impact": "목표가 대폭 하향은 단기적으로 투자 심리에 부담을 줄 수 있으나 매수 의견 유지 및 강한 수요 전망이 함께 존재한다.",
+      "caution": "보유 종목인 크레도 테크놀로지에 대한 직접적인 실적 발표가 아닌 증권사의 목표가 조정 뉴스임."
+    },
+    "stockmarkettodaynov19alphabetsharesfallasanthropicnasdaqdebutputsfreshvalueongooglesstake": {
+      "title": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "알파벳 A(Alphabet) 주가는 3.46% 하락한 272.66달러로 마감했다. AI 기업 앤트로픽(Anthropic)이 나스닥에 데뷔하면서 구글이 보유한 지분의 가치가 재평가받는 과정에서 투자자들이 신중한 태도를 보였다.",
+      "impact": "자회사 및 투자사인 앤트로픽의 상장과 관련해 알파벳의 사적 AI 지분 가치에 대한 시장의 복합적인 평가가 주가 하락 압력으로 작용했다.",
+      "caution": ""
+    },
+    "feargaugesurges25ontheweekascommoditiescraterandcisconasdaqcscopostsrecordquarter": {
+      "title": "Fear Gauge Surges 25% On The Week As Commodities Crater And Cisco (NASDAQ: CSCO) Posts Record Quarter",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "CBOE 변동성 지수가 25% 급등하고 원자재 시장이 급락한 가운데, 시스코(NASDAQ: CSCO)는 사상 최고의 분기 실적을 기록했다. 그러나 기사 본문이 잘려 있어 시스코 실적의 구체적인 수치나 주가에 미치는 영향은 자세히 확인되지 않는다.",
+      "impact": "거시경제의 불안정과 원자재 가격 하락에도 불구하고 사상 최대 실적을 기록했다는 점은 긍정적일 수 있으나, 본문 내용이 불완전하여 보유 종목에 미치는 파급 경로를 명확히 판단하기 어렵다.",
+      "caution": "기사가 중간에 끊어져 있어 시스코 관련 구체적인 실적 수치를 확인할 수 없고 시장 전반의 변동성 지표와 원자재 가격 하락이 주로 다뤄졌다."
+    },
+    "vertivholdingscovrtexpandsaidatacenterreachisthevaluationpullbackachance": {
+      "title": "Vertiv Holdings Co (VRT) Expands AI Data Center Reach, Is The Valuation Pullback A Chance?",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 호재",
+      "summary": "버티브 홀딩스(NYSE: VRT)는 솔레니스와의 파트너십을 통해 액체 냉각 하드웨어와 예측 유지보수 기술을 AI 데이터 센터로 확장했다. 최근 90일간 주가가 29.38% 하락했음에도 불구하고, 800 VDC 전력 장비 출시 및 브루나이 데이터 센터 입찰 등 사업 확장은 지속되고 있다.",
+      "impact": "AI 데이터 센터용 냉각 및 전력 솔루션 관련 파트너십과 신제품 출시는 향후 매출 성장에 기여할 수 있으나, 최근 단기 주가 하락 모멘텀이 이어지고 있어 즉각적인 주가 반등보다는 완만한 호재로 작용한다.",
+      "caution": "연초 이후 수익률은 여전히 양수이나 최근 7일간 11.76% 하락하는 등 단기 변동성이 크다."
+    },
+    "lockheedmartintomanufactureexlsnavalmissilelaunchersincanadawith2millioninvestment": {
+      "title": "Lockheed Martin to manufacture ExLS naval missile launchers in Canada with $2 million investment",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴 캐나다는 11월 17일 오타와 카나타 시설에 200만 달러를 투자해 ExLS 해군 미사일 발사대 부품 제조를 시작한다고 밝혔다. 이번 투자를 통해 10개의 숙련된 일자리가 창출되며 폴란드 등 국제 고객에게 하드웨어를 공급하는 두 번째 생산 거점이 마련된다.",
+      "impact": "생산 시설 확대와 국제 고객사 대상 공급망 강화를 통해 방산 부문의 매출 다각화 및 실적 성장에 긍정적인 영향을 미친다.",
+      "caution": "ExLS 시스템은 캐나다 해왕성급 구축함(River-class destroyers) 사업의 경제적 상쇄 의무를 충족하기 위한 것이며 해당 선함에 직접 설치되지는 않는다."
+    },
+    "morenjjobcutsnovonordiskrwjbarnabashealthbarclays": {
+      "title": "More NJ Job Cuts: Novo Nordisk, RWJBarnabas Health, Barclays",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 악재",
+      "summary": "노보 노디스크는 미국 뉴저지주에서 215명의 추가 감원을 발표했으며, 이는 올해 들어 뉴저지에서만 300명 이상, 2025년 말 이후 800명 이상의 감원에 이르는 글로벌 구조조정의 일환이다. 이번 감원은 2027년 2월 중순부터 시행될 예정이다.",
+      "impact": "지속적인 대규모 구조조정은 비용 절감 효과를 가져올 수 있으나, 미국 본사가 위치한 지역에서의 반복적인 인력 감축은 조직 불안정성 및 내부 사기 저하로 이어져 단기적으로 투자 심리에 부정적 영향을 줄 수 있다.",
+      "caution": "구조조정은 장기적인 비용 효율화 목적일 수도 있으나, 발표된 감원 규모와 반복성이 투자자들에게 우려를 줄 수 있다."
+    },
     "단독대형로펌sk하이닉스주가급락집단소송조사착수투자자손실보상추진": {
       "title": "[단독] 美 대형 로펌, SK하이닉스 주가 급락 '집단소송' 조사 착수…투자자 손실 보상 추진",
       "holding": "SK하이닉스",
