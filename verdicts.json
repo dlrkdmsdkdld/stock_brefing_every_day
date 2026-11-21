@@ -1,17 +1,137 @@
 {
-  "generated_at": "2026-11-20T10:51:31+09:00",
+  "generated_at": "2026-11-21T10:38:41+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 4547,
-    "output_tokens": 2333
+    "input_tokens": 7319,
+    "output_tokens": 2883
   },
   "skipped": {
-    "본문없음": 6,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "삼성전자sk하이닉스안전환경경영강화대규모증설속고도화": {
+      "title": "삼성전자·SK하이닉스, 안전·환경경영 강화…대규모 증설 속 고도화...",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자 DS부문은 58조원대 첨단공정 투자와 24시간 3교대 100% 가동 체제 속에서도 안전·환경 행정제재 '0건'을 기록하며 관리 역량을 입증했다. 스마트 안전 모니터링을 강화해 대규모 팹 증설 현장의 사고 리스크를 예방하고 있다.",
+      "impact": "생산라인 풀가동 국면에서 차질 없이 안정적인 반도체 생산 능력을 유지하고 있음을 보여준다.",
+      "caution": "단기 실적에 직접적인 영향을 주기보다는 장기적 리스크 관리 역량에 가깝다."
+    },
+    "hd현대중공업경영진주가반등위해자사주대거매입하는이유": {
+      "title": "HD현대중공업 경영진, 주가 반등 위해 자사주 대거 매입하는 이유",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "HD현대중공업 이상균 부회장과 조민수 사장이 각각 장내에서 1억2천800만 원어치와 500주의 자사주를 매입했다. 이는 주가 회복에 대한 강한 의지와 책임 경영을 실천하기 위한 행보로 풀이된다.",
+      "impact": "경영진의 자사주 매입은 주주가치 제고 및 책임경영 의지를 시장에 전달하여 주가 하방 압력을 방어하는 데 긍정적 영향을 준다.",
+      "caution": "매입 규모가 아주 크지는 않으며 전반적인 업황 흐름에 따라 주가 방향이 결정될 수 있다."
+    },
+    "dellstockplunges10intheaiselloffandheadsforitsworstmonthsinceits2018returntothestockmarketearningsaretuesday": {
+      "title": "Dell Stock Plunges 10% in the AI Selloff and Heads for Its Worst Month Since Its 2018 Return to the Stock Market. Earnings Are Tuesday",
+      "holding": "델",
+      "stance": "악재",
+      "summary": "델 테크놀로지스(DELL) 주가가 AI 및 칩 관련 매도세 심화로 금요일 오후 10% 급락하여 281.12달러를 기록했다. 화요일 실적 발표를 앞두고 있으며 11월 한 달간 34% 하락하여 2018년 재상장 이후 최악의 월간 성적을 향해 가고 있다.",
+      "impact": "AI 서버 수요에 대한 우려와 시장 전반의 매도세로 인해 보유 종목의 주가 급락과 변동성 확대가 직접 발생했다.",
+      "caution": "화요일 예정된 실적 발표 결과에 따라 주가가 반등할 여지도 남아 있다."
+    },
+    "barclaysmaintainsconstellationenergyatoverweightraisespricetargetto371from345": {
+      "title": "Barclays maintains Constellation Energy at Overweight, raises price target to $371 from $345",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "바클레이즈(Barclays)는 컨스텔레이션 에너지(CEG)에 대해 Overweight 등급을 유지하고 목표주가를 기존 345달러에서 371달러로 상향 조정했다. 이는 11월 19일 종가 252.03달러 대비 47.2%의 상승 여력을 의미한다.",
+      "impact": "주요 투자은행의 목표주가 상향은 시장의 긍정적인 투자 심리를 자극하여 주가 상승 동력으로 작용할 수 있다.",
+      "caution": "증권가의 목표주가는 분석가 개인의 전망일 뿐 실제 주가 도달을 보장하지 않는다."
+    },
+    "vistraceoreflectsonenergysopportunity": {
+      "title": "Vistra CEO Reflects on Energy's Opportunity",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "비스트라의 Jim Burke CEO는 AI 붐 이전부터 고객 요구에 맞춰 신뢰성 있고 지속 가능한 에너지인 천연가스와 원자력에 투자했다고 밝혔다. 그는 10월 29일 D CEO의 에너지 어워드에서 레거시 어워드를 수상하며 회사의 에너지 전략을 공유했다.",
+      "impact": "회사의 장기 비전과 리더십을 조명하는 내용이나, 당장의 재무적 실적이나 주가에 즉각적인 영향을 미치는 내용은 아니다.",
+      "caution": "과거 투자 배경에 대한 회고 인터뷰로 실적 관련 새로운 수치는 포함되어 있지 않다."
+    },
+    "quantumscapeqsdown265sincelastearningsreportcanitrebound": {
+      "title": "QuantumScape (QS) Down 26.5% Since Last Earnings Report: Can It Rebound?",
+      "holding": "이오스 에너지",
+      "stance": "중립",
+      "summary": "퀀텀스케이프(QS) 주가는 마지막 실적 발표 이후 약 한 달 동안 26.5% 하락하며 S&P 500 대비 부진한 모습을 보였다. 3분기 주당순손실은 14센트로 잭스 컨센서스 예상치인 18센트 손실보다 적은 손실을 기록했다.",
+      "impact": "퀀텀스케이프에 관한 기사이며 보유 종목인 이오스 에너지와는 직접적인 관련이 없다.",
+      "caution": "보유 종목이 아닌 타 회사(QuantumScape)를 다룬 기사이다."
+    },
+    "ifyouredeployingaiagentsciscosjeetupatelsayssecurityisntoptionaltechsurgedeeptechvcpodcast": {
+      "title": "If You’re Deploying AI Agents, Cisco’s Jeetu Patel Says Security Isn’t Optional｜TechSurge: Deep Tech VC Podcast",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "시스코의 지투 파텔(Jeetu Patel) 사장은 AI 에이전트 채택의 전제 조건으로 보안과 신뢰를 강조하며 시스코의 통합 플랫폼 전략을 설명했다. 시스코는 맞춤형 실리콘, 네트워킹, 스플렁크 기반 관측 가능성 및 AI 방어 기능을 통합하고 있다.",
+      "impact": "시스코의 AI 인프라 및 보안 경쟁력을 강조하는 내용으로, 기업 가치 제고 측면에서 긍정적이다.",
+      "caution": "팟캐스트 인터뷰 내용으로 단기적인 실적 수치 변화를 동반하지는 않는다."
+    },
+    "vertivnysevrtstockpricedown103timetosell": {
+      "title": "Vertiv (NYSE:VRT) Stock Price Down 10.3% - Time to Sell?",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "Vertiv (NYSE:VRT) 주가는 10.3% 하락하여 165.88달러를 기록했으며 거래량은 평균보다 81% 증가했다. 다만 최근 분기 실적은 예상치를 상회하여 EPS 2.21달러, 매출 43억 1000만 달러를 기록했고 주당 배당금은 0.10달러로 인상되었다.",
+      "impact": "단기적인 주가 급락과 높은 거래량 동반 매도세는 투자심리에 부정적이나, 견조한 실적과 애널리스트들의 매수 의견 유지가 하방을 지지할 수 있다.",
+      "caution": ""
+    },
+    "microsoftstockslipsasaichiproutweighsonbigtechdespitebullishignitereviewsand650pricetarget": {
+      "title": "Microsoft Stock Slips as AI Chip Rout Weighs on Big Tech Despite Bullish Ignite Reviews and $650 Price Target",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "마이크로소프트 주가는 반도체주 급락 여파로 1.19% 하락한 492.39달러를 기록했다. 반면 애널리스트들은 연례 Ignite 컨퍼런스 이후 AI 전략에 대해 긍정적인 평가를 유지하고 있다.",
+      "impact": "반도체 섹터의 약세로 인해 대형 기술주 전반에 하방 압력이 가해졌으나, 마이크로소프트 자체의 AI 성장 모멘텀은 여전히 지지받고 있다.",
+      "caution": ""
+    },
+    "novonordisktrimsnewjerseyfootprintwhilebuybacksandpipelinewinspileup": {
+      "title": "Novo Nordisk Trims New Jersey Footprint While Buybacks and Pipeline Wins Pile Up",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크는 미국 뉴저지 플레인스보 본사에서 215명을 추가 감원하며 2027년 2월부터 시행할 예정이다. 이는 전 세계적인 구조조정의 일환으로 2026년 말까지 13억 달러의 연간 비용 절감을 목표로 하고 있다.",
+      "impact": "대규모 인력 감축과 구조조정은 비용 절감 및 수익성 개선에 기여하여 중장기적으로 재무 건전성에 긍정적인 영향을 미칠 수 있다.",
+      "caution": ""
+    },
+    "연말60내걸었던한화생명기본자본비율뒷걸음네이버블로그": {
+      "title": "연말 60% 내걸었던 한화생명…기본자본비율 '뒷걸음' : 네이버 블로그",
+      "holding": "한화생명",
+      "stance": "약한 악재",
+      "summary": "한화생명은 연말 기본자본 킥스(K-ICS)비율 60% 달성을 목표로 했으나, 상반기 56.8%로 하락한 데 이어 3분기에도 추가 하락이 예상된다. 해외채권 평가가치 하락과 이익잉여금 감소로 자본 여력이 약화된 상태다.",
+      "impact": "기본자본비율의 지속적인 하락은 자본관리 목표 달성에 부담을 주며, 재무 건전성에 대한 우려를 높일 수 있다.",
+      "caution": ""
+    },
+    "bmi2027년팜오일연평균1t4385링기트전망": {
+      "title": "BMI, 2027년 팜오일 연평균 1t 4385링기트 전망",
+      "holding": "포스코인터내셔널",
+      "stance": "중립",
+      "summary": "리서치 회사인 BMI는 2027년 말레이시아 팜오일 연평균 가격을 1톤당 4385링기트로 전망하며 이는 2026년과 유사한 수준이라고 밝혔다. 인도네시아의 수출 물량 축소와 엘니뇨에 따른 생산 차질 등이 가격을 뒷받침할 것으로 분석된다.",
+      "impact": "포스코인터내셔널이 직접 언급되지 않고 일반적인 팜오일 시장 전망을 다룬 기사로, 직접적인 실적 연동 경로는 제한적이다.",
+      "caution": "보유 종목인 포스코인터내셔널이 본문에 직접 언급되지 않고 팜오일 시장 일반 동향만 다룬 기사임."
+    },
+    "성성호수조망에19조투자호재까지더샵천안라크원본격분양": {
+      "title": "성성호수 조망에 19조 투자 호재까지… '더샵 천안라크원' 본격 분양 ...",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "포스코이앤씨는 충남 천안 성성동에서 '더샵 천안라크원' 견본주택을 개관하고 분양을 시작했다. 해당 지역은 삼성전자의 19조 원 투자와 사내대출 혜택 등의 호재로 주목받고 있다.",
+      "impact": "건설 현장의 분양 개시 소식은 자회사 혹은 관련 건설 사업의 매출 인식을 기대할 수 있으나 포스코홀딩스 전사 실적에 미치는 영향은 간접적이다.",
+      "caution": "보유 종목(POSCO홀딩스)의 직접적 실적 지표보다는 자회사(포스코이앤씨)의 분양 사업 소식임."
+    },
+    "현대로템마리융열차의인기몰이": {
+      "title": "현대로템 마리융 열차의 ‘인기몰이’",
+      "holding": "현대로템",
+      "stance": "호재",
+      "summary": "현대로템의 마리융(Mariyung) 2층 전동차가 호주 뉴사우스웨일스주 주요 광역권 철도 노선에서 성공적으로 운행 중이다. 이는 2016년부터 2021년까지 610량, 1조 6천억 원 규모로 공급 계약을 맺은 대규모 프로젝트다.",
+      "impact": "대규모 해외 납품 프로젝트의 성공적 안착과 현지에서의 긍정적 평가는 글로벌 철도 시장에서 현대로템의 브랜드 가치와 추가 수주 가능성을 높인다.",
+      "caution": ""
+    },
+    "분석구조적사이클붕괴인정한lg화학aidriven전환이사회강화승부수": {
+      "title": "[분석] '구조적 사이클 붕괴' 인정한 LG화학…AI-Driven 전환·이사회 강화 승부수",
+      "holding": "LG화학",
+      "stance": "약한 호재",
+      "summary": "LG화학은 기존 4대 성장동력을 AI-Driven 핵심 영역(반도체·기반시설, 모빌리티·로봇, 항암 신약)으로 전면 재편하는 중장기 사업 전략을 공시했다. 이를 통해 AI 관련 매출 비중을 2025년 10%에서 2030년 30% 이상으로 확대할 계획이다.",
+      "impact": "구조적 시황 부진에 대응하여 미래 고부가가치 사업 중심으로 포트폴리오를 전환하겠다는 의지를 보였으며, 장기적인 수익성 개선 기대감을 높인다.",
+      "caution": "체질 개선 계획 발표 단계로 실제 가시적인 실적 창출까지는 시간이 소요될 수 있음."
+    },
     "속보삼성전자장초반4급락sk하이닉스도6": {
       "title": "[속보]삼성전자 장초반 4% 급락, SK하이닉스도 6%↓",
       "holding": "SK하이닉스",
