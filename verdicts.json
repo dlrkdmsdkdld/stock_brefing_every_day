@@ -1,17 +1,257 @@
 {
-  "generated_at": "2026-11-22T09:31:06+09:00",
+  "generated_at": "2026-11-23T10:01:26+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 11460,
-    "output_tokens": 5984
+    "input_tokens": 11163,
+    "output_tokens": 5200
   },
   "skipped": {
-    "본문없음": 12,
+    "본문없음": 14,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스장초반다시110만원밑으로미반도체주급락여파": {
+      "title": "SK하이닉스, 장 초반 다시 110만원 밑으로…미 반도체주 급락 여파",
+      "holding": "SK하이닉스",
+      "stance": "악재",
+      "summary": "미국 증권거래위원회(SEC)의 엔비디아 회계 처리 조사와 미 반도체주 급락 여파로 SK하이닉스 주가가 23일 장 초반 110만원선 밑으로 떨어졌다. 외국인은 최근 2주간 SK하이닉스 주식을 2조원 넘게 순매도했다.",
+      "impact": "미국 반도체 지수 폭락과 외국인의 대규모 순매도가 겹치면서 단기적인 주가 하락 압력으로 작용했다.",
+      "caution": ""
+    },
+    "반도체지수10급락삼성전자3sk하이닉스2핫종목": {
+      "title": "美 반도체지수 10% 급락…삼성전자 3%·SK하이닉스 2%↓[핫종목]",
+      "holding": "삼성전자",
+      "stance": "악재",
+      "summary": "미국 증시에서 엔비디아 회계 조사 및 대중국 수출규제 우려 등으로 반도체주가 일제히 폭락하면서 삼성전자와 SK하이닉스 주가가 23일 장 초반 각각 3%대, 2%대 하락했다. 다만 증권가에서는 관련 악재가 일부 선반영되어 추가 하락 폭은 제한될 수 있다는 전망도 나온다.",
+      "impact": "글로벌 반도체 업종 전반의 투자 심리 악화와 대외 불확실성 증대로 인해 국내 반도체 대형주의 주가 하락을 유발했다.",
+      "caution": ""
+    },
+    "울산시hd현대중공업서부유식해상풍력그린수소협력토론회": {
+      "title": "울산시, HD현대중공업서 부유식 해상풍력·그린수소 협력 토론회",
+      "holding": "HD현대중공업",
+      "stance": "약한 호재",
+      "summary": "울산시는 23일 HD현대중공업 영빈관에서 현대차, 고려아연, 한국동서발전 등과 함께 부유식 해상풍력 및 그린수소 미래산업 협력 토론회를 개최했다. 이를 통해 약 3.5기가와트 규모 부유식 해상풍력 사업의 조기 추진과 지역기업의 참여 확대를 논의했다.",
+      "impact": "지역 신재생에너지 사업의 조기 추진과 미래 친환경 사업 협력을 통해 장기적인 성장 동력 확보에 긍정적인 영향을 준다.",
+      "caution": ""
+    },
+    "beveragecanseamersmarketto2035automationandcandemandfuelgrowthnewsandstatistics": {
+      "title": "Beverage Can Seamers Market To 2035: Automation and Can Demand Fuel Growth - News and Statistics",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "중립",
+      "summary": "음료 캔 포장 및 충전 라인 설비를 제조하는 글로벌 기업들에 대한 시장 통계 및 개요를 다루고 있다.",
+      "impact": "보유 종목인 컨스텔레이션 브랜즈에 대한 직접적인 언급이나 실적에 영향을 주는 내용은 포함되어 있지 않다.",
+      "caution": "본문 내용은 음료 포장 설비 제조사에 관한 것이며 보유 종목과 직접적 관련이 없다."
+    },
+    "solarstockstofollownownovember22nd": {
+      "title": "Solar Stocks To Follow Now - November 22nd",
+      "holding": "퍼스트솔라",
+      "stance": "약한 악재",
+      "summary": "마켓빗의 고액 거래량 스크리너에서 퍼스트솔라(FSLR) 등 태양광 관련 주식이 주목할 종목으로 꼽혔으나, 금요일 장에서 퍼스트솔라는 137.20달러로 마감하며 52주 신저가 근처를 기록했다.",
+      "impact": "주가가 52주 신저가 부근으로 하락하면서 단기 투자 심리에 부정적인 영향을 미친다.",
+      "caution": ""
+    },
+    "almontyssangdongrampuptakescenterstageasanalystsslashforecastsandlegaldisputeconsolid": {
+      "title": "Almonty's Sangdong Ramp-Up Takes Center Stage as Analysts Slash Forecasts and Legal Dispute Consolid",
+      "holding": "알먼티",
+      "stance": "악재",
+      "summary": "알먼티는 상동광산의 생산 램프업 지연 우려로 인해 GBC 등 분석가들이 2026년과 2027년 매출 전망치를 대폭 하향 조정했다. 이로 인해 금요일 세션에서 주가가 16% 하락하여 5.82유로로 마감했다.",
+      "impact": "핵심 프로젝트의 수익 창출 시기가 지연되면서 실적 기대치가 낮아지고 주가 급락으로 이어진다.",
+      "caution": ""
+    },
+    "whatinvestorsgotwrongaboutcredotechnologygroupbeforethedrop": {
+      "title": "What Investors Got Wrong About Credo Technology Group Before The Drop",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지 그룹의 연초 대비 주가 하락과 AI 데이터센터 연결 제품에 대한 투자자들의 낙관적 가정에 대해 다루고 있다.",
+      "impact": "AI 인프라 관련 기대감과 주가 부진의 원인을 분석하고 있으나 구체적인 수치나 신규 실적 발표 등 즉각적인 주가 변동 요인은 제시되지 않았다.",
+      "caution": ""
+    },
+    "dxccollaborateswithciscototurnaipowerednetworkinsightsintoactionwithdxcoasis": {
+      "title": "DXC Collaborates with Cisco to Turn AI-Powered Network Insights into Action with DXC OASIS",
+      "holding": "시스코 시스템즈",
+      "stance": "약한 호재",
+      "summary": "DXC 테크놀로지는 시스코의 AI 기반 네트워크 인텔리전스 및 AgenticOps 기능을 자사의 오케스트레이션 플랫폼인 DXC OASIS에 통합하는 협력을 발표했다. 이번 협력은 초기 시스코 메라키 환경의 와이파이 성능을 중심으로 기업 IT 운영을 지원한다.",
+      "impact": "시스코의 AI 네트워크 기술 활용 범위가 확대되면서 기업용 솔루션 경쟁력 강화에 기여할 수 있다.",
+      "caution": ""
+    },
+    "vertivstockrecorddatesetfor010usdollardividend": {
+      "title": "Vertiv stock: Record date set for 0.10 US dollar dividend",
+      "holding": "버티브 홀딩스",
+      "stance": "호재",
+      "summary": "버티브 홀딩스의 이사회는 11월 13일 발표를 통해 4분기 현금 배당의 기준일을 11월 24일로 설정하고 정기 연간 배당금을 주당 0.25달러에서 0.40달러로 60% 인상했다. 4분기 배당금은 Class A 보통주 주주들을 대상으로 주당 0.10달러로 지급되며 12월 17일에 지급될 예정이다.",
+      "impact": "연간 배당금의 60% 인상과 구체적인 주주 환원 일정 확정은 투자자들에게 더 큰 현금 수익을 보장하므로 보유 종목에 직접적인 호재로 작용한다.",
+      "caution": ""
+    },
+    "lockheedmartinproposesmajorhelicoptertechnologytransfer": {
+      "title": "Lockheed Martin proposes major helicopter technology transfer",
+      "holding": "록히드마틴",
+      "stance": "중립",
+      "summary": "방산 기업 록히드마틴이 헬리콥터 기술 이전과 관련된 제안을 추진 중이라는 내용이나 본문 내용이 잘려 있어 구체적인 수치나 파급력을 확인하기 어렵다.",
+      "impact": "보유 종목인 록히드마틴의 사업 움직임이 언급되었으나 핵심 세부 내용이 누락되어 주가에 미치는 영향을 단정하기 어렵다.",
+      "caution": "본문이 중간에 끊어져 있어 상세한 계약 규모와 조건에 대한 추가 확인이 필요하다."
+    },
+    "microsoftfaceswashingtonscrutinyoverbytedancedealasituntanglesatwomontholdoutlookbug": {
+      "title": "Microsoft Faces Washington Scrutiny Over ByteDance Deal as It Untangles a Two-Month-Old Outlook Bug",
+      "holding": "마이크로소프트",
+      "stance": "약한 악재",
+      "summary": "마이크로소프트 주가는 기술주 전반의 매도세 속에서 2.6% 하락한 442.25유로를 기록했으며 11월 12일 발생한 아웃룩 서비스 중단 및 바이트댄스와의 5억 달러 규모 애저 계약 관련 미 의회 조사 등 여러 이슈에 직면해 있다.",
+      "impact": "규제 기관의 조사와 서비스 장애 여파는 단기적으로 투자 심리에 부정적인 영향을 주며 주가 하락으로 이어졌다.",
+      "caution": "의회 조사가 실질적인 제재나 계약 무산으로 이어질지는 아직 불확실하다."
+    },
+    "novonordisknysenvotradesatadecadelowvaluationevenasitswegovypilldominatesoralglp1market": {
+      "title": "Novo Nordisk (NYSE: NVO) Trades At A Decade-Low Valuation Even As Its Wegovy Pill Dominates Oral GLP-1 Market",
+      "holding": "노보노디스크 ADR",
+      "stance": "호재",
+      "summary": "노보노디스크 ADR의 경구용 위고비 알약은 2026년 3분기 신규 경구용 GLP-1 비만 치료 환자의 약 80%를 확보하며 시장을 지배하고 있다. 주가는 역사적 고점 대비 70% 하락하여 P/E 비율이 약 10배 수준에서 거래되고 있다.",
+      "impact": "경구용 비만 치료제 시장에서의 압도적인 점유율 확대는 회사의 구조적 성장 동력과 실적 개선으로 이어져 장기적인 주가 반등 요인이 된다.",
+      "caution": "과거 고점 대비 큰 폭으로 하락한 주가 수준이 저평가 매력인지 구조적 문제인지에 대해서는 시장 상황을 지켜볼 필요가 있다."
+    },
+    "nvidiastockforecast2027cannvdareach250afterits36crash": {
+      "title": "Nvidia Stock Forecast 2027: Can NVDA Reach $250 After Its 36% Crash?",
+      "holding": "엔비디아",
+      "stance": "중립",
+      "summary": "엔비디아 주가는 10월 최고가인 243.37달러 대비 약 48% 하락한 125.53달러를 기록했으나 최근 분기 매출은 전년 동기 대비 103% 증가한 1158억 달러를 기록했다. 2027년 회복을 위해서는 베라 루빈 수요가 중요하며 250달러 목표가는 약 99%의 상승 여력을 의미한다.",
+      "impact": "AI 부문의 강력한 실적 성장에도 불구하고 주가는 고점 대비 크게 하락하여 펀더멘털과 주가 움직임 사이에 괴리가 존재한다.",
+      "caution": "높은 실적 성장세와 급격한 주가 하락이 공존하고 있어 향후 거시경제 및 AI 수요 전망에 따라 방향성이 달라질 수 있다."
+    },
+    "shouldyoubuyteslaorspacexstockbeforetheirpotentialmerger": {
+      "title": "Should You Buy Tesla or SpaceX Stock Before Their Potential Merger?",
+      "holding": "테슬라",
+      "stance": "중립",
+      "summary": "테슬라와 스페이스X의 합병 논의가 진전되어 이르면 다음 달에 발표될 수 있다는 보도가 나왔으며 테슬라 주주들이 프리미엄을 요구하고 스페이스X 주식을 받게 될 것이라는 전망이 제기되었다.",
+      "impact": "두 회사의 결합은 테슬라의 인공지능 역량 등에 영향을 줄 수 있으나 아직 확정된 공식 발표가 아닌 보도 단계다.",
+      "caution": "합병 성사 여부와 조건이 구체적으로 확정되지 않아 실제 주가에 미치는 영향은 불투명하다."
+    },
+    "ncdeqdirectschemourstoaddressissuesinitsplanstocleanuppfas": {
+      "title": "NCDEQ directs Chemours to address issues in its plans to clean up PFAS",
+      "holding": "케무어스",
+      "stance": "약한 악재",
+      "summary": "노스캐롤라이나주 환경 품질부(DEQ)는 11월 9일 서한을 통해 케무어스의 영구 화학물질(PFAS) 오염 대응 계획에서 상당한 결함을 지적하고 2019년 동의 명령 및 주 법률 준수를 촉구했다.",
+      "impact": "환경 규제 당국의 시정 요구와 미흡한 준수 지적은 향후 추가적인 비용 발생이나 법적 리스크를 높여 주가에 부담으로 작용한다.",
+      "caution": "회사가 향후 DEQ의 시정 요구에 어떻게 대응하고 비용을 산정하는지에 따라 영향이 달라질 수 있다."
+    },
+    "aidoesntholdtheredbuttoninsideisraelsgevernovacyberdefensehub": {
+      "title": "‘AI doesn't hold the red button’: Inside Israel's GE Vernova cyber defense hub",
+      "holding": "GE 버노바",
+      "stance": "중립",
+      "summary": "이스라엘 내 GE 버노바의 사이버 보안 센터가 최근 영국 발전기 및 미국 수처리 시스템 등을 겨냥한 해킹 공격 등 인프라를 향한 사이버 위협 증가 상황 속에서 활동하고 있다.",
+      "impact": "GE 버노바의 사이버 보안 역량이 언급되었으나 회사의 전체 재무나 주가에 직접적인 중대한 실적 변화를 일으키는 사건은 아니다.",
+      "caution": "보유 종목의 보안 사업부 활동을 소개하는 내용일 뿐 구체적인 계약이나 매출 증대 소식과는 거리가 있다."
+    },
+    "tstimagesjetsdefeatchargers2724atsofistadium": {
+      "title": "TST Images: Jets defeat Chargers, 27-24 at SoFi Stadium",
+      "holding": "소파이 테크놀로지스",
+      "stance": "중립",
+      "summary": "뉴욕 소파이 스타디움에서 열린 미식축구 경기에서 뉴욕 제츠가 로스앤젤레스 차저스를 27대 24로 이겼다는 스포츠 기사이다. 본문은 광고 안내문만 포함하고 있으며 기업 소파이 테크놀로지스와는 관련이 없다.",
+      "impact": "보유 종목인 소파이 테크놀로지스와 직접적인 사업적 관련이 없는 경기장 명칭 언급에 불과하다.",
+      "caution": "기업 뉴스가 아닌 경기 결과 및 광고 안내문이다."
+    },
+    "ionqnyseionqsitson12billionrevenuebacklogevenassharescollapse70frompeak": {
+      "title": "IonQ (NYSE: IONQ) Sits On $1.2 Billion Revenue Backlog Even As Shares Collapse 70% From Peak",
+      "holding": "아이온큐",
+      "stance": "약한 호재",
+      "summary": "아이온큐는 12억 달러 규모의 수주 잔고와 차세대 양자 프로세서를 보유하고 있으나 주가는 고점 대비 70% 하락했다. 2026년 들어 주가가 거의 50% 하락한 주 원인은 기업 펀더멘털보다는 고위험 자산 회피 성향과 양자 컴퓨팅의 상용화 지연 때문이다.",
+      "impact": "강력한 수주 잔고와 기술 개발 성과는 펀더멘털 측면에서 긍정적이나, 시장 전반의 위험 자산 기피 심리로 인해 주가 하락 압력을 받고 있다.",
+      "caution": "양자 컴퓨팅 섹터 전반의 투자 심리 위축이 지속될 수 있다."
+    },
+    "jobyaviationjobystocklooksabovefairvalueonits75slide": {
+      "title": "Joby Aviation (JOBY) Stock Looks Above Fair Value On Its 75% Slide",
+      "holding": "조비 에비에이션",
+      "stance": "중립",
+      "summary": "조비 에비에이션은 연초 대비 75% 하락하여 현재의 밸류에이션이 매출과 적정한지 의문이 제기되고 있다. 회사는 인증, 생산, 레소넌트 사이언스 인수에 막대한 자금을 지출하고 있으며 22억 달러의 현금 보유고를 가지고 있다.",
+      "impact": "막대한 현금 소모와 높은 지출 구조가 주가 하락의 원인으로 지적되고 있어 단기적인 주가 반등 경로가 불확실하다.",
+      "caution": "향후 인증 및 매출 가시화 시점에 따라 평가가 달라질 수 있다."
+    },
+    "abcellerabiologicstargets2027phase3trialforhotflashdrug": {
+      "title": "AbCellera Biologics Targets 2027 Phase 3 Trial for Hot Flash Drug",
+      "holding": "앱셀레라 바이오로직스",
+      "stance": "호재",
+      "summary": "앱셀레라 바이오로직스는 비호르몬 항체 치료제인 ABCL635의 폐경 및 암 치료 관련 안면홍조 적응증에 대해 2027년 중반 임상 3상 진입을 목표로 하고 있다. 임상 2상 연구에서 증상 빈도를 80% 이상 줄였으며 CEO는 미국 내 잠재 시장 규모를 약 12억 달러로 추정했다.",
+      "impact": "성공적인 임상 결과와 대규모 잠재 시장 진입 가능성은 장기적인 기업 가치와 매출 성장에 긍정적인 영향을 미친다.",
+      "caution": "임상 일정은 규제 기관과의 논의 및 제조 계획에 따라 변동될 수 있다."
+    },
+    "all16episodesofnetflixsambitiousadventureseriesareperfectfromstarttofinish": {
+      "title": "All 16 Episodes Of Netflix's Ambitious Adventure Series Are Perfect From Start To Finish",
+      "holding": "넷플릭스",
+      "stance": "중립",
+      "summary": "넷플릭스의 과거 오리지널 시리즈 및 모험 장르 콘텐츠의 성공 사례를 다룬 문화·엔터테인먼트 기사이다. 스트리밍 플랫폼으로서의 대규모 프로젝트 진행 과정을 언급하고 있다.",
+      "impact": "특정 신작 발표나 실적에 직접적인 영향을 주는 내용이 아니며 기존 플랫폼의 콘텐츠 전략을 다룬 일반 기사이다.",
+      "caution": "보유 종목에 대한 직접적인 재무적·사업적 호재나 악재는 포함되어 있지 않다."
+    },
+    "nebiusstockhalvedpricetargetsanda27billionbilltesttheaibuildout": {
+      "title": "Nebius Stock: Halved Price Targets and a $27 Billion Bill Test the AI Build-Out",
+      "holding": "네비우스 그룹",
+      "stance": "약한 악재",
+      "summary": "네비우스 주가는 인공지능 인프라 투자에 대한 회의론과 전반적인 AI 주식 매도세 속에서 금요일 16% 하락했다. 대규모 인프라 지출에 대한 수익성 우려와 앤트로픽의 IPO 이후 주가 조정이 동사 주가에 부담으로 작용했다.",
+      "impact": "데이터센터 인프라 구축에 대규모 자본을 투입하는 동사의 성장 모델에 대한 시장의 의구심이 커지면서 단기적으로 주가 하방 압력으로 작용한다.",
+      "caution": "AI 인프라 수요의 장기 성장성과 실제 실적 발표에 따라 시장 평가는 달라질 수 있다."
+    },
+    "eatonstockusd110dividendpaymentduenovember27": {
+      "title": "Eaton stock: USD 1.10 dividend payment due November 27",
+      "holding": "이튼",
+      "stance": "호재",
+      "summary": "이튼은 보통주 1주당 1.10달러의 분기 배당을 11월 27일에 지급할 예정이며 배당 기준일은 11월 10일이다. 회사는 3분기 매출이 전년 동기 대비 28% 증가한 8.9억 달러를 기록하고 사상 최고 수준의 영업이익률을 달성하는 등 견조한 실적을 바탕으로 가이던스를 제시했다.",
+      "impact": "기록적인 3분기 실적과 안정적인 배당 지급은 주주 환원과 기업의 탄탄한 재무 건전성을 보여주어 주가에 긍정적이다.",
+      "caution": "광범위한 S&P 500 시장의 거시경제적 흐름에 영향을 받을 수 있다."
+    },
+    "asx200aluminiummajoralcoaasxaaieyesaclearerworsleypath": {
+      "title": "ASX 200 Aluminium Major Alcoa (ASX:AAI) Eyes a Clearer Worsley Path",
+      "holding": "알코아",
+      "stance": "중립",
+      "summary": "알코아는 다음 달 초 뉴욕에서 열리는 소재 관련 컨퍼런스에서 사업 현황과 분기별 요인에 대해 논의할 예정이다. 본문은 다른 호주 증시 소매 기업들의 뉴스를 함께 나열하고 있다.",
+      "impact": "향후 컨퍼런스에서의 발표 내용에 따라 방향성이 결정될 수 있으나 본문 자체에는 구체적인 실적이나 사건이 상세히 언급되지 않았다.",
+      "caution": "본문의 대부분이 다른 기업들에 대한 링크와 광고성 나열로 구성되어 있어 알코아 자체에 대한 정보는 제한적이다."
+    },
+    "서울데이터랩개장직후인기검색종목20": {
+      "title": "[서울데이터랩]개장 직후 인기 검색 종목 20選",
+      "holding": "삼성중공업",
+      "stance": "약한 악재",
+      "summary": "23일 오전 네이버 증권 검색 상위 종목 현황에서 삼성중공업은 4.43% 하락한 1만 4450원을 기록했다. 이날 증시 전반의 하락 흐름 속에서 대다수 상위 종목과 함께 주가가 약세를 보였다.",
+      "impact": "보유 종목인 삼성중공업의 주가가 단기적으로 하락세를 보이며 투자 심리에 부정적인 영향을 미쳤다.",
+      "caution": "시황 전반의 하락에 따른 단기 변동성일 수 있어 개별 기업의 펀더멘털 악재로 직접 단정하기는 어렵다."
+    },
+    "한화생명plus파이개편성년자녀계좌도부모가투자관리": {
+      "title": "한화생명, 'PLUS 파이' 개편…성년 자녀 계좌도 부모가 투자관리",
+      "holding": "한화생명",
+      "stance": "호재",
+      "summary": "한화생명은 증여 자산관리 앱 'PLUS 파이'의 서비스를 성년 자녀까지 확대하고 주문대리인 등록 기능을 도입했다. 출시 1년이 되기 전 누적 증여신청액이 100억원을 넘어선 가운데 이번 개편으로 장기 자산관리 서비스 경쟁력이 강화됐다.",
+      "impact": "고객의 장기 자산관리 수요를 흡수하고 플랫폼 이용 기반을 넓혀 한화생명의 디지털 금융 서비스 경쟁력과 고객 충성도에 긍정적이다.",
+      "caution": "기한 후 신고 등 일부 기능에 제한이 있으며 앱을 통한 실제 실적 기여도를 지속적으로 모니터링해야 한다."
+    },
+    "주가급락좋은점도있습니다배당수익률8넘은종목올해": {
+      "title": "“주가 급락, 좋은 점도 있습니다”…배당수익률 8% 넘은 종목, 올해 ...",
+      "holding": "포스코인터내셔널",
+      "stance": "중립",
+      "summary": "연말을 앞두고 증시 변동성이 커진 가운데 포스코인터내셔널을 포함한 36개사의 예상 배당수익률이 5%를 넘을 것으로 전망됐다. 주가 급락에 따른 저평가 매력과 함께 고배당 매수세 유입 가능성이 제기되고 있다.",
+      "impact": "포스코인터내셔널이 고배당주로 주목받으며 투자 매력도가 부각될 수 있으나, 현금흐름 지속성에 대한 유의가 필요하다.",
+      "caution": "기사는 주로 증권주와 전반적인 배당주 동향을 다루고 있으며 포스코인터내셔널은 고배당 36곳 중 하나로 언급되는 수준이다."
+    },
+    "상반기급등장에cb발행역대최대최근급락에상환부담": {
+      "title": "상반기 급등장에 CB발행 역대최대…최근 급락에 상환부담",
+      "holding": "POSCO홀딩스",
+      "stance": "중립",
+      "summary": "올해 들어 23일까지 국내 기업의 전환사채(CB) 발행액이 9조9천97억원으로 전년 대비 70.4% 급증했다. 다만 최근 증시 급락으로 인해 주식 전환 차질 및 상환 부담, 지분 희석 우려가 부각되고 있다.",
+      "impact": "POSCO홀딩스가 직접 언급되지는 않았으나 증시 전반의 CB 발행 증가와 상환 부담 이슈가 시장 전체의 투자 심리에 영향을 줄 수 있다.",
+      "caution": "기사 본문에 POSCO홀딩스가 직접 언급되지 않았고 삼성SDS, 현대건설, 한국항공우주 등이 거론되었다."
+    },
+    "현대로템주가하락중": {
+      "title": "현대로템 주가 하락 중",
+      "holding": "현대로템",
+      "stance": "약한 악재",
+      "summary": "23일 오전 9시 25분 기준 현대로템의 주가가 5.68% 하락하며 약세를 나타냈다. 이날 시가는 6만 원, 저가는 5만 7700원을 기록했다.",
+      "impact": "단기적인 주가 하락은 보유 투자자의 자산 가치에 부정적인 영향을 미친다.",
+      "caution": "장중 변동 상황이므로 당일 종가 기준의 흐름과 거래량 등을 추가로 확인할 필요가 있다."
+    },
+    "마켓인한기평보다5개월늦었다한신평lg화학aa로뒤늦은강등": {
+      "title": "[마켓인]한기평보다 5개월 늦었다…한신평, LG화학 ‘AA’로 뒤늦은 강등",
+      "holding": "LG화학",
+      "stance": "악재",
+      "summary": "한국신용평가는 LG화학의 무보증사채 신용등급을 'AA+'에서 'AA'로 하향 조정했다. 석유화학 업황 부진 장기화와 대규모 투자로 인한 순차입금 증가가 등급 하락의 배경이다.",
+      "impact": "신용등급 하락은 자금 조달 비용 증가로 이어질 수 있으며, 차입금 관련 재무적 부담이 가중되어 기업 가치에 부정적이다.",
+      "caution": "이미 한국기업평가에서 5개월 전에 등급을 내린 바 있어 시장에 어느 정도 선반영되었을 가능성이 있다."
+    },
     "삼전닉스3분기배당성향껑충상반기대비21배로늘기도": {
       "title": "삼전닉스, 3분기 배당성향 껑충…상반기 대비 21배로 늘기도",
       "holding": "SK하이닉스",
@@ -6875,14 +7115,6 @@
       "summary": "현대엔지니어링이 경상남도 거제시 옥포동에 총 1963세대 규모의 '힐스테이트 거제시그니처' 분양을 시작한다. 해당 단지는 한화오션 거제사업장과 인접해 있어 종사자들의 직주근접성이 우수하다는 평가를 받고 있다.",
       "impact": "한화오션 거제사업장 인근의 대단지 아파트 분양 소식으로, 임직원들의 주거 편의성 향상에 도움을 줄 수 있으나 직접적인 재무적 실적 개선으로 이어지지는 않는다.",
       "caution": "부동산 분양 소식으로 한화오션의 본업인 조선업 실적이나 주가에 미치는 직접적인 영향은 제한적이다."
-    },
-    "서울데이터랩개장직후인기검색종목20": {
-      "title": "[서울데이터랩]개장 직후 인기 검색 종목 20選",
-      "holding": "두산에너빌리티",
-      "stance": "약한 악재",
-      "summary": "13일 오전 네이버 증권 검색 상위 20개 종목 중 18개가 하락한 가운데, 검색 3위를 기록한 두산에너빌리티는 3.78% 하락한 6만8800원에 거래되었다. 개장 직후 시장 전반의 투자심리가 위축되면서 대형주 전반에 매도세가 집중되었다.",
-      "impact": "시장 전반의 하락 흐름과 맞물려 두산에너빌리티의 주가도 단기 하락세를 기록하며 투자심리에 부정적인 영향을 주었다.",
-      "caution": "단순 개장 직후의 주가 등락 및 검색 순위 변동을 다룬 기사로 기업 자체의 펀더멘털 변화와는 거리가 있다."
     },
     "청기홍기매출두배뛰었는데에이피알목표주가줄하향": {
       "title": "[청기홍기]매출 두배 뛰었는데…에이피알 목표주가 줄하향",
