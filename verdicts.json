@@ -1,17 +1,201 @@
 {
-  "generated_at": "2026-11-23T10:01:26+09:00",
+  "generated_at": "2026-11-24T13:54:49+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 11163,
-    "output_tokens": 5200
+    "input_tokens": 9649,
+    "output_tokens": 4011
   },
   "skipped": {
-    "본문없음": 14,
+    "본문없음": 7,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "소부장키운sk하이닉스협력사매출8000억": {
+      "title": "소부장 키운 SK하이닉스, 협력사 매출 8000억",
+      "holding": "SK하이닉스",
+      "stance": "호재",
+      "summary": "SK하이닉스가 운영하는 소부장 상생 프로그램이 9년 만에 협력사 누적 매출 8000억 원을 돌파했다. 기술혁신기업 20곳을 지원해 식각 장비와 프로브카드 등을 국산화하는 성과를 거뒀다.",
+      "impact": "SK하이닉스의 공급망 안정성과 소부장 국산화 역량이 강화되며, 협력사와의 동반성장 성과가 대외적으로 긍정적인 평가를 받는다.",
+      "caution": ""
+    },
+    "속보삼성전자임원승진20줄여도핵심반도체는챙겼다": {
+      "title": "[속보] 삼성전자, 임원 승진 20% 줄여도 '핵심' 반도체는 챙겼다",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "본문에 기사 내용 없이 광고 및 사이트 안내문만 포함되어 있다.",
+      "impact": "실제 기사 내용이 존재하지 않아 삼성전자의 주가나 기업 가치에 미치는 영향을 파악할 수 없다.",
+      "caution": "본문이 광고 및 사이트 안내문만 있고 기사 내용이 없어 중립으로 처리함."
+    },
+    "경제계인사hd현대안전총괄대표조민수씨": {
+      "title": "[경제계 인사]HD현대重 안전총괄 대표 조민수씨",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "본문에는 기사 본문 내용이 없고 언론사 구독 안내와 광고 문구만 포함되어 있다.",
+      "impact": "실제 기사 본문이 없기 때문에 HD현대중공업의 경영 활동이나 주가에 직접적인 영향을 주지 않는다.",
+      "caution": "본문이 광고 및 사이트 안내문만 있고 기사 내용이 없어 중립으로 처리함."
+    },
+    "constellationbrandssharesslideasinvestorsweighinsidersalescautiousbeertrends": {
+      "title": "Constellation Brands shares slide as investors weigh insider sales, cautious beer trends",
+      "holding": "컨스텔레이션 브랜즈",
+      "stance": "약한 악재",
+      "summary": "컨스텔레이션 브랜즈 주가는 핵심 맥주 부문의 판매량 둔화 우려와 내부자의 주식 매각 공시 여파로 3.1% 하락했다. 다만 회사는 연간 실적 전망치를 유지했다.",
+      "impact": "핵심 맥주 제품인 모델로 에스페샬과 코로나 엑스트라의 판매량 감소 및 내부자 매각 물량이 투자 심리에 부정적으로 작용했다.",
+      "caution": "새로운 경영상의 악재라기보다는 기존의 판매량 둔화 우려와 내부자 매각에 대한 시장의 반응에 가깝다."
+    },
+    "johndorfmanfirstsolaradobecandidatesforjanuarybounce": {
+      "title": "John Dorfman: First Solar, Adobe candidates for January bounce",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "연말 세금 목적으로 손실 난 주식을 매도하는 세법상 매도 현상과 1월 반등설에 대한 칼럼이다. 퍼스트솔라는 태양광 에너지 관련 종목 중 하나로만 잠시 언급되었다.",
+      "impact": "보유 종목인 퍼스트솔라에 대한 구체적인 실적이나 기업 뉴스가 아닌 연말 계절적 주가 변동 현상의 예시로 언급되는 데 그쳤다.",
+      "caution": "기사 주제가 특정 기업 분석이 아닌 연말 세금 매도 현상이며 퍼스트솔라는 단순 예시로 언급만 되었음."
+    },
+    "morganstanleymaintainsconstellationenergyatoverweightraisespricetargetto393from391": {
+      "title": "Morgan Stanley maintains Constellation Energy at Overweight, raises price target to $393 from $391",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "호재",
+      "summary": "모건 스탠리는 컨스텔레이션 에너지에 대해 Overweight 의견을 유지하고 목표주가를 391달러에서 393달러로 상향 조정했다. 이는 11월 20일 종가 대비 65.5%의 상승 여력을 시사한다.",
+      "impact": "대형 투자은행의 목표주가 상향은 투자자들의 매수 심리를 자극하여 주가에 긍정적인 영향을 미칠 수 있다.",
+      "caution": ""
+    },
+    "whatcouldshapevistranysevstdividendgrowthstory": {
+      "title": "What Could Shape Vistra (NYSE:VST) Dividend Growth Story?",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "비스트라 에너지의 배당 성장 스토리를 다루는 기사이나, 본문 내용이 다른 회사들의 지분 공시나 뉴스 제목 나열로 채워져 있다.",
+      "impact": "비스트라 에너지만의 구체적인 배당 전망이나 실적 변화에 대한 내용이 본문에 충분히 반영되지 않았다.",
+      "caution": "기사 본문이 다른 기업들의 공시와 뉴스의 제목 위주로 구성되어 있어 구체적인 영향 분석이 제한적임."
+    },
+    "almontyindustriesstockinfocusafterearningsjumpandbuybackcompletion": {
+      "title": "Almonty Industries Stock In Focus After Earnings Jump And Buyback Completion",
+      "holding": "알먼티",
+      "stance": "호재",
+      "summary": "알먼티 인더스트리는 2026년 3분기 매출 4189만 캐나다달러, 순이익 5024만 캐나다달러를 기록하며 흑자 전환했다. 또한 전체 주식의 1.25%에 해당하는 361만여 주의 자사주 매입을 완료했다.",
+      "impact": "급증한 순이익과 자사주 매입 완료는 회사의 탄탄한 현금 창출력과 주주 환원 의지를 보여주어 투자 매력을 높인다.",
+      "caution": ""
+    },
+    "alphabetsoars6asjensenhuangsreturntonvidiareignitesaistocks": {
+      "title": "Alphabet Soars 6% as Jensen Huang’s Return to Nvidia Reignites AI Stocks",
+      "holding": "알파벳 A",
+      "stance": "약한 호재",
+      "summary": "알파벳 주가가 젠슨 황의 엔비디아 복귀로 촉발된 AI 관련주 랠리에 힘입어 6% 상승했다. 분석가들은 현금 소모가 완화될 경우 2028년까지 알파벳의 이익이 계속 증가할 것으로 예상하고 있다.",
+      "impact": "AI 섹터 전반의 투자 심리 개선과 주가 상승이 알파벳 주가에도 긍정적인 영향을 미쳤다.",
+      "caution": ""
+    },
+    "ciscoopenailaunchopensourceprojecttocounteraidrivencyberattacks": {
+      "title": "Cisco, OpenAI launch open-source project to counter AI-driven cyberattacks",
+      "holding": "시스코 시스템즈",
+      "stance": "중립",
+      "summary": "시스코 시스템즈와 오픈AI가 임시 소프트웨어 패치가 개발되는 동안 리눅스 시스템을 보호하기 위한 오픈소스 사이버보안 프로젝트를 공동 출시했다. 다만 기사 본문 대부분이 유료 구독 안내 및 로그인 관련 내용으로 구성되어 있다.",
+      "impact": "보유 종목인 시스코가 오픈AI와 협력하여 사이버보안 프로젝트를 시작했으나, 구체적인 매출 기여도나 본문 내용이 제한적이어서 주가에 미치는 영향은 중립적이다.",
+      "caution": "기사 본문의 핵심 내용이 유료 구독 벽으로 막혀 있어 상세 정보를 확인할 수 없다."
+    },
+    "bairdjustdowngradedvertivwitha200targetanditsnotaboutearnings": {
+      "title": "Baird Just Downgraded Vertiv With a $200 Target, and It’s Not About Earnings",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "베어드가 버티브 홀딩스의 투자의견을 아웃퍼폼에서 중립으로 내리고 목표주가를 320달러에서 200달러로 하향 조정했다. 다만 버티브의 3분기 유기적 주문이 두 배 이상 증가하는 등 단기 펀더멘털은 여전히 강하다.",
+      "impact": "투자의견 하향과 목표주가 대폭 인하는 단기적으로 투자 심리에 부정적인 영향을 줄 수 있다.",
+      "caution": "목표주가 하향에도 불구하고 실적 추정치 상승과 저렴해진 밸류에이션으로 인해 우려가 이미 주가에 상당 부분 반영되었을 수 있다."
+    },
+    "lockheedmartinlmtcouldbe13undervaluedfollowingrecordbacklogandhigherguidance": {
+      "title": "Lockheed Martin (LMT) Could Be 13% Undervalued Following Record Backlog And Higher Guidance",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴은 사상 최대 규모인 2,920억 달러의 수주 잔고와 상향된 2026년 가이던스를 기록했으며, 방위 네트워크 규정 준수와 자동화를 위한 새로운 사이버보안 동맹을 체결했다. 최근 30일간 주가가 5.38% 하락했으나 연초 이후 15.01% 상승했다.",
+      "impact": "역대급 수주 잔고와 가이던스 상향은 향후 실적 가시성을 높여주어 보유 종목의 펀더멘털을 강화한다.",
+      "caution": ""
+    },
+    "chinaisonly12hoursbehindusailabsbytedancesreportedazuredealputsmicrosoftinthemiddle": {
+      "title": "China Is “Only 12 Hours” Behind US AI Labs. ByteDance’s Reported Azure Deal Puts Microsoft in the Middle",
+      "holding": "마이크로소프트",
+      "stance": "중립",
+      "summary": "바이트댄스가 오픈AI 모델 사용을 주로 하기 위해 마이크로소프트의 애저(Azure)에 약 5억 달러를 추가 지출하는 방안을 논의 중이다. 이는 마이크로소프트의 2026 회계연도 매출의 0.2% 미만에 해당한다.",
+      "impact": "매출 기여도는 매우 작지만 중국 기업의 미국 최첨단 모델 접근 경로가 된다는 점에서 정치적 리스크와 이익 간의 저울질이 필요하다.",
+      "caution": "소폭의 매출 증가 대비 정치적 리스크가 동반되므로 주가에 미치는 영향은 엇갈릴 수 있다."
+    },
+    "nikeinkslongtermpartnershipwithformula1": {
+      "title": "Nike inks long-term partnership with Formula 1",
+      "holding": "나이키 B",
+      "stance": "호재",
+      "summary": "나이키와 포뮬러 1(F1)이 다년간의 글로벌 파트너십을 체결하고 다음 시즌부터 공동 브랜드 신발, 의류, 액세서리 및 레이스 주말 경험을 선보이기로 했다. 또한 F1 아카데미까지 협력이 확대되어 여성 모터스포츠 발전을 지원한다.",
+      "impact": "세계적인 스포츠 리그와의 장기 파트너십을 통해 새로운 성장 동력을 확보하고 브랜드 에너지를 높이는 계기가 된다.",
+      "caution": ""
+    },
+    "novonordiskbuybackpassesdkk124billionascagrisemaandwegovydataheadlineobesityweek": {
+      "title": "Novo Nordisk Buyback Passes DKK 12.4 Billion as CagriSema and Wegovy Data Headline ObesityWeek",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보노디스크는 진행 중인 자사주 매입 프로그램을 통해 약 4,480만 주의 B주식을 약 124억 덴마크 크로네(DKK) 규모로 매입했다고 밝혔다. 유럽 집행위원회로부터 혈우병 A 치료제 프레헴고의 승인을 받았으며 주가는 4.3% 상승했다.",
+      "impact": "대규모 자사주 매입과 신약 승인 소식이 전해지면서 주가 상승을 견인하는 긍정적인 요인으로 작용했다.",
+      "caution": ""
+    },
+    "은행장3년성과안고그룹수장으로이재근kb금융3년성장전략은": {
+      "title": "은행장 3년 성과 안고 그룹 수장으로…이재근, KB금융 3년 성장전략은",
+      "holding": "KB금융",
+      "stance": "중립",
+      "summary": "이재근 전 국민은행장이 제8대 KB금융그룹 회장으로 취임하여 2029년 11월까지 임기를 시작했다. 이 회장은 취임식에서 2027년을 대전환의 원년으로 삼고 AI 기반 금융서비스 혁신과 글로벌 금융 플랫폼 도약을 강조했다.",
+      "impact": "그룹 수장 교체에 따른 새로운 경영 전략과 AI 기반 혁신 의지가 표명되었으나, 단기적인 실적이나 주가에 즉각적인 영향을 미치기보다는 중장기 방향성에 가깝다.",
+      "caution": "새로운 경영진의 전략이 실제 성과로 이어지는지 지켜볼 필요가 있다."
+    },
+    "흔들리는순환금융ai투자위축수출규제이중고덮치나": {
+      "title": "흔들리는 순환 금융… AI 투자 위축·수출규제 ‘이중고’ 덮치나",
+      "holding": "네이버",
+      "stance": "중립",
+      "summary": "파이낸셜타임스는 11월 12일 젠슨 황 엔비디아 CEO의 퇴진이 AI 생태계의 순환 금융 구조에 불확실성을 키울 수 있다고 보도했다. 엔비디아는 고객사 지분 투자와 컴퓨팅 용량 매입 등을 통해 AI 붐을 뒷받침해왔으나 핵심 인물의 퇴진으로 금융 의존망이 흔들릴 수 있다는 우려가 제기된다.",
+      "impact": "보유 종목인 네이버가 직접적으로 다뤄지지 않고 글로벌 AI 산업의 매크로 환경 변화만 다루어져 네이버에 미치는 영향은 간접적이고 명확하지 않다.",
+      "caution": "기사의 주된 내용은 엔비디아와 글로벌 AI 금융 생태계이며, 네이버는 직접 언급되지 않았다."
+    },
+    "어바웃c삼성중공업세대교체30년기술통이왕근사장전면에": {
+      "title": "[어바웃 C] 삼성중공업 세대교체…'30년 기술통' 이왕근 사장 전면에",
+      "holding": "삼성중공업",
+      "stance": "약한 호재",
+      "summary": "삼성중공업은 11월 23일 해양설계 엔지니어 출신인 1970년생 이왕근 COO를 대표이사 사장으로 승진 내정하며 세대교체를 단행했다. 이는 9년간 회사를 이끌어 온 최성안 부회장의 뒤를 이어 내부 출신 기술 전문가에게 경영을 맡겨 조선해양사업 경쟁력을 강화하려는 조치다.",
+      "impact": "보유 종목인 삼성중공업의 최고경영자 교체와 세대교체 인사는 실적 회복 국면에서 내부 전문성을 바탕으로 한 사업 경쟁력 강화에 긍정적인 영향을 줄 수 있다.",
+      "caution": "신임 대표이사 체제가 실제 실적 개선과 수주 경쟁력 강화로 이어지는지는 향후 모니터링이 필요하다."
+    },
+    "한화생명irp상품매도없이연금받는분할연금라이프핏연금출시": {
+      "title": "한화생명, IRP 상품 매도 없이 연금 받는 분할연금 '라이프핏 연금' 출시",
+      "holding": "한화생명",
+      "stance": "약한 호재",
+      "summary": "한화생명은 11월 24일 IRP 계좌에서 운용 중인 상품을 매도하지 않고 연금으로 수령할 수 있는 분할연금 '라이프핏 연금'을 지난 2일 출시했다고 밝혔다. 이율보증형 보험 등을 포함한 모든 상품 유형이 대상이며, IRP 실적배당형 관리수수료도 면제된다.",
+      "impact": "보유 종목인 한화생명이 새로운 연금 수령 상품을 출시함으로써 IRP 고객의 편의성을 높이고 퇴직연금 및 생명보험 상품 경쟁력을 강화하는 데 도움이 된다.",
+      "caution": "신상품 출시가 실제 가입자 증가와 유의미한 실적 기여로 이어질지는 향후 판매 추이를 지켜봐야 한다."
+    },
+    "특징주gs건설데이터센터테마상승세에519": {
+      "title": "특징주, GS건설-데이터센터 테마 상승세에 5.19% ↑",
+      "holding": "HD현대마린엔진",
+      "stance": "중립",
+      "summary": "매경AX의 기사는 국내 증시의 변동성 확대와 사이드카 발급 횟수 증가를 다루고 있으며, 제목에는 GS건설과 데이터센터 테마 상승세가 언급되었다. 본문에는 코스피와 코스닥 시장의 프로그램 매매 일시 제한 제도가 올해 101회 발동되었다는 내용이 포함되어 있다.",
+      "impact": "보유 종목인 HD현대마린엔진은 본문 내용에 전혀 등장하지 않으며, 제목에만 언급된 타 테마 및 증시 변동성 기사로 직접적인 연관성이 없다.",
+      "caution": "본문에 보유 종목인 HD현대마린엔진에 대한 언급이 전혀 없는 타사 관련 기사이다."
+    },
+    "하나은행현대로템협력사에3020억원금융지원": {
+      "title": "하나은행, 현대로템 협력사에 3020억원 금융지원",
+      "holding": "현대로템",
+      "stance": "약한 호재",
+      "summary": "하나은행은 11월 23일 경남도청에서 방위산업 수출공급망 강화를 위한 상생 무역금융 협약식을 열고 현대로템의 협력사인 우리에이치큐 등에 한국무역보험공사 발급 보증서를 전달했다. 이번 지원 규모는 총 3020억원에 달한다.",
+      "impact": "보유 종목인 현대로템의 협력사들이 금융지원을 받게 됨으로써 방산 수출 공급망이 안정화되고 현대로템의 원활한 물량 납품과 수주 활동에 긍정적인 간접 효과를 준다.",
+      "caution": "협력사에 대한 금융지원이므로 현대로템 본사의 직접적인 현금 유입보다는 공급망 안정화 측면의 간접적 호재다."
+    },
+    "9조샤힌의승부수9조투자금회수할까샤힌의성패가를원가": {
+      "title": "[9조 샤힌의 승부수] ③ 9조 투자금 회수할까⋯샤힌의 성패 가를 원가...",
+      "holding": "LG화학",
+      "stance": "중립",
+      "summary": "S-OIL은 3분기 연결 기준 매출 11조9687억원, 영업이익 1조4067억원을 기록했으며 9조2580억원 규모의 샤힌 프로젝트 투자를 마무리 단계에 접어들었다. 정유 및 윤활 부문 호실적에도 불구하고 석유화학 부문은 스프레드 축소로 영업손실을 기록했다.",
+      "impact": "보유 종목인 LG화학과 같은 석유화학 업황이나 경쟁사의 실적을 다룬 내용으로, LG화학의 직접적인 실적 발표가 아니므로 영향은 중립적이다.",
+      "caution": "기사의 주된 내용은 S-OIL과 샤힌 프로젝트의 실적 및 투자 회수 과정이며, LG화학은 직접 언급되지 않았다."
+    },
+    "현대해상csm10조돌파지급여력210수익자본경쟁력동반강화": {
+      "title": "현대해상, CSM 10조 돌파·지급여력 210%…수익·자본 경쟁력 동반 강화",
+      "holding": "현대해상",
+      "stance": "호재",
+      "summary": "현대해상은 올해 3분기 누적 별도 기준 당기순이익이 7808억원으로 전년 동기 대비 23.1% 증가했다고 밝혔다. 9월 말 기준 보험계약마진(CSM) 잔액은 10조1692억원을 기록했고 지급여력비율은 210.3%를 나타냈다.",
+      "impact": "보유 종목인 현대해상이 뛰어난 장기보험 수익성 관리와 CSM 10조 돌파를 달성함으로써 수익성과 자본건전성이 동반 강화되었음을 보여주는 강력한 실적 호재다.",
+      "caution": "향후 보험금 지급 예실차 변동이나 실손보험 청구 구조 변화 등 리스크 요인은 지속해서 점검할 필요가 있다."
+    },
     "sk하이닉스장초반다시110만원밑으로미반도체주급락여파": {
       "title": "SK하이닉스, 장 초반 다시 110만원 밑으로…미 반도체주 급락 여파",
       "holding": "SK하이닉스",
