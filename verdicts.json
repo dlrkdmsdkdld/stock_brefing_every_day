@@ -1,17 +1,137 @@
 {
-  "generated_at": "2026-11-24T13:54:49+09:00",
+  "generated_at": "2026-11-25T12:38:50+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 9649,
-    "output_tokens": 4011
+    "input_tokens": 5239,
+    "output_tokens": 2888
   },
   "skipped": {
-    "본문없음": 7,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "하루만에무너진5천피삼성전자sk하이닉스7급락": {
+      "title": "하루 만에 무너진 '5천피'…삼성전자·SK하이닉스 7% 급락",
+      "holding": "SK하이닉스",
+      "stance": "약한 악재",
+      "summary": "25일 코스피가 5000선을 내주며 4700선으로 급락했고, SK하이닉스는 7%대 하락세를 기록했다. 뉴욕증시에서 엔비디아가 5% 넘게 하락하고 미국의 추가 관세 부과 우려가 겹치며 국내 지수와 대형주에 하방 압력을 가했다.",
+      "impact": "지수 전반의 하락과 외국인·기관의 순매도세로 인해 SK하이닉스 주가에 직접적인 단기 조정을 유발했다.",
+      "caution": "거시경제 및 수급 요인에 따른 일시적 시장 하락일 수 있으며, 개별 기업의 펀더멘털 훼손과 직접 직결되지 않을 수 있다."
+    },
+    "메모리반도체다음은임원인사로본삼성전자미래먹거리지형": {
+      "title": "메모리 반도체 다음은?…임원인사로 본 삼성전자 '미래 먹거리' 지형...",
+      "holding": "삼성전자",
+      "stance": "약한 호재",
+      "summary": "삼성전자는 2027년 임원 인사를 통해 로봇, AI, 파운드리 등 미래 성장동력 분야의 핵심 기술 인재들을 전면 배치했다. 전체 승진 규모 축소에도 불구하고 미래 기술 리더십 강화와 사업 포트폴리오 다각화에 집중했다.",
+      "impact": "차세대 수익원 육성과 기술 경쟁력 제고 의지를 보여줌으로써 장기적인 기업 가치에 긍정적인 영향을 미친다.",
+      "caution": "실제 가시적인 실적이나 사업 성과로 이어지기까지는 시간이 걸릴 수 있다."
+    },
+    "hd현대중공업10월매출5572누적수주2배육박": {
+      "title": "HD현대중공업 10월 매출 55.72%↑…누적 수주 2배 육박",
+      "holding": "HD현대중공업",
+      "stance": "호재",
+      "summary": "HD현대중공업의 10월 잠정 매출액은 2조1889억7000만원으로 전년 동기 대비 55.72% 증가했다. 1~10월 누적 수주액 역시 198억9700만달러로 지난해 같은 기간 대비 95.14% 늘며 2배에 육박했다.",
+      "impact": "매출과 수주 실적이 모두 큰 폭으로 성장세를 보이며 견조한 실적 개선 흐름을 주가에 긍정적으로 반영한다.",
+      "caution": "이번 공시에는 영업이익과 순이익 등 수익성 지표가 포함되지 않았으며 잠정치로 향후 확정치와 다를 수 있다."
+    },
+    "delltechnologiesq32027earningscalldellrevenuedoublestorecord549basaibackloghits1323bfullyearoutlookraisedto202b": {
+      "title": "[Dell Technologies Q3 2027 Earnings Call] Dell Revenue Doubles to Record $54.9B as AI Backlog Hits $132.3B, Full-Year Outlook Raised to $202B",
+      "holding": "델",
+      "stance": "호재",
+      "summary": "델 테크놀로지스는 회계기준 3분기 매출이 549억 달러로 전년 대비 두 배 이상 증가했으며, 주당순이익(EPS)은 9.45달러로 265% 급증했다. AI 인프라 백로그가 1323억 달러에 달하고 풀년 실적 전망을 202억 달러로 상향했다.",
+      "impact": "AI 인프라 수요 급증에 힘입어 실적과 수주 잔고가 폭발적으로 증가하여 델의 기업 가치를 크게 끌어올린다.",
+      "caution": "공급망 제약이나 향후 AI 투자 지속성에 대한 시장의 기대치 변화를 지속 모니터링할 필요가 있다."
+    },
+    "firstsolars2027outlook135billionbacklogfueledbylongterminfrastructuredemand": {
+      "title": "First Solar's 2027 Outlook: $13.5 Billion Backlog Fueled By Long-Term Infrastructure Demand",
+      "holding": "퍼스트솔라",
+      "stance": "약한 호재",
+      "summary": "퍼스트솔라는 135억 달러 규모의 2027년 전망과 44.0 GW 규모의 대규모 수주 잔고를 확보하고 있다. 국내 제조 역량과 정책적 지원이 유틸리티 규모 시장에서 경쟁 우위로 작용하고 있다.",
+      "impact": "탄탄한 수주 잔고가 향후 수년간의 매출 가시성을 높여주어 펀더멘털을 지지한다.",
+      "caution": "규제 불확실성과 무역 정책의 변동성이 향후 마진 지속성에 리스크로 작용할 수 있다."
+    },
+    "isconstellationenergycegundervaluedonraised2026guidanceandgrowthtargets": {
+      "title": "Is Constellation Energy (CEG) Undervalued On Raised 2026 Guidance And Growth Targets?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "약한 호재",
+      "summary": "컨스텔레이션 에너지는 2026년 조정 영업이익 가이던스를 상향 조정하고 2029년까지의 기본 주당순이익 성장 목표를 제시했다. Calpine 통합과 장기 계약 체결 등이 주요 동력으로 작용했다.",
+      "impact": "상향된 가이던스와 성장 목표는 회사의 중장기 현금 창출력과 실적 성장에 대한 신뢰를 높여준다.",
+      "caution": "최근 단기 주가 수익률이 하락세를 보이는 등 시장 모멘텀이 다소 냉각된 상태다."
+    },
+    "whyvistrafell14despiterecordearningsandercotloadgrowth": {
+      "title": "Why Vistra Fell 14% Despite Record Earnings and ERCOT Load Growth",
+      "holding": "비스트라 에너지",
+      "stance": "중립",
+      "summary": "본문은 OPEC+의 2027년 원유 시장 시나리오, 광산업 통합, 젬필즈의 플랜트 가동 관련 타사 기사 요약 및 광고성 링크들로 구성되어 있다. 보유 종목인 비스트라 에너지에 대한 본문 내용이나 구체적인 실적 분석은 포함되어 있지 않다.",
+      "impact": "보유 종목인 비스트라 에너지와 직접 관련된 새로운 사실이나 실적 변동 요인이 없다.",
+      "caution": "제목에 비스트라 에너지가 언급되어 있으나 본문은 다른 기사들의 링크와 미리보기로 이루어져 있어 종목에 대한 실질적인 정보가 없다."
+    },
+    "eosenergyeosestocklooksundervaluedbasedoncurrentearnings": {
+      "title": "Eos Energy (EOSE) Stock Looks Undervalued Based On Current Earnings",
+      "holding": "이오스 에너지",
+      "stance": "약한 호재",
+      "summary": "이오스 에너지 엔터프라이즈는 지난 12개월간 주가가 90.3% 하락했으나, 현재 실적에 비해 저평가되어 있다는 분석이 제기되었다. MN8 Energy의 웨스트버지니아 Mammoth Solar 프로젝트에 이오스 Z3 아연 기반 저장장치가 포함된 점이 향후 수익과 실적 기대감을 뒷받침할 수 있다.",
+      "impact": "장기 저장 프로젝트 수주가 가시화되면서 향후 실적 반등의 잠재적 모멘텀을 제공한다.",
+      "caution": "주가가 큰 폭으로 하락한 만큼 미래 실적이 예상대로 실현될지에 대한 시장의 경계감이 여전히 존재한다."
+    },
+    "almontyindustriesincstock12monthpricetargetcutto2147implies199upside": {
+      "title": "Almonty Industries Inc. Stock 12‑Month Price Target Cut to $21.47, Implies 199% Upside",
+      "holding": "알먼티",
+      "stance": "약한 호재",
+      "summary": "알먼티 인더스트리즈(Almonty Industries Inc.)의 평균 12개월 목표주가가 22.27달러에서 21.54달러로 소폭 하향 조정되었으나, 여전히 약 200%의 상승 여력을 내포하고 있다. 13명의 애널리스트 중 12명이 매수 의견을 유지하고 있으며 컨센서스 등급은 매수를 기록 중이다.",
+      "impact": "목표주가가 미세하게 낮아졌으나 여전히 대다수 애널리스트가 매수 의견을 유지하고 높은 상승 여력을 제시하고 있어 보유 종목에 긍정적인 심리를 부여한다.",
+      "caution": "목표주가 자체는 하향 조정된 수치이며 개별 애널리스트의 추정치일 뿐 실제 주가 상승을 보장하지는 않는다."
+    },
+    "tigerglobalcutitsalphabetstake42asthestockhititslowestperatioeverwhosright": {
+      "title": "Tiger Global Cut Its Alphabet Stake 42% as the Stock Hit Its “Lowest P/E Ratio Ever.” Who’s Right?",
+      "holding": "알파벳 A",
+      "stance": "약한 악재",
+      "summary": "타이거 글로벌(Tiger Global)이 3분기에 알파벳 지분의 42%를 매각했으나 여전히 6위 보유 자산으로 남겨두었다. 알파벳은 AI 지출 증가에 따른 잉여현금흐름 감소 우려와 검색 성장 둔화 속에서 사상 최저 수준의 P/E 밸류에이션에 거래되고 있다.",
+      "impact": "대형 헤지펀드의 대규모 지분 축소와 AI 투자 비용 증가에 따른 현금흐름 우려는 단기적으로 주가에 하방 압력으로 작용한다.",
+      "caution": "현재 주가가 역사적 저점 수준인 19배의 P/E에 거래되고 있어 저가 매수세가 유입될 여지도 존재한다."
+    },
+    "vertivnysevrtstockfalls68afteranalystdowngrade": {
+      "title": "Vertiv (NYSE:VRT) Stock Falls 6.8% After Analyst Downgrade",
+      "holding": "버티브 홀딩스",
+      "stance": "약한 악재",
+      "summary": "로버트 W. 베어드(Robert W. Baird) 애널리스트가 버티브 홀딩스(Vertiv)의 투자의견을 기존 Outperform에서 Neutral로 낮추고 목표주가를 320달러에서 200달러로 크게 하향 조정하면서 주가가 6.8% 하락했다. 다만 최근 분기 실적은 주당순이익 2.21달러와 전년 동기 대비 61.2% 증가한 매출을 기록하며 예상치를 상회했다.",
+      "impact": "주요 증권사의 등급 하향과 대폭 낮아진 목표주가로 인해 단기적인 주가 하락 및 투자 심리 악화로 이어진다.",
+      "caution": "회사의 최근 실적 자체는 예상을 상회하는 호실적을 기록했고 전체 애널리스트 컨센서스는 여전히 온건한 매수세를 유지하고 있다."
+    },
+    "f35ccompletesfirstlaunchandrecoveryaboardaircraftcarrierlockheedmartin": {
+      "title": "F-35C Completes First Launch and Recovery Aboard Aircraft Carrier: Lockheed Martin",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "록히드마틴(Lockheed Martin)의 F-35C 라이트닝 II 전투기가 최신 포드급 항공모함인 PCU 존 F. 케네디함에서 전자기 항공기 사출 시스템(EMALS)을 이용해 첫 성공적인 발사 및 회수 시험을 완료했다. 이번 테스트는 11일 동안 34회의 비행과 122회의 사출 및 착륙을 포함하여 성공적으로 진행되었다.",
+      "impact": "핵심 방산 제품인 F-35C의 함정 운용 호환성과 기술력이 실제 해군 최신 항공모함 테스트를 통해 입증됨으로써 방산 부문의 신뢰도가 높아진다.",
+      "caution": ""
+    },
+    "metamicrosoftorapplebuyallofthemfundmanagersays": {
+      "title": "Meta, Microsoft or Apple? Buy all of them, fund manager says",
+      "holding": "마이크로소프트",
+      "stance": "약한 호재",
+      "summary": "해리스 더글러스 자산운용의 포트폴리오 매니저 폴 해리스는 기술주 매도세가 마이크로소프트, 메타, 알파벳에 대한 매수 기회를 제공했다고 평가했다. 이들 기업이 확고한 사업 기반과 재무 건전성을 바탕으로 지속적인 인공지능(AI) 투자로부터 수혜를 입을 것이라고 전망했다.",
+      "impact": "전문 투자자의 긍정적 평가와 AI 투자 수혜 기대감이 마이크로소프트에 대한 투자 심리를 개선하는 요인으로 작용한다.",
+      "caution": "특정 펀드 매니저의 주관적 견해이며 AI 인프라 지출 과다에 대한 시장의 우려는 여전히 상존한다."
+    },
+    "nikenkestockgainsonupgradeasdickssportinggoodssharessurgeafterthirdquarterresults": {
+      "title": "Nike NKE Stock Gains on Upgrade as Dick's Sporting Goods Shares Surge after Third-Quarter Results",
+      "holding": "나이키 B",
+      "stance": "호재",
+      "summary": "딕스 스포팅 굿즈(Dick's Sporting Goods)가 풋라커에서 신형 나이키 제품에 대한 수요 개선을 언급한 후 나이키 주가가 약 6% 상승하여 35달러를 돌파했다. 딕스 경영진은 나이키의 제품 출시 빈도 조절 전략과 장기적 방향성을 옹호하며 긍정적인 평가를 내렸다.",
+      "impact": "주요 유통 채널을 통한 나이키 신제품 수요 회복 신호와 파트너사의 긍정적 평가는 브랜드 실적 개선 기대를 높여 주가 상승을 견인한다.",
+      "caution": "조던 브랜드 등 일부 품목의 실적이 여전히 부진하다는 언급이 있어 전면적 회복 여부는 지속 관찰이 필요하다."
+    },
+    "sapsesapstockforecasts": {
+      "title": "SAP SE (SAP) Stock Forecasts",
+      "holding": "텍사스 인스트루먼트",
+      "stance": "중립",
+      "summary": "야후 파이낸스 플랫폼의 기능 및 주식 시세, 포트폴리오 관리 리소스 등에 대한 일반적인 안내문이다.",
+      "impact": "보유 종목인 텍사스 인스트루먼트와 직접적인 관련이 없는 금융 플랫폼 안내 기사이다.",
+      "caution": "본문에 보유 종목이나 관련 기업에 대한 내용이 전혀 포함되어 있지 않다."
+    },
     "소부장키운sk하이닉스협력사매출8000억": {
       "title": "소부장 키운 SK하이닉스, 협력사 매출 8000억",
       "holding": "SK하이닉스",
