@@ -1,17 +1,113 @@
 {
-  "generated_at": "2026-11-26T11:58:04+09:00",
+  "generated_at": "2026-11-27T12:00:41+09:00",
   "analyst": "기사 본문을 읽고 작성. 키워드 감성분석이 아니며 투자 자문이 아님.",
   "model": "예비/gemini-flash-lite-latest",
   "usage": {
-    "input_tokens": 6601,
-    "output_tokens": 3008
+    "input_tokens": 4497,
+    "output_tokens": 2274
   },
   "skipped": {
-    "본문없음": 3,
+    "본문없음": 4,
     "응답누락": [],
     "호출실패": []
   },
   "verdicts": {
+    "sk하이닉스배당락주의보다음달29일배당지급이런국장저런주식": {
+      "title": "SK하이닉스 배당락 주의보…다음달 29일 배당 지급 [이런국장 저런주식]",
+      "holding": "SK하이닉스",
+      "stance": "약한 호재",
+      "summary": "SK하이닉스가 역대급 실적과 일본 키옥시아 투자 수익을 반영해 총 14조 원 규모의 배당을 결정했다. 배당 기준일은 11월 30일이며 다음 달 29일에 지급될 예정이나, 배당락일인 27일에는 권리 획득 후 매물 출회로 주가가 약세를 보였다.",
+      "impact": "대규모 배당금 지급은 주주환원 강화 측면에서 긍정적이나, 단기적으로는 배당락에 따른 매물 출회로 주가 하락 압력으로 작용했다.",
+      "caution": "단기적 주가 하락은 배당락에 따른 일시적 현상일 수 있다."
+    },
+    "삼성전자오늘역대최대30조원배당이재용회장4488억원받는다": {
+      "title": "삼성전자, 오늘 역대 최대 30조원 배당…이재용 회장 4488억원 받는다",
+      "holding": "삼성전자",
+      "stance": "중립",
+      "summary": "삼성전자가 27일 보통주와 우선주 1주당 4601원씩 총 30조 30억원의 역대 최대 배당금을 지급했다. 시장은 향후 남은 55~75조원 상당의 잔여 주주환원 및 자사주 매입·소각 계획이 2027년 1월말 이사회에서 최종 확정될 것에 주목하고 있다.",
+      "impact": "본 기사는 삼성전자에 관한 내용으로 보유 종목(SK하이닉스)과 직접적인 관련이 없다.",
+      "caution": "기사의 대상 기업이 보유 종목인 SK하이닉스가 아니라 삼성전자이다."
+    },
+    "hd현대정기선수주목표96순항생산거점으로추격대응": {
+      "title": "HD현대 정기선號, 수주 목표 96% 순항…美 생산거점으로 中 추격 대응",
+      "holding": "HD현대중공업",
+      "stance": "중립",
+      "summary": "HD현대 조선 부문이 연간 수주 목표의 96%를 달성하고 수주잔고도 전년 대비 7% 증가했다고 27일 밝혔다. HD현대는 내년 미국 조선 합작법인 착공 및 중국 엔진 서비스 강화 등을 추진하고 있다.",
+      "impact": "본 기사는 HD현대중공업(또는 HD한국조선해양)에 관한 내용으로 보유 종목(SK하이닉스)과 직접적인 관련이 없다.",
+      "caution": "기사의 대상 기업이 보유 종목인 SK하이닉스가 아니라 HD현대이다."
+    },
+    "delltechnologiesraisesfiscal2027guidanceafterrecordrevenue": {
+      "title": "Dell Technologies raises fiscal 2027 guidance after record revenue",
+      "holding": "델",
+      "stance": "중립",
+      "summary": "델 테크놀로지스(Dell Technologies)는 2027 회계연도 3분기 매출이 549억 4000만 달러로 전년 동기 대비 103% 증가했다고 밝혔다. AI 서버 수요 증가에 힘입어 연간 매출 전망치도 기존 192억 달러에서 202억 달러로 상향 조정했다.",
+      "impact": "본 기사는 델 테크놀로지스에 관한 내용으로 보유 종목(SK하이닉스)과 직접적인 관련이 없다.",
+      "caution": "기사의 대상 기업이 보유 종목인 SK하이닉스가 아니라 델이다."
+    },
+    "howisfirstsolarnasdaqfslrreshapingamericansolarmanufacturing": {
+      "title": "How Is First Solar (NASDAQ:FSLR) Reshaping American Solar Manufacturing?",
+      "holding": "퍼스트솔라",
+      "stance": "중립",
+      "summary": "퍼스트솔라(First Solar, FSLR)는 미국 태양광 제조 부문을 재편하고 있으며, 내년 중순경 완료될 예정인 2단계 확장으로 연간 생산 능력이 두 배로 늘어날 예정이다.",
+      "impact": "본 기사는 퍼스트솔라에 관한 내용으로 보유 종목(SK하이닉스)과 직접적인 관련이 없다.",
+      "caution": "기사의 대상 기업이 보유 종목인 SK하이닉스가 아니라 퍼스트솔라이다."
+    },
+    "neeorcegwhichcleanenergystockisbetterpositionedforgrowth": {
+      "title": "NEE or CEG: Which Clean Energy Stock Is Better Positioned for Growth?",
+      "holding": "컨스텔레이션 에너지",
+      "stance": "중립",
+      "summary": "미국 전력 유틸리티 산업은 안정적인 규제 비용 회수 메커니즘과 일정한 전력 수요를 바탕으로 투자 매력을 지니고 있다. 넥스트에라 에너지(NEE)와 컨스텔레이션 에너지(CEG)는 청정에너지 전환 과정에서 수혜를 입는 주요 기업으로 꼽힌다.",
+      "impact": "본 기사는 컨스텔레이션 에너지를 비롯한 미국 유틸리티 기업들에 관한 내용으로 보유 종목(SK하이닉스)과 직접적인 관련이 없다.",
+      "caution": "기사의 대상 기업이 보유 종목인 SK하이닉스가 아니라 컨스텔레이션 에너지이다."
+    },
+    "almontyssangdongrampuphingesonasparefilterpressnotacalendardate": {
+      "title": "Almonty's Sangdong Ramp-Up Hinges on a Spare Filter Press, Not a Calendar Date",
+      "holding": "알먼티",
+      "stance": "중립",
+      "summary": "알먼티(Almonty)의 상동 광산은 텅스텐 정광 생산을 성공적으로 입증했으나 중단 없는 연속 가동이 과제로 남아 있다. 루이스 블랙 CEO는 수처리 시설의 병목 현상을 지적하며 11월 29일까지 교체용 필터 프레스를 설치하고 월말까지 24시간 가동을 목표로 하고 있다고 밝혔다.",
+      "impact": "본 기사는 알먼티에 관한 내용으로 보유 종목(SK하이닉스)과 직접적인 관련이 없다.",
+      "caution": "기사의 대상 기업이 보유 종목인 SK하이닉스가 아니라 알먼티이다."
+    },
+    "credotechnologygroupholdingltdcrdooptionschainyahoofinance": {
+      "title": "Credo Technology Group Holding Ltd (CRDO) Options Chain - Yahoo Finance",
+      "holding": "크레도 테크놀로지",
+      "stance": "중립",
+      "summary": "크레도 테크놀로지(Credo Technology Group Holding Ltd, CRDO)의 야후 파이낸스 옵션 체인 페이지에 대한 기본 정보와 옵션 비교를 제공하고 있다.",
+      "impact": "본 기사는 광고 또는 사이트 안내문으로 실제 기사 내용이 없어 보유 종목(SK하이닉스)에 영향을 주지 않는다.",
+      "caution": "본문이 광고·사이트 안내문만 있고 기사 내용이 없다."
+    },
+    "ciscobeatsandliftsfy27viewasairevenuefromhyperscalerssettomorethandouble": {
+      "title": "Cisco beats and lifts FY27 view as AI revenue from hyperscalers set to more than double",
+      "holding": "시스코 시스템즈",
+      "stance": "호재",
+      "summary": "시스코 시스템즈는 회계연도 1분기 조정 주당순이익(EPS)이 1.40달러로 예상치 1.33달러를 상회했으며, 하이퍼스케일러들의 AI 네트워킹 수요 급증에 힘입어 회계연도 27년 가이던스를 상향 조정했다. AI 인프라 관련 매출이 두 배 이상 증가할 것으로 예상되며 대형 클라우드 고객의 자본적 지출(capex)이 반도체뿐만 아니라 네트워킹으로도 흐르고 있음을 보여준다.",
+      "impact": "AI 네트워킹 부문의 강력한 실적 호조와 향후 실적 전망 상향은 시스코의 기업 가치 재평가와 주가 상승에 직접적인 호재로 작용한다.",
+      "caution": "소수의 대형 클라우드 고객에 의존하고 있어 향후 클라우드 지출 계획이 축소될 경우 실적에 타격을 입을 수 있다."
+    },
+    "after60missilefmsdealandtasltieuplockheedmartineyes5thgenjavelincodevelopmentinindia": {
+      "title": "After 60-Missile FMS Deal and TASL Tie-Up, Lockheed Martin Eyes 5th-Gen Javelin Co-Development in India",
+      "holding": "록히드마틴",
+      "stance": "호재",
+      "summary": "미국 방산 기업 록히드마틴은 인도 육군과 약 292크로어 규모의 FGM-148 재블린 미사일 60기 공급 계약을 체결했으며, 타타 어드밴스드 시스템즈(TASL)와 업무협약을 맺었다. 이어 인도 보병 부대에 맞춤화된 5세대 대전차유도미사일(ATGM)의 공동 개발을 제안하며 인도 시장에서의 입지를 확대하고 있다.",
+      "impact": "인도와의 대규모 방산 계약 및 현지 합작 법인과의 협력 강화는 록히드마틴의 해외 매출 다변화와 장기적 성장 동력 확보에 긍정적이다.",
+      "caution": "제안 단계인 공동 개발 건은 향후 구체적인 계약 체결 여부를 지켜봐야 한다."
+    },
+    "forgetwalmartnikehasmoretolosefromvietnamsproposedtariffofupto35": {
+      "title": "Forget Walmart: Nike Has More to Lose From Vietnam’s Proposed Tariff of Up to 35%",
+      "holding": "나이키 B",
+      "stance": "약한 악재",
+      "summary": "미국 정부가 베트남산 제품에 대해 협상 시 20%, 미협상 시 최대 35%의 관세를 부과하는 방안을 제안했다. 나이키는 2026 회계연도 기준 브랜드 신발의 약 95%를 베트남, 인도네시아, 중국에서 생산하고 있어 관세 인상에 따른 비용 부담이 크다.",
+      "impact": "나이키는 얇은 마진 구조를 가지고 있어 생산 국가들의 관세 인상분을 흡수하기 어렵고 수익성 악화 우려가 제기된다.",
+      "caution": "애널리스트들은 여전히 2028 회계연도 성장을 예상하고 있으며 실제 관세 확정 및 협상 결과에 따라 영향이 달라질 수 있다."
+    },
+    "novonordiskwinsfdanodforsogroyainturnersyndromeascagrisemadataandbuybackprogramadvan": {
+      "title": "Novo Nordisk Wins FDA Nod for Sogroya in Turner Syndrome as CagriSema Data and Buyback Program Advan",
+      "holding": "노보노디스크 ADR",
+      "stance": "약한 호재",
+      "summary": "노보 노디스크의 주 1회 투여 치료제 소그로야(Sogroya)가 11월 20일 터너 증후군 성장 장애를 겪는 2세 이상 소아 환자를 대상으로 미국 FDA 승인을 받았다. 또한 유럽연합 집행위원회로부터 혈우병 A 치료제 프레헴고(Frehemgo) 승인을 받는 등 파이프라인 규제 허가를 이어가고 있다.",
+      "impact": "신규 적응증 승인과 파이프라인 확대는 노보 노디스크의 중장기 포트폴리오 다변화와 매출 성장에 기여한다.",
+      "caution": "FDA 승인 소식에도 불구하고 주가가 Tradegate 거래에서 1.4% 하락하는 등 단기 시장 반응은 제한적이었다."
+    },
     "증시뒷심에코스피도반등sk하이닉스39": {
       "title": "美증시 뒷심에 코스피도 '반등'...SK하이닉스 3.9%↑",
       "holding": "SK하이닉스",
